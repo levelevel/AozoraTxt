@@ -132,7 +132,7 @@ TxtIsNPD(){
 }
 
 GetFilenameIllegal(){
-	find $TARGET_ROOT -name "[0-9]*.txt" | 
+	( cd $TARGET_ROOT; find . -name "[0-9]*.txt" ) | 
 	grep "[^a-z0-9_/.&'+=\-]" > $FILENAME_ILLEGAL
 	#grep "[^a-zA-Z0-9_/.&'+=\-]" > $FILENAME_ILLEGAL
 }

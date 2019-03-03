@@ -41,7 +41,7 @@ echo "#Extract Aozora Bunko Text Files"
 echo "#Working folder: `pwd`"
 echo "#Source: $AOZORA_ROOT"
 echo "#Target: $TARGET_ROOT"
-echo "Date: $start_time"
+echo "#Date: $start_time"
 
 echo "#Git pull"
 if [ ! -e "$GIT" ]; then GIT="git"; fi

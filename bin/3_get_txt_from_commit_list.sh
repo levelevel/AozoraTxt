@@ -52,7 +52,7 @@ echo "#Working folder: `pwd`"
 echo "#Source: $AOZORA_ROOT"
 echo "#Target: $TARGET_ROOT"
 echo "#Commit List: $COMMIT_LST ($commit_total)"
-echo "Date: $start_time"
+echo "#Date: $start_time"
 
 text_count=0
 accept_count=0
