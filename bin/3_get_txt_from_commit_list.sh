@@ -119,6 +119,7 @@ do
 	1)	;;
 	0)	let empty_count++
 		echo "   empty"
+		ls -l $TMP
 		continue;;
 	*)	let multi_count++
 		echo "   multi text"
@@ -136,12 +137,12 @@ do
 		echo ">> add $target_file"
 	elif [ "$cur_target_file" == "$target_file" ]; then
 		#同じファイル名の場合はタイムスタンプで新しいほうを優先
-		if [ "$cur_txt_file" -nt "$txt_file" ]; then
-			let reject_cnt++
-			echo "   reject (older) $txt_file"
-			ls -l "$cur_txt_file" "$txt_file" 
-			continue
-		fi
+		#if [ "$cur_txt_file" -nt "$txt_file" ]; then
+		#	let reject_cnt++
+		#	echo "   reject (older) $txt_file"
+		#	ls -l "$cur_txt_file" "$txt_file" 
+		#	continue
+		#fi
 		echo ">> update $target_file"
 		echo "update	$person_to/$target_file" >> $UPDATE_FILE
 	else 
@@ -175,9 +176,9 @@ do
 		echo ">> add $target_file_utf8"
 	elif [ "$cur_target_file_utf8" == "$target_file_utf8" ]; then
 		#同じファイル名の場合はタイムスタンプで新しいほうを優先
-		if [ "$cur_txt_file_utf8" -nt "$txt_file" ]; then
-			continue
-		fi
+		#if [ "$cur_txt_file_utf8" -nt "$person_to/$target_file" ]; then
+		#	continue
+		#fi
 		echo ">> update $target_file_utf8"
 	else 
 		#異なるファイル名の場合はプライオリティが高いほうを優先
@@ -188,8 +189,8 @@ do
 			continue
 		fi
 		"$GIT" -C $TARGET_ROOT mv \
-			"$git_person_to/$cur_target_file_utf8" \
-			"$git_person_to/$target_file_utf8" >> $GIT_LOG 2>&1
+			"$git_person_to_utf8/$cur_target_file_utf8" \
+			"$git_person_to_utf8/$target_file_utf8" >> $GIT_LOG 2>&1
 		if [ $? -eq 0 ]; then
 			let rename_count++
 			echo ">> git-mv $cur_target_file_utf8 $target_file_utf8"
@@ -199,12 +200,16 @@ do
 			echo ">> mv $cur_target_file_utf8 $target_file_utf8"
 		fi
 	fi
-	iconv -f CP932 -t utf8 "$person_to/$target_file" |
-	$GAIJI2UTF8  > "$person_to_utf8/$target_file_utf8"
+	$SJIS2UTF8 "$person_to/$target_file" |
+	$GAIJI2UTF8 > "$person_to_utf8/$target_file_utf8"
 	touch -r "$person_to/$target_file" "$person_to_utf8/$target_file_utf8"
 done < $COMMIT_LST
 
 rm -r $TMP $TMP_ZIP
+
+#不正なファイル名をリストアップする
+echo "#Creating $FILENAME_ILLEGAL"
+GetFilenameIllegal
 
 let COMMIT_NUM++
 echo "$COMMIT_NUM" > "$NUM_FILE"
