@@ -1,0 +1,63 @@
+AozoraTxt/log/get_txt_from_commit_list_201903022026_1.log
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_1.txt (15029)
+Date: Sat Mar  2 20:26:34 JST 2019
+
+
+===== 原因不明：手作業で追加
+2816/15029: 0828288bd1  cards/000118/files/616_ruby_1991.zip
+   empty
+nagatsukatakashi_kushu.txt
+
+
+===== 大文字：手作業で追加
+3817/15029: 0828288bd1  cards/000157/files/834_ruby.zip
+   empty
+TOUKOKU1.TXT
+
+
+===== zipファイル破損
+3490/15029: 0828288bd1  cards/000153/files/4098_ruby_7998.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+3817/15029: 0828288bd1	cards/000157/files/834_ruby.zip
+   empty
+
+commit_1.txt:0828288bd1 cards/000153/files/4098_ruby_7998.zip
+commit_2.txt:1ddb190077 cards/000153/files/4098_ruby_7998.zip
+
+
+===== zipファイル破損
+9211/15029: fe87b0e255  cards/000997/files/46893_ruby_59516.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:fe87b0e255 cards/000997/files/46893_ruby_59516.zip
+commit_2.txt:c0fe2f4be2 cards/000997/files/46893_ruby_59516.zip
+
+
+===== 不正文字：次の版で修正済み
+iconv: ./AozoraTxt/person/000301/1872_ruby_housouyawa.txt:685:168: cannot convert
+一、新字ノ頭ニ、※［＃「※」は「□冠」、168-4］アル者ハ、亜《ア》頭ノ語ナリ、他ノエ、イ、※［＃「※」は「□偏」、168-4］、ユ、モ埃《エ》伊《イ》阿《オ》兪《ユ》頭ノ語ニシテ、�＜Aル者ハ、匐《べ》以下ノ単字頭ト知ルベシ。
+EB81?
+
+../AozoraTxt/etc/commit_1.txt:0828288bd1        cards/000301/files/1872_ruby.zip
+../AozoraTxt/etc/commit_2.txt:0828288bd1        cards/000301/files/1872_ruby_3491.zip
+../AozoraTxt/etc/commit_3.txt:455c6f9bba        cards/000301/files/1872_ruby_3491.zip
+../AozoraTxt/etc/commit_4.txt:8ad687c0c3        cards/000301/files/1872_ruby_3491.zip
+
+
+===== 不正文字：修正なし
+iconv: ./AozoraTxt/person/000879/145_ruby_nijunengono_senso.txt:71:411: cannot convert
+兎こうしてゐる中に遙か右側の海上に艦影が二つ三つ見へ出した見ると仏国東洋艦隊それである三色旗の片々として翻へるのも見へる　艦員一同の肩は昂た血は沸た肉は躍た骨は鳴た　しかし此処で戦ふ訳には行かぬ我艦隊は至急帰航と云ふ任命をうけてゐる避けるだけ避けねばならぬ　否々決して逃れるのではない任務の為に避けるのである　［＃１字アキか改行か判然せず］我艦隊は全速力を以て○○○の方面に進だが敵も又全速力で我艦隊と同方向に進み�形をなして進だ
+
+../AozoraTxt/etc/commit_1.txt:0828288bd1        cards/000879/files/145_ruby_1288.zip
+
+

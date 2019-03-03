@@ -1,0 +1,2 @@
+./aozorabunko/cards/000025/files/kantou_syogo.zip
+./aozorabunko/cards/001154/files/chihobunkano_shinkensetsu.zip

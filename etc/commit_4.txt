@@ -1,0 +1,53 @@
+bbb834e078	cards/000035/files/1565_ruby_8220.zip	
+2cd0a52ee4	cards/000035/files/45668_ruby_20027.zip	
+2cd0a52ee4	cards/000035/files/45689_ruby_21352.zip	
+98939dbcf9	cards/000051/files/1452_ruby_16916.zip	
+432d801aff	cards/000051/files/4331_ruby_42047.zip	
+4261088f08	cards/000055/files/698_txt_60.zip	npd
+d31d63589f	cards/000055/files/56499_ruby_51286.zip	npd
+e4be1b619c	cards/000067/files/859_ruby_21655.zip	
+03492edf2b	cards/000074/files/427_ruby_19792.zip	
+996c7b06bb	cards/000076/files/1282_ruby_1855.zip	
+996c7b06bb	cards/000076/files/1284_ruby_13099.zip	
+996c7b06bb	cards/000076/files/1285_ruby_1814.zip	
+12fcf911c9	cards/000094/files/2523_ruby_19896.zip	
+6704eed92b	cards/000094/files/2526_ruby_17669.zip	
+1dd59af5f7	cards/000121/files/1754_ruby_5376.zip	
+717a4c758c	cards/000121/files/3040_ruby_4300.zip	
+dd5184f254	cards/000129/files/2058_ruby_19627.zip	
+e518cdb99f	cards/000148/files/789_ruby_5639.zip	
+b32f70e677	cards/000153/files/46947_ruby_32324.zip	
+19f669e7a2	cards/000165/files/2392_ruby_18.zip	
+82da1a20aa	cards/000168/files/3511_ruby_4087.zip	
+103e69e347	cards/000183/files/45301_ruby_39771.zip	
+df665e13ae	cards/000212/files/33229_ruby_19203.zip	
+48007cb3a8	cards/000218/files/1914_ruby_63481.zip	
+f8b5bc33e3	cards/000271/files/1556_ruby_1907.zip	
+fe3c4e361a	cards/000279/files/1704_ruby_6918.zip	
+f3bf34088c	cards/000290/files/1800_ruby_9298.zip	
+80f3606093	cards/000296/files/47061_ruby_28378.zip	
+8ad687c0c3	cards/000301/files/1872_ruby_3491.zip	
+4a0c2e8d26	cards/000311/files/46235_ruby_37805.zip	
+899cd39790	cards/000363/files/42286_ruby_36920.zip	
+93d21693e3	cards/000448/files/46449_ruby_24267.zip	
+d888313454	cards/000810/files/50686_ruby_42715.zip	
+faa7f70aa3	cards/000924/files/49192_ruby_39847.zip	
+fd61c99f43	cards/001054/files/18371_ruby_34702.zip	
+06ba28a3b4	cards/001095/files/43219_ruby_23303.zip	
+6486eb5021	cards/001095/files/45815_ruby_38247.zip	
+51dd76aa19	cards/001097/files/43790_ruby_20882.zip	
+ff6f0ed86c	cards/001120/files/42767_ruby_15339.zip	
+d3f2a51e50	cards/001154/files/44709_ruby_38253.zip	
+a19218d5f7	cards/001234/files/46340_ruby_24806.zip	
+336282b211	cards/001373/files/55979_ruby_50386.zip	
+336282b211	cards/001373/files/55980_ruby_50555.zip	
+287a89d72d	cards/001383/files/56698_ruby_59448.zip	
+98cba86cc1	cards/001393/files/57320_ruby_57182.zip	npd
+a12c53873c	cards/001421/files/50422_ruby_43515.zip	
+c6af8dd052	cards/001430/files/50346_ruby_39142.zip	
+54a7a60ddf	cards/001475/files/52121_ruby_47064.zip	
+1e4c07873e	cards/001475/files/52964_ruby_46821.zip	
+6e591f16d3	cards/001699/files/57254_ruby_57740.zip	npd
+6858264966	cards/001699/files/57255_ruby_57669.zip	npd
+713c25f8bb	cards/001699/files/57342_ruby_57667.zip	npd
+2b4edf6f96	cards/001699/files/57858_ruby_59671.zip	npd

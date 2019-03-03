@@ -1,0 +1,5 @@
+c3757002fb	cards/000035/files/1565_ruby_8220.zip	
+e7b892c05c	cards/000129/files/2058_ruby_19627.zip	
+82f5cf9e03	cards/000148/files/789_ruby_5639.zip	
+5403c4fc08	cards/000363/files/42286_ruby_36920.zip	
+7f204a84ee	cards/001699/files/57342_ruby_57667.zip	npd

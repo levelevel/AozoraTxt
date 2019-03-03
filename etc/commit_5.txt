@@ -1,0 +1,14 @@
+14fea45d8d	cards/000035/files/1565_ruby_8220.zip	
+13175101f7	cards/000076/files/1282_ruby_1855.zip	
+9f68c7c8ff	cards/000129/files/2058_ruby_19627.zip	
+eeddc5838c	cards/000148/files/789_ruby_5639.zip	
+9d977dd6af	cards/000271/files/1556_ruby_1907.zip	
+a0bcb49b06	cards/000279/files/1704_ruby_6918.zip	
+a63a6279e3	cards/000296/files/47061_ruby_28378.zip	
+198847566e	cards/000363/files/42286_ruby_36920.zip	
+e284b69b22	cards/000810/files/50686_ruby_42715.zip	
+a57d76e5a4	cards/001383/files/56698_ruby_59448.zip	
+722bb73379	cards/001430/files/50346_ruby_39142.zip	
+d8c0c40548	cards/001699/files/57254_ruby_57740.zip	npd
+78d76c07ef	cards/001699/files/57255_ruby_57669.zip	npd
+78f30f4e55	cards/001699/files/57342_ruby_57667.zip	npd

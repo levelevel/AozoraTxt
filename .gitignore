@@ -1,0 +1,6 @@
+/log_*
+/tmp
+/debug
+tmp/
+*.bak
+.vscode
