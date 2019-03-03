@@ -41,6 +41,6 @@ do
 		last_txt_id="$txt_id"
 		last_txt_file="$txt_file"
 	done < <(find $person_dir -name "*.txt"|sort)
-done < <(find $TARGET_ROOT/person/ -type d -name "$PERSON_PATTERN")
+done < <(find $TARGET_ROOT/person*/ -type d -name "$PERSON_PATTERN")
 
 echo "Dup count:$dup_cnt"

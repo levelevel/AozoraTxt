@@ -1,7 +1,7 @@
 ベートーヴェンの生涯
 VIE DE BEETHOVEN
 ベートーヴェンの手紙
-ロマン・ロラン　Romain Rolland
+ルートヴィヒ・ヴァン・ベートーヴェン　Ludwig van Beethoven、フランツ・ゲルハルト・ヴェーゲラー　Franz Gerhard Wegeler、エレオノーレ・フォン・ブロイニング　Eleonore von Breuning、ロマン・ロラン　Romain Rolland
 片山敏彦訳
 
 -------------------------------------------------------
@@ -133,5 +133,6 @@ http://www.aozora.gr.jp/accent_separation.html
 入力：門田裕志
 校正：仙酔ゑびす
 2012年4月15日作成
+2012年5月16日修正
 青空文庫作成ファイル：
 このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。

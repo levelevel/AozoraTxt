@@ -1,3 +1,96 @@
+======================================================================
+AozoraTxt/log/get_txt_from_commit_list_*_2.log
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_2.txt (2022)
+Date: Sun Mar  3 16:13:57 JST 2019
+
+===== rubyとtxt同時登録のtxt版：全部rejectでOK
+   reject (low priority) 233_txt_danmark.txt(3) < 233_ruby_danmark_ruby.txt(5)
+   reject (low priority) 1752_txt_bungeisakuhin.txt(3) < 1752_ruby_bungeisakuhin.txt(5)
+   reject (low priority) 468_txt_saikachibuchi.txt(3) < 468_ruby_saikachibuchi_ruby.txt(5)
+   reject (low priority) 733_txt_semibastialism.txt(3) < 733_ruby_semibastialism_ruby.txt(5)
+   reject (low priority) 2259_txt_kaityouonn.txt(3) < 2259_ruby_kaichoon.txt(5)
+   reject (low priority) 3910_txt_korekara_kakimasu.txt(3) < 3910_ruby_korekara.txt(5)
+   reject (low priority) 668_txt_oitachi.txt(3) < 668_ruby_oitachi_ruby.txt(5)
+   reject (low priority) 51391_txt_006bunkyu_gannen_jugatsu.txt(3) < 51391_ruby_006bunkyu_gannen_jugatsu.txt(5)
+   reject (low priority) 825_txt_teikoku.txt(3) < 825_ruby_teikoku_ruby.txt(5)
+
+
+===== Rev2でtxtファイル漏れ
+11/2022: 41eb4ae726     cards/000019/files/42383_ruby_19889.zip
+   empty
+total 108
+-rwxrwxr-x+ 1 level level 23116 Jan 18  2006 fig42383_01.png
+-rwxrwxr-x+ 1 level level 49292 Jan 18  2006 fig42383_02.png
+-rwxrwxr-x+ 1 level level 32485 Jan 18  2006 fig42383_03.png
+
+commit_1.txt:0828288bd1 cards/000019/files/42383_ruby_19889.zip
+commit_2.txt:41eb4ae726 cards/000019/files/42383_ruby_19889.zip
+commit_3.txt:7f665baaa9 cards/000019/files/42383_ruby_19889.zip
+
+
+===== ファイル破損？　Rev3は正常
+1051/2022: 8ad687c0c3   cards/000726/files/45988_ruby_27536.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:0828288bd1 cards/000726/files/45988_ruby_27536.zip
+commit_2.txt:8ad687c0c3 cards/000726/files/45988_ruby_27536.zip
+commit_3.txt:47c64adaeb cards/000726/files/45988_ruby_27536.zip
+
+
+===== ファイル破損？　Rev3は正常
+1386/2022: 2bc241b833   cards/001095/files/42917_ruby_24768.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:0828288bd1 cards/001095/files/42917_ruby_24768.zip
+commit_2.txt:2bc241b833 cards/001095/files/42917_ruby_24768.zip
+commit_3.txt:b445430739 cards/001095/files/42917_ruby_24768.zip
+
+
+===== ファイル破損？　Rev4は正常
+1437/2022: 773237ec78   cards/001095/files/45815_ruby_38247.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:0828288bd1 cards/001095/files/45815_ruby_38247.zip
+commit_2.txt:773237ec78 cards/001095/files/45815_ruby_38247.zip
+commit_3.txt:1ddb190077 cards/001095/files/45815_ruby_38247.zip
+commit_4.txt:6486eb5021 cards/001095/files/45815_ruby_38247.zip
+
+
+===== ファイル破損？　Rev4は正常
+1555/2022: 8fc0bbe98a   cards/001154/files/44709_ruby_38253.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:0828288bd1 cards/001154/files/44709_ruby_38253.zip
+commit_2.txt:8fc0bbe98a cards/001154/files/44709_ruby_38253.zip
+commit_3.txt:1ddb190077 cards/001154/files/44709_ruby_38253.zip
+commit_4.txt:d3f2a51e50 cards/001154/files/44709_ruby_38253.zip
+
+
+===== ファイル破損？　Rev3は正常
+1858/2022: dd5184f254   cards/001581/files/55186_ruby_51747.zip
+ERROR: .\xxx.zip
+.\xxx.zip
+Open ERROR: Can not open the file as [zip] archive
+
+commit_1.txt:0dfbe4818a cards/001581/files/55186_ruby_51747.zip
+commit_2.txt:dd5184f254 cards/001581/files/55186_ruby_51747.zip
+commit_3.txt:2f852f25ef cards/001581/files/55186_ruby_51747.zip
+
+
+======================================================================
 AozoraTxt/log/get_txt_from_commit_list_201903022026_1.log
 ======================================================================
 #Extract Aozora Bunko Text Files

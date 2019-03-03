@@ -231,7 +231,7 @@ Nay!--quick--the proof to prove me to the quick!’”
 　Presently the ushers brought in a young and pretty girl, who seemed in the greatest distress, and begged for help.  The King desired her to be calm and to tell her story.  She said she came on behalf of a lady who was besieged in her own castle by a knight of great prowess, and, having no one to defend her, she had sent to King Arthur for help.
 （譯）忽ちに、取次ぎのもの［＃「取次ぎのもの」に傍線］（ushers）若かい美くしい少女を伴ひ來たが、少女は痛く憂苦の有樣であつて助けを王に求めたのである。王は少女に、心靜めて［＃「心靜めて」に傍線］（to be calm）仔細を語れと［＃「語れと」に傍線］（to tell her story）望まれた。（問はれて）少女は、其の來れるは、さる貴族の姫の爲めなるが［＃「來れるは、さる貴族の姫の爲めなるが」に傍線］（came on behalf of a lady）、其姫は或る不敵の［＃「不敵の」に傍線］（of great prowess）士の爲めに己が居城で取り籠められ、姫の身を防ぐものなかりし故、使ひを以てアーサー王に助けを乞はしめた次第であると物語つた。
 
-“What is the lady's name?” said the King, “and who is the knight that besieges her?”］
+“What is the lady's name?” said the King, “and who is the knight that besieges her?”
 　“That I may not tell you sire,” said she, and shut up her pretty lips with great decision.
 （譯）『其姫の名は何んと申す』と王は云つた、『してまた姫を取り籠めた士は何ものである』
 『陛下、それは申し上げ兼ねまする』と少女は云つて、必死の思ひで［＃「必死の思ひで」に傍線］（with great decision）花の唇を堅く閉ぢた［＃「花の唇を堅く閉ぢた」に傍線］（shut up her pretty lips）。
@@ -462,6 +462,7 @@ Nay!--quick--the proof to prove me to the quick!’”
 入力：林清俊
 校正：考奈花
 2011年3月8日作成
+2014年3月27日修正
 青空文庫作成ファイル：
 このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。
 
