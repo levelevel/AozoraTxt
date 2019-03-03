@@ -1,0 +1,26 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_6.txt (5)
+#Date: Sun Mar  3 19:19:22 JST 2019
+#Extracting
+1/5: c3757002fb	cards/000035/files/1565_ruby_8220.zip
+>> update 1565_ruby_shayo.txt
+>> update 1565_ruby_utf8_shayo.txt
+2/5: e7b892c05c	cards/000129/files/2058_ruby_19627.zip
+>> update 2058_ruby_shibue_chusai.txt
+>> update 2058_ruby_utf8_shibue_chusai.txt
+3/5: 82f5cf9e03	cards/000148/files/789_ruby_5639.zip
+>> update 789_ruby_wagahaiwa_nekodearu.txt
+>> update 789_ruby_utf8_wagahaiwa_nekodearu.txt
+4/5: 5403c4fc08	cards/000363/files/42286_ruby_36920.zip
+>> update 42286_ruby_karamazofuno_kyodai_01.txt
+>> update 42286_ruby_utf8_karamazofuno_kyodai_01.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29811 (Accepted:4/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  3 19:19:22 JST 2019
+End  : Sun Mar  3 19:19:36 JST 2019
