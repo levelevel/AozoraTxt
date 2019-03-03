@@ -4,9 +4,7 @@
 ./person/000183/52884_ruby_I am_not.txt
 ./person/000262/48068_ruby_chino_sakazuki .txt
 ./person/000608/51135_ruby_ken’ekito_nimotsu_kensa.txt
-./person/000997/46901_ruby_oboegaki .txt
 ./person/001154/43596_ruby_hakubutsushi _atogaki.txt
-./person/001263/50371_ruby_meijino_gojussen_ginka .txt
 ./person/001323/48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
 ./person/001475/51496_ruby_aoi_tamato_gin’irono_fue.txt
 ./person_utf8/000026/50255_txt_utf8_Me_Voila.txt
@@ -15,8 +13,6 @@
 ./person_utf8/000183/52884_ruby_utf8_I am_not.txt
 ./person_utf8/000262/48068_ruby_utf8_chino_sakazuki .txt
 ./person_utf8/000608/51135_ruby_utf8_ken’ekito_nimotsu_kensa.txt
-./person_utf8/000997/46901_ruby_utf8_oboegaki .txt
 ./person_utf8/001154/43596_ruby_utf8_hakubutsushi _atogaki.txt
-./person_utf8/001263/50371_ruby_utf8_meijino_gojussen_ginka .txt
 ./person_utf8/001323/48280_ruby_utf8_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
 ./person_utf8/001475/51496_ruby_utf8_aoi_tamato_gin’irono_fue.txt

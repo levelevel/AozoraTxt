@@ -1,0 +1,501 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar  3 19:28:38 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4240139de6..24c1c757ff  master     -> origin/master
+Updating 4240139de6..24c1c757ff
+Fast-forward
+ cards/000050/card33223.html                   |   2 +-
+ cards/000258/card50189.html                   |  16 +-
+ cards/000258/card50314.html                   |  20 +-
+ cards/000258/card52334.html                   |  16 +-
+ cards/000258/card52335.html                   |  16 +-
+ cards/000258/card52948.html                   |  16 +-
+ cards/000258/card52949.html                   |  16 +-
+ cards/000258/card52950.html                   |  16 +-
+ cards/000258/card52951.html                   |  28 +--
+ cards/000258/card55378.html                   |  16 +-
+ cards/000258/files/50189_34695.html           | 101 ++++++++++
+ cards/000258/files/50189_ruby_34696.zip       | Bin 0 -> 3979 bytes
+ cards/000258/files/50314_35074.html           |  95 +++++++++
+ cards/000258/files/50314_ruby_67453.zip       | Bin 0 -> 4357 bytes
+ cards/000258/files/52334_41382.html           | 119 +++++++++++
+ cards/000258/files/52334_ruby_41381.zip       | Bin 0 -> 8192 bytes
+ cards/000258/files/52335_41384.html           | 221 +++++++++++++++++++++
+ cards/000258/files/52335_ruby_41383.zip       | Bin 0 -> 15679 bytes
+ cards/000258/files/52948_42570.html           | 186 ++++++++++++++++++
+ cards/000258/files/52948_ruby_42571.zip       | Bin 0 -> 14009 bytes
+ cards/000258/files/52949_42575.html           |  78 ++++++++
+ cards/000258/files/52949_ruby_42574.zip       | Bin 0 -> 3250 bytes
+ cards/000258/files/52950_42573.html           |  78 ++++++++
+ cards/000258/files/52950_ruby_42572.zip       | Bin 0 -> 3398 bytes
+ cards/000258/files/52951_42569.html           |  87 ++++++++
+ cards/000258/files/52951_ruby_42568.zip       | Bin 0 -> 6868 bytes
+ cards/000258/files/55378_48350.html           | 153 +++++++++++++++
+ cards/000258/files/55378_ruby_48349.zip       | Bin 0 -> 14676 bytes
+ cards/000933/card58286.html                   | 234 ++++++++++++++++++++++
+ cards/000933/files/58286_67319.html           |  64 ++++++
+ cards/000933/files/58286_ruby_67370.zip       | Bin 0 -> 2635 bytes
+ cards/001395/card55094.html                   |   2 +-
+ cards/001492/card51194.html                   |  12 +-
+ cards/001492/files/51194_ruby_67442.zip       | Bin 0 -> 6404277 bytes
+ cards/001492/files/fig51194_01.png            | Bin 0 -> 30142 bytes
+ cards/001492/files/fig51194_02.png            | Bin 0 -> 40651 bytes
+ cards/001492/files/fig51194_03.png            | Bin 0 -> 107108 bytes
+ cards/001492/files/fig51194_04.png            | Bin 0 -> 67376 bytes
+ cards/001492/files/fig51194_05.png            | Bin 0 -> 16889 bytes
+ cards/001492/files/fig51194_06.png            | Bin 0 -> 136548 bytes
+ cards/001492/files/fig51194_07.png            | Bin 0 -> 46079 bytes
+ cards/001492/files/fig51194_08.png            | Bin 0 -> 94563 bytes
+ cards/001492/files/fig51194_09.png            | Bin 0 -> 158779 bytes
+ cards/001492/files/fig51194_10.png            | Bin 0 -> 56646 bytes
+ cards/001492/files/fig51194_11.png            | Bin 0 -> 51056 bytes
+ cards/001492/files/fig51194_12.png            | Bin 0 -> 48227 bytes
+ cards/001492/files/fig51194_13.png            | Bin 0 -> 71793 bytes
+ cards/001492/files/fig51194_14.png            | Bin 0 -> 95146 bytes
+ cards/001492/files/fig51194_15.png            | Bin 0 -> 32397 bytes
+ cards/001492/files/fig51194_16.png            | Bin 0 -> 117056 bytes
+ cards/001492/files/fig51194_17.png            | Bin 0 -> 112568 bytes
+ cards/001492/files/fig51194_18.png            | Bin 0 -> 111908 bytes
+ cards/001492/files/fig51194_19.png            | Bin 0 -> 151312 bytes
+ cards/001492/files/fig51194_20.png            | Bin 0 -> 100065 bytes
+ cards/001492/files/fig51194_21.png            | Bin 0 -> 201440 bytes
+ cards/001492/files/fig51194_22.png            | Bin 0 -> 183673 bytes
+ cards/001492/files/fig51194_23.png            | Bin 0 -> 175762 bytes
+ cards/001492/files/fig51194_24.png            | Bin 0 -> 104203 bytes
+ cards/001492/files/fig51194_25.png            | Bin 0 -> 38074 bytes
+ cards/001492/files/fig51194_26.png            | Bin 0 -> 73865 bytes
+ cards/001492/files/fig51194_27.png            | Bin 0 -> 82978 bytes
+ cards/001492/files/fig51194_28.png            | Bin 0 -> 29175 bytes
+ cards/001492/files/fig51194_29.png            | Bin 0 -> 162997 bytes
+ cards/001492/files/fig51194_30.png            | Bin 0 -> 84466 bytes
+ cards/001492/files/fig51194_31.png            | Bin 0 -> 204713 bytes
+ cards/001492/files/fig51194_32.png            | Bin 0 -> 78381 bytes
+ cards/001492/files/fig51194_33.png            | Bin 0 -> 146909 bytes
+ cards/001492/files/fig51194_34.png            | Bin 0 -> 159643 bytes
+ cards/001492/files/fig51194_35.png            | Bin 0 -> 193265 bytes
+ cards/001492/files/fig51194_36.png            | Bin 0 -> 103289 bytes
+ cards/001492/files/fig51194_37.png            | Bin 0 -> 29430 bytes
+ cards/001492/files/fig51194_38.png            | Bin 0 -> 43550 bytes
+ cards/001492/files/fig51194_39.png            | Bin 0 -> 62683 bytes
+ cards/001492/files/fig51194_40.png            | Bin 0 -> 36981 bytes
+ cards/001492/files/fig51194_41.png            | Bin 0 -> 121430 bytes
+ cards/001492/files/fig51194_42.png            | Bin 0 -> 161306 bytes
+ cards/001492/files/fig51194_43.png            | Bin 0 -> 63669 bytes
+ cards/001492/files/fig51194_44.png            | Bin 0 -> 102334 bytes
+ cards/001492/files/fig51194_45.png            | Bin 0 -> 82460 bytes
+ cards/001492/files/fig51194_46.png            | Bin 0 -> 40193 bytes
+ cards/001492/files/fig51194_47.png            | Bin 0 -> 97321 bytes
+ cards/001492/files/fig51194_48.png            | Bin 0 -> 39333 bytes
+ cards/001492/files/fig51194_49.png            | Bin 0 -> 97321 bytes
+ cards/001492/files/fig51194_50.png            | Bin 0 -> 78980 bytes
+ cards/001492/files/fig51194_51.png            | Bin 0 -> 38838 bytes
+ cards/001492/files/fig51194_52.png            | Bin 0 -> 79321 bytes
+ cards/001492/files/fig51194_53.png            | Bin 0 -> 146696 bytes
+ cards/001492/files/fig51194_54.png            | Bin 0 -> 69444 bytes
+ cards/001492/files/fig51194_55.png            | Bin 0 -> 63860 bytes
+ cards/001492/files/fig51194_56.png            | Bin 0 -> 74231 bytes
+ cards/001492/files/fig51194_57.png            | Bin 0 -> 66679 bytes
+ cards/001492/files/fig51194_58.png            | Bin 0 -> 71008 bytes
+ cards/001492/files/fig51194_59.png            | Bin 0 -> 76788 bytes
+ cards/001492/files/fig51194_60.png            | Bin 0 -> 52519 bytes
+ cards/001492/files/fig51194_61.png            | Bin 0 -> 65413 bytes
+ cards/001492/files/fig51194_62.png            | Bin 0 -> 62974 bytes
+ cards/001492/files/fig51194_63.png            | Bin 0 -> 89247 bytes
+ cards/001492/files/fig51194_64.png            | Bin 0 -> 104473 bytes
+ cards/001492/files/fig51194_65.png            | Bin 0 -> 97940 bytes
+ cards/001492/files/fig51194_66.png            | Bin 0 -> 97302 bytes
+ cards/001492/files/fig51194_67.png            | Bin 0 -> 94108 bytes
+ cards/001492/files/fig51194_68.png            | Bin 0 -> 79031 bytes
+ cards/001581/card58959.html                   | 234 ++++++++++++++++++++++
+ cards/001581/card58961.html                   | 234 ++++++++++++++++++++++
+ cards/001581/files/58959_67318.html           |  67 +++++++
+ cards/001581/files/58959_ruby_67369.zip       | Bin 0 -> 2364 bytes
+ cards/001581/files/58961_67320.html           |  63 ++++++
+ cards/001581/files/58961_txt_67371.zip        | Bin 0 -> 1622 bytes
+ cards/001607/card53836.html                   | 234 ++++++++++++++++++++++
+ cards/001607/card54505.html                   | 229 ++++++++++++++++++++++
+ cards/001607/card54547.html                   | 229 ++++++++++++++++++++++
+ cards/001607/files/53836_67316.html           |  67 +++++++
+ cards/001607/files/53836_txt_67367.zip        | Bin 0 -> 1352 bytes
+ cards/001607/files/54505_67315.html           |  73 +++++++
+ cards/001607/files/54505_ruby_67366.zip       | Bin 0 -> 1064 bytes
+ cards/001607/files/54547_67317.html           | 109 +++++++++++
+ cards/001607/files/54547_ruby_67368.zip       | Bin 0 -> 1845 bytes
+ cards/001763/card58577.html                   |   2 +-
+ cards/001763/card58578.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  14 +-
+ 313 files changed, 7504 insertions(+), 4533 deletions(-)
+Date: Sun Mar  3 19:29:29 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Jan 25 19:10 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 11213 Feb 23 09:46 ./aozorabunko/cards/000019/files/58849_ruby_66942.zip
+1/101: ./aozorabunko/cards/000019/files/58849_ruby_66942.zip
+>> add 58849_ruby_naichingeru.txt
+>> add 58849_ruby_utf8_naichingeru.txt
+-rwxrwx---+ 1 level level 10809 Feb  1 23:44 ./aozorabunko/cards/000023/files/55326_ruby_66902.zip
+2/101: ./aozorabunko/cards/000023/files/55326_ruby_66902.zip
+>> update 55326_ruby_kagono_kotori.txt
+>> update 55326_ruby_utf8_kagono_kotori.txt
+-rwxrwx---+ 1 level level 6963 Feb  1 23:44 ./aozorabunko/cards/000023/files/55380_ruby_66903.zip
+3/101: ./aozorabunko/cards/000023/files/55380_ruby_66903.zip
+>> update 55380_ruby_mizugiwano_ie.txt
+>> update 55380_ruby_utf8_mizugiwano_ie.txt
+-rwxrwx---+ 1 level level 1034 Feb  1 23:44 ./aozorabunko/cards/000026/files/55896_txt_66711.zip
+4/101: ./aozorabunko/cards/000026/files/55896_txt_66711.zip
+>> update 55896_txt_koino_kokai.txt
+>> update 55896_txt_utf8_koino_kokai.txt
+-rwxrwx---+ 1 level level 963 Feb  1 23:44 ./aozorabunko/cards/000026/files/55918_txt_66712.zip
+5/101: ./aozorabunko/cards/000026/files/55918_txt_66712.zip
+>> update 55918_txt_tensaiga_ichido_koio_suruto.txt
+>> update 55918_txt_utf8_tensaiga_ichido_koio_suruto.txt
+-rwxrwx---+ 1 level level 1022 Feb  1 23:44 ./aozorabunko/cards/000026/files/55921_txt_66710.zip
+6/101: ./aozorabunko/cards/000026/files/55921_txt_66710.zip
+>> update 55921_txt_fusendamano_shototsu.txt
+>> update 55921_txt_utf8_fusendamano_shototsu.txt
+   NPD: ./aozorabunko/cards/000051/files/59484_ruby_66446.zip
+-rwxrwx---+ 1 level level 202733 Feb 24 09:09 ./aozorabunko/cards/000129/files/2058_ruby_19627.zip
+8/101: ./aozorabunko/cards/000129/files/2058_ruby_19627.zip
+>> update 2058_ruby_shibue_chusai.txt
+>> update 2058_ruby_utf8_shibue_chusai.txt
+-rwxrwx---+ 1 level level 85127 Feb 10 10:10 ./aozorabunko/cards/000137/files/51868_ruby_60192.zip
+9/101: ./aozorabunko/cards/000137/files/51868_ruby_60192.zip
+>> update 51868_ruby_04homei_gobusaku_dankyo.txt
+>> update 51868_ruby_utf8_04homei_gobusaku_dankyo.txt
+-rwxrwx---+ 1 level level 5717 Feb  9 07:47 ./aozorabunko/cards/000148/files/55936_ruby_66914.zip
+10/101: ./aozorabunko/cards/000148/files/55936_ruby_66914.zip
+>> update 55936_ruby_kyoni_tsukeru_yube.txt
+>> update 55936_ruby_utf8_kyoni_tsukeru_yube.txt
+-rwxrwx---+ 1 level level 5183 Feb 11 10:03 ./aozorabunko/cards/000183/files/45301_ruby_39771.zip
+11/101: ./aozorabunko/cards/000183/files/45301_ruby_39771.zip
+>> update 45301_ruby_lamp_no_tayori.txt
+>> update 45301_ruby_utf8_lamp_no_tayori.txt
+-rwxrwx---+ 1 level level 17258 Feb 11 10:03 ./aozorabunko/cards/000183/files/45405_ruby_39781.zip
+12/101: ./aozorabunko/cards/000183/files/45405_ruby_39781.zip
+>> update 45405_ruby_yabuno_hotori.txt
+>> update 45405_ruby_utf8_yabuno_hotori.txt
+-rwxrwx---+ 1 level level 6748 Jan 28 23:49 ./aozorabunko/cards/000237/files/50026_ruby_66699.zip
+13/101: ./aozorabunko/cards/000237/files/50026_ruby_66699.zip
+>> update 50026_ruby_abukumagawa_suigenno_senkyo.txt
+>> update 50026_ruby_utf8_abukumagawa_suigenno_senkyo.txt
+-rwxrwx---+ 1 level level 5969 Jan 28 23:49 ./aozorabunko/cards/000255/files/47421_ruby_66707.zip
+14/101: ./aozorabunko/cards/000255/files/47421_ruby_66707.zip
+>> update 47421_ruby_sabakuno_uta.txt
+>> update 47421_ruby_utf8_sabakuno_uta.txt
+   NPD: ./aozorabunko/cards/000258/files/50189_ruby_34696.zip
+   NPD: ./aozorabunko/cards/000258/files/50314_ruby_67453.zip
+-rwxrwx---+ 1 level level 8184 Feb  6 21:39 ./aozorabunko/cards/000258/files/50327_ruby_35451.zip
+17/101: ./aozorabunko/cards/000258/files/50327_ruby_35451.zip
+>> update 50327_ruby_rokurokubi.txt
+>> update 50327_ruby_utf8_rokurokubi.txt
+   NPD: ./aozorabunko/cards/000258/files/52334_ruby_41381.zip
+   NPD: ./aozorabunko/cards/000258/files/52335_ruby_41383.zip
+   NPD: ./aozorabunko/cards/000258/files/52948_ruby_42571.zip
+   NPD: ./aozorabunko/cards/000258/files/52949_ruby_42574.zip
+   NPD: ./aozorabunko/cards/000258/files/52950_ruby_42572.zip
+   NPD: ./aozorabunko/cards/000258/files/52951_ruby_42568.zip
+   NPD: ./aozorabunko/cards/000258/files/55378_ruby_48349.zip
+-rwxrwx---+ 1 level level 2809 Feb 11 10:03 ./aozorabunko/cards/000305/files/50382_ruby_38322.zip
+25/101: ./aozorabunko/cards/000305/files/50382_ruby_38322.zip
+>> update 50382_ruby_kugatsu_juyokkano_asa.txt
+>> update 50382_ruby_utf8_kugatsu_juyokkano_asa.txt
+-rwxrwx---+ 1 level level 6243 Feb 13 20:51 ./aozorabunko/cards/000311/files/46255_ruby_66920.zip
+26/101: ./aozorabunko/cards/000311/files/46255_ruby_66920.zip
+>> update 46255_ruby_25nikki1941.txt
+>> update 46255_ruby_utf8_25nikki1941.txt
+-rwxrwx---+ 1 level level 77229 Feb 17 20:35 ./aozorabunko/cards/000360/files/50918_ruby_66929.zip
+27/101: ./aozorabunko/cards/000360/files/50918_ruby_66929.zip
+>> update 50918_ruby_miren.txt
+>> update 50918_ruby_utf8_miren.txt
+-rwxrwx---+ 1 level level 6364 Feb 24 09:09 ./aozorabunko/cards/000594/files/55240_ruby_66943.zip
+28/101: ./aozorabunko/cards/000594/files/55240_ruby_66943.zip
+>> add 55240_ruby_02fukio_kushu.txt
+>> add 55240_ruby_utf8_02fukio_kushu.txt
+-rwxrwx---+ 1 level level 3936 Feb 10 12:33 ./aozorabunko/cards/000608/files/51135_ruby_65180.zip
+29/101: ./aozorabunko/cards/000608/files/51135_ruby_65180.zip
+>> update 51135_ruby_ken’ekito_nimotsu_kensa.txt
+>> update 51135_ruby_utf8_ken’ekito_nimotsu_kensa.txt
+-rwxrwx---+ 1 level level 845 Feb  6 21:39 ./aozorabunko/cards/000723/files/54994_ruby_66911.zip
+30/101: ./aozorabunko/cards/000723/files/54994_ruby_66911.zip
+>> update 54994_ruby_hotoka.txt
+>> update 54994_ruby_utf8_hotoka.txt
+-rwxrwx---+ 1 level level 5015 Feb  1 23:44 ./aozorabunko/cards/000933/files/47701_ruby_66713.zip
+31/101: ./aozorabunko/cards/000933/files/47701_ruby_66713.zip
+>> update 47701_ruby_tazugane.txt
+>> update 47701_ruby_utf8_tazugane.txt
+-rwxrwx---+ 1 level level 3957 Feb 11 10:03 ./aozorabunko/cards/000933/files/47724_txt_66917.zip
+32/101: ./aozorabunko/cards/000933/files/47724_txt_66917.zip
+>> update 47724_txt_minzoku_geinono_haru.txt
+>> update 47724_txt_utf8_minzoku_geinono_haru.txt
+-rwxrwx---+ 1 level level 2071 Feb 23 09:46 ./aozorabunko/cards/000933/files/47805_ruby_66941.zip
+33/101: ./aozorabunko/cards/000933/files/47805_ruby_66941.zip
+>> add 47805_ruby_jitsuaku_yakushao_nozomu.txt
+>> add 47805_ruby_utf8_jitsuaku_yakushao_nozomu.txt
+-rwxrwx---+ 1 level level 2635 Mar  3 19:29 ./aozorabunko/cards/000933/files/58286_ruby_67370.zip
+34/101: ./aozorabunko/cards/000933/files/58286_ruby_67370.zip
+>> add 58286_ruby_hinamatsurito_ohigan.txt
+>> add 58286_ruby_utf8_hinamatsurito_ohigan.txt
+-rwxrwx---+ 1 level level 2428 Feb 25 21:26 ./aozorabunko/cards/000997/files/46901_ruby_39721.zip
+35/101: ./aozorabunko/cards/000997/files/46901_ruby_39721.zip
+>> git-mv 46901_ruby_oboegaki .txt 46901_ruby_oboegaki.txt
+>> git-mv 46901_ruby_utf8_oboegaki .txt 46901_ruby_utf8_oboegaki.txt
+-rwxrwx---+ 1 level level 2444 Feb 25 21:26 ./aozorabunko/cards/001059/files/57009_ruby_66945.zip
+36/101: ./aozorabunko/cards/001059/files/57009_ruby_66945.zip
+>> add 57009_ruby_tsuma.txt
+>> add 57009_ruby_utf8_tsuma.txt
+-rwxrwx---+ 1 level level 12252 Feb 10 10:10 ./aozorabunko/cards/001085/files/58705_ruby_66916.zip
+37/101: ./aozorabunko/cards/001085/files/58705_ruby_66916.zip
+>> update 58705_ruby_kokorono_yuku_tokoro.txt
+>> update 58705_ruby_utf8_kokorono_yuku_tokoro.txt
+-rwxrwx---+ 1 level level 8218 Jan 28 23:49 ./aozorabunko/cards/001085/files/58706_ruby_66708.zip
+38/101: ./aozorabunko/cards/001085/files/58706_ruby_66708.zip
+>> update 58706_ruby_takano_ido.txt
+>> update 58706_ruby_utf8_takano_ido.txt
+   NPD: ./aozorabunko/cards/001091/files/46344_txt_23171.zip
+-rwxrwx---+ 1 level level 9829 Feb 17 20:35 ./aozorabunko/cards/001095/files/57479_ruby_66931.zip
+40/101: ./aozorabunko/cards/001095/files/57479_ruby_66931.zip
+>> update 57479_ruby_kanzan.txt
+>> update 57479_ruby_utf8_kanzan.txt
+-rwxrwx---+ 1 level level 83803 Feb 22 21:39 ./aozorabunko/cards/001156/files/50723_ruby_66939.zip
+41/101: ./aozorabunko/cards/001156/files/50723_ruby_66939.zip
+>> add 50723_ruby_budo_batakeno_budo_zukuri.txt
+>> add 50723_ruby_utf8_budo_batakeno_budo_zukuri.txt
+-rwxrwx---+ 1 level level 9089 Feb 24 09:09 ./aozorabunko/cards/001263/files/50371_ruby_39708.zip
+42/101: ./aozorabunko/cards/001263/files/50371_ruby_39708.zip
+>> git-mv 50371_ruby_meijino_gojussen_ginka .txt 50371_ruby_meijino_gojussen_ginka.txt
+>> git-mv 50371_ruby_utf8_meijino_gojussen_ginka .txt 50371_ruby_utf8_meijino_gojussen_ginka.txt
+-rwxrwx---+ 1 level level 15414 Feb 15 21:57 ./aozorabunko/cards/001308/files/49291_ruby_66926.zip
+43/101: ./aozorabunko/cards/001308/files/49291_ruby_66926.zip
+>> update 49291_ruby_senso_zakki.txt
+>> update 49291_ruby_utf8_senso_zakki.txt
+-rwxrwx---+ 1 level level 4985 Feb 22 21:39 ./aozorabunko/cards/001310/files/55947_ruby_66940.zip
+44/101: ./aozorabunko/cards/001310/files/55947_ruby_66940.zip
+>> add 55947_ruby_yokoyama.txt
+>> add 55947_ruby_utf8_yokoyama.txt
+-rwxrwx---+ 1 level level 4964 Feb 10 12:36 ./aozorabunko/cards/001323/files/48280_ruby_60919.zip
+45/101: ./aozorabunko/cards/001323/files/48280_ruby_60919.zip
+>> update 48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
+>> update 48280_ruby_utf8_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
+-rwxrwx---+ 1 level level 2796 Feb 17 20:35 ./aozorabunko/cards/001341/files/58688_ruby_66930.zip
+46/101: ./aozorabunko/cards/001341/files/58688_ruby_66930.zip
+>> update 58688_ruby_ogai_kinenkanno_koto.txt
+>> update 58688_ruby_utf8_ogai_kinenkanno_koto.txt
+-rwxrwx---+ 1 level level 9952 Feb  2 09:47 ./aozorabunko/cards/001367/files/49436_txt_66904.zip
+47/101: ./aozorabunko/cards/001367/files/49436_txt_66904.zip
+>> update 49436_txt_nihon_shuppan_kyokai_ron.txt
+>> update 49436_txt_utf8_nihon_shuppan_kyokai_ron.txt
+-rwxrwx---+ 1 level level 32127 Feb 25 21:26 ./aozorabunko/cards/001383/files/56642_ruby_59574.zip
+48/101: ./aozorabunko/cards/001383/files/56642_ruby_59574.zip
+>> update 56642_ruby_in'ei_raisan.txt
+>> update 56642_ruby_utf8_in'ei_raisan.txt
+-rwxrwx---+ 1 level level 5638 Mar  1 21:19 ./aozorabunko/cards/001395/files/55094_txt_67364.zip
+49/101: ./aozorabunko/cards/001395/files/55094_txt_67364.zip
+>> add 55094_txt_hi_meiyo_kyojuno_ben.txt
+>> add 55094_txt_utf8_hi_meiyo_kyojuno_ben.txt
+-rwxrwx---+ 1 level level 1414 Feb 28 21:42 ./aozorabunko/cards/001398/files/53028_txt_66947.zip
+50/101: ./aozorabunko/cards/001398/files/53028_txt_66947.zip
+>> add 53028_txt_gisetsu.txt
+>> add 53028_txt_utf8_gisetsu.txt
+-rwxrwx---+ 1 level level 1902 Feb  9 07:47 ./aozorabunko/cards/001403/files/55059_ruby_66915.zip
+51/101: ./aozorabunko/cards/001403/files/55059_ruby_66915.zip
+>> update 55059_ruby_shun'okuno_shoni_tsuite.txt
+>> update 55059_ruby_utf8_shun'okuno_shoni_tsuite.txt
+-rwxrwx---+ 1 level level 6908 Feb 15 21:57 ./aozorabunko/cards/001429/files/58008_ruby_66923.zip
+52/101: ./aozorabunko/cards/001429/files/58008_ruby_66923.zip
+>> update 58008_ruby_galileo_galilei.txt
+>> update 58008_ruby_utf8_galileo_galilei.txt
+-rwxrwx---+ 1 level level 6857 Feb 12 21:17 ./aozorabunko/cards/001429/files/58020_ruby_66919.zip
+53/101: ./aozorabunko/cards/001429/files/58020_ruby_66919.zip
+>> update 58020_ruby_charles_darwin.txt
+>> update 58020_ruby_utf8_charles_darwin.txt
+-rwxrwx---+ 1 level level 6388 Jan 28 23:49 ./aozorabunko/cards/001429/files/58023_ruby_66702.zip
+54/101: ./aozorabunko/cards/001429/files/58023_ruby_66702.zip
+>> update 58023_ruby_robert_boyle.txt
+>> update 58023_ruby_utf8_robert_boyle.txt
+-rwxrwx---+ 1 level level 93895 Feb  8 19:32 ./aozorabunko/cards/001429/files/58049_ruby_66913.zip
+55/101: ./aozorabunko/cards/001429/files/58049_ruby_66913.zip
+>> update 58049_ruby_mendeleev.txt
+>> update 58049_ruby_utf8_mendeleev.txt
+-rwxrwx---+ 1 level level 6838 Feb 11 10:03 ./aozorabunko/cards/001429/files/58161_ruby_66918.zip
+56/101: ./aozorabunko/cards/001429/files/58161_ruby_66918.zip
+>> update 58161_ruby_thomas_edison.txt
+>> update 58161_ruby_utf8_thomas_edison.txt
+-rwxrwx---+ 1 level level 3120 Feb 10 21:18 ./aozorabunko/cards/001475/files/51496_ruby_63222.zip
+57/101: ./aozorabunko/cards/001475/files/51496_ruby_63222.zip
+>> update 51496_ruby_aoi_tamato_gin’irono_fue.txt
+>> update 51496_ruby_utf8_aoi_tamato_gin’irono_fue.txt
+-rwxrwx---+ 1 level level 4860 Feb  4 22:18 ./aozorabunko/cards/001475/files/51520_ruby_66906.zip
+58/101: ./aozorabunko/cards/001475/files/51520_ruby_66906.zip
+>> update 51520_ruby_katai_okina_te.txt
+>> update 51520_ruby_utf8_katai_okina_te.txt
+-rwxrwx---+ 1 level level 5093 Feb  4 22:18 ./aozorabunko/cards/001475/files/52970_ruby_66905.zip
+59/101: ./aozorabunko/cards/001475/files/52970_ruby_66905.zip
+>> update 52970_ruby_gakkino_seimei.txt
+>> update 52970_ruby_utf8_gakkino_seimei.txt
+   NPD: ./aozorabunko/cards/001492/files/51194_ruby_67442.zip
+-rwxrwx---+ 1 level level 785040 Feb 27 20:39 ./aozorabunko/cards/001562/files/56146_ruby_66665.zip
+61/101: ./aozorabunko/cards/001562/files/56146_ruby_66665.zip
+>> update 56146_ruby_shin_suikoden.txt
+>> update 56146_ruby_utf8_shin_suikoden.txt
+-rwxrwx---+ 1 level level 16290 Jan 28 23:49 ./aozorabunko/cards/001569/files/57261_ruby_66706.zip
+62/101: ./aozorabunko/cards/001569/files/57261_ruby_66706.zip
+>> update 57261_ruby_uchu_ryokono_kagaku.txt
+>> update 57261_ruby_utf8_uchu_ryokono_kagaku.txt
+-rwxrwx---+ 1 level level 14323 Jan 28 23:49 ./aozorabunko/cards/001569/files/57262_ruby_66705.zip
+63/101: ./aozorabunko/cards/001569/files/57262_ruby_66705.zip
+>> update 57262_ruby_kagakuto_kokkyo.txt
+>> update 57262_ruby_utf8_kagakuto_kokkyo.txt
+-rwxrwx---+ 1 level level 2163 Feb  1 23:44 ./aozorabunko/cards/001579/files/56560_txt_66676.zip
+64/101: ./aozorabunko/cards/001579/files/56560_txt_66676.zip
+>> update 56560_txt_01seipurizumisutoni_atau.txt
+>> update 56560_txt_utf8_01seipurizumisutoni_atau.txt
+-rwxrwx---+ 1 level level 2364 Mar  3 19:29 ./aozorabunko/cards/001581/files/58959_ruby_67369.zip
+65/101: ./aozorabunko/cards/001581/files/58959_ruby_67369.zip
+>> add 58959_ruby_atarashikumo_naranu_jinsei.txt
+>> add 58959_ruby_utf8_atarashikumo_naranu_jinsei.txt
+-rwxrwx---+ 1 level level 1622 Mar  3 19:29 ./aozorabunko/cards/001581/files/58961_txt_67371.zip
+66/101: ./aozorabunko/cards/001581/files/58961_txt_67371.zip
+>> add 58961_txt_kaiso.txt
+>> add 58961_txt_utf8_kaiso.txt
+   NPD: ./aozorabunko/cards/001591/files/53534_ruby_67438.zip
+-rwxrwx---+ 1 level level 1352 Mar  3 19:29 ./aozorabunko/cards/001607/files/53836_txt_67367.zip
+68/101: ./aozorabunko/cards/001607/files/53836_txt_67367.zip
+>> add 53836_txt_yuno_fu.txt
+>> add 53836_txt_utf8_yuno_fu.txt
+-rwxrwx---+ 1 level level 1064 Mar  3 19:29 ./aozorabunko/cards/001607/files/54505_ruby_67366.zip
+69/101: ./aozorabunko/cards/001607/files/54505_ruby_67366.zip
+>> add 54505_ruby_netami.txt
+>> add 54505_ruby_utf8_netami.txt
+-rwxrwx---+ 1 level level 1845 Mar  3 19:29 ./aozorabunko/cards/001607/files/54547_ruby_67368.zip
+70/101: ./aozorabunko/cards/001607/files/54547_ruby_67368.zip
+>> add 54547_ruby_wananaki.txt
+>> add 54547_ruby_utf8_wananaki.txt
+-rwxrwx---+ 1 level level 1167 Jan 28 23:49 ./aozorabunko/cards/001637/files/58801_ruby_66701.zip
+71/101: ./aozorabunko/cards/001637/files/58801_ruby_66701.zip
+>> update 58801_ruby_tochude.txt
+>> update 58801_ruby_utf8_tochude.txt
+-rwxrwx---+ 1 level level 1338 Jan 28 23:49 ./aozorabunko/cards/001637/files/58803_txt_66700.zip
+72/101: ./aozorabunko/cards/001637/files/58803_txt_66700.zip
+>> update 58803_txt_hoko.txt
+>> update 58803_txt_utf8_hoko.txt
+-rwxrwx---+ 1 level level 911 Feb 22 21:39 ./aozorabunko/cards/001652/files/54258_ruby_66938.zip
+73/101: ./aozorabunko/cards/001652/files/54258_ruby_66938.zip
+>> add 54258_ruby_gyoson.txt
+>> add 54258_ruby_utf8_gyoson.txt
+-rwxrwx---+ 1 level level 928 Feb 22 21:39 ./aozorabunko/cards/001652/files/54388_ruby_66937.zip
+74/101: ./aozorabunko/cards/001652/files/54388_ruby_66937.zip
+>> add 54388_ruby_mizoreno_naka.txt
+>> add 54388_ruby_utf8_mizoreno_naka.txt
+-rwxrwx---+ 1 level level 15571 Feb  1 23:44 ./aozorabunko/cards/001670/files/56298_ruby_66709.zip
+75/101: ./aozorabunko/cards/001670/files/56298_ruby_66709.zip
+>> update 56298_ruby_077hachigorono_koi.txt
+>> update 56298_ruby_utf8_077hachigorono_koi.txt
+-rwxrwx---+ 1 level level 18114 Feb 27 20:39 ./aozorabunko/cards/001670/files/56307_ruby_66946.zip
+76/101: ./aozorabunko/cards/001670/files/56307_ruby_66946.zip
+>> add 56307_ruby_080torimono_jingi.txt
+>> add 56307_ruby_utf8_080torimono_jingi.txt
+-rwxrwx---+ 1 level level 15932 Feb 18 21:31 ./aozorabunko/cards/001670/files/56311_ruby_66933.zip
+77/101: ./aozorabunko/cards/001670/files/56311_ruby_66933.zip
+>> add 56311_ruby_079jushichino_musume.txt
+>> add 56311_ruby_utf8_079jushichino_musume.txt
+-rwxrwx---+ 1 level level 15338 Feb  7 20:15 ./aozorabunko/cards/001670/files/56316_ruby_66912.zip
+78/101: ./aozorabunko/cards/001670/files/56316_ruby_66912.zip
+>> update 56316_ruby_078jitteno_michi.txt
+>> update 56316_ruby_utf8_078jitteno_michi.txt
+-rwxrwx---+ 1 level level 3091 Feb  6 21:39 ./aozorabunko/cards/001690/files/54996_txt_66909.zip
+79/101: ./aozorabunko/cards/001690/files/54996_txt_66909.zip
+>> update 54996_txt_haga_senseito_nihonshugi.txt
+>> update 54996_txt_utf8_haga_senseito_nihonshugi.txt
+   NPD: ./aozorabunko/cards/001721/files/55278_txt_67440.zip
+-rwxrwx---+ 1 level level 1210 Feb 17 20:35 ./aozorabunko/cards/001749/files/54139_ruby_66932.zip
+81/101: ./aozorabunko/cards/001749/files/54139_ruby_66932.zip
+>> update 54139_ruby_umiyo.txt
+>> update 54139_ruby_utf8_umiyo.txt
+-rwxrwx---+ 1 level level 640 Jan 28 23:49 ./aozorabunko/cards/001749/files/58608_txt_66703.zip
+82/101: ./aozorabunko/cards/001749/files/58608_txt_66703.zip
+>> update 58608_txt_sanshokuki.txt
+>> update 58608_txt_utf8_sanshokuki.txt
+-rwxrwx---+ 1 level level 1417 Jan 28 23:49 ./aozorabunko/cards/001749/files/58750_ruby_66704.zip
+83/101: ./aozorabunko/cards/001749/files/58750_ruby_66704.zip
+>> update 58750_ruby_shi_shisho.txt
+>> update 58750_ruby_utf8_shi_shisho.txt
+-rwxrwx---+ 1 level level 6361 Feb 19 22:01 ./aozorabunko/cards/001753/files/59027_ruby_66934.zip
+84/101: ./aozorabunko/cards/001753/files/59027_ruby_66934.zip
+>> add 59027_ruby_akikazeto_haha.txt
+>> add 59027_ruby_utf8_akikazeto_haha.txt
+-rwxrwx---+ 1 level level 1618 Feb  5 21:47 ./aozorabunko/cards/001753/files/59036_txt_66908.zip
+85/101: ./aozorabunko/cards/001753/files/59036_txt_66908.zip
+>> update 59036_txt_takini_tsuite.txt
+>> update 59036_txt_utf8_takini_tsuite.txt
+-rwxrwx---+ 1 level level 6816 Feb 20 22:06 ./aozorabunko/cards/001763/files/58568_txt_66936.zip
+86/101: ./aozorabunko/cards/001763/files/58568_txt_66936.zip
+>> add 58568_txt_shinshishato_ishikawa_takuboku.txt
+>> add 58568_txt_utf8_shinshishato_ishikawa_takuboku.txt
+-rwxrwx---+ 1 level level 6117 Mar  1 21:19 ./aozorabunko/cards/001763/files/58577_txt_67363.zip
+87/101: ./aozorabunko/cards/001763/files/58577_txt_67363.zip
+>> add 58577_txt_akutagawa_ryunosukeo_kokusu.txt
+>> add 58577_txt_utf8_akutagawa_ryunosukeo_kokusu.txt
+-rwxrwx---+ 1 level level 2129 Mar  1 21:19 ./aozorabunko/cards/001763/files/58578_ruby_67365.zip
+88/101: ./aozorabunko/cards/001763/files/58578_ruby_67365.zip
+>> add 58578_ruby_saishono_homon.txt
+>> add 58578_ruby_utf8_saishono_homon.txt
+-rwxrwx---+ 1 level level 3361 Feb 15 21:57 ./aozorabunko/cards/001763/files/58911_txt_67012.zip
+89/101: ./aozorabunko/cards/001763/files/58911_txt_67012.zip
+>> update 58911_txt_monono_machigai.txt
+>> update 58911_txt_utf8_monono_machigai.txt
+-rwxrwx---+ 1 level level 2019 Feb  5 21:47 ./aozorabunko/cards/001763/files/59265_ruby_66907.zip
+90/101: ./aozorabunko/cards/001763/files/59265_ruby_66907.zip
+>> update 59265_ruby_sessaku_shosetsu_nagai_kafudenni_tsuite.txt
+>> update 59265_ruby_utf8_sessaku_shosetsu_nagai_kafudenni_tsuite.txt
+-rwxrwx---+ 1 level level 4485 Feb 20 22:06 ./aozorabunko/cards/001801/files/56655_ruby_66935.zip
+91/101: ./aozorabunko/cards/001801/files/56655_ruby_66935.zip
+>> add 56655_ruby_hakono_nakano_anata.txt
+>> add 56655_ruby_utf8_hakono_nakano_anata.txt
+-rwxrwx---+ 1 level level 3354 Feb 25 21:26 ./aozorabunko/cards/001801/files/59079_ruby_66944.zip
+92/101: ./aozorabunko/cards/001801/files/59079_ruby_66944.zip
+>> add 59079_ruby_jusan_nen.txt
+>> add 59079_ruby_utf8_jusan_nen.txt
+-rwxrwx---+ 1 level level 6249 Feb 15 21:57 ./aozorabunko/cards/001867/files/58324_ruby_66924.zip
+93/101: ./aozorabunko/cards/001867/files/58324_ruby_66924.zip
+>> update 58324_ruby_ibuse_masujini_yosete.txt
+>> update 58324_ruby_utf8_ibuse_masujini_yosete.txt
+-rwxrwx---+ 1 level level 25974 Feb 25 21:26 ./aozorabunko/cards/001869/files/57544_ruby_65443.zip
+94/101: ./aozorabunko/cards/001869/files/57544_ruby_65443.zip
+>> update 57544_ruby_03mujina_nagaya.txt
+>> update 57544_ruby_utf8_03mujina_nagaya.txt
+-rwxrwx---+ 1 level level 22903 Feb 14 22:12 ./aozorabunko/cards/001869/files/57583_ruby_66921.zip
+95/101: ./aozorabunko/cards/001869/files/57583_ruby_66921.zip
+>> update 57583_ruby_ame_agaru.txt
+>> update 57583_ruby_utf8_ame_agaru.txt
+-rwxrwx---+ 1 level level 11498 Feb 14 22:12 ./aozorabunko/cards/001869/files/57821_ruby_67013.zip
+96/101: ./aozorabunko/cards/001869/files/57821_ruby_67013.zip
+>> update 57821_ruby_matsuno_hana.txt
+>> update 57821_ruby_utf8_matsuno_hana.txt
+-rwxrwx---+ 1 level level 6535 Feb  6 21:39 ./aozorabunko/cards/001870/files/58920_ruby_66910.zip
+97/101: ./aozorabunko/cards/001870/files/58920_ruby_66910.zip
+>> update 58920_ruby_hakodate_hakkei.txt
+>> update 58920_ruby_utf8_hakodate_hakkei.txt
+-rwxrwx---+ 1 level level 9252 Feb 16 09:19 ./aozorabunko/cards/001879/files/57986_ruby_66927.zip
+98/101: ./aozorabunko/cards/001879/files/57986_ruby_66927.zip
+>> update 57986_ruby_seiryokuno_chushin'o_gikaini_utsusubeshi.txt
+>> update 57986_ruby_utf8_seiryokuno_chushin'o_gikaini_utsusubeshi.txt
+-rwxrwx---+ 1 level level 9593 Feb 16 09:19 ./aozorabunko/cards/001879/files/58108_ruby_66928.zip
+99/101: ./aozorabunko/cards/001879/files/58108_ruby_66928.zip
+>> update 58108_ruby_senkyoninni_atau.txt
+>> update 58108_ruby_utf8_senkyoninni_atau.txt
+-rwxrwx---+ 1 level level 1704607 Feb 27 20:39 ./aozorabunko/cards/001908/files/58142_ruby_62063.zip
+100/101: ./aozorabunko/cards/001908/files/58142_ruby_62063.zip
+>> update 58142_ruby_futatsuno_e.txt
+>> update 58142_ruby_utf8_futatsuno_e.txt
+   NPD: ./aozorabunko/cards/002043/files/59483_ruby_66785.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29859 (Accepted:86/Reject:0/Rename:4/Empty:0/Multi txt:0/NPD:15)
+Git Failed  : 0
+Start: Sun Mar  3 19:28:38 JST 2019
+End  : Sun Mar  3 19:33:40 JST 2019
