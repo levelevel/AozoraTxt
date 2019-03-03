@@ -1,0 +1,47 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_5.txt (14)
+#Date: Sun Mar  3 19:17:43 JST 2019
+#Extracting
+1/14: 14fea45d8d	cards/000035/files/1565_ruby_8220.zip
+>> update 1565_ruby_shayo.txt
+>> update 1565_ruby_utf8_shayo.txt
+2/14: 13175101f7	cards/000076/files/1282_ruby_1855.zip
+>> update 1282_ruby_boshi_jojo.txt
+>> update 1282_ruby_utf8_boshi_jojo.txt
+3/14: 9f68c7c8ff	cards/000129/files/2058_ruby_19627.zip
+>> update 2058_ruby_shibue_chusai.txt
+>> update 2058_ruby_utf8_shibue_chusai.txt
+4/14: eeddc5838c	cards/000148/files/789_ruby_5639.zip
+>> update 789_ruby_wagahaiwa_nekodearu.txt
+>> update 789_ruby_utf8_wagahaiwa_nekodearu.txt
+5/14: 9d977dd6af	cards/000271/files/1556_ruby_1907.zip
+>> update 1556_ruby_takiguchi_nyudo.txt
+>> update 1556_ruby_utf8_takiguchi_nyudo.txt
+6/14: a0bcb49b06	cards/000279/files/1704_ruby_6918.zip
+>> update 1704_ruby_mimizuno_tawagoto.txt
+>> update 1704_ruby_utf8_mimizuno_tawagoto.txt
+7/14: a63a6279e3	cards/000296/files/47061_ruby_28378.zip
+>> update 47061_ruby_gakumonno_susume.txt
+>> update 47061_ruby_utf8_gakumonno_susume.txt
+8/14: 198847566e	cards/000363/files/42286_ruby_36920.zip
+>> update 42286_ruby_karamazofuno_kyodai_01.txt
+>> update 42286_ruby_utf8_karamazofuno_kyodai_01.txt
+9/14: e284b69b22	cards/000810/files/50686_ruby_42715.zip
+>> git-mv 50686_ruby_kuidoraku_akino_maki.txt 50686_ruby_shokudoraku_akino_maki.txt
+>> git-mv 50686_ruby_utf8_kuidoraku_akino_maki.txt 50686_ruby_utf8_shokudoraku_akino_maki.txt
+10/14: a57d76e5a4	cards/001383/files/56698_ruby_59448.zip
+>> update 56698_ruby_01sasameyuki_jokan.txt
+>> update 56698_ruby_utf8_01sasameyuki_jokan.txt
+11/14: 722bb73379	cards/001430/files/50346_ruby_39142.zip
+>> update 50346_ruby_tomeiningen.txt
+>> update 50346_ruby_utf8_tomeiningen.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29811 (Accepted:11/Reject:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  3 19:17:43 JST 2019
+End  : Sun Mar  3 19:18:17 JST 2019
