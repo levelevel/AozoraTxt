@@ -1,0 +1,152 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_4.txt (53)
+#Date: Sun Mar  3 19:13:14 JST 2019
+#Extracting
+1/53: bbb834e078	cards/000035/files/1565_ruby_8220.zip
+>> update 1565_ruby_shayo.txt
+>> update 1565_ruby_utf8_shayo.txt
+2/53: 2cd0a52ee4	cards/000035/files/45668_ruby_20027.zip
+>> update 45668_ruby_rokugatsu_jukunichi.txt
+>> update 45668_ruby_utf8_rokugatsu_jukunichi.txt
+3/53: 2cd0a52ee4	cards/000035/files/45689_ruby_21352.zip
+>> git-mv 45689_ruby_sunakoya.txt 45689_ruby_managoya.txt
+>> git-mv 45689_ruby_utf8_sunakoya.txt 45689_ruby_utf8_managoya.txt
+4/53: 98939dbcf9	cards/000051/files/1452_ruby_16916.zip
+>> update 1452_ruby_unmei.txt
+>> update 1452_ruby_utf8_unmei.txt
+5/53: 432d801aff	cards/000051/files/4331_ruby_42047.zip
+>> update 4331_ruby_doryokuron.txt
+>> update 4331_ruby_utf8_doryokuron.txt
+8/53: e4be1b619c	cards/000067/files/859_ruby_21655.zip
+>> update 859_ruby_02tsukini_hoeru.txt
+>> update 859_ruby_utf8_02tsukini_hoeru.txt
+9/53: 03492edf2b	cards/000074/files/427_ruby_19792.zip
+>> git-mv 427_ruby_sakurano_kino_shita.txt 427_ruby_sakurano_kino_shitaniwa.txt
+>> git-mv 427_ruby_utf8_sakurano_kino_shita.txt 427_ruby_utf8_sakurano_kino_shitaniwa.txt
+10/53: 996c7b06bb	cards/000076/files/1282_ruby_1855.zip
+>> git-mv 1282_ruby_boshijojo.txt 1282_ruby_boshi_jojo.txt
+>> git-mv 1282_ruby_utf8_boshijojo.txt 1282_ruby_utf8_boshi_jojo.txt
+11/53: 996c7b06bb	cards/000076/files/1284_ruby_13099.zip
+>> update 1284_ruby_kawaakari.txt
+>> update 1284_ruby_utf8_kawaakari.txt
+12/53: 996c7b06bb	cards/000076/files/1285_ruby_1814.zip
+>> update 1285_ruby_oshaku.txt
+>> update 1285_ruby_utf8_oshaku.txt
+13/53: 12fcf911c9	cards/000094/files/2523_ruby_19896.zip
+>> update 2523_ruby_william_wilson.txt
+>> update 2523_ruby_utf8_william_wilson.txt
+14/53: 6704eed92b	cards/000094/files/2526_ruby_17669.zip
+>> update 2526_ruby_hayasugiru_maiso.txt
+>> update 2526_ruby_utf8_hayasugiru_maiso.txt
+15/53: 1dd59af5f7	cards/000121/files/1754_ruby_5376.zip
+>> update 1754_ruby_watarosanto_ushi.txt
+>> update 1754_ruby_utf8_watarosanto_ushi.txt
+16/53: 717a4c758c	cards/000121/files/3040_ruby_4300.zip
+>> update 3040_ruby_he.txt
+>> update 3040_ruby_utf8_he.txt
+17/53: dd5184f254	cards/000129/files/2058_ruby_19627.zip
+>> update 2058_ruby_shibue_chusai.txt
+>> update 2058_ruby_utf8_shibue_chusai.txt
+18/53: e518cdb99f	cards/000148/files/789_ruby_5639.zip
+>> update 789_ruby_wagahaiwa_nekodearu.txt
+>> update 789_ruby_utf8_wagahaiwa_nekodearu.txt
+19/53: b32f70e677	cards/000153/files/46947_ruby_32324.zip
+>> update 46947_ruby_torikage.txt
+>> update 46947_ruby_utf8_torikage.txt
+20/53: 19f669e7a2	cards/000165/files/2392_ruby_18.zip
+>> git-mv 2392_ruby_kaijinjyuumankan.txt 2392_ruby_kaijin_jumankan.txt
+>> git-mv 2392_ruby_utf8_kaijinjyuumankan.txt 2392_ruby_utf8_kaijin_jumankan.txt
+21/53: 82da1a20aa	cards/000168/files/3511_ruby_4087.zip
+>> update 3511_ruby_yoruno_kutsu.txt
+>> update 3511_ruby_utf8_yoruno_kutsu.txt
+22/53: 103e69e347	cards/000183/files/45301_ruby_39771.zip
+>> update 45301_ruby_lamp_no_tayori.txt
+>> update 45301_ruby_utf8_lamp_no_tayori.txt
+23/53: df665e13ae	cards/000212/files/33229_ruby_19203.zip
+>> update 33229_ruby_kodomono_sukecchicho.txt
+>> update 33229_ruby_utf8_kodomono_sukecchicho.txt
+24/53: 48007cb3a8	cards/000218/files/1914_ruby_63481.zip
+>> update 1914_ruby_jinseiron_note.txt
+>> update 1914_ruby_utf8_jinseiron_note.txt
+25/53: f8b5bc33e3	cards/000271/files/1556_ruby_1907.zip
+>> update 1556_ruby_takiguchi_nyudo.txt
+>> update 1556_ruby_utf8_takiguchi_nyudo.txt
+26/53: fe3c4e361a	cards/000279/files/1704_ruby_6918.zip
+>> update 1704_ruby_mimizuno_tawagoto.txt
+>> update 1704_ruby_utf8_mimizuno_tawagoto.txt
+27/53: f3bf34088c	cards/000290/files/1800_ruby_9298.zip
+>> update 1800_ruby_tangesazen_nikkonomaki.txt
+>> update 1800_ruby_utf8_tangesazen_nikkonomaki.txt
+28/53: 80f3606093	cards/000296/files/47061_ruby_28378.zip
+>> update 47061_ruby_gakumonno_susume.txt
+>> update 47061_ruby_utf8_gakumonno_susume.txt
+29/53: 8ad687c0c3	cards/000301/files/1872_ruby_3491.zip
+>> update 1872_ruby_02hoso_yawa.txt
+>> update 1872_ruby_utf8_02hoso_yawa.txt
+30/53: 4a0c2e8d26	cards/000311/files/46235_ruby_37805.zip
+>> update 46235_ruby_02nikki1914.txt
+>> update 46235_ruby_utf8_02nikki1914.txt
+31/53: 899cd39790	cards/000363/files/42286_ruby_36920.zip
+>> update 42286_ruby_karamazofuno_kyodai_01.txt
+>> update 42286_ruby_utf8_karamazofuno_kyodai_01.txt
+32/53: 93d21693e3	cards/000448/files/46449_ruby_24267.zip
+>> update 46449_ruby_shikento_ikinawa.txt
+>> update 46449_ruby_utf8_shikento_ikinawa.txt
+33/53: d888313454	cards/000810/files/50686_ruby_42715.zip
+>> update 50686_ruby_kuidoraku_akino_maki.txt
+>> update 50686_ruby_utf8_kuidoraku_akino_maki.txt
+34/53: faa7f70aa3	cards/000924/files/49192_ruby_39847.zip
+>> update 49192_ruby_konokoo_nokoshite.txt
+>> update 49192_ruby_utf8_konokoo_nokoshite.txt
+35/53: fd61c99f43	cards/001054/files/18371_ruby_34702.zip
+>> update 18371_ruby_hakubutsukan.txt
+>> update 18371_ruby_utf8_hakubutsukan.txt
+36/53: 06ba28a3b4	cards/001095/files/43219_ruby_23303.zip
+>> update 43219_ruby_17kazokuwa_rokunin.txt
+>> update 43219_ruby_utf8_17kazokuwa_rokunin.txt
+37/53: 6486eb5021	cards/001095/files/45815_ruby_38247.zip
+>> update 45815_ruby_nagashimano_shi.txt
+>> update 45815_ruby_utf8_nagashimano_shi.txt
+38/53: 51dd76aa19	cards/001097/files/43790_ruby_20882.zip
+>> update 43790_ruby_jiromonogatari_3.txt
+>> update 43790_ruby_utf8_jiromonogatari_3.txt
+39/53: ff6f0ed86c	cards/001120/files/42767_ruby_15339.zip
+>> git-mv 42767_ruby_mujintoniikiru_jurokunin.txt 42767_ruby_mujintoni_ikiru_jurokunin.txt
+>> git-mv 42767_ruby_utf8_mujintoniikiru_jurokunin.txt 42767_ruby_utf8_mujintoni_ikiru_jurokunin.txt
+40/53: d3f2a51e50	cards/001154/files/44709_ruby_38253.zip
+>> update 44709_ruby_sensoto_bunka.txt
+>> update 44709_ruby_utf8_sensoto_bunka.txt
+41/53: a19218d5f7	cards/001234/files/46340_ruby_24806.zip
+>> update 46340_ruby_faraday_no_den.txt
+>> update 46340_ruby_utf8_faraday_no_den.txt
+42/53: 336282b211	cards/001373/files/55979_ruby_50386.zip
+>> update 55979_ruby_fuefukigawano_joryu.txt
+>> update 55979_ruby_utf8_fuefukigawano_joryu.txt
+43/53: 336282b211	cards/001373/files/55980_ruby_50555.zip
+>> update 55980_ruby_okuchichibuno_yamatabi_nikki.txt
+>> update 55980_ruby_utf8_okuchichibuno_yamatabi_nikki.txt
+44/53: 287a89d72d	cards/001383/files/56698_ruby_59448.zip
+>> update 56698_ruby_01sasameyuki_jokan.txt
+>> update 56698_ruby_utf8_01sasameyuki_jokan.txt
+46/53: a12c53873c	cards/001421/files/50422_ruby_43515.zip
+>> update 50422_ruby_santarono_nikki_daiichi.txt
+>> update 50422_ruby_utf8_santarono_nikki_daiichi.txt
+47/53: c6af8dd052	cards/001430/files/50346_ruby_39142.zip
+>> update 50346_ruby_tomeiningen.txt
+>> update 50346_ruby_utf8_tomeiningen.txt
+48/53: 54a7a60ddf	cards/001475/files/52121_ruby_47064.zip
+>> update 52121_ruby_warawanakatta_shonen.txt
+>> update 52121_ruby_utf8_warawanakatta_shonen.txt
+49/53: 1e4c07873e	cards/001475/files/52964_ruby_46821.zip
+>> update 52964_ruby_aruyono_hoshitachino_hanashi.txt
+>> update 52964_ruby_utf8_aruyono_hoshitachino_hanashi.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29811 (Accepted:46/Reject:0/Rename:10/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  3 19:13:14 JST 2019
+End  : Sun Mar  3 19:15:23 JST 2019
