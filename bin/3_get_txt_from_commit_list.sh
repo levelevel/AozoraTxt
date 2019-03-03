@@ -72,7 +72,10 @@ while read commit zip_file npd
 do
 	if [ "$zip_file" == "" ]; then continue; fi
 	let text_count++
-	if [ "$npd" == "npd" ]; then continue; fi
+	if [ "$npd" == "npd" ]; then
+		let npd_count++
+		continue
+	fi
 	# zip_file: ./aozorabunko/cards/000005/files/1868_ruby_22436.zip
 	txt_id=`basename ${zip_file%%_*.zip}`	#1186
 #	#1_get_commit_list.shで除外済み
@@ -205,7 +208,8 @@ do
 	touch -r "$person_to/$target_file" "$person_to_utf8/$target_file_utf8"
 done < $COMMIT_LST
 
-rm -r $TMP $TMP_ZIP
+rm -r $TMP
+rm -f $TMP_ZIP
 
 #不正なファイル名をリストアップする
 echo "#Creating $FILENAME_ILLEGAL"

@@ -1,0 +1,15 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Commit List: ./AozoraTxt/etc/commit_8.txt (1)
+#Date: Sun Mar  3 19:23:29 JST 2019
+#Extracting
+rm: cannot remove './xxx.zip': No such file or directory
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29811 (Accepted:0/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  3 19:23:29 JST 2019
+End  : Sun Mar  3 19:23:32 JST 2019
