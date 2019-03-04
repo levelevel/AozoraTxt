@@ -499,3 +499,38 @@ Title  Total: 29859 (Accepted:86/Reject:0/Rename:4/Empty:0/Multi txt:0/NPD:15)
 Git Failed  : 0
 Start: Sun Mar  3 19:28:38 JST 2019
 End  : Sun Mar  3 19:33:40 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar  4 21:30:17 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   24c1c757ff..536728081a  master     -> origin/master
+Updating 24c1c757ff..536728081a
+Fast-forward
+ cards/000025/card56503.html                   |  229 +++
+ cards/000025/files/56503_67321.html           |  136 ++
+ cards/000025/files/56503_ruby_67372.zip       |  Bin 0 -> 14147 bytes
+ cards/000933/card58286.html                   |    2 +-
+ cards/001492/card51194.html                   |   16 +-
+ cards/001492/files/51194_67460.html           | 2011 +++++++++++++++++++++++++
+ cards/001581/card58959.html                   |    2 +-
+ cards/001581/card58961.html                   |    2 +-
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |   18 +-
+ 71 files changed, 3459 insertions(+), 1101 deletions(-)
+Date: Mon Mar  4 21:30:56 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar  3 19:33 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 14147 Mar  4 21:30 ./aozorabunko/cards/000025/files/56503_ruby_67372.zip
+1/1: ./aozorabunko/cards/000025/files/56503_ruby_67372.zip
+>> add 56503_ruby_furansesuno_kao.txt
+>> add 56503_ruby_utf8_furansesuno_kao.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title  Total: 29861 (Accepted:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar  4 21:30:17 JST 2019
+End  : Mon Mar  4 21:31:16 JST 2019

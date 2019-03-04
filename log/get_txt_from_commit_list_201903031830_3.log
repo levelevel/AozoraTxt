@@ -896,7 +896,7 @@
 >> update 57788_ruby_mominokiwa_nokotta01.txt
 >> update 57788_ruby_utf8_mominokiwa_nokotta01.txt
 #Creating ./AozoraTxt/etc/filename_illegal.txt
-Title  Total: 29811 (Accepted:296/Reject:0/Rename:68/Empty:0/Multi txt:0/NPD:0)
+Title  Total: 29811 (Accepted:296/Reject:0/Rename:68/Empty:0/Multi txt:0/NPD:16)
 Git Failed  : 0
 Start: Sun Mar  3 18:30:25 JST 2019
 End  : Sun Mar  3 18:42:56 JST 2019

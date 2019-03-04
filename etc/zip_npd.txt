@@ -23,6 +23,15 @@
 ./aozorabunko/cards/000055/files/59489_txt_66663.zip
 ./aozorabunko/cards/000055/files/698_txt_60.zip
 ./aozorabunko/cards/000097/files/46342_ruby_53254.zip
+./aozorabunko/cards/000258/files/50189_ruby_34696.zip
+./aozorabunko/cards/000258/files/50314_ruby_67453.zip
+./aozorabunko/cards/000258/files/52334_ruby_41381.zip
+./aozorabunko/cards/000258/files/52335_ruby_41383.zip
+./aozorabunko/cards/000258/files/52948_ruby_42571.zip
+./aozorabunko/cards/000258/files/52949_ruby_42574.zip
+./aozorabunko/cards/000258/files/52950_ruby_42572.zip
+./aozorabunko/cards/000258/files/52951_ruby_42568.zip
+./aozorabunko/cards/000258/files/55378_ruby_48349.zip
 ./aozorabunko/cards/000258/files/56949_ruby_55027.zip
 ./aozorabunko/cards/000258/files/58038_ruby_59801.zip
 ./aozorabunko/cards/000258/files/58129_ruby_60565.zip
@@ -45,6 +54,7 @@
 ./aozorabunko/cards/001393/files/54926_txt_47247.zip
 ./aozorabunko/cards/001393/files/55880_ruby_50041.zip
 ./aozorabunko/cards/001393/files/57320_ruby_57182.zip
+./aozorabunko/cards/001492/files/51194_ruby_67442.zip
 ./aozorabunko/cards/001505/files/51344_txt_38341.zip
 ./aozorabunko/cards/001505/files/51345_txt_38343.zip
 ./aozorabunko/cards/001505/files/51346_txt_38345.zip
@@ -76,6 +86,7 @@
 ./aozorabunko/cards/001506/files/56822_ruby_57117.zip
 ./aozorabunko/cards/001506/files/56823_ruby_53766.zip
 ./aozorabunko/cards/001506/files/56911_ruby_61972.zip
+./aozorabunko/cards/001591/files/53534_ruby_67438.zip
 ./aozorabunko/cards/001686/files/54924_txt_47244.zip
 ./aozorabunko/cards/001686/files/54925_txt_53435.zip
 ./aozorabunko/cards/001687/files/54927_txt_53431.zip
@@ -89,6 +100,7 @@
 ./aozorabunko/cards/001699/files/57474_ruby_58686.zip
 ./aozorabunko/cards/001699/files/57858_ruby_59671.zip
 ./aozorabunko/cards/001699/files/57859_ruby_59661.zip
+./aozorabunko/cards/001721/files/55278_txt_67440.zip
 ./aozorabunko/cards/001727/files/55345_txt_53433.zip
 ./aozorabunko/cards/001727/files/56840_txt_53393.zip
 ./aozorabunko/cards/001728/files/55346_txt_53428.zip
@@ -124,3 +136,4 @@
 ./aozorabunko/cards/002033/files/59405_txt_66193.zip
 ./aozorabunko/cards/002035/files/59406_ruby_66605.zip
 ./aozorabunko/cards/002043/files/59482_ruby_66448.zip
+./aozorabunko/cards/002043/files/59483_ruby_66785.zip

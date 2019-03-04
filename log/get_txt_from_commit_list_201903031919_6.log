@@ -20,7 +20,7 @@
 >> update 42286_ruby_karamazofuno_kyodai_01.txt
 >> update 42286_ruby_utf8_karamazofuno_kyodai_01.txt
 #Creating ./AozoraTxt/etc/filename_illegal.txt
-Title  Total: 29811 (Accepted:4/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Title  Total: 29811 (Accepted:4/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
 Git Failed  : 0
 Start: Sun Mar  3 19:19:22 JST 2019
 End  : Sun Mar  3 19:19:36 JST 2019

@@ -6010,7 +6010,7 @@ total 0
 >> update 58137_ruby_kaki_mikan_kani.txt
 >> update 58137_ruby_utf8_kaki_mikan_kani.txt
 #Creating ./AozoraTxt/etc/filename_illegal.txt
-Title  Total: 29811 (Accepted:1976/Reject:9/Rename:668/Empty:6/Multi txt:0/NPD:0)
+Title  Total: 29811 (Accepted:1976/Reject:9/Rename:668/Empty:6/Multi txt:0/NPD:31)
 Git Failed  : 0
 Start: Sun Mar  3 16:13:57 JST 2019
 End  : Sun Mar  3 17:41:13 JST 2019

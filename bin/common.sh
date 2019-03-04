@@ -41,7 +41,7 @@ TMP=$TARGET_ROOT/tmp
 UPDATE=$TARGET_ETC/update
 FILENAME_ILLEGAL=$TARGET_ETC/filename_illegal.txt
 UPDATE_FILE=$TARGET_LOG/update_file.log
-ZIP_LIST_NPD=$TARGET_ETC/zip_list_npd.txt
+ZIP_LIST_NPD=$TARGET_ETC/zip_npd.txt
 COMMIT_LIST=$TARGET_ETC/commit_all.txt
 
 GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"

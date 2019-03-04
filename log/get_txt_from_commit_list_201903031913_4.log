@@ -146,7 +146,7 @@
 >> update 52964_ruby_aruyono_hoshitachino_hanashi.txt
 >> update 52964_ruby_utf8_aruyono_hoshitachino_hanashi.txt
 #Creating ./AozoraTxt/etc/filename_illegal.txt
-Title  Total: 29811 (Accepted:46/Reject:0/Rename:10/Empty:0/Multi txt:0/NPD:0)
+Title  Total: 29811 (Accepted:46/Reject:0/Rename:10/Empty:0/Multi txt:0/NPD:7)
 Git Failed  : 0
 Start: Sun Mar  3 19:13:14 JST 2019
 End  : Sun Mar  3 19:15:23 JST 2019

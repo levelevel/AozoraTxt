@@ -41,7 +41,7 @@
 >> update 50346_ruby_tomeiningen.txt
 >> update 50346_ruby_utf8_tomeiningen.txt
 #Creating ./AozoraTxt/etc/filename_illegal.txt
-Title  Total: 29811 (Accepted:11/Reject:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Title  Total: 29811 (Accepted:11/Reject:0/Rename:2/Empty:0/Multi txt:0/NPD:3)
 Git Failed  : 0
 Start: Sun Mar  3 19:17:43 JST 2019
 End  : Sun Mar  3 19:18:17 JST 2019
