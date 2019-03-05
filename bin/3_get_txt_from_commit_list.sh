@@ -78,7 +78,7 @@ do
 	fi
 	# zip_file: ./aozorabunko/cards/000005/files/1868_ruby_22436.zip
 	txt_id=`basename ${zip_file%%_*.zip}`	#1186
-#	#1_get_commit_list.shで除外済み
+#	#1_get_commit_list.pyで除外済み
 #	if TxtIsNPD `dirname $AOZORA_ROOT/$zip_file`"/.." $txt_id ; then
 #		let npd_count++
 #		echo "   NPD: $zip_file"
@@ -139,13 +139,6 @@ do
 	if [ "$cur_target_file" == "" ]; then
 		echo ">> add $target_file"
 	elif [ "$cur_target_file" == "$target_file" ]; then
-		#同じファイル名の場合はタイムスタンプで新しいほうを優先
-		#if [ "$cur_txt_file" -nt "$txt_file" ]; then
-		#	let reject_cnt++
-		#	echo "   reject (older) $txt_file"
-		#	ls -l "$cur_txt_file" "$txt_file" 
-		#	continue
-		#fi
 		echo ">> update $target_file"
 		echo "update	$person_to/$target_file" >> $UPDATE_FILE
 	else 
@@ -178,10 +171,6 @@ do
 	if [ "$cur_target_file_utf8" == "" ]; then
 		echo ">> add $target_file_utf8"
 	elif [ "$cur_target_file_utf8" == "$target_file_utf8" ]; then
-		#同じファイル名の場合はタイムスタンプで新しいほうを優先
-		#if [ "$cur_txt_file_utf8" -nt "$person_to/$target_file" ]; then
-		#	continue
-		#fi
 		echo ">> update $target_file_utf8"
 	else 
 		#異なるファイル名の場合はプライオリティが高いほうを優先
@@ -219,7 +208,7 @@ let COMMIT_NUM++
 echo "$COMMIT_NUM" > "$NUM_FILE"
 
 text_total=`find $TARGET_ROOT -name "[0-9]*.txt" | wc -l`
-echo "Title  Total: $text_total (Accepted:$accept_count/Reject:$reject_cnt/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
+echo "Title Total : $text_total (Accept:$accept_count/Reject:$reject_cnt/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
 echo "Git Failed  : $git_failed"
 echo "Start: $start_time"
 echo "End  : `date`"
