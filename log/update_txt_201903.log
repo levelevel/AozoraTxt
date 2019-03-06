@@ -565,3 +565,59 @@ Title Total : 29863 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
 Git Failed  : 0
 Start: Tue Mar  5 21:14:59 JST 2019
 End  : Tue Mar  5 21:16:43 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar  6 22:08:51 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9291fecce6..45de9ef28a  master     -> origin/master
+Updating 9291fecce6..45de9ef28a
+Fast-forward
+ cards/000083/card59173.html                   | 234 ++++++++
+ cards/000083/files/59173_67324.html           | 130 ++++
+ cards/000083/files/59173_ruby_67375.zip       | Bin 0 -> 9724 bytes
+ cards/000237/card50037.html                   | 229 ++++++++
+ cards/000237/files/50037_67323.html           | 106 ++++
+ cards/000237/files/50037_ruby_67374.zip       | Bin 0 -> 5770 bytes
+ cards/001154/card50682.html                   |   2 +-
+ cards/001657/card54333.html                   |  26 +-
+ cards/001657/files/54333_67472.html           | 817 ++++++++++++++++++++++++++
+ cards/001657/files/54333_ruby_67471.zip       | Bin 0 -> 1115871 bytes
+ cards/001657/files/fig54333_01.png            | Bin 0 -> 39279 bytes
+ cards/001657/files/fig54333_02.png            | Bin 0 -> 40764 bytes
+ cards/001657/files/fig54333_03.png            | Bin 0 -> 27593 bytes
+ cards/001657/files/fig54333_04.png            | Bin 0 -> 81361 bytes
+ cards/001657/files/fig54333_05.png            | Bin 0 -> 228301 bytes
+ cards/001657/files/fig54333_06.png            | Bin 0 -> 144098 bytes
+ cards/001657/files/fig54333_07.png            | Bin 0 -> 483731 bytes
+ cards/001867/card58196.html                   | 234 ++++++++
+ cards/001867/files/58196_67325.html           | 185 ++++++
+ cards/001867/files/58196_ruby_67376.zip       | Bin 0 -> 16407 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  14 +-
+ 118 files changed, 4340 insertions(+), 2138 deletions(-)
+Date: Wed Mar  6 22:09:38 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar  5 21:16 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 9724 Mar  6 22:09 ./aozorabunko/cards/000083/files/59173_ruby_67375.zip
+1/4: ./aozorabunko/cards/000083/files/59173_ruby_67375.zip
+>> add 59173_ruby_umino_nakanite.txt
+>> add 59173_ruby_utf8_umino_nakanite.txt
+-rwxrwx---+ 1 level level 5770 Mar  6 22:09 ./aozorabunko/cards/000237/files/50037_ruby_67374.zip
+2/4: ./aozorabunko/cards/000237/files/50037_ruby_67374.zip
+>> add 50037_ruby_shirakawano_nanoka.txt
+>> add 50037_ruby_utf8_shirakawano_nanoka.txt
+   NPD: ./aozorabunko/cards/001657/files/54333_ruby_67471.zip
+-rwxrwx---+ 1 level level 16407 Mar  6 22:09 ./aozorabunko/cards/001867/files/58196_ruby_67376.zip
+4/4: ./aozorabunko/cards/001867/files/58196_ruby_67376.zip
+>> add 58196_ruby_wagashieno_sho.txt
+>> add 58196_ruby_utf8_wagashieno_sho.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29869 (Accept:3/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Mar  6 22:08:51 JST 2019
+End  : Wed Mar  6 22:10:12 JST 2019
