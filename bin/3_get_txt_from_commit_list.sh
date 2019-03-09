@@ -207,7 +207,7 @@ GetFilenameIllegal
 let COMMIT_NUM++
 echo "$COMMIT_NUM" > "$NUM_FILE"
 
-text_total=`find $TARGET_ROOT -name "[0-9]*.txt" | wc -l`
+text_total=`find $PERSON_TO $PERSON_TO_UTF8 -name "*.txt" | wc -l`
 echo "Title Total : $text_total (Accept:$accept_count/Reject:$reject_cnt/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
 echo "Git Failed  : $git_failed"
 echo "Start: $start_time"
