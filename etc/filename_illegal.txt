@@ -1,5 +1,6 @@
 ./person/000026/50255_txt_Me_Voila.txt
 ./person/000124/652_ruby_OGUMA10.txt
+./person/000157/834_ruby_TOUKOKU1.txt
 ./person/000159/858_ruby_Verito.txt
 ./person/000183/52884_ruby_I am_not.txt
 ./person/000262/48068_ruby_chino_sakazuki .txt
@@ -9,6 +10,7 @@
 ./person/001475/51496_ruby_aoi_tamato_gin’irono_fue.txt
 ./person_utf8/000026/50255_txt_utf8_Me_Voila.txt
 ./person_utf8/000124/652_ruby_utf8_OGUMA10.txt
+./person_utf8/000157/834_ruby_utf8_TOUKOKU1.txt
 ./person_utf8/000159/858_ruby_utf8_Verito.txt
 ./person_utf8/000183/52884_ruby_utf8_I am_not.txt
 ./person_utf8/000262/48068_ruby_utf8_chino_sakazuki .txt
