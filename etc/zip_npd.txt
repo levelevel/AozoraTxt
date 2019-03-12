@@ -139,3 +139,7 @@
 ./aozorabunko/cards/002043/files/59483_ruby_66785.zip
 ./aozorabunko/cards/001657/files/54333_ruby_67471.zip
 ./aozorabunko/cards/002052/files/59606_ruby_67436.zip
+./aozorabunko/cards/000113/files/4325_ruby_67522.zip
+./aozorabunko/cards/000113/files/4326_ruby_67508.zip
+./aozorabunko/cards/000113/files/4327_ruby_67507.zip
+./aozorabunko/cards/001493/files/51196_ruby_67512.zip

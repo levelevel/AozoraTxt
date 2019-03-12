@@ -802,3 +802,52 @@ Title Total : 29882 (Accept:2/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
 Git Failed  : 0
 Start: Mon Mar 11 21:16:17 JST 2019
 End  : Mon Mar 11 21:17:52 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar 12 22:08:42 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1e0ba90421..306522a405  master     -> origin/master
+Updating 1e0ba90421..306522a405
+Fast-forward
+ cards/000026/card55908.html                   |    2 +-
+ cards/000026/card55927.html                   |    2 +-
+ cards/000113/card4325.html                    |   38 +-
+ cards/000113/card4326.html                    |   38 +-
+ cards/000113/card4327.html                    |   38 +-
+ cards/000113/files/4325_67523.html            | 3959 +++++++++++++++++++++++++
+ cards/000113/files/4325_ruby_67522.zip        |  Bin 0 -> 118478 bytes
+ cards/000113/files/4326_67524.html            | 2398 +++++++++++++++
+ cards/000113/files/4326_ruby_67508.zip        |  Bin 0 -> 74797 bytes
+ cards/000113/files/4327_67525.html            | 1823 ++++++++++++
+ cards/000113/files/4327_ruby_67507.zip        |  Bin 0 -> 59970 bytes
+ cards/001493/card51196.html                   |   28 +-
+ cards/001493/files/51196_67513.html           |  851 ++++++
+ cards/001493/files/51196_ruby_67512.zip       |  Bin 0 -> 150081 bytes
+ cards/001657/card54333.html                   |    2 +-
+ cards/001869/card57820.html                   |  229 ++
+ cards/001869/files/57820_67333.html           |  214 ++
+ cards/001869/files/57820_ruby_67384.zip       |  Bin 0 -> 13262 bytes
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |    9 +-
+ 99 files changed, 10895 insertions(+), 1463 deletions(-)
+Date: Tue Mar 12 22:09:32 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar 11 21:17 ./AozoraTxt/etc/update
+   NPD: ./aozorabunko/cards/000113/files/4325_ruby_67522.zip
+   NPD: ./aozorabunko/cards/000113/files/4326_ruby_67508.zip
+   NPD: ./aozorabunko/cards/000113/files/4327_ruby_67507.zip
+   NPD: ./aozorabunko/cards/001493/files/51196_ruby_67512.zip
+-rwxrwx---+ 1 level level 13262 Mar 12 22:09 ./aozorabunko/cards/001869/files/57820_ruby_67384.zip
+5/5: ./aozorabunko/cards/001869/files/57820_ruby_67384.zip
+>> add 57820_ruby_itoguruma.txt
+>> add 57820_ruby_utf8_itoguruma.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29884 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:4)
+Git Failed  : 0
+Start: Tue Mar 12 22:08:42 JST 2019
+End  : Tue Mar 12 22:10:16 JST 2019
