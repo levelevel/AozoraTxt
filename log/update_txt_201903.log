@@ -851,3 +851,81 @@ Title Total : 29884 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:4)
 Git Failed  : 0
 Start: Tue Mar 12 22:08:42 JST 2019
 End  : Tue Mar 12 22:10:16 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 13 21:43:04 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   306522a405..5561b40253  master     -> origin/master
+Updating 306522a405..5561b40253
+Fast-forward
+ cards/001168/card58179.html                   |  229 +++
+ cards/001168/files/58179_67334.html           |   59 +
+ cards/001168/files/58179_txt_67385.zip        |  Bin 0 -> 905 bytes
+ cards/001492/card51195.html                   |   28 +-
+ cards/001492/files/51195_67538.html           | 2065 +++++++++++++++++++++++++
+ cards/001492/files/51195_ruby_67539.zip       |  Bin 0 -> 3443114 bytes
+ cards/001492/files/fig51195_01.png            |  Bin 0 -> 33891 bytes
+ cards/001492/files/fig51195_02.png            |  Bin 0 -> 60748 bytes
+ cards/001492/files/fig51195_03.png            |  Bin 0 -> 63324 bytes
+ cards/001492/files/fig51195_04.png            |  Bin 0 -> 96812 bytes
+ cards/001492/files/fig51195_05.png            |  Bin 0 -> 53727 bytes
+ cards/001492/files/fig51195_06.png            |  Bin 0 -> 30726 bytes
+ cards/001492/files/fig51195_07.png            |  Bin 0 -> 20691 bytes
+ cards/001492/files/fig51195_08.png            |  Bin 0 -> 18409 bytes
+ cards/001492/files/fig51195_09.png            |  Bin 0 -> 17859 bytes
+ cards/001492/files/fig51195_10.png            |  Bin 0 -> 14375 bytes
+ cards/001492/files/fig51195_11.png            |  Bin 0 -> 25870 bytes
+ cards/001492/files/fig51195_12.png            |  Bin 0 -> 69818 bytes
+ cards/001492/files/fig51195_13.png            |  Bin 0 -> 133355 bytes
+ cards/001492/files/fig51195_14.png            |  Bin 0 -> 76941 bytes
+ cards/001492/files/fig51195_15.png            |  Bin 0 -> 38798 bytes
+ cards/001492/files/fig51195_16.png            |  Bin 0 -> 51243 bytes
+ cards/001492/files/fig51195_17.png            |  Bin 0 -> 78856 bytes
+ cards/001492/files/fig51195_18.png            |  Bin 0 -> 72635 bytes
+ cards/001492/files/fig51195_19.png            |  Bin 0 -> 85018 bytes
+ cards/001492/files/fig51195_20.png            |  Bin 0 -> 61642 bytes
+ cards/001492/files/fig51195_21.png            |  Bin 0 -> 116941 bytes
+ cards/001492/files/fig51195_22.png            |  Bin 0 -> 54160 bytes
+ cards/001492/files/fig51195_23.png            |  Bin 0 -> 67621 bytes
+ cards/001492/files/fig51195_24.png            |  Bin 0 -> 81151 bytes
+ cards/001492/files/fig51195_25.png            |  Bin 0 -> 72625 bytes
+ cards/001492/files/fig51195_26.png            |  Bin 0 -> 71194 bytes
+ cards/001492/files/fig51195_27.png            |  Bin 0 -> 80528 bytes
+ cards/001492/files/fig51195_28.png            |  Bin 0 -> 42436 bytes
+ cards/001492/files/fig51195_29.png            |  Bin 0 -> 152430 bytes
+ cards/001492/files/fig51195_30.png            |  Bin 0 -> 182403 bytes
+ cards/001492/files/fig51195_31.png            |  Bin 0 -> 85888 bytes
+ cards/001492/files/fig51195_32.png            |  Bin 0 -> 115190 bytes
+ cards/001492/files/fig51195_33.png            |  Bin 0 -> 131431 bytes
+ cards/001492/files/fig51195_34.png            |  Bin 0 -> 101486 bytes
+ cards/001492/files/fig51195_35.png            |  Bin 0 -> 81890 bytes
+ cards/001492/files/fig51195_36.png            |  Bin 0 -> 91096 bytes
+ cards/001492/files/fig51195_37.png            |  Bin 0 -> 86797 bytes
+ cards/001492/files/fig51195_38.png            |  Bin 0 -> 79832 bytes
+ cards/001492/files/fig51195_39.png            |  Bin 0 -> 90948 bytes
+ cards/001492/files/fig51195_40.png            |  Bin 0 -> 119352 bytes
+ cards/001492/files/fig51195_41.png            |  Bin 0 -> 136811 bytes
+ cards/001492/files/fig51195_42.png            |  Bin 0 -> 90954 bytes
+ cards/001492/files/fig51195_43.png            |  Bin 0 -> 23778 bytes
+ cards/001869/card57820.html                   |    2 +-
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |    8 +-
+ 153 files changed, 4525 insertions(+), 2123 deletions(-)
+Date: Wed Mar 13 21:44:32 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar 12 22:10 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 905 Mar 13 21:44 ./aozorabunko/cards/001168/files/58179_txt_67385.zip
+1/2: ./aozorabunko/cards/001168/files/58179_txt_67385.zip
+>> add 58179_txt_shoo_miru_tanoshisa.txt
+>> add 58179_txt_utf8_shoo_miru_tanoshisa.txt
+   NPD: ./aozorabunko/cards/001492/files/51195_ruby_67539.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29886 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Mar 13 21:43:04 JST 2019
+End  : Wed Mar 13 21:46:18 JST 2019
