@@ -203,6 +203,9 @@ rm -f $TMP_ZIP_LST
 echo "#Creating $FILENAME_ILLEGAL"
 GetFilenameIllegal
 
+sort -u $ZIP_LIST_NPD > $ZIP_LIST_NPD.tmp
+mv $ZIP_LIST_NPD.tmp $ZIP_LIST_NPD
+
 touch $UPDATE
 
 text_total=`find $PERSON_TO $PERSON_TO_UTF8 -name "*.txt" | wc -l`
