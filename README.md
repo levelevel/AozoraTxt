@@ -26,7 +26,7 @@ https://www.aozora.gr.jp/cards/<作者ID>/card<作品ID>.html
 本リポジトリの更新作業は手動で行っており、不定期です。
 
 ## UTF8版における外字のUnicode変換
-例の右側に示すような[青空文庫記法](https://www.aozora.gr.jp/annotation/external_character.html)による外字は対応するUnicode文字に変換してあります。
+例の右側に示すような[青空文庫記法](https://www.aozora.gr.jp/annotation/external_character.html)による外字のうち、Unicodeによるコードが与えられている場合は対応する文字（左側）に変換してあります。
 - 𣘹　：　※［＃「木＋寅」、第4水準2-15-31］
 - 怰　：　※［＃「りっしんべん＋玄」、U+6030、418-3-22］
 - ‼　：　※［＃感嘆符二つ、1-8-75］
