@@ -929,3 +929,34 @@ Title Total : 29886 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
 Git Failed  : 0
 Start: Wed Mar 13 21:43:04 JST 2019
 End  : Wed Mar 13 21:46:18 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 14 21:16:40 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5561b40253..ed65feb7cf  master     -> origin/master
+Updating 5561b40253..ed65feb7cf
+Fast-forward
+ cards/001168/card58179.html                   |   2 +-
+ cards/001429/card58005.html                   | 234 ++++++++++++++++++++++++++
+ cards/001429/files/58005_67335.html           |  74 ++++++++
+ cards/001429/files/58005_ruby_67386.zip       | Bin 0 -> 7051 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |   8 +-
+ 84 files changed, 1995 insertions(+), 1690 deletions(-)
+Date: Thu Mar 14 21:18:04 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar 13 21:46 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 7051 Mar 14 21:17 ./aozorabunko/cards/001429/files/58005_ruby_67386.zip
+1/1: ./aozorabunko/cards/001429/files/58005_ruby_67386.zip
+>> add 58005_ruby_ainshutain_kyojuo_wagakunini_mukaete.txt
+>> add 58005_ruby_utf8_ainshutain_kyojuo_wagakunini_mukaete.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29888 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 14 21:16:40 JST 2019
+End  : Thu Mar 14 21:19:10 JST 2019
