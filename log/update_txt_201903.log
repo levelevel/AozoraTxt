@@ -960,3 +960,38 @@ Title Total : 29888 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
 Git Failed  : 0
 Start: Thu Mar 14 21:16:40 JST 2019
 End  : Thu Mar 14 21:19:10 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Mar 15 21:43:35 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ed65feb7cf..b3ee9d6ee9  master     -> origin/master
+Updating ed65feb7cf..b3ee9d6ee9
+Fast-forward
+ cards/000311/card46256.html                   | 229 +++++++++++
+ cards/000311/files/46256_67336.html           | 228 ++++++++++
+ cards/000311/files/46256_ruby_67387.zip       | Bin 0 -> 9607 bytes
+ cards/001429/card58005.html                   |   2 +-
+ cards/001783/card56524.html                   |  28 +-
+ cards/001783/files/56524_67545.html           | 572 ++++++++++++++++++++++++++
+ cards/001783/files/56524_ruby_67544.zip       | Bin 0 -> 80070 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |   8 +-
+ 113 files changed, 2785 insertions(+), 1749 deletions(-)
+Date: Fri Mar 15 21:44:21 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar 14 21:19 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 9607 Mar 15 21:44 ./aozorabunko/cards/000311/files/46256_ruby_67387.zip
+1/2: ./aozorabunko/cards/000311/files/46256_ruby_67387.zip
+>> add 46256_ruby_26nikki1943.txt
+>> add 46256_ruby_utf8_26nikki1943.txt
+   NPD: ./aozorabunko/cards/001783/files/56524_ruby_67544.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29890 (Accept:1/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Mar 15 21:43:35 JST 2019
+End  : Fri Mar 15 21:45:10 JST 2019

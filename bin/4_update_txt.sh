@@ -203,8 +203,10 @@ rm -f $TMP_ZIP_LST
 echo "#Creating $FILENAME_ILLEGAL"
 GetFilenameIllegal
 
-sort -u $ZIP_LIST_NPD > $ZIP_LIST_NPD.tmp
-mv $ZIP_LIST_NPD.tmp $ZIP_LIST_NPD
+if [ $ZIP_LIST_NPD -nt $UPDATE ]; then
+	sort -u $ZIP_LIST_NPD > $ZIP_LIST_NPD.tmp
+	mv $ZIP_LIST_NPD.tmp $ZIP_LIST_NPD
+fi
 
 touch $UPDATE
 
