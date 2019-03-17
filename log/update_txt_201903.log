@@ -1037,3 +1037,50 @@ Title Total : 29894 (Accept:2/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
 Git Failed  : 0
 Start: Sat Mar 16 07:40:25 JST 2019
 End  : Sat Mar 16 07:42:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar 17 21:04:43 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   63f0013f1b..5e52154d9c  master     -> origin/master
+Updating 63f0013f1b..5e52154d9c
+Fast-forward
+ cards/000117/card973.html                     |  26 +--
+ cards/001779/card57520.html                   |   2 +-
+ cards/001779/card58462.html                   |   2 +-
+ cards/001956/card58808.html                   | 229 +++++++++++++++++++++++++
+ cards/001956/files/58808_67340.html           |  66 ++++++++
+ cards/001956/files/58808_txt_67391.zip        | Bin 0 -> 3148 bytes
+ cards/001983/card58955.html                   | 234 ++++++++++++++++++++++++++
+ cards/001983/files/58955_67341.html           |  84 +++++++++
+ cards/001983/files/58955_ruby_67392.zip       | Bin 0 -> 3941 bytes
+ cards/002013/card59226.html                   | 229 +++++++++++++++++++++++++
+ cards/002013/files/59226_67339.html           |  76 +++++++++
+ cards/002013/files/59226_txt_67390.zip        | Bin 0 -> 2260 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  15 +-
+ 80 files changed, 2928 insertions(+), 2020 deletions(-)
+Date: Sun Mar 17 21:05:30 JST 2019
+#Updating
+-rwxrwx---+ 1 level level 0 Mar 16 07:42 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 3148 Mar 17 21:05 ./aozorabunko/cards/001956/files/58808_txt_67391.zip
+1/3: ./aozorabunko/cards/001956/files/58808_txt_67391.zip
+>> add 58808_txt_shiroto_toshokanjinno_shuki.txt
+>> add 58808_txt_utf8_shiroto_toshokanjinno_shuki.txt
+-rwxrwx---+ 1 level level 3941 Mar 17 21:05 ./aozorabunko/cards/001983/files/58955_ruby_67392.zip
+2/3: ./aozorabunko/cards/001983/files/58955_ruby_67392.zip
+>> add 58955_ruby_yokomitsusanto_kajiikun.txt
+>> add 58955_ruby_utf8_yokomitsusanto_kajiikun.txt
+-rwxrwx---+ 1 level level 2260 Mar 17 21:05 ./aozorabunko/cards/002013/files/59226_txt_67390.zip
+3/3: ./aozorabunko/cards/002013/files/59226_txt_67390.zip
+>> add 59226_txt_01jo_fukio_kushu.txt
+>> add 59226_txt_utf8_01jo_fukio_kushu.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29900 (Accept:3/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar 17 21:04:43 JST 2019
+End  : Sun Mar 17 21:06:22 JST 2019
