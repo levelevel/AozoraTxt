@@ -47,7 +47,8 @@ COMMIT_LIST=$TARGET_ETC/commit_all.txt
 GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"
 SJIS2UTF8="iconv -f CP932 -t utf8"
 #UNZIP="unzip -qoC -d $TMP"
-UNZIP="7z.exe x -y -o$TMP"		#画面表示は抑制されない
+UNZIP="/cygdrive/c/Program Files/7-Zip/7z.exe"
+UNZIP_OPT="x -y -o$TMP"
 GIT="/cygdrive/c/Program Files/Git/bin/git.exe"
 
 # 著作権存続作者IDリストを作成

@@ -4,3 +4,4 @@
 tmp/
 *.bak
 .vscode
+update_txt_last.log

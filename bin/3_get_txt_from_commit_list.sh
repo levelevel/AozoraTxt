@@ -109,7 +109,7 @@ do
 
 	echo "$text_count/$commit_total: $commit	$zip_file"
 	git -C $AOZORA_ROOT show "$commit:$zip_file" > $TMP_ZIP
-	$UNZIP "$TMP_ZIP" > /dev/null
+	"$UNZIP" $UNZIP_OPT "$TMP_ZIP" > /dev/null
 
 	#txtファイルの数をカウントする
 	txt_cnt=0

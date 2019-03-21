@@ -14,6 +14,7 @@ BIN=`dirname $0`
 . $BIN/common.sh
 
 LOG=$TARGET_ROOT/log/update_txt_`date +%Y%m`.log
+LAST_LOG=$TARGET_ROOT/log/update_txt_last.log
 GIT_LOG=$TARGET_ROOT/log/update_txt_git.log
 rm -f $GIT_LOG
 #touch -t 201901261430 $UPDATE
@@ -45,7 +46,9 @@ echo "#Date: $start_time"
 
 echo "#Git pull"
 if [ ! -e "$GIT" ]; then GIT="git"; fi
-"$GIT" -C $AOZORA_ROOT pull 2>&1 | egrep -v "^( index_pages/| create mode)" | grep -v "Checking out"
+"$GIT" -C $AOZORA_ROOT pull 2>&1 |
+	egrep -v "^( index_pages/| create mode)" |
+	grep -v "Checking out"
 
 echo "Date: `date`"
 echo "#Updating"
@@ -108,7 +111,7 @@ do
 
 	ls -l "$zip_file"
 	echo "$text_count/$zip_total: $zip_file"
-	$UNZIP "$zip_file" > /dev/null
+	"$UNZIP" $UNZIP_OPT "$zip_file" > /dev/null
 
 	#txtファイルの数をカウントする
 	txt_cnt=0
@@ -216,5 +219,4 @@ echo "Git Failed  : $git_failed"
 echo "Start: $start_time"
 echo "End  : `date`"
 
-} 2>&1 | tee -a $LOG
-
+} 2>&1 | tee $LAST_LOG | tee -a $LOG
