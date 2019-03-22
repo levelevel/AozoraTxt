@@ -211,6 +211,7 @@ if [ $ZIP_LIST_NPD -nt $UPDATE ]; then
 	mv $ZIP_LIST_NPD.tmp $ZIP_LIST_NPD
 fi
 
+mv $UPDATE $UPDATE.org
 touch $UPDATE
 
 text_total=`find $PERSON_TO $PERSON_TO_UTF8 -name "*.txt" | wc -l`
