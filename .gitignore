@@ -1,9 +1,5 @@
-/log_*
-/tmp
-/debug
 tmp/
 *.bak
 .vscode
-update_txt_last.log
-update
-update.org
+/etc/update
+/etc/update.org

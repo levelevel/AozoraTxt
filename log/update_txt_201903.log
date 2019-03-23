@@ -1266,3 +1266,50 @@ Title Total : 29916 (Accept:2/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
 Git Failed  : 0
 Start: Fri Mar 22 22:01:42 JST 2019
 End  : Fri Mar 22 22:02:00 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 23 09:26:10 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6c3aeecce4..adcda0889a  master     -> origin/master
+Updating 6c3aeecce4..adcda0889a
+Fast-forward
+ cards/000800/card56833.html                   | 234 +++++++++++++++++++++++
+ cards/000800/files/56833_67350.html           | 255 ++++++++++++++++++++++++++
+ cards/000800/files/56833_ruby_67401.zip       | Bin 0 -> 14532 bytes
+ cards/000879/card3769.html                    |   2 +-
+ cards/001154/card44552.html                   |   2 +-
+ cards/001154/card44553.html                   |   2 +-
+ cards/001154/card44554.html                   |   2 +-
+ cards/001403/card55080.html                   | 234 +++++++++++++++++++++++
+ cards/001403/files/55080_67351.html           |  86 +++++++++
+ cards/001403/files/55080_txt_67402.zip        | Bin 0 -> 5814 bytes
+ cards/001938/card58505.html                   |   2 +-
+ cards/001938/card58506.html                   |   2 +-
+ cards/002036/card59409.html                   | 231 +++++++++++++++++++++++
+ cards/002036/files/59409_67528.html           | 223 ++++++++++++++++++++++
+ cards/002036/files/59409_ruby_67527.zip       | Bin 0 -> 18596 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  15 +-
+ 87 files changed, 3628 insertions(+), 2370 deletions(-)
+Date: Sat Mar 23 09:26:58 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 22 22:01 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 14532 Mar 23 09:26 ./aozorabunko/cards/000800/files/56833_ruby_67401.zip
+1/3: ./aozorabunko/cards/000800/files/56833_ruby_67401.zip
+>> add 56833_ruby_isan.txt
+>> add 56833_ruby_utf8_isan.txt
+-rwxrwx---+ 1 level level 5814 Mar 23 09:26 ./aozorabunko/cards/001403/files/55080_txt_67402.zip
+2/3: ./aozorabunko/cards/001403/files/55080_txt_67402.zip
+>> add 55080_txt_toki_kanshoni_tsuite.txt
+>> add 55080_txt_utf8_toki_kanshoni_tsuite.txt
+   NPD: ./aozorabunko/cards/002036/files/59409_ruby_67527.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29920 (Accept:2/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Mar 23 09:26:10 JST 2019
+End  : Sat Mar 23 09:27:29 JST 2019

@@ -14,9 +14,13 @@ BIN=`dirname $0`
 . $BIN/common.sh
 
 LOG=$TARGET_ROOT/log/update_txt_`date +%Y%m`.log
-LAST_LOG=$TARGET_ROOT/log/update_txt_last.log
-GIT_LOG=$TARGET_ROOT/log/update_txt_git.log
-rm -f $GIT_LOG
+TARGET_LOGTMP=$TARGET_LOG/tmp
+mkdir -p $TARGET_LOGTMP
+LAST_LOG=$TARGET_LOGTMP/update_txt_last.log
+GIT_MV_LOG=$TARGET_LOGTMP/update_txt_git-mv.log
+GIT_PULL_LOG=$TARGET_LOGTMP/update_txt_git-pull.log
+UNZIP_LOG=$TARGET_LOGTMP/update_txt_unzip.log
+rm -f $GIT_MV_LOG $UNZIP_LOG
 #touch -t 201901261430 $UPDATE
 
 #Debug
@@ -47,8 +51,9 @@ echo "#Date: $start_time"
 echo "#Git pull"
 if [ ! -e "$GIT" ]; then GIT="git"; fi
 "$GIT" -C $AOZORA_ROOT pull 2>&1 |
-	egrep -v "^( index_pages/| create mode)" |
-	grep -v "Checking out"
+	grep -v "Checking out" |
+	tee $GIT_PULL_LOG |
+	egrep -v "^( index_pages/| create mode)"
 
 echo "Date: `date`"
 echo "#Updating"
@@ -109,9 +114,9 @@ do
 	fi
 	rm -rf $TMP/*
 
-	ls -l "$zip_file"
+	ls -l "$zip_file" | tee -a $UNZIP_LOG
 	echo "$text_count/$zip_total: $zip_file"
-	"$UNZIP" $UNZIP_OPT "$zip_file" > /dev/null
+	"$UNZIP" $UNZIP_OPT "$zip_file" >> $UNZIP_LOG
 
 	#txtファイルの数をカウントする
 	txt_cnt=0
@@ -154,7 +159,7 @@ do
 		fi
 		git -C $TARGET_ROOT mv \
 			"$git_person_to/$cur_target_file" \
-			"$git_person_to/$target_file" >> $GIT_LOG 2>&1
+			"$git_person_to/$target_file" >> $GIT_MV_LOG 2>&1
 		if [ $? -eq 0 ]; then
 			let rename_count++
 			echo ">> git-mv $cur_target_file $target_file"
@@ -184,7 +189,7 @@ do
 		fi
 		"$GIT" -C $TARGET_ROOT mv \
 			"$git_person_to_utf8/$cur_target_file_utf8" \
-			"$git_person_to_utf8/$target_file_utf8" >> $GIT_LOG 2>&1
+			"$git_person_to_utf8/$target_file_utf8" >> $GIT_MV_LOG 2>&1
 		if [ $? -eq 0 ]; then
 			let rename_count++
 			echo ">> git-mv $cur_target_file_utf8 $target_file_utf8"
