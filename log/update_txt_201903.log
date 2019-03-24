@@ -1313,3 +1313,51 @@ Title Total : 29920 (Accept:2/Reject:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
 Git Failed  : 0
 Start: Sat Mar 23 09:26:10 JST 2019
 End  : Sat Mar 23 09:27:29 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar 24 09:49:01 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   adcda0889a..01a93b3eee  master     -> origin/master
+Updating adcda0889a..01a93b3eee
+Fast-forward
+ cards/000800/card56833.html                   |   2 +-
+ cards/001190/card50913.html                   |   2 +-
+ cards/001192/card46832.html                   |   4 +-
+ cards/001192/card50914.html                   |   4 +-
+ cards/001199/card56654.html                   |   2 +-
+ cards/001389/card49703.html                   |   2 +-
+ cards/001389/card49704.html                   |   2 +-
+ cards/001389/card49705.html                   |   2 +-
+ cards/001393/card49853.html                   |   2 +-
+ cards/001393/card50710.html                   |   2 +-
+ cards/001393/card54926.html                   |   2 +-
+ cards/001393/card55606.html                   |   2 +-
+ cards/001393/card55880.html                   |   2 +-
+ cards/001393/card57320.html                   |   2 +-
+ cards/001403/card55080.html                   |   2 +-
+ cards/001407/card50112.html                   |   2 +-
+ cards/001749/card59317.html                   | 234 ++++++++++++++++++++++++++
+ cards/001749/files/59317_67352.html           |  96 +++++++++++
+ cards/001749/files/59317_ruby_67403.zip       | Bin 0 -> 998 bytes
+ cards/001952/card58702.html                   |   8 +-
+ cards/002036/card59409.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  14 +-
+ 98 files changed, 1523 insertions(+), 1202 deletions(-)
+Date: Sun Mar 24 09:50:11 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 23 09:27 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 998 Mar 24 09:50 ./aozorabunko/cards/001749/files/59317_ruby_67403.zip
+1/1: ./aozorabunko/cards/001749/files/59317_ruby_67403.zip
+>> add 59317_ruby_kajii_kun.txt
+>> add 59317_ruby_utf8_kajii_kun.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29922 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar 24 09:49:01 JST 2019
+End  : Sun Mar 24 09:51:00 JST 2019

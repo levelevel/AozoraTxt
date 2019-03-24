@@ -65,6 +65,7 @@ ls -l $UPDATE
 text_count=0
 accept_count=0
 reject_cnt=0
+update_count=0
 rename_count=0
 empty_count=0
 multi_count=0
@@ -146,6 +147,7 @@ do
 	if [ "$cur_target_file" == "" ]; then
 		echo ">> add $target_file"
 	elif [ "$cur_target_file" == "$target_file" ]; then
+		let update_count++
 		echo ">> update $target_file"
 		echo "update	$person_to/$target_file" >> $UPDATE_FILE
 	else 
@@ -220,7 +222,7 @@ mv $UPDATE $UPDATE.org
 touch $UPDATE
 
 text_total=`find $PERSON_TO $PERSON_TO_UTF8 -name "*.txt" | wc -l`
-echo "Title Total : $text_total (Accept:$accept_count/Reject:$reject_cnt/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
+echo "Title Total : $text_total (Accept:$accept_count/Reject:$reject_cnt/Update:$update_count/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
 echo "Git Failed  : $git_failed"
 echo "Start: $start_time"
 echo "End  : `date`"
