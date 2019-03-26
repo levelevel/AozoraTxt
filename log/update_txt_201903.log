@@ -1402,3 +1402,94 @@ Title Total : 29926 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Mon Mar 25 21:40:00 JST 2019
 End  : Mon Mar 25 21:41:34 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar 26 21:49:53 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7fcefa4ff7..1b86a713a7  master     -> origin/master
+Updating 7fcefa4ff7..1b86a713a7
+Fast-forward
+ cards/000064/card55662.html                   |   2 +-
+ cards/000158/card53185.html                   |   2 +-
+ cards/001492/card51195.html                   |   6 +-
+ cards/001492/files/51195_67538.html           |   8 +-
+ cards/001492/files/51195_ruby_67539.zip       | Bin 3443123 -> 3443123 bytes
+ cards/001561/card52527.html                   |  28 +-
+ cards/001561/files/52527_67622.html           | 218 +++++++
+ cards/001561/files/52527_txt_67621.zip        | Bin 0 -> 1690551 bytes
+ cards/001561/files/fig52527_01.png            | Bin 0 -> 203209 bytes
+ cards/001561/files/fig52527_02.png            | Bin 0 -> 263421 bytes
+ cards/001561/files/fig52527_03.png            | Bin 0 -> 23904 bytes
+ cards/001561/files/fig52527_04.png            | Bin 0 -> 31055 bytes
+ cards/001561/files/fig52527_05.png            | Bin 0 -> 73189 bytes
+ cards/001561/files/fig52527_06.png            | Bin 0 -> 86820 bytes
+ cards/001561/files/fig52527_07.png            | Bin 0 -> 410439 bytes
+ cards/001561/files/fig52527_08.png            | Bin 0 -> 124275 bytes
+ cards/001561/files/fig52527_09.png            | Bin 0 -> 94104 bytes
+ cards/001561/files/fig52527_10.png            | Bin 0 -> 91587 bytes
+ cards/001561/files/fig52527_11.png            | Bin 0 -> 185683 bytes
+ cards/001561/files/fig52527_12.png            | Bin 0 -> 70241 bytes
+ cards/001574/card52528.html                   |  28 +-
+ cards/001574/files/52528_67626.html           | 214 +++++++
+ cards/001574/files/52528_ruby_67625.zip       | Bin 0 -> 25922 bytes
+ cards/001579/card53505.html                   | 234 +++++++
+ cards/001579/card55432.html                   | 229 +++++++
+ cards/001579/card59235.html                   | 234 +++++++
+ cards/001579/files/53505_67357.html           | 152 +++++
+ cards/001579/files/53505_ruby_67408.zip       | Bin 0 -> 44934 bytes
+ cards/001579/files/55432_67355.html           | 148 +++++
+ cards/001579/files/55432_ruby_67406.zip       | Bin 0 -> 8866 bytes
+ cards/001579/files/59235_67356.html           | 141 ++++
+ cards/001579/files/59235_ruby_67407.zip       | Bin 0 -> 12892 bytes
+ cards/001600/card53757.html                   |  28 +-
+ cards/001600/files/53757_67624.html           | 886 ++++++++++++++++++++++++++
+ cards/001600/files/53757_ruby_67623.zip       | Bin 0 -> 8164741 bytes
+ cards/001600/files/fig53757_01.png            | Bin 0 -> 4219967 bytes
+ cards/001600/files/fig53757_02.png            | Bin 0 -> 229250 bytes
+ cards/001600/files/fig53757_03.png            | Bin 0 -> 374986 bytes
+ cards/001600/files/fig53757_04.png            | Bin 0 -> 330926 bytes
+ cards/001600/files/fig53757_05.png            | Bin 0 -> 180992 bytes
+ cards/001600/files/fig53757_06.png            | Bin 0 -> 594488 bytes
+ cards/001600/files/fig53757_07.png            | Bin 0 -> 481211 bytes
+ cards/001600/files/fig53757_08.png            | Bin 0 -> 387399 bytes
+ cards/001600/files/fig53757_09.png            | Bin 0 -> 389110 bytes
+ cards/001600/files/fig53757_10.png            | Bin 0 -> 50170 bytes
+ cards/001600/files/fig53757_11.png            | Bin 0 -> 133714 bytes
+ cards/001600/files/fig53757_12.png            | Bin 0 -> 98588 bytes
+ cards/001600/files/fig53757_13.png            | Bin 0 -> 252925 bytes
+ cards/001600/files/fig53757_14.png            | Bin 0 -> 126211 bytes
+ cards/001600/files/fig53757_15.png            | Bin 0 -> 10509 bytes
+ cards/001600/files/fig53757_16.png            | Bin 0 -> 21100 bytes
+ cards/001600/files/fig53757_17.png            | Bin 0 -> 210162 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  13 +-
+ 144 files changed, 5262 insertions(+), 3236 deletions(-)
+Date: Tue Mar 26 21:51:12 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 25 21:41 ./AozoraTxt/etc/update
+   NPD: ./aozorabunko/cards/001492/files/51195_ruby_67539.zip
+   NPD: ./aozorabunko/cards/001561/files/52527_txt_67621.zip
+   NPD: ./aozorabunko/cards/001574/files/52528_ruby_67625.zip
+-rwxrwx---+ 1 level level 44934 Mar 26 21:51 ./aozorabunko/cards/001579/files/53505_ruby_67408.zip
+4/7: ./aozorabunko/cards/001579/files/53505_ruby_67408.zip
+>> add 53505_ruby_warewa_utaedomo_yaburekabure.txt
+>> add 53505_ruby_utf8_warewa_utaedomo_yaburekabure.txt
+-rwxrwx---+ 1 level level 8866 Mar 26 21:51 ./aozorabunko/cards/001579/files/55432_ruby_67406.zip
+5/7: ./aozorabunko/cards/001579/files/55432_ruby_67406.zip
+>> add 55432_ruby_kishade_atta_onna.txt
+>> add 55432_ruby_utf8_kishade_atta_onna.txt
+-rwxrwx---+ 1 level level 12892 Mar 26 21:51 ./aozorabunko/cards/001579/files/59235_ruby_67407.zip
+6/7: ./aozorabunko/cards/001579/files/59235_ruby_67407.zip
+>> add 59235_ruby_shogaino_kakine.txt
+>> add 59235_ruby_utf8_shogaino_kakine.txt
+   NPD: ./aozorabunko/cards/001600/files/53757_ruby_67623.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29932 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:4)
+Git Failed  : 0
+Start: Tue Mar 26 21:49:53 JST 2019
+End  : Tue Mar 26 21:52:05 JST 2019

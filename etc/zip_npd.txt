@@ -92,7 +92,10 @@
 ./aozorabunko/cards/001506/files/56822_ruby_57117.zip
 ./aozorabunko/cards/001506/files/56823_ruby_53766.zip
 ./aozorabunko/cards/001506/files/56911_ruby_61972.zip
+./aozorabunko/cards/001561/files/52527_txt_67621.zip
+./aozorabunko/cards/001574/files/52528_ruby_67625.zip
 ./aozorabunko/cards/001591/files/53534_ruby_67438.zip
+./aozorabunko/cards/001600/files/53757_ruby_67623.zip
 ./aozorabunko/cards/001657/files/54333_ruby_67471.zip
 ./aozorabunko/cards/001686/files/54924_txt_47244.zip
 ./aozorabunko/cards/001686/files/54925_txt_53435.zip
