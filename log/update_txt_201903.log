@@ -1493,3 +1493,78 @@ Title Total : 29932 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Tue Mar 26 21:49:53 JST 2019
 End  : Tue Mar 26 21:52:05 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 27 21:15:29 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1b86a713a7..fe049cf81d  master     -> origin/master
+Updating 1b86a713a7..fe049cf81d
+Fast-forward
+ cards/001111/card42789.html                   |    2 +-
+ cards/001579/card53505.html                   |    2 +-
+ cards/001579/card55432.html                   |    2 +-
+ cards/001579/card59235.html                   |    2 +-
+ cards/002043/card59605.html                   |  231 +++
+ cards/002043/files/59605_67424.html           | 2506 +++++++++++++++++++++++++
+ cards/002043/files/59605_ruby_67423.zip       |  Bin 0 -> 10432733 bytes
+ cards/002043/files/fig59605_01.png            |  Bin 0 -> 1082136 bytes
+ cards/002043/files/fig59605_02.png            |  Bin 0 -> 653628 bytes
+ cards/002043/files/fig59605_03.png            |  Bin 0 -> 678293 bytes
+ cards/002043/files/fig59605_04.png            |  Bin 0 -> 585538 bytes
+ cards/002043/files/fig59605_05.png            |  Bin 0 -> 1301042 bytes
+ cards/002043/files/fig59605_06.png            |  Bin 0 -> 682729 bytes
+ cards/002043/files/fig59605_07.png            |  Bin 0 -> 574078 bytes
+ cards/002043/files/fig59605_08.png            |  Bin 0 -> 892534 bytes
+ cards/002043/files/fig59605_09.png            |  Bin 0 -> 643684 bytes
+ cards/002043/files/fig59605_10.png            |  Bin 0 -> 602546 bytes
+ cards/002043/files/fig59605_11.png            |  Bin 0 -> 1234835 bytes
+ cards/002043/files/fig59605_12.png            |  Bin 0 -> 702949 bytes
+ cards/002043/files/fig59605_13.png            |  Bin 0 -> 637608 bytes
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |   10 +-
+ 96 files changed, 4250 insertions(+), 1527 deletions(-)
+Date: Wed Mar 27 21:16:27 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 26 21:52 ./AozoraTxt/etc/update
+   NPD: ./aozorabunko/cards/002043/files/59605_ruby_67423.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29932 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Mar 27 21:15:29 JST 2019
+End  : Wed Mar 27 21:17:04 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 28 22:46:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fe049cf81d..7f4db438a6  master     -> origin/master
+Updating fe049cf81d..7f4db438a6
+Fast-forward
+ cards/001670/card56351.html                   | 234 +++++++++++++
+ cards/001670/files/56351_67358.html           | 486 ++++++++++++++++++++++++++
+ cards/001670/files/56351_ruby_67409.zip       | Bin 0 -> 15627 bytes
+ cards/002043/card59605.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |   8 +-
+ 43 files changed, 1813 insertions(+), 1096 deletions(-)
+Date: Thu Mar 28 22:48:57 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 27 21:17 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 15627 Mar 28 22:48 ./aozorabunko/cards/001670/files/56351_ruby_67409.zip
+1/1: ./aozorabunko/cards/001670/files/56351_ruby_67409.zip
+>> add 56351_ruby_083teppo_jiru.txt
+>> add 56351_ruby_utf8_083teppo_jiru.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29934 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 28 22:46:48 JST 2019
+End  : Thu Mar 28 22:50:51 JST 2019

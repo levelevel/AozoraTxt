@@ -53,7 +53,7 @@ if [ ! -e "$GIT" ]; then GIT="git"; fi
 "$GIT" -C $AOZORA_ROOT pull 2>&1 |
 	grep -v "Checking out" |
 	tee $GIT_PULL_LOG |
-	egrep -v "^( index_pages/| create mode)"
+	egrep -v "^( index_pages/|/fig| create mode)"
 
 echo "Date: `date`"
 echo "#Updating"
