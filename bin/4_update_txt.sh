@@ -20,7 +20,6 @@ LAST_LOG=$TARGET_LOGTMP/update_txt_last.log
 GIT_MV_LOG=$TARGET_LOGTMP/update_txt_git-mv.log
 GIT_PULL_LOG=$TARGET_LOGTMP/update_txt_git-pull.log
 UNZIP_LOG=$TARGET_LOGTMP/update_txt_unzip.log
-rm -f $GIT_MV_LOG $UNZIP_LOG
 #touch -t 201901261430 $UPDATE
 
 #Debug
@@ -52,7 +51,7 @@ echo "#Git pull"
 if [ ! -e "$GIT" ]; then GIT="git"; fi
 "$GIT" -C $AOZORA_ROOT pull 2>&1 |
 	grep -v "Checking out" |
-	tee $GIT_PULL_LOG |
+	tee -a $GIT_PULL_LOG |
 	egrep -v "^( index_pages/|/fig| create mode)"
 
 echo "Date: `date`"

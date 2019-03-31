@@ -1,0 +1,45 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr  1 07:26:02 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b1a4bc1392..a459154439  master     -> origin/master
+Updating b1a4bc1392..a459154439
+Fast-forward
+ cards/000255/card47251.html                   | 234 ++++++++++++++++++++++++++
+ cards/000255/card47270.html                   | 234 ++++++++++++++++++++++++++
+ cards/000255/files/47251_67705.html           |  75 +++++++++
+ cards/000255/files/47251_ruby_67653.zip       | Bin 0 -> 2816 bytes
+ cards/000255/files/47270_67706.html           |  78 +++++++++
+ cards/000255/files/47270_ruby_67654.zip       | Bin 0 -> 2561 bytes
+ cards/000933/card47800.html                   |   2 +-
+ cards/001561/card52357.html                   |  28 ++-
+ cards/001561/files/52357_67811.html           | 147 ++++++++++++++++
+ cards/001561/files/52357_txt_67810.zip        | Bin 0 -> 233523 bytes
+ cards/001561/files/fig52357_01.png            | Bin 0 -> 67346 bytes
+ cards/001561/files/fig52357_02.png            | Bin 0 -> 55644 bytes
+ cards/001561/files/fig52357_03.png            | Bin 0 -> 104150 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  15 +-
+ 113 files changed, 2473 insertions(+), 1700 deletions(-)
+Date: Mon Apr  1 07:27:17 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Mar 31 09:15 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 2816 Apr  1 07:27 ./aozorabunko/cards/000255/files/47251_ruby_67653.zip
+1/3: ./aozorabunko/cards/000255/files/47251_ruby_67653.zip
+>> add 47251_ruby_gozon_yotabanashi.txt
+>> add 47251_ruby_utf8_gozon_yotabanashi.txt
+-rwxrwx---+ 1 level level 2561 Apr  1 07:27 ./aozorabunko/cards/000255/files/47270_ruby_67654.zip
+2/3: ./aozorabunko/cards/000255/files/47270_ruby_67654.zip
+>> add 47270_ruby_matamata_yotabanashi.txt
+>> add 47270_ruby_utf8_matamata_yotabanashi.txt
+   NPD: ./aozorabunko/cards/001561/files/52357_txt_67810.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29946 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Apr  1 07:26:02 JST 2019
+End  : Mon Apr  1 07:28:28 JST 2019
