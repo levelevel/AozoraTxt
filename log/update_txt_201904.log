@@ -43,3 +43,56 @@ Title Total : 29946 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Mon Apr  1 07:26:02 JST 2019
 End  : Mon Apr  1 07:28:28 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr  2 20:21:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a459154439..7cf6a0f347  master     -> origin/master
+Updating a459154439..7cf6a0f347
+Fast-forward
+ cards/000019/card58848.html                   | 238 ++++++++++++++++++++++++
+ cards/000019/files/58848_67709.html           | 249 ++++++++++++++++++++++++++
+ cards/000019/files/58848_ruby_67657.zip       | Bin 0 -> 23859 bytes
+ cards/000255/card47251.html                   |  12 +-
+ cards/000255/card47270.html                   |   2 +-
+ cards/000255/files/47251_67705.html           |   1 +
+ cards/000255/files/47251_ruby_67653.zip       | Bin 2816 -> 2767 bytes
+ cards/001168/card58184.html                   | 229 +++++++++++++++++++++++
+ cards/001168/card58204.html                   | 229 +++++++++++++++++++++++
+ cards/001168/files/58184_67708.html           |  63 +++++++
+ cards/001168/files/58184_txt_67656.zip        | Bin 0 -> 1244 bytes
+ cards/001168/files/58204_67707.html           |  66 +++++++
+ cards/001168/files/58204_txt_67655.zip        | Bin 0 -> 1052 bytes
+ cgi/npc.idx                                   |   2 +-
+ guide/koyomi.html                             |  11 +-
+ index.html                                    |  13 +-
+ 82 files changed, 2479 insertions(+), 1412 deletions(-)
+Date: Tue Apr  2 20:23:06 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  1 07:28 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 23859 Apr  2 20:23 ./aozorabunko/cards/000019/files/58848_ruby_67657.zip
+1/4: ./aozorabunko/cards/000019/files/58848_ruby_67657.zip
+>> add 58848_ruby_ningyono_hime.txt
+>> add 58848_ruby_utf8_ningyono_hime.txt
+-rwxrwx---+ 1 level level 2767 Apr  2 20:23 ./aozorabunko/cards/000255/files/47251_ruby_67653.zip
+2/4: ./aozorabunko/cards/000255/files/47251_ruby_67653.zip
+>> git-mv 47251_ruby_gozon_yotabanashi.txt 47251_ruby_gozonji_yotabanashi.txt
+>> git-mv 47251_ruby_utf8_gozon_yotabanashi.txt 47251_ruby_utf8_gozonji_yotabanashi.txt
+-rwxrwx---+ 1 level level 1244 Apr  2 20:23 ./aozorabunko/cards/001168/files/58184_txt_67656.zip
+3/4: ./aozorabunko/cards/001168/files/58184_txt_67656.zip
+>> add 58184_txt_bi_watashiha_bijutsunokotoni.txt
+>> add 58184_txt_utf8_bi_watashiha_bijutsunokotoni.txt
+-rwxrwx---+ 1 level level 1052 Apr  2 20:23 ./aozorabunko/cards/001168/files/58204_txt_67655.zip
+4/4: ./aozorabunko/cards/001168/files/58204_txt_67655.zip
+>> add 58204_txt_bi_ittan_konoyoni.txt
+>> add 58204_txt_utf8_bi_ittan_konoyoni.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29952 (Accept:4/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr  2 20:21:48 JST 2019
+End  : Tue Apr  2 20:24:19 JST 2019
