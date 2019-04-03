@@ -96,3 +96,47 @@ Title Total : 29952 (Accept:4/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Tue Apr  2 20:21:48 JST 2019
 End  : Tue Apr  2 20:24:19 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr  4 00:28:44 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7cf6a0f347..0cc4c36808  master     -> origin/master
+Updating 7cf6a0f347..0cc4c36808
+Fast-forward
+ cards/000019/card58848.html                   |   2 +-
+ cards/000058/card57335.html                   | 234 ++++++++++++++++++++++++++
+ cards/000058/card57970.html                   | 234 ++++++++++++++++++++++++++
+ cards/000058/files/57335_67710.html           |  82 +++++++++
+ cards/000058/files/57335_ruby_67658.zip       | Bin 0 -> 3650 bytes
+ cards/000058/files/57970_67711.html           |  75 +++++++++
+ cards/000058/files/57970_ruby_67659.zip       | Bin 0 -> 4106 bytes
+ cards/001168/card46368.html                   |   2 +-
+ cards/001168/card46374.html                   |   2 +-
+ cards/001168/card46375.html                   |   2 +-
+ cards/001168/card46379.html                   |   2 +-
+ cards/001168/card58184.html                   |   2 +-
+ cards/001168/card58204.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  13 +-
+ 119 files changed, 2213 insertions(+), 1597 deletions(-)
+Date: Thu Apr  4 00:30:25 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  2 20:24 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 3650 Apr  4 00:30 ./aozorabunko/cards/000058/files/57335_ruby_67658.zip
+1/2: ./aozorabunko/cards/000058/files/57335_ruby_67658.zip
+>> add 57335_ruby_asakusa_mode.txt
+>> add 57335_ruby_utf8_asakusa_mode.txt
+-rwxrwx---+ 1 level level 4106 Apr  4 00:30 ./aozorabunko/cards/000058/files/57970_ruby_67659.zip
+2/2: ./aozorabunko/cards/000058/files/57970_ruby_67659.zip
+>> add 57970_ruby_yawatano_mori.txt
+>> add 57970_ruby_utf8_yawatano_mori.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29956 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr  4 00:28:44 JST 2019
+End  : Thu Apr  4 00:31:29 JST 2019
