@@ -140,3 +140,35 @@ Title Total : 29956 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Thu Apr  4 00:28:44 JST 2019
 End  : Thu Apr  4 00:31:29 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr  4 20:20:18 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0cc4c36808..cef99d21a0  master     -> origin/master
+Updating 0cc4c36808..cef99d21a0
+Fast-forward
+ cards/000058/card57335.html                   |   2 +-
+ cards/000058/card57970.html                   |   2 +-
+ cards/001670/card56362.html                   | 234 +++++++++++++++
+ cards/001670/files/56362_67712.html           | 393 ++++++++++++++++++++++++++
+ cards/001670/files/56362_ruby_67660.zip       | Bin 0 -> 14110 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |   9 +-
+ 73 files changed, 1911 insertions(+), 1288 deletions(-)
+Date: Thu Apr  4 20:21:43 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  4 00:31 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 14110 Apr  4 20:21 ./aozorabunko/cards/001670/files/56362_ruby_67660.zip
+1/1: ./aozorabunko/cards/001670/files/56362_ruby_67660.zip
+>> add 56362_ruby_090kinseino_fu.txt
+>> add 56362_ruby_utf8_090kinseino_fu.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29958 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr  4 20:20:18 JST 2019
+End  : Thu Apr  4 20:22:49 JST 2019
