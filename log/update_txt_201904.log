@@ -215,3 +215,42 @@ Title Total : 29962 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Fri Apr  5 21:12:18 JST 2019
 End  : Fri Apr  5 21:14:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Apr  6 07:44:21 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   00e36cbf83..c44266fa88  master     -> origin/master
+Updating 00e36cbf83..c44266fa88
+Fast-forward
+ cards/001224/card46113.html                   | 229 ++++++++++++++++++++++++++
+ cards/001224/card46115.html                   | 229 ++++++++++++++++++++++++++
+ cards/001224/files/46113_67716.html           | 185 +++++++++++++++++++++
+ cards/001224/files/46113_ruby_67664.zip       | Bin 0 -> 15200 bytes
+ cards/001224/files/46115_67715.html           | 224 +++++++++++++++++++++++++
+ cards/001224/files/46115_ruby_67663.zip       | Bin 0 -> 14984 bytes
+ cards/001749/card55869.html                   |   2 +-
+ cards/001964/card58876.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  12 +-
+ 119 files changed, 3024 insertions(+), 2165 deletions(-)
+Date: Sat Apr  6 07:45:41 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  5 21:14 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 15200 Apr  6 07:45 ./aozorabunko/cards/001224/files/46113_ruby_67664.zip
+1/2: ./aozorabunko/cards/001224/files/46113_ruby_67664.zip
+>> add 46113_ruby_utakatano_ki.txt
+>> add 46113_ruby_utf8_utakatano_ki.txt
+-rwxrwx---+ 1 level level 14984 Apr  6 07:45 ./aozorabunko/cards/001224/files/46115_ruby_67663.zip
+2/2: ./aozorabunko/cards/001224/files/46115_ruby_67663.zip
+>> add 46115_ruby_aohige_283ninno_tsuma.txt
+>> add 46115_ruby_utf8_aohige_283ninno_tsuma.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29966 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Apr  6 07:44:21 JST 2019
+End  : Sat Apr  6 07:46:31 JST 2019
