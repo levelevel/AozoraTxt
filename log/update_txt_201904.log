@@ -172,3 +172,46 @@ Title Total : 29958 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Thu Apr  4 20:20:18 JST 2019
 End  : Thu Apr  4 20:22:49 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr  5 21:12:18 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cef99d21a0..00e36cbf83  master     -> origin/master
+Updating cef99d21a0..00e36cbf83
+Fast-forward
+ access_ranking/2019_02_txt.html               | 3066 +++++++++++++++++++++++++
+ access_ranking/2019_02_xhtml.html             | 3066 +++++++++++++++++++++++++
+ access_ranking/2019_03_txt.html               | 3066 +++++++++++++++++++++++++
+ access_ranking/2019_03_xhtml.html             | 3066 +++++++++++++++++++++++++
+ access_ranking/index.html                     |   10 +-
+ cards/001670/card56362.html                   |    2 +-
+ cards/001749/card55869.html                   |  234 ++
+ cards/001749/files/55869_67714.html           | 1132 +++++++++
+ cards/001749/files/55869_ruby_67662.zip       |  Bin 0 -> 9018 bytes
+ cards/001964/card58876.html                   |  229 ++
+ cards/001964/files/58876_67713.html           |   62 +
+ cards/001964/files/58876_txt_67661.zip        |  Bin 0 -> 3991 bytes
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |   11 +-
+ 63 files changed, 14866 insertions(+), 932 deletions(-)
+Date: Fri Apr  5 21:13:16 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  4 20:22 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 9018 Apr  5 21:13 ./aozorabunko/cards/001749/files/55869_ruby_67662.zip
+1/2: ./aozorabunko/cards/001749/files/55869_ruby_67662.zip
+>> add 55869_ruby_tankashu_himawari.txt
+>> add 55869_ruby_utf8_tankashu_himawari.txt
+-rwxrwx---+ 1 level level 3991 Apr  5 21:13 ./aozorabunko/cards/001964/files/58876_txt_67661.zip
+2/2: ./aozorabunko/cards/001964/files/58876_txt_67661.zip
+>> add 58876_txt_amakawa_keisaburo_shuki.txt
+>> add 58876_txt_utf8_amakawa_keisaburo_shuki.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29962 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Apr  5 21:12:18 JST 2019
+End  : Fri Apr  5 21:14:07 JST 2019
