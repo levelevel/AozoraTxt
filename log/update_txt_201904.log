@@ -293,3 +293,42 @@ Title Total : 29970 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Sun Apr  7 08:18:28 JST 2019
 End  : Sun Apr  7 08:20:13 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr  8 20:47:08 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   aafbb9f1aa..a5d3b6399d  master     -> origin/master
+Updating aafbb9f1aa..a5d3b6399d
+Fast-forward
+ cards/000255/card48276.html                   |  236 +
+ cards/000255/files/48276_67719.html           | 5834 +++++++++++++++++++++++++
+ cards/000255/files/48276_ruby_67667.zip       |  Bin 0 -> 190747 bytes
+ cards/000933/card47726.html                   |  234 +
+ cards/000933/files/47726_67720.html           |  286 ++
+ cards/000933/files/47726_ruby_67668.zip       |  Bin 0 -> 25033 bytes
+ cards/001475/card51650.html                   |    2 +-
+ cards/001475/card53164.html                   |    2 +-
+ cgi/npc.idx                                   |    2 +-
+ index.html                                    |   18 +-
+ 81 files changed, 8074 insertions(+), 1151 deletions(-)
+Date: Mon Apr  8 20:48:30 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  7 08:20 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 190747 Apr  8 20:48 ./aozorabunko/cards/000255/files/48276_ruby_67667.zip
+1/2: ./aozorabunko/cards/000255/files/48276_ruby_67667.zip
+>> add 48276_ruby_chikemuri_tenmeijin.txt
+>> add 48276_ruby_utf8_chikemuri_tenmeijin.txt
+-rwxrwx---+ 1 level level 25033 Apr  8 20:48 ./aozorabunko/cards/000933/files/47726_ruby_67668.zip
+2/2: ./aozorabunko/cards/000933/files/47726_ruby_67668.zip
+>> add 47726_ruby_yamano_shimotsuki_mai.txt
+>> add 47726_ruby_utf8_yamano_shimotsuki_mai.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29974 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr  8 20:47:08 JST 2019
+End  : Mon Apr  8 20:49:21 JST 2019
