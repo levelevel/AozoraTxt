@@ -332,3 +332,49 @@ Title Total : 29974 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Mon Apr  8 20:47:08 JST 2019
 End  : Mon Apr  8 20:49:21 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr  9 20:54:15 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a5d3b6399d..7262c50cba  master     -> origin/master
+Updating a5d3b6399d..7262c50cba
+Fast-forward
+ cards/000255/card48276.html                   |   2 +-
+ cards/000933/card47726.html                   |   2 +-
+ cards/001763/card58594.html                   | 234 ++++++++++++++++++++++++++
+ cards/001763/card58826.html                   | 234 ++++++++++++++++++++++++++
+ cards/001763/card58828.html                   | 234 ++++++++++++++++++++++++++
+ cards/001763/files/58594_67722.html           |  69 ++++++++
+ cards/001763/files/58594_txt_67670.zip        | Bin 0 -> 2519 bytes
+ cards/001763/files/58826_67723.html           |  72 ++++++++
+ cards/001763/files/58826_txt_67671.zip        | Bin 0 -> 2920 bytes
+ cards/001763/files/58828_67721.html           |  83 +++++++++
+ cards/001763/files/58828_txt_67669.zip        | Bin 0 -> 3291 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  13 +-
+ 80 files changed, 2008 insertions(+), 1092 deletions(-)
+Date: Tue Apr  9 20:56:08 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  8 20:49 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 2519 Apr  9 20:55 ./aozorabunko/cards/001763/files/58594_txt_67670.zip
+1/3: ./aozorabunko/cards/001763/files/58594_txt_67670.zip
+>> add 58594_txt_nekutaito_sutekki.txt
+>> add 58594_txt_utf8_nekutaito_sutekki.txt
+-rwxrwx---+ 1 level level 2920 Apr  9 20:55 ./aozorabunko/cards/001763/files/58826_txt_67671.zip
+2/3: ./aozorabunko/cards/001763/files/58826_txt_67671.zip
+>> add 58826_txt_tanpen_shosetsuwa_naze_fushinka.txt
+>> add 58826_txt_utf8_tanpen_shosetsuwa_naze_fushinka.txt
+-rwxrwx---+ 1 level level 3291 Apr  9 20:55 ./aozorabunko/cards/001763/files/58828_txt_67669.zip
+3/3: ./aozorabunko/cards/001763/files/58828_txt_67669.zip
+>> add 58828_txt_hito_samazamano_kurono_hanashi.txt
+>> add 58828_txt_utf8_hito_samazamano_kurono_hanashi.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29980 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr  9 20:54:15 JST 2019
+End  : Tue Apr  9 20:57:50 JST 2019
