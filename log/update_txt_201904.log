@@ -418,3 +418,42 @@ Title Total : 29984 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Wed Apr 10 21:08:23 JST 2019
 End  : Wed Apr 10 21:12:01 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 11 07:52:50 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e4279fcb8f..3b05c554e4  master     -> origin/master
+Updating e4279fcb8f..3b05c554e4
+Fast-forward
+ cards/000026/card51333.html                   | 229 +++++++++++++++++++++++++
+ cards/000026/files/51333_67726.html           |  77 +++++++++
+ cards/000026/files/51333_ruby_67674.zip       | Bin 0 -> 1119 bytes
+ cards/001569/card59205.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59205_67727.html           | 211 +++++++++++++++++++++++
+ cards/001569/files/59205_ruby_67675.zip       | Bin 0 -> 16371 bytes
+ cards/001867/card58330.html                   |   2 +-
+ cards/001867/card58331.html                   |   2 +-
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  12 +-
+ 62 files changed, 1808 insertions(+), 1061 deletions(-)
+Date: Thu Apr 11 07:54:26 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr 10 21:11 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 1119 Apr 11 07:54 ./aozorabunko/cards/000026/files/51333_ruby_67674.zip
+1/2: ./aozorabunko/cards/000026/files/51333_ruby_67674.zip
+>> add 51333_ruby_waga_inori.txt
+>> add 51333_ruby_utf8_waga_inori.txt
+-rwxrwx---+ 1 level level 16371 Apr 11 07:54 ./aozorabunko/cards/001569/files/59205_ruby_67675.zip
+2/2: ./aozorabunko/cards/001569/files/59205_ruby_67675.zip
+>> add 59205_ruby_yuki_konjaku_monogatari.txt
+>> add 59205_ruby_utf8_yuki_konjaku_monogatari.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29988 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 11 07:52:50 JST 2019
+End  : Thu Apr 11 07:55:17 JST 2019
