@@ -378,3 +378,43 @@ Title Total : 29980 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Tue Apr  9 20:54:15 JST 2019
 End  : Tue Apr  9 20:57:50 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Apr 10 21:08:23 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7262c50cba..e4279fcb8f  master     -> origin/master
+Updating 7262c50cba..e4279fcb8f
+Fast-forward
+ cards/001763/card58594.html                   |   2 +-
+ cards/001763/card58826.html                   |   2 +-
+ cards/001763/card58828.html                   |   2 +-
+ cards/001867/card58330.html                   | 234 ++++++++++++++++++++++++++
+ cards/001867/card58331.html                   | 234 ++++++++++++++++++++++++++
+ cards/001867/files/58330_67725.html           |  74 ++++++++
+ cards/001867/files/58330_ruby_67673.zip       | Bin 0 -> 2960 bytes
+ cards/001867/files/58331_67724.html           |  91 ++++++++++
+ cards/001867/files/58331_ruby_67672.zip       | Bin 0 -> 5478 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  11 +-
+ 47 files changed, 1187 insertions(+), 561 deletions(-)
+Date: Wed Apr 10 21:09:52 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr  9 20:57 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 2960 Apr 10 21:09 ./aozorabunko/cards/001867/files/58330_ruby_67673.zip
+1/2: ./aozorabunko/cards/001867/files/58330_ruby_67673.zip
+>> add 58330_ruby_rojinto_kodokuna_musume.txt
+>> add 58330_ruby_utf8_rojinto_kodokuna_musume.txt
+-rwxrwx---+ 1 level level 5478 Apr 10 21:09 ./aozorabunko/cards/001867/files/58331_ruby_67672.zip
+2/2: ./aozorabunko/cards/001867/files/58331_ruby_67672.zip
+>> add 58331_ruby_rojinto_hato.txt
+>> add 58331_ruby_utf8_rojinto_hato.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 29984 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Apr 10 21:08:23 JST 2019
+End  : Wed Apr 10 21:12:01 JST 2019
