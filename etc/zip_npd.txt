@@ -134,6 +134,7 @@
 ./aozorabunko/cards/001882/files/58275_ruby_62237.zip
 ./aozorabunko/cards/001885/files/58012_ruby_59799.zip
 ./aozorabunko/cards/001885/files/58274_ruby_60921.zip
+./aozorabunko/cards/001885/files/59516_ruby_67843.zip
 ./aozorabunko/cards/001916/files/58175_ruby_60558.zip
 ./aozorabunko/cards/001917/files/58173_ruby_60562.zip
 ./aozorabunko/cards/001918/files/58174_ruby_60560.zip
