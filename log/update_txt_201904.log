@@ -683,3 +683,36 @@ Title Total : 29998 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Wed Apr 17 20:49:12 JST 2019
 End  : Wed Apr 17 20:51:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 18 21:32:24 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b5334e8bd6..5c1fc524fa  master     -> origin/master
+Updating b5334e8bd6..5c1fc524fa
+Fast-forward
+ cards/001597/card53694.html                   |   2 +-
+ cards/001597/card53697.html                   |   2 +-
+ cards/001597/card53709.html                   |   2 +-
+ cards/001997/card59065.html                   | 229 ++++++++++++++++++++++++++
+ cards/001997/files/59065_67738.html           | 115 +++++++++++++
+ cards/001997/files/59065_txt_67686.zip        | Bin 0 -> 2596 bytes
+ cgi/npc.idx                                   |   2 +-
+ index.html                                    |  10 +-
+ 39 files changed, 653 insertions(+), 312 deletions(-)
+Date: Thu Apr 18 21:33:14 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr 17 20:51 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 2596 Apr 18 21:33 ./aozorabunko/cards/001997/files/59065_txt_67686.zip
+1/1: ./aozorabunko/cards/001997/files/59065_txt_67686.zip
+>> add 59065_txt_romanchikkuna_ehon.txt
+>> add 59065_txt_utf8_romanchikkuna_ehon.txt
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30000 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 18 21:32:24 JST 2019
+End  : Thu Apr 18 21:33:44 JST 2019
