@@ -203,6 +203,12 @@ do
 	$SJIS2UTF8 "$person_to/$target_file" |
 	$GAIJI2UTF8 > "$person_to_utf8/$target_file_utf8"
 	touch -r "$person_to/$target_file" "$person_to_utf8/$target_file_utf8"
+	#タイトル、著者を表示する
+	while read line
+	do
+		if [ "$line" == "" ]; then break; fi
+		echo -n "$line、"
+	done < "$person_to_utf8/$target_file_utf8" 
 done < $TMP_ZIP_LST
 
 rm -r $TMP
