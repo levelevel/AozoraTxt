@@ -817,3 +817,46 @@ Title Total : 30008 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Sun Apr 21 08:18:49 JST 2019
 End  : Sun Apr 21 08:20:58 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr 22 20:49:24 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1e3295f447..e32c3364d7  master     -> origin/master
+Updating 1e3295f447..e32c3364d7
+Fast-forward
+ cards/000096/card2381.html                    |  10 +-
+ cards/000096/files/2381_13352.html            |  17 +-
+ cards/000096/files/2381_ruby_727.zip          | Bin 8628 -> 8689 bytes
+ cards/000416/card56989.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/card56997.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/files/56989_67743.html           |  68 ++++++++
+ cards/000416/files/56989_ruby_67691.zip       | Bin 0 -> 2581 bytes
+ cards/000416/files/56997_67744.html           |  64 +++++++
+ cards/000416/files/56997_ruby_67692.zip       | Bin 0 -> 1608 bytes
+ cards/001869/card57812.html                   |   2 +-
+ 73 files changed, 2884 insertions(+), 2288 deletions(-)
+Date: Mon Apr 22 20:50:28 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr 21 08:20 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 8689 Apr 22 20:50 ./aozorabunko/cards/000096/files/2381_ruby_727.zip
+1/3: ./aozorabunko/cards/000096/files/2381_ruby_727.zip
+>> update 2381_ruby_binzume_jigoku.txt
+>> update 2381_ruby_utf8_binzume_jigoku.txt
+瓶詰地獄、夢野久作、-rwxrwx---+ 1 level level 2581 Apr 22 20:50 ./aozorabunko/cards/000416/files/56989_ruby_67691.zip
+2/3: ./aozorabunko/cards/000416/files/56989_ruby_67691.zip
+>> add 56989_ruby_saikinno_kanso.txt
+>> add 56989_ruby_utf8_saikinno_kanso.txt
+最近の感想、伊藤野枝、-rwxrwx---+ 1 level level 1608 Apr 22 20:50 ./aozorabunko/cards/000416/files/56997_ruby_67692.zip
+3/3: ./aozorabunko/cards/000416/files/56997_ruby_67692.zip
+>> add 56997_ruby_shosoku.txt
+>> add 56997_ruby_utf8_shosoku.txt
+消息、伊藤野枝、#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30012 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr 22 20:49:24 JST 2019
+End  : Mon Apr 22 20:51:39 JST 2019
