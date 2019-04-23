@@ -860,3 +860,30 @@ Title Total : 30012 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Mon Apr 22 20:49:24 JST 2019
 End  : Mon Apr 22 20:51:39 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr 23 22:17:44 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e32c3364d7..17ef00e62d  master     -> origin/master
+Updating e32c3364d7..17ef00e62d
+Fast-forward
+ cards/000416/card56989.html                   |   2 +-
+ cards/000416/card56997.html                   |   2 +-
+ cards/002035/card59408.html                   | 231 ++++++++++++++++++++++++++
+ cards/002035/files/59408_67530.html           |  90 ++++++++++
+ cards/002035/files/59408_ruby_67529.zip       | Bin 0 -> 11296 bytes
+ 110 files changed, 2834 insertions(+), 2526 deletions(-)
+Date: Tue Apr 23 22:18:52 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr 22 20:51 ./AozoraTxt/etc/update
+   NPD: ./aozorabunko/cards/002035/files/59408_ruby_67529.zip
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30012 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Tue Apr 23 22:17:44 JST 2019
+End  : Tue Apr 23 22:19:18 JST 2019
