@@ -208,7 +208,8 @@ do
 	do
 		if [ "$line" == "" ]; then break; fi
 		echo -n "$line、"
-	done < "$person_to_utf8/$target_file_utf8" 
+	done < "$person_to_utf8/$target_file_utf8"
+	echo
 done < $TMP_ZIP_LST
 
 rm -r $TMP
