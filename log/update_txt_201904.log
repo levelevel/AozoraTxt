@@ -920,3 +920,41 @@ Title Total : 30014 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Wed Apr 24 21:08:48 JST 2019
 End  : Wed Apr 24 21:10:00 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 25 20:18:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ebb4f85023..caf9e81b74  master     -> origin/master
+Updating ebb4f85023..caf9e81b74
+Fast-forward
+ cards/001670/card56366.html                   |   2 +-
+ cards/001879/card57987.html                   | 234 +++++++++++++
+ cards/001879/card58125.html                   | 234 +++++++++++++
+ cards/001879/files/57987_67747.html           | 102 ++++++
+ cards/001879/files/57987_ruby_67695.zip       | Bin 0 -> 16159 bytes
+ cards/001879/files/58125_67746.html           | 106 ++++++
+ cards/001879/files/58125_ruby_67694.zip       | Bin 0 -> 14328 bytes
+ 64 files changed, 2186 insertions(+), 1965 deletions(-)
+Date: Thu Apr 25 20:19:51 JST 2019
+#Updating
+-rwxrw-r--+ 1 level level 0 Apr 24 21:09 ./AozoraTxt/etc/update
+-rwxrwx---+ 1 level level 16159 Apr 25 20:19 ./aozorabunko/cards/001879/files/57987_ruby_67695.zip
+1/2: ./aozorabunko/cards/001879/files/57987_ruby_67695.zip
+>> add 57987_ruby_toano_heiwao_ronzu.txt
+>> add 57987_ruby_utf8_toano_heiwao_ronzu.txt
+東亜の平和を論ず、大隈重信、
+-rwxrwx---+ 1 level level 14328 Apr 25 20:19 ./aozorabunko/cards/001879/files/58125_ruby_67694.zip
+2/2: ./aozorabunko/cards/001879/files/58125_ruby_67694.zip
+>> add 58125_ruby_mitabi_tohono_heiwao_ronzu.txt
+>> add 58125_ruby_utf8_mitabi_tohono_heiwao_ronzu.txt
+三たび東方の平和を論ず、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30018 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 25 20:18:48 JST 2019
+End  : Thu Apr 25 20:20:47 JST 2019
