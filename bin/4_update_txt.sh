@@ -148,7 +148,7 @@ do
 	elif [ "$cur_target_file" == "$target_file" ]; then
 		let update_count++
 		echo ">> update $target_file"
-		echo "update	$person_to/$target_file" >> $UPDATE_FILE
+		echo "update	$person_to/$target_file	`date +%Y/%m/%d`" >> $UPDATE_FILE
 	else 
 		#異なるファイル名の場合はプライオリティが高いほうを優先
 		cur_priority=`CalcTxtPriority "$cur_target_file"`
@@ -204,6 +204,7 @@ do
 	$GAIJI2UTF8 > "$person_to_utf8/$target_file_utf8"
 	touch -r "$person_to/$target_file" "$person_to_utf8/$target_file_utf8"
 	#タイトル、著者を表示する
+	echo -n ">> "
 	while read line
 	do
 		if [ "$line" == "" ]; then break; fi
