@@ -44,12 +44,25 @@ UPDATE_FILE=$TARGET_LOG/update_file.log
 ZIP_LIST_NPD=$TARGET_ETC/zip_npd.txt
 COMMIT_LIST=$TARGET_ETC/commit_all.txt
 
+if [ -d /cygdrive/c ]; then
+	WINDIR=/cygdrive/c
+elif [ -d /mnt/c ]; then
+	WINDIR=/mnt/c
+else
+	WINDIR=""
+fi
+
 GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"
 SJIS2UTF8="iconv -f CP932 -t utf8"
-#UNZIP="unzip -qoC -d $TMP"
-UNZIP="/cygdrive/c/Program Files/7-Zip/7z.exe"
-UNZIP_OPT="x -y -o$TMP"
-GIT="/cygdrive/c/Program Files/Git/bin/git.exe"
+if [ "$WINDIR" != "" ]; then
+	UNZIP="$WINDIR/Program Files/7-Zip/7z.exe"
+	UNZIP_OPT="x -y -o$TMP"
+	GIT="$WINDIR/Program Files/Git/bin/git.exe"
+else
+	UNZIP="unzip"
+	UNZIP_OPT=" -qoC -d $TMP"
+	GIT=git
+fi
 
 # 著作権存続作者IDリストを作成
 CreatePersonIdNpd(){
