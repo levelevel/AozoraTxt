@@ -13,7 +13,9 @@ BIN=`dirname $0`
 . $BIN/common.sh
 
 LST=$TARGET_ROOT/etc/duplicated_txt_info.txt
-DEL=$TARGET_ROOT/log/tmp/deleted_txt
+DEL=$TARGET_ROOT/log/tmp/deleted_txt/
+
+# $LST内のdeletedがついたファイルを削除する（$DELフォルダに移動する）。
 
 #https://www.aozora.gr.jp/cards/001030/card47896.html	削除済み
 while read pid tid other
@@ -29,4 +31,4 @@ do
 		echo $txt
 		mv $txt $DEL
 	fi
-done < <( grep "deleted" $LST | sed 's|.*cards/||' | sed 's|/card| |' | sed 's/\.html//')
+done < <( grep "	deleted" $LST | sed -e 's|.*cards/||' -e 's|/card| |' -e 's/\.html//')
