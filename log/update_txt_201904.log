@@ -1084,3 +1084,58 @@ Title Total : 30026 (Accept:3/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Sun Apr 28 07:21:15 JST 2019
 End  : Sun Apr 28 07:23:15 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr 29 08:02:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   aaf123cf12..bafd4dd784  master     -> origin/master
+Updating aaf123cf12..bafd4dd784
+Fast-forward
+ cards/000026/card50249.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card51320.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55917.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/50249_67753.html           | 113 +++++++++++++
+ cards/000026/files/50249_ruby_67701.zip       | Bin 0 -> 5959 bytes
+ cards/000026/files/51320_67754.html           |  65 ++++++++
+ cards/000026/files/51320_ruby_67702.zip       | Bin 0 -> 1290 bytes
+ cards/000026/files/55917_67752.html           |  77 +++++++++
+ cards/000026/files/55917_txt_67700.zip        | Bin 0 -> 1090 bytes
+ cards/000096/card2380.html                    |   8 +-
+ cards/000096/files/2380_13349.html            |  34 ++--
+ cards/000096/files/2380_ruby_730.zip          | Bin 19538 -> 19604 bytes
+ cards/001475/card52585.html                   |   2 +-
+ cards/001475/card52606.html                   |   2 +-
+ 134 files changed, 4710 insertions(+), 3776 deletions(-)
+Date: Mon Apr 29 08:03:45 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 28 07:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5959 Apr 29 08:03 ./aozorabunko/cards/000026/files/50249_ruby_67701.zip
+1/4: ./aozorabunko/cards/000026/files/50249_ruby_67701.zip
+>> add 50249_ruby_tonbo.txt
+>> add 50249_ruby_utf8_tonbo.txt
+>> 蜻蛉、――飜弄さる、中原中也、
+-rwxrwxrwx 1 level level 1290 Apr 29 08:03 ./aozorabunko/cards/000026/files/51320_ruby_67702.zip
+2/4: ./aozorabunko/cards/000026/files/51320_ruby_67702.zip
+>> add 51320_ruby_jigokuno_tenshi.txt
+>> add 51320_ruby_utf8_jigokuno_tenshi.txt
+>> 地極の天使、中原中也、
+-rwxrwxrwx 1 level level 1090 Apr 29 08:03 ./aozorabunko/cards/000026/files/55917_txt_67700.zip
+3/4: ./aozorabunko/cards/000026/files/55917_txt_67700.zip
+>> add 55917_txt_daio_tsukerunoga_muridesu.txt
+>> add 55917_txt_utf8_daio_tsukerunoga_muridesu.txt
+>> （題を附けるのが無理です）、中原中也、
+-rwxrwxrwx 1 level level 19604 Apr 29 08:03 ./aozorabunko/cards/000096/files/2380_ruby_730.zip
+4/4: ./aozorabunko/cards/000096/files/2380_ruby_730.zip
+>> update 2380_ruby_shigono_koi.txt
+>> update 2380_ruby_utf8_shigono_koi.txt
+>> 死後の恋、夢野久作、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30032 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr 29 08:02:48 JST 2019
+End  : Mon Apr 29 08:04:21 JST 2019
