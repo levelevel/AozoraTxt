@@ -164,6 +164,7 @@ do
 		if [ $? -eq 0 ]; then
 			let rename_count++
 			echo ">> git-mv $cur_target_file $target_file"
+			echo "git-mv	$cur_target_file	$target_file	`date +%Y/%m/%d`" >> $GIT_MV_FILE
 		else
 			rm "$cur_txt_file"
 			let git_failed++

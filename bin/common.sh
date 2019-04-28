@@ -41,6 +41,7 @@ TMP=$TARGET_ROOT/tmp
 UPDATE=$TARGET_ETC/update
 FILENAME_ILLEGAL=$TARGET_ETC/filename_illegal.txt
 UPDATE_FILE=$TARGET_LOG/update_file.log
+GIT_MV_FILE=$TARGET_LOG/git-mv_file.log
 ZIP_LIST_NPD=$TARGET_ETC/zip_npd.txt
 COMMIT_LIST=$TARGET_ETC/commit_all.txt
 
@@ -60,7 +61,7 @@ if [ "$WINDIR" != "" ]; then
 	GIT="$WINDIR/Program Files/Git/bin/git.exe"
 else
 	UNZIP="unzip"
-	UNZIP_OPT=" -qoC -d $TMP"
+	UNZIP_OPT="-qoC -d $TMP"
 	GIT=git
 fi
 
