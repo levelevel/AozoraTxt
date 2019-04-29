@@ -1139,3 +1139,47 @@ Title Total : 30032 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD
 Git Failed  : 0
 Start: Mon Apr 29 08:02:48 JST 2019
 End  : Mon Apr 29 08:04:21 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr 30 07:28:37 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bafd4dd784..71afe7f450  master     -> origin/master
+Updating bafd4dd784..71afe7f450
+Fast-forward
+ cards/000026/card50249.html                   |   2 +-
+ cards/000026/card51320.html                   |   2 +-
+ cards/000026/card55917.html                   |   2 +-
+ cards/000117/card973.html                     |  26 ++-
+ cards/000117/files/973_68056.html             | 164 ++++++++++++++++++
+ cards/000117/files/973_ruby_68055.zip         | Bin 0 -> 11368 bytes
+ cards/001341/card55951.html                   | 229 +++++++++++++++++++++++++
+ cards/001341/card56409.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/files/55951_67755.html           | 199 ++++++++++++++++++++++
+ cards/001341/files/55951_ruby_67703.zip       | Bin 0 -> 11123 bytes
+ cards/001341/files/56409_67756.html           | 116 +++++++++++++
+ cards/001341/files/56409_ruby_67704.zip       | Bin 0 -> 3451 bytes
+ 87 files changed, 3287 insertions(+), 2332 deletions(-)
+Date: Tue Apr 30 07:29:51 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 29 08:04 ./AozoraTxt/etc/update
+   NPD: ./aozorabunko/cards/000117/files/973_ruby_68055.zip
+-rwxrwxrwx 1 level level 11123 Apr 30 07:29 ./aozorabunko/cards/001341/files/55951_ruby_67703.zip
+2/3: ./aozorabunko/cards/001341/files/55951_ruby_67703.zip
+>> add 55951_ruby_junen_buri.txt
+>> add 55951_ruby_utf8_junen_buri.txt
+>> 十年振、一名京都紀行、永井荷風、
+-rwxrwxrwx 1 level level 3451 Apr 30 07:29 ./aozorabunko/cards/001341/files/56409_ruby_67704.zip
+3/3: ./aozorabunko/cards/001341/files/56409_ruby_67704.zip
+>> add 56409_ruby_karehano_ki.txt
+>> add 56409_ruby_utf8_karehano_ki.txt
+>> 枯葉の記、永井荷風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30036 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Tue Apr 30 07:28:37 JST 2019
+End  : Tue Apr 30 07:30:31 JST 2019
