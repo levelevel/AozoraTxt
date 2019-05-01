@@ -2,6 +2,7 @@ LANG=C
 
 AOZORA_ROOT=./aozorabunko
 TARGET_ROOT=./AozoraTxt
+TARGET_ROOT_NPD=./AozoraTxtNpd
 
 if [ -e $BIN/local.sh ]; then
 	#AOZORA_ROOT=./TestAozora
@@ -25,6 +26,8 @@ fi
 
 PERSON_TO=$TARGET_ROOT/person
 PERSON_TO_UTF8=$TARGET_ROOT/person_utf8
+PERSON_TO_NPD=$TARGET_ROOT_NPD/person
+PERSON_TO_NPD_UTF8=$TARGET_ROOT_NPD/person_utf8
 TARGET_ETC=$TARGET_ROOT/etc
 TARGET_LOG=$TARGET_ROOT/log
 

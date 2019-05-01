@@ -85,13 +85,7 @@ do
 	let text_count++
 	# zip_file: ./aozorabunko/cards/000005/files/1868_ruby_22436.zip
 	txt_id=`basename ${zip_file%%_*.zip}`	#1186
-	# NPDなファイルは除外
-	if TxtIsNPD `dirname $zip_file`"/.." $txt_id ; then
-		let npd_count++
-		echo "   NPD: $zip_file"
-		echo "$zip_file" >> $ZIP_LIST_NPD
-		continue
-	fi
+
 	case $zip_file in
 	*_ruby*) txt_type="ruby_";;
 	*_txt*)  txt_type="txt_";;
@@ -105,12 +99,25 @@ do
 	person_to_utf8=$PERSON_TO_UTF8/$person_id
 	git_person_to=${person_to#$TARGET_ROOT/}
 	git_person_to_utf8=${person_to_utf8#$TARGET_ROOT/}
+	git_root=$TARGET_ROOT
+
+	# NPDなファイル
+	if TxtIsNPD `dirname $zip_file`"/.." $txt_id ; then
+		let npd_count++
+		echo "$zip_file	`date +%Y/%m/%d`" >> $ZIP_LIST_NPD
+		txt_type="NPD_$txt_type"
+		person_to=$PERSON_TO_NPD/$person_id
+		person_to_utf8=$PERSON_TO_NPD_UTF8/$person_id
+		git_person_to=${person_to#$TARGET_ROOT_NPD/}
+		git_person_to_utf8=${person_to_utf8#$TARGET_ROOT_NPD/}
+		git_root=$TARGET_ROOT_NPD
+	fi
 
 	if [ ! -e $person_to ]; then
 		mkdir -p $person_to
 	fi
 	if [ ! -d $person_to_utf8 ]; then
-		mkdir $person_to_utf8
+		mkdir -p $person_to_utf8
 	fi
 	rm -rf $TMP/*
 
@@ -158,7 +165,7 @@ do
 			echo "   reject (low priority) $target_file($new_priority) < $cur_target_file($cur_priority)"
 			continue
 		fi
-		git -C $TARGET_ROOT mv \
+		git -C $git_root mv \
 			"$git_person_to/$cur_target_file" \
 			"$git_person_to/$target_file" >> $GIT_MV_LOG 2>&1
 		if [ $? -eq 0 ]; then
@@ -189,7 +196,7 @@ do
 			echo "   reject (low priority) $target_file_utf8($new_priority) < $cur_target_file_utf8($cur_priority)"
 			continue
 		fi
-		"$GIT" -C $TARGET_ROOT mv \
+		"$GIT" -C $git_root mv \
 			"$git_person_to_utf8/$cur_target_file_utf8" \
 			"$git_person_to_utf8/$target_file_utf8" >> $GIT_MV_LOG 2>&1
 		if [ $? -eq 0 ]; then
@@ -230,7 +237,8 @@ mv $UPDATE $UPDATE.org
 touch $UPDATE
 
 text_total=`find $PERSON_TO $PERSON_TO_UTF8 -name "*.txt" | wc -l`
-echo "Title Total : $text_total (Accept:$accept_count/Reject:$reject_cnt/Update:$update_count/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
+text_total_npd=`find $PERSON_TO_NPD $PERSON_TO_NPD_UTF8 -name "*.txt" | wc -l`
+echo "Title Total : $text_total/$text_total_npd (Accept:$accept_count/Reject:$reject_cnt/Update:$update_count/Rename:$rename_count/Empty:$empty_count/Multi txt:$multi_count/NPD:$npd_count)"
 echo "Git Failed  : $git_failed"
 echo "Start: $start_time"
 echo "End  : `date`"
