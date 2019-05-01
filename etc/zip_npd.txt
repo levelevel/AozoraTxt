@@ -28,6 +28,7 @@
 ./aozorabunko/cards/000113/files/4327_ruby_67507.zip
 ./aozorabunko/cards/000117/files/973_ruby_67588.zip
 ./aozorabunko/cards/000117/files/973_ruby_68055.zip
+./aozorabunko/cards/000117/files/973_ruby_68057.zip
 ./aozorabunko/cards/000258/files/50189_ruby_34696.zip
 ./aozorabunko/cards/000258/files/50314_ruby_67453.zip
 ./aozorabunko/cards/000258/files/52334_ruby_41381.zip
