@@ -64,3 +64,41 @@ Title Total : 30040/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May  2 08:40:58 JST 2019
 End  : Thu May  2 08:42:53 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May  3 07:21:09 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bed08c0981..bbbc008b8f  master     -> origin/master
+Updating bed08c0981..bbbc008b8f
+Fast-forward
+ cards/000064/card55673.html                   |   2 +-
+ cards/001520/card56746.html                   | 234 +++++++++++++++++++++++++
+ cards/001520/files/56746_67998.html           |  83 +++++++++
+ cards/001520/files/56746_ruby_67955.zip       | Bin 0 -> 6206 bytes
+ cards/001799/card59002.html                   | 234 +++++++++++++++++++++++++
+ cards/001799/files/59002_67999.html           |  85 +++++++++
+ cards/001799/files/59002_ruby_67956.zip       | Bin 0 -> 4941 bytes
+ 85 files changed, 2391 insertions(+), 1738 deletions(-)
+Date: Fri May  3 07:22:13 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May  2 08:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6206 May  3 07:22 ./aozorabunko/cards/001520/files/56746_ruby_67955.zip
+1/2: ./aozorabunko/cards/001520/files/56746_ruby_67955.zip
+>> add 56746_ruby_chihono_mingei.txt
+>> add 56746_ruby_utf8_chihono_mingei.txt
+>> 地方の民藝、柳宗悦、
+-rwxrwxrwx 1 level level 4941 May  3 07:22 ./aozorabunko/cards/001799/files/59002_ruby_67956.zip
+2/2: ./aozorabunko/cards/001799/files/59002_ruby_67956.zip
+>> add 59002_ruby_shohin_yottsu.txt
+>> add 59002_ruby_utf8_shohin_yottsu.txt
+>> 小品四つ、中勘助、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30044/312 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May  3 07:21:09 JST 2019
+End  : Fri May  3 07:23:00 JST 2019
