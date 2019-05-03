@@ -102,3 +102,34 @@ Title Total : 30044/312 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May  3 07:21:09 JST 2019
 End  : Fri May  3 07:23:00 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May  4 08:23:17 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bbbc008b8f..dd7c2f4650  master     -> origin/master
+Updating bbbc008b8f..dd7c2f4650
+Fast-forward
+ cards/001520/card56746.html                   |   2 +-
+ cards/001670/card56382.html                   | 234 ++++++++++++++
+ cards/001670/files/56382_68000.html           | 439 ++++++++++++++++++++++++++
+ cards/001670/files/56382_ruby_67957.zip       | Bin 0 -> 14451 bytes
+ cards/001799/card59002.html                   |   2 +-
+ 66 files changed, 1846 insertions(+), 1179 deletions(-)
+Date: Sat May  4 08:24:33 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May  3 07:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14451 May  4 08:24 ./aozorabunko/cards/001670/files/56382_ruby_67957.zip
+1/1: ./aozorabunko/cards/001670/files/56382_ruby_67957.zip
+>> add 56382_ruby_098benifude_ganmon.txt
+>> add 56382_ruby_utf8_098benifude_ganmon.txt
+>> 銭形平次捕物控、紅筆願文、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30046/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May  4 08:23:17 JST 2019
+End  : Sat May  4 08:25:10 JST 2019
