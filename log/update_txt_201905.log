@@ -288,3 +288,33 @@ Title Total : 30060/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May  8 21:44:53 JST 2019
 End  : Wed May  8 21:45:50 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May  9 21:52:00 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4de8d0e999..b752a400a5  master     -> origin/master
+Updating 4de8d0e999..b752a400a5
+Fast-forward
+ cards/000137/card56528.html                   | 234 ++++++++++++++++++++++++++
+ cards/000137/files/56528_68008.html           | 136 +++++++++++++++
+ cards/000137/files/56528_ruby_67965.zip       | Bin 0 -> 3331 bytes
+ cards/000214/card48690.html                   |   2 +-
+ 50 files changed, 1142 insertions(+), 778 deletions(-)
+Date: Thu May  9 21:52:58 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May  8 21:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3331 May  9 21:52 ./aozorabunko/cards/000137/files/56528_ruby_67965.zip
+1/1: ./aozorabunko/cards/000137/files/56528_ruby_67965.zip
+>> add 56528_ruby_sapporono_insho.txt
+>> add 56528_ruby_utf8_sapporono_insho.txt
+>> 札幌の印象、岩野泡鳴、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30062/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May  9 21:52:00 JST 2019
+End  : Thu May  9 21:53:32 JST 2019
