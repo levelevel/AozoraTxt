@@ -356,3 +356,50 @@ Title Total : 30066/312 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 10 21:52:22 JST 2019
 End  : Fri May 10 21:53:32 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 11 08:45:56 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f0e168fe92..4262c72608  master     -> origin/master
+Updating f0e168fe92..4262c72608
+Fast-forward
+ cards/000106/card59473.html                   | 233 +++++++++++++++++++++++++
+ cards/000106/files/59473_68013.html           |  93 ++++++++++
+ cards/000106/files/59473_ruby_67970.zip       | Bin 0 -> 3700 bytes
+ cards/001475/card51599.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card52991.html                   | 229 +++++++++++++++++++++++++
+ cards/001475/files/51599_68012.html           | 126 ++++++++++++++
+ cards/001475/files/51599_ruby_67969.zip       | Bin 0 -> 7891 bytes
+ cards/001475/files/52991_68011.html           |  73 ++++++++
+ cards/001475/files/52991_ruby_67968.zip       | Bin 0 -> 2287 bytes
+ cards/001602/card53798.html                   |   6 +-
+ cards/001602/card53803.html                   |   6 +-
+ 103 files changed, 3172 insertions(+), 2190 deletions(-)
+Date: Sat May 11 08:47:20 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 10 21:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3700 May 11 08:47 ./aozorabunko/cards/000106/files/59473_ruby_67970.zip
+1/3: ./aozorabunko/cards/000106/files/59473_ruby_67970.zip
+>> add 59473_ruby_01jo_tsukini_hoeru.txt
+>> add 59473_ruby_utf8_01jo_tsukini_hoeru.txt
+>> 月に吠える、序、北原白秋、
+-rwxrwxrwx 1 level level 7891 May 11 08:47 ./aozorabunko/cards/001475/files/51599_ruby_67969.zip
+2/3: ./aozorabunko/cards/001475/files/51599_ruby_67969.zip
+>> add 51599_ruby_taiyoto_hoshino_shita.txt
+>> add 51599_ruby_utf8_taiyoto_hoshino_shita.txt
+>> 太陽と星の下、小川未明、
+-rwxrwxrwx 1 level level 2287 May 11 08:47 ./aozorabunko/cards/001475/files/52991_ruby_67968.zip
+3/3: ./aozorabunko/cards/001475/files/52991_ruby_67968.zip
+>> add 52991_ruby_dowani_taisuru_shoken.txt
+>> add 52991_ruby_utf8_dowani_taisuru_shoken.txt
+>> 童話に対する所見、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30072/312 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 11 08:45:56 JST 2019
+End  : Sat May 11 08:47:57 JST 2019
