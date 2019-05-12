@@ -403,3 +403,35 @@ Title Total : 30072/312 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat May 11 08:45:56 JST 2019
 End  : Sat May 11 08:47:57 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun May 12 09:04:04 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4262c72608..d8150cb180  master     -> origin/master
+Updating 4262c72608..d8150cb180
+Fast-forward
+ cards/000106/card59473.html                   |   2 +-
+ cards/001475/card51599.html                   |   2 +-
+ cards/001475/card52991.html                   |   2 +-
+ cards/001826/card58752.html                   | 229 ++++++++++++++++++++++
+ cards/001826/files/58752_68014.html           | 271 ++++++++++++++++++++++++++
+ cards/001826/files/58752_ruby_67971.zip       | Bin 0 -> 13934 bytes
+ 136 files changed, 2070 insertions(+), 1577 deletions(-)
+Date: Sun May 12 09:04:40 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 11 08:47 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13934 May 12 09:04 ./aozorabunko/cards/001826/files/58752_ruby_67971.zip
+1/1: ./aozorabunko/cards/001826/files/58752_ruby_67971.zip
+>> add 58752_ruby_gokaino_mado_03.txt
+>> add 58752_ruby_utf8_gokaino_mado_03.txt
+>> 五階の窓、合作の三、森下雨村、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30074/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun May 12 09:04:04 JST 2019
+End  : Sun May 12 09:04:58 JST 2019
