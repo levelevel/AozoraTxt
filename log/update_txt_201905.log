@@ -435,3 +435,51 @@ Title Total : 30074/312 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May 12 09:04:04 JST 2019
 End  : Sun May 12 09:04:58 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon May 13 23:16:05 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d8150cb180..057f0fcf9a  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating d8150cb180..057f0fcf9a
+Fast-forward
+ cards/000214/card48719.html                   | 243 ++++++++++++++++++++
+ cards/000214/card48872.html                   | 243 ++++++++++++++++++++
+ cards/000214/card48981.html                   | 243 ++++++++++++++++++++
+ cards/000214/files/48719_68016.html           |  58 +++++
+ cards/000214/files/48719_txt_67973.zip        | Bin 0 -> 814 bytes
+ cards/000214/files/48872_68015.html           | 305 ++++++++++++++++++++++++++
+ cards/000214/files/48872_ruby_67972.zip       | Bin 0 -> 14024 bytes
+ cards/000214/files/48981_68017.html           |  70 ++++++
+ cards/000214/files/48981_txt_67974.zip        | Bin 0 -> 2813 bytes
+ cards/001826/card58752.html                   |   2 +-
+ 154 files changed, 5207 insertions(+), 3577 deletions(-)
+Date: Mon May 13 23:22:00 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 12 09:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 814 May 13 23:21 ./aozorabunko/cards/000214/files/48719_txt_67973.zip
+1/3: ./aozorabunko/cards/000214/files/48719_txt_67973.zip
+>> add 48719_txt_shinkeikano_gen.txt
+>> add 48719_txt_utf8_shinkeikano_gen.txt
+>> 神經家の言、田山録弥、
+-rwxrwxrwx 1 level level 14024 May 13 23:21 ./aozorabunko/cards/000214/files/48872_ruby_67972.zip
+2/3: ./aozorabunko/cards/000214/files/48872_ruby_67972.zip
+>> add 48872_ruby_sarusuberi.txt
+>> add 48872_ruby_utf8_sarusuberi.txt
+>> 百日紅、田山録弥、
+-rwxrwxrwx 1 level level 2813 May 13 23:21 ./aozorabunko/cards/000214/files/48981_txt_67974.zip
+3/3: ./aozorabunko/cards/000214/files/48981_txt_67974.zip
+>> add 48981_txt_watashito_gaikoku_bungaku.txt
+>> add 48981_txt_utf8_watashito_gaikoku_bungaku.txt
+>> 私と外国文学、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30080/312 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon May 13 23:16:05 JST 2019
+End  : Mon May 13 23:23:07 JST 2019
