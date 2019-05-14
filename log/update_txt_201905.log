@@ -483,3 +483,43 @@ Title Total : 30080/312 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 13 23:16:05 JST 2019
 End  : Mon May 13 23:23:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 14 22:11:52 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   057f0fcf9a..ee4325532c  master     -> origin/master
+Updating 057f0fcf9a..ee4325532c
+Fast-forward
+ cards/000153/card49677.html                   |   8 +-
+ cards/000153/files/49677_49237.html           |  13 +-
+ cards/000153/files/49677_ruby_49019.zip       | Bin 33499 -> 33534 bytes
+ cards/000214/card48719.html                   |   2 +-
+ cards/000214/card48872.html                   |   2 +-
+ cards/000214/card48981.html                   |   2 +-
+ cards/001670/card56386.html                   | 234 ++++++++++++++
+ cards/001670/files/56386_68018.html           | 431 ++++++++++++++++++++++++++
+ cards/001670/files/56386_ruby_67975.zip       | Bin 0 -> 14439 bytes
+ 56 files changed, 1777 insertions(+), 1121 deletions(-)
+Date: Tue May 14 22:13:06 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 13 23:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 33534 May 14 22:13 ./aozorabunko/cards/000153/files/49677_ruby_49019.zip
+1/2: ./aozorabunko/cards/000153/files/49677_ruby_49019.zip
+>> update 49677_ruby_kantenchi.txt
+>> update 49677_ruby_utf8_kantenchi.txt
+>> 閑天地、石川啄木、
+-rwxrwxrwx 1 level level 14439 May 14 22:13 ./aozorabunko/cards/001670/files/56386_ruby_67975.zip
+2/2: ./aozorabunko/cards/001670/files/56386_ruby_67975.zip
+>> add 56386_ruby_099oshino_shimai.txt
+>> add 56386_ruby_utf8_099oshino_shimai.txt
+>> 銭形平次捕物控、お篠姉妹、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30082/312 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 14 22:11:52 JST 2019
+End  : Tue May 14 22:13:49 JST 2019
