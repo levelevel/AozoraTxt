@@ -523,3 +523,41 @@ Title Total : 30082/312 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 14 22:11:52 JST 2019
 End  : Tue May 14 22:13:49 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 15 21:42:24 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ee4325532c..ab2de6bd1e  master     -> origin/master
+Updating ee4325532c..ab2de6bd1e
+Fast-forward
+ cards/000577/card46568.html                   | 234 ++++++++++++++++++++++++++
+ cards/000577/files/46568_68019.html           |  75 +++++++++
+ cards/000577/files/46568_ruby_67976.zip       | Bin 0 -> 5027 bytes
+ cards/001193/card50915.html                   |   8 +-
+ cards/001193/files/50915_40186.html           |   8 +-
+ cards/001193/files/50915_ruby_39238.zip       | Bin 9398 -> 9456 bytes
+ cards/001670/card56386.html                   |   2 +-
+ 47 files changed, 596 insertions(+), 290 deletions(-)
+Date: Wed May 15 21:43:35 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 14 22:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5027 May 15 21:43 ./aozorabunko/cards/000577/files/46568_ruby_67976.zip
+1/2: ./aozorabunko/cards/000577/files/46568_ruby_67976.zip
+>> add 46568_ruby_tsurigokoro_uogokoro.txt
+>> add 46568_ruby_utf8_tsurigokoro_uogokoro.txt
+>> 釣心魚心、佐藤惣之助、
+-rwxrwxrwx 1 level level 9456 May 15 21:43 ./aozorabunko/cards/001193/files/50915_ruby_39238.zip
+2/2: ./aozorabunko/cards/001193/files/50915_ruby_39238.zip
+>> update 50915_ruby_onnano_ketto.txt
+>> update 50915_ruby_utf8_onnano_ketto.txt
+>> 女の決闘、オイレンベルク　Herbert Eulenberg、森鴎外訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30084/312 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 15 21:42:24 JST 2019
+End  : Wed May 15 21:44:46 JST 2019
