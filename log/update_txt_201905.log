@@ -749,3 +749,41 @@ Title Total : 30094/314 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 21 21:06:57 JST 2019
 End  : Tue May 21 21:08:17 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 22 23:45:30 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c168395ba7..06f005d1e7  master     -> origin/master
+Updating c168395ba7..06f005d1e7
+Fast-forward
+ cards/001799/card59015.html                   | 234 ++++++++++++++++++++++++++
+ cards/001799/files/59015_68026.html           | 115 +++++++++++++
+ cards/001799/files/59015_ruby_67983.zip       | Bin 0 -> 8061 bytes
+ cards/001869/card57808.html                   |   2 +-
+ cards/002003/card59145.html                   | 229 +++++++++++++++++++++++++
+ cards/002003/files/59145_68025.html           |  57 +++++++
+ cards/002003/files/59145_ruby_67982.zip       | Bin 0 -> 1005 bytes
+ 85 files changed, 2111 insertions(+), 1471 deletions(-)
+Date: Wed May 22 23:46:21 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 21 21:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8061 May 22 23:46 ./aozorabunko/cards/001799/files/59015_ruby_67983.zip
+1/2: ./aozorabunko/cards/001799/files/59015_ruby_67983.zip
+>> add 59015_ruby_tanseki.txt
+>> add 59015_ruby_utf8_tanseki.txt
+>> 胆石、中勘助、
+-rwxrwxrwx 1 level level 1005 May 22 23:46 ./aozorabunko/cards/002003/files/59145_ruby_67982.zip
+2/2: ./aozorabunko/cards/002003/files/59145_ruby_67982.zip
+>> add 59145_ruby_gantono_kan.txt
+>> add 59145_ruby_utf8_gantono_kan.txt
+>> 巌頭の感、藤村操、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30098/314 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 22 23:45:30 JST 2019
+End  : Wed May 22 23:46:47 JST 2019
