@@ -787,3 +787,34 @@ Title Total : 30098/314 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May 22 23:45:30 JST 2019
 End  : Wed May 22 23:46:47 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May 23 21:09:55 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   06f005d1e7..078f528ad6  master     -> origin/master
+Updating 06f005d1e7..078f528ad6
+Fast-forward
+ cards/001799/card59015.html                   |   2 +-
+ cards/002003/card59145.html                   |   2 +-
+ cards/002035/card59407.html                   | 231 ++++++++++++++++++++++++++
+ cards/002035/files/59407_67532.html           |  93 +++++++++++
+ cards/002035/files/59407_ruby_67531.zip       | Bin 0 -> 6900 bytes
+ 62 files changed, 1723 insertions(+), 1414 deletions(-)
+Date: Thu May 23 21:10:47 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 22 23:46 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6900 May 23 21:10 ./aozorabunko/cards/002035/files/59407_ruby_67531.zip
+1/1: ./aozorabunko/cards/002035/files/59407_ruby_67531.zip
+>> add 59407_NPD_ruby_koshukei.txt
+>> add 59407_NPD_ruby_utf8_koshukei.txt
+>> 絞首刑、ジョージ・オーウェル　George Orwell、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30098/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu May 23 21:09:55 JST 2019
+End  : Thu May 23 21:11:22 JST 2019
