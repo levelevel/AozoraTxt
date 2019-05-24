@@ -818,3 +818,58 @@ Title Total : 30098/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 23 21:09:55 JST 2019
 End  : Thu May 23 21:11:22 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 24 22:44:35 JST 2019
+#Git pull
+fatal: unable to access 'https://github.com/aozorabunko/aozorabunko.git/': Could not resolve host: github.com
+Date: Fri May 24 22:44:49 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 23 21:11 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30098/316 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 24 22:44:35 JST 2019
+End  : Fri May 24 22:46:31 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 24 23:02:35 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   078f528ad6..cdb8bf7aea  master     -> origin/master
+Updating 078f528ad6..cdb8bf7aea
+Fast-forward
+ cards/001095/card42908.html                   |  10 +-
+ cards/001095/files/42908_35390.html           |  37 ++-
+ cards/001095/files/42908_ruby_35134.zip       | Bin 16590 -> 16722 bytes
+ cards/001670/card56338.html                   | 234 ++++++++++++++++
+ cards/001670/files/56338_68027.html           | 383 ++++++++++++++++++++++++++
+ cards/001670/files/56338_ruby_67984.zip       | Bin 0 -> 12810 bytes
+ cards/002035/card59407.html                   |   2 +-
+ 89 files changed, 1947 insertions(+), 1326 deletions(-)
+Date: Fri May 24 23:05:24 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 23 21:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16722 May 24 23:04 ./aozorabunko/cards/001095/files/42908_ruby_35134.zip
+1/2: ./aozorabunko/cards/001095/files/42908_ruby_35134.zip
+>> update 42908_ruby_koio_shiniiku.txt
+>> update 42908_ruby_utf8_koio_shiniiku.txt
+>> 恋をしに行く（「女体」につゞく）、坂口安吾、
+-rwxrwxrwx 1 level level 12810 May 24 23:04 ./aozorabunko/cards/001670/files/56338_ruby_67984.zip
+2/2: ./aozorabunko/cards/001670/files/56338_ruby_67984.zip
+>> add 56338_ruby_100garappachi_shugen.txt
+>> add 56338_ruby_utf8_100garappachi_shugen.txt
+>> 銭形平次捕物控、ガラッ八祝言、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30100/316 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 24 23:02:35 JST 2019
+End  : Fri May 24 23:08:13 JST 2019
