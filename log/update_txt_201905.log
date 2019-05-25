@@ -903,3 +903,41 @@ Title Total : 30102/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat May 25 07:39:29 JST 2019
 End  : Sat May 25 07:41:32 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun May 26 07:43:34 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9be147c900..0c89ad3954  master     -> origin/master
+Updating 9be147c900..0c89ad3954
+Fast-forward
+ cards/000255/card47240.html                   | 234 ++++++++++++++++++++++
+ cards/000255/card58753.html                   | 229 +++++++++++++++++++++
+ cards/000255/files/47240_68030.html           |  62 ++++++
+ cards/000255/files/47240_ruby_67987.zip       | Bin 0 -> 1399 bytes
+ cards/000255/files/58753_68029.html           | 277 ++++++++++++++++++++++++++
+ cards/000255/files/58753_ruby_67986.zip       | Bin 0 -> 8614 bytes
+ cards/000326/card56149.html                   |   2 +-
+ 136 files changed, 2648 insertions(+), 1851 deletions(-)
+Date: Sun May 26 07:44:29 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 25 07:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1399 May 26 07:44 ./aozorabunko/cards/000255/files/47240_ruby_67987.zip
+1/2: ./aozorabunko/cards/000255/files/47240_ruby_67987.zip
+>> add 47240_ruby_gokaino_mado_shippitsuni_tsuite.txt
+>> add 47240_ruby_utf8_gokaino_mado_shippitsuni_tsuite.txt
+>> 「五階の窓」執筆に就いて、―不満二三―、国枝史郎、
+-rwxrwxrwx 1 level level 8614 May 26 07:44 ./aozorabunko/cards/000255/files/58753_ruby_67986.zip
+2/2: ./aozorabunko/cards/000255/files/58753_ruby_67986.zip
+>> add 58753_ruby_gokaino_mado_05.txt
+>> add 58753_ruby_utf8_gokaino_mado_05.txt
+>> 五階の窓、合作の五、国枝史郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30106/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun May 26 07:43:34 JST 2019
+End  : Sun May 26 07:45:09 JST 2019
