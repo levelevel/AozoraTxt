@@ -1011,3 +1011,54 @@ Title Total : 30112/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 28 20:47:14 JST 2019
 End  : Tue May 28 20:48:38 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 28 21:01:49 JST 2019
+#Git pull
+Already up to date.
+Date: Tue May 28 21:01:50 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 28 20:48 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 29 21:46:44 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   885aab3da2..7de6daa6e8  master     -> origin/master
+Updating 885aab3da2..7de6daa6e8
+Fast-forward
+ cards/000885/card59150.html                   | 229 +++++++++++++++++++++++++
+ cards/000885/files/59150_68035.html           | 170 +++++++++++++++++++
+ cards/000885/files/59150_ruby_67992.zip       | Bin 0 -> 2441 bytes
+ cards/001030/card47921.html                   |   2 +-
+ cards/001224/card46110.html                   | 229 +++++++++++++++++++++++++
+ cards/001224/files/46110_68034.html           | 234 ++++++++++++++++++++++++++
+ cards/001224/files/46110_ruby_67991.zip       | Bin 0 -> 30866 bytes
+ 72 files changed, 1717 insertions(+), 858 deletions(-)
+Date: Wed May 29 21:47:26 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 28 21:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2441 May 29 21:47 ./aozorabunko/cards/000885/files/59150_ruby_67992.zip
+1/2: ./aozorabunko/cards/000885/files/59150_ruby_67992.zip
+>> add 59150_ruby_sozoro_goto.txt
+>> add 59150_ruby_utf8_sozoro_goto.txt
+>> そぞろごと、與謝野晶子、
+-rwxrwxrwx 1 level level 30866 May 29 21:47 ./aozorabunko/cards/001224/files/46110_ruby_67991.zip
+2/2: ./aozorabunko/cards/001224/files/46110_ruby_67991.zip
+>> add 46110_ruby_rinrakuno_kojono_oboegaki.txt
+>> add 46110_ruby_utf8_rinrakuno_kojono_oboegaki.txt
+>> 淪落の皇女の覚書、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30116/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 29 21:46:44 JST 2019
+End  : Wed May 29 21:47:55 JST 2019
