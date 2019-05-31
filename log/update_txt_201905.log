@@ -1088,3 +1088,36 @@ Title Total : 30120/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 30 22:10:29 JST 2019
 End  : Thu May 30 22:12:02 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 31 21:52:45 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0e9f37a709..fe4fd69310  master     -> origin/master
+Updating 0e9f37a709..fe4fd69310
+Fast-forward
+ cards/000885/card59150.html                   |   2 +-
+ cards/001224/card46110.html                   |   2 +-
+ cards/001660/card54366.html                   | 229 ++++++++++++++++++++++++++
+ cards/001660/files/54366_68038.html           |  64 +++++++
+ cards/001660/files/54366_txt_67995.zip        | Bin 0 -> 3279 bytes
+ cards/001938/card58501.html                   |   2 +-
+ cards/001938/card58502.html                   |   2 +-
+ 34 files changed, 502 insertions(+), 205 deletions(-)
+Date: Fri May 31 21:53:36 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 May 30 22:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3279 May 31 21:53 ./aozorabunko/cards/001660/files/54366_txt_67995.zip
+1/1: ./aozorabunko/cards/001660/files/54366_txt_67995.zip
+>> add 54366_txt_sonken_sensei_kijuno_shukuji.txt
+>> add 54366_txt_utf8_sonken_sensei_kijuno_shukuji.txt
+>> 巽軒先生喜壽の祝辭、中島徳藏、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30122/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 31 21:52:45 JST 2019
+End  : Fri May 31 21:54:26 JST 2019
