@@ -117,3 +117,34 @@ Title Total : 30134/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun  3 22:20:21 JST 2019
 End  : Mon Jun  3 22:22:11 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun  4 21:53:06 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dd26a5b48f..bb6f7c6645  master     -> origin/master
+Updating dd26a5b48f..bb6f7c6645
+Fast-forward
+ cards/001520/card56736.html                   |   2 +-
+ cards/001520/card56739.html                   |   2 +-
+ cards/001670/card56368.html                   | 234 ++++++++++++++
+ cards/001670/files/56368_68242.html           | 425 ++++++++++++++++++++++++++
+ cards/001670/files/56368_ruby_68197.zip       | Bin 0 -> 14210 bytes
+ 60 files changed, 1916 insertions(+), 1261 deletions(-)
+Date: Tue Jun  4 21:54:51 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  3 22:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14210 Jun  4 21:54 ./aozorabunko/cards/001670/files/56368_ruby_68197.zip
+1/1: ./aozorabunko/cards/001670/files/56368_ruby_68197.zip
+>> add 56368_ruby_101ohideno_chichi.txt
+>> add 56368_ruby_utf8_101ohideno_chichi.txt
+>> 銭形平次捕物控、お秀の父、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30136/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun  4 21:53:06 JST 2019
+End  : Tue Jun  4 21:56:13 JST 2019
