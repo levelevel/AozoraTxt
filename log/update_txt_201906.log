@@ -233,3 +233,35 @@ Title Total : 30146/316 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun  6 21:15:08 JST 2019
 End  : Thu Jun  6 21:17:56 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun  7 21:15:16 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8e963db7cb..e30b1864f7  master     -> origin/master
+Updating 8e963db7cb..e30b1864f7
+Fast-forward
+ cards/000182/card54368.html                   | 229 ++++++++++++++++++++++++++
+ cards/000182/files/54368_68248.html           |  60 +++++++
+ cards/000182/files/54368_txt_68203.zip        | Bin 0 -> 1829 bytes
+ cards/001652/card54383.html                   |   2 +-
+ cards/001652/card54386.html                   |   2 +-
+ cards/001652/card54396.html                   |   2 +-
+ 47 files changed, 921 insertions(+), 637 deletions(-)
+Date: Fri Jun  7 21:15:59 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  6 21:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1829 Jun  7 21:15 ./aozorabunko/cards/000182/files/54368_txt_68203.zip
+1/1: ./aozorabunko/cards/000182/files/54368_txt_68203.zip
+>> add 54368_txt_inoue_sensei.txt
+>> add 54368_txt_utf8_inoue_sensei.txt
+>> 井上先生、西田幾多郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30148/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun  7 21:15:16 JST 2019
+End  : Fri Jun  7 21:16:45 JST 2019
