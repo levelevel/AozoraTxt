@@ -265,3 +265,44 @@ Title Total : 30148/316 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jun  7 21:15:16 JST 2019
 End  : Fri Jun  7 21:16:45 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jun  8 07:33:38 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e30b1864f7..818ae0e798  master     -> origin/master
+Updating e30b1864f7..818ae0e798
+Fast-forward
+ cards/000182/card54368.html                   |   2 +-
+ cards/001652/card54383.html                   |   2 +-
+ cards/001652/card54386.html                   |   2 +-
+ cards/001652/card54396.html                   |   2 +-
+ cards/001907/card58949.html                   | 234 ++++++++++++++++++++++++++
+ cards/001907/files/58949_68249.html           |  78 +++++++++
+ cards/001907/files/58949_ruby_68204.zip       | Bin 0 -> 4160 bytes
+ cards/002051/card59538.html                   | 234 ++++++++++++++++++++++++++
+ cards/002051/files/59538_68250.html           |  67 ++++++++
+ cards/002051/files/59538_txt_68205.zip        | Bin 0 -> 753 bytes
+ 121 files changed, 2587 insertions(+), 1913 deletions(-)
+Date: Sat Jun  8 07:37:10 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  7 21:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4160 Jun  8 07:36 ./aozorabunko/cards/001907/files/58949_ruby_68204.zip
+1/2: ./aozorabunko/cards/001907/files/58949_ruby_68204.zip
+>> add 58949_ruby_akino_dai_ichinichi.txt
+>> add 58949_ruby_utf8_akino_dai_ichinichi.txt
+>> 秋の第一日、窪田空穂、
+-rwxrwxrwx 1 level level 753 Jun  8 07:36 ./aozorabunko/cards/002051/files/59538_txt_68205.zip
+2/2: ./aozorabunko/cards/002051/files/59538_txt_68205.zip
+>> add 59538_txt_tenni_tsuzuku_michi.txt
+>> add 59538_txt_utf8_tenni_tsuzuku_michi.txt
+>> 天に続く道、松本竣介、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30152/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jun  8 07:33:38 JST 2019
+End  : Sat Jun  8 07:40:11 JST 2019
