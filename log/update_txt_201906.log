@@ -306,3 +306,74 @@ Title Total : 30152/316 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun  8 07:33:38 JST 2019
 End  : Sat Jun  8 07:40:11 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun  9 09:22:38 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   818ae0e798..442cf5b189  master     -> origin/master
+Updating 818ae0e798..442cf5b189
+Fast-forward
+ cards/001574/card52529.html                   |   28 +-
+ cards/001574/files/52529_68363.html           | 1873 +++++++++++++++++++++++++
+ cards/001574/files/52529_ruby_68364.zip       |  Bin 0 -> 25495838 bytes
+ cards/001600/card53757.html                   |    6 +-
+ cards/001600/files/53757_67624.html           |   30 +-
+ cards/001600/files/53757_ruby_67623.zip       |  Bin 8164741 -> 8164741 bytes
+ cards/001763/card58577.html                   |    8 +-
+ cards/001763/card58911.html                   |    8 +-
+ cards/001763/files/58577_67312.html           |    3 +-
+ cards/001763/files/58577_txt_67363.zip        |  Bin 6117 -> 6053 bytes
+ cards/001763/files/58911_66971.html           |    4 +-
+ cards/001763/files/58911_txt_67012.zip        |  Bin 3361 -> 3469 bytes
+ cards/001784/card56525.html                   |   28 +-
+ cards/001784/files/56525_68347.html           |  774 ++++++++++
+ cards/001784/files/56525_ruby_68346.zip       |  Bin 0 -> 86111 bytes
+ cards/001907/card58949.html                   |    2 +-
+ cards/001940/card58553.html                   |  229 +++
+ cards/001940/files/58553_68251.html           |   68 +
+ cards/001940/files/58553_ruby_68206.zip       |  Bin 0 -> 3260 bytes
+ cards/002051/card59538.html                   |    2 +-
+ 290 files changed, 6833 insertions(+), 3318 deletions(-)
+Date: Sun Jun  9 09:23:51 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  8 07:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 25495838 Jun  9 09:23 ./aozorabunko/cards/001574/files/52529_ruby_68364.zip
+1/6: ./aozorabunko/cards/001574/files/52529_ruby_68364.zip
+>> add 52529_NPD_ruby_kindai_igakuno_koryu.txt
+>> add 52529_NPD_ruby_utf8_kindai_igakuno_koryu.txt
+>> 近代医学の興隆、イェール大学で1913年に行った一連の講義、THE EVOLUTION OF MODERN MEDICINE (1921)、ウィリアム・オスラー　William Osler、水上茂樹訳、
+-rwxrwxrwx 1 level level 8164741 Jun  9 09:23 ./aozorabunko/cards/001600/files/53757_ruby_67623.zip
+2/6: ./aozorabunko/cards/001600/files/53757_ruby_67623.zip
+>> update 53757_NPD_ruby_cholerano_densen_yoshikini_tsuite.txt
+>> update 53757_NPD_ruby_utf8_cholerano_densen_yoshikini_tsuite.txt
+>> コレラの伝染様式について、ON THE MODE OF COMMUNICATION OF CHOLERA (1854)、ジョン・スノウ　John Snow、水上茂樹訳、
+-rwxrwxrwx 1 level level 6053 Jun  9 09:23 ./aozorabunko/cards/001763/files/58577_txt_67363.zip
+3/6: ./aozorabunko/cards/001763/files/58577_txt_67363.zip
+>> update 58577_txt_akutagawa_ryunosukeo_kokusu.txt
+>> update 58577_txt_utf8_akutagawa_ryunosukeo_kokusu.txt
+>> 芥川龍之介を哭す、佐藤春夫、
+-rwxrwxrwx 1 level level 3469 Jun  9 09:23 ./aozorabunko/cards/001763/files/58911_txt_67012.zip
+4/6: ./aozorabunko/cards/001763/files/58911_txt_67012.zip
+>> update 58911_txt_monono_machigai.txt
+>> update 58911_txt_utf8_monono_machigai.txt
+>> もののまちがひ、「田園記」を読みてこの拙文を著者井伏君に呈す、佐藤春夫、
+-rwxrwxrwx 1 level level 86111 Jun  9 09:23 ./aozorabunko/cards/001784/files/56525_ruby_68346.zip
+5/6: ./aozorabunko/cards/001784/files/56525_ruby_68346.zip
+>> add 56525_NPD_ruby_igakuno_rekishi.txt
+>> add 56525_NPD_ruby_utf8_igakuno_rekishi.txt
+>> 医学の歴史、History of Medicine、マクス・ノイバーガー　Max Neuburger、水上茂樹訳、
+-rwxrwxrwx 1 level level 3260 Jun  9 09:23 ./aozorabunko/cards/001940/files/58553_ruby_68206.zip
+6/6: ./aozorabunko/cards/001940/files/58553_ruby_68206.zip
+>> add 58553_ruby_rataibini_tsuite.txt
+>> add 58553_ruby_utf8_rataibini_tsuite.txt
+>> 裸體美に就て、小倉右一郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30154/320 (Accept:6/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Sun Jun  9 09:22:38 JST 2019
+End  : Sun Jun  9 09:24:33 JST 2019
