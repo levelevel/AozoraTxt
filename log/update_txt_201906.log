@@ -415,3 +415,34 @@ Title Total : 30158/320 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun 10 21:28:35 JST 2019
 End  : Mon Jun 10 21:30:03 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 11 22:58:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8696c104ee..b51f7a7769  master     -> origin/master
+Updating 8696c104ee..b51f7a7769
+Fast-forward
+ cards/000237/card50034.html                   |   2 +-
+ cards/000237/card56415.html                   |   2 +-
+ cards/001726/card56083.html                   | 234 +++++++++
+ cards/001726/files/56083_68254.html           | 669 ++++++++++++++++++++++++++
+ cards/001726/files/56083_ruby_68209.zip       | Bin 0 -> 21204 bytes
+ 60 files changed, 1814 insertions(+), 915 deletions(-)
+Date: Tue Jun 11 23:00:20 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 10 21:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 21204 Jun 11 23:00 ./aozorabunko/cards/001726/files/56083_ruby_68209.zip
+1/1: ./aozorabunko/cards/001726/files/56083_ruby_68209.zip
+>> add 56083_ruby_kutsukake_tokijiro.txt
+>> add 56083_ruby_utf8_kutsukake_tokijiro.txt
+>> 沓掛時次郎　三幕十場、長谷川伸、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30160/320 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 11 22:58:48 JST 2019
+End  : Tue Jun 11 23:00:56 JST 2019
