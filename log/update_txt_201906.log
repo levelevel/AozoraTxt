@@ -484,3 +484,58 @@ Title Total : 30164/320 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jun 12 22:07:13 JST 2019
 End  : Wed Jun 12 22:09:38 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jun 13 21:18:06 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e884979365..ed72884daf  master     -> origin/master
+Updating e884979365..ed72884daf
+Fast-forward
+ cards/000009/card50718.html                   |  16 +-
+ cards/000009/card54914.html                   |  16 +-
+ cards/000009/card55882.html                   |  16 +-
+ cards/000009/files/50718_36996.html           | 252 +++++++++++++++++++++++
+ cards/000009/files/50718_ruby_36995.zip       | Bin 0 -> 1605268 bytes
+ cards/000009/files/54914_47226.html           | 230 +++++++++++++++++++++
+ cards/000009/files/54914_ruby_47225.zip       | Bin 0 -> 1815242 bytes
+ cards/000009/files/55882_50046.html           | 279 ++++++++++++++++++++++++++
+ cards/000009/files/55882_ruby_50045.zip       | Bin 0 -> 3378464 bytes
+ cards/000026/card55897.html                   |   2 +-
+ cards/000026/card55911.html                   |   2 +-
+ cards/001420/card55417.html                   | 229 +++++++++++++++++++++
+ cards/001420/files/55417_68257.html           |  69 +++++++
+ cards/001420/files/55417_txt_68212.zip        | Bin 0 -> 2195 bytes
+ 87 files changed, 2383 insertions(+), 1328 deletions(-)
+Date: Thu Jun 13 21:18:58 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 12 22:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1605268 Jun 13 21:18 ./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+1/4: ./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+>> add 50718_NPD_ruby_hinshino_tantei.txt
+>> add 50718_NPD_ruby_utf8_hinshino_tantei.txt
+>> 瀕死の探偵、THE ADVENTURE OF THE DYING DETECTIVE、アーサー・コナン・ドイル　Arthur Conan Doyle、東健而訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 1815242 Jun 13 21:18 ./aozorabunko/cards/000009/files/54914_ruby_47225.zip
+2/4: ./aozorabunko/cards/000009/files/54914_ruby_47225.zip
+>> add 54914_NPD_ruby_jitenshanorino_kage.txt
+>> add 54914_NPD_ruby_utf8_jitenshanorino_kage.txt
+>> 自転車乗りの影、THE ADVENTURE OF THE SOLITARY CYCLIST、アーサー・コナン・ドイル　Arthur Conan Doyle、三上於菟吉訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 3378464 Jun 13 21:18 ./aozorabunko/cards/000009/files/55882_ruby_50045.zip
+3/4: ./aozorabunko/cards/000009/files/55882_ruby_50045.zip
+>> add 55882_NPD_ruby_sussexno_kyuketsuki.txt
+>> add 55882_NPD_ruby_utf8_sussexno_kyuketsuki.txt
+>> サセックスの吸血鬼、THE ADVENTURE OF THE SUSSEX VAMPIRE、アーサー・コナン・ドイル　Arthur Conan Doyle、大久保ゆう訳、
+-rwxrwxrwx 1 level level 2195 Jun 13 21:18 ./aozorabunko/cards/001420/files/55417_txt_68212.zip
+4/4: ./aozorabunko/cards/001420/files/55417_txt_68212.zip
+>> add 55417_txt_adachigaharano_onibaba_iko.txt
+>> add 55417_txt_utf8_adachigaharano_onibaba_iko.txt
+>> 安達ヶ原の鬼婆々異考、中山太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30166/326 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Thu Jun 13 21:18:06 JST 2019
+End  : Thu Jun 13 21:19:45 JST 2019
