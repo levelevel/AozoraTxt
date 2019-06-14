@@ -211,6 +211,7 @@ do
 	$SJIS2UTF8 "$person_to/$target_file" |
 	$GAIJI2UTF8 > "$person_to_utf8/$target_file_utf8"
 	touch -r "$person_to/$target_file" "$person_to_utf8/$target_file_utf8"
+	echo ">> https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html"
 	#タイトル、著者を表示する
 	echo -n ">> "
 	while read line
