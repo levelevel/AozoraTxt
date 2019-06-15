@@ -593,3 +593,82 @@ Title Total : 30168/326 (Accept:4/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jun 14 21:24:13 JST 2019
 End  : Fri Jun 14 21:25:04 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jun 15 08:46:52 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   44c144546d..5838d10335  master     -> origin/master
+Updating 44c144546d..5838d10335
+Fast-forward
+ cards/000009/card50713.html                   |  20 +-
+ cards/000009/card50718.html                   |   2 +-
+ cards/000009/card54915.html                   |  20 +-
+ cards/000009/files/50713_68371.html           | 296 ++++++++++++++++++++++++++
+ cards/000009/files/50713_ruby_36984.zip       | Bin 0 -> 1747763 bytes
+ cards/000009/files/50718_ruby_36995.zip       | Bin 1605268 -> 1605268 bytes
+ cards/000009/files/54915_68372.html           | 280 ++++++++++++++++++++++++
+ cards/000009/files/54915_ruby_47227.zip       | Bin 0 -> 2212751 bytes
+ cards/000168/card4252.html                    |  10 +-
+ cards/000168/files/4252_35181.html            | 162 +++++++-------
+ cards/000168/files/4252_ruby_35180.zip        | Bin 46171 -> 45772 bytes
+ cards/000933/card47698.html                   | 234 ++++++++++++++++++++
+ cards/000933/card47699.html                   | 234 ++++++++++++++++++++
+ cards/000933/files/47698_68259.html           |  98 +++++++++
+ cards/000933/files/47698_ruby_68214.zip       | Bin 0 -> 5239 bytes
+ cards/000933/files/47699_68260.html           |  79 +++++++
+ cards/000933/files/47699_ruby_68215.zip       | Bin 0 -> 5019 bytes
+ cards/001670/card56361.html                   |   2 +-
+ 143 files changed, 5111 insertions(+), 3869 deletions(-)
+Date: Sat Jun 15 08:47:28 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 14 21:25 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1747763 Jun 15 08:47 ./aozorabunko/cards/000009/files/50713_ruby_36984.zip
+1/6: ./aozorabunko/cards/000009/files/50713_ruby_36984.zip
+>> add 50713_NPD_ruby_odoru_ningyo.txt
+>> add 50713_NPD_ruby_utf8_odoru_ningyo.txt
+>> https://www.aozora.gr.jp/cards/000009/card50713.html
+>> 踊る人形、THE ADVENTURE OF THE DANCING MEN、アーサー・コナン・ドイル　Arthur Conan Doyle、三上於菟吉訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 1605268 Jun 15 08:47 ./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+2/6: ./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+ERROR: Headers Error : fig50718_01.png
+ERROR: Headers Error : fig50718_02.png
+ERROR: Headers Error : fig50718_03.png
+ERROR: Headers Error : fig50718_04.png
+>> update 50718_NPD_ruby_hinshino_tantei.txt
+>> update 50718_NPD_ruby_utf8_hinshino_tantei.txt
+>> https://www.aozora.gr.jp/cards/000009/card50718.html
+>> 瀕死の探偵、THE ADVENTURE OF THE DYING DETECTIVE、アーサー・コナン・ドイル　Arthur Conan Doyle、東健而訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 2212751 Jun 15 08:47 ./aozorabunko/cards/000009/files/54915_ruby_47227.zip
+3/6: ./aozorabunko/cards/000009/files/54915_ruby_47227.zip
+>> add 54915_NPD_ruby_sanmaino_gakusei.txt
+>> add 54915_NPD_ruby_utf8_sanmaino_gakusei.txt
+>> https://www.aozora.gr.jp/cards/000009/card54915.html
+>> 三枚の学生、THE ADVENTURE OF THE THREE STUDENTS、アーサー・コナン・ドイル　Arthur Conan Doyle、大久保ゆう訳、
+-rwxrwxrwx 1 level level 45772 Jun 15 08:47 ./aozorabunko/cards/000168/files/4252_ruby_35180.zip
+4/6: ./aozorabunko/cards/000168/files/4252_ruby_35180.zip
+>> update 4252_ruby_nichirin.txt
+>> update 4252_ruby_utf8_nichirin.txt
+>> https://www.aozora.gr.jp/cards/000168/card4252.html
+>> 日輪、横光利一、
+-rwxrwxrwx 1 level level 5239 Jun 15 08:47 ./aozorabunko/cards/000933/files/47698_ruby_68214.zip
+5/6: ./aozorabunko/cards/000933/files/47698_ruby_68214.zip
+>> add 47698_ruby_jiuta.txt
+>> add 47698_ruby_utf8_jiuta.txt
+>> https://www.aozora.gr.jp/cards/000933/card47698.html
+>> 地唄、折口信夫、
+-rwxrwxrwx 1 level level 5019 Jun 15 08:47 ./aozorabunko/cards/000933/files/47699_ruby_68215.zip
+6/6: ./aozorabunko/cards/000933/files/47699_ruby_68215.zip
+>> add 47699_ruby_takagarito_ayatsuri_shibai.txt
+>> add 47699_ruby_utf8_takagarito_ayatsuri_shibai.txt
+>> https://www.aozora.gr.jp/cards/000933/card47699.html
+>> 鷹狩りと操り芝居と、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30172/330 (Accept:6/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Sat Jun 15 08:46:52 JST 2019
+End  : Sat Jun 15 08:47:57 JST 2019

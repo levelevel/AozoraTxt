@@ -123,7 +123,7 @@ do
 
 	ls -l "$zip_file" | tee -a $UNZIP_LOG
 	echo "$text_count/$zip_total: $zip_file"
-	"$UNZIP" $UNZIP_OPT "$zip_file" >> $UNZIP_LOG
+	"$UNZIP" $UNZIP_OPT "$zip_file" >> $UNZIP_LOG 2>&1
 
 	#txtファイルの数をカウントする
 	txt_cnt=0
