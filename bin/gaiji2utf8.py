@@ -41,7 +41,10 @@ def get_gaiji(s):
     return s
 
 def sub_gaiji(text):
-    return re.sub(r'※［＃.+?］', lambda m: get_gaiji(m[0]), text)
+    text = re.sub(r'※［＃.+?］', lambda m: get_gaiji(m[0]), text)
+    #text = re.sub('／＼', '〳〵', text)
+    #text = re.sub('／″＼', '〴〵', text)
+    return text
 
 def main():
     import sys
