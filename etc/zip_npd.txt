@@ -170,4 +170,5 @@
 ./aozorabunko/cards/002043/files/59605_ruby_67423.zip	2019/03/27
 ./aozorabunko/cards/002043/files/59758_ruby_67838.zip	2019/05/20
 ./aozorabunko/cards/002043/files/59759_ruby_67836.zip	2019/04/26
+./aozorabunko/cards/002043/files/59880_ruby_68319.zip	2019/06/17
 ./aozorabunko/cards/002052/files/59606_ruby_67436.zip	2019/03/10

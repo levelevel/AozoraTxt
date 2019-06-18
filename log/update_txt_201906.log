@@ -706,3 +706,65 @@ Title Total : 30174/330 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun 16 07:58:52 JST 2019
 End  : Sun Jun 16 08:00:26 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun 17 21:38:52 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   406906e8ad..d186ab4ac8  master     -> origin/master
+Updating 406906e8ad..d186ab4ac8
+Fast-forward
+ cards/001956/card59386.html                   |    2 +-
+ cards/002043/card59880.html                   |  231 ++++
+ cards/002043/files/59880_68320.html           | 1689 +++++++++++++++++++++++++
+ cards/002043/files/59880_ruby_68319.zip       |  Bin 0 -> 5073788 bytes
+ 77 files changed, 3210 insertions(+), 1302 deletions(-)
+Date: Mon Jun 17 21:40:03 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 16 08:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5073788 Jun 17 21:39 ./aozorabunko/cards/002043/files/59880_ruby_68319.zip
+1/1: ./aozorabunko/cards/002043/files/59880_ruby_68319.zip
+>> add 59880_NPD_ruby_ogonbara.txt
+>> add 59880_NPD_ruby_utf8_ogonbara.txt
+>> https://www.aozora.gr.jp/cards/002043/card59880.html
+>> 黄金薔薇、The Golden Rose、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30174/332 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Jun 17 21:38:52 JST 2019
+End  : Mon Jun 17 21:40:50 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 18 22:08:59 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d186ab4ac8..0d647305d6  master     -> origin/master
+Updating d186ab4ac8..0d647305d6
+Fast-forward
+ cards/001248/card50615.html                   | 229 ++++++++++++++++++++++++++
+ cards/001248/files/50615_68262.html           |  62 +++++++
+ cards/001248/files/50615_txt_68217.zip        | Bin 0 -> 1961 bytes
+ cards/002043/card59880.html                   |   2 +-
+ 42 files changed, 581 insertions(+), 293 deletions(-)
+Date: Tue Jun 18 22:09:45 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 17 21:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1961 Jun 18 22:09 ./aozorabunko/cards/001248/files/50615_txt_68217.zip
+1/1: ./aozorabunko/cards/001248/files/50615_txt_68217.zip
+>> add 50615_txt_yoruno_kurodai.txt
+>> add 50615_txt_utf8_yoruno_kurodai.txt
+>> https://www.aozora.gr.jp/cards/001248/card50615.html
+>> 夜の黒鯛、佐藤垢石、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30176/332 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 18 22:08:59 JST 2019
+End  : Tue Jun 18 22:10:53 JST 2019
