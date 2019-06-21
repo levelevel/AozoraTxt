@@ -830,3 +830,43 @@ Title Total : 30180/332 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 20 20:54:53 JST 2019
 End  : Thu Jun 20 20:55:40 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 21 21:03:53 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   83f12f1965..d8d1f6f54a  master     -> origin/master
+Updating 83f12f1965..d8d1f6f54a
+Fast-forward
+ cards/000374/card56014.html                   |   2 +-
+ cards/001637/card58600.html                   | 234 ++++++++++++++++++++++++++
+ cards/001637/card59054.html                   | 229 +++++++++++++++++++++++++
+ cards/001637/files/58600_68266.html           | 130 ++++++++++++++
+ cards/001637/files/58600_ruby_68221.zip       | Bin 0 -> 2024 bytes
+ cards/001637/files/59054_68265.html           |  82 +++++++++
+ cards/001637/files/59054_txt_68220.zip        | Bin 0 -> 875 bytes
+ 72 files changed, 2506 insertions(+), 1836 deletions(-)
+Date: Fri Jun 21 21:04:57 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 20 20:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2024 Jun 21 21:04 ./aozorabunko/cards/001637/files/58600_ruby_68221.zip
+1/2: ./aozorabunko/cards/001637/files/58600_ruby_68221.zip
+>> add 58600_ruby_hahano_tegami.txt
+>> add 58600_ruby_utf8_hahano_tegami.txt
+>> https://www.aozora.gr.jp/cards/001637/card58600.html
+>> 母の手紙、中野鈴子、
+-rwxrwxrwx 1 level level 875 Jun 21 21:04 ./aozorabunko/cards/001637/files/59054_txt_68220.zip
+2/2: ./aozorabunko/cards/001637/files/59054_txt_68220.zip
+>> add 59054_txt_atsuki_teo_agu.txt
+>> add 59054_txt_utf8_atsuki_teo_agu.txt
+>> https://www.aozora.gr.jp/cards/001637/card59054.html
+>> あつき手を挙ぐ、中野鈴子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30184/332 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 21 21:03:53 JST 2019
+End  : Fri Jun 21 21:05:31 JST 2019
