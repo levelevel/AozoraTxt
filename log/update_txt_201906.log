@@ -911,3 +911,44 @@ Title Total : 30188/332 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun 22 08:21:10 JST 2019
 End  : Sat Jun 22 08:22:02 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun 23 08:55:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a59cf091a3..7ce15bc950  master     -> origin/master
+Updating a59cf091a3..7ce15bc950
+Fast-forward
+ cards/001520/card56737.html                   | 234 ++++++++++++++++++++++++++
+ cards/001520/files/56737_68269.html           |  82 +++++++++
+ cards/001520/files/56737_ruby_68224.zip       | Bin 0 -> 9303 bytes
+ cards/001869/card57670.html                   |   2 +-
+ cards/001869/card57819.html                   |   2 +-
+ cards/001976/card58924.html                   | 234 ++++++++++++++++++++++++++
+ cards/001976/files/58924_68270.html           |  96 +++++++++++
+ cards/001976/files/58924_ruby_68225.zip       | Bin 0 -> 6531 bytes
+ 68 files changed, 2072 insertions(+), 1428 deletions(-)
+Date: Sun Jun 23 08:56:21 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 22 08:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9303 Jun 23 08:56 ./aozorabunko/cards/001520/files/56737_ruby_68224.zip
+1/2: ./aozorabunko/cards/001520/files/56737_ruby_68224.zip
+>> add 56737_ruby_okinawano_omoide.txt
+>> add 56737_ruby_utf8_okinawano_omoide.txt
+>> https://www.aozora.gr.jp/cards/001520/card56737.html
+>> 沖縄の思い出、柳宗悦、
+-rwxrwxrwx 1 level level 6531 Jun 23 08:56 ./aozorabunko/cards/001976/files/58924_ruby_68225.zip
+2/2: ./aozorabunko/cards/001976/files/58924_ruby_68225.zip
+>> add 58924_ruby_trappist_tenshienno_dotei.txt
+>> add 58924_ruby_utf8_trappist_tenshienno_dotei.txt
+>> https://www.aozora.gr.jp/cards/001976/card58924.html
+>> トラピスト天使園の童貞、三木露風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30192/332 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun 23 08:55:48 JST 2019
+End  : Sun Jun 23 08:56:41 JST 2019
