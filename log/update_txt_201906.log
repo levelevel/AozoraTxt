@@ -1083,3 +1083,35 @@ Title Total : 30204/334 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 27 14:10:20 JST 2019
 End  : Thu Jun 27 14:15:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 28 21:48:14 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b8df3cc1dd..093dcf6b41  master     -> origin/master
+Updating b8df3cc1dd..093dcf6b41
+Fast-forward
+ cards/000291/card58235.html                   | 229 +++++++++++++
+ cards/000291/files/58235_68277.html           | 181 ++++++++++
+ cards/000291/files/58235_txt_68232.zip        | Bin 0 -> 10289 bytes
+ cards/001938/card58496.html                   |   2 +-
+ cards/001938/card58500.html                   |   2 +-
+ 60 files changed, 1920 insertions(+), 1964 deletions(-)
+Date: Fri Jun 28 21:48:48 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 27 14:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10289 Jun 28 21:48 ./aozorabunko/cards/000291/files/58235_txt_68232.zip
+1/1: ./aozorabunko/cards/000291/files/58235_txt_68232.zip
+>> add 58235_txt_fubai.txt
+>> add 58235_txt_utf8_fubai.txt
+>> https://www.aozora.gr.jp/cards/000291/card58235.html
+>> 風媒、林芙美子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30206/334 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 28 21:48:14 JST 2019
+End  : Fri Jun 28 21:49:43 JST 2019
