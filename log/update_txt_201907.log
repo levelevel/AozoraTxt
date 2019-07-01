@@ -1,0 +1,41 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jul  1 21:24:15 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f9dcc25b59..026667bead  master     -> origin/master
+Updating f9dcc25b59..026667bead
+Fast-forward
+ cards/000214/card48854.html                   |   2 +-
+ cards/000214/card48860.html                   |   2 +-
+ cards/001569/card59202.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59202_68469.html           | 107 ++++++++++++
+ cards/001569/files/59202_ruby_68420.zip       | Bin 0 -> 30227 bytes
+ cards/001997/card59355.html                   | 229 +++++++++++++++++++++++++
+ cards/001997/files/59355_68470.html           | 108 ++++++++++++
+ cards/001997/files/59355_ruby_68421.zip       | Bin 0 -> 4502 bytes
+ 89 files changed, 3082 insertions(+), 2412 deletions(-)
+Date: Mon Jul  1 21:25:51 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 30 07:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 30227 Jul  1 21:25 ./aozorabunko/cards/001569/files/59202_ruby_68420.zip
+1/2: ./aozorabunko/cards/001569/files/59202_ruby_68420.zip
+>> add 59202_ruby_biwakono_mizu.txt
+>> add 59202_ruby_utf8_biwakono_mizu.txt
+>> https://www.aozora.gr.jp/cards/001569/card59202.html
+>> 琵琶湖の水、中谷宇吉郎、
+-rwxrwxrwx 1 level level 4502 Jul  1 21:25 ./aozorabunko/cards/001997/files/59355_ruby_68421.zip
+2/2: ./aozorabunko/cards/001997/files/59355_ruby_68421.zip
+>> add 59355_ruby_shanhaino_ehon.txt
+>> add 59355_ruby_utf8_shanhaino_ehon.txt
+>> https://www.aozora.gr.jp/cards/001997/card59355.html
+>> 上海の絵本、三岸好太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30216/334 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jul  1 21:24:15 JST 2019
+End  : Mon Jul  1 21:26:22 JST 2019
