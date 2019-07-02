@@ -39,3 +39,54 @@ Title Total : 30216/334 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jul  1 21:24:15 JST 2019
 End  : Mon Jul  1 21:26:22 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jul  2 22:33:01 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   026667bead..380a7b3420  master     -> origin/master
+Updating 026667bead..380a7b3420
+Fast-forward
+ cards/001224/card46096.html                   |   2 +-
+ cards/001569/card59202.html                   |   2 +-
+ cards/001779/card58590.html                   | 234 ++++++++++++++++++++++++++
+ cards/001779/card58699.html                   | 234 ++++++++++++++++++++++++++
+ cards/001779/card59399.html                   | 230 +++++++++++++++++++++++++
+ cards/001779/files/58590_68472.html           | 216 ++++++++++++++++++++++++
+ cards/001779/files/58590_ruby_68423.zip       | Bin 0 -> 13121 bytes
+ cards/001779/files/58699_68471.html           | 177 +++++++++++++++++++
+ cards/001779/files/58699_ruby_68422.zip       | Bin 0 -> 9339 bytes
+ cards/001779/files/59399_68517.html           |  67 ++++++++
+ cards/001779/files/59399_ruby_68468.zip       | Bin 0 -> 1900 bytes
+ cards/001997/card59355.html                   |   2 +-
+ 119 files changed, 3204 insertions(+), 2038 deletions(-)
+Date: Tue Jul  2 22:34:54 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  1 21:26 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13121 Jul  2 22:34 ./aozorabunko/cards/001779/files/58590_ruby_68423.zip
+1/3: ./aozorabunko/cards/001779/files/58590_ruby_68423.zip
+>> add 58590_ruby_egawa_ranko.txt
+>> add 58590_ruby_utf8_egawa_ranko.txt
+>> https://www.aozora.gr.jp/cards/001779/card58590.html
+>> 江川蘭子、江戸川乱歩、
+-rwxrwxrwx 1 level level 9339 Jul  2 22:34 ./aozorabunko/cards/001779/files/58699_ruby_68422.zip
+2/3: ./aozorabunko/cards/001779/files/58699_ruby_68422.zip
+>> add 58699_ruby_akuryo_monogatari.txt
+>> add 58699_ruby_utf8_akuryo_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001779/card58699.html
+>> 悪霊物語、江戸川乱歩、
+-rwxrwxrwx 1 level level 1900 Jul  2 22:34 ./aozorabunko/cards/001779/files/59399_ruby_68468.zip
+3/3: ./aozorabunko/cards/001779/files/59399_ruby_68468.zip
+>> add 59399_ruby_akuryo_monogatari_jisaku_kaisetsu.txt
+>> add 59399_ruby_utf8_akuryo_monogatari_jisaku_kaisetsu.txt
+>> https://www.aozora.gr.jp/cards/001779/card59399.html
+>> 「悪霊物語」自作解説、江戸川乱歩、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30222/334 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jul  2 22:33:01 JST 2019
+End  : Tue Jul  2 22:35:41 JST 2019
