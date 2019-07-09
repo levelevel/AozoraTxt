@@ -268,3 +268,78 @@ Title Total : 30236/334 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jul  7 07:37:00 JST 2019
 End  : Sun Jul  7 07:38:12 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jul  8 23:02:22 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d45414f467..ccd0a96e60  master     -> origin/master
+Updating d45414f467..ccd0a96e60
+Fast-forward
+ cards/001248/card46782.html                   |   2 +-
+ cards/001248/card46792.html                   |   2 +-
+ cards/001248/card46797.html                   |   2 +-
+ cards/001248/card50595.html                   |   2 +-
+ cards/001393/card59966.html                   | 235 ++++++++++++++++++++++++++
+ cards/001393/files/59966_68329.html           | 133 +++++++++++++++
+ cards/001393/files/59966_ruby_68328.zip       | Bin 0 -> 5416 bytes
+ soramoyou/soramoyouindex.html                 | 226 ++++++++++++-------------
+ 61 files changed, 1380 insertions(+), 1018 deletions(-)
+Date: Mon Jul  8 23:03:15 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  7 07:38 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5416 Jul  8 23:03 ./aozorabunko/cards/001393/files/59966_ruby_68328.zip
+1/1: ./aozorabunko/cards/001393/files/59966_ruby_68328.zip
+>> add 59966_NPD_ruby_kamega_achillesni_ittakoto.txt
+>> add 59966_NPD_ruby_utf8_kamega_achillesni_ittakoto.txt
+>> https://www.aozora.gr.jp/cards/001393/card59966.html
+>> 亀がアキレスに言ったこと、What the Tortoise said to Achilles、ルイス・キャロル　Lewis Carroll、石波杏訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30236/336 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Jul  8 23:02:22 JST 2019
+End  : Mon Jul  8 23:03:50 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul 10 00:21:17 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ccd0a96e60..62a5fe05b9  master     -> origin/master
+Updating ccd0a96e60..62a5fe05b9
+Fast-forward
+ cards/001341/card58689.html                   | 234 ++++++++++++++
+ cards/001341/files/58689_68480.html           |  76 +++++
+ cards/001341/files/58689_ruby_68431.zip       | Bin 0 -> 4332 bytes
+ cards/001393/card59966.html                   |   2 +-
+ cards/001397/card51246.html                   | 229 ++++++++++++++
+ cards/001397/files/51246_68481.html           | 425 ++++++++++++++++++++++++++
+ cards/001397/files/51246_ruby_68432.zip       | Bin 0 -> 37028 bytes
+ 72 files changed, 2621 insertions(+), 1660 deletions(-)
+Date: Wed Jul 10 00:23:52 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  8 23:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4332 Jul 10 00:23 ./aozorabunko/cards/001341/files/58689_ruby_68431.zip
+1/2: ./aozorabunko/cards/001341/files/58689_ruby_68431.zip
+>> add 58689_ruby_ogai_zenshu_kankono_ki.txt
+>> add 58689_ruby_utf8_ogai_zenshu_kankono_ki.txt
+>> https://www.aozora.gr.jp/cards/001341/card58689.html
+>> 鴎外全集刊行の記、永井荷風、
+-rwxrwxrwx 1 level level 37028 Jul 10 00:23 ./aozorabunko/cards/001397/files/51246_ruby_68432.zip
+2/2: ./aozorabunko/cards/001397/files/51246_ruby_68432.zip
+>> add 51246_ruby_reijo_emirano_nikki.txt
+>> add 51246_ruby_utf8_reijo_emirano_nikki.txt
+>> https://www.aozora.gr.jp/cards/001397/card51246.html
+>> 令嬢エミーラの日記、橘外男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30240/336 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul 10 00:21:17 JST 2019
+End  : Wed Jul 10 00:24:49 JST 2019

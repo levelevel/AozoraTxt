@@ -69,6 +69,7 @@
 ./aozorabunko/cards/001393/files/54926_txt_47247.zip
 ./aozorabunko/cards/001393/files/55880_ruby_50041.zip
 ./aozorabunko/cards/001393/files/57320_ruby_57182.zip
+./aozorabunko/cards/001393/files/59966_ruby_68328.zip	2019/07/08
 ./aozorabunko/cards/001492/files/51194_ruby_67442.zip
 ./aozorabunko/cards/001492/files/51195_ruby_67539.zip	2019/03/26
 ./aozorabunko/cards/001493/files/51196_ruby_67512.zip	2019/03/12
