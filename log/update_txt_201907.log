@@ -384,3 +384,35 @@ Title Total : 30244/336 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jul 11 00:19:55 JST 2019
 End  : Thu Jul 11 00:24:16 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jul 12 02:27:20 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   801ab99a8c..8398aa453e  master     -> origin/master
+Updating 801ab99a8c..8398aa453e
+Fast-forward
+ cards/001344/card55416.html                   | 229 ++++++++++++++++++++++++++
+ cards/001344/files/55416_68484.html           |  60 +++++++
+ cards/001344/files/55416_txt_68435.zip        | Bin 0 -> 1158 bytes
+ cards/001652/card54363.html                   |   2 +-
+ cards/001652/card54414.html                   |   2 +-
+ 43 files changed, 1462 insertions(+), 1177 deletions(-)
+Date: Fri Jul 12 02:30:21 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 11 00:24 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1158 Jul 12 02:29 ./aozorabunko/cards/001344/files/55416_txt_68435.zip
+1/1: ./aozorabunko/cards/001344/files/55416_txt_68435.zip
+>> add 55416_txt_kita_mosu.txt
+>> add 55416_txt_utf8_kita_mosu.txt
+>> https://www.aozora.gr.jp/cards/001344/card55416.html
+>> 〔喜田申す〕、喜田貞吉、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30246/336 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jul 12 02:27:20 JST 2019
+End  : Fri Jul 12 02:32:09 JST 2019
