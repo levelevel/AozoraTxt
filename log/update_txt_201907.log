@@ -416,3 +416,43 @@ Title Total : 30246/336 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jul 12 02:27:20 JST 2019
 End  : Fri Jul 12 02:32:09 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jul 13 01:16:08 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8398aa453e..240d2d1972  master     -> origin/master
+Updating 8398aa453e..240d2d1972
+Fast-forward
+ cards/001070/card54115.html                   |  229 ++++++
+ cards/001070/files/54115_68485.html           |   85 ++
+ cards/001070/files/54115_ruby_68436.zip       |  Bin 0 -> 7937 bytes
+ cards/001209/card54189.html                   |  238 ++++++
+ cards/001209/files/54189_68486.html           | 1075 +++++++++++++++++++++++++
+ cards/001209/files/54189_ruby_68437.zip       |  Bin 0 -> 280080 bytes
+ cards/001344/card55416.html                   |    2 +-
+ 53 files changed, 2186 insertions(+), 567 deletions(-)
+Date: Sat Jul 13 01:17:28 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 12 02:32 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7937 Jul 13 01:17 ./aozorabunko/cards/001070/files/54115_ruby_68436.zip
+1/2: ./aozorabunko/cards/001070/files/54115_ruby_68436.zip
+>> add 54115_ruby_01yakushano_kotoba_morino_seikatsu.txt
+>> add 54115_ruby_utf8_01yakushano_kotoba_morino_seikatsu.txt
+>> https://www.aozora.gr.jp/cards/001070/card54115.html
+>> 森の生活――ウォールデン――、訳者の言葉、WALDEN, OR LIFE IN THE WOODS、神吉三郎、
+-rwxrwxrwx 1 level level 280080 Jul 13 01:17 ./aozorabunko/cards/001209/files/54189_ruby_68437.zip
+2/2: ./aozorabunko/cards/001209/files/54189_ruby_68437.zip
+>> add 54189_ruby_02morino_seikatsu.txt
+>> add 54189_ruby_utf8_02morino_seikatsu.txt
+>> https://www.aozora.gr.jp/cards/001209/card54189.html
+>> 森の生活――ウォールデン――、WALDEN, OR LIFE IN THE WOODS、ソーロー　Henry David Thoreau、神吉三郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30250/336 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jul 13 01:16:08 JST 2019
+End  : Sat Jul 13 01:18:25 JST 2019
