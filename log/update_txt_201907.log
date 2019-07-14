@@ -491,3 +491,43 @@ Title Total : 30252/336 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul 13 21:34:32 JST 2019
 End  : Sat Jul 13 21:35:28 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jul 14 09:09:16 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e641ddad17..732509d2fc  master     -> origin/master
+Updating e641ddad17..732509d2fc
+Fast-forward
+ cards/001403/card55104.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55110.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55104_68489.html           |  88 ++++++++++
+ cards/001403/files/55104_ruby_68440.zip       | Bin 0 -> 6233 bytes
+ cards/001403/files/55110_68488.html           |  87 ++++++++++
+ cards/001403/files/55110_ruby_68439.zip       | Bin 0 -> 4630 bytes
+ cards/001974/card58915.html                   |   2 +-
+ 76 files changed, 1789 insertions(+), 1151 deletions(-)
+Date: Sun Jul 14 09:10:11 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 13 21:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6233 Jul 14 09:10 ./aozorabunko/cards/001403/files/55104_ruby_68440.zip
+1/2: ./aozorabunko/cards/001403/files/55104_ruby_68440.zip
+>> add 55104_ruby_minno_kosometsuke_kan.txt
+>> add 55104_ruby_utf8_minno_kosometsuke_kan.txt
+>> https://www.aozora.gr.jp/cards/001403/card55104.html
+>> 「明の古染付」観、北大路魯山人、
+-rwxrwxrwx 1 level level 4630 Jul 14 09:10 ./aozorabunko/cards/001403/files/55110_ruby_68439.zip
+2/2: ./aozorabunko/cards/001403/files/55110_ruby_68439.zip
+>> add 55110_ruby_kosometsukeno_etsuke_oyobi_moyo.txt
+>> add 55110_ruby_utf8_kosometsukeno_etsuke_oyobi_moyo.txt
+>> https://www.aozora.gr.jp/cards/001403/card55110.html
+>> 古染付の絵付及び模様、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30256/336 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jul 14 09:09:16 JST 2019
+End  : Sun Jul 14 09:10:51 JST 2019
