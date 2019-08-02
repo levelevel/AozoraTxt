@@ -48,3 +48,54 @@ Title Total : 30316/346 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug  1 23:30:12 JST 2019
 End  : Thu Aug  1 23:31:53 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug  3 00:53:15 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   039043dc48..75516f1487  master     -> origin/master
+Updating 039043dc48..75516f1487
+Fast-forward
+ cards/000026/card55895.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55929.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/55895_68741.html           |  63 +++++++
+ cards/000026/files/55895_ruby_68692.zip       | Bin 0 -> 968 bytes
+ cards/000026/files/55929_68742.html           |  75 +++++++++
+ cards/000026/files/55929_txt_68693.zip        | Bin 0 -> 1060 bytes
+ cards/000810/card49947.html                   |  10 +-
+ cards/000810/files/49947_40166.html           |  43 +++--
+ cards/000810/files/49947_ruby_39182.zip       | Bin 161743 -> 2210694 bytes
+ cards/001245/card58664.html                   |   2 +-
+ cards/001579/card53184.html                   |   2 +-
+ cards/001963/card58854.html                   |   2 +-
+ 110 files changed, 1879 insertions(+), 1277 deletions(-)
+Date: Sat Aug  3 00:54:33 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  1 23:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 968 Aug  3 00:54 ./aozorabunko/cards/000026/files/55895_ruby_68692.zip
+1/3: ./aozorabunko/cards/000026/files/55895_ruby_68692.zip
+>> add 55895_ruby_kentaini_nigirareta_otoko.txt
+>> add 55895_ruby_utf8_kentaini_nigirareta_otoko.txt
+>> https://www.aozora.gr.jp/cards/000026/card55895.html
+>> 倦怠に握られた男、中原中也、
+-rwxrwxrwx 1 level level 1060 Aug  3 00:54 ./aozorabunko/cards/000026/files/55929_txt_68693.zip
+2/3: ./aozorabunko/cards/000026/files/55929_txt_68693.zip
+>> add 55929_txt_tenpini_kakete.txt
+>> add 55929_txt_utf8_tenpini_kakete.txt
+>> https://www.aozora.gr.jp/cards/000026/card55929.html
+>> （テンピにかけて）、中原中也、
+-rwxrwxrwx 1 level level 2210694 Aug  3 00:54 ./aozorabunko/cards/000810/files/49947_ruby_39182.zip
+3/3: ./aozorabunko/cards/000810/files/49947_ruby_39182.zip
+>> update 49947_ruby_kuidoraku_haruno_maki.txt
+>> update 49947_ruby_utf8_kuidoraku_haruno_maki.txt
+>> https://www.aozora.gr.jp/cards/000810/card49947.html
+>> 食道楽、春の巻、村井弦斎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30320/346 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug  3 00:53:15 JST 2019
+End  : Sat Aug  3 00:55:37 JST 2019
