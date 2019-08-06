@@ -203,3 +203,34 @@ Title Total : 30328/346 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Aug  5 23:17:23 JST 2019
 End  : Mon Aug  5 23:19:19 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug  6 21:19:57 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4371a01a12..c9cc660f4d  master     -> origin/master
+Updating 4371a01a12..c9cc660f4d
+Fast-forward
+ cards/001661/card54367.html                   | 229 ++++++++++++++++++++++++++
+ cards/001661/files/54367_68747.html           |  68 ++++++++
+ cards/001661/files/54367_ruby_68698.zip       | Bin 0 -> 4404 bytes
+ cards/001875/card59874.html                   |   2 +-
+ 57 files changed, 1294 insertions(+), 1013 deletions(-)
+Date: Tue Aug  6 21:22:06 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  5 23:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4404 Aug  6 21:21 ./aozorabunko/cards/001661/files/54367_ruby_68698.zip
+1/1: ./aozorabunko/cards/001661/files/54367_ruby_68698.zip
+>> add 54367_ruby_chiteki_sayoto_kanjoto.txt
+>> add 54367_ruby_utf8_chiteki_sayoto_kanjoto.txt
+>> https://www.aozora.gr.jp/cards/001661/card54367.html
+>> 知的作用と感情と、増田惟茂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30330/346 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug  6 21:19:57 JST 2019
+End  : Tue Aug  6 21:22:50 JST 2019
