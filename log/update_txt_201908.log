@@ -266,3 +266,43 @@ Title Total : 30332/346 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug  7 21:22:45 JST 2019
 End  : Wed Aug  7 21:24:27 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug  8 21:34:54 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   588cd4190f..2670dd44d9  master     -> origin/master
+Updating 588cd4190f..2670dd44d9
+Fast-forward
+ cards/001566/card58544.html                   |  234 ++++
+ cards/001566/files/58544_68749.html           | 1521 +++++++++++++++++++++++++
+ cards/001566/files/58544_ruby_68700.zip       |  Bin 0 -> 212335 bytes
+ cards/001670/card56345.html                   |    2 +-
+ cards/001749/card58607.html                   |  234 ++++
+ cards/001749/files/58607_68750.html           |   63 +
+ cards/001749/files/58607_ruby_68701.zip       |  Bin 0 -> 798 bytes
+ 49 files changed, 3123 insertions(+), 1074 deletions(-)
+Date: Thu Aug  8 21:35:54 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  7 21:24 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 212335 Aug  8 21:35 ./aozorabunko/cards/001566/files/58544_ruby_68700.zip
+1/2: ./aozorabunko/cards/001566/files/58544_ruby_68700.zip
+>> add 58544_ruby_chimeino_kenkyu.txt
+>> add 58544_ruby_utf8_chimeino_kenkyu.txt
+>> https://www.aozora.gr.jp/cards/001566/card58544.html
+>> 地名の研究、柳田國男、
+-rwxrwxrwx 1 level level 798 Aug  8 21:35 ./aozorabunko/cards/001749/files/58607_ruby_68701.zip
+2/2: ./aozorabunko/cards/001749/files/58607_ruby_68701.zip
+>> add 58607_ruby_risshu.txt
+>> add 58607_ruby_utf8_risshu.txt
+>> https://www.aozora.gr.jp/cards/001749/card58607.html
+>> 立秋、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30336/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug  8 21:34:54 JST 2019
+End  : Thu Aug  8 21:36:37 JST 2019
