@@ -348,3 +348,80 @@ Title Total : 30340/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Aug  9 23:32:46 JST 2019
 End  : Fri Aug  9 23:33:49 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Aug 11 20:02:28 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e84c4bd945..c7116fc6f1  master     -> origin/master
+Updating e84c4bd945..c7116fc6f1
+Fast-forward
+ cards/000214/card48825.html                   |    2 +-
+ cards/000214/card48868.html                   |  243 ++
+ cards/000214/card48996.html                   |    2 +-
+ cards/000214/files/48868_68753.html           |  145 +
+ cards/000214/files/48868_ruby_68704.zip       |  Bin 0 -> 11819 bytes
+ cards/001562/card56074.html                   |  229 +
+ cards/001562/files/56074_68754.html           | 5684 +++++++++++++++++++++++++
+ cards/001562/files/56074_ruby_68705.zip       |  Bin 0 -> 226648 bytes
+ cards/001749/card58734.html                   |   10 +-
+ cards/001749/card58735.html                   |   10 +-
+ cards/001749/card58736.html                   |   10 +-
+ cards/001749/card58754.html                   |   10 +-
+ cards/001749/files/58734_63880.html           |    5 +-
+ cards/001749/files/58734_txt_63800.zip        |  Bin 761 -> 714 bytes
+ cards/001749/files/58735_64632.html           |    3 +-
+ cards/001749/files/58735_ruby_64580.zip       |  Bin 866 -> 816 bytes
+ cards/001749/files/58736_66342.html           |    4 +-
+ cards/001749/files/58736_txt_66295.zip        |  Bin 762 -> 712 bytes
+ cards/001749/files/58754_64937.html           |    3 +-
+ cards/001749/files/58754_ruby_64891.zip       |  Bin 775 -> 724 bytes
+ 152 files changed, 9804 insertions(+), 3507 deletions(-)
+Date: Sun Aug 11 20:03:44 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  9 23:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11819 Aug 11 20:03 ./aozorabunko/cards/000214/files/48868_ruby_68704.zip
+1/6: ./aozorabunko/cards/000214/files/48868_ruby_68704.zip
+>> add 48868_ruby_saikaku_shoron.txt
+>> add 48868_ruby_utf8_saikaku_shoron.txt
+>> https://www.aozora.gr.jp/cards/000214/card48868.html
+>> 西鶴小論、田山録弥、
+-rwxrwxrwx 1 level level 226648 Aug 11 20:03 ./aozorabunko/cards/001562/files/56074_ruby_68705.zip
+2/6: ./aozorabunko/cards/001562/files/56074_ruby_68705.zip
+>> add 56074_ruby_bairi_sensei_gyojoki.txt
+>> add 56074_ruby_utf8_bairi_sensei_gyojoki.txt
+>> https://www.aozora.gr.jp/cards/001562/card56074.html
+>> 梅里先生行状記、吉川英治、
+-rwxrwxrwx 1 level level 714 Aug 11 20:03 ./aozorabunko/cards/001749/files/58734_txt_63800.zip
+3/6: ./aozorabunko/cards/001749/files/58734_txt_63800.zip
+>> update 58734_txt_yuki.txt
+>> update 58734_txt_utf8_yuki.txt
+>> https://www.aozora.gr.jp/cards/001749/card58734.html
+>> 雪、三好達治、
+-rwxrwxrwx 1 level level 816 Aug 11 20:03 ./aozorabunko/cards/001749/files/58735_ruby_64580.zip
+4/6: ./aozorabunko/cards/001749/files/58735_ruby_64580.zip
+>> update 58735_ruby_usagi.txt
+>> update 58735_ruby_utf8_usagi.txt
+>> https://www.aozora.gr.jp/cards/001749/card58735.html
+>> 兎、三好達治、
+-rwxrwxrwx 1 level level 712 Aug 11 20:03 ./aozorabunko/cards/001749/files/58736_txt_66295.zip
+5/6: ./aozorabunko/cards/001749/files/58736_txt_66295.zip
+>> update 58736_txt_washi.txt
+>> update 58736_txt_utf8_washi.txt
+>> https://www.aozora.gr.jp/cards/001749/card58736.html
+>> 鷲、三好達治、
+-rwxrwxrwx 1 level level 724 Aug 11 20:03 ./aozorabunko/cards/001749/files/58754_ruby_64891.zip
+6/6: ./aozorabunko/cards/001749/files/58754_ruby_64891.zip
+>> update 58754_ruby_henshu.txt
+>> update 58754_ruby_utf8_henshu.txt
+>> https://www.aozora.gr.jp/cards/001749/card58754.html
+>> 扁舟、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30344/346 (Accept:6/Reject:0/Update:4/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Aug 11 20:02:28 JST 2019
+End  : Sun Aug 11 20:04:31 JST 2019
