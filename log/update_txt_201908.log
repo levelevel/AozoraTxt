@@ -425,3 +425,43 @@ Title Total : 30344/346 (Accept:6/Reject:0/Update:4/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug 11 20:02:28 JST 2019
 End  : Sun Aug 11 20:04:31 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug 12 07:04:53 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c7116fc6f1..ed7ffbf343  master     -> origin/master
+Updating c7116fc6f1..ed7ffbf343
+Fast-forward
+ cards/000448/card53672.html                   | 229 ++++++++++++++++++++++++
+ cards/000448/files/53672_68755.html           | 101 +++++++++++
+ cards/000448/files/53672_ruby_68706.zip       | Bin 0 -> 6821 bytes
+ cards/001179/card52018.html                   | 234 +++++++++++++++++++++++++
+ cards/001179/files/52018_68756.html           | 126 ++++++++++++++
+ cards/001179/files/52018_txt_68707.zip        | Bin 0 -> 3543 bytes
+ cards/001562/card56074.html                   |   2 +-
+ 73 files changed, 2363 insertions(+), 1676 deletions(-)
+Date: Mon Aug 12 07:05:23 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 12 06:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6821 Aug 12 07:05 ./aozorabunko/cards/000448/files/53672_ruby_68706.zip
+1/2: ./aozorabunko/cards/000448/files/53672_ruby_68706.zip
+>> add 53672_ruby_01ban'yuno_chikara.txt
+>> add 53672_ruby_utf8_01ban'yuno_chikara.txt
+>> https://www.aozora.gr.jp/cards/000448/card53672.html
+>> 探檢實記　地中の秘密、蠻勇の力、江見水蔭、
+-rwxrwxrwx 1 level level 3543 Aug 12 07:05 ./aozorabunko/cards/001179/files/52018_txt_68707.zip
+2/2: ./aozorabunko/cards/001179/files/52018_txt_68707.zip
+>> add 52018_txt_toge.txt
+>> add 52018_txt_utf8_toge.txt
+>> https://www.aozora.gr.jp/cards/001179/card52018.html
+>> 峠、土田耕平、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30348/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug 12 07:04:53 JST 2019
+End  : Mon Aug 12 07:05:34 JST 2019
