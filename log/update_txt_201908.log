@@ -465,3 +465,67 @@ Title Total : 30348/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Aug 12 07:04:53 JST 2019
 End  : Mon Aug 12 07:05:34 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug 13 22:28:13 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ed7ffbf343..31fcb99afc  master     -> origin/master
+Updating ed7ffbf343..31fcb99afc
+Fast-forward
+ cards/000448/card53672.html                   |   2 +-
+ cards/001179/card45129.html                   |   2 +-
+ cards/001179/card45130.html                   |   2 +-
+ cards/001179/card45131.html                   |   2 +-
+ cards/001179/card45132.html                   |   2 +-
+ cards/001179/card45133.html                   |   2 +-
+ cards/001179/card45134.html                   |   2 +-
+ cards/001179/card45135.html                   |   2 +-
+ cards/001179/card45136.html                   |   2 +-
+ cards/001179/card45137.html                   |   2 +-
+ cards/001179/card45138.html                   |   2 +-
+ cards/001179/card45139.html                   |   2 +-
+ cards/001179/card45140.html                   |   2 +-
+ cards/001179/card45141.html                   |   2 +-
+ cards/001179/card45142.html                   |   2 +-
+ cards/001179/card45143.html                   |   2 +-
+ cards/001179/card45144.html                   |   2 +-
+ cards/001179/card45145.html                   |   2 +-
+ cards/001179/card45146.html                   |   2 +-
+ cards/001179/card45147.html                   |   2 +-
+ cards/001179/card45148.html                   |   2 +-
+ cards/001179/card45149.html                   |   2 +-
+ cards/001179/card52018.html                   |   4 +-
+ cards/001558/card52711.html                   | 229 +++++++++++
+ cards/001558/files/52711_68757.html           | 570 ++++++++++++++++++++++++++
+ cards/001558/files/52711_ruby_68708.zip       | Bin 0 -> 68822 bytes
+ cards/001562/card56074.html                   |   2 +-
+ cards/001652/card54351.html                   | 229 +++++++++++
+ cards/001652/files/54351_68758.html           |  86 ++++
+ cards/001652/files/54351_txt_68709.zip        | Bin 0 -> 1377 bytes
+ cards/001661/card54367.html                   |   2 +-
+ 147 files changed, 3380 insertions(+), 2125 deletions(-)
+Date: Tue Aug 13 22:29:10 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 12 07:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 68822 Aug 13 22:29 ./aozorabunko/cards/001558/files/52711_ruby_68708.zip
+1/2: ./aozorabunko/cards/001558/files/52711_ruby_68708.zip
+>> add 52711_ruby_furukawa_roppa_showanikki24.txt
+>> add 52711_ruby_utf8_furukawa_roppa_showanikki24.txt
+>> https://www.aozora.gr.jp/cards/001558/card52711.html
+>> 古川ロッパ昭和日記、昭和三十三年、古川緑波、
+-rwxrwxrwx 1 level level 1377 Aug 13 22:29 ./aozorabunko/cards/001652/files/54351_txt_68709.zip
+2/2: ./aozorabunko/cards/001652/files/54351_txt_68709.zip
+>> add 54351_txt_kuro.txt
+>> add 54351_txt_utf8_kuro.txt
+>> https://www.aozora.gr.jp/cards/001652/card54351.html
+>> 衢路、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30352/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug 13 22:28:13 JST 2019
+End  : Tue Aug 13 22:29:58 JST 2019
