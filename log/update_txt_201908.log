@@ -602,3 +602,45 @@ Title Total : 30358/346 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug 15 23:42:29 JST 2019
 End  : Thu Aug 15 23:45:16 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 17 00:14:47 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   46ac220526..b2c2aa3cdf  master     -> origin/master
+Updating 46ac220526..b2c2aa3cdf
+Fast-forward
+ cards/000311/card46258.html                   |   2 +-
+ cards/001345/card48851.html                   | 229 +++++++
+ cards/001345/files/48851_68763.html           |  77 +++
+ cards/001345/files/48851_txt_68714.zip        | Bin 0 -> 6522 bytes
+ cards/001475/card51609.html                   |   2 +-
+ cards/001475/card51632.html                   |   2 +-
+ cards/001869/card57657.html                   | 229 +++++++
+ cards/001869/files/57657_68762.html           | 930 ++++++++++++++++++++++++++
+ cards/001869/files/57657_ruby_68713.zip       | Bin 0 -> 66002 bytes
+ 80 files changed, 3252 insertions(+), 1782 deletions(-)
+Date: Sat Aug 17 00:16:19 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 15 23:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6522 Aug 17 00:15 ./aozorabunko/cards/001345/files/48851_txt_68714.zip
+1/2: ./aozorabunko/cards/001345/files/48851_txt_68714.zip
+>> add 48851_txt_wilhelm_wundt.txt
+>> add 48851_txt_utf8_wilhelm_wundt.txt
+>> https://www.aozora.gr.jp/cards/001345/card48851.html
+>> ヴィルヘルム・ヴント、川合貞一、
+-rwxrwxrwx 1 level level 66002 Aug 17 00:15 ./aozorabunko/cards/001869/files/57657_ruby_68713.zip
+2/2: ./aozorabunko/cards/001869/files/57657_ruby_68713.zip
+>> add 57657_ruby_chikushodani.txt
+>> add 57657_ruby_utf8_chikushodani.txt
+>> https://www.aozora.gr.jp/cards/001869/card57657.html
+>> ちくしょう谷、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30362/346 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug 17 00:14:47 JST 2019
+End  : Sat Aug 17 00:17:31 JST 2019
