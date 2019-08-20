@@ -717,3 +717,61 @@ Title Total : 30368/346 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug 18 21:27:05 JST 2019
 End  : Sun Aug 18 21:29:50 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug 20 23:52:12 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dc8c112e49..f140fc16f0  master     -> origin/master
+Updating dc8c112e49..f140fc16f0
+Fast-forward
+ cards/001597/card53695.html                   | 234 +++++++++++++
+ cards/001597/card53700.html                   | 234 +++++++++++++
+ cards/001597/files/53695_68770.html           |  61 ++++
+ cards/001597/files/53695_txt_68721.zip        | Bin 0 -> 975 bytes
+ cards/001597/files/53700_68769.html           |  90 +++++
+ cards/001597/files/53700_txt_68720.zip        | Bin 0 -> 1286 bytes
+ cards/001670/card56358.html                   |   2 +-
+ cards/001879/card58105.html                   | 234 +++++++++++++
+ cards/001879/card58109.html                   | 234 +++++++++++++
+ cards/001879/files/58105_68768.html           |  89 +++++
+ cards/001879/files/58105_ruby_68719.zip       | Bin 0 -> 7136 bytes
+ cards/001879/files/58109_68767.html           |  83 +++++
+ cards/001879/files/58109_ruby_68718.zip       | Bin 0 -> 6541 bytes
+ 185 files changed, 8842 insertions(+), 6786 deletions(-)
+Date: Tue Aug 20 23:54:12 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 18 21:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 975 Aug 20 23:54 ./aozorabunko/cards/001597/files/53695_txt_68721.zip
+1/4: ./aozorabunko/cards/001597/files/53695_txt_68721.zip
+>> add 53695_txt_undo.txt
+>> add 53695_txt_utf8_undo.txt
+>> https://www.aozora.gr.jp/cards/001597/card53695.html
+>> 運動、李箱、
+-rwxrwxrwx 1 level level 1286 Aug 20 23:54 ./aozorabunko/cards/001597/files/53700_txt_68720.zip
+2/4: ./aozorabunko/cards/001597/files/53700_txt_68720.zip
+>> add 53700_txt_kufuku.txt
+>> add 53700_txt_utf8_kufuku.txt
+>> https://www.aozora.gr.jp/cards/001597/card53700.html
+>> 空腹――、李箱、
+-rwxrwxrwx 1 level level 7136 Aug 20 23:54 ./aozorabunko/cards/001879/files/58105_ruby_68719.zip
+3/4: ./aozorabunko/cards/001879/files/58105_ruby_68719.zip
+>> add 58105_ruby_kokumin_kyoikuno_fukuhon'i.txt
+>> add 58105_ruby_utf8_kokumin_kyoikuno_fukuhon'i.txt
+>> https://www.aozora.gr.jp/cards/001879/card58105.html
+>> 国民教育の複本位、大隈重信、
+-rwxrwxrwx 1 level level 6541 Aug 20 23:54 ./aozorabunko/cards/001879/files/58109_ruby_68718.zip
+4/4: ./aozorabunko/cards/001879/files/58109_ruby_68718.zip
+>> add 58109_ruby_daisenran_gono_kokusai_heiwa.txt
+>> add 58109_ruby_utf8_daisenran_gono_kokusai_heiwa.txt
+>> https://www.aozora.gr.jp/cards/001879/card58109.html
+>> 大戦乱後の国際平和、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30376/346 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug 20 23:52:12 JST 2019
+End  : Tue Aug 20 23:55:22 JST 2019
