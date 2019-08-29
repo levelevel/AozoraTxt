@@ -979,3 +979,88 @@ Title Total : 30392/350 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug 27 22:33:05 JST 2019
 End  : Tue Aug 27 22:35:06 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 29 23:16:48 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   751738962d..7276260175  master     -> origin/master
+Updating 751738962d..7276260175
+Fast-forward
+ cards/000113/card4325.html                    |  10 +-
+ cards/000113/card4326.html                    |  10 +-
+ cards/000113/card4327.html                    |  10 +-
+ cards/000113/files/4325_67523.html            | 168 +++++++++--------
+ cards/000113/files/4325_ruby_67522.zip        | Bin 118478 -> 118508 bytes
+ cards/000113/files/4326_67524.html            | 100 +++++-----
+ cards/000113/files/4326_ruby_67508.zip        | Bin 74797 -> 74832 bytes
+ cards/000113/files/4327_67525.html            |  68 +++----
+ cards/000113/files/4327_ruby_67507.zip        | Bin 59970 -> 59953 bytes
+ cards/000326/card59494.html                   | 243 ++++++++++++++++++++++++
+ cards/000326/card59497.html                   | 243 ++++++++++++++++++++++++
+ cards/000326/files/59494_68781.html           | 120 ++++++++++++
+ cards/000326/files/59494_ruby_68732.zip       | Bin 0 -> 4953 bytes
+ cards/000326/files/59497_68782.html           | 171 +++++++++++++++++
+ cards/000326/files/59497_ruby_68733.zip       | Bin 0 -> 7517 bytes
+ cards/001403/card55060.html                   | 234 +++++++++++++++++++++++
+ cards/001403/files/55060_68780.html           |  90 +++++++++
+ cards/001403/files/55060_ruby_68731.zip       | Bin 0 -> 4489 bytes
+ cards/001543/card52221.html                   | 229 +++++++++++++++++++++++
+ cards/001543/files/52221_68779.html           | 166 ++++++++++++++++
+ cards/001543/files/52221_ruby_68730.zip       | Bin 0 -> 14992 bytes
+ cards/001670/card56346.html                   |   2 +-
+ 205 files changed, 4449 insertions(+), 2964 deletions(-)
+Date: Thu Aug 29 23:18:21 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 27 22:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 118508 Aug 29 23:18 ./aozorabunko/cards/000113/files/4325_ruby_67522.zip
+1/7: ./aozorabunko/cards/000113/files/4325_ruby_67522.zip
+>> update 4325_NPD_ruby_45kaitenno_natsu01.txt
+>> update 4325_NPD_ruby_utf8_45kaitenno_natsu01.txt
+>> https://www.aozora.gr.jp/cards/000113/card4325.html
+>> 45回転の夏、第１章　ローラーコースター、１９６６年、鶴岡雄二、
+-rwxrwxrwx 1 level level 74832 Aug 29 23:18 ./aozorabunko/cards/000113/files/4326_ruby_67508.zip
+2/7: ./aozorabunko/cards/000113/files/4326_ruby_67508.zip
+>> update 4326_NPD_ruby_45kaitenno_natsu02.txt
+>> update 4326_NPD_ruby_utf8_45kaitenno_natsu02.txt
+>> https://www.aozora.gr.jp/cards/000113/card4326.html
+>> 45回転の夏、第２章　メリーゴーラウンド、１９６７年、鶴岡雄二、
+-rwxrwxrwx 1 level level 59953 Aug 29 23:18 ./aozorabunko/cards/000113/files/4327_ruby_67507.zip
+3/7: ./aozorabunko/cards/000113/files/4327_ruby_67507.zip
+>> update 4327_NPD_ruby_45kaitenno_natsu03.txt
+>> update 4327_NPD_ruby_utf8_45kaitenno_natsu03.txt
+>> https://www.aozora.gr.jp/cards/000113/card4327.html
+>> 45回転の夏、第３章　フルサークル、１９９１年、鶴岡雄二、
+-rwxrwxrwx 1 level level 4953 Aug 29 23:18 ./aozorabunko/cards/000326/files/59494_ruby_68732.zip
+4/7: ./aozorabunko/cards/000326/files/59494_ruby_68732.zip
+>> add 59494_ruby_fumitaba.txt
+>> add 59494_ruby_utf8_fumitaba.txt
+>> https://www.aozora.gr.jp/cards/000326/card59494.html
+>> ふみたば、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+-rwxrwxrwx 1 level level 7517 Aug 29 23:18 ./aozorabunko/cards/000326/files/59497_ruby_68733.zip
+5/7: ./aozorabunko/cards/000326/files/59497_ruby_68733.zip
+>> add 59497_ruby_perugorezugaino_satsujin_jiken.txt
+>> add 59497_ruby_utf8_perugorezugaino_satsujin_jiken.txt
+>> https://www.aozora.gr.jp/cards/000326/card59497.html
+>> ペルゴレーズ街の殺人事件、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+-rwxrwxrwx 1 level level 4489 Aug 29 23:18 ./aozorabunko/cards/001403/files/55060_ruby_68731.zip
+6/7: ./aozorabunko/cards/001403/files/55060_ruby_68731.zip
+>> add 55060_ruby_takahashi_soanshino_shodo_kan.txt
+>> add 55060_ruby_utf8_takahashi_soanshino_shodo_kan.txt
+>> https://www.aozora.gr.jp/cards/001403/card55060.html
+>> 高橋箒庵氏の書道観、北大路魯山人、
+-rwxrwxrwx 1 level level 14992 Aug 29 23:18 ./aozorabunko/cards/001543/files/52221_ruby_68730.zip
+7/7: ./aozorabunko/cards/001543/files/52221_ruby_68730.zip
+>> add 52221_ruby_orokana_chichi.txt
+>> add 52221_ruby_utf8_orokana_chichi.txt
+>> https://www.aozora.gr.jp/cards/001543/card52221.html
+>> 愚かな父、犬養健、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30400/350 (Accept:7/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Thu Aug 29 23:16:48 JST 2019
+End  : Thu Aug 29 23:19:07 JST 2019

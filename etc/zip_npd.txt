@@ -33,9 +33,9 @@
 ./aozorabunko/cards/000055/files/59489_txt_66663.zip
 ./aozorabunko/cards/000055/files/698_txt_60.zip
 ./aozorabunko/cards/000097/files/46342_ruby_53254.zip
-./aozorabunko/cards/000113/files/4325_ruby_67522.zip	2019/03/12
-./aozorabunko/cards/000113/files/4326_ruby_67508.zip	2019/03/12
-./aozorabunko/cards/000113/files/4327_ruby_67507.zip	2019/03/12
+./aozorabunko/cards/000113/files/4325_ruby_67522.zip	2019/08/29
+./aozorabunko/cards/000113/files/4326_ruby_67508.zip	2019/08/29
+./aozorabunko/cards/000113/files/4327_ruby_67507.zip	2019/08/29
 ./aozorabunko/cards/000117/files/973_ruby_67588.zip	2019/03/16
 ./aozorabunko/cards/000117/files/973_ruby_68055.zip	2019/04/30
 ./aozorabunko/cards/000117/files/973_ruby_68057.zip	2019/05/01
