@@ -1106,3 +1106,46 @@ Title Total : 30404/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug 31 00:08:31 JST 2019
 End  : Sat Aug 31 00:10:41 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 31 08:49:58 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ffa0ab738f..9971fd95f1  master     -> origin/master
+Updating ffa0ab738f..9971fd95f1
+Fast-forward
+ cards/000326/card59494.html                   |   2 +-
+ cards/000326/card59497.html                   |   2 +-
+ cards/000933/card47682.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47790.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47682_68786.html           | 104 ++++++++++++
+ cards/000933/files/47682_ruby_68737.zip       | Bin 0 -> 12531 bytes
+ cards/000933/files/47790_68785.html           |  81 +++++++++
+ cards/000933/files/47790_ruby_68736.zip       | Bin 0 -> 1430 bytes
+ cards/001652/card54352.html                   |   2 +-
+ cards/001652/card54353.html                   |   2 +-
+ 134 files changed, 4228 insertions(+), 3355 deletions(-)
+Date: Sat Aug 31 08:51:12 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 31 00:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12531 Aug 31 08:51 ./aozorabunko/cards/000933/files/47682_ruby_68737.zip
+1/2: ./aozorabunko/cards/000933/files/47682_ruby_68737.zip
+>> add 47682_ruby_yashima_gatarino_kenkyu.txt
+>> add 47682_ruby_utf8_yashima_gatarino_kenkyu.txt
+>> https://www.aozora.gr.jp/cards/000933/card47682.html
+>> 「八島」語りの研究、折口信夫、
+-rwxrwxrwx 1 level level 1430 Aug 31 08:51 ./aozorabunko/cards/000933/files/47790_ruby_68736.zip
+2/2: ./aozorabunko/cards/000933/files/47790_ruby_68736.zip
+>> add 47790_ruby_kabuki_shibai_ato_ariya.txt
+>> add 47790_ruby_utf8_kabuki_shibai_ato_ariya.txt
+>> https://www.aozora.gr.jp/cards/000933/card47790.html
+>> 歌舞妓芝居後ありや、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30408/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug 31 08:49:58 JST 2019
+End  : Sat Aug 31 08:51:50 JST 2019
