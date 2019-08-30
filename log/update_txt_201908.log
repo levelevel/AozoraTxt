@@ -1064,3 +1064,45 @@ Title Total : 30400/350 (Accept:7/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug 29 23:16:48 JST 2019
 End  : Thu Aug 29 23:19:07 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 31 00:08:31 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7276260175..ffa0ab738f  master     -> origin/master
+Updating 7276260175..ffa0ab738f
+Fast-forward
+ cards/000064/card55673.html                   |   2 +-
+ cards/000326/card59494.html                   |   2 +-
+ cards/000326/card59497.html                   |   2 +-
+ cards/001652/card54352.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/card54353.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/files/54352_68783.html           |  87 ++++++++++
+ cards/001652/files/54352_txt_68734.zip        | Bin 0 -> 1025 bytes
+ cards/001652/files/54353_68784.html           |  97 +++++++++++
+ cards/001652/files/54353_txt_68735.zip        | Bin 0 -> 1190 bytes
+ 60 files changed, 2633 insertions(+), 1997 deletions(-)
+Date: Sat Aug 31 00:09:43 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 29 23:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1025 Aug 31 00:09 ./aozorabunko/cards/001652/files/54352_txt_68734.zip
+1/2: ./aozorabunko/cards/001652/files/54352_txt_68734.zip
+>> add 54352_txt_haien.txt
+>> add 54352_txt_utf8_haien.txt
+>> https://www.aozora.gr.jp/cards/001652/card54352.html
+>> 廃園、森川義信、
+-rwxrwxrwx 1 level level 1190 Aug 31 00:09 ./aozorabunko/cards/001652/files/54353_txt_68735.zip
+2/2: ./aozorabunko/cards/001652/files/54353_txt_68735.zip
+>> add 54353_txt_haien_danpen.txt
+>> add 54353_txt_utf8_haien_danpen.txt
+>> https://www.aozora.gr.jp/cards/001652/card54353.html
+>> 廃園、※［＃始め二重山括弧、1-1-52］断片※［＃終わり二重山括弧、1-1-53］、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30404/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug 31 00:08:31 JST 2019
+End  : Sat Aug 31 00:10:41 JST 2019
