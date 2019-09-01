@@ -230,7 +230,7 @@ echo "#Creating $FILENAME_ILLEGAL"
 GetFilenameIllegal
 
 if [ $ZIP_LIST_NPD -nt $UPDATE ]; then
-	sort -u $ZIP_LIST_NPD > $ZIP_LIST_NPD.tmp
+	sort -r $ZIP_LIST_NPD | sort --key=1,1 -u > $ZIP_LIST_NPD.tmp
 	mv $ZIP_LIST_NPD.tmp $ZIP_LIST_NPD
 fi
 
