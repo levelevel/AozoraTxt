@@ -206,3 +206,53 @@ Title Total : 30424/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Sep  6 21:34:02 JST 2019
 End  : Fri Sep  6 21:36:42 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep  7 21:16:11 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4b6a78e71a..18d4315552  master     -> origin/master
+Updating 4b6a78e71a..18d4315552
+Fast-forward
+ cards/000008/card47386.html                   |  229 +++
+ cards/000008/files/47386_69118.html           | 2487 +++++++++++++++++++++++++
+ cards/000008/files/47386_ruby_69027.zip       |  Bin 0 -> 251015 bytes
+ cards/000255/card47260.html                   |    2 +-
+ cards/000255/card47429.html                   |    2 +-
+ cards/001562/card54152.html                   |  229 +++
+ cards/001562/card54155.html                   |  229 +++
+ cards/001562/files/54152_69116.html           |  383 ++++
+ cards/001562/files/54152_ruby_69025.zip       |  Bin 0 -> 17238 bytes
+ cards/001562/files/54155_69117.html           | 1404 ++++++++++++++
+ cards/001562/files/54155_ruby_69026.zip       |  Bin 0 -> 187268 bytes
+ 60 files changed, 6094 insertions(+), 1139 deletions(-)
+Date: Sat Sep  7 21:17:37 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  6 21:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 251015 Sep  7 21:17 ./aozorabunko/cards/000008/files/47386_ruby_69027.zip
+1/3: ./aozorabunko/cards/000008/files/47386_ruby_69027.zip
+>> add 47386_ruby_zoku_seikatsuno_tankyu.txt
+>> add 47386_ruby_utf8_zoku_seikatsuno_tankyu.txt
+>> https://www.aozora.gr.jp/cards/000008/card47386.html
+>> 續生活の探求、島木健作、
+-rwxrwxrwx 1 level level 17238 Sep  7 21:17 ./aozorabunko/cards/001562/files/54152_ruby_69025.zip
+2/3: ./aozorabunko/cards/001562/files/54152_ruby_69025.zip
+>> add 54152_ruby_nenpu.txt
+>> add 54152_ruby_utf8_nenpu.txt
+>> https://www.aozora.gr.jp/cards/001562/card54152.html
+>> 年譜、吉川英治、
+-rwxrwxrwx 1 level level 187268 Sep  7 21:17 ./aozorabunko/cards/001562/files/54155_ruby_69026.zip
+3/3: ./aozorabunko/cards/001562/files/54155_ruby_69026.zip
+>> add 54155_ruby_wasure_nokorino_ki.txt
+>> add 54155_ruby_utf8_wasure_nokorino_ki.txt
+>> https://www.aozora.gr.jp/cards/001562/card54155.html
+>> 忘れ残りの記、――四半自叙伝――、吉川英治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30430/350 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep  7 21:16:11 JST 2019
+End  : Sat Sep  7 21:18:04 JST 2019
