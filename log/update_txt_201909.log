@@ -298,3 +298,44 @@ Title Total : 30434/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Sep  8 22:57:59 JST 2019
 End  : Sun Sep  8 23:01:35 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep  9 08:08:22 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e607af22cb..89a82d66d9  master     -> origin/master
+Updating e607af22cb..89a82d66d9
+Fast-forward
+ cards/000026/card51323.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55924.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/51323_69122.html           |  75 +++++++++
+ cards/000026/files/51323_txt_69155.zip        | Bin 0 -> 838 bytes
+ cards/000026/files/55924_69121.html           |  76 +++++++++
+ cards/000026/files/55924_txt_69030.zip        | Bin 0 -> 1111 bytes
+ cards/001475/card51627.html                   |   2 +-
+ cards/001475/card52660.html                   |   2 +-
+ 56 files changed, 1750 insertions(+), 1138 deletions(-)
+Date: Mon Sep  9 08:09:07 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  8 23:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 838 Sep  9 08:08 ./aozorabunko/cards/000026/files/51323_txt_69155.zip
+1/2: ./aozorabunko/cards/000026/files/51323_txt_69155.zip
+>> add 51323_txt_dada_ongakuno_kashi.txt
+>> add 51323_txt_utf8_dada_ongakuno_kashi.txt
+>> https://www.aozora.gr.jp/cards/000026/card51323.html
+>> ダダ音楽の歌詞、中原中也、
+-rwxrwxrwx 1 level level 1111 Sep  9 08:08 ./aozorabunko/cards/000026/files/55924_txt_69030.zip
+2/2: ./aozorabunko/cards/000026/files/55924_txt_69030.zip
+>> add 55924_txt_dadaisutoga_taiho_danoni.txt
+>> add 55924_txt_utf8_dadaisutoga_taiho_danoni.txt
+>> https://www.aozora.gr.jp/cards/000026/card55924.html
+>> （ダダイストが大砲だのに）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30438/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep  9 08:08:22 JST 2019
+End  : Mon Sep  9 08:09:23 JST 2019
