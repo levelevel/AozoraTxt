@@ -339,3 +339,40 @@ Title Total : 30438/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Sep  9 08:08:22 JST 2019
 End  : Mon Sep  9 08:09:23 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Sep 10 22:07:41 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   89a82d66d9..65c1ad5cce  master     -> origin/master
+Updating 89a82d66d9..65c1ad5cce
+Fast-forward
+ cards/000026/card51323.html                   |   2 +-
+ cards/000026/card55924.html                   |   2 +-
+ cards/001597/card53691.html                   |   2 +-
+ cards/001597/card53693.html                   |   2 +-
+ cards/001597/card53694.html                   |   2 +-
+ cards/001597/card53700.html                   |   2 +-
+ cards/001597/card53709.html                   |   2 +-
+ cards/002050/card59537.html                   | 234 ++++++++++++++++++++++++++
+ cards/002050/files/59537_69123.html           |  69 ++++++++
+ cards/002050/files/59537_txt_69032.zip        | Bin 0 -> 911 bytes
+ 62 files changed, 1001 insertions(+), 694 deletions(-)
+Date: Tue Sep 10 22:08:55 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  9 08:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 911 Sep 10 22:08 ./aozorabunko/cards/002050/files/59537_txt_69032.zip
+1/1: ./aozorabunko/cards/002050/files/59537_txt_69032.zip
+>> add 59537_txt_mado.txt
+>> add 59537_txt_utf8_mado.txt
+>> https://www.aozora.gr.jp/cards/002050/card59537.html
+>> 窓、古賀春江、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30440/350 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Sep 10 22:07:41 JST 2019
+End  : Tue Sep 10 22:09:51 JST 2019
