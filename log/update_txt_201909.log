@@ -416,3 +416,108 @@ Title Total : 30444/350 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep 11 22:21:12 JST 2019
 End  : Wed Sep 11 22:24:09 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep 12 21:44:09 JST 2019
+#Git pull
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating 40f607ae77..72bbb14492
+Fast-forward
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+ cards/000237/card50038.html                   |    2 +-
+ cards/000237/card56420.html                   |    2 +-
+ cards/002043/card59994.html                   |  231 ++++
+ cards/002043/files/59994_68662.html           | 1579 +++++++++++++++++++++++++
+ cards/002043/files/59994_ruby_68661.zip       |  Bin 0 -> 1179595 bytes
+ 42 files changed, 2332 insertions(+), 535 deletions(-)
+Date: Thu Sep 12 21:45:18 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 11 22:24 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1179595 Sep 12 21:45 ./aozorabunko/cards/002043/files/59994_ruby_68661.zip
+1/1: ./aozorabunko/cards/002043/files/59994_ruby_68661.zip
+>> add 59994_NPD_ruby_honmeiba.txt
+>> add 59994_NPD_ruby_utf8_honmeiba.txt
+>> https://www.aozora.gr.jp/cards/002043/card59994.html
+>> 本命馬、HARD PRESSED、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30444/352 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu Sep 12 21:44:09 JST 2019
+End  : Thu Sep 12 21:48:08 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 13 23:40:39 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   72bbb14492..d69a70952d  master     -> origin/master
+Updating 72bbb14492..d69a70952d
+Fast-forward
+ cards/001848/card59607.html                   |  243 ++
+ cards/001848/files/59607_69163.html           | 5322 +++++++++++++++++++++++++
+ cards/001848/files/59607_ruby_69162.zip       |  Bin 0 -> 514150 bytes
+ cards/002043/card59994.html                   |    2 +-
+ 38 files changed, 6014 insertions(+), 461 deletions(-)
+Date: Fri Sep 13 23:41:14 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 12 21:48 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 514150 Sep 13 23:41 ./aozorabunko/cards/001848/files/59607_ruby_69162.zip
+1/1: ./aozorabunko/cards/001848/files/59607_ruby_69162.zip
+>> add 59607_NPD_ruby_06dai_nikan_zuisoroku.txt
+>> add 59607_NPD_ruby_utf8_06dai_nikan_zuisoroku.txt
+>> https://www.aozora.gr.jp/cards/001848/card59607.html
+>> モンテーニュ随想録、ESSAIS DE MONTAIGNE、第二巻、ミシェル・エーケム・ド・モンテーニュ　Michel Eyquem de Montaigne、関根秀雄訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30444/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Sep 13 23:40:39 JST 2019
+End  : Fri Sep 13 23:41:55 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep 14 08:21:13 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d69a70952d..302ff8740e  master     -> origin/master
+Updating d69a70952d..302ff8740e
+Fast-forward
+ cards/001597/card53692.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/card53696.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/files/53692_69127.html           |  75 +++++++++
+ cards/001597/files/53692_txt_69036.zip        | Bin 0 -> 2174 bytes
+ cards/001597/files/53696_69126.html           |  68 ++++++++
+ cards/001597/files/53696_txt_69035.zip        | Bin 0 -> 1574 bytes
+ cards/001848/card59607.html                   |   2 +-
+ 68 files changed, 2487 insertions(+), 1881 deletions(-)
+Date: Sat Sep 14 08:22:12 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 13 23:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2174 Sep 14 08:22 ./aozorabunko/cards/001597/files/53692_txt_69036.zip
+1/2: ./aozorabunko/cards/001597/files/53692_txt_69036.zip
+>> add 53692_txt_le_urine.txt
+>> add 53692_txt_utf8_le_urine.txt
+>> https://www.aozora.gr.jp/cards/001597/card53692.html
+>> LE URINE、李箱、
+-rwxrwxrwx 1 level level 1574 Sep 14 08:22 ./aozorabunko/cards/001597/files/53696_txt_69035.zip
+2/2: ./aozorabunko/cards/001597/files/53696_txt_69035.zip
+>> add 53696_txt_kao.txt
+>> add 53696_txt_utf8_kao.txt
+>> https://www.aozora.gr.jp/cards/001597/card53696.html
+>> 顔、李箱、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30448/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep 14 08:21:13 JST 2019
+End  : Sat Sep 14 08:23:01 JST 2019
