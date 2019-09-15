@@ -521,3 +521,44 @@ Title Total : 30448/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 14 08:21:13 JST 2019
 End  : Sat Sep 14 08:23:01 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 15 12:41:32 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   302ff8740e..a6cc026403  master     -> origin/master
+Updating 302ff8740e..a6cc026403
+Fast-forward
+ cards/001224/card46082.html                   |   8 +-
+ cards/001224/files/46082_40222.html           |   9 +-
+ cards/001224/files/46082_ruby_39198.zip       | Bin 12335 -> 12412 bytes
+ cards/001597/card53692.html                   |   2 +-
+ cards/001597/card53696.html                   |   2 +-
+ cards/001670/card56350.html                   | 234 +++++++++++++++++
+ cards/001670/files/56350_69128.html           | 364 ++++++++++++++++++++++++++
+ cards/001670/files/56350_ruby_69037.zip       | Bin 0 -> 13554 bytes
+ 52 files changed, 1831 insertions(+), 1236 deletions(-)
+Date: Sun Sep 15 12:43:14 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 14 08:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12412 Sep 15 12:43 ./aozorabunko/cards/001224/files/46082_ruby_39198.zip
+1/2: ./aozorabunko/cards/001224/files/46082_ruby_39198.zip
+>> update 46082_ruby_fukkatsusai.txt
+>> update 46082_ruby_utf8_fukkatsusai.txt
+>> https://www.aozora.gr.jp/cards/001224/card46082.html
+>> 復活祭、久生十蘭、
+-rwxrwxrwx 1 level level 13554 Sep 15 12:43 ./aozorabunko/cards/001670/files/56350_ruby_69037.zip
+2/2: ./aozorabunko/cards/001670/files/56350_ruby_69037.zip
+>> add 56350_ruby_124oshi_musume.txt
+>> add 56350_ruby_utf8_124oshi_musume.txt
+>> https://www.aozora.gr.jp/cards/001670/card56350.html
+>> 銭形平次捕物控、唖娘、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30450/354 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 15 12:41:32 JST 2019
+End  : Sun Sep 15 12:44:05 JST 2019
