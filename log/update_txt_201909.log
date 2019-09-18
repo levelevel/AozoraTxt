@@ -644,3 +644,44 @@ Title Total : 30458/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 17 21:39:49 JST 2019
 End  : Tue Sep 17 21:42:45 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 18 21:21:10 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5b7c411039..e3e25c6a54  master     -> origin/master
+Updating 5b7c411039..e3e25c6a54
+Fast-forward
+ cards/000058/card56533.html                   | 229 ++++++++++++++++++++++++++
+ cards/000058/card57441.html                   |   2 +-
+ cards/000058/card59134.html                   | 229 ++++++++++++++++++++++++++
+ cards/000058/files/56533_69133.html           |  99 +++++++++++
+ cards/000058/files/56533_ruby_69042.zip       | Bin 0 -> 6435 bytes
+ cards/000058/files/59134_69134.html           | 184 +++++++++++++++++++++
+ cards/000058/files/59134_ruby_69043.zip       | Bin 0 -> 7745 bytes
+ cards/000067/card59398.html                   |   2 +-
+ 43 files changed, 1853 insertions(+), 1109 deletions(-)
+Date: Wed Sep 18 21:23:38 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 17 21:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6435 Sep 18 21:23 ./aozorabunko/cards/000058/files/56533_ruby_69042.zip
+1/2: ./aozorabunko/cards/000058/files/56533_ruby_69042.zip
+>> add 56533_ruby_mizugomori.txt
+>> add 56533_ruby_utf8_mizugomori.txt
+>> https://www.aozora.gr.jp/cards/000058/card56533.html
+>> 水籠、伊藤左千夫、
+-rwxrwxrwx 1 level level 7745 Sep 18 21:23 ./aozorabunko/cards/000058/files/59134_ruby_69043.zip
+2/2: ./aozorabunko/cards/000058/files/59134_ruby_69043.zip
+>> add 59134_ruby_momiji.txt
+>> add 59134_ruby_utf8_momiji.txt
+>> https://www.aozora.gr.jp/cards/000058/card59134.html
+>> 紅葉、伊藤左千夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30462/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 18 21:21:10 JST 2019
+End  : Wed Sep 18 21:24:51 JST 2019
