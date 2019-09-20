@@ -734,3 +734,44 @@ Title Total : 30466/354 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep 19 11:26:36 JST 2019
 End  : Thu Sep 19 11:29:37 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 20 21:10:55 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8271eb6e52..a8ddd3e2f2  master     -> origin/master
+Updating 8271eb6e52..a8ddd3e2f2
+Fast-forward
+ cards/000058/card57417.html                   |   2 +-
+ cards/000483/card48228.html                   |   2 +-
+ cards/001091/card59499.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/card59522.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59499_69138.html           | 125 +++++++++++++
+ cards/001091/files/59499_ruby_69047.zip       | Bin 0 -> 3923 bytes
+ cards/001091/files/59522_69137.html           | 155 ++++++++++++++++
+ cards/001091/files/59522_ruby_69046.zip       | Bin 0 -> 5989 bytes
+ 51 files changed, 1749 insertions(+), 1015 deletions(-)
+Date: Fri Sep 20 21:11:49 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 19 11:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3923 Sep 20 21:11 ./aozorabunko/cards/001091/files/59499_ruby_69047.zip
+1/2: ./aozorabunko/cards/001091/files/59499_ruby_69047.zip
+>> add 59499_ruby_nekoto_nezumino_isshono_kurashi.txt
+>> add 59499_ruby_utf8_nekoto_nezumino_isshono_kurashi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59499.html
+>> ネコとネズミのいっしょのくらし、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 5989 Sep 20 21:11 ./aozorabunko/cards/001091/files/59522_ruby_69046.zip
+2/2: ./aozorabunko/cards/001091/files/59522_ruby_69046.zip
+>> add 59522_ruby_mariano_kodomo.txt
+>> add 59522_ruby_utf8_mariano_kodomo.txt
+>> https://www.aozora.gr.jp/cards/001091/card59522.html
+>> マリアの子ども、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30470/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep 20 21:10:55 JST 2019
+End  : Fri Sep 20 21:12:55 JST 2019
