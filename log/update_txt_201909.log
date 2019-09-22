@@ -834,3 +834,44 @@ Title Total : 30478/354 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Sep 23 00:44:39 JST 2019
 End  : Mon Sep 23 00:48:06 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep 23 08:32:30 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cc919034aa..41f9c36004  master     -> origin/master
+Updating cc919034aa..41f9c36004
+Fast-forward
+ cards/000933/card47689.html                   | 234 ++++++++++++++++++++++++
+ cards/000933/card47692.html                   | 234 ++++++++++++++++++++++++
+ cards/000933/files/47689_69143.html           |  69 +++++++
+ cards/000933/files/47689_ruby_69052.zip       | Bin 0 -> 2891 bytes
+ cards/000933/files/47692_69144.html           |  70 ++++++++
+ cards/000933/files/47692_ruby_69053.zip       | Bin 0 -> 3887 bytes
+ cards/001750/card56928.html                   |   2 +-
+ cards/002086/card58943.html                   |   2 +-
+ 66 files changed, 2225 insertions(+), 1626 deletions(-)
+Date: Mon Sep 23 08:33:50 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 23 00:48 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2891 Sep 23 08:33 ./aozorabunko/cards/000933/files/47689_ruby_69052.zip
+1/2: ./aozorabunko/cards/000933/files/47689_ruby_69052.zip
+>> add 47689_ruby_kaminigiwai_ippan.txt
+>> add 47689_ruby_utf8_kaminigiwai_ippan.txt
+>> https://www.aozora.gr.jp/cards/000933/card47689.html
+>> 神賑ひ一般、折口信夫、
+-rwxrwxrwx 1 level level 3887 Sep 23 08:33 ./aozorabunko/cards/000933/files/47692_ruby_69053.zip
+2/2: ./aozorabunko/cards/000933/files/47692_ruby_69053.zip
+>> add 47692_ruby_kumi_odorino_hanashi.txt
+>> add 47692_ruby_utf8_kumi_odorino_hanashi.txt
+>> https://www.aozora.gr.jp/cards/000933/card47692.html
+>> 組踊りの話、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30482/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep 23 08:32:30 JST 2019
+End  : Mon Sep 23 08:35:02 JST 2019
