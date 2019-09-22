@@ -775,3 +775,62 @@ Title Total : 30470/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Sep 20 21:10:55 JST 2019
 End  : Fri Sep 20 21:12:55 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep 23 00:44:39 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a8ddd3e2f2..cc919034aa  master     -> origin/master
+Updating a8ddd3e2f2..cc919034aa
+Fast-forward
+ cards/001091/card59499.html                   |    2 +-
+ cards/001091/card59522.html                   |    2 +-
+ cards/001750/card56928.html                   |  239 ++
+ cards/001750/files/56928_69141.html           | 4167 +++++++++++++++++++++++++
+ cards/001750/files/56928_ruby_69050.zip       |  Bin 0 -> 96117 bytes
+ cards/001763/card58794.html                   |  234 ++
+ cards/001763/files/58794_69139.html           |   63 +
+ cards/001763/files/58794_ruby_69048.zip       |  Bin 0 -> 1924 bytes
+ cards/001999/card59078.html                   |  237 ++
+ cards/001999/files/59078_69140.html           |   65 +
+ cards/001999/files/59078_txt_69049.zip        |  Bin 0 -> 2861 bytes
+ cards/002086/card58943.html                   |  234 ++
+ cards/002086/files/58943_69142.html           |   65 +
+ cards/002086/files/58943_txt_69051.zip        |  Bin 0 -> 1875 bytes
+ 93 files changed, 7988 insertions(+), 2682 deletions(-)
+Date: Mon Sep 23 00:45:44 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 20 21:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 96117 Sep 23 00:45 ./aozorabunko/cards/001750/files/56928_ruby_69050.zip
+1/4: ./aozorabunko/cards/001750/files/56928_ruby_69050.zip
+>> add 56928_ruby_bonjin_den.txt
+>> add 56928_ruby_utf8_bonjin_den.txt
+>> https://www.aozora.gr.jp/cards/001750/card56928.html
+>> 凡人伝、佐々木邦、
+-rwxrwxrwx 1 level level 1924 Sep 23 00:45 ./aozorabunko/cards/001763/files/58794_ruby_69048.zip
+2/4: ./aozorabunko/cards/001763/files/58794_ruby_69048.zip
+>> add 58794_ruby_uno_kojikun'o_omou.txt
+>> add 58794_ruby_utf8_uno_kojikun'o_omou.txt
+>> https://www.aozora.gr.jp/cards/001763/card58794.html
+>> 宇野浩二君を思う、佐藤春夫、
+-rwxrwxrwx 1 level level 2861 Sep 23 00:45 ./aozorabunko/cards/001999/files/59078_txt_69049.zip
+3/4: ./aozorabunko/cards/001999/files/59078_txt_69049.zip
+>> add 59078_txt_gakai_mangen.txt
+>> add 59078_txt_utf8_gakai_mangen.txt
+>> https://www.aozora.gr.jp/cards/001999/card59078.html
+>> 画界漫言、菱田春草、
+-rwxrwxrwx 1 level level 1875 Sep 23 00:45 ./aozorabunko/cards/002086/files/58943_txt_69051.zip
+4/4: ./aozorabunko/cards/002086/files/58943_txt_69051.zip
+>> add 58943_txt_01jo_sangaku_bikan.txt
+>> add 58943_txt_utf8_01jo_sangaku_bikan.txt
+>> https://www.aozora.gr.jp/cards/002086/card58943.html
+>> 山岳美觀、序、藤原咲平、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30478/354 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep 23 00:44:39 JST 2019
+End  : Mon Sep 23 00:48:06 JST 2019
