@@ -907,3 +907,43 @@ Title Total : 30484/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 24 23:28:30 JST 2019
 End  : Tue Sep 24 23:30:46 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 25 22:06:41 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e6f700519e..61372da662  master     -> origin/master
+Updating e6f700519e..61372da662
+Fast-forward
+ cards/000011/card899.html                     |   17 +-
+ cards/000011/files/899_27483.html             | 1233 +++++++++++++------------
+ cards/000011/files/899_ruby_1607.zip          |  Bin 6524 -> 6715 bytes
+ cards/001670/card56378.html                   |    2 +-
+ cards/001869/card57806.html                   |  229 +++++
+ cards/001869/files/57806_69146.html           |  160 ++++
+ cards/001869/files/57806_ruby_69055.zip       |  Bin 0 -> 10820 bytes
+ 96 files changed, 2357 insertions(+), 1902 deletions(-)
+Date: Wed Sep 25 22:07:37 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 24 23:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6715 Sep 25 22:07 ./aozorabunko/cards/000011/files/899_ruby_1607.zip
+1/2: ./aozorabunko/cards/000011/files/899_ruby_1607.zip
+>> update 899_ruby_yasashiki_uta.txt
+>> update 899_ruby_utf8_yasashiki_uta.txt
+>> https://www.aozora.gr.jp/cards/000011/card899.html
+>> 優しき歌　Ⅰ・Ⅱ、立原道造、
+-rwxrwxrwx 1 level level 10820 Sep 25 22:07 ./aozorabunko/cards/001869/files/57806_ruby_69055.zip
+2/2: ./aozorabunko/cards/001869/files/57806_ruby_69055.zip
+>> add 57806_ruby_shinobino_o.txt
+>> add 57806_ruby_utf8_shinobino_o.txt
+>> https://www.aozora.gr.jp/cards/001869/card57806.html
+>> 日本婦道記、忍緒、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30486/354 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 25 22:06:41 JST 2019
+End  : Wed Sep 25 22:08:31 JST 2019
