@@ -947,3 +947,83 @@ Title Total : 30486/354 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep 25 22:06:41 JST 2019
 End  : Wed Sep 25 22:08:31 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep 26 21:05:02 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   61372da662..1dd1d18a6e  master     -> origin/master
+Updating 61372da662..1dd1d18a6e
+Fast-forward
+ cards/000258/card59432.html                   | 238 +++++++++++++
+ cards/000258/files/59432_69221.html           |  75 +++++
+ cards/000258/files/59432_ruby_69220.zip       | Bin 0 -> 2788 bytes
+ cards/001869/card57806.html                   |   2 +-
+ 68 files changed, 1896 insertions(+), 1785 deletions(-)
+Date: Thu Sep 26 21:06:59 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 25 22:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2788 Sep 26 21:06 ./aozorabunko/cards/000258/files/59432_ruby_69220.zip
+1/1: ./aozorabunko/cards/000258/files/59432_ruby_69220.zip
+>> add 59432_ruby_yureidakino_densetsu.txt
+>> add 59432_ruby_utf8_yureidakino_densetsu.txt
+>> https://www.aozora.gr.jp/cards/000258/card59432.html
+>> 幽霊滝の伝説、THE LEGEND OF YUREI-DAKI、小泉八雲、田部隆次訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30488/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep 26 21:05:02 JST 2019
+End  : Thu Sep 26 21:07:40 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 27 22:01:10 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1dd1d18a6e..18430e044b  master     -> origin/master
+Updating 1dd1d18a6e..18430e044b
+Fast-forward
+ cards/000258/card59432.html                   |   2 +-
+ cards/001602/card53799.html                   | 234 ++++++++++++++++++++++++++
+ cards/001602/card53800.html                   | 234 ++++++++++++++++++++++++++
+ cards/001602/card53801.html                   | 234 ++++++++++++++++++++++++++
+ cards/001602/files/53799_69147.html           |  77 +++++++++
+ cards/001602/files/53799_ruby_69056.zip       | Bin 0 -> 1046 bytes
+ cards/001602/files/53800_69148.html           |  88 ++++++++++
+ cards/001602/files/53800_ruby_69057.zip       | Bin 0 -> 1149 bytes
+ cards/001602/files/53801_69149.html           |  84 +++++++++
+ cards/001602/files/53801_ruby_69058.zip       | Bin 0 -> 1086 bytes
+ 160 files changed, 3371 insertions(+), 2427 deletions(-)
+Date: Fri Sep 27 22:02:57 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 26 21:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1046 Sep 27 22:02 ./aozorabunko/cards/001602/files/53799_ruby_69056.zip
+1/3: ./aozorabunko/cards/001602/files/53799_ruby_69056.zip
+>> add 53799_ruby_furuidono_aru_fukei.txt
+>> add 53799_ruby_utf8_furuidono_aru_fukei.txt
+>> https://www.aozora.gr.jp/cards/001602/card53799.html
+>> 古井戸のある風景、金鍾漢、
+-rwxrwxrwx 1 level level 1149 Sep 27 22:02 ./aozorabunko/cards/001602/files/53800_ruby_69057.zip
+2/3: ./aozorabunko/cards/001602/files/53800_ruby_69057.zip
+>> add 53800_ruby_hitoedani_tsuite.txt
+>> add 53800_ruby_utf8_hitoedani_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001602/card53800.html
+>> 一枝について、金鍾漢、
+-rwxrwxrwx 1 level level 1086 Sep 27 22:02 ./aozorabunko/cards/001602/files/53801_ruby_69058.zip
+3/3: ./aozorabunko/cards/001602/files/53801_ruby_69058.zip
+>> add 53801_ruby_yonen.txt
+>> add 53801_ruby_utf8_yonen.txt
+>> https://www.aozora.gr.jp/cards/001602/card53801.html
+>> 幼年、金鍾漢、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30494/354 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep 27 22:01:10 JST 2019
+End  : Fri Sep 27 22:03:47 JST 2019
