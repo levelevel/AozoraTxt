@@ -1060,3 +1060,52 @@ Title Total : 30496/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 28 10:13:20 JST 2019
 End  : Sat Sep 28 10:16:40 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 29 09:16:03 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1c4e853b15..45e2f453d2  master     -> origin/master
+Updating 1c4e853b15..45e2f453d2
+Fast-forward
+ cards/001581/card58967.html                   |   2 +-
+ cards/001652/card54257.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/card54357.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/card54358.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/files/54257_69151.html           |  60 +++++++
+ cards/001652/files/54257_txt_69060.zip        | Bin 0 -> 644 bytes
+ cards/001652/files/54357_69153.html           |  78 +++++++++
+ cards/001652/files/54357_txt_69062.zip        | Bin 0 -> 947 bytes
+ cards/001652/files/54358_69152.html           |  96 +++++++++++
+ cards/001652/files/54358_txt_69061.zip        | Bin 0 -> 1301 bytes
+ 111 files changed, 3050 insertions(+), 2074 deletions(-)
+Date: Sun Sep 29 09:16:54 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 28 10:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 644 Sep 29 09:16 ./aozorabunko/cards/001652/files/54257_txt_69060.zip
+1/3: ./aozorabunko/cards/001652/files/54257_txt_69060.zip
+>> add 54257_txt_kisetsu.txt
+>> add 54257_txt_utf8_kisetsu.txt
+>> https://www.aozora.gr.jp/cards/001652/card54257.html
+>> 季節、森川義信、
+-rwxrwxrwx 1 level level 947 Sep 29 09:16 ./aozorabunko/cards/001652/files/54357_txt_69062.zip
+2/3: ./aozorabunko/cards/001652/files/54357_txt_69062.zip
+>> add 54357_txt_kisetsusho_hanataba.txt
+>> add 54357_txt_utf8_kisetsusho_hanataba.txt
+>> https://www.aozora.gr.jp/cards/001652/card54357.html
+>> 季節抄、〔葩束を編みながら〕、森川義信、
+-rwxrwxrwx 1 level level 1301 Sep 29 09:16 ./aozorabunko/cards/001652/files/54358_txt_69061.zip
+3/3: ./aozorabunko/cards/001652/files/54358_txt_69061.zip
+>> add 54358_txt_kisetsusho_kozuega.txt
+>> add 54358_txt_utf8_kisetsusho_kozuega.txt
+>> https://www.aozora.gr.jp/cards/001652/card54358.html
+>> 季節抄、〔梢が〕、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30502/354 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 29 09:16:03 JST 2019
+End  : Sun Sep 29 09:17:34 JST 2019
