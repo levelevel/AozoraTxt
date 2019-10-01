@@ -1,0 +1,40 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Oct  1 21:38:38 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   195abe43a3..3e13acc803  master     -> origin/master
+Updating 195abe43a3..3e13acc803
+Fast-forward
+ cards/000311/card46259.html                   |   2 +-
+ cards/001869/card57543.html                   | 229 ++++++++
+ cards/001869/card57595.html                   | 229 ++++++++
+ cards/001869/files/57543_69306.html           | 734 ++++++++++++++++++++++++++
+ cards/001869/files/57543_ruby_69254.zip       | Bin 0 -> 37020 bytes
+ cards/001869/files/57595_69307.html           | 461 ++++++++++++++++
+ cards/001869/files/57595_ruby_69255.zip       | Bin 0 -> 22065 bytes
+ 78 files changed, 3781 insertions(+), 2133 deletions(-)
+Date: Tue Oct  1 21:40:46 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 30 21:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 37020 Oct  1 21:40 ./aozorabunko/cards/001869/files/57543_ruby_69254.zip
+1/2: ./aozorabunko/cards/001869/files/57543_ruby_69254.zip
+>> add 57543_ruby_isamashii_hanashi.txt
+>> add 57543_ruby_utf8_isamashii_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001869/card57543.html
+>> いさましい話、山本周五郎、
+-rwxrwxrwx 1 level level 22065 Oct  1 21:40 ./aozorabunko/cards/001869/files/57595_ruby_69255.zip
+2/2: ./aozorabunko/cards/001869/files/57595_ruby_69255.zip
+>> add 57595_ruby_obanasawa.txt
+>> add 57595_ruby_utf8_obanasawa.txt
+>> https://www.aozora.gr.jp/cards/001869/card57595.html
+>> おばな沢、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30508/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Oct  1 21:38:38 JST 2019
+End  : Tue Oct  1 21:41:58 JST 2019
