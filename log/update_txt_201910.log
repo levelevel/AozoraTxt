@@ -38,3 +38,115 @@ Title Total : 30508/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Oct  1 21:38:38 JST 2019
 End  : Tue Oct  1 21:41:58 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct  3 07:48:16 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3e13acc803..63aefa8ddb  master     -> origin/master
+Updating 3e13acc803..63aefa8ddb
+Fast-forward
+ cards/000019/card194.html                     |   2 +-
+ cards/000019/card46319.html                   |   2 +-
+ cards/000214/card48918.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48995.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48918_69310.html           |  94 ++++++++++
+ cards/000214/files/48918_ruby_69258.zip       | Bin 0 -> 5249 bytes
+ cards/000214/files/48995_69309.html           |  65 +++++++
+ cards/000214/files/48995_ruby_69257.zip       | Bin 0 -> 3086 bytes
+ cards/000483/card48228.html                   |   2 +-
+ cards/001490/card56521.html                   | 234 +++++++++++++++++++++++++
+ cards/001490/files/56521_69308.html           | 158 +++++++++++++++++
+ cards/001490/files/56521_ruby_69256.zip       | Bin 0 -> 7088 bytes
+ cards/001585/card53188.html                   |   2 +-
+ cards/001585/card53189.html                   |   2 +-
+ cards/001585/card53190.html                   |   2 +-
+ cards/001585/card53191.html                   |   2 +-
+ cards/001585/card53192.html                   |   2 +-
+ cards/001585/card53483.html                   |   2 +-
+ cards/001585/card53484.html                   |   2 +-
+ cards/001585/card53485.html                   |   2 +-
+ cards/001585/card53527.html                   |   2 +-
+ cards/001585/card53528.html                   |   2 +-
+ cards/001585/card53529.html                   |   2 +-
+ cards/001585/card53530.html                   |   2 +-
+ cards/001585/card53659.html                   |   2 +-
+ cards/001585/card53660.html                   |   2 +-
+ cards/001585/card53661.html                   |   2 +-
+ cards/001585/card53662.html                   |   2 +-
+ cards/001585/card53663.html                   |   2 +-
+ cards/001585/card53664.html                   |   2 +-
+ cards/001585/card53665.html                   |   2 +-
+ cards/001585/card53666.html                   |   2 +-
+ cards/001585/card53667.html                   |   2 +-
+ cards/001585/card53668.html                   |   2 +-
+ cards/001585/card53669.html                   |   2 +-
+ cards/001585/card53670.html                   |   2 +-
+ cards/001585/card53681.html                   |   2 +-
+ cards/001585/card54218.html                   |   2 +-
+ cards/001585/card54219.html                   |   2 +-
+ cards/001585/card54220.html                   |   2 +-
+ cards/001585/card54221.html                   |   2 +-
+ cards/001585/card54222.html                   |   2 +-
+ cards/001585/card54223.html                   |   2 +-
+ cards/001585/card54224.html                   |   2 +-
+ cards/001585/card54225.html                   |   2 +-
+ cards/001585/card54226.html                   |   2 +-
+ cards/001585/card54227.html                   |   2 +-
+ cards/001585/card54228.html                   |   2 +-
+ cards/001585/card54229.html                   |   2 +-
+ cards/001585/card54230.html                   |   2 +-
+ cards/001585/card54231.html                   |   2 +-
+ cards/001585/card54232.html                   |   2 +-
+ cards/001585/card54234.html                   |   2 +-
+ cards/001585/card54235.html                   |   2 +-
+ cards/001585/card54236.html                   |   2 +-
+ cards/001585/card54237.html                   |   2 +-
+ cards/001585/card54238.html                   |   2 +-
+ cards/001585/card54239.html                   |   2 +-
+ cards/001585/card54240.html                   |   2 +-
+ cards/001585/card54241.html                   |   2 +-
+ cards/001585/card54242.html                   |   2 +-
+ cards/001585/card54243.html                   |   2 +-
+ cards/001585/card54244.html                   |   2 +-
+ cards/001585/card54245.html                   |   2 +-
+ cards/001585/card54246.html                   |   2 +-
+ cards/001585/card54247.html                   |   2 +-
+ cards/001585/card54249.html                   |   2 +-
+ cards/001585/card54250.html                   |   2 +-
+ cards/001585/card54251.html                   |   2 +-
+ cards/001585/card54252.html                   |   2 +-
+ cards/001869/card57543.html                   |   2 +-
+ cards/001869/card57595.html                   |   2 +-
+ cards/002086/card58943.html                   |   2 +-
+ 210 files changed, 5765 insertions(+), 4749 deletions(-)
+Date: Thu Oct  3 07:49:38 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  1 21:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5249 Oct  3 07:49 ./aozorabunko/cards/000214/files/48918_ruby_69258.zip
+1/3: ./aozorabunko/cards/000214/files/48918_ruby_69258.zip
+>> add 48918_ruby_dakkyakuno_kufu.txt
+>> add 48918_ruby_utf8_dakkyakuno_kufu.txt
+>> https://www.aozora.gr.jp/cards/000214/card48918.html
+>> 脱却の工夫、田山録弥、
+-rwxrwxrwx 1 level level 3086 Oct  3 07:49 ./aozorabunko/cards/000214/files/48995_ruby_69257.zip
+2/3: ./aozorabunko/cards/000214/files/48995_ruby_69257.zip
+>> add 48995_ruby_achikochino_keikoku.txt
+>> add 48995_ruby_utf8_achikochino_keikoku.txt
+>> https://www.aozora.gr.jp/cards/000214/card48995.html
+>> あちこちの渓谷、田山録弥、
+-rwxrwxrwx 1 level level 7088 Oct  3 07:49 ./aozorabunko/cards/001490/files/56521_ruby_69256.zip
+3/3: ./aozorabunko/cards/001490/files/56521_ruby_69256.zip
+>> add 56521_ruby_kaisetsu_shumio_tsujiteno_sensei.txt
+>> add 56521_ruby_utf8_kaisetsu_shumio_tsujiteno_sensei.txt
+>> https://www.aozora.gr.jp/cards/001490/card56521.html
+>> 解説　趣味を通じての先生、額田六福、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30514/354 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct  3 07:48:16 JST 2019
+End  : Thu Oct  3 07:51:17 JST 2019
