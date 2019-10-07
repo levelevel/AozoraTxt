@@ -150,3 +150,82 @@ Title Total : 30514/354 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct  3 07:48:16 JST 2019
 End  : Thu Oct  3 07:51:17 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct  7 22:04:58 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   63aefa8ddb..eb0769f74d  master     -> origin/master
+Updating 63aefa8ddb..eb0769f74d
+Fast-forward
+ cards/000094/card56536.html                   |  238 +++++
+ cards/000094/files/56536_69316.html           |  140 +++
+ cards/000094/files/56536_ruby_69264.zip       |  Bin 0 -> 9971 bytes
+ cards/000214/card48918.html                   |    2 +-
+ cards/000214/card48995.html                   |    2 +-
+ cards/001224/card46109.html                   |  229 +++++
+ cards/001224/card46142.html                   |  229 +++++
+ cards/001224/files/46109_69314.html           |  220 +++++
+ cards/001224/files/46109_ruby_69262.zip       |  Bin 0 -> 17125 bytes
+ cards/001224/files/46142_69315.html           | 1310 +++++++++++++++++++++++++
+ cards/001224/files/46142_ruby_69263.zip       |  Bin 0 -> 88347 bytes
+ cards/001670/card56376.html                   |  234 +++++
+ cards/001670/files/56376_69313.html           |  390 ++++++++
+ cards/001670/files/56376_ruby_69261.zip       |  Bin 0 -> 12795 bytes
+ cards/001867/card58189.html                   |  234 +++++
+ cards/001867/files/58189_69311.html           |   71 ++
+ cards/001867/files/58189_ruby_69259.zip       |  Bin 0 -> 19230 bytes
+ cards/001938/card59080.html                   |  234 +++++
+ cards/001938/files/59080_69312.html           |   76 ++
+ cards/001938/files/59080_txt_69260.zip        |  Bin 0 -> 3203 bytes
+ cards/001956/card59386.html                   |    2 +-
+ houkokusyo/kadai.html                         |    6 +-
+ 251 files changed, 11234 insertions(+), 6339 deletions(-)
+Date: Mon Oct  7 22:06:58 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  3 07:51 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9971 Oct  7 22:06 ./aozorabunko/cards/000094/files/56536_ruby_69264.zip
+1/6: ./aozorabunko/cards/000094/files/56536_ruby_69264.zip
+>> add 56536_ruby_shotono_akuma.txt
+>> add 56536_ruby_utf8_shotono_akuma.txt
+>> https://www.aozora.gr.jp/cards/000094/card56536.html
+>> 鐘塔の悪魔、THE DIVIL IN THE BELFRY、エドガア・アラン・ポー　Edgar Allan Poe、佐々木直次郎訳、
+-rwxrwxrwx 1 level level 17125 Oct  7 22:06 ./aozorabunko/cards/001224/files/46109_ruby_69262.zip
+2/6: ./aozorabunko/cards/001224/files/46109_ruby_69262.zip
+>> add 46109_ruby_france_haku_nb.txt
+>> add 46109_ruby_utf8_france_haku_nb.txt
+>> https://www.aozora.gr.jp/cards/001224/card46109.html
+>> フランス伯Ｎ・Ｂ、久生十蘭、
+-rwxrwxrwx 1 level level 88347 Oct  7 22:06 ./aozorabunko/cards/001224/files/46142_ruby_69263.zip
+3/6: ./aozorabunko/cards/001224/files/46142_ruby_69263.zip
+>> add 46142_ruby_wagayano_rakuen.txt
+>> add 46142_ruby_utf8_wagayano_rakuen.txt
+>> https://www.aozora.gr.jp/cards/001224/card46142.html
+>> 我が家の楽園、久生十蘭、
+-rwxrwxrwx 1 level level 12795 Oct  7 22:06 ./aozorabunko/cards/001670/files/56376_ruby_69261.zip
+4/6: ./aozorabunko/cards/001670/files/56376_ruby_69261.zip
+>> add 56376_ruby_126tsujigiri.txt
+>> add 56376_ruby_utf8_126tsujigiri.txt
+>> https://www.aozora.gr.jp/cards/001670/card56376.html
+>> 銭形平次捕物控、辻斬、野村胡堂、
+-rwxrwxrwx 1 level level 19230 Oct  7 22:06 ./aozorabunko/cards/001867/files/58189_ruby_69259.zip
+5/6: ./aozorabunko/cards/001867/files/58189_ruby_69259.zip
+>> add 58189_ruby_sei_anderusen.txt
+>> add 58189_ruby_utf8_sei_anderusen.txt
+>> https://www.aozora.gr.jp/cards/001867/card58189.html
+>> 聖アンデルセン、小山清、
+-rwxrwxrwx 1 level level 3203 Oct  7 22:06 ./aozorabunko/cards/001938/files/59080_txt_69260.zip
+6/6: ./aozorabunko/cards/001938/files/59080_txt_69260.zip
+>> add 59080_txt_rengyono_hana.txt
+>> add 59080_txt_utf8_rengyono_hana.txt
+>> https://www.aozora.gr.jp/cards/001938/card59080.html
+>> 連翹の花、新村出、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30526/354 (Accept:6/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Oct  7 22:04:58 JST 2019
+End  : Mon Oct  7 22:07:55 JST 2019
