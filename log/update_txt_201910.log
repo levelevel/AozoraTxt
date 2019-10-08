@@ -229,3 +229,63 @@ Title Total : 30526/354 (Accept:6/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct  7 22:04:58 JST 2019
 End  : Mon Oct  7 22:07:55 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Oct  9 07:22:05 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   eb0769f74d..aafff814c2  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating eb0769f74d..aafff814c2
+Fast-forward
+ cards/000094/card56536.html                   |   2 +-
+ cards/000933/card47700.html                   | 234 ++++++++++++++
+ cards/000933/card47719.html                   | 234 ++++++++++++++
+ cards/000933/files/47700_69320.html           |  71 +++++
+ cards/000933/files/47700_ruby_69268.zip       | Bin 0 -> 2159 bytes
+ cards/000933/files/47719_69319.html           |  71 +++++
+ cards/000933/files/47719_ruby_69267.zip       | Bin 0 -> 5275 bytes
+ cards/001403/card55109.html                   | 234 ++++++++++++++
+ cards/001403/card55111.html                   | 234 ++++++++++++++
+ cards/001403/files/55109_69324.html           | 441 ++++++++++++++++++++++++++
+ cards/001403/files/55109_ruby_69272.zip       | Bin 0 -> 38874 bytes
+ cards/001403/files/55111_69325.html           |  67 ++++
+ cards/001403/files/55111_ruby_69273.zip       | Bin 0 -> 2945 bytes
+ 97 files changed, 4762 insertions(+), 3178 deletions(-)
+Date: Wed Oct  9 07:29:39 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  7 22:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2159 Oct  9 07:29 ./aozorabunko/cards/000933/files/47700_ruby_69268.zip
+1/4: ./aozorabunko/cards/000933/files/47700_ruby_69268.zip
+>> add 47700_ruby_takiginoto_sushihashirino_okina.txt
+>> add 47700_ruby_utf8_takiginoto_sushihashirino_okina.txt
+>> https://www.aozora.gr.jp/cards/000933/card47700.html
+>> 薪能と呪師走の翁、折口信夫、
+-rwxrwxrwx 1 level level 5275 Oct  9 07:29 ./aozorabunko/cards/000933/files/47719_ruby_69267.zip
+2/4: ./aozorabunko/cards/000933/files/47719_ruby_69267.zip
+>> add 47719_ruby_buraino_tono_geijutsu.txt
+>> add 47719_ruby_utf8_buraino_tono_geijutsu.txt
+>> https://www.aozora.gr.jp/cards/000933/card47719.html
+>> 無頼の徒の芸術、折口信夫、
+-rwxrwxrwx 1 level level 38874 Oct  9 07:29 ./aozorabunko/cards/001403/files/55109_ruby_69272.zip
+3/4: ./aozorabunko/cards/001403/files/55109_ruby_69272.zip
+>> add 55109_ruby_koki_kan_doraku.txt
+>> add 55109_ruby_utf8_koki_kan_doraku.txt
+>> https://www.aozora.gr.jp/cards/001403/card55109.html
+>> 古器観道楽、北大路魯山人、
+-rwxrwxrwx 1 level level 2945 Oct  9 07:29 ./aozorabunko/cards/001403/files/55111_ruby_69273.zip
+4/4: ./aozorabunko/cards/001403/files/55111_ruby_69273.zip
+>> add 55111_ruby_zahen_shiyu.txt
+>> add 55111_ruby_utf8_zahen_shiyu.txt
+>> https://www.aozora.gr.jp/cards/001403/card55111.html
+>> 坐辺師友、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30534/354 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Oct  9 07:22:05 JST 2019
+End  : Wed Oct  9 07:31:03 JST 2019
