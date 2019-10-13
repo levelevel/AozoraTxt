@@ -463,3 +463,45 @@ Title Total : 30552/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Oct 13 08:29:47 JST 2019
 End  : Sun Oct 13 08:31:56 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct 14 07:58:31 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   01fab72447..eb4e3ff64b  master     -> origin/master
+Updating 01fab72447..eb4e3ff64b
+Fast-forward
+ cards/000058/card57440.html                   | 234 ++++++++++++++++++++++++++
+ cards/000058/files/57440_69331.html           | 101 +++++++++++
+ cards/000058/files/57440_ruby_69279.zip       | Bin 0 -> 46910 bytes
+ cards/000305/card57876.html                   | 234 ++++++++++++++++++++++++++
+ cards/000305/files/57876_69330.html           |  65 +++++++
+ cards/000305/files/57876_ruby_69278.zip       | Bin 0 -> 3088 bytes
+ cards/001520/card56740.html                   |   2 +-
+ cards/001520/card56745.html                   |   2 +-
+ soramoyou/soramoyouindex.html                 |  19 +++
+ 110 files changed, 3445 insertions(+), 2796 deletions(-)
+Date: Mon Oct 14 07:59:21 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 13 08:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 46910 Oct 14 07:59 ./aozorabunko/cards/000058/files/57440_ruby_69279.zip
+1/2: ./aozorabunko/cards/000058/files/57440_ruby_69279.zip
+>> add 57440_ruby_masaokashiki_kun.txt
+>> add 57440_ruby_utf8_masaokashiki_kun.txt
+>> https://www.aozora.gr.jp/cards/000058/card57440.html
+>> 正岡子規君、伊藤左千夫、
+-rwxrwxrwx 1 level level 3088 Oct 14 07:59 ./aozorabunko/cards/000305/files/57876_ruby_69278.zip
+2/2: ./aozorabunko/cards/000305/files/57876_ruby_69278.zip
+>> add 57876_ruby_akimaroni_kotau.txt
+>> add 57876_ruby_utf8_akimaroni_kotau.txt
+>> https://www.aozora.gr.jp/cards/000305/card57876.html
+>> あきまろに答ふ、正岡子規、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30556/354 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Oct 14 07:58:31 JST 2019
+End  : Mon Oct 14 08:00:15 JST 2019
