@@ -578,3 +578,34 @@ Title Total : 30562/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 16 22:33:13 JST 2019
 End  : Wed Oct 16 22:37:19 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 17 22:39:53 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8d0ac58d57..fed8466d93  master     -> origin/master
+Updating 8d0ac58d57..fed8466d93
+Fast-forward
+ cards/001240/card49749.html                   | 229 ++++++++++++++++++++++++++
+ cards/001240/files/49749_69335.html           |  61 +++++++
+ cards/001240/files/49749_txt_69283.zip        | Bin 0 -> 1939 bytes
+ cards/001958/card58812.html                   |   2 +-
+ 75 files changed, 1412 insertions(+), 1125 deletions(-)
+Date: Thu Oct 17 22:41:16 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 16 22:37 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1939 Oct 17 22:40 ./aozorabunko/cards/001240/files/49749_txt_69283.zip
+1/1: ./aozorabunko/cards/001240/files/49749_txt_69283.zip
+>> add 49749_txt_utsukushii_dakedewa_maniawanai.txt
+>> add 49749_txt_utf8_utsukushii_dakedewa_maniawanai.txt
+>> https://www.aozora.gr.jp/cards/001240/card49749.html
+>> 美しいだけでは間にあはない、加藤道夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30564/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 17 22:39:53 JST 2019
+End  : Thu Oct 17 22:42:45 JST 2019
