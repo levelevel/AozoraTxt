@@ -609,3 +609,74 @@ Title Total : 30564/354 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct 17 22:39:53 JST 2019
 End  : Thu Oct 17 22:42:45 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct 18 21:31:59 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fed8466d93..96f891ef55  master     -> origin/master
+Updating fed8466d93..96f891ef55
+Fast-forward
+ cards/001240/card49749.html                   |   2 +-
+ cards/002043/card60066.html                   | 232 +++++++++
+ cards/002043/files/60066_69391.html           | 696 ++++++++++++++++++++++++++
+ cards/002043/files/60066_ruby_69390.zip       | Bin 0 -> 482316 bytes
+ 93 files changed, 4014 insertions(+), 2408 deletions(-)
+Date: Fri Oct 18 21:34:27 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 17 22:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 482316 Oct 18 21:34 ./aozorabunko/cards/002043/files/60066_ruby_69390.zip
+1/1: ./aozorabunko/cards/002043/files/60066_ruby_69390.zip
+>> add 60066_NPD_ruby_doke_gyokuza.txt
+>> add 60066_NPD_ruby_utf8_doke_gyokuza.txt
+>> https://www.aozora.gr.jp/cards/002043/card60066.html
+>> 道化玉座、A Mummer's Throne、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30564/356 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Oct 18 21:31:59 JST 2019
+End  : Fri Oct 18 21:36:55 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Oct 19 09:25:13 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   96f891ef55..21759d3376  master     -> origin/master
+Updating 96f891ef55..21759d3376
+Fast-forward
+ cards/001569/card57324.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card57328.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/57324_69336.html           | 104 ++++++++++++
+ cards/001569/files/57324_ruby_69284.zip       | Bin 0 -> 12447 bytes
+ cards/001569/files/57328_69337.html           | 120 +++++++++++++
+ cards/001569/files/57328_ruby_69285.zip       | Bin 0 -> 383280 bytes
+ cards/002043/card60066.html                   |   2 +-
+ 84 files changed, 2818 insertions(+), 2058 deletions(-)
+Date: Sat Oct 19 09:26:01 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 18 21:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12447 Oct 19 09:25 ./aozorabunko/cards/001569/files/57324_ruby_69284.zip
+1/2: ./aozorabunko/cards/001569/files/57324_ruby_69284.zip
+>> add 57324_ruby_eigao_tsukuru_hanashi.txt
+>> add 57324_ruby_utf8_eigao_tsukuru_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card57324.html
+>> 映画を作る話、中谷宇吉郎、
+-rwxrwxrwx 1 level level 383280 Oct 19 09:25 ./aozorabunko/cards/001569/files/57328_ruby_69285.zip
+2/2: ./aozorabunko/cards/001569/files/57328_ruby_69285.zip
+>> add 57328_ruby_tojono_hanashi.txt
+>> add 57328_ruby_utf8_tojono_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card57328.html
+>> 凍上の話、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30568/356 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Oct 19 09:25:13 JST 2019
+End  : Sat Oct 19 09:26:52 JST 2019
