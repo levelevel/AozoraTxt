@@ -721,3 +721,65 @@ Title Total : 30572/356 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Oct 20 20:43:47 JST 2019
 End  : Sun Oct 20 20:45:34 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Oct 20 20:49:15 JST 2019
+#Git pull
+Already up to date.
+Date: Sun Oct 20 20:49:16 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 20 20:45 ./AozoraTxt/etc/update
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct 21 22:16:06 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   96bd1b2906..8dff303995  master     -> origin/master
+Updating 96bd1b2906..8dff303995
+Fast-forward
+ cards/000258/card59428.html                   |    2 +-
+ cards/001095/card57480.html                   |    2 +-
+ cards/001779/card57515.html                   |  234 +++
+ cards/001779/card58170.html                   |  230 +++
+ cards/001779/files/57515_69340.html           |  353 ++++
+ cards/001779/files/57515_ruby_69288.zip       |  Bin 0 -> 39470 bytes
+ cards/001779/files/58170_69341.html           | 2422 +++++++++++++++++++++++++
+ cards/001779/files/58170_ruby_69289.zip       |  Bin 0 -> 148572 bytes
+ cards/001882/card58029.html                   |    8 +-
+ cards/001882/files/58029_60607.html           |   14 +-
+ cards/001882/files/58029_ruby_60606.zip       |  Bin 23947 -> 23967 bytes
+ 116 files changed, 5506 insertions(+), 2235 deletions(-)
+Date: Mon Oct 21 22:16:52 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 20 20:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 39470 Oct 21 22:16 ./aozorabunko/cards/001779/files/57515_ruby_69288.zip
+1/3: ./aozorabunko/cards/001779/files/57515_ruby_69288.zip
+>> add 57515_ruby_akuryo.txt
+>> add 57515_ruby_utf8_akuryo.txt
+>> https://www.aozora.gr.jp/cards/001779/card57515.html
+>> 悪霊、江戸川乱歩、
+-rwxrwxrwx 1 level level 148572 Oct 21 22:16 ./aozorabunko/cards/001779/files/58170_ruby_69289.zip
+2/3: ./aozorabunko/cards/001779/files/58170_ruby_69289.zip
+>> add 58170_ruby_ningen_hyo.txt
+>> add 58170_ruby_utf8_ningen_hyo.txt
+>> https://www.aozora.gr.jp/cards/001779/card58170.html
+>> 人間豹、江戸川乱歩、
+-rwxrwxrwx 1 level level 23967 Oct 21 22:16 ./aozorabunko/cards/001882/files/58029_ruby_60606.zip
+3/3: ./aozorabunko/cards/001882/files/58029_ruby_60606.zip
+>> update 58029_NPD_ruby_inuhozuki.txt
+>> update 58029_NPD_ruby_utf8_inuhozuki.txt
+>> https://www.aozora.gr.jp/cards/001882/card58029.html
+>> 犬酸漿、Ａ. キングスフォード　A. Kingsford、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30576/356 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Oct 21 22:16:06 JST 2019
+End  : Mon Oct 21 22:17:50 JST 2019
