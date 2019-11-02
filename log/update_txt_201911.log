@@ -1,0 +1,204 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov  2 12:30:57 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   24ac1452e0..fe9ceb4fd9  master     -> origin/master
+Updating 24ac1452e0..fe9ceb4fd9
+Fast-forward
+ cards/000067/card42240.html                   |  234 ++++
+ cards/000067/files/42240_69547.html           |   79 ++
+ cards/000067/files/42240_txt_69598.zip        |  Bin 0 -> 4974 bytes
+ cards/000214/card48832.html                   |  243 ++++
+ cards/000214/files/48832_69357.html           |  145 ++
+ cards/000214/files/48832_ruby_69305.zip       |  Bin 0 -> 9010 bytes
+ cards/000262/card48074.html                   |    2 +-
+ cards/000311/card46260.html                   |  229 ++++
+ cards/000311/files/46260_69351.html           |  297 ++++
+ cards/000311/files/46260_ruby_69299.zip       |  Bin 0 -> 13853 bytes
+ cards/001091/card59536.html                   |  247 ++++
+ cards/001091/files/59536_69548.html           |  109 ++
+ cards/001091/files/59536_ruby_69497.zip       |  Bin 0 -> 5592 bytes
+ cards/001154/card43846.html                   |  234 ++++
+ cards/001154/files/43846_69550.html           |  225 ++++
+ cards/001154/files/43846_ruby_69499.zip       |  Bin 0 -> 10219 bytes
+ cards/001240/card49748.html                   |  229 ++++
+ cards/001240/files/49748_69352.html           |   61 +
+ cards/001240/files/49748_txt_69300.zip        |  Bin 0 -> 1787 bytes
+ cards/001325/card48214.html                   |    2 +-
+ cards/001326/card48215.html                   |    2 +-
+ cards/001327/card48216.html                   |    2 +-
+ cards/001328/card48217.html                   |    2 +-
+ cards/001339/card48381.html                   |    2 +-
+ cards/001429/card58551.html                   |    2 +-
+ cards/001475/card52608.html                   |  234 ++++
+ cards/001475/card52618.html                   |  234 ++++
+ cards/001475/files/52608_69355.html           |  123 ++
+ cards/001475/files/52608_ruby_69303.zip       |  Bin 0 -> 4932 bytes
+ cards/001475/files/52618_69356.html           |  127 ++
+ cards/001475/files/52618_ruby_69304.zip       |  Bin 0 -> 7063 bytes
+ cards/001581/card58963.html                   |  234 ++++
+ cards/001581/files/58963_69353.html           |   66 +
+ cards/001581/files/58963_ruby_69301.zip       |  Bin 0 -> 2526 bytes
+ cards/001597/card53710.html                   |  234 ++++
+ cards/001597/card53711.html                   |  234 ++++
+ cards/001597/files/53710_69348.html           |   65 +
+ cards/001597/files/53710_ruby_69296.zip       |  Bin 0 -> 956 bytes
+ cards/001597/files/53711_69349.html           |   64 +
+ cards/001597/files/53711_txt_69297.zip        |  Bin 0 -> 947 bytes
+ cards/001670/card54707.html                   |    6 +-
+ cards/001670/card54708.html                   |    6 +-
+ cards/001670/card54709.html                   |    6 +-
+ cards/001670/card54710.html                   |    6 +-
+ cards/001670/card54711.html                   |    6 +-
+ cards/001670/card54712.html                   |    6 +-
+ cards/001670/card54713.html                   |    6 +-
+ cards/001670/card54714.html                   |    6 +-
+ cards/001670/card54715.html                   |    6 +-
+ cards/001670/card54716.html                   |    6 +-
+ cards/001670/card56379.html                   |  234 ++++
+ cards/001670/files/56379_69350.html           |  342 +++++
+ cards/001670/files/56379_ruby_69298.zip       |  Bin 0 -> 12374 bytes
+ cards/001763/card59312.html                   |  234 ++++
+ cards/001763/card59396.html                   |  234 ++++
+ cards/001763/files/59312_69354.html           |   77 ++
+ cards/001763/files/59312_ruby_69302.zip       |  Bin 0 -> 3679 bytes
+ cards/001763/files/59396_69549.html           |   89 ++
+ cards/001763/files/59396_txt_69498.zip        |  Bin 0 -> 3378 bytes
+ cards/001907/card58884.html                   |  229 ++++
+ cards/001907/files/58884_69620.html           |   82 ++
+ cards/001907/files/58884_txt_69618.zip        |  Bin 0 -> 3930 bytes
+ cards/001970/card58885.html                   |  229 ++++
+ cards/001970/card58951.html                   |    4 +-
+ cards/001970/files/58885_69621.html           | 1793 +++++++++++++++++++++++++
+ cards/001970/files/58885_ruby_69619.zip       |  Bin 0 -> 49151 bytes
+ cards/001970/files/58951_ruby_63588.zip       |  Bin 3784 -> 3708 bytes
+ cards/002134/card60169.html                   |  235 ++++
+ cards/002134/files/60169_69490.html           |  255 ++++
+ cards/002134/files/60169_ruby_69491.zip       |  Bin 0 -> 27884111 bytes
+ kaikei/index.html                             |   18 +-
+ kaikei/term20.html                            |   41 +
+ kaikei/term2001.jpg                           |  Bin 0 -> 967541 bytes
+ kaikei/term2002.jpg                           |  Bin 0 -> 804940 bytes
+ soramoyou/soramoyouindex.html                 |   22 +-
+ 474 files changed, 19664 insertions(+), 11686 deletions(-)
+Date: Sat Nov  2 12:33:14 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 24 23:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4974 Nov  2 12:32 ./aozorabunko/cards/000067/files/42240_txt_69598.zip
+1/18: ./aozorabunko/cards/000067/files/42240_txt_69598.zip
+>> add 42240_txt_hironriteki_seikakuno_hiai.txt
+>> add 42240_txt_utf8_hironriteki_seikakuno_hiai.txt
+>> https://www.aozora.gr.jp/cards/000067/card42240.html
+>> 非論理的性格の悲哀、萩原朔太郎、
+-rwxrwxrwx 1 level level 9010 Nov  2 12:32 ./aozorabunko/cards/000214/files/48832_ruby_69305.zip
+2/18: ./aozorabunko/cards/000214/files/48832_ruby_69305.zip
+>> add 48832_ruby_ozakikoyoto_sono_sakuhin.txt
+>> add 48832_ruby_utf8_ozakikoyoto_sono_sakuhin.txt
+>> https://www.aozora.gr.jp/cards/000214/card48832.html
+>> 尾崎紅葉とその作品、田山録弥、
+-rwxrwxrwx 1 level level 13853 Nov  2 12:32 ./aozorabunko/cards/000311/files/46260_ruby_69299.zip
+3/18: ./aozorabunko/cards/000311/files/46260_ruby_69299.zip
+>> add 46260_ruby_30nikki1947.txt
+>> add 46260_ruby_utf8_30nikki1947.txt
+>> https://www.aozora.gr.jp/cards/000311/card46260.html
+>> 日記、一九四七年（昭和二十二年）、宮本百合子、
+-rwxrwxrwx 1 level level 5592 Nov  2 12:32 ./aozorabunko/cards/001091/files/59536_ruby_69497.zip
+4/18: ./aozorabunko/cards/001091/files/59536_ruby_69497.zip
+>> add 59536_ruby_kawaisona_konahikino_wakai_monoto_koneko.txt
+>> add 59536_ruby_utf8_kawaisona_konahikino_wakai_monoto_koneko.txt
+>> https://www.aozora.gr.jp/cards/001091/card59536.html
+>> かわいそうな粉ひきの若いものと小猫、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳、
+-rwxrwxrwx 1 level level 10219 Nov  2 12:32 ./aozorabunko/cards/001154/files/43846_ruby_69499.zip
+5/18: ./aozorabunko/cards/001154/files/43846_ruby_69499.zip
+>> add 43846_ruby_subeteo_eruwa_katashi.txt
+>> add 43846_ruby_utf8_subeteo_eruwa_katashi.txt
+>> https://www.aozora.gr.jp/cards/001154/card43846.html
+>> すべてを得るは難し、岸田國士、
+-rwxrwxrwx 1 level level 1787 Nov  2 12:32 ./aozorabunko/cards/001240/files/49748_txt_69300.zip
+6/18: ./aozorabunko/cards/001240/files/49748_txt_69300.zip
+>> add 49748_txt_akutagawa_hiroshi.txt
+>> add 49748_txt_utf8_akutagawa_hiroshi.txt
+>> https://www.aozora.gr.jp/cards/001240/card49748.html
+>> 芥川比呂志、加藤道夫、
+-rwxrwxrwx 1 level level 4932 Nov  2 12:32 ./aozorabunko/cards/001475/files/52608_ruby_69303.zip
+7/18: ./aozorabunko/cards/001475/files/52608_ruby_69303.zip
+>> add 52608_ruby_akai_erimaki.txt
+>> add 52608_ruby_utf8_akai_erimaki.txt
+>> https://www.aozora.gr.jp/cards/001475/card52608.html
+>> 赤いえり巻き、小川未明、
+-rwxrwxrwx 1 level level 7063 Nov  2 12:32 ./aozorabunko/cards/001475/files/52618_ruby_69304.zip
+8/18: ./aozorabunko/cards/001475/files/52618_ruby_69304.zip
+>> add 52618_ruby_utsukushiku_umaretabakarini.txt
+>> add 52618_ruby_utf8_utsukushiku_umaretabakarini.txt
+>> https://www.aozora.gr.jp/cards/001475/card52618.html
+>> 美しく生まれたばかりに、小川未明、
+-rwxrwxrwx 1 level level 2526 Nov  2 12:32 ./aozorabunko/cards/001581/files/58963_ruby_69301.zip
+9/18: ./aozorabunko/cards/001581/files/58963_ruby_69301.zip
+>> add 58963_ruby_kyowa_buji.txt
+>> add 58963_ruby_utf8_kyowa_buji.txt
+>> https://www.aozora.gr.jp/cards/001581/card58963.html
+>> 今日は無事、正宗白鳥、
+-rwxrwxrwx 1 level level 956 Nov  2 12:32 ./aozorabunko/cards/001597/files/53710_ruby_69296.zip
+10/18: ./aozorabunko/cards/001597/files/53710_ruby_69296.zip
+>> add 53710_ruby_futari_1.txt
+>> add 53710_ruby_utf8_futari_1.txt
+>> https://www.aozora.gr.jp/cards/001597/card53710.html
+>> 二人‥‥１‥‥、李箱、
+-rwxrwxrwx 1 level level 947 Nov  2 12:32 ./aozorabunko/cards/001597/files/53711_txt_69297.zip
+11/18: ./aozorabunko/cards/001597/files/53711_txt_69297.zip
+>> add 53711_txt_futari_2.txt
+>> add 53711_txt_utf8_futari_2.txt
+>> https://www.aozora.gr.jp/cards/001597/card53711.html
+>> 二人‥‥２‥‥、李箱、
+-rwxrwxrwx 1 level level 12374 Nov  2 12:32 ./aozorabunko/cards/001670/files/56379_ruby_69298.zip
+12/18: ./aozorabunko/cards/001670/files/56379_ruby_69298.zip
+>> add 56379_ruby_127yasono_shi.txt
+>> add 56379_ruby_utf8_127yasono_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56379.html
+>> 銭形平次捕物控、弥惣の死、野村胡堂、
+-rwxrwxrwx 1 level level 3679 Nov  2 12:32 ./aozorabunko/cards/001763/files/59312_ruby_69302.zip
+13/18: ./aozorabunko/cards/001763/files/59312_ruby_69302.zip
+>> add 59312_ruby_waga_kokorono_nakano_hakuchohi.txt
+>> add 59312_ruby_utf8_waga_kokorono_nakano_hakuchohi.txt
+>> https://www.aozora.gr.jp/cards/001763/card59312.html
+>> わが心のなかの白鳥碑、佐藤春夫、
+-rwxrwxrwx 1 level level 3378 Nov  2 12:32 ./aozorabunko/cards/001763/files/59396_txt_69498.zip
+14/18: ./aozorabunko/cards/001763/files/59396_txt_69498.zip
+>> add 59396_txt_sakutarono_omoide.txt
+>> add 59396_txt_utf8_sakutarono_omoide.txt
+>> https://www.aozora.gr.jp/cards/001763/card59396.html
+>> 朔太郎の思ひ出、佐藤春夫、
+-rwxrwxrwx 1 level level 3930 Nov  2 12:32 ./aozorabunko/cards/001907/files/58884_txt_69618.zip
+15/18: ./aozorabunko/cards/001907/files/58884_txt_69618.zip
+>> add 58884_txt_01jo_iaishu.txt
+>> add 58884_txt_utf8_01jo_iaishu.txt
+>> https://www.aozora.gr.jp/cards/001907/card58884.html
+>> 遺愛集、序、窪田空穂、
+-rwxrwxrwx 1 level level 49151 Nov  2 12:32 ./aozorabunko/cards/001970/files/58885_ruby_69619.zip
+16/18: ./aozorabunko/cards/001970/files/58885_ruby_69619.zip
+>> add 58885_ruby_02_iaishu.txt
+>> add 58885_ruby_utf8_02_iaishu.txt
+>> https://www.aozora.gr.jp/cards/001970/card58885.html
+>> 遺愛集、島秋人、
+-rwxrwxrwx 1 level level 3708 Nov  2 12:32 ./aozorabunko/cards/001970/files/58951_ruby_63588.zip
+17/18: ./aozorabunko/cards/001970/files/58951_ruby_63588.zip
+>> git-mv 58951_ruby_iaishu03_atogaki.txt 58951_ruby_03_atogaki_iaishu.txt
+>> git-mv 58951_ruby_utf8_iaishu03_atogaki.txt 58951_ruby_utf8_03_atogaki_iaishu.txt
+>> https://www.aozora.gr.jp/cards/001970/card58951.html
+>> 遺愛集、あとがき、島秋人、
+-rwxrwxrwx 1 level level 27884111 Nov  2 12:32 ./aozorabunko/cards/002134/files/60169_ruby_69491.zip
+18/18: ./aozorabunko/cards/002134/files/60169_ruby_69491.zip
+>> add 60169_NPD_ruby_yuisho_aru_eikokuteien_nite.txt
+>> add 60169_NPD_ruby_utf8_yuisho_aru_eikokuteien_nite.txt
+>> https://www.aozora.gr.jp/cards/002134/card60169.html
+>> 由緒ある英国庭園にて　咲ける花のふしぎな夢、A FLORAL FANTASY IN AN OLD ENGLISH GARDEN、ウォルター・クレイン　Walter Crane、大久保ゆう訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30620/358 (Accept:18/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Nov  2 12:30:57 JST 2019
+End  : Sat Nov  2 12:35:29 JST 2019
