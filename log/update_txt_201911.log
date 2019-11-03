@@ -202,3 +202,55 @@ Title Total : 30620/358 (Accept:18/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:
 Git Failed  : 0
 Start: Sat Nov  2 12:30:57 JST 2019
 End  : Sat Nov  2 12:35:29 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov  3 14:43:04 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fe9ceb4fd9..354fdd6bc9  master     -> origin/master
+Updating fe9ceb4fd9..354fdd6bc9
+Fast-forward
+ cards/000067/card53936.html                   |   2 +-
+ cards/000067/card56578.html                   |   2 +-
+ cards/000106/card56576.html                   |   2 +-
+ cards/000159/card49431.html                   |   2 +-
+ cards/000393/card56886.html                   |   2 +-
+ cards/000448/card53673.html                   | 229 ++++++++++++++++++
+ cards/000448/files/53673_69551.html           | 126 ++++++++++
+ cards/000448/files/53673_ruby_69500.zip       | Bin 0 -> 224462 bytes
+ cards/000725/card2579.html                    |   2 +-
+ cards/001154/card43846.html                   |   2 +-
+ cards/001170/card49430.html                   |   2 +-
+ cards/001528/card59136.html                   | 229 ++++++++++++++++++
+ cards/001528/files/59136_69552.html           | 336 ++++++++++++++++++++++++++
+ cards/001528/files/59136_txt_69501.zip        | Bin 0 -> 9282 bytes
+ cards/001610/card53937.html                   |   2 +-
+ cards/001763/card56565.html                   |   2 +-
+ cards/001907/card58884.html                   |   2 +-
+ cards/001970/card58885.html                   |   2 +-
+ cards/001970/card58951.html                   |   2 +-
+ 79 files changed, 2322 insertions(+), 1405 deletions(-)
+Date: Sun Nov  3 14:43:51 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  2 12:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 224462 Nov  3 14:43 ./aozorabunko/cards/000448/files/53673_ruby_69500.zip
+1/2: ./aozorabunko/cards/000448/files/53673_ruby_69500.zip
+>> add 53673_ruby_02gongendaino_kaiko.txt
+>> add 53673_ruby_utf8_02gongendaino_kaiko.txt
+>> https://www.aozora.gr.jp/cards/000448/card53673.html
+>> 探檢實記　地中の秘密、權現臺の懷古、江見水蔭、
+-rwxrwxrwx 1 level level 9282 Nov  3 14:43 ./aozorabunko/cards/001528/files/59136_txt_69501.zip
+2/2: ./aozorabunko/cards/001528/files/59136_txt_69501.zip
+>> add 59136_txt_05shinkenpono_kaisetsu_nihonkokukenpo.txt
+>> add 59136_txt_utf8_05shinkenpono_kaisetsu_nihonkokukenpo.txt
+>> https://www.aozora.gr.jp/cards/001528/card59136.html
+>> 新憲法の解説、日本國憲法、日本国、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30624/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov  3 14:43:04 JST 2019
+End  : Sun Nov  3 14:44:32 JST 2019
