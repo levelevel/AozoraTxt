@@ -254,3 +254,54 @@ Title Total : 30624/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Nov  3 14:43:04 JST 2019
 End  : Sun Nov  3 14:44:32 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov  4 09:07:03 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   354fdd6bc9..e01e857456  master     -> origin/master
+Updating 354fdd6bc9..e01e857456
+Fast-forward
+ cards/000448/card53673.html                   |   2 +-
+ cards/001268/card59684.html                   | 229 ++++++++++++++++++++++++
+ cards/001268/files/59684_69553.html           |  60 +++++++
+ cards/001268/files/59684_txt_69502.zip        | Bin 0 -> 2236 bytes
+ cards/001528/card59136.html                   |   2 +-
+ cards/002035/card59406.html                   |   8 +-
+ cards/002035/card59408.html                   |   8 +-
+ cards/002035/card59517.html                   |   2 +-
+ cards/002035/files/59406_66606.html           |   5 +-
+ cards/002035/files/59406_ruby_66605.zip       | Bin 5533 -> 5593 bytes
+ cards/002035/files/59408_67530.html           |   3 +-
+ cards/002035/files/59408_ruby_67529.zip       | Bin 11296 -> 11315 bytes
+ 133 files changed, 4014 insertions(+), 3534 deletions(-)
+Date: Mon Nov  4 09:07:27 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  3 14:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2236 Nov  4 09:07 ./aozorabunko/cards/001268/files/59684_txt_69502.zip
+1/3: ./aozorabunko/cards/001268/files/59684_txt_69502.zip
+>> add 59684_txt_hajimete_kyoka_senseini_omeni_kakatta_toki.txt
+>> add 59684_txt_utf8_hajimete_kyoka_senseini_omeni_kakatta_toki.txt
+>> https://www.aozora.gr.jp/cards/001268/card59684.html
+>> 初めて鏡花先生に御目にかゝつた時、小村雪岱、
+-rwxrwxrwx 1 level level 5593 Nov  4 09:07 ./aozorabunko/cards/002035/files/59406_ruby_66605.zip
+2/3: ./aozorabunko/cards/002035/files/59406_ruby_66605.zip
+>> update 59406_NPD_ruby_fascism_towa_nanika.txt
+>> update 59406_NPD_ruby_utf8_fascism_towa_nanika.txt
+>> https://www.aozora.gr.jp/cards/002035/card59406.html
+>> ファシズムとは何か、ジョージ・オーウェル　George Orwell、The Creative CAT 訳、
+-rwxrwxrwx 1 level level 11315 Nov  4 09:07 ./aozorabunko/cards/002035/files/59408_ruby_67529.zip
+3/3: ./aozorabunko/cards/002035/files/59408_ruby_67529.zip
+>> update 59408_NPD_ruby_shito_microphone.txt
+>> update 59408_NPD_ruby_utf8_shito_microphone.txt
+>> https://www.aozora.gr.jp/cards/002035/card59408.html
+>> 詩とマイクロホン、ジョージ・オーウェル　George Orwell、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30626/358 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:2)
+Git Failed  : 0
+Start: Mon Nov  4 09:07:03 JST 2019
+End  : Mon Nov  4 09:07:58 JST 2019
