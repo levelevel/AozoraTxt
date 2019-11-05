@@ -305,3 +305,36 @@ Title Total : 30626/358 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov  4 09:07:03 JST 2019
 End  : Mon Nov  4 09:07:58 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov  5 22:34:30 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e01e857456..28daae078c  master     -> origin/master
+Updating e01e857456..28daae078c
+Fast-forward
+ cards/000448/card53673.html                   |   2 +-
+ cards/000599/card58454.html                   | 229 ++++++++++++++++++++++++++
+ cards/000599/files/58454_69554.html           |  67 ++++++++
+ cards/000599/files/58454_ruby_69503.zip       | Bin 0 -> 2720 bytes
+ cards/001268/card59684.html                   |   2 +-
+ cards/001528/card59136.html                   |   2 +-
+ 42 files changed, 1181 insertions(+), 888 deletions(-)
+Date: Tue Nov  5 22:35:15 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  4 09:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2720 Nov  5 22:35 ./aozorabunko/cards/000599/files/58454_ruby_69503.zip
+1/1: ./aozorabunko/cards/000599/files/58454_ruby_69503.zip
+>> add 58454_ruby_imano_shaseibun.txt
+>> add 58454_ruby_utf8_imano_shaseibun.txt
+>> https://www.aozora.gr.jp/cards/000599/card58454.html
+>> 今の寫生文、島村抱月、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30628/358 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov  5 22:34:30 JST 2019
+End  : Tue Nov  5 22:36:03 JST 2019
