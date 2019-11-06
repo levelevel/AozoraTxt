@@ -338,3 +338,43 @@ Title Total : 30628/358 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Nov  5 22:34:30 JST 2019
 End  : Tue Nov  5 22:36:03 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov  6 21:22:14 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   28daae078c..2312f786ba  master     -> origin/master
+Updating 28daae078c..2312f786ba
+Fast-forward
+ cards/000599/card58454.html                   |   2 +-
+ cards/001670/card56394.html                   | 234 ++++++++++++++++++
+ cards/001670/files/56394_69555.html           | 327 ++++++++++++++++++++++++++
+ cards/001670/files/56394_ruby_69504.zip       | Bin 0 -> 12771 bytes
+ cards/002134/card60169.html                   |   8 +-
+ cards/002134/files/60169_69490.html           |   6 +-
+ cards/002134/files/60169_ruby_69491.zip       | Bin 27884111 -> 27884117 bytes
+ 49 files changed, 1526 insertions(+), 968 deletions(-)
+Date: Wed Nov  6 21:23:24 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  5 22:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12771 Nov  6 21:23 ./aozorabunko/cards/001670/files/56394_ruby_69504.zip
+1/2: ./aozorabunko/cards/001670/files/56394_ruby_69504.zip
+>> add 56394_ruby_138dai_nijushichi_kichi.txt
+>> add 56394_ruby_utf8_138dai_nijushichi_kichi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56394.html
+>> 銭形平次捕物控、第廿七吉、野村胡堂、
+-rwxrwxrwx 1 level level 27884117 Nov  6 21:23 ./aozorabunko/cards/002134/files/60169_ruby_69491.zip
+2/2: ./aozorabunko/cards/002134/files/60169_ruby_69491.zip
+>> update 60169_NPD_ruby_yuisho_aru_eikokuteien_nite.txt
+>> update 60169_NPD_ruby_utf8_yuisho_aru_eikokuteien_nite.txt
+>> https://www.aozora.gr.jp/cards/002134/card60169.html
+>> 由緒ある英国庭園にて　咲ける花のふしぎな夢、A FLORAL FANTASY IN AN OLD ENGLISH GARDEN、ウォルター・クレイン　Walter Crane、大久保ゆう訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30630/358 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Nov  6 21:22:14 JST 2019
+End  : Wed Nov  6 21:24:33 JST 2019
