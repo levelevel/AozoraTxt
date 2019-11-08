@@ -409,3 +409,43 @@ Title Total : 30632/358 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Nov  7 20:00:42 JST 2019
 End  : Thu Nov  7 20:02:31 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Nov  8 21:07:01 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c9dff2dead..6b63e9fada  master     -> origin/master
+Updating c9dff2dead..6b63e9fada
+Fast-forward
+ cards/001748/card55796.html                   |   2 +-
+ cards/001869/card57567.html                   | 229 +++++++++++++
+ cards/001869/card57650.html                   | 229 +++++++++++++
+ cards/001869/files/57567_69557.html           | 385 ++++++++++++++++++++++
+ cards/001869/files/57567_ruby_69506.zip       | Bin 0 -> 24020 bytes
+ cards/001869/files/57650_69558.html           | 450 ++++++++++++++++++++++++++
+ cards/001869/files/57650_ruby_69507.zip       | Bin 0 -> 25962 bytes
+ 56 files changed, 2916 insertions(+), 1628 deletions(-)
+Date: Fri Nov  8 21:07:39 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  7 20:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 24020 Nov  8 21:07 ./aozorabunko/cards/001869/files/57567_ruby_69506.zip
+1/2: ./aozorabunko/cards/001869/files/57567_ruby_69506.zip
+>> add 57567_ruby_oreno_nyobo.txt
+>> add 57567_ruby_utf8_oreno_nyobo.txt
+>> https://www.aozora.gr.jp/cards/001869/card57567.html
+>> おれの女房、山本周五郎、
+-rwxrwxrwx 1 level level 25962 Nov  8 21:07 ./aozorabunko/cards/001869/files/57650_ruby_69507.zip
+2/2: ./aozorabunko/cards/001869/files/57650_ruby_69507.zip
+>> add 57650_ruby_suekko.txt
+>> add 57650_ruby_utf8_suekko.txt
+>> https://www.aozora.gr.jp/cards/001869/card57650.html
+>> 末っ子、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30636/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Nov  8 21:07:01 JST 2019
+End  : Fri Nov  8 21:08:35 JST 2019
