@@ -624,3 +624,44 @@ Title Total : 30640/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Nov  9 10:12:55 JST 2019
 End  : Sat Nov  9 10:15:35 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov 10 08:21:19 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9841fd9193..36d4250c10  master     -> origin/master
+Updating 9841fd9193..36d4250c10
+Fast-forward
+ cards/000237/card50027.html                   |   2 +-
+ cards/000237/card50029.html                   |   2 +-
+ cards/001475/card52648.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/card53465.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/files/52648_69562.html           | 129 ++++++++++++++
+ cards/001475/files/52648_ruby_69511.zip       | Bin 0 -> 5509 bytes
+ cards/001475/files/53465_69561.html           | 107 ++++++++++++
+ cards/001475/files/53465_ruby_69510.zip       | Bin 0 -> 6117 bytes
+ 107 files changed, 2990 insertions(+), 2292 deletions(-)
+Date: Sun Nov 10 08:21:47 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  9 10:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5509 Nov 10 08:21 ./aozorabunko/cards/001475/files/52648_ruby_69511.zip
+1/2: ./aozorabunko/cards/001475/files/52648_ruby_69511.zip
+>> add 52648_ruby_tokaiwa_zeitakuda.txt
+>> add 52648_ruby_utf8_tokaiwa_zeitakuda.txt
+>> https://www.aozora.gr.jp/cards/001475/card52648.html
+>> 都会はぜいたくだ、小川未明、
+-rwxrwxrwx 1 level level 6117 Nov 10 08:21 ./aozorabunko/cards/001475/files/53465_ruby_69510.zip
+2/2: ./aozorabunko/cards/001475/files/53465_ruby_69510.zip
+>> add 53465_ruby_shiroi_kuma.txt
+>> add 53465_ruby_utf8_shiroi_kuma.txt
+>> https://www.aozora.gr.jp/cards/001475/card53465.html
+>> 白いくま、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30644/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov 10 08:21:19 JST 2019
+End  : Sun Nov 10 08:22:41 JST 2019
