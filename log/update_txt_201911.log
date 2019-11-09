@@ -449,3 +449,178 @@ Title Total : 30636/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov  8 21:07:01 JST 2019
 End  : Fri Nov  8 21:08:35 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov  9 10:12:55 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6b63e9fada..9841fd9193  master     -> origin/master
+Updating 6b63e9fada..9841fd9193
+Fast-forward
+ cards/000237/card50027.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/card50029.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/files/50027_69559.html           |  72 ++++++++
+ cards/000237/files/50027_txt_69508.zip        | Bin 0 -> 5747 bytes
+ cards/000237/files/50029_69560.html           |  66 ++++++++
+ cards/000237/files/50029_txt_69509.zip        | Bin 0 -> 3866 bytes
+ cards/001670/card56200.html                   |   2 +-
+ cards/001670/card56201.html                   |   2 +-
+ cards/001670/card56202.html                   |   2 +-
+ cards/001670/card56203.html                   |   2 +-
+ cards/001670/card56204.html                   |   2 +-
+ cards/001670/card56205.html                   |   2 +-
+ cards/001670/card56206.html                   |   2 +-
+ cards/001670/card56207.html                   |   2 +-
+ cards/001670/card56208.html                   |   2 +-
+ cards/001670/card56209.html                   |   2 +-
+ cards/001670/card56210.html                   |   2 +-
+ cards/001670/card56211.html                   |   2 +-
+ cards/001670/card56212.html                   |   2 +-
+ cards/001670/card56213.html                   |   2 +-
+ cards/001670/card56214.html                   |   2 +-
+ cards/001670/card56215.html                   |   2 +-
+ cards/001670/card56216.html                   |   2 +-
+ cards/001670/card56217.html                   |   2 +-
+ cards/001670/card56218.html                   |   2 +-
+ cards/001670/card56219.html                   |   2 +-
+ cards/001670/card56220.html                   |   2 +-
+ cards/001670/card56221.html                   |   2 +-
+ cards/001670/card56222.html                   |   2 +-
+ cards/001670/card56223.html                   |   2 +-
+ cards/001670/card56229.html                   |   2 +-
+ cards/001670/card56230.html                   |   2 +-
+ cards/001670/card56231.html                   |   2 +-
+ cards/001670/card56240.html                   |   2 +-
+ cards/001670/card56271.html                   |   2 +-
+ cards/001670/card56272.html                   |   2 +-
+ cards/001670/card56273.html                   |   2 +-
+ cards/001670/card56274.html                   |   2 +-
+ cards/001670/card56275.html                   |   2 +-
+ cards/001670/card56276.html                   |   2 +-
+ cards/001670/card56277.html                   |   2 +-
+ cards/001670/card56278.html                   |   2 +-
+ cards/001670/card56279.html                   |   2 +-
+ cards/001670/card56280.html                   |   2 +-
+ cards/001670/card56281.html                   |   2 +-
+ cards/001670/card56282.html                   |   2 +-
+ cards/001670/card56283.html                   |   2 +-
+ cards/001670/card56284.html                   |   2 +-
+ cards/001670/card56285.html                   |   2 +-
+ cards/001670/card56286.html                   |   2 +-
+ cards/001670/card56287.html                   |   2 +-
+ cards/001670/card56288.html                   |   2 +-
+ cards/001670/card56289.html                   |   2 +-
+ cards/001670/card56290.html                   |   2 +-
+ cards/001670/card56291.html                   |   2 +-
+ cards/001670/card56295.html                   |   2 +-
+ cards/001670/card56296.html                   |   2 +-
+ cards/001670/card56297.html                   |   2 +-
+ cards/001670/card56298.html                   |   2 +-
+ cards/001670/card56300.html                   |   2 +-
+ cards/001670/card56301.html                   |   2 +-
+ cards/001670/card56302.html                   |   2 +-
+ cards/001670/card56303.html                   |   2 +-
+ cards/001670/card56304.html                   |   2 +-
+ cards/001670/card56306.html                   |   2 +-
+ cards/001670/card56307.html                   |   2 +-
+ cards/001670/card56308.html                   |   2 +-
+ cards/001670/card56309.html                   |   2 +-
+ cards/001670/card56310.html                   |   2 +-
+ cards/001670/card56311.html                   |   2 +-
+ cards/001670/card56312.html                   |   2 +-
+ cards/001670/card56313.html                   |   2 +-
+ cards/001670/card56314.html                   |   2 +-
+ cards/001670/card56315.html                   |   2 +-
+ cards/001670/card56316.html                   |   2 +-
+ cards/001670/card56317.html                   |   2 +-
+ cards/001670/card56318.html                   |   2 +-
+ cards/001670/card56319.html                   |   2 +-
+ cards/001670/card56320.html                   |   2 +-
+ cards/001670/card56321.html                   |   2 +-
+ cards/001670/card56322.html                   |   2 +-
+ cards/001670/card56323.html                   |   2 +-
+ cards/001670/card56324.html                   |   2 +-
+ cards/001670/card56338.html                   |   2 +-
+ cards/001670/card56343.html                   |   2 +-
+ cards/001670/card56344.html                   |   2 +-
+ cards/001670/card56345.html                   |   2 +-
+ cards/001670/card56346.html                   |   2 +-
+ cards/001670/card56347.html                   |   2 +-
+ cards/001670/card56348.html                   |   2 +-
+ cards/001670/card56349.html                   |   2 +-
+ cards/001670/card56350.html                   |   2 +-
+ cards/001670/card56351.html                   |   2 +-
+ cards/001670/card56352.html                   |   2 +-
+ cards/001670/card56357.html                   |   2 +-
+ cards/001670/card56358.html                   |   2 +-
+ cards/001670/card56359.html                   |   2 +-
+ cards/001670/card56360.html                   |   2 +-
+ cards/001670/card56361.html                   |   2 +-
+ cards/001670/card56362.html                   |   2 +-
+ cards/001670/card56363.html                   |   2 +-
+ cards/001670/card56364.html                   |   2 +-
+ cards/001670/card56365.html                   |   2 +-
+ cards/001670/card56366.html                   |   2 +-
+ cards/001670/card56367.html                   |   2 +-
+ cards/001670/card56368.html                   |   2 +-
+ cards/001670/card56371.html                   |   2 +-
+ cards/001670/card56372.html                   |   2 +-
+ cards/001670/card56373.html                   |   2 +-
+ cards/001670/card56374.html                   |   2 +-
+ cards/001670/card56376.html                   |   2 +-
+ cards/001670/card56377.html                   |   2 +-
+ cards/001670/card56378.html                   |   2 +-
+ cards/001670/card56379.html                   |   2 +-
+ cards/001670/card56381.html                   |   2 +-
+ cards/001670/card56382.html                   |   2 +-
+ cards/001670/card56383.html                   |   2 +-
+ cards/001670/card56384.html                   |   2 +-
+ cards/001670/card56386.html                   |   2 +-
+ cards/001670/card56387.html                   |   2 +-
+ cards/001670/card56392.html                   |   2 +-
+ cards/001670/card56394.html                   |   2 +-
+ cards/001670/card56395.html                   |   2 +-
+ cards/001670/card56396.html                   |   2 +-
+ cards/001670/card56397.html                   |   2 +-
+ cards/001670/card56399.html                   |   2 +-
+ cards/001670/card56401.html                   |   2 +-
+ cards/001670/card56403.html                   |   2 +-
+ cards/001670/card56407.html                   |   2 +-
+ cards/001670/card56930.html                   |   2 +-
+ cards/001670/card57216.html                   |   2 +-
+ cards/001670/card57217.html                   |   2 +-
+ cards/001670/card57218.html                   |   2 +-
+ cards/001670/card57219.html                   |   2 +-
+ cards/001670/card57220.html                   |   2 +-
+ cards/001670/card57221.html                   |   2 +-
+ cards/001670/card57231.html                   |   2 +-
+ cards/001670/card57232.html                   |   2 +-
+ cards/001670/card57233.html                   |   2 +-
+ cards/001670/card58211.html                   |   2 +-
+ cards/001869/card57567.html                   |   2 +-
+ cards/001869/card57650.html                   |   2 +-
+ 260 files changed, 3708 insertions(+), 3056 deletions(-)
+Date: Sat Nov  9 10:14:06 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  8 21:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5747 Nov  9 10:13 ./aozorabunko/cards/000237/files/50027_txt_69508.zip
+1/2: ./aozorabunko/cards/000237/files/50027_txt_69508.zip
+>> add 50027_txt_ishidazutsumi.txt
+>> add 50027_txt_utf8_ishidazutsumi.txt
+>> https://www.aozora.gr.jp/cards/000237/card50027.html
+>> 石田堤、大町桂月、
+-rwxrwxrwx 1 level level 3866 Nov  9 10:13 ./aozorabunko/cards/000237/files/50029_txt_69509.zip
+2/2: ./aozorabunko/cards/000237/files/50029_txt_69509.zip
+>> add 50029_txt_okino_kojima.txt
+>> add 50029_txt_utf8_okino_kojima.txt
+>> https://www.aozora.gr.jp/cards/000237/card50029.html
+>> 沖の小島、大町桂月、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30640/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Nov  9 10:12:55 JST 2019
+End  : Sat Nov  9 10:15:35 JST 2019
