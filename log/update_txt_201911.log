@@ -706,3 +706,44 @@ Title Total : 30648/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov 11 20:26:55 JST 2019
 End  : Mon Nov 11 20:29:25 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov 12 21:17:59 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2acfb2f1c6..d7478d1ef0  master     -> origin/master
+Updating 2acfb2f1c6..d7478d1ef0
+Fast-forward
+ cards/000296/card50436.html                   |   2 +-
+ cards/001429/card58550.html                   |   2 +-
+ cards/001779/card57521.html                   | 234 +++++++++++
+ cards/001779/card58463.html                   | 234 +++++++++++
+ cards/001779/files/57521_69565.html           | 250 ++++++++++++
+ cards/001779/files/57521_ruby_69514.zip       | Bin 0 -> 16755 bytes
+ cards/001779/files/58463_69566.html           | 549 ++++++++++++++++++++++++++
+ cards/001779/files/58463_ruby_69515.zip       | Bin 0 -> 38040 bytes
+ 46 files changed, 2404 insertions(+), 1145 deletions(-)
+Date: Tue Nov 12 21:18:34 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 11 20:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16755 Nov 12 21:18 ./aozorabunko/cards/001779/files/57521_ruby_69514.zip
+1/2: ./aozorabunko/cards/001779/files/57521_ruby_69514.zip
+>> add 57521_ruby_mera_hakaseno_fushigina_hanzai.txt
+>> add 57521_ruby_utf8_mera_hakaseno_fushigina_hanzai.txt
+>> https://www.aozora.gr.jp/cards/001779/card57521.html
+>> 目羅博士の不思議な犯罪、江戸川乱歩、
+-rwxrwxrwx 1 level level 38040 Nov 12 21:18 ./aozorabunko/cards/001779/files/58463_ruby_69515.zip
+2/2: ./aozorabunko/cards/001779/files/58463_ruby_69515.zip
+>> add 58463_ruby_tsukito_tebukuro.txt
+>> add 58463_ruby_utf8_tsukito_tebukuro.txt
+>> https://www.aozora.gr.jp/cards/001779/card58463.html
+>> 月と手袋、江戸川乱歩、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30652/358 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov 12 21:17:59 JST 2019
+End  : Tue Nov 12 21:19:00 JST 2019
