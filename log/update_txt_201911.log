@@ -958,3 +958,44 @@ Title Total : 30666/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov 18 22:06:45 JST 2019
 End  : Mon Nov 18 22:08:18 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov 19 22:31:09 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   21231f813e..41c2659d4d  master     -> origin/master
+Updating 21231f813e..41c2659d4d
+Fast-forward
+ cards/000023/card55376.html                   |   2 +-
+ cards/001474/card56953.html                   |   2 +-
+ cards/001652/card54255.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/card54375.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/files/54255_69575.html           |  62 +++++++
+ cards/001652/files/54255_txt_69524.zip        | Bin 0 -> 674 bytes
+ cards/001652/files/54375_69574.html           |  72 ++++++++
+ cards/001652/files/54375_ruby_69523.zip       | Bin 0 -> 929 bytes
+ 57 files changed, 2097 insertions(+), 1492 deletions(-)
+Date: Tue Nov 19 22:32:29 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 18 22:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 674 Nov 19 22:32 ./aozorabunko/cards/001652/files/54255_txt_69524.zip
+1/2: ./aozorabunko/cards/001652/files/54255_txt_69524.zip
+>> add 54255_txt_aru_hitoni.txt
+>> add 54255_txt_utf8_aru_hitoni.txt
+>> https://www.aozora.gr.jp/cards/001652/card54255.html
+>> あるひとに、森川義信、
+-rwxrwxrwx 1 level level 929 Nov 19 22:32 ./aozorabunko/cards/001652/files/54375_ruby_69523.zip
+2/2: ./aozorabunko/cards/001652/files/54375_ruby_69523.zip
+>> add 54375_ruby_ano_hito.txt
+>> add 54375_ruby_utf8_ano_hito.txt
+>> https://www.aozora.gr.jp/cards/001652/card54375.html
+>> あの人、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30670/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov 19 22:31:09 JST 2019
+End  : Tue Nov 19 22:33:33 JST 2019
