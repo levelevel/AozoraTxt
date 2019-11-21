@@ -1049,3 +1049,70 @@ Title Total : 30676/360 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Nov 20 12:36:46 JST 2019
 End  : Wed Nov 20 12:39:39 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Nov 21 20:36:06 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bb0a51b808..8c2fec681d  master     -> origin/master
+Updating bb0a51b808..8c2fec681d
+Fast-forward
+ cards/001245/card58665.html                   | 229 ++++++++++++++++++++++++++
+ cards/001245/card58666.html                   | 229 ++++++++++++++++++++++++++
+ cards/001245/files/58665_69580.html           |  63 +++++++
+ cards/001245/files/58665_txt_69529.zip        | Bin 0 -> 2338 bytes
+ cards/001245/files/58666_69579.html           |  65 ++++++++
+ cards/001245/files/58666_txt_69528.zip        | Bin 0 -> 2595 bytes
+ cards/001474/card50902.html                   |   2 +-
+ cards/001474/card53867.html                   |   2 +-
+ cards/001474/card53868.html                   |   2 +-
+ cards/001474/card53869.html                   |   2 +-
+ cards/001474/card53870.html                   |   2 +-
+ cards/001474/card53871.html                   |   2 +-
+ cards/001474/card56953.html                   |   2 +-
+ cards/001474/card56954.html                   |   2 +-
+ cards/001474/card57163.html                   |   2 +-
+ cards/001474/card57403.html                   |   2 +-
+ cards/001474/card57418.html                   |   2 +-
+ cards/001474/card57419.html                   |   2 +-
+ cards/001474/card57420.html                   |   2 +-
+ cards/001474/card57421.html                   |   2 +-
+ cards/001474/card57422.html                   |   2 +-
+ cards/001474/card57423.html                   |   2 +-
+ cards/001474/card57424.html                   |   2 +-
+ cards/001474/card57425.html                   |   2 +-
+ cards/001474/card57426.html                   |   2 +-
+ cards/001474/card57427.html                   |   2 +-
+ cards/001474/card57880.html                   |   2 +-
+ cards/001474/card57881.html                   |   2 +-
+ cards/001474/card57883.html                   |   2 +-
+ cards/001474/card57884.html                   |   2 +-
+ cards/001474/card57885.html                   |   2 +-
+ cards/001891/card58050.html                   |   2 +-
+ cards/001891/card58051.html                   |   2 +-
+ cards/001892/card58052.html                   |   4 +-
+ 126 files changed, 2933 insertions(+), 2356 deletions(-)
+Date: Thu Nov 21 20:37:12 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 20 12:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2338 Nov 21 20:37 ./aozorabunko/cards/001245/files/58665_txt_69529.zip
+1/2: ./aozorabunko/cards/001245/files/58665_txt_69529.zip
+>> add 58665_txt_sogodaigakuo_mukaete.txt
+>> add 58665_txt_utf8_sogodaigakuo_mukaete.txt
+>> https://www.aozora.gr.jp/cards/001245/card58665.html
+>> 綜合大學を迎へて、會津八一、
+-rwxrwxrwx 1 level level 2595 Nov 21 20:37 ./aozorabunko/cards/001245/files/58666_txt_69528.zip
+2/2: ./aozorabunko/cards/001245/files/58666_txt_69528.zip
+>> add 58666_txt_daigakuto_sono_socho.txt
+>> add 58666_txt_utf8_daigakuto_sono_socho.txt
+>> https://www.aozora.gr.jp/cards/001245/card58666.html
+>> 大學とその總長、會津八一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30680/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Nov 21 20:36:06 JST 2019
+End  : Thu Nov 21 20:38:11 JST 2019
