@@ -1148,3 +1148,81 @@ Title Total : 30682/360 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov 22 21:41:44 JST 2019
 End  : Fri Nov 22 21:43:54 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov 23 13:15:51 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   26889218b3..2636f62d9d  master     -> origin/master
+Updating 26889218b3..2636f62d9d
+Fast-forward
+ cards/000064/card55675.html                   | 229 +++++++++++++++++++++++++
+ cards/000064/files/55675_69583.html           | 212 +++++++++++++++++++++++
+ cards/000064/files/55675_ruby_69532.zip       | Bin 0 -> 38780 bytes
+ cards/001066/card57340.html                   |   2 +-
+ cards/001066/card57401.html                   |   2 +-
+ cards/001245/card46513.html                   |   2 +-
+ cards/001245/card58665.html                   |   2 +-
+ cards/001245/card58666.html                   |   2 +-
+ cards/001277/card58703.html                   |   2 +-
+ cards/001654/card54262.html                   | 234 ++++++++++++++++++++++++++
+ cards/001654/files/54262_69582.html           |  81 +++++++++
+ cards/001654/files/54262_ruby_69531.zip       | Bin 0 -> 1425 bytes
+ cards/001699/card57254.html                   |   2 +-
+ cards/001699/card57255.html                   |   2 +-
+ cards/001699/card57341.html                   |   2 +-
+ cards/001699/card57342.html                   |   2 +-
+ cards/001699/card57474.html                   |   2 +-
+ cards/001699/card57858.html                   |   2 +-
+ cards/001699/card57859.html                   |   2 +-
+ cards/001859/card57396.html                   |   2 +-
+ cards/001869/card57807.html                   |   2 +-
+ cards/001882/card57998.html                   |   2 +-
+ cards/001882/card58029.html                   |   2 +-
+ cards/001882/card58064.html                   |   2 +-
+ cards/001882/card58275.html                   |   2 +-
+ cards/001951/card58701.html                   |   2 +-
+ cards/001952/card58702.html                   |   2 +-
+ cards/002009/card59176.html                   |   2 +-
+ cards/002010/card59177.html                   |   2 +-
+ cards/002010/card59178.html                   |   2 +-
+ cards/002035/card59406.html                   |   2 +-
+ cards/002035/card59407.html                   |   2 +-
+ cards/002035/card59408.html                   |   2 +-
+ cards/002035/card59517.html                   |   2 +-
+ cards/002036/card59409.html                   |   2 +-
+ cards/002043/card59482.html                   |   2 +-
+ cards/002043/card59483.html                   |   2 +-
+ cards/002043/card59605.html                   |   2 +-
+ cards/002043/card59758.html                   |   2 +-
+ cards/002043/card59759.html                   |   2 +-
+ cards/002043/card59880.html                   |   2 +-
+ cards/002043/card59883.html                   |   2 +-
+ cards/002043/card59965.html                   |   2 +-
+ cards/002043/card60066.html                   |   2 +-
+ cards/002043/card60167.html                   |   2 +-
+ 246 files changed, 4321 insertions(+), 3252 deletions(-)
+Date: Sat Nov 23 13:18:16 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 22 21:43 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 38780 Nov 23 13:17 ./aozorabunko/cards/000064/files/55675_ruby_69532.zip
+1/2: ./aozorabunko/cards/000064/files/55675_ruby_69532.zip
+>> add 55675_ruby_warekara.txt
+>> add 55675_ruby_utf8_warekara.txt
+>> https://www.aozora.gr.jp/cards/000064/card55675.html
+>> われから、樋口一葉、
+-rwxrwxrwx 1 level level 1425 Nov 23 13:17 ./aozorabunko/cards/001654/files/54262_ruby_69531.zip
+2/2: ./aozorabunko/cards/001654/files/54262_ruby_69531.zip
+>> add 54262_ruby_ushi.txt
+>> add 54262_ruby_utf8_ushi.txt
+>> https://www.aozora.gr.jp/cards/001654/card54262.html
+>> うし、濤音、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30686/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Nov 23 13:15:51 JST 2019
+End  : Sat Nov 23 13:21:47 JST 2019
