@@ -1226,3 +1226,1195 @@ Title Total : 30686/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Nov 23 13:15:51 JST 2019
 End  : Sat Nov 23 13:21:47 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov 24 09:00:10 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2636f62d9d..2d6901ec4b  master     -> origin/master
+Updating 2636f62d9d..2d6901ec4b
+Fast-forward
+ cards/000064/card55675.html                   |    2 +-
+ cards/000214/card1668.html                    |   12 +-
+ cards/000214/files/1668_26031.html            | 4110 +++++++++++++------------
+ cards/000214/files/1668_ruby_24546.zip        |  Bin 162693 -> 161371 bytes
+ cards/000933/card47694.html                   |  234 ++
+ cards/000933/card47721.html                   |  234 ++
+ cards/000933/files/47694_69584.html           |   85 +
+ cards/000933/files/47694_ruby_69533.zip       |  Bin 0 -> 6904 bytes
+ cards/000933/files/47721_69585.html           |   65 +
+ cards/000933/files/47721_ruby_69534.zip       |  Bin 0 -> 2960 bytes
+ cards/001341/card49640.html                   |   12 +-
+ cards/001341/files/49640_38957.html           |   18 +-
+ cards/001341/files/49640_ruby_37909.zip       |  Bin 9821 -> 9877 bytes
+ cards/001579/card53499.html                   |    4 +-
+ cards/001579/card53503.html                   |    4 +-
+ cards/001579/files/53499_ruby_64048.zip       |  Bin 12573 -> 12522 bytes
+ cards/001579/files/53503_ruby_62101.zip       |  Bin 66027 -> 66069 bytes
+ cards/001654/card54262.html                   |    2 +-
+ cards/001670/card55505.html                   |    2 +-
+ cards/001670/card56200.html                   |    8 +-
+ cards/001670/card56201.html                   |    8 +-
+ cards/001670/card56202.html                   |    8 +-
+ cards/001670/card56203.html                   |    8 +-
+ cards/001670/card56204.html                   |    8 +-
+ cards/001670/card56205.html                   |    8 +-
+ cards/001670/card56206.html                   |    8 +-
+ cards/001670/card56207.html                   |    8 +-
+ cards/001670/card56208.html                   |    8 +-
+ cards/001670/card56209.html                   |    8 +-
+ cards/001670/card56210.html                   |    8 +-
+ cards/001670/card56211.html                   |    8 +-
+ cards/001670/card56212.html                   |    8 +-
+ cards/001670/card56213.html                   |    8 +-
+ cards/001670/card56214.html                   |   10 +-
+ cards/001670/card56215.html                   |    8 +-
+ cards/001670/card56216.html                   |    8 +-
+ cards/001670/card56217.html                   |    8 +-
+ cards/001670/card56218.html                   |    8 +-
+ cards/001670/card56219.html                   |    8 +-
+ cards/001670/card56220.html                   |    8 +-
+ cards/001670/card56221.html                   |    8 +-
+ cards/001670/card56222.html                   |    8 +-
+ cards/001670/card56223.html                   |    8 +-
+ cards/001670/card56229.html                   |    8 +-
+ cards/001670/card56230.html                   |    8 +-
+ cards/001670/card56231.html                   |    8 +-
+ cards/001670/card56240.html                   |    8 +-
+ cards/001670/card56271.html                   |    8 +-
+ cards/001670/card56272.html                   |    8 +-
+ cards/001670/card56274.html                   |    8 +-
+ cards/001670/card56275.html                   |   12 +-
+ cards/001670/card56276.html                   |    8 +-
+ cards/001670/card56277.html                   |    8 +-
+ cards/001670/card56278.html                   |    8 +-
+ cards/001670/card56279.html                   |    8 +-
+ cards/001670/card56280.html                   |    8 +-
+ cards/001670/card56281.html                   |    8 +-
+ cards/001670/card56283.html                   |    8 +-
+ cards/001670/card56284.html                   |    8 +-
+ cards/001670/card56285.html                   |    8 +-
+ cards/001670/card56286.html                   |    8 +-
+ cards/001670/card56287.html                   |    8 +-
+ cards/001670/card56288.html                   |    8 +-
+ cards/001670/card56289.html                   |    8 +-
+ cards/001670/card56290.html                   |    8 +-
+ cards/001670/card56291.html                   |    8 +-
+ cards/001670/card56295.html                   |    8 +-
+ cards/001670/card56296.html                   |    8 +-
+ cards/001670/card56297.html                   |    8 +-
+ cards/001670/card56298.html                   |    8 +-
+ cards/001670/card56300.html                   |    8 +-
+ cards/001670/card56301.html                   |    8 +-
+ cards/001670/card56302.html                   |    8 +-
+ cards/001670/card56303.html                   |    8 +-
+ cards/001670/card56304.html                   |    8 +-
+ cards/001670/card56306.html                   |    8 +-
+ cards/001670/card56307.html                   |    8 +-
+ cards/001670/card56309.html                   |    8 +-
+ cards/001670/card56310.html                   |    8 +-
+ cards/001670/card56311.html                   |    8 +-
+ cards/001670/card56312.html                   |    8 +-
+ cards/001670/card56314.html                   |    8 +-
+ cards/001670/card56315.html                   |    8 +-
+ cards/001670/card56316.html                   |    8 +-
+ cards/001670/card56317.html                   |    8 +-
+ cards/001670/card56318.html                   |    8 +-
+ cards/001670/card56320.html                   |    8 +-
+ cards/001670/card56321.html                   |    8 +-
+ cards/001670/card56322.html                   |    8 +-
+ cards/001670/card56323.html                   |    8 +-
+ cards/001670/card56324.html                   |    8 +-
+ cards/001670/card56343.html                   |   10 +-
+ cards/001670/card56344.html                   |    8 +-
+ cards/001670/card56345.html                   |    8 +-
+ cards/001670/card56346.html                   |    8 +-
+ cards/001670/card56347.html                   |    8 +-
+ cards/001670/card56348.html                   |    8 +-
+ cards/001670/card56349.html                   |   10 +-
+ cards/001670/card56350.html                   |    8 +-
+ cards/001670/card56351.html                   |    8 +-
+ cards/001670/card56352.html                   |    8 +-
+ cards/001670/card56357.html                   |    8 +-
+ cards/001670/card56358.html                   |    8 +-
+ cards/001670/card56359.html                   |    8 +-
+ cards/001670/card56360.html                   |    8 +-
+ cards/001670/card56361.html                   |    8 +-
+ cards/001670/card56363.html                   |    8 +-
+ cards/001670/card56364.html                   |    8 +-
+ cards/001670/card56365.html                   |    8 +-
+ cards/001670/card56366.html                   |    8 +-
+ cards/001670/card56367.html                   |    8 +-
+ cards/001670/card56371.html                   |    8 +-
+ cards/001670/card56372.html                   |    8 +-
+ cards/001670/card56373.html                   |    8 +-
+ cards/001670/card56374.html                   |   10 +-
+ cards/001670/card56376.html                   |    8 +-
+ cards/001670/card56377.html                   |    8 +-
+ cards/001670/card56379.html                   |    8 +-
+ cards/001670/card56381.html                   |    8 +-
+ cards/001670/card56382.html                   |   10 +-
+ cards/001670/card56383.html                   |    8 +-
+ cards/001670/card56384.html                   |    8 +-
+ cards/001670/card56387.html                   |    8 +-
+ cards/001670/card56392.html                   |    8 +-
+ cards/001670/card56394.html                   |    8 +-
+ cards/001670/card56395.html                   |    8 +-
+ cards/001670/card56396.html                   |    8 +-
+ cards/001670/card56397.html                   |    8 +-
+ cards/001670/card56399.html                   |    8 +-
+ cards/001670/card56401.html                   |    8 +-
+ cards/001670/card56403.html                   |    8 +-
+ cards/001670/card56405.html                   |    8 +-
+ cards/001670/card56407.html                   |    8 +-
+ cards/001670/card56930.html                   |    8 +-
+ cards/001670/card57216.html                   |   10 +-
+ cards/001670/card57217.html                   |    8 +-
+ cards/001670/card57218.html                   |    8 +-
+ cards/001670/card57219.html                   |    8 +-
+ cards/001670/card57220.html                   |    8 +-
+ cards/001670/card57221.html                   |    8 +-
+ cards/001670/card57231.html                   |    8 +-
+ cards/001670/card57232.html                   |    8 +-
+ cards/001670/card57233.html                   |    8 +-
+ cards/001670/files/56200_62584.html           |   19 +-
+ cards/001670/files/56200_ruby_62542.zip       |  Bin 16423 -> 16581 bytes
+ cards/001670/files/56201_60134.html           |   23 +-
+ cards/001670/files/56201_ruby_60088.zip       |  Bin 14019 -> 14176 bytes
+ cards/001670/files/56202_62847.html           |   35 +-
+ cards/001670/files/56202_ruby_62760.zip       |  Bin 15770 -> 15896 bytes
+ cards/001670/files/56203_62842.html           |   19 +-
+ cards/001670/files/56203_ruby_62755.zip       |  Bin 17326 -> 17479 bytes
+ cards/001670/files/56204_62082.html           |   23 +-
+ cards/001670/files/56204_ruby_62081.zip       |  Bin 16299 -> 16508 bytes
+ cards/001670/files/56205_60112.html           |   23 +-
+ cards/001670/files/56205_ruby_60066.zip       |  Bin 14080 -> 14252 bytes
+ cards/001670/files/56206_62088.html           |   33 +-
+ cards/001670/files/56206_ruby_62087.zip       |  Bin 16282 -> 16479 bytes
+ cards/001670/files/56207_62094.html           |   17 +-
+ cards/001670/files/56207_ruby_62093.zip       |  Bin 14960 -> 15158 bytes
+ cards/001670/files/56208_60123.html           |   35 +-
+ cards/001670/files/56208_ruby_60077.zip       |  Bin 14811 -> 14920 bytes
+ cards/001670/files/56209_62554.html           |   38 +-
+ cards/001670/files/56209_ruby_62512.zip       |  Bin 16235 -> 16373 bytes
+ cards/001670/files/56210_60143.html           |   22 +-
+ cards/001670/files/56210_ruby_60097.zip       |  Bin 15665 -> 15811 bytes
+ cards/001670/files/56211_58751.html           |   47 +-
+ cards/001670/files/56211_ruby_58713.zip       |  Bin 13388 -> 13501 bytes
+ cards/001670/files/56212_62098.html           |   28 +-
+ cards/001670/files/56212_ruby_62097.zip       |  Bin 15977 -> 16123 bytes
+ cards/001670/files/56213_62096.html           |   14 +-
+ cards/001670/files/56213_ruby_62095.zip       |  Bin 15981 -> 16123 bytes
+ cards/001670/files/56214_62563.html           |   37 +-
+ cards/001670/files/56214_ruby_62521.zip       |  Bin 15202 -> 15365 bytes
+ cards/001670/files/56215_62549.html           |   10 +-
+ cards/001670/files/56215_ruby_62507.zip       |  Bin 15454 -> 15600 bytes
+ cards/001670/files/56216_58736.html           |   19 +-
+ cards/001670/files/56216_ruby_58698.zip       |  Bin 13559 -> 13639 bytes
+ cards/001670/files/56217_63076.html           |   19 +-
+ cards/001670/files/56217_ruby_63028.zip       |  Bin 17127 -> 17267 bytes
+ cards/001670/files/56218_60139.html           |   32 +-
+ cards/001670/files/56218_ruby_60093.zip       |  Bin 14467 -> 14611 bytes
+ cards/001670/files/56219_62561.html           |   33 +-
+ cards/001670/files/56219_ruby_62519.zip       |  Bin 15228 -> 15386 bytes
+ cards/001670/files/56220_60101.html           |   21 +-
+ cards/001670/files/56220_ruby_60055.zip       |  Bin 14716 -> 14817 bytes
+ cards/001670/files/56221_58082.html           |    3 +-
+ cards/001670/files/56221_ruby_58051.zip       |  Bin 5333 -> 5357 bytes
+ cards/001670/files/56222_60129.html           |   27 +-
+ cards/001670/files/56222_ruby_60083.zip       |  Bin 14501 -> 14651 bytes
+ cards/001670/files/56223_62857.html           |   43 +-
+ cards/001670/files/56223_ruby_62770.zip       |  Bin 15042 -> 15187 bytes
+ cards/001670/files/56229_65484.html           |   15 +-
+ cards/001670/files/56229_ruby_65440.zip       |  Bin 16868 -> 17002 bytes
+ cards/001670/files/56230_65495.html           |   23 +-
+ cards/001670/files/56230_ruby_65451.zip       |  Bin 15373 -> 15487 bytes
+ cards/001670/files/56231_65467.html           |   25 +-
+ cards/001670/files/56231_ruby_65423.zip       |  Bin 16224 -> 16366 bytes
+ cards/001670/files/56240_51977.html           |    3 +-
+ cards/001670/files/56240_ruby_51976.zip       |  Bin 6134 -> 6369 bytes
+ cards/001670/files/56271_66109.html           |    3 +-
+ cards/001670/files/56271_ruby_65957.zip       |  Bin 14271 -> 14353 bytes
+ cards/001670/files/56272_66535.html           |    5 +-
+ cards/001670/files/56272_ruby_66490.zip       |  Bin 15754 -> 15873 bytes
+ cards/001670/files/56274_66517.html           |    3 +-
+ cards/001670/files/56274_ruby_66472.zip       |  Bin 16679 -> 16818 bytes
+ cards/001670/files/56275_62574.html           |   25 +-
+ cards/001670/files/56275_ruby_62532.zip       |  Bin 16704 -> 16860 bytes
+ cards/001670/files/56276_64369.html           |    7 +-
+ cards/001670/files/56276_ruby_64320.zip       |  Bin 17040 -> 17189 bytes
+ cards/001670/files/56277_67326.html           |   15 +-
+ cards/001670/files/56277_ruby_67377.zip       |  Bin 17914 -> 17939 bytes
+ cards/001670/files/56278_63539.html           |    5 +-
+ cards/001670/files/56278_ruby_63495.zip       |  Bin 15272 -> 15385 bytes
+ cards/001670/files/56279_66329.html           |    5 +-
+ cards/001670/files/56279_ruby_66282.zip       |  Bin 16389 -> 16506 bytes
+ cards/001670/files/56280_66121.html           |    5 +-
+ cards/001670/files/56280_ruby_65969.zip       |  Bin 16669 -> 16807 bytes
+ cards/001670/files/56281_66099.html           |    5 +-
+ cards/001670/files/56281_ruby_65947.zip       |  Bin 15288 -> 15436 bytes
+ cards/001670/files/56283_66350.html           |   21 +-
+ cards/001670/files/56283_ruby_66303.zip       |  Bin 17084 -> 17269 bytes
+ cards/001670/files/56284_64335.html           |    5 +-
+ cards/001670/files/56284_ruby_64286.zip       |  Bin 15866 -> 15976 bytes
+ cards/001670/files/56285_66723.html           |    7 +-
+ cards/001670/files/56285_ruby_66672.zip       |  Bin 15414 -> 15439 bytes
+ cards/001670/files/56286_67342.html           |    7 +-
+ cards/001670/files/56286_ruby_67393.zip       |  Bin 15236 -> 15258 bytes
+ cards/001670/files/56287_62558.html           |   12 +-
+ cards/001670/files/56287_ruby_62516.zip       |  Bin 16307 -> 16456 bytes
+ cards/001670/files/56288_58742.html           |   21 +-
+ cards/001670/files/56288_ruby_58704.zip       |  Bin 13939 -> 14045 bytes
+ cards/001670/files/56289_65214.html           |    3 +-
+ cards/001670/files/56289_ruby_65171.zip       |  Bin 18160 -> 18275 bytes
+ cards/001670/files/56290_66524.html           |    9 +-
+ cards/001670/files/56290_ruby_66479.zip       |  Bin 16247 -> 16363 bytes
+ cards/001670/files/56291_65230.html           |    7 +-
+ cards/001670/files/56291_ruby_65187.zip       |  Bin 14932 -> 15044 bytes
+ cards/001670/files/56295_66321.html           |    3 +-
+ cards/001670/files/56295_ruby_66274.zip       |  Bin 15530 -> 15663 bytes
+ cards/001670/files/56296_66543.html           |    7 +-
+ cards/001670/files/56296_ruby_66498.zip       |  Bin 15891 -> 16014 bytes
+ cards/001670/files/56297_66340.html           |    3 +-
+ cards/001670/files/56297_ruby_66293.zip       |  Bin 15731 -> 15878 bytes
+ cards/001670/files/56298_66760.html           |    5 +-
+ cards/001670/files/56298_ruby_66709.zip       |  Bin 15571 -> 15599 bytes
+ cards/001670/files/56300_60118.html           |   13 +-
+ cards/001670/files/56300_ruby_60072.zip       |  Bin 15104 -> 15250 bytes
+ cards/001670/files/56301_64106.html           |    5 +-
+ cards/001670/files/56301_ruby_64014.zip       |  Bin 17016 -> 17182 bytes
+ cards/001670/files/56302_64116.html           |    3 +-
+ cards/001670/files/56302_ruby_64024.zip       |  Bin 13256 -> 13365 bytes
+ cards/001670/files/56303_65729.html           |    7 +-
+ cards/001670/files/56303_ruby_65634.zip       |  Bin 15778 -> 15916 bytes
+ cards/001670/files/56304_66070.html           |    3 +-
+ cards/001670/files/56304_ruby_65918.zip       |  Bin 15168 -> 15284 bytes
+ cards/001670/files/56306_64643.html           |    3 +-
+ cards/001670/files/56306_ruby_64591.zip       |  Bin 15684 -> 15821 bytes
+ cards/001670/files/56307_66992.html           |   11 +-
+ cards/001670/files/56307_ruby_66946.zip       |  Bin 18114 -> 18141 bytes
+ cards/001670/files/56309_64605.html           |    3 +-
+ cards/001670/files/56309_ruby_64553.zip       |  Bin 16893 -> 17050 bytes
+ cards/001670/files/56310_64926.html           |    9 +-
+ cards/001670/files/56310_ruby_64880.zip       |  Bin 15534 -> 15673 bytes
+ cards/001670/files/56311_66979.html           |    3 +-
+ cards/001670/files/56311_ruby_66933.zip       |  Bin 15932 -> 15957 bytes
+ cards/001670/files/56312_64616.html           |    3 +-
+ cards/001670/files/56312_ruby_64564.zip       |  Bin 19254 -> 19447 bytes
+ cards/001670/files/56314_63547.html           |    3 +-
+ cards/001670/files/56314_ruby_63503.zip       |  Bin 14851 -> 14958 bytes
+ cards/001670/files/56315_62545.html           |   16 +-
+ cards/001670/files/56315_ruby_62503.zip       |  Bin 15840 -> 15995 bytes
+ cards/001670/files/56316_66958.html           |    3 +-
+ cards/001670/files/56316_ruby_66912.zip       |  Bin 15338 -> 15360 bytes
+ cards/001670/files/56317_65757.html           |    3 +-
+ cards/001670/files/56317_ruby_65662.zip       |  Bin 17677 -> 17856 bytes
+ cards/001670/files/56318_63897.html           |    3 +-
+ cards/001670/files/56318_ruby_63817.zip       |  Bin 14546 -> 14646 bytes
+ cards/001670/files/56320_66081.html           |    3 +-
+ cards/001670/files/56320_ruby_65929.zip       |  Bin 15969 -> 16103 bytes
+ cards/001670/files/56321_60031.html           |    3 +-
+ cards/001670/files/56321_ruby_59986.zip       |  Bin 8397 -> 8497 bytes
+ cards/001670/files/56322_58746.html           |    3 +-
+ cards/001670/files/56322_ruby_58708.zip       |  Bin 8226 -> 8272 bytes
+ cards/001670/files/56323_60030.html           |    4 +-
+ cards/001670/files/56323_ruby_59985.zip       |  Bin 8844 -> 9000 bytes
+ cards/001670/files/56324_57566.html           |    3 +-
+ cards/001670/files/56324_ruby_57520.zip       |  Bin 7887 -> 7926 bytes
+ cards/001670/files/56343_68490.html           |   25 +-
+ cards/001670/files/56343_ruby_68441.zip       |  Bin 16193 -> 16221 bytes
+ cards/001670/files/56344_68505.html           |    7 +-
+ cards/001670/files/56344_ruby_68456.zip       |  Bin 13893 -> 13921 bytes
+ cards/001670/files/56345_68748.html           |   25 +-
+ cards/001670/files/56345_ruby_68699.zip       |  Bin 15040 -> 15069 bytes
+ cards/001670/files/56346_68778.html           |    9 +-
+ cards/001670/files/56346_ruby_68729.zip       |  Bin 15054 -> 15078 bytes
+ cards/001670/files/56347_63881.html           |    5 +-
+ cards/001670/files/56347_ruby_63801.zip       |  Bin 15474 -> 15617 bytes
+ cards/001670/files/56348_64954.html           |   33 +-
+ cards/001670/files/56348_ruby_64908.zip       |  Bin 14500 -> 14615 bytes
+ cards/001670/files/56349_62579.html           |   15 +-
+ cards/001670/files/56349_ruby_62537.zip       |  Bin 16582 -> 16737 bytes
+ cards/001670/files/56350_69128.html           |    7 +-
+ cards/001670/files/56350_ruby_69037.zip       |  Bin 13554 -> 13585 bytes
+ cards/001670/files/56351_67358.html           |   19 +-
+ cards/001670/files/56351_ruby_67409.zip       |  Bin 15627 -> 15656 bytes
+ cards/001670/files/56352_62084.html           |   19 +-
+ cards/001670/files/56352_ruby_62083.zip       |  Bin 16179 -> 16379 bytes
+ cards/001670/files/56357_68476.html           |    9 +-
+ cards/001670/files/56357_ruby_68427.zip       |  Bin 16128 -> 16152 bytes
+ cards/001670/files/56358_68766.html           |    3 +-
+ cards/001670/files/56358_ruby_68717.zip       |  Bin 11670 -> 11696 bytes
+ cards/001670/files/56359_69112.html           |    3 +-
+ cards/001670/files/56359_ruby_69021.zip       |  Bin 14650 -> 14676 bytes
+ cards/001670/files/56360_64941.html           |   27 +-
+ cards/001670/files/56360_ruby_64895.zip       |  Bin 19129 -> 19299 bytes
+ cards/001670/files/56361_68258.html           |   27 +-
+ cards/001670/files/56361_ruby_68213.zip       |  Bin 16439 -> 16468 bytes
+ cards/001670/files/56363_62570.html           |    8 +-
+ cards/001670/files/56363_ruby_62528.zip       |  Bin 16323 -> 16509 bytes
+ cards/001670/files/56364_62861.html           |   45 +-
+ cards/001670/files/56364_ruby_62774.zip       |  Bin 19216 -> 19418 bytes
+ cards/001670/files/56365_62867.html           |   33 +-
+ cards/001670/files/56365_ruby_62780.zip       |  Bin 16367 -> 16557 bytes
+ cards/001670/files/56366_67745.html           |    5 +-
+ cards/001670/files/56366_ruby_67693.zip       |  Bin 12665 -> 12692 bytes
+ cards/001670/files/56367_62854.html           |   25 +-
+ cards/001670/files/56367_ruby_62767.zip       |  Bin 17182 -> 17357 bytes
+ cards/001670/files/56371_64131.html           |    5 +-
+ cards/001670/files/56371_ruby_64039.zip       |  Bin 14951 -> 15069 bytes
+ cards/001670/files/56372_63527.html           |    5 +-
+ cards/001670/files/56372_ruby_63483.zip       |  Bin 16057 -> 16022 bytes
+ cards/001670/files/56373_60010.html           |   17 +-
+ cards/001670/files/56373_ruby_59965.zip       |  Bin 12046 -> 12133 bytes
+ cards/001670/files/56374_58079.html           |   25 +-
+ cards/001670/files/56374_ruby_58048.zip       |  Bin 13861 -> 13953 bytes
+ cards/001670/files/56376_69313.html           |   29 +-
+ cards/001670/files/56376_ruby_69261.zip       |  Bin 12795 -> 12822 bytes
+ cards/001670/files/56377_59666.html           |   25 +-
+ cards/001670/files/56377_ruby_59665.zip       |  Bin 11645 -> 11814 bytes
+ cards/001670/files/56379_69350.html           |   13 +-
+ cards/001670/files/56379_ruby_69298.zip       |  Bin 12374 -> 12402 bytes
+ cards/001670/files/56381_67731.html           |    3 +-
+ cards/001670/files/56381_ruby_67679.zip       |  Bin 15070 -> 15098 bytes
+ cards/001670/files/56382_68000.html           |    3 +-
+ cards/001670/files/56382_ruby_67957.zip       |  Bin 14451 -> 14478 bytes
+ cards/001670/files/56383_63875.html           |    5 +-
+ cards/001670/files/56383_ruby_63795.zip       |  Bin 14088 -> 14207 bytes
+ cards/001670/files/56384_68271.html           |   13 +-
+ cards/001670/files/56384_ruby_68226.zip       |  Bin 16467 -> 16492 bytes
+ cards/001670/files/56387_64141.html           |    7 +-
+ cards/001670/files/56387_ruby_64049.zip       |  Bin 15725 -> 15871 bytes
+ cards/001670/files/56392_60048.html           |   15 +-
+ cards/001670/files/56392_ruby_60003.zip       |  Bin 12022 -> 12118 bytes
+ cards/001670/files/56394_69555.html           |   21 +-
+ cards/001670/files/56394_ruby_69504.zip       |  Bin 12771 -> 12798 bytes
+ cards/001670/files/56395_60038.html           |   11 +-
+ cards/001670/files/56395_ruby_59993.zip       |  Bin 11762 -> 11851 bytes
+ cards/001670/files/56396_60045.html           |   27 +-
+ cards/001670/files/56396_ruby_60000.zip       |  Bin 12296 -> 12380 bytes
+ cards/001670/files/56397_58080.html           |   21 +-
+ cards/001670/files/56397_ruby_58049.zip       |  Bin 12833 -> 12901 bytes
+ cards/001670/files/56399_56347.html           |   12 +-
+ cards/001670/files/56399_ruby_56299.zip       |  Bin 14940 -> 15090 bytes
+ cards/001670/files/56401_60024.html           |   27 +-
+ cards/001670/files/56401_ruby_59979.zip       |  Bin 11642 -> 11727 bytes
+ cards/001670/files/56403_60018.html           |   21 +-
+ cards/001670/files/56403_ruby_59973.zip       |  Bin 12523 -> 12594 bytes
+ cards/001670/files/56405_69570.html           |   19 +-
+ cards/001670/files/56405_ruby_69519.zip       |  Bin 13201 -> 13228 bytes
+ cards/001670/files/56407_60033.html           |   35 +-
+ cards/001670/files/56407_ruby_59988.zip       |  Bin 12437 -> 12596 bytes
+ cards/001670/files/56930_57403.html           |    5 +-
+ cards/001670/files/56930_ruby_57355.zip       |  Bin 4097 -> 3976 bytes
+ cards/001670/files/57216_63906.html           |    9 +-
+ cards/001670/files/57216_ruby_63826.zip       |  Bin 16560 -> 16712 bytes
+ cards/001670/files/57217_57565.html           |    3 +-
+ cards/001670/files/57217_ruby_57519.zip       |  Bin 5519 -> 5556 bytes
+ cards/001670/files/57218_57995.html           |    3 +-
+ cards/001670/files/57218_ruby_57968.zip       |  Bin 3929 -> 3955 bytes
+ cards/001670/files/57219_57607.html           |    3 +-
+ cards/001670/files/57219_ruby_57561.zip       |  Bin 7122 -> 7157 bytes
+ cards/001670/files/57220_57606.html           |    3 +-
+ cards/001670/files/57220_ruby_57560.zip       |  Bin 5866 -> 5906 bytes
+ cards/001670/files/57221_57404.html           |    3 +-
+ cards/001670/files/57221_ruby_57356.zip       |  Bin 3132 -> 3161 bytes
+ cards/001670/files/57231_63561.html           |  697 ++---
+ cards/001670/files/57231_ruby_63517.zip       |  Bin 14709 -> 14821 bytes
+ cards/001670/files/57232_64628.html           |    7 +-
+ cards/001670/files/57232_ruby_64576.zip       |  Bin 14996 -> 15127 bytes
+ cards/001670/files/57233_63868.html           |    9 +-
+ cards/001670/files/57233_ruby_63788.zip       |  Bin 15616 -> 15731 bytes
+ 536 files changed, 10590 insertions(+), 9193 deletions(-)
+Date: Sun Nov 24 09:01:24 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 23 13:21 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 161371 Nov 24 09:01 ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+1/130: ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+>> git-mv 1668_ruby_inakakyoshi.txt 1668_ruby_inaka_kyoshi.txt
+>> git-mv 1668_ruby_utf8_inakakyoshi.txt 1668_ruby_utf8_inaka_kyoshi.txt
+>> https://www.aozora.gr.jp/cards/000214/card1668.html
+>> 田舎教師、田山花袋、
+-rwxrwxrwx 1 level level 6904 Nov 24 09:01 ./aozorabunko/cards/000933/files/47694_ruby_69533.zip
+2/130: ./aozorabunko/cards/000933/files/47694_ruby_69533.zip
+>> add 47694_ruby_geino_minshu.txt
+>> add 47694_ruby_utf8_geino_minshu.txt
+>> https://www.aozora.gr.jp/cards/000933/card47694.html
+>> 芸能民習、折口信夫、
+-rwxrwxrwx 1 level level 2960 Nov 24 09:01 ./aozorabunko/cards/000933/files/47721_ruby_69534.zip
+3/130: ./aozorabunko/cards/000933/files/47721_ruby_69534.zip
+>> add 47721_ruby_maito_odorito.txt
+>> add 47721_ruby_utf8_maito_odorito.txt
+>> https://www.aozora.gr.jp/cards/000933/card47721.html
+>> 舞ひと踊りと、折口信夫、
+-rwxrwxrwx 1 level level 9877 Nov 24 09:01 ./aozorabunko/cards/001341/files/49640_ruby_37909.zip
+4/130: ./aozorabunko/cards/001341/files/49640_ruby_37909.zip
+>> update 49640_ruby_ginza.txt
+>> update 49640_ruby_utf8_ginza.txt
+>> https://www.aozora.gr.jp/cards/001341/card49640.html
+>> 銀座、永井荷風、
+-rwxrwxrwx 1 level level 12522 Nov 24 09:01 ./aozorabunko/cards/001579/files/53499_ruby_64048.zip
+5/130: ./aozorabunko/cards/001579/files/53499_ruby_64048.zip
+>> update 53499_ruby_tokono_nyonin.txt
+>> update 53499_ruby_utf8_tokono_nyonin.txt
+>> https://www.aozora.gr.jp/cards/001579/card53499.html
+>> 陶古の女人、室生犀星、
+-rwxrwxrwx 1 level level 66069 Nov 24 09:01 ./aozorabunko/cards/001579/files/53503_ruby_62101.zip
+6/130: ./aozorabunko/cards/001579/files/53503_ruby_62101.zip
+>> update 53503_ruby_mitsuno_aware.txt
+>> update 53503_ruby_utf8_mitsuno_aware.txt
+>> https://www.aozora.gr.jp/cards/001579/card53503.html
+>> 蜜のあわれ、室生犀星、
+-rwxrwxrwx 1 level level 16581 Nov 24 09:01 ./aozorabunko/cards/001670/files/56200_ruby_62542.zip
+7/130: ./aozorabunko/cards/001670/files/56200_ruby_62542.zip
+>> update 56200_ruby_087kataki_uchihatete.txt
+>> update 56200_ruby_utf8_087kataki_uchihatete.txt
+>> https://www.aozora.gr.jp/cards/001670/card56200.html
+>> 銭形平次捕物控、敵討果てて、野村胡堂、
+-rwxrwxrwx 1 level level 14176 Nov 24 09:01 ./aozorabunko/cards/001670/files/56201_ruby_60088.zip
+8/130: ./aozorabunko/cards/001670/files/56201_ruby_60088.zip
+>> update 56201_ruby_041sanzenryo_ihen.txt
+>> update 56201_ruby_utf8_041sanzenryo_ihen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56201.html
+>> 銭形平次捕物控、三千両異変、野村胡堂、
+-rwxrwxrwx 1 level level 15896 Nov 24 09:01 ./aozorabunko/cards/001670/files/56202_ruby_62760.zip
+9/130: ./aozorabunko/cards/001670/files/56202_ruby_62760.zip
+>> update 56202_ruby_089hyakushijushi_ya.txt
+>> update 56202_ruby_utf8_089hyakushijushi_ya.txt
+>> https://www.aozora.gr.jp/cards/001670/card56202.html
+>> 銭形平次捕物控、百四十四夜、野村胡堂、
+-rwxrwxrwx 1 level level 17479 Nov 24 09:01 ./aozorabunko/cards/001670/files/56203_ruby_62755.zip
+10/130: ./aozorabunko/cards/001670/files/56203_ruby_62755.zip
+>> update 56203_ruby_088fushino_reiyaku.txt
+>> update 56203_ruby_utf8_088fushino_reiyaku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56203.html
+>> 銭形平次捕物控、不死の霊薬、野村胡堂、
+-rwxrwxrwx 1 level level 16508 Nov 24 09:01 ./aozorabunko/cards/001670/files/56204_ruby_62081.zip
+11/130: ./aozorabunko/cards/001670/files/56204_ruby_62081.zip
+>> update 56204_ruby_026ayakichi_goroshi.txt
+>> update 56204_ruby_utf8_026ayakichi_goroshi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56204.html
+>> 銭形平次捕物控、綾吉殺し、野村胡堂、
+-rwxrwxrwx 1 level level 14252 Nov 24 09:01 ./aozorabunko/cards/001670/files/56205_ruby_60066.zip
+12/130: ./aozorabunko/cards/001670/files/56205_ruby_60066.zip
+>> update 56205_ruby_017akai_himo.txt
+>> update 56205_ruby_utf8_017akai_himo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56205.html
+>> 銭形平次捕物控、赤い紐、野村胡堂、
+-rwxrwxrwx 1 level level 16479 Nov 24 09:01 ./aozorabunko/cards/001670/files/56206_ruby_62087.zip
+13/130: ./aozorabunko/cards/001670/files/56206_ruby_62087.zip
+>> update 56206_ruby_036hachiningeino_onna.txt
+>> update 56206_ruby_utf8_036hachiningeino_onna.txt
+>> https://www.aozora.gr.jp/cards/001670/card56206.html
+>> 銭形平次捕物控、八人芸の女、野村胡堂、
+-rwxrwxrwx 1 level level 15158 Nov 24 09:01 ./aozorabunko/cards/001670/files/56207_ruby_62093.zip
+14/130: ./aozorabunko/cards/001670/files/56207_ruby_62093.zip
+>> update 56207_ruby_044otamino_shi.txt
+>> update 56207_ruby_utf8_044otamino_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56207.html
+>> 銭形平次捕物控、お民の死、野村胡堂、
+-rwxrwxrwx 1 level level 14920 Nov 24 09:01 ./aozorabunko/cards/001670/files/56208_ruby_60077.zip
+15/130: ./aozorabunko/cards/001670/files/56208_ruby_60077.zip
+>> update 56208_ruby_019eirakusenno_nazo.txt
+>> update 56208_ruby_utf8_019eirakusenno_nazo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56208.html
+>> 銭形平次捕物控、永楽銭の謎、野村胡堂、
+-rwxrwxrwx 1 level level 16373 Nov 24 09:01 ./aozorabunko/cards/001670/files/56209_ruby_62512.zip
+16/130: ./aozorabunko/cards/001670/files/56209_ruby_62512.zip
+>> update 56209_ruby_058minagesuru_onna.txt
+>> update 56209_ruby_utf8_058minagesuru_onna.txt
+>> https://www.aozora.gr.jp/cards/001670/card56209.html
+>> 銭形平次捕物控、身投げする女、野村胡堂、
+-rwxrwxrwx 1 level level 15811 Nov 24 09:01 ./aozorabunko/cards/001670/files/56210_ruby_60097.zip
+17/130: ./aozorabunko/cards/001670/files/56210_ruby_60097.zip
+>> update 56210_ruby_069kinno_koi.txt
+>> update 56210_ruby_utf8_069kinno_koi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56210.html
+>> 銭形平次捕物控、金の鯉、野村胡堂、
+-rwxrwxrwx 1 level level 13501 Nov 24 09:01 ./aozorabunko/cards/001670/files/56211_ruby_58713.zip
+18/130: ./aozorabunko/cards/001670/files/56211_ruby_58713.zip
+>> update 56211_ruby_092kinno_chagama.txt
+>> update 56211_ruby_utf8_092kinno_chagama.txt
+>> https://www.aozora.gr.jp/cards/001670/card56211.html
+>> 銭形平次捕物控、金の茶釜、野村胡堂、
+-rwxrwxrwx 1 level level 16123 Nov 24 09:01 ./aozorabunko/cards/001670/files/56212_ruby_62097.zip
+19/130: ./aozorabunko/cards/001670/files/56212_ruby_62097.zip
+>> update 56212_ruby_052nifukuno_kusuri.txt
+>> update 56212_ruby_utf8_052nifukuno_kusuri.txt
+>> https://www.aozora.gr.jp/cards/001670/card56212.html
+>> 銭形平次捕物控、二服の薬、野村胡堂、
+-rwxrwxrwx 1 level level 16123 Nov 24 09:01 ./aozorabunko/cards/001670/files/56213_ruby_62095.zip
+20/130: ./aozorabunko/cards/001670/files/56213_ruby_62095.zip
+>> update 56213_ruby_049maneku_gaikotsu.txt
+>> update 56213_ruby_utf8_049maneku_gaikotsu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56213.html
+>> 銭形平次捕物控、招く骸骨、野村胡堂、
+-rwxrwxrwx 1 level level 15365 Nov 24 09:01 ./aozorabunko/cards/001670/files/56214_ruby_62521.zip
+21/130: ./aozorabunko/cards/001670/files/56214_ruby_62521.zip
+>> update 56214_ruby_074nido_shinda_otoko.txt
+>> update 56214_ruby_utf8_074nido_shinda_otoko.txt
+>> https://www.aozora.gr.jp/cards/001670/card56214.html
+>> 銭形平次捕物控、二度死んだ男、野村胡堂、
+-rwxrwxrwx 1 level level 15600 Nov 24 09:01 ./aozorabunko/cards/001670/files/56215_ruby_62507.zip
+22/130: ./aozorabunko/cards/001670/files/56215_ruby_62507.zip
+>> update 56215_ruby_055rojino_koban.txt
+>> update 56215_ruby_utf8_055rojino_koban.txt
+>> https://www.aozora.gr.jp/cards/001670/card56215.html
+>> 銭形平次捕物控、路地の小判、野村胡堂、
+-rwxrwxrwx 1 level level 13639 Nov 24 09:01 ./aozorabunko/cards/001670/files/56216_ruby_58698.zip
+23/130: ./aozorabunko/cards/001670/files/56216_ruby_58698.zip
+>> update 56216_ruby_012korosare_hanzo.txt
+>> update 56216_ruby_utf8_012korosare_hanzo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56216.html
+>> 銭形平次捕物控、殺され半蔵、野村胡堂、
+-rwxrwxrwx 1 level level 17267 Nov 24 09:01 ./aozorabunko/cards/001670/files/56217_ruby_63028.zip
+24/130: ./aozorabunko/cards/001670/files/56217_ruby_63028.zip
+>> update 56217_ruby_029edo_ahokyu.txt
+>> update 56217_ruby_utf8_029edo_ahokyu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56217.html
+>> 銭形平次捕物控、江戸阿呆宮、野村胡堂、
+-rwxrwxrwx 1 level level 14611 Nov 24 09:01 ./aozorabunko/cards/001670/files/56218_ruby_60093.zip
+25/130: ./aozorabunko/cards/001670/files/56218_ruby_60093.zip
+>> update 56218_ruby_061yukino_ashiato.txt
+>> update 56218_ruby_utf8_061yukino_ashiato.txt
+>> https://www.aozora.gr.jp/cards/001670/card56218.html
+>> 銭形平次捕物控、雪の足跡、野村胡堂、
+-rwxrwxrwx 1 level level 15386 Nov 24 09:01 ./aozorabunko/cards/001670/files/56219_ruby_62519.zip
+26/130: ./aozorabunko/cards/001670/files/56219_ruby_62519.zip
+>> update 56219_ruby_070nihonno_wakizashi.txt
+>> update 56219_ruby_utf8_070nihonno_wakizashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56219.html
+>> 銭形平次捕物控、二本の脇差、野村胡堂、
+-rwxrwxrwx 1 level level 14817 Nov 24 09:01 ./aozorabunko/cards/001670/files/56220_ruby_60055.zip
+27/130: ./aozorabunko/cards/001670/files/56220_ruby_60055.zip
+>> update 56220_ruby_005yureini_sareta_onna.txt
+>> update 56220_ruby_utf8_005yureini_sareta_onna.txt
+>> https://www.aozora.gr.jp/cards/001670/card56220.html
+>> 銭形平次捕物控、幽霊にされた女、野村胡堂、
+-rwxrwxrwx 1 level level 5357 Nov 24 09:01 ./aozorabunko/cards/001670/files/56221_ruby_58051.zip
+28/130: ./aozorabunko/cards/001670/files/56221_ruby_58051.zip
+>> update 56221_ruby_338hachigoro_tegara_hajime.txt
+>> update 56221_ruby_utf8_338hachigoro_tegara_hajime.txt
+>> https://www.aozora.gr.jp/cards/001670/card56221.html
+>> 銭形平次捕物控、初姿銭形平次　八五郎手柄始め、野村胡堂、
+-rwxrwxrwx 1 level level 14651 Nov 24 09:01 ./aozorabunko/cards/001670/files/56222_ruby_60083.zip
+29/130: ./aozorabunko/cards/001670/files/56222_ruby_60083.zip
+>> update 56222_ruby_039akai_aza.txt
+>> update 56222_ruby_utf8_039akai_aza.txt
+>> https://www.aozora.gr.jp/cards/001670/card56222.html
+>> 銭形平次捕物控、赤い痣、野村胡堂、
+-rwxrwxrwx 1 level level 15187 Nov 24 09:01 ./aozorabunko/cards/001670/files/56223_ruby_62770.zip
+30/130: ./aozorabunko/cards/001670/files/56223_ruby_62770.zip
+>> update 56223_ruby_094shisono_onna.txt
+>> update 56223_ruby_utf8_094shisono_onna.txt
+>> https://www.aozora.gr.jp/cards/001670/card56223.html
+>> 銭形平次捕物控、死相の女、野村胡堂、
+-rwxrwxrwx 1 level level 17002 Nov 24 09:01 ./aozorabunko/cards/001670/files/56229_ruby_65440.zip
+31/130: ./aozorabunko/cards/001670/files/56229_ruby_65440.zip
+>> update 56229_ruby_040omura_hyogono_medama.txt
+>> update 56229_ruby_utf8_040omura_hyogono_medama.txt
+>> https://www.aozora.gr.jp/cards/001670/card56229.html
+>> 銭形平次捕物控、大村兵庫の眼玉、野村胡堂、
+-rwxrwxrwx 1 level level 15487 Nov 24 09:01 ./aozorabunko/cards/001670/files/56230_ruby_65451.zip
+32/130: ./aozorabunko/cards/001670/files/56230_ruby_65451.zip
+>> update 56230_ruby_042koshin_yokocho.txt
+>> update 56230_ruby_utf8_042koshin_yokocho.txt
+>> https://www.aozora.gr.jp/cards/001670/card56230.html
+>> 銭形平次捕物控、庚申横町、野村胡堂、
+-rwxrwxrwx 1 level level 16366 Nov 24 09:01 ./aozorabunko/cards/001670/files/56231_ruby_65423.zip
+33/130: ./aozorabunko/cards/001670/files/56231_ruby_65423.zip
+>> update 56231_ruby_038ichimaino_bunsen.txt
+>> update 56231_ruby_utf8_038ichimaino_bunsen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56231.html
+>> 銭形平次捕物控、一枚の文銭、野村胡堂、
+-rwxrwxrwx 1 level level 6369 Nov 24 09:01 ./aozorabunko/cards/001670/files/56240_ruby_51976.zip
+34/130: ./aozorabunko/cards/001670/files/56240_ruby_51976.zip
+>> update 56240_ruby_14torimonocho_dangi.txt
+>> update 56240_ruby_utf8_14torimonocho_dangi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56240.html
+>> 随筆銭形平次、捕物帖談義、野村胡堂、
+-rwxrwxrwx 1 level level 14353 Nov 24 09:01 ./aozorabunko/cards/001670/files/56271_ruby_65957.zip
+35/130: ./aozorabunko/cards/001670/files/56271_ruby_65957.zip
+>> update 56271_ruby_057shino_yabumi.txt
+>> update 56271_ruby_utf8_057shino_yabumi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56271.html
+>> 銭形平次捕物控、死の矢文、野村胡堂、
+-rwxrwxrwx 1 level level 15873 Nov 24 09:01 ./aozorabunko/cards/001670/files/56272_ruby_66490.zip
+36/130: ./aozorabunko/cards/001670/files/56272_ruby_66490.zip
+>> update 56272_ruby_072katta_isho.txt
+>> update 56272_ruby_utf8_072katta_isho.txt
+>> https://www.aozora.gr.jp/cards/001670/card56272.html
+>> 銭形平次捕物控、買った遺書、野村胡堂、
+-rwxrwxrwx 1 level level 16818 Nov 24 09:01 ./aozorabunko/cards/001670/files/56274_ruby_66472.zip
+37/130: ./aozorabunko/cards/001670/files/56274_ruby_66472.zip
+>> update 56274_ruby_068tsujigiri_kidan.txt
+>> update 56274_ruby_utf8_068tsujigiri_kidan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56274.html
+>> 銭形平次捕物控、辻斬綺談、野村胡堂、
+-rwxrwxrwx 1 level level 16860 Nov 24 09:01 ./aozorabunko/cards/001670/files/56275_ruby_62532.zip
+38/130: ./aozorabunko/cards/001670/files/56275_ruby_62532.zip
+>> update 56275_ruby_085hyotan_kuyo.txt
+>> update 56275_ruby_utf8_085hyotan_kuyo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56275.html
+>> 銭形平次捕物控、瓢箪供養、野村胡堂、
+-rwxrwxrwx 1 level level 17189 Nov 24 09:01 ./aozorabunko/cards/001670/files/56276_ruby_64320.zip
+39/130: ./aozorabunko/cards/001670/files/56276_ruby_64320.zip
+>> update 56276_ruby_023chishioto_nuka.txt
+>> update 56276_ruby_utf8_023chishioto_nuka.txt
+>> https://www.aozora.gr.jp/cards/001670/card56276.html
+>> 銭形平次捕物控、血潮と糠、野村胡堂、
+-rwxrwxrwx 1 level level 17939 Nov 24 09:01 ./aozorabunko/cards/001670/files/56277_ruby_67377.zip
+40/130: ./aozorabunko/cards/001670/files/56277_ruby_67377.zip
+>> update 56277_ruby_081junanno_tsujin.txt
+>> update 56277_ruby_utf8_081junanno_tsujin.txt
+>> https://www.aozora.gr.jp/cards/001670/card56277.html
+>> 銭形平次捕物控、受難の通人、野村胡堂、
+-rwxrwxrwx 1 level level 15385 Nov 24 09:01 ./aozorabunko/cards/001670/files/56278_ruby_63495.zip
+41/130: ./aozorabunko/cards/001670/files/56278_ruby_63495.zip
+>> update 56278_ruby_002furisode_genta.txt
+>> update 56278_ruby_utf8_002furisode_genta.txt
+>> https://www.aozora.gr.jp/cards/001670/card56278.html
+>> 銭形平次捕物控、振袖源太、野村胡堂、
+-rwxrwxrwx 1 level level 16506 Nov 24 09:01 ./aozorabunko/cards/001670/files/56279_ruby_66282.zip
+42/130: ./aozorabunko/cards/001670/files/56279_ruby_66282.zip
+>> update 56279_ruby_064kyuhyaku_kyujuryo.txt
+>> update 56279_ruby_utf8_064kyuhyaku_kyujuryo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56279.html
+>> 銭形平次捕物控、九百九十両、野村胡堂、
+-rwxrwxrwx 1 level level 16807 Nov 24 09:01 ./aozorabunko/cards/001670/files/56280_ruby_65969.zip
+43/130: ./aozorabunko/cards/001670/files/56280_ruby_65969.zip
+>> update 56280_ruby_059sakaya_kaji.txt
+>> update 56280_ruby_utf8_059sakaya_kaji.txt
+>> https://www.aozora.gr.jp/cards/001670/card56280.html
+>> 銭形平次捕物控、酒屋火事、野村胡堂、
+-rwxrwxrwx 1 level level 15436 Nov 24 09:01 ./aozorabunko/cards/001670/files/56281_ruby_65947.zip
+44/130: ./aozorabunko/cards/001670/files/56281_ruby_65947.zip
+>> update 56281_ruby_056jigokukara_kita_otoko.txt
+>> update 56281_ruby_utf8_056jigokukara_kita_otoko.txt
+>> https://www.aozora.gr.jp/cards/001670/card56281.html
+>> 銭形平次捕物控、地獄から来た男、野村胡堂、
+-rwxrwxrwx 1 level level 17269 Nov 24 09:01 ./aozorabunko/cards/001670/files/56283_ruby_66303.zip
+45/130: ./aozorabunko/cards/001670/files/56283_ruby_66303.zip
+>> update 56283_ruby_066tamano_koshino_noroi.txt
+>> update 56283_ruby_utf8_066tamano_koshino_noroi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56283.html
+>> 銭形平次捕物控、玉の輿の呪い、野村胡堂、
+-rwxrwxrwx 1 level level 15976 Nov 24 09:01 ./aozorabunko/cards/001670/files/56284_ruby_64286.zip
+46/130: ./aozorabunko/cards/001670/files/56284_ruby_64286.zip
+>> update 56284_ruby_022meiba_tsumi_ari.txt
+>> update 56284_ruby_utf8_022meiba_tsumi_ari.txt
+>> https://www.aozora.gr.jp/cards/001670/card56284.html
+>> 銭形平次捕物控、名馬罪あり、野村胡堂、
+-rwxrwxrwx 1 level level 15439 Nov 24 09:01 ./aozorabunko/cards/001670/files/56285_ruby_66672.zip
+47/130: ./aozorabunko/cards/001670/files/56285_ruby_66672.zip
+>> update 56285_ruby_075kinchaku_kirino_musume.txt
+>> update 56285_ruby_utf8_075kinchaku_kirino_musume.txt
+>> https://www.aozora.gr.jp/cards/001670/card56285.html
+>> 銭形平次捕物控、巾着切りの娘、野村胡堂、
+-rwxrwxrwx 1 level level 15258 Nov 24 09:01 ./aozorabunko/cards/001670/files/56286_ruby_67393.zip
+48/130: ./aozorabunko/cards/001670/files/56286_ruby_67393.zip
+>> update 56286_ruby_082otsubone_oroku.txt
+>> update 56286_ruby_utf8_082otsubone_oroku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56286.html
+>> 銭形平次捕物控、お局お六、野村胡堂、
+-rwxrwxrwx 1 level level 16456 Nov 24 09:01 ./aozorabunko/cards/001670/files/56287_ruby_62516.zip
+49/130: ./aozorabunko/cards/001670/files/56287_ruby_62516.zip
+>> update 56287_ruby_067rankanno_shigai.txt
+>> update 56287_ruby_utf8_067rankanno_shigai.txt
+>> https://www.aozora.gr.jp/cards/001670/card56287.html
+>> 銭形平次捕物控、欄干の死骸、野村胡堂、
+-rwxrwxrwx 1 level level 14045 Nov 24 09:01 ./aozorabunko/cards/001670/files/56288_ruby_58704.zip
+50/130: ./aozorabunko/cards/001670/files/56288_ruby_58704.zip
+>> update 56288_ruby_033chishiono_yokuso.txt
+>> update 56288_ruby_utf8_033chishiono_yokuso.txt
+>> https://www.aozora.gr.jp/cards/001670/card56288.html
+>> 銭形平次捕物控、血潮の浴槽、野村胡堂、
+-rwxrwxrwx 1 level level 18275 Nov 24 09:01 ./aozorabunko/cards/001670/files/56289_ruby_65171.zip
+51/130: ./aozorabunko/cards/001670/files/56289_ruby_65171.zip
+>> update 56289_ruby_035kugutsu_meishin.txt
+>> update 56289_ruby_utf8_035kugutsu_meishin.txt
+>> https://www.aozora.gr.jp/cards/001670/card56289.html
+>> 銭形平次捕物控、傀儡名臣、野村胡堂、
+-rwxrwxrwx 1 level level 16363 Nov 24 09:01 ./aozorabunko/cards/001670/files/56290_ruby_66479.zip
+52/130: ./aozorabunko/cards/001670/files/56290_ruby_66479.zip
+>> update 56290_ruby_071heiji_toso_kigen.txt
+>> update 56290_ruby_utf8_071heiji_toso_kigen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56290.html
+>> 銭形平次捕物控、平次屠蘇機嫌、野村胡堂、
+-rwxrwxrwx 1 level level 15044 Nov 24 09:01 ./aozorabunko/cards/001670/files/56291_ruby_65187.zip
+53/130: ./aozorabunko/cards/001670/files/56291_ruby_65187.zip
+>> update 56291_ruby_037ningyono_yuwaku.txt
+>> update 56291_ruby_utf8_037ningyono_yuwaku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56291.html
+>> 銭形平次捕物控、人形の誘惑、野村胡堂、
+-rwxrwxrwx 1 level level 15663 Nov 24 09:01 ./aozorabunko/cards/001670/files/56295_ruby_66274.zip
+54/130: ./aozorabunko/cards/001670/files/56295_ruby_66274.zip
+>> update 56295_ruby_062shirono_ezumen.txt
+>> update 56295_ruby_utf8_062shirono_ezumen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56295.html
+>> 銭形平次捕物控、城の絵図面、野村胡堂、
+-rwxrwxrwx 1 level level 16014 Nov 24 09:01 ./aozorabunko/cards/001670/files/56296_ruby_66498.zip
+55/130: ./aozorabunko/cards/001670/files/56296_ruby_66498.zip
+>> update 56296_ruby_073kuroi_kinchaku.txt
+>> update 56296_ruby_utf8_073kuroi_kinchaku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56296.html
+>> 銭形平次捕物控、黒い巾着、野村胡堂、
+-rwxrwxrwx 1 level level 15878 Nov 24 09:01 ./aozorabunko/cards/001670/files/56297_ruby_66293.zip
+56/130: ./aozorabunko/cards/001670/files/56297_ruby_66293.zip
+>> update 56297_ruby_065yuinono_yukue.txt
+>> update 56297_ruby_utf8_065yuinono_yukue.txt
+>> https://www.aozora.gr.jp/cards/001670/card56297.html
+>> 銭形平次捕物控、結納の行方、野村胡堂、
+-rwxrwxrwx 1 level level 15599 Nov 24 09:01 ./aozorabunko/cards/001670/files/56298_ruby_66709.zip
+57/130: ./aozorabunko/cards/001670/files/56298_ruby_66709.zip
+>> update 56298_ruby_077hachigorono_koi.txt
+>> update 56298_ruby_utf8_077hachigorono_koi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56298.html
+>> 銭形平次捕物控、八五郎の恋、野村胡堂、
+-rwxrwxrwx 1 level level 15250 Nov 24 09:01 ./aozorabunko/cards/001670/files/56300_ruby_60072.zip
+58/130: ./aozorabunko/cards/001670/files/56300_ruby_60072.zip
+>> update 56300_ruby_018tomikuji_seidan.txt
+>> update 56300_ruby_utf8_018tomikuji_seidan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56300.html
+>> 銭形平次捕物控、富籤政談、野村胡堂、
+-rwxrwxrwx 1 level level 17182 Nov 24 09:01 ./aozorabunko/cards/001670/files/56301_ruby_64014.zip
+59/130: ./aozorabunko/cards/001670/files/56301_ruby_64014.zip
+>> update 56301_ruby_011nanban_hihosen.txt
+>> update 56301_ruby_utf8_011nanban_hihosen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56301.html
+>> 銭形平次捕物控、南蛮秘法箋、野村胡堂、
+-rwxrwxrwx 1 level level 13365 Nov 24 09:01 ./aozorabunko/cards/001670/files/56302_ruby_64024.zip
+60/130: ./aozorabunko/cards/001670/files/56302_ruby_64024.zip
+>> update 56302_ruby_014tanuki_bayashi.txt
+>> update 56302_ruby_utf8_014tanuki_bayashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56302.html
+>> 銭形平次捕物控、たぬき囃子、野村胡堂、
+-rwxrwxrwx 1 level level 15916 Nov 24 09:01 ./aozorabunko/cards/001670/files/56303_ruby_65634.zip
+61/130: ./aozorabunko/cards/001670/files/56303_ruby_65634.zip
+>> update 56303_ruby_043oranda_karuta.txt
+>> update 56303_ruby_utf8_043oranda_karuta.txt
+>> https://www.aozora.gr.jp/cards/001670/card56303.html
+>> 銭形平次捕物控、和蘭カルタ、野村胡堂、
+-rwxrwxrwx 1 level level 15284 Nov 24 09:01 ./aozorabunko/cards/001670/files/56304_ruby_65918.zip
+62/130: ./aozorabunko/cards/001670/files/56304_ruby_65918.zip
+>> update 56304_ruby_048ofujiwa_toku.txt
+>> update 56304_ruby_utf8_048ofujiwa_toku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56304.html
+>> 銭形平次捕物控、お藤は解く、野村胡堂、
+-rwxrwxrwx 1 level level 15821 Nov 24 09:01 ./aozorabunko/cards/001670/files/56306_ruby_64591.zip
+63/130: ./aozorabunko/cards/001670/files/56306_ruby_64591.zip
+>> update 56306_ruby_028nagekino_bosatsu.txt
+>> update 56306_ruby_utf8_028nagekino_bosatsu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56306.html
+>> 銭形平次捕物控、歎きの菩薩、野村胡堂、
+-rwxrwxrwx 1 level level 18141 Nov 24 09:01 ./aozorabunko/cards/001670/files/56307_ruby_66946.zip
+64/130: ./aozorabunko/cards/001670/files/56307_ruby_66946.zip
+>> update 56307_ruby_080torimono_jingi.txt
+>> update 56307_ruby_utf8_080torimono_jingi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56307.html
+>> 銭形平次捕物控、捕物仁義、野村胡堂、
+-rwxrwxrwx 1 level level 17050 Nov 24 09:01 ./aozorabunko/cards/001670/files/56309_ruby_64553.zip
+65/130: ./aozorabunko/cards/001670/files/56309_ruby_64553.zip
+>> update 56309_ruby_024heiji_jonan.txt
+>> update 56309_ruby_utf8_024heiji_jonan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56309.html
+>> 銭形平次捕物控、平次女難、野村胡堂、
+-rwxrwxrwx 1 level level 15673 Nov 24 09:01 ./aozorabunko/cards/001670/files/56310_ruby_64880.zip
+66/130: ./aozorabunko/cards/001670/files/56310_ruby_64880.zip
+>> update 56310_ruby_030kuruizaki.txt
+>> update 56310_ruby_utf8_030kuruizaki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56310.html
+>> 銭形平次捕物控、くるい咲き、野村胡堂、
+-rwxrwxrwx 1 level level 15957 Nov 24 09:01 ./aozorabunko/cards/001670/files/56311_ruby_66933.zip
+67/130: ./aozorabunko/cards/001670/files/56311_ruby_66933.zip
+>> update 56311_ruby_079jushichino_musume.txt
+>> update 56311_ruby_utf8_079jushichino_musume.txt
+>> https://www.aozora.gr.jp/cards/001670/card56311.html
+>> 銭形平次捕物控、十七の娘、野村胡堂、
+-rwxrwxrwx 1 level level 19447 Nov 24 09:01 ./aozorabunko/cards/001670/files/56312_ruby_64564.zip
+68/130: ./aozorabunko/cards/001670/files/56312_ruby_64564.zip
+>> update 56312_ruby_025hyorogan_hibun.txt
+>> update 56312_ruby_utf8_025hyorogan_hibun.txt
+>> https://www.aozora.gr.jp/cards/001670/card56312.html
+>> 銭形平次捕物控、兵糧丸秘聞、野村胡堂、
+-rwxrwxrwx 1 level level 14958 Nov 24 09:01 ./aozorabunko/cards/001670/files/56314_ruby_63503.zip
+69/130: ./aozorabunko/cards/001670/files/56314_ruby_63503.zip
+>> update 56314_ruby_003daito_zange.txt
+>> update 56314_ruby_utf8_003daito_zange.txt
+>> https://www.aozora.gr.jp/cards/001670/card56314.html
+>> 銭形平次捕物控、大盗懺悔、野村胡堂、
+-rwxrwxrwx 1 level level 15995 Nov 24 09:01 ./aozorabunko/cards/001670/files/56315_ruby_62503.zip
+70/130: ./aozorabunko/cards/001670/files/56315_ruby_62503.zip
+>> update 56315_ruby_053kouta_omasa.txt
+>> update 56315_ruby_utf8_053kouta_omasa.txt
+>> https://www.aozora.gr.jp/cards/001670/card56315.html
+>> 銭形平次捕物控、小唄お政、野村胡堂、
+-rwxrwxrwx 1 level level 15360 Nov 24 09:01 ./aozorabunko/cards/001670/files/56316_ruby_66912.zip
+71/130: ./aozorabunko/cards/001670/files/56316_ruby_66912.zip
+>> update 56316_ruby_078jitteno_michi.txt
+>> update 56316_ruby_utf8_078jitteno_michi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56316.html
+>> 銭形平次捕物控、十手の道、野村胡堂、
+-rwxrwxrwx 1 level level 17856 Nov 24 09:01 ./aozorabunko/cards/001670/files/56317_ruby_65662.zip
+72/130: ./aozorabunko/cards/001670/files/56317_ruby_65662.zip
+>> update 56317_ruby_046futagono_noroi.txt
+>> update 56317_ruby_utf8_046futagono_noroi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56317.html
+>> 銭形平次捕物控、双生児の呪、野村胡堂、
+-rwxrwxrwx 1 level level 14646 Nov 24 09:01 ./aozorabunko/cards/001670/files/56318_ruby_63817.zip
+73/130: ./aozorabunko/cards/001670/files/56318_ruby_63817.zip
+>> update 56318_ruby_009hitohada_jizo.txt
+>> update 56318_ruby_utf8_009hitohada_jizo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56318.html
+>> 銭形平次捕物控、人肌地蔵、野村胡堂、
+-rwxrwxrwx 1 level level 16103 Nov 24 09:01 ./aozorabunko/cards/001670/files/56320_ruby_65929.zip
+74/130: ./aozorabunko/cards/001670/files/56320_ruby_65929.zip
+>> update 56320_ruby_050gogataki.txt
+>> update 56320_ruby_utf8_050gogataki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56320.html
+>> 銭形平次捕物控、碁敵、野村胡堂、
+-rwxrwxrwx 1 level level 8497 Nov 24 09:01 ./aozorabunko/cards/001670/files/56321_ruby_59986.zip
+75/130: ./aozorabunko/cards/001670/files/56321_ruby_59986.zip
+>> update 56321_ruby_15torimono_shosetsuwa_tanoshi.txt
+>> update 56321_ruby_utf8_15torimono_shosetsuwa_tanoshi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56321.html
+>> 随筆銭形平次、捕物小説は楽し、野村胡堂、
+-rwxrwxrwx 1 level level 8272 Nov 24 09:01 ./aozorabunko/cards/001670/files/56322_ruby_58708.zip
+76/130: ./aozorabunko/cards/001670/files/56322_ruby_58708.zip
+>> update 56322_ruby_heijito_ikita_nijushichinen.txt
+>> update 56322_ruby_utf8_heijito_ikita_nijushichinen.txt
+>> https://www.aozora.gr.jp/cards/001670/card56322.html
+>> 平次と生きた二十七年、――筆を折るの弁――、野村胡堂、
+-rwxrwxrwx 1 level level 9000 Nov 24 09:01 ./aozorabunko/cards/001670/files/56323_ruby_59985.zip
+77/130: ./aozorabunko/cards/001670/files/56323_ruby_59985.zip
+>> update 56323_ruby_13heiji_minouebanashi.txt
+>> update 56323_ruby_utf8_13heiji_minouebanashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56323.html
+>> 随筆銭形平次、平次身の上話、野村胡堂、
+-rwxrwxrwx 1 level level 7926 Nov 24 09:01 ./aozorabunko/cards/001670/files/56324_ruby_57520.zip
+78/130: ./aozorabunko/cards/001670/files/56324_ruby_57520.zip
+>> update 56324_ruby_18heiji_yomu_hito_yomanu_hito.txt
+>> update 56324_ruby_utf8_18heiji_yomu_hito_yomanu_hito.txt
+>> https://www.aozora.gr.jp/cards/001670/card56324.html
+>> 随筆銭形平次、平次読む人読まぬ人――三人の政治家――、野村胡堂、
+-rwxrwxrwx 1 level level 16221 Nov 24 09:01 ./aozorabunko/cards/001670/files/56343_ruby_68441.zip
+79/130: ./aozorabunko/cards/001670/files/56343_ruby_68441.zip
+>> update 56343_ruby_105shiokibano_hanayome.txt
+>> update 56343_ruby_utf8_105shiokibano_hanayome.txt
+>> https://www.aozora.gr.jp/cards/001670/card56343.html
+>> 銭形平次捕物控、刑場の花嫁、野村胡堂、
+-rwxrwxrwx 1 level level 13921 Nov 24 09:01 ./aozorabunko/cards/001670/files/56344_ruby_68456.zip
+80/130: ./aozorabunko/cards/001670/files/56344_ruby_68456.zip
+>> update 56344_ruby_106futokoro_kagami.txt
+>> update 56344_ruby_utf8_106futokoro_kagami.txt
+>> https://www.aozora.gr.jp/cards/001670/card56344.html
+>> 銭形平次捕物控、懐ろ鏡、野村胡堂、
+-rwxrwxrwx 1 level level 15069 Nov 24 09:01 ./aozorabunko/cards/001670/files/56345_ruby_68699.zip
+81/130: ./aozorabunko/cards/001670/files/56345_ruby_68699.zip
+>> update 56345_ruby_107umekichi_goroshi.txt
+>> update 56345_ruby_utf8_107umekichi_goroshi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56345.html
+>> 銭形平次捕物控、梅吉殺し、野村胡堂、
+-rwxrwxrwx 1 level level 15078 Nov 24 09:01 ./aozorabunko/cards/001670/files/56346_ruby_68729.zip
+82/130: ./aozorabunko/cards/001670/files/56346_ruby_68729.zip
+>> update 56346_ruby_109futari_hamaji.txt
+>> update 56346_ruby_utf8_109futari_hamaji.txt
+>> https://www.aozora.gr.jp/cards/001670/card56346.html
+>> 銭形平次捕物控、二人浜路、野村胡堂、
+-rwxrwxrwx 1 level level 15617 Nov 24 09:01 ./aozorabunko/cards/001670/files/56347_ruby_63801.zip
+83/130: ./aozorabunko/cards/001670/files/56347_ruby_63801.zip
+>> update 56347_ruby_008suzuo_shitau_onna.txt
+>> update 56347_ruby_utf8_008suzuo_shitau_onna.txt
+>> https://www.aozora.gr.jp/cards/001670/card56347.html
+>> 銭形平次捕物控、鈴を慕う女、野村胡堂、
+-rwxrwxrwx 1 level level 14615 Nov 24 09:01 ./aozorabunko/cards/001670/files/56348_ruby_64908.zip
+84/130: ./aozorabunko/cards/001670/files/56348_ruby_64908.zip
+>> update 56348_ruby_032rojino_ashiato.txt
+>> update 56348_ruby_utf8_032rojino_ashiato.txt
+>> https://www.aozora.gr.jp/cards/001670/card56348.html
+>> 銭形平次捕物控、路地の足跡、野村胡堂、
+-rwxrwxrwx 1 level level 16737 Nov 24 09:01 ./aozorabunko/cards/001670/files/56349_ruby_62537.zip
+85/130: ./aozorabunko/cards/001670/files/56349_ruby_62537.zip
+>> update 56349_ruby_086en_musubi.txt
+>> update 56349_ruby_utf8_086en_musubi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56349.html
+>> 銭形平次捕物控、縁結び、野村胡堂、
+-rwxrwxrwx 1 level level 13585 Nov 24 09:01 ./aozorabunko/cards/001670/files/56350_ruby_69037.zip
+86/130: ./aozorabunko/cards/001670/files/56350_ruby_69037.zip
+>> update 56350_ruby_124oshi_musume.txt
+>> update 56350_ruby_utf8_124oshi_musume.txt
+>> https://www.aozora.gr.jp/cards/001670/card56350.html
+>> 銭形平次捕物控、唖娘、野村胡堂、
+-rwxrwxrwx 1 level level 15656 Nov 24 09:01 ./aozorabunko/cards/001670/files/56351_ruby_67409.zip
+87/130: ./aozorabunko/cards/001670/files/56351_ruby_67409.zip
+>> update 56351_ruby_083teppo_jiru.txt
+>> update 56351_ruby_utf8_083teppo_jiru.txt
+>> https://www.aozora.gr.jp/cards/001670/card56351.html
+>> 銭形平次捕物控、鉄砲汁、野村胡堂、
+-rwxrwxrwx 1 level level 16379 Nov 24 09:01 ./aozorabunko/cards/001670/files/56352_ruby_62083.zip
+88/130: ./aozorabunko/cards/001670/files/56352_ruby_62083.zip
+>> update 56352_ruby_021yukino_sei.txt
+>> update 56352_ruby_utf8_021yukino_sei.txt
+>> https://www.aozora.gr.jp/cards/001670/card56352.html
+>> 銭形平次捕物控、雪の精、野村胡堂、
+-rwxrwxrwx 1 level level 16152 Nov 24 09:01 ./aozorabunko/cards/001670/files/56357_ruby_68427.zip
+89/130: ./aozorabunko/cards/001670/files/56357_ruby_68427.zip
+>> update 56357_ruby_104ikibotoke.txt
+>> update 56357_ruby_utf8_104ikibotoke.txt
+>> https://www.aozora.gr.jp/cards/001670/card56357.html
+>> 銭形平次捕物控、活き仏、野村胡堂、
+-rwxrwxrwx 1 level level 11696 Nov 24 09:01 ./aozorabunko/cards/001670/files/56358_ruby_68717.zip
+90/130: ./aozorabunko/cards/001670/files/56358_ruby_68717.zip
+>> update 56358_ruby_108garappachi_tegarabanashi.txt
+>> update 56358_ruby_utf8_108garappachi_tegarabanashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56358.html
+>> 銭形平次捕物控、ガラッ八手柄話、野村胡堂、
+-rwxrwxrwx 1 level level 14676 Nov 24 09:01 ./aozorabunko/cards/001670/files/56359_ruby_69021.zip
+91/130: ./aozorabunko/cards/001670/files/56359_ruby_69021.zip
+>> update 56359_ruby_110jumanryono_yukue.txt
+>> update 56359_ruby_utf8_110jumanryono_yukue.txt
+>> https://www.aozora.gr.jp/cards/001670/card56359.html
+>> 銭形平次捕物控、十万両の行方、野村胡堂、
+-rwxrwxrwx 1 level level 19299 Nov 24 09:01 ./aozorabunko/cards/001670/files/56360_ruby_64895.zip
+92/130: ./aozorabunko/cards/001670/files/56360_ruby_64895.zip
+>> update 56360_ruby_031nureta_senryobako.txt
+>> update 56360_ruby_utf8_031nureta_senryobako.txt
+>> https://www.aozora.gr.jp/cards/001670/card56360.html
+>> 銭形平次捕物控、濡れた千両箱、野村胡堂、
+-rwxrwxrwx 1 level level 16468 Nov 24 09:01 ./aozorabunko/cards/001670/files/56361_ruby_68213.zip
+93/130: ./aozorabunko/cards/001670/files/56361_ruby_68213.zip
+>> update 56361_ruby_102kinzono_yukue.txt
+>> update 56361_ruby_utf8_102kinzono_yukue.txt
+>> https://www.aozora.gr.jp/cards/001670/card56361.html
+>> 銭形平次捕物控、金蔵の行方、野村胡堂、
+-rwxrwxrwx 1 level level 16509 Nov 24 09:01 ./aozorabunko/cards/001670/files/56363_ruby_62528.zip
+94/130: ./aozorabunko/cards/001670/files/56363_ruby_62528.zip
+>> update 56363_ruby_084osomeno_nageki.txt
+>> update 56363_ruby_utf8_084osomeno_nageki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56363.html
+>> 銭形平次捕物控、お染の歎き、野村胡堂、
+-rwxrwxrwx 1 level level 19418 Nov 24 09:01 ./aozorabunko/cards/001670/files/56364_ruby_62774.zip
+95/130: ./aozorabunko/cards/001670/files/56364_ruby_62774.zip
+>> update 56364_ruby_095nanban_botoke.txt
+>> update 56364_ruby_utf8_095nanban_botoke.txt
+>> https://www.aozora.gr.jp/cards/001670/card56364.html
+>> 銭形平次捕物控、南蛮仏、野村胡堂、
+-rwxrwxrwx 1 level level 16557 Nov 24 09:01 ./aozorabunko/cards/001670/files/56365_ruby_62780.zip
+96/130: ./aozorabunko/cards/001670/files/56365_ruby_62780.zip
+>> update 56365_ruby_096ninjutsu_shinan.txt
+>> update 56365_ruby_utf8_096ninjutsu_shinan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56365.html
+>> 銭形平次捕物控、忍術指南、野村胡堂、
+-rwxrwxrwx 1 level level 12692 Nov 24 09:01 ./aozorabunko/cards/001670/files/56366_ruby_67693.zip
+97/130: ./aozorabunko/cards/001670/files/56366_ruby_67693.zip
+>> update 56366_ruby_097iinazukeno_shi.txt
+>> update 56366_ruby_utf8_097iinazukeno_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56366.html
+>> 銭形平次捕物控、許嫁の死、野村胡堂、
+-rwxrwxrwx 1 level level 17357 Nov 24 09:01 ./aozorabunko/cards/001670/files/56367_ruby_62767.zip
+98/130: ./aozorabunko/cards/001670/files/56367_ruby_62767.zip
+>> update 56367_ruby_093hyaku_monogatari.txt
+>> update 56367_ruby_utf8_093hyaku_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001670/card56367.html
+>> 銭形平次捕物控、百物語、野村胡堂、
+-rwxrwxrwx 1 level level 15069 Nov 24 09:01 ./aozorabunko/cards/001670/files/56371_ruby_64039.zip
+99/130: ./aozorabunko/cards/001670/files/56371_ruby_64039.zip
+>> update 56371_ruby_015kaiden_shiroi_nezumi.txt
+>> update 56371_ruby_utf8_015kaiden_shiroi_nezumi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56371.html
+>> 銭形平次捕物控、怪伝白い鼠、野村胡堂、
+-rwxrwxrwx 1 level level 16022 Nov 24 09:01 ./aozorabunko/cards/001670/files/56372_ruby_63483.zip
+100/130: ./aozorabunko/cards/001670/files/56372_ruby_63483.zip
+>> update 56372_ruby_001konjikino_otome.txt
+>> update 56372_ruby_utf8_001konjikino_otome.txt
+>> https://www.aozora.gr.jp/cards/001670/card56372.html
+>> 銭形平次捕物控、金色の処女、野村胡堂、
+-rwxrwxrwx 1 level level 12133 Nov 24 09:01 ./aozorabunko/cards/001670/files/56373_ruby_59965.zip
+101/130: ./aozorabunko/cards/001670/files/56373_ruby_59965.zip
+>> update 56373_ruby_129okichi_oyuki.txt
+>> update 56373_ruby_utf8_129okichi_oyuki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56373.html
+>> 銭形平次捕物控、お吉お雪、野村胡堂、
+-rwxrwxrwx 1 level level 13953 Nov 24 09:01 ./aozorabunko/cards/001670/files/56374_ruby_58048.zip
+102/130: ./aozorabunko/cards/001670/files/56374_ruby_58048.zip
+>> update 56374_ruby_130butteki.txt
+>> update 56374_ruby_utf8_130butteki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56374.html
+>> 銭形平次捕物控、仏敵、野村胡堂、
+-rwxrwxrwx 1 level level 12822 Nov 24 09:01 ./aozorabunko/cards/001670/files/56376_ruby_69261.zip
+103/130: ./aozorabunko/cards/001670/files/56376_ruby_69261.zip
+>> update 56376_ruby_126tsujigiri.txt
+>> update 56376_ruby_utf8_126tsujigiri.txt
+>> https://www.aozora.gr.jp/cards/001670/card56376.html
+>> 銭形平次捕物控、辻斬、野村胡堂、
+-rwxrwxrwx 1 level level 11814 Nov 24 09:01 ./aozorabunko/cards/001670/files/56377_ruby_59665.zip
+104/130: ./aozorabunko/cards/001670/files/56377_ruby_59665.zip
+>> update 56377_ruby_128tsukino_kuma.txt
+>> update 56377_ruby_utf8_128tsukino_kuma.txt
+>> https://www.aozora.gr.jp/cards/001670/card56377.html
+>> 銭形平次捕物控、月の隈、野村胡堂、
+-rwxrwxrwx 1 level level 12402 Nov 24 09:01 ./aozorabunko/cards/001670/files/56379_ruby_69298.zip
+105/130: ./aozorabunko/cards/001670/files/56379_ruby_69298.zip
+>> update 56379_ruby_127yasono_shi.txt
+>> update 56379_ruby_utf8_127yasono_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56379.html
+>> 銭形平次捕物控、弥惣の死、野村胡堂、
+-rwxrwxrwx 1 level level 15098 Nov 24 09:01 ./aozorabunko/cards/001670/files/56381_ruby_67679.zip
+106/130: ./aozorabunko/cards/001670/files/56381_ruby_67679.zip
+>> update 56381_ruby_091waraitake.txt
+>> update 56381_ruby_utf8_091waraitake.txt
+>> https://www.aozora.gr.jp/cards/001670/card56381.html
+>> 銭形平次捕物控、笑い茸、野村胡堂、
+-rwxrwxrwx 1 level level 14478 Nov 24 09:01 ./aozorabunko/cards/001670/files/56382_ruby_67957.zip
+107/130: ./aozorabunko/cards/001670/files/56382_ruby_67957.zip
+>> update 56382_ruby_098benifude_ganmon.txt
+>> update 56382_ruby_utf8_098benifude_ganmon.txt
+>> https://www.aozora.gr.jp/cards/001670/card56382.html
+>> 銭形平次捕物控、紅筆願文、野村胡堂、
+-rwxrwxrwx 1 level level 14207 Nov 24 09:01 ./aozorabunko/cards/001670/files/56383_ruby_63795.zip
+108/130: ./aozorabunko/cards/001670/files/56383_ruby_63795.zip
+>> update 56383_ruby_007osan_horimono_shirabe.txt
+>> update 56383_ruby_utf8_007osan_horimono_shirabe.txt
+>> https://www.aozora.gr.jp/cards/001670/card56383.html
+>> 銭形平次捕物控、お珊文身調べ、野村胡堂、
+-rwxrwxrwx 1 level level 16492 Nov 24 09:01 ./aozorabunko/cards/001670/files/56384_ruby_68226.zip
+109/130: ./aozorabunko/cards/001670/files/56384_ruby_68226.zip
+>> update 56384_ruby_103kyoto_kaeru.txt
+>> update 56384_ruby_utf8_103kyoto_kaeru.txt
+>> https://www.aozora.gr.jp/cards/001670/card56384.html
+>> 銭形平次捕物控、巨盗還る、野村胡堂、
+-rwxrwxrwx 1 level level 15871 Nov 24 09:01 ./aozorabunko/cards/001670/files/56387_ruby_64049.zip
+110/130: ./aozorabunko/cards/001670/files/56387_ruby_64049.zip
+>> update 56387_ruby_020shunurino_hako.txt
+>> update 56387_ruby_utf8_020shunurino_hako.txt
+>> https://www.aozora.gr.jp/cards/001670/card56387.html
+>> 銭形平次捕物控、朱塗の筐、野村胡堂、
+-rwxrwxrwx 1 level level 12118 Nov 24 09:01 ./aozorabunko/cards/001670/files/56392_ruby_60003.zip
+111/130: ./aozorabunko/cards/001670/files/56392_ruby_60003.zip
+>> update 56392_ruby_137akai_shigoki.txt
+>> update 56392_ruby_utf8_137akai_shigoki.txt
+>> https://www.aozora.gr.jp/cards/001670/card56392.html
+>> 銭形平次捕物控、紅い扱帯、野村胡堂、
+-rwxrwxrwx 1 level level 12798 Nov 24 09:01 ./aozorabunko/cards/001670/files/56394_ruby_69504.zip
+112/130: ./aozorabunko/cards/001670/files/56394_ruby_69504.zip
+>> update 56394_ruby_138dai_nijushichi_kichi.txt
+>> update 56394_ruby_utf8_138dai_nijushichi_kichi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56394.html
+>> 銭形平次捕物控、第廿七吉、野村胡堂、
+-rwxrwxrwx 1 level level 11851 Nov 24 09:01 ./aozorabunko/cards/001670/files/56395_ruby_59993.zip
+113/130: ./aozorabunko/cards/001670/files/56395_ruby_59993.zip
+>> update 56395_ruby_135hino_noroi.txt
+>> update 56395_ruby_utf8_135hino_noroi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56395.html
+>> 銭形平次捕物控、火の呪い、野村胡堂、
+-rwxrwxrwx 1 level level 12380 Nov 24 09:01 ./aozorabunko/cards/001670/files/56396_ruby_60000.zip
+114/130: ./aozorabunko/cards/001670/files/56396_ruby_60000.zip
+>> update 56396_ruby_136shogorono_shi.txt
+>> update 56396_ruby_utf8_136shogorono_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56396.html
+>> 銭形平次捕物控、鐘五郎の死、野村胡堂、
+-rwxrwxrwx 1 level level 12901 Nov 24 09:01 ./aozorabunko/cards/001670/files/56397_ruby_58049.zip
+115/130: ./aozorabunko/cards/001670/files/56397_ruby_58049.zip
+>> update 56397_ruby_131kagono_yukue.txt
+>> update 56397_ruby_utf8_131kagono_yukue.txt
+>> https://www.aozora.gr.jp/cards/001670/card56397.html
+>> 銭形平次捕物控、駕籠の行方、野村胡堂、
+-rwxrwxrwx 1 level level 15090 Nov 24 09:01 ./aozorabunko/cards/001670/files/56399_ruby_56299.zip
+116/130: ./aozorabunko/cards/001670/files/56399_ruby_56299.zip
+>> update 56399_ruby_150yarino_ore_shinjishinkana.txt
+>> update 56399_ruby_utf8_150yarino_ore_shinjishinkana.txt
+>> https://www.aozora.gr.jp/cards/001670/card56399.html
+>> 銭形平次捕物控、槍の折れ、野村胡堂、
+-rwxrwxrwx 1 level level 11727 Nov 24 09:01 ./aozorabunko/cards/001670/files/56401_ruby_59979.zip
+117/130: ./aozorabunko/cards/001670/files/56401_ruby_59979.zip
+>> update 56401_ruby_133idono_chawan.txt
+>> update 56401_ruby_utf8_133idono_chawan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56401.html
+>> 銭形平次捕物控、井戸の茶碗、野村胡堂、
+-rwxrwxrwx 1 level level 12594 Nov 24 09:01 ./aozorabunko/cards/001670/files/56403_ruby_59973.zip
+118/130: ./aozorabunko/cards/001670/files/56403_ruby_59973.zip
+>> update 56403_ruby_132hinano_wakare.txt
+>> update 56403_ruby_utf8_132hinano_wakare.txt
+>> https://www.aozora.gr.jp/cards/001670/card56403.html
+>> 銭形平次捕物控、雛の別れ、野村胡堂、
+-rwxrwxrwx 1 level level 13228 Nov 24 09:01 ./aozorabunko/cards/001670/files/56405_ruby_69519.zip
+119/130: ./aozorabunko/cards/001670/files/56405_ruby_69519.zip
+>> update 56405_ruby_139chichino_isho.txt
+>> update 56405_ruby_utf8_139chichino_isho.txt
+>> https://www.aozora.gr.jp/cards/001670/card56405.html
+>> 銭形平次捕物控、父の遺書、野村胡堂、
+-rwxrwxrwx 1 level level 12596 Nov 24 09:01 ./aozorabunko/cards/001670/files/56407_ruby_59988.zip
+120/130: ./aozorabunko/cards/001670/files/56407_ruby_59988.zip
+>> update 56407_ruby_134busshino_musume.txt
+>> update 56407_ruby_utf8_134busshino_musume.txt
+>> https://www.aozora.gr.jp/cards/001670/card56407.html
+>> 銭形平次捕物控、仏師の娘、野村胡堂、
+-rwxrwxrwx 1 level level 3976 Nov 24 09:01 ./aozorabunko/cards/001670/files/56930_ruby_57355.zip
+121/130: ./aozorabunko/cards/001670/files/56930_ruby_57355.zip
+>> update 56930_ruby_edono_mukashio_shinobu.txt
+>> update 56930_ruby_utf8_edono_mukashio_shinobu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56930.html
+>> 江戸の昔を偲ぶ、野村胡堂、
+-rwxrwxrwx 1 level level 16712 Nov 24 09:01 ./aozorabunko/cards/001670/files/57216_ruby_63826.zip
+122/130: ./aozorabunko/cards/001670/files/57216_ruby_63826.zip
+>> update 57216_ruby_010shichininno_hanayome.txt
+>> update 57216_ruby_utf8_010shichininno_hanayome.txt
+>> https://www.aozora.gr.jp/cards/001670/card57216.html
+>> 銭形平次捕物控、七人の花嫁、野村胡堂、
+-rwxrwxrwx 1 level level 5556 Nov 24 09:01 ./aozorabunko/cards/001670/files/57217_ruby_57519.zip
+123/130: ./aozorabunko/cards/001670/files/57217_ruby_57519.zip
+>> update 57217_ruby_12zenigata_heiji_izen.txt
+>> update 57217_ruby_utf8_12zenigata_heiji_izen.txt
+>> https://www.aozora.gr.jp/cards/001670/card57217.html
+>> 随筆銭形平次、銭形平次以前、野村胡堂、
+-rwxrwxrwx 1 level level 3955 Nov 24 09:01 ./aozorabunko/cards/001670/files/57218_ruby_57968.zip
+124/130: ./aozorabunko/cards/001670/files/57218_ruby_57968.zip
+>> update 57218_ruby_17torimono_shosetsuto_iumono.txt
+>> update 57218_ruby_utf8_17torimono_shosetsuto_iumono.txt
+>> https://www.aozora.gr.jp/cards/001670/card57218.html
+>> 随筆銭形平次、捕物小説というもの、野村胡堂、
+-rwxrwxrwx 1 level level 7157 Nov 24 09:01 ./aozorabunko/cards/001670/files/57219_ruby_57561.zip
+125/130: ./aozorabunko/cards/001670/files/57219_ruby_57561.zip
+>> update 57219_ruby_zenigata_heiji_uchiakebanashi.txt
+>> update 57219_ruby_utf8_zenigata_heiji_uchiakebanashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card57219.html
+>> 銭形平次打明け話、野村胡堂、
+-rwxrwxrwx 1 level level 5906 Nov 24 09:01 ./aozorabunko/cards/001670/files/57220_ruby_57560.zip
+126/130: ./aozorabunko/cards/001670/files/57220_ruby_57560.zip
+>> update 57220_ruby_heiji_hodan.txt
+>> update 57220_ruby_utf8_heiji_hodan.txt
+>> https://www.aozora.gr.jp/cards/001670/card57220.html
+>> 平次放談、野村胡堂、
+-rwxrwxrwx 1 level level 3161 Nov 24 09:01 ./aozorabunko/cards/001670/files/57221_ruby_57356.zip
+127/130: ./aozorabunko/cards/001670/files/57221_ruby_57356.zip
+>> update 57221_ruby_07pen_nemu_yuraiki.txt
+>> update 57221_ruby_utf8_07pen_nemu_yuraiki.txt
+>> https://www.aozora.gr.jp/cards/001670/card57221.html
+>> 随筆銭形平次、ペンネーム由来記、野村胡堂、
+-rwxrwxrwx 1 level level 14821 Nov 24 09:01 ./aozorabunko/cards/001670/files/57231_ruby_63517.zip
+128/130: ./aozorabunko/cards/001670/files/57231_ruby_63517.zip
+>> update 57231_ruby_004noroino_ginkanzashi.txt
+>> update 57231_ruby_utf8_004noroino_ginkanzashi.txt
+>> https://www.aozora.gr.jp/cards/001670/card57231.html
+>> 銭形平次捕物控、呪いの銀簪、野村胡堂、
+-rwxrwxrwx 1 level level 15127 Nov 24 09:01 ./aozorabunko/cards/001670/files/57232_ruby_64576.zip
+129/130: ./aozorabunko/cards/001670/files/57232_ruby_64576.zip
+>> update 57232_ruby_027maboroshino_tamigoro.txt
+>> update 57232_ruby_utf8_027maboroshino_tamigoro.txt
+>> https://www.aozora.gr.jp/cards/001670/card57232.html
+>> 銭形平次捕物控、幻の民五郎、野村胡堂、
+-rwxrwxrwx 1 level level 15731 Nov 24 09:01 ./aozorabunko/cards/001670/files/57233_ruby_63788.zip
+130/130: ./aozorabunko/cards/001670/files/57233_ruby_63788.zip
+>> update 57233_ruby_006fukushukino_sugata.txt
+>> update 57233_ruby_utf8_006fukushukino_sugata.txt
+>> https://www.aozora.gr.jp/cards/001670/card57233.html
+>> 銭形平次捕物控、復讐鬼の姿、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30690/360 (Accept:130/Reject:0/Update:127/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov 24 09:00:10 JST 2019
+End  : Sun Nov 24 09:07:01 JST 2019
