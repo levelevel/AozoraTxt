@@ -2418,3 +2418,79 @@ Title Total : 30690/360 (Accept:130/Reject:0/Update:127/Rename:2/Empty:0/Multi t
 Git Failed  : 0
 Start: Sun Nov 24 09:00:10 JST 2019
 End  : Sun Nov 24 09:07:01 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov 25 22:16:15 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2d6901ec4b..c5572a4b4a  master     -> origin/master
+Updating 2d6901ec4b..c5572a4b4a
+Fast-forward
+ cards/000019/card58165.html                   |   2 +-
+ cards/000025/card206.html                     |  10 +-
+ cards/000067/card2843.html                    |  12 +-
+ cards/000182/card3217.html                    |   8 +-
+ cards/000182/card3668.html                    |   8 +-
+ cards/000214/card1668.html                    |   8 +-
+ cards/000361/card58199.html                   | 238 +++++++++
+ cards/000361/files/58199_69586.html           | 703 ++++++++++++++++++++++++++
+ cards/000361/files/58199_ruby_69535.zip       | Bin 0 -> 93192 bytes
+ cards/000933/card47694.html                   |   2 +-
+ cards/000933/card47721.html                   |   2 +-
+ cards/001341/card49640.html                   |   6 +-
+ cards/001579/card53499.html                   |   4 +-
+ cards/001579/card53503.html                   |   6 +-
+ cards/001579/files/53499_64140.html           |   2 +-
+ cards/001579/files/53499_ruby_64048.zip       | Bin 12522 -> 12522 bytes
+ cards/001579/files/53503_62102.html           |   2 +-
+ cards/001579/files/53503_ruby_62101.zip       | Bin 66069 -> 66070 bytes
+ cards/001670/card56299.html                   |  10 +-
+ cards/001670/files/56299_66093.html           |   3 +-
+ cards/001670/files/56299_ruby_65941.zip       | Bin 13438 -> 13519 bytes
+ cards/001800/card51339.html                   | 229 +++++++++
+ cards/001800/files/51339_69587.html           |  70 +++
+ cards/001800/files/51339_ruby_69536.zip       | Bin 0 -> 5051 bytes
+ cards/001891/card58166.html                   |   2 +-
+ 135 files changed, 4227 insertions(+), 2704 deletions(-)
+Date: Mon Nov 25 22:17:18 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 24 09:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 93192 Nov 25 22:17 ./aozorabunko/cards/000361/files/58199_ruby_69535.zip
+1/5: ./aozorabunko/cards/000361/files/58199_ruby_69535.zip
+>> add 58199_ruby_01kreitserova_sonata.txt
+>> add 58199_ruby_utf8_01kreitserova_sonata.txt
+>> https://www.aozora.gr.jp/cards/000361/card58199.html
+>> クロイツェル・ソナタ、KREITSEROVA SONATA、トルストイ、米川正夫訳、
+-rwxrwxrwx 1 level level 12522 Nov 25 22:17 ./aozorabunko/cards/001579/files/53499_ruby_64048.zip
+2/5: ./aozorabunko/cards/001579/files/53499_ruby_64048.zip
+>> update 53499_ruby_tokono_nyonin.txt
+>> update 53499_ruby_utf8_tokono_nyonin.txt
+>> https://www.aozora.gr.jp/cards/001579/card53499.html
+>> 陶古の女人、室生犀星、
+-rwxrwxrwx 1 level level 66070 Nov 25 22:17 ./aozorabunko/cards/001579/files/53503_ruby_62101.zip
+3/5: ./aozorabunko/cards/001579/files/53503_ruby_62101.zip
+>> update 53503_ruby_mitsuno_aware.txt
+>> update 53503_ruby_utf8_mitsuno_aware.txt
+>> https://www.aozora.gr.jp/cards/001579/card53503.html
+>> 蜜のあわれ、室生犀星、
+-rwxrwxrwx 1 level level 13519 Nov 25 22:17 ./aozorabunko/cards/001670/files/56299_ruby_65941.zip
+4/5: ./aozorabunko/cards/001670/files/56299_ruby_65941.zip
+>> update 56299_ruby_054jakono_nioi.txt
+>> update 56299_ruby_utf8_054jakono_nioi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56299.html
+>> 銭形平次捕物控、麝香の匂い、野村胡堂、
+-rwxrwxrwx 1 level level 5051 Nov 25 22:17 ./aozorabunko/cards/001800/files/51339_ruby_69536.zip
+5/5: ./aozorabunko/cards/001800/files/51339_ruby_69536.zip
+>> add 51339_ruby_02kaidai_kreitserova_sonata.txt
+>> add 51339_ruby_utf8_02kaidai_kreitserova_sonata.txt
+>> https://www.aozora.gr.jp/cards/001800/card51339.html
+>> クロイツェル・ソナタ、解題、米川正夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30694/360 (Accept:5/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov 25 22:16:15 JST 2019
+End  : Mon Nov 25 22:18:59 JST 2019
