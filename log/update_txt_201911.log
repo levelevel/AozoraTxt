@@ -2494,3 +2494,83 @@ Title Total : 30694/360 (Accept:5/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov 25 22:16:15 JST 2019
 End  : Mon Nov 25 22:18:59 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov 27 09:41:24 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c5572a4b4a..eafa390ea6  master     -> origin/master
+Updating c5572a4b4a..eafa390ea6
+Fast-forward
+ cards/000025/card206.html                     |   10 +-
+ cards/000025/files/206_20463.html             |    8 +-
+ cards/000025/files/206_ruby_20462.zip         |  Bin 11714 -> 11769 bytes
+ cards/000067/card2843.html                    |    8 +-
+ cards/000067/files/2843_26253.html            | 2112 +++++++++++++------------
+ cards/000067/files/2843_ruby_26236.zip        |  Bin 145398 -> 143980 bytes
+ cards/000214/card1668.html                    |    8 +-
+ cards/000214/card48892.html                   |  243 +++
+ cards/000214/card49093.html                   |  243 +++
+ cards/000214/files/1668_26031.html            |    4 +-
+ cards/000214/files/1668_ruby_24546.zip        |  Bin 161371 -> 161377 bytes
+ cards/000214/files/48892_69590.html           |   80 +
+ cards/000214/files/48892_ruby_69539.zip       |  Bin 0 -> 5846 bytes
+ cards/000214/files/49093_69589.html           |   73 +
+ cards/000214/files/49093_ruby_69538.zip       |  Bin 0 -> 3572 bytes
+ cards/000361/card58199.html                   |    2 +-
+ cards/001341/card49640.html                   |   10 +-
+ cards/001341/card49653.html                   |   12 +-
+ cards/001341/card49673.html                   |   12 +-
+ cards/001670/card56398.html                   |  234 +++
+ cards/001670/files/56398_69588.html           |  355 +++++
+ cards/001670/files/56398_ruby_69537.zip       |  Bin 0 -> 12083 bytes
+ cards/001800/card51339.html                   |    2 +-
+ 167 files changed, 5477 insertions(+), 4229 deletions(-)
+Date: Wed Nov 27 09:42:14 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 25 22:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11769 Nov 27 09:42 ./aozorabunko/cards/000025/files/206_ruby_20462.zip
+1/6: ./aozorabunko/cards/000025/files/206_ruby_20462.zip
+>> git-mv 206_ruby_chiisakimonoe.txt 206_ruby_chiisaki_monoe.txt
+>> git-mv 206_ruby_utf8_chiisakimonoe.txt 206_ruby_utf8_chiisaki_monoe.txt
+>> https://www.aozora.gr.jp/cards/000025/card206.html
+>> 小さき者へ、有島武郎、
+-rwxrwxrwx 1 level level 143980 Nov 27 09:42 ./aozorabunko/cards/000067/files/2843_ruby_26236.zip
+2/6: ./aozorabunko/cards/000067/files/2843_ruby_26236.zip
+>> update 2843_ruby_shino_genri.txt
+>> update 2843_ruby_utf8_shino_genri.txt
+>> https://www.aozora.gr.jp/cards/000067/card2843.html
+>> 詩の原理、萩原朔太郎、
+-rwxrwxrwx 1 level level 161377 Nov 27 09:42 ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+3/6: ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+>> update 1668_ruby_inaka_kyoshi.txt
+>> update 1668_ruby_utf8_inaka_kyoshi.txt
+>> https://www.aozora.gr.jp/cards/000214/card1668.html
+>> 田舎教師、田山花袋、
+-rwxrwxrwx 1 level level 5846 Nov 27 09:42 ./aozorabunko/cards/000214/files/48892_ruby_69539.zip
+4/6: ./aozorabunko/cards/000214/files/48892_ruby_69539.zip
+>> add 48892_ruby_hatsufuyuno_kiji.txt
+>> add 48892_ruby_utf8_hatsufuyuno_kiji.txt
+>> https://www.aozora.gr.jp/cards/000214/card48892.html
+>> 初冬の記事、田山録弥、
+-rwxrwxrwx 1 level level 3572 Nov 27 09:42 ./aozorabunko/cards/000214/files/49093_ruby_69538.zip
+5/6: ./aozorabunko/cards/000214/files/49093_ruby_69538.zip
+>> add 49093_ruby_machi.txt
+>> add 49093_ruby_utf8_machi.txt
+>> https://www.aozora.gr.jp/cards/000214/card49093.html
+>> 町、田山録弥、
+-rwxrwxrwx 1 level level 12083 Nov 27 09:42 ./aozorabunko/cards/001670/files/56398_ruby_69537.zip
+6/6: ./aozorabunko/cards/001670/files/56398_ruby_69537.zip
+>> add 56398_ruby_140itsutsuno_inochi.txt
+>> add 56398_ruby_utf8_140itsutsuno_inochi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56398.html
+>> 銭形平次捕物控、五つの命、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30700/360 (Accept:6/Reject:0/Update:2/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Nov 27 09:41:24 JST 2019
+End  : Wed Nov 27 09:43:26 JST 2019
