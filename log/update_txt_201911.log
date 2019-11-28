@@ -2574,3 +2574,62 @@ Title Total : 30700/360 (Accept:6/Reject:0/Update:2/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Nov 27 09:41:24 JST 2019
 End  : Wed Nov 27 09:43:26 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Nov 28 22:38:22 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   eafa390ea6..0b8fa8016f  master     -> origin/master
+Updating eafa390ea6..0b8fa8016f
+Fast-forward
+ cards/000214/card48892.html                   |   2 +-
+ cards/000214/card49093.html                   |   2 +-
+ cards/001257/card53680.html                   | 238 ++++++++++++++
+ cards/001257/files/53680_69591.html           | 144 +++++++++
+ cards/001257/files/53680_ruby_69540.zip       | Bin 0 -> 19739 bytes
+ cards/001341/card49659.html                   |  12 +-
+ cards/001341/files/49659_38961.html           |  14 +-
+ cards/001341/files/49659_ruby_37913.zip       | Bin 10138 -> 10185 bytes
+ cards/001569/card57460.html                   | 234 ++++++++++++++
+ cards/001569/card57462.html                   | 234 ++++++++++++++
+ cards/001569/files/57460_69592.html           | 441 ++++++++++++++++++++++++++
+ cards/001569/files/57460_ruby_69541.zip       | Bin 0 -> 32245 bytes
+ cards/001569/files/57462_69593.html           | 105 ++++++
+ cards/001569/files/57462_ruby_69542.zip       | Bin 0 -> 6489 bytes
+ 77 files changed, 2869 insertions(+), 1492 deletions(-)
+Date: Thu Nov 28 22:39:32 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 27 09:43 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 19739 Nov 28 22:39 ./aozorabunko/cards/001257/files/53680_ruby_69540.zip
+1/4: ./aozorabunko/cards/001257/files/53680_ruby_69540.zip
+>> add 53680_ruby_rip_van_winkle.txt
+>> add 53680_ruby_utf8_rip_van_winkle.txt
+>> https://www.aozora.gr.jp/cards/001257/card53680.html
+>> リップ・ヴァン・ウィンクル、ディードリッヒ・ニッカボッカーの遺稿、ワシントン・アーヴィング　Washington Irving、吉田甲子太郎訳、
+-rwxrwxrwx 1 level level 10185 Nov 28 22:39 ./aozorabunko/cards/001341/files/49659_ruby_37913.zip
+2/4: ./aozorabunko/cards/001341/files/49659_ruby_37913.zip
+>> update 49659_ruby_fukagawano_sanpo.txt
+>> update 49659_ruby_utf8_fukagawano_sanpo.txt
+>> https://www.aozora.gr.jp/cards/001341/card49659.html
+>> 深川の散歩、永井荷風、
+-rwxrwxrwx 1 level level 32245 Nov 28 22:39 ./aozorabunko/cards/001569/files/57460_ruby_69541.zip
+3/4: ./aozorabunko/cards/001569/files/57460_ruby_69541.zip
+>> add 57460_ruby_senseio_meguru_hanashi.txt
+>> add 57460_ruby_utf8_senseio_meguru_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card57460.html
+>> 先生を囲る話、中谷宇吉郎、
+-rwxrwxrwx 1 level level 6489 Nov 28 22:39 ./aozorabunko/cards/001569/files/57462_ruby_69542.zip
+4/4: ./aozorabunko/cards/001569/files/57462_ruby_69542.zip
+>> add 57462_ruby_zoku_senseio_meguru_hanashi.txt
+>> add 57462_ruby_utf8_zoku_senseio_meguru_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card57462.html
+>> 続先生を囲る話、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30706/360 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Nov 28 22:38:22 JST 2019
+End  : Thu Nov 28 22:40:30 JST 2019
