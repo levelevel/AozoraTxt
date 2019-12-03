@@ -50,3 +50,43 @@ Title Total : 30720/360 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec  2 10:57:50 JST 2019
 End  : Mon Dec  2 10:59:12 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec  4 00:06:51 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d2ee189ea5..8ab09dd342  master     -> origin/master
+Updating d2ee189ea5..8ab09dd342
+Fast-forward
+ cards/001336/card51295.html                   | 229 ++++++++++++
+ cards/001336/files/51295_69722.html           |  68 ++++
+ cards/001336/files/51295_txt_69677.zip        | Bin 0 -> 2909 bytes
+ cards/001341/card56225.html                   | 234 +++++++++++++
+ cards/001341/files/56225_69721.html           | 487 ++++++++++++++++++++++++++
+ cards/001341/files/56225_ruby_69676.zip       | Bin 0 -> 40520 bytes
+ cards/002091/card59877.html                   |   2 +-
+ 119 files changed, 2957 insertions(+), 1858 deletions(-)
+Date: Wed Dec  4 00:07:39 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  2 10:59 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2909 Dec  4 00:07 ./aozorabunko/cards/001336/files/51295_txt_69677.zip
+1/2: ./aozorabunko/cards/001336/files/51295_txt_69677.zip
+>> add 51295_txt_raihoshano_moderu.txt
+>> add 51295_txt_utf8_raihoshano_moderu.txt
+>> https://www.aozora.gr.jp/cards/001336/card51295.html
+>> 來訪者のモデル、木場貞、
+-rwxrwxrwx 1 level level 40520 Dec  4 00:07 ./aozorabunko/cards/001341/files/56225_ruby_69676.zip
+2/2: ./aozorabunko/cards/001341/files/56225_ruby_69676.zip
+>> add 56225_ruby_raihosha.txt
+>> add 56225_ruby_utf8_raihosha.txt
+>> https://www.aozora.gr.jp/cards/001341/card56225.html
+>> 来訪者、永井荷風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30724/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec  4 00:06:51 JST 2019
+End  : Wed Dec  4 00:08:50 JST 2019
