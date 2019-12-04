@@ -1,5 +1,6 @@
 tmp/
 *.bak
+*.zip
 .vscode
 /etc/update
 /etc/update.org
