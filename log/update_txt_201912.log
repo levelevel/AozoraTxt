@@ -122,3 +122,34 @@ Title Total : 30726/360 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Dec  4 23:24:44 JST 2019
 End  : Wed Dec  4 23:26:45 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec  5 23:00:32 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   04821a8013..81a71aaf19  master     -> origin/master
+Updating 04821a8013..81a71aaf19
+Fast-forward
+ cards/001670/card56391.html                   | 234 ++++++++++++++++
+ cards/001670/files/56391_69724.html           | 369 ++++++++++++++++++++++++++
+ cards/001670/files/56391_ruby_69679.zip       | Bin 0 -> 13686 bytes
+ cards/001937/card59875.html                   |   2 +-
+ 47 files changed, 1789 insertions(+), 1189 deletions(-)
+Date: Thu Dec  5 23:01:48 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  4 23:26 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13686 Dec  5 23:01 ./aozorabunko/cards/001670/files/56391_ruby_69679.zip
+1/1: ./aozorabunko/cards/001670/files/56391_ruby_69679.zip
+>> add 56391_ruby_141nimaino_koban.txt
+>> add 56391_ruby_utf8_141nimaino_koban.txt
+>> https://www.aozora.gr.jp/cards/001670/card56391.html
+>> 銭形平次捕物控、二枚の小判、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30728/360 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec  5 23:00:32 JST 2019
+End  : Thu Dec  5 23:03:40 JST 2019
