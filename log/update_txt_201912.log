@@ -234,3 +234,45 @@ Title Total : 30736/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Dec  8 08:06:47 JST 2019
 End  : Sun Dec  8 08:09:21 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec 10 00:11:38 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   386cff8385..9401f35487  master     -> origin/master
+Updating 386cff8385..9401f35487
+Fast-forward
+ cards/000148/card58278.html                   | 229 ++++++++++++++++++++++++++
+ cards/000148/files/58278_69729.html           |  64 +++++++
+ cards/000148/files/58278_txt_69684.zip        | Bin 0 -> 992 bytes
+ cards/000280/card59236.html                   |   2 +-
+ cards/000416/card56971.html                   |   2 +-
+ cards/001373/card56547.html                   |  18 +-
+ cards/001373/files/56547_69812.html           |  88 ++++++++++
+ cards/001373/files/56547_ruby_69811.zip       | Bin 0 -> 3599 bytes
+ cards/001763/card58823.html                   |   2 +-
+ 67 files changed, 1359 insertions(+), 984 deletions(-)
+Date: Tue Dec 10 00:12:23 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  8 08:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 992 Dec 10 00:12 ./aozorabunko/cards/000148/files/58278_txt_69684.zip
+1/2: ./aozorabunko/cards/000148/files/58278_txt_69684.zip
+>> add 58278_txt_minasokono_kan.txt
+>> add 58278_txt_utf8_minasokono_kan.txt
+>> https://www.aozora.gr.jp/cards/000148/card58278.html
+>> 水底の感、夏目漱石、
+-rwxrwxrwx 1 level level 3599 Dec 10 00:12 ./aozorabunko/cards/001373/files/56547_ruby_69811.zip
+2/2: ./aozorabunko/cards/001373/files/56547_ruby_69811.zip
+>> update 56547_ruby_shimikobore.txt
+>> update 56547_ruby_utf8_shimikobore.txt
+>> https://www.aozora.gr.jp/cards/001373/card56547.html
+>> 紙魚こぼれ、木暮理太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30738/360 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec 10 00:11:38 JST 2019
+End  : Tue Dec 10 00:13:09 JST 2019
