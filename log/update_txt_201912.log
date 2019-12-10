@@ -276,3 +276,43 @@ Title Total : 30738/360 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 10 00:11:38 JST 2019
 End  : Tue Dec 10 00:13:09 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 11 00:13:17 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9401f35487..96b38decbc  master     -> origin/master
+Updating 9401f35487..96b38decbc
+Fast-forward
+ cards/000148/card58278.html                   |   2 +-
+ cards/001867/card58325.html                   | 234 ++++++++++++++++++++++
+ cards/001867/card58326.html                   | 234 ++++++++++++++++++++++
+ cards/001867/files/58325_69730.html           | 272 ++++++++++++++++++++++++++
+ cards/001867/files/58325_ruby_69685.zip       | Bin 0 -> 20334 bytes
+ cards/001867/files/58326_69731.html           |  97 +++++++++
+ cards/001867/files/58326_ruby_69686.zip       | Bin 0 -> 4334 bytes
+ 122 files changed, 4908 insertions(+), 4076 deletions(-)
+Date: Wed Dec 11 00:14:24 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 10 00:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 20334 Dec 11 00:14 ./aozorabunko/cards/001867/files/58325_ruby_69685.zip
+1/2: ./aozorabunko/cards/001867/files/58325_ruby_69685.zip
+>> add 58325_ruby_ojisanno_hanashi.txt
+>> add 58325_ruby_utf8_ojisanno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001867/card58325.html
+>> おじさんの話、小山清、
+-rwxrwxrwx 1 level level 4334 Dec 11 00:14 ./aozorabunko/cards/001867/files/58326_ruby_69686.zip
+2/2: ./aozorabunko/cards/001867/files/58326_ruby_69686.zip
+>> add 58326_ruby_shiori.txt
+>> add 58326_ruby_utf8_shiori.txt
+>> https://www.aozora.gr.jp/cards/001867/card58326.html
+>> 栞、小山清、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30742/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 11 00:13:17 JST 2019
+End  : Wed Dec 11 00:17:02 JST 2019
