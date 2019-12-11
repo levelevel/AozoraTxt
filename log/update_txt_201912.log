@@ -316,3 +316,62 @@ Title Total : 30742/360 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Dec 11 00:13:17 JST 2019
 End  : Wed Dec 11 00:17:02 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec 12 01:09:41 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   96b38decbc..932f6f75d4  master     -> origin/master
+Updating 96b38decbc..932f6f75d4
+Fast-forward
+ cards/001341/card49663.html                   |  16 +-
+ cards/001341/card49673.html                   |  20 +--
+ cards/001341/files/49663_69823.html           |  63 +++++++
+ cards/001341/files/49663_ruby_69822.zip       | Bin 0 -> 3438 bytes
+ cards/001341/files/49673_69833.html           | 114 +++++++++++++
+ cards/001341/files/49673_ruby_69832.zip       | Bin 0 -> 9378 bytes
+ cards/001475/card51618.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53055.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/51618_69733.html           |  69 ++++++++
+ cards/001475/files/51618_ruby_69688.zip       | Bin 0 -> 1231 bytes
+ cards/001475/files/53055_69732.html           | 108 ++++++++++++
+ cards/001475/files/53055_ruby_69687.zip       | Bin 0 -> 4207 bytes
+ cards/001867/card58325.html                   |   2 +-
+ cards/001867/card58326.html                   |   2 +-
+ 113 files changed, 3102 insertions(+), 2244 deletions(-)
+Date: Thu Dec 12 01:11:42 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 11 00:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3438 Dec 12 01:11 ./aozorabunko/cards/001341/files/49663_ruby_69822.zip
+1/4: ./aozorabunko/cards/001341/files/49663_ruby_69822.zip
+>> update 49663_ruby_mizuno_nagare.txt
+>> update 49663_ruby_utf8_mizuno_nagare.txt
+>> https://www.aozora.gr.jp/cards/001341/card49663.html
+>> 水のながれ、永井荷風、
+-rwxrwxrwx 1 level level 9378 Dec 12 01:11 ./aozorabunko/cards/001341/files/49673_ruby_69832.zip
+2/4: ./aozorabunko/cards/001341/files/49673_ruby_69832.zip
+>> update 49673_ruby_reibyo.txt
+>> update 49673_ruby_utf8_reibyo.txt
+>> https://www.aozora.gr.jp/cards/001341/card49673.html
+>> 霊廟、永井荷風、
+-rwxrwxrwx 1 level level 1231 Dec 12 01:11 ./aozorabunko/cards/001475/files/51618_ruby_69688.zip
+3/4: ./aozorabunko/cards/001475/files/51618_ruby_69688.zip
+>> add 51618_ruby_tsuzuresase.txt
+>> add 51618_ruby_utf8_tsuzuresase.txt
+>> https://www.aozora.gr.jp/cards/001475/card51618.html
+>> つづれさせ、小川未明、
+-rwxrwxrwx 1 level level 4207 Dec 12 01:11 ./aozorabunko/cards/001475/files/53055_ruby_69687.zip
+4/4: ./aozorabunko/cards/001475/files/53055_ruby_69687.zip
+>> add 53055_ruby_enpono_haha.txt
+>> add 53055_ruby_utf8_enpono_haha.txt
+>> https://www.aozora.gr.jp/cards/001475/card53055.html
+>> 遠方の母、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30746/360 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec 12 01:09:41 JST 2019
+End  : Thu Dec 12 01:14:37 JST 2019
