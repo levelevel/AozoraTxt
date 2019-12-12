@@ -375,3 +375,91 @@ Title Total : 30746/360 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 12 01:09:41 JST 2019
 End  : Thu Dec 12 01:14:37 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec 13 00:47:11 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   932f6f75d4..4580081c10  master     -> origin/master
+Updating 932f6f75d4..4580081c10
+Fast-forward
+ cards/000296/card50266.html                   | 234 ++++++++++++++++++++++++++
+ cards/000296/files/50266_69734.html           |  67 ++++++++
+ cards/000296/files/50266_ruby_69689.zip       | Bin 0 -> 5583 bytes
+ cards/000599/card58454.html                   |  14 +-
+ cards/000599/files/58454_69844.html           |  68 ++++++++
+ cards/000599/files/58454_ruby_69834.zip       | Bin 0 -> 2674 bytes
+ cards/001341/card49636.html                   |  14 +-
+ cards/001341/card49652.html                   |  22 +--
+ cards/001341/card49653.html                   |  16 +-
+ cards/001341/card49656.html                   |  16 +-
+ cards/001341/card49661.html                   |  14 +-
+ cards/001341/files/49636_69837.html           | 152 +++++++++++++++++
+ cards/001341/files/49636_ruby_38367.zip       | Bin 12380 -> 12431 bytes
+ cards/001341/files/49652_69843.html           | 141 ++++++++++++++++
+ cards/001341/files/49652_ruby_69842.zip       | Bin 0 -> 9164 bytes
+ cards/001341/files/49653_69839.html           | 110 ++++++++++++
+ cards/001341/files/49653_ruby_69838.zip       | Bin 0 -> 9005 bytes
+ cards/001341/files/49656_69841.html           | 163 ++++++++++++++++++
+ cards/001341/files/49656_ruby_69840.zip       | Bin 0 -> 14821 bytes
+ cards/001341/files/49661_69836.html           | 121 +++++++++++++
+ cards/001475/card51618.html                   |   2 +-
+ cards/001475/card53055.html                   |   2 +-
+ cards/001761/card59480.html                   | 234 ++++++++++++++++++++++++++
+ cards/001761/files/59480_69735.html           |  66 ++++++++
+ cards/001761/files/59480_txt_69690.zip        | Bin 0 -> 2066 bytes
+ 144 files changed, 5723 insertions(+), 4260 deletions(-)
+Date: Fri Dec 13 00:47:58 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 12 01:14 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5583 Dec 13 00:47 ./aozorabunko/cards/000296/files/50266_ruby_69689.zip
+1/7: ./aozorabunko/cards/000296/files/50266_ruby_69689.zip
+>> add 50266_ruby_kihinno_sengen_chitokuno_mohan.txt
+>> add 50266_ruby_utf8_kihinno_sengen_chitokuno_mohan.txt
+>> https://www.aozora.gr.jp/cards/000296/card50266.html
+>> 〔気品の泉源、智徳の模範〕、福澤諭吉、
+-rwxrwxrwx 1 level level 2674 Dec 13 00:47 ./aozorabunko/cards/000599/files/58454_ruby_69834.zip
+2/7: ./aozorabunko/cards/000599/files/58454_ruby_69834.zip
+>> update 58454_ruby_imano_shaseibun.txt
+>> update 58454_ruby_utf8_imano_shaseibun.txt
+>> https://www.aozora.gr.jp/cards/000599/card58454.html
+>> 今の寫生文、島村抱月、
+-rwxrwxrwx 1 level level 12431 Dec 13 00:47 ./aozorabunko/cards/001341/files/49636_ruby_38367.zip
+3/7: ./aozorabunko/cards/001341/files/49636_ruby_38367.zip
+>> git-mv 49636_ruby_katsushikamiyage.txt 49636_ruby_katsushika_miyage.txt
+>> git-mv 49636_ruby_utf8_katsushikamiyage.txt 49636_ruby_utf8_katsushika_miyage.txt
+>> https://www.aozora.gr.jp/cards/001341/card49636.html
+>> 葛飾土産、永井荷風、
+-rwxrwxrwx 1 level level 9164 Dec 13 00:47 ./aozorabunko/cards/001341/files/49652_ruby_69842.zip
+4/7: ./aozorabunko/cards/001341/files/49652_ruby_69842.zip
+>> update 49652_ruby_terajimano_ki.txt
+>> update 49652_ruby_utf8_terajimano_ki.txt
+>> https://www.aozora.gr.jp/cards/001341/card49652.html
+>> 寺じまの記、永井荷風、
+-rwxrwxrwx 1 level level 9005 Dec 13 00:47 ./aozorabunko/cards/001341/files/49653_ruby_69838.zip
+5/7: ./aozorabunko/cards/001341/files/49653_ruby_69838.zip
+>> update 49653_ruby_denzuin.txt
+>> update 49653_ruby_utf8_denzuin.txt
+>> https://www.aozora.gr.jp/cards/001341/card49653.html
+>> 伝通院、永井荷風、
+-rwxrwxrwx 1 level level 14821 Dec 13 00:47 ./aozorabunko/cards/001341/files/49656_ruby_69840.zip
+6/7: ./aozorabunko/cards/001341/files/49656_ruby_69840.zip
+>> update 49656_ruby_natsuno_machi.txt
+>> update 49656_ruby_utf8_natsuno_machi.txt
+>> https://www.aozora.gr.jp/cards/001341/card49656.html
+>> 夏の町、永井荷風、
+-rwxrwxrwx 1 level level 2066 Dec 13 00:47 ./aozorabunko/cards/001761/files/59480_txt_69690.zip
+7/7: ./aozorabunko/cards/001761/files/59480_txt_69690.zip
+>> add 59480_txt_seikakuto_hyojo.txt
+>> add 59480_txt_utf8_seikakuto_hyojo.txt
+>> https://www.aozora.gr.jp/cards/001761/card59480.html
+>> 性格と表情、小津安二郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30750/360 (Accept:7/Reject:0/Update:4/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec 13 00:47:11 JST 2019
+End  : Fri Dec 13 00:49:24 JST 2019
