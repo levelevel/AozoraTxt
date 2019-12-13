@@ -463,3 +463,144 @@ Title Total : 30750/360 (Accept:7/Reject:0/Update:4/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec 13 00:47:11 JST 2019
 End  : Fri Dec 13 00:49:24 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 14 01:35:50 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4580081c10..48980d59b9  master     -> origin/master
+Updating 4580081c10..48980d59b9
+Fast-forward
+ cards/000027/card58158.html                   |  234 ++++
+ cards/000027/files/58158_69736.html           |   95 ++
+ cards/000027/files/58158_ruby_69691.zip       |  Bin 0 -> 8421 bytes
+ cards/000214/card48968.html                   |  243 ++++
+ cards/000214/files/48968_69737.html           |  123 ++
+ cards/000214/files/48968_ruby_69692.zip       |  Bin 0 -> 5720 bytes
+ cards/000296/card50266.html                   |    2 +-
+ cards/001331/card48283.html                   |    2 +-
+ cards/001331/card48284.html                   |    2 +-
+ cards/001334/card48286.html                   |    2 +-
+ cards/001334/card48287.html                   |    2 +-
+ cards/001341/card49636.html                   |  Bin 8461 -> 8294 bytes
+ cards/001341/card49640.html                   |   10 +-
+ cards/001341/card49652.html                   |   12 +-
+ cards/001341/card49653.html                   |   14 +-
+ cards/001341/card49656.html                   |   12 +-
+ cards/001341/card49658.html                   |   16 +-
+ cards/001341/card49659.html                   |   10 +-
+ cards/001341/card49661.html                   |   12 +-
+ cards/001341/card49663.html                   |   12 +-
+ cards/001341/card49664.html                   |   16 +-
+ cards/001341/card49673.html                   |   12 +-
+ cards/001341/files/49636_69846.html           |  Bin 0 -> 9164 bytes
+ cards/001341/files/49640_69847.html           |   91 ++
+ cards/001341/files/49640_ruby_37909.zip       |  Bin 9877 -> 9877 bytes
+ cards/001341/files/49652_69848.html           |  141 +++
+ cards/001341/files/49652_ruby_69842.zip       |  Bin 9164 -> 9164 bytes
+ cards/001341/files/49653_69849.html           |  110 ++
+ cards/001341/files/49653_ruby_69838.zip       |  Bin 9005 -> 9006 bytes
+ cards/001341/files/49656_69850.html           |  163 +++
+ cards/001341/files/49656_ruby_69840.zip       |  Bin 14821 -> 14821 bytes
+ cards/001341/files/49658_69856.html           |  352 ++++++
+ cards/001341/files/49658_ruby_37636.zip       |  Bin 69401 -> 69496 bytes
+ cards/001341/files/49659_69851.html           |   93 ++
+ cards/001341/files/49659_ruby_37913.zip       |  Bin 10185 -> 10188 bytes
+ cards/001341/files/49661_69852.html           |  121 ++
+ cards/001341/files/49661_ruby_37914.zip       |  Bin 7834 -> 7922 bytes
+ cards/001341/files/49663_69853.html           |   63 +
+ cards/001341/files/49663_ruby_69822.zip       |  Bin 3438 -> 3438 bytes
+ cards/001341/files/49664_69857.html           |  205 ++++
+ cards/001341/files/49664_ruby_38373.zip       |  Bin 14377 -> 14467 bytes
+ cards/001341/files/49673_69854.html           |  114 ++
+ cards/001341/files/49673_ruby_69832.zip       |  Bin 9378 -> 9378 bytes
+ cards/001373/card56547.html                   |   10 +-
+ cards/001373/files/56547_69845.html           |   88 ++
+ cards/001579/card53503.html                   |    8 +-
+ cards/001579/files/53503_69855.html           | 1525 +++++++++++++++++++++++++
+ cards/001761/card59480.html                   |    2 +-
+ 174 files changed, 8746 insertions(+), 4598 deletions(-)
+Date: Sat Dec 14 01:36:38 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 13 00:49 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8421 Dec 14 01:36 ./aozorabunko/cards/000027/files/58158_ruby_69691.zip
+1/12: ./aozorabunko/cards/000027/files/58158_ruby_69691.zip
+>> add 58158_ruby_okujonendakeno_zettenni_tatsu_ki.txt
+>> add 58158_ruby_utf8_okujonendakeno_zettenni_tatsu_ki.txt
+>> https://www.aozora.gr.jp/cards/000027/card58158.html
+>> 奥常念岳の絶巓に立つ記、小島烏水、
+-rwxrwxrwx 1 level level 5720 Dec 14 01:36 ./aozorabunko/cards/000214/files/48968_ruby_69692.zip
+2/12: ./aozorabunko/cards/000214/files/48968_ruby_69692.zip
+>> add 48968_ruby_robono_ogusa.txt
+>> add 48968_ruby_utf8_robono_ogusa.txt
+>> https://www.aozora.gr.jp/cards/000214/card48968.html
+>> 路傍の小草、田山録弥、
+-rwxrwxrwx 1 level level 9877 Dec 14 01:36 ./aozorabunko/cards/001341/files/49640_ruby_37909.zip
+3/12: ./aozorabunko/cards/001341/files/49640_ruby_37909.zip
+>> update 49640_ruby_ginza.txt
+>> update 49640_ruby_utf8_ginza.txt
+>> https://www.aozora.gr.jp/cards/001341/card49640.html
+>> 銀座、永井荷風、
+-rwxrwxrwx 1 level level 9164 Dec 14 01:36 ./aozorabunko/cards/001341/files/49652_ruby_69842.zip
+4/12: ./aozorabunko/cards/001341/files/49652_ruby_69842.zip
+>> update 49652_ruby_terajimano_ki.txt
+>> update 49652_ruby_utf8_terajimano_ki.txt
+>> https://www.aozora.gr.jp/cards/001341/card49652.html
+>> 寺じまの記、永井荷風、
+-rwxrwxrwx 1 level level 9006 Dec 14 01:36 ./aozorabunko/cards/001341/files/49653_ruby_69838.zip
+5/12: ./aozorabunko/cards/001341/files/49653_ruby_69838.zip
+>> update 49653_ruby_denzuin.txt
+>> update 49653_ruby_utf8_denzuin.txt
+>> https://www.aozora.gr.jp/cards/001341/card49653.html
+>> 伝通院、永井荷風、
+-rwxrwxrwx 1 level level 14821 Dec 14 01:36 ./aozorabunko/cards/001341/files/49656_ruby_69840.zip
+6/12: ./aozorabunko/cards/001341/files/49656_ruby_69840.zip
+>> update 49656_ruby_natsuno_machi.txt
+>> update 49656_ruby_utf8_natsuno_machi.txt
+>> https://www.aozora.gr.jp/cards/001341/card49656.html
+>> 夏の町、永井荷風、
+-rwxrwxrwx 1 level level 69496 Dec 14 01:36 ./aozorabunko/cards/001341/files/49658_ruby_37636.zip
+7/12: ./aozorabunko/cards/001341/files/49658_ruby_37636.zip
+>> git-mv 49658_ruby_hiyorigeta.txt 49658_ruby_hiyori_geta.txt
+>> git-mv 49658_ruby_utf8_hiyorigeta.txt 49658_ruby_utf8_hiyori_geta.txt
+>> https://www.aozora.gr.jp/cards/001341/card49658.html
+>> 日和下駄、一名　東京散策記、永井荷風、
+-rwxrwxrwx 1 level level 10188 Dec 14 01:36 ./aozorabunko/cards/001341/files/49659_ruby_37913.zip
+8/12: ./aozorabunko/cards/001341/files/49659_ruby_37913.zip
+>> update 49659_ruby_fukagawano_sanpo.txt
+>> update 49659_ruby_utf8_fukagawano_sanpo.txt
+>> https://www.aozora.gr.jp/cards/001341/card49659.html
+>> 深川の散歩、永井荷風、
+-rwxrwxrwx 1 level level 7922 Dec 14 01:36 ./aozorabunko/cards/001341/files/49661_ruby_37914.zip
+9/12: ./aozorabunko/cards/001341/files/49661_ruby_37914.zip
+>> update 49661_ruby_hosuiro.txt
+>> update 49661_ruby_utf8_hosuiro.txt
+>> https://www.aozora.gr.jp/cards/001341/card49661.html
+>> 放水路、永井荷風、
+-rwxrwxrwx 1 level level 3438 Dec 14 01:36 ./aozorabunko/cards/001341/files/49663_ruby_69822.zip
+10/12: ./aozorabunko/cards/001341/files/49663_ruby_69822.zip
+>> update 49663_ruby_mizuno_nagare.txt
+>> update 49663_ruby_utf8_mizuno_nagare.txt
+>> https://www.aozora.gr.jp/cards/001341/card49663.html
+>> 水のながれ、永井荷風、
+-rwxrwxrwx 1 level level 14467 Dec 14 01:36 ./aozorabunko/cards/001341/files/49664_ruby_38373.zip
+11/12: ./aozorabunko/cards/001341/files/49664_ruby_38373.zip
+>> update 49664_ruby_mukojima.txt
+>> update 49664_ruby_utf8_mukojima.txt
+>> https://www.aozora.gr.jp/cards/001341/card49664.html
+>> 向嶋、永井荷風、
+-rwxrwxrwx 1 level level 9378 Dec 14 01:36 ./aozorabunko/cards/001341/files/49673_ruby_69832.zip
+12/12: ./aozorabunko/cards/001341/files/49673_ruby_69832.zip
+>> update 49673_ruby_reibyo.txt
+>> update 49673_ruby_utf8_reibyo.txt
+>> https://www.aozora.gr.jp/cards/001341/card49673.html
+>> 霊廟、永井荷風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30754/360 (Accept:12/Reject:0/Update:9/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 14 01:35:50 JST 2019
+End  : Sat Dec 14 01:37:46 JST 2019
