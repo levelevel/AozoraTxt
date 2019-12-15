@@ -88,7 +88,7 @@
 ./aozorabunko/cards/001505/files/56842_txt_53389.zip
 ./aozorabunko/cards/001505/files/56843_txt_53391.zip
 ./aozorabunko/cards/001505/files/57323_txt_57120.zip
-./aozorabunko/cards/001505/files/58100_txt_60357.zip
+./aozorabunko/cards/001505/files/58100_txt_60357.zip	2019/12/15
 ./aozorabunko/cards/001506/files/51367_txt_38655.zip
 ./aozorabunko/cards/001506/files/51737_txt_39268.zip
 ./aozorabunko/cards/001506/files/52175_txt_40684.zip
@@ -150,7 +150,7 @@
 ./aozorabunko/cards/001882/files/58275_ruby_62237.zip
 ./aozorabunko/cards/001885/files/58012_ruby_59799.zip
 ./aozorabunko/cards/001885/files/58274_ruby_60921.zip
-./aozorabunko/cards/001885/files/59516_ruby_67843.zip	2019/04/12
+./aozorabunko/cards/001885/files/59516_ruby_67843.zip	2019/12/15
 ./aozorabunko/cards/001916/files/58175_ruby_60558.zip
 ./aozorabunko/cards/001917/files/58173_ruby_60562.zip
 ./aozorabunko/cards/001918/files/58174_ruby_60560.zip
