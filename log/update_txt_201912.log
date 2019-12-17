@@ -6988,3 +6988,52 @@ Title Total : 30758/360 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Dec 15 07:48:29 JST 2019
 End  : Sun Dec 15 07:48:46 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 18 00:11:31 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fe3a41d4c6..c479b6fd6d  master     -> origin/master
+Updating fe3a41d4c6..c479b6fd6d
+Fast-forward
+ cards/001091/card59519.html                   | 247 +++++++++++++++++++
+ cards/001091/card59520.html                   | 247 +++++++++++++++++++
+ cards/001091/files/59519_69741.html           | 327 ++++++++++++++++++++++++++
+ cards/001091/files/59519_ruby_69696.zip       | Bin 0 -> 79452 bytes
+ cards/001091/files/59520_69740.html           | 228 ++++++++++++++++++
+ cards/001091/files/59520_ruby_69695.zip       | Bin 0 -> 205439 bytes
+ cards/001670/card56390.html                   |   2 +-
+ cards/001869/card57816.html                   | 229 ++++++++++++++++++
+ cards/001869/files/57816_69742.html           | 129 ++++++++++
+ cards/001869/files/57816_ruby_69697.zip       | Bin 0 -> 13109 bytes
+ 96 files changed, 3569 insertions(+), 2034 deletions(-)
+Date: Wed Dec 18 00:12:31 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 15 18:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 79452 Dec 18 00:12 ./aozorabunko/cards/001091/files/59519_ruby_69696.zip
+1/3: ./aozorabunko/cards/001091/files/59519_ruby_69696.zip
+>> add 59519_ruby_kowai_kotoo_shiritakute.txt
+>> add 59519_ruby_utf8_kowai_kotoo_shiritakute.txt
+>> https://www.aozora.gr.jp/cards/001091/card59519.html
+>> こわいことを知りたくて旅にでかけた男の話、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 205439 Dec 18 00:12 ./aozorabunko/cards/001091/files/59520_ruby_69695.zip
+2/3: ./aozorabunko/cards/001091/files/59520_ruby_69695.zip
+>> add 59520_ruby_chugimonono_yohanesu.txt
+>> add 59520_ruby_utf8_chugimonono_yohanesu.txt
+>> https://www.aozora.gr.jp/cards/001091/card59520.html
+>> 忠義者のヨハネス、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 13109 Dec 18 00:12 ./aozorabunko/cards/001869/files/57816_ruby_69697.zip
+3/3: ./aozorabunko/cards/001869/files/57816_ruby_69697.zip
+>> add 57816_ruby_nijusannen.txt
+>> add 57816_ruby_utf8_nijusannen.txt
+>> https://www.aozora.gr.jp/cards/001869/card57816.html
+>> 日本婦道記、二十三年、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30764/360 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 18 00:11:31 JST 2019
+End  : Wed Dec 18 00:13:03 JST 2019
