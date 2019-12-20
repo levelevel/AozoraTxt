@@ -7077,3 +7077,45 @@ Title Total : 30766/362 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 19 23:27:08 JST 2019
 End  : Thu Dec 19 23:28:17 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 21 01:03:39 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7ab01f30a0..0d470bb584  master     -> origin/master
+Updating 7ab01f30a0..0d470bb584
+Fast-forward
+ cards/000258/card59427.html                   | 238 ++++++++++++++++++++++++++
+ cards/000258/card59429.html                   | 238 ++++++++++++++++++++++++++
+ cards/000258/files/59427_69745.html           |  72 ++++++++
+ cards/000258/files/59427_ruby_69700.zip       | Bin 0 -> 2209 bytes
+ cards/000258/files/59429_69744.html           |  88 ++++++++++
+ cards/000258/files/59429_ruby_69699.zip       | Bin 0 -> 3551 bytes
+ cards/001341/card49674.html                   |  16 +-
+ cards/001341/files/49674_69862.html           | 112 ++++++++++++
+ cards/002043/card60168.html                   |   2 +-
+ 89 files changed, 2486 insertions(+), 1699 deletions(-)
+Date: Sat Dec 21 01:03:53 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 19 23:28 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2209 Dec 21 01:03 ./aozorabunko/cards/000258/files/59427_ruby_69700.zip
+1/2: ./aozorabunko/cards/000258/files/59427_ruby_69700.zip
+>> add 59427_ruby_shiryo.txt
+>> add 59427_ruby_utf8_shiryo.txt
+>> https://www.aozora.gr.jp/cards/000258/card59427.html
+>> 死霊、SHIRYO、小泉八雲、田部隆次訳、
+-rwxrwxrwx 1 level level 3551 Dec 21 01:03 ./aozorabunko/cards/000258/files/59429_ruby_69699.zip
+2/2: ./aozorabunko/cards/000258/files/59429_ruby_69699.zip
+>> add 59429_ruby_chawanno_naka.txt
+>> add 59429_ruby_utf8_chawanno_naka.txt
+>> https://www.aozora.gr.jp/cards/000258/card59429.html
+>> 茶碗の中、IN A CUP OF TEA、小泉八雲、田部隆次訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30770/362 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 21 01:03:39 JST 2019
+End  : Sat Dec 21 01:04:13 JST 2019
