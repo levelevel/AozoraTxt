@@ -7119,3 +7119,62 @@ Title Total : 30770/362 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 21 01:03:39 JST 2019
 End  : Sat Dec 21 01:04:13 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 21 21:52:58 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0d470bb584..cd9bd0063f  master     -> origin/master
+Updating 0d470bb584..cd9bd0063f
+Fast-forward
+ cards/000258/card59427.html                   |   2 +-
+ cards/000258/card59429.html                   |   2 +-
+ cards/001403/card55045.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55108.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card59641.html                   | 229 +++++++++++++++++++++++++
+ cards/001403/files/55045_69747.html           |  74 ++++++++
+ cards/001403/files/55045_ruby_69702.zip       | Bin 0 -> 2889 bytes
+ cards/001403/files/55108_69746.html           |  77 +++++++++
+ cards/001403/files/55108_ruby_69701.zip       | Bin 0 -> 2602 bytes
+ cards/001403/files/59641_69749.html           |  64 +++++++
+ cards/001403/files/59641_ruby_69704.zip       | Bin 0 -> 2270 bytes
+ cards/001977/card59876.html                   | 234 ++++++++++++++++++++++++++
+ cards/001977/files/59876_69748.html           |  72 ++++++++
+ cards/001977/files/59876_ruby_69703.zip       | Bin 0 -> 4458 bytes
+ 89 files changed, 3923 insertions(+), 2671 deletions(-)
+Date: Sat Dec 21 21:54:04 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 21 01:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2889 Dec 21 21:53 ./aozorabunko/cards/001403/files/55045_ruby_69702.zip
+1/4: ./aozorabunko/cards/001403/files/55045_ruby_69702.zip
+>> add 55045_ruby_kanshoryoku_nakushite_shuji_suru_nakare.txt
+>> add 55045_ruby_utf8_kanshoryoku_nakushite_shuji_suru_nakare.txt
+>> https://www.aozora.gr.jp/cards/001403/card55045.html
+>> 鑑賞力なくして習字する勿れ、北大路魯山人、
+-rwxrwxrwx 1 level level 2602 Dec 21 21:53 ./aozorabunko/cards/001403/files/55108_ruby_69701.zip
+2/4: ./aozorabunko/cards/001403/files/55108_ruby_69701.zip
+>> add 55108_ruby_gabito_iu_koto.txt
+>> add 55108_ruby_utf8_gabito_iu_koto.txt
+>> https://www.aozora.gr.jp/cards/001403/card55108.html
+>> 雅美ということ、北大路魯山人、
+-rwxrwxrwx 1 level level 2270 Dec 21 21:53 ./aozorabunko/cards/001403/files/59641_ruby_69704.zip
+3/4: ./aozorabunko/cards/001403/files/59641_ruby_69704.zip
+>> add 59641_ruby_usukuchi_shoyu .txt
+>> add 59641_ruby_utf8_usukuchi_shoyu .txt
+>> https://www.aozora.gr.jp/cards/001403/card59641.html
+>> 薄口醤油、北大路魯山人、
+-rwxrwxrwx 1 level level 4458 Dec 21 21:53 ./aozorabunko/cards/001977/files/59876_ruby_69703.zip
+4/4: ./aozorabunko/cards/001977/files/59876_ruby_69703.zip
+>> add 59876_ruby_ofu_a_ra_kokku_fantasutiku.txt
+>> add 59876_ruby_utf8_ofu_a_ra_kokku_fantasutiku.txt
+>> https://www.aozora.gr.jp/cards/001977/card59876.html
+>> オフ・ア・ラ・コック・ファンタスティーク、――空想半熟卵――、森於菟、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30778/362 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 21 21:52:58 JST 2019
+End  : Sat Dec 21 21:55:09 JST 2019
