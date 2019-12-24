@@ -7178,3 +7178,66 @@ Title Total : 30778/362 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 21 21:52:58 JST 2019
 End  : Sat Dec 21 21:55:09 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec 24 23:09:47 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cd9bd0063f..932e09ce05  master     -> origin/master
+Updating cd9bd0063f..932e09ce05
+Fast-forward
+ cards/000019/card58875.html                   | 238 ++++++++++++++
+ cards/000019/card58882.html                   | 238 ++++++++++++++
+ cards/000019/files/58875_69752.html           | 155 +++++++++
+ cards/000019/files/58875_ruby_69707.zip       | Bin 0 -> 11130 bytes
+ cards/000019/files/58882_69753.html           | 139 ++++++++
+ cards/000019/files/58882_ruby_69708.zip       | Bin 0 -> 9697 bytes
+ cards/000023/card55324.html                   | 234 ++++++++++++++
+ cards/000023/files/55324_69751.html           | 168 ++++++++++
+ cards/000023/files/55324_ruby_69706.zip       | Bin 0 -> 9665 bytes
+ cards/000258/card59427.html                   |   2 +-
+ cards/000258/card59429.html                   |   2 +-
+ cards/001240/card49753.html                   | 229 +++++++++++++
+ cards/001240/files/49753_69750.html           |  61 ++++
+ cards/001240/files/49753_ruby_69705.zip       | Bin 0 -> 2213 bytes
+ cards/001403/card55045.html                   |   2 +-
+ cards/001403/card55108.html                   |   2 +-
+ cards/001403/card59641.html                   |   2 +-
+ cards/001977/card59876.html                   |   2 +-
+ 167 files changed, 4565 insertions(+), 3487 deletions(-)
+Date: Tue Dec 24 23:11:33 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 21 21:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11130 Dec 24 23:11 ./aozorabunko/cards/000019/files/58875_ruby_69707.zip
+1/4: ./aozorabunko/cards/000019/files/58875_ruby_69707.zip
+>> add 58875_ruby_minikui_ahiruno_ko.txt
+>> add 58875_ruby_utf8_minikui_ahiruno_ko.txt
+>> https://www.aozora.gr.jp/cards/000019/card58875.html
+>> みにくいアヒルの子、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 9697 Dec 24 23:11 ./aozorabunko/cards/000019/files/58882_ruby_69708.zip
+2/4: ./aozorabunko/cards/000019/files/58882_ruby_69708.zip
+>> add 58882_ruby_momino_ki.txt
+>> add 58882_ruby_utf8_momino_ki.txt
+>> https://www.aozora.gr.jp/cards/000019/card58882.html
+>> モミの木、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 9665 Dec 24 23:11 ./aozorabunko/cards/000023/files/55324_ruby_69706.zip
+3/4: ./aozorabunko/cards/000023/files/55324_ruby_69706.zip
+>> add 55324_ruby_faiya_gan.txt
+>> add 55324_ruby_utf8_faiya_gan.txt
+>> https://www.aozora.gr.jp/cards/000023/card55324.html
+>> フアイヤ・ガン、徳田秋聲、
+-rwxrwxrwx 1 level level 2213 Dec 24 23:11 ./aozorabunko/cards/001240/files/49753_ruby_69705.zip
+4/4: ./aozorabunko/cards/001240/files/49753_ruby_69705.zip
+>> add 49753_ruby_meni_mienai_kaibutsu.txt
+>> add 49753_ruby_utf8_meni_mienai_kaibutsu.txt
+>> https://www.aozora.gr.jp/cards/001240/card49753.html
+>> 目に見えない怪物、―能の現代化、加藤道夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30786/362 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec 24 23:09:47 JST 2019
+End  : Tue Dec 24 23:12:41 JST 2019
