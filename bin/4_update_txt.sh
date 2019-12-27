@@ -20,6 +20,7 @@ LAST_LOG=$TARGET_LOGTMP/update_txt_last.log
 GIT_MV_LOG=$TARGET_LOGTMP/update_txt_git-mv.log
 GIT_PULL_LOG=$TARGET_LOGTMP/update_txt_git-pull.log
 UNZIP_LOG=$TARGET_LOGTMP/update_txt_unzip.log
+ERROR_LOG=$TARGET_LOGTMP/update_error.log
 #touch -t 201901261430 $UPDATE
 
 #Debug
@@ -135,12 +136,14 @@ do
 	case $txt_cnt in
 	1)	;;
 	0)	let empty_count++
-		echo "   empty"
+		echo "ERROR: empty" | tee -a $ERROR_LOG
 		ls -l $TMP
+		echo ">> https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html" | tee -a $ERROR_LOG
 		continue;;
 	*)	let multi_count++
-		echo "   multi text"
+		echo "ERROR: multi text" | tee -a $ERROR_LOG
 		ls -l $TMP
+		echo ">> https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html" | tee -a $ERROR_LOG
 		continue
 	esac
 
