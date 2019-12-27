@@ -7241,3 +7241,112 @@ Title Total : 30786/362 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 24 23:09:47 JST 2019
 End  : Tue Dec 24 23:12:41 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 25 22:54:39 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   932e09ce05..73cc614f18  master     -> origin/master
+Updating 932e09ce05..73cc614f18
+Fast-forward
+ cards/000019/card58875.html                   |   2 +-
+ cards/000019/card58882.html                   |   2 +-
+ cards/002010/card60081.html                   | 231 ++++++++++++++++++++++++++
+ cards/002010/files/60081_69485.html           | 229 +++++++++++++++++++++++++
+ cards/002010/files/60081_ruby_69484.zip       | Bin 0 -> 191752 bytes
+ 66 files changed, 2024 insertions(+), 1571 deletions(-)
+Date: Wed Dec 25 22:55:48 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 24 23:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 191752 Dec 25 22:55 ./aozorabunko/cards/002010/files/60081_ruby_69484.zip
+1/1: ./aozorabunko/cards/002010/files/60081_ruby_69484.zip
+>> add 60081_NPD_ruby_seiyokagakuwa_subarashii.txt
+>> add 60081_NPD_ruby_utf8_seiyokagakuwa_subarashii.txt
+>> https://www.aozora.gr.jp/cards/002010/card60081.html
+>> 西洋科学は素晴らしい、C. スミス　C. Smith、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30786/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Dec 25 22:54:39 JST 2019
+End  : Wed Dec 25 22:57:30 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec 27 15:37:18 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   73cc614f18..ff292abcc5  master     -> origin/master
+Updating 73cc614f18..ff292abcc5
+Fast-forward
+ cards/000082/card45506.html                   |  14 +-
+ cards/000082/files/45506_69896.html           | 151 +++++
+ cards/000083/card59384.html                   | 234 +++++++
+ cards/000083/files/59384_69754.html           | 206 +++++++
+ cards/000083/files/59384_ruby_69709.zip       | Bin 0 -> 11341 bytes
+ cards/000182/card3217.html                    |  12 +-
+ cards/000182/card3668.html                    |  12 +-
+ cards/000182/files/3217_69891.html            |  76 +++
+ cards/000182/files/3668_69892.html            |  77 +++
+ cards/001030/card47917.html                   |  12 +-
+ cards/001030/files/47917_69893.html           | 190 ++++++
+ cards/001095/card42856.html                   |  12 +-
+ cards/001095/card42909.html                   |  14 +-
+ cards/001095/card45799.html                   |  14 +-
+ cards/001095/files/42856_69890.html           | 173 ++++++
+ cards/001095/files/42856_ruby_34828.zip       | Bin 8937 -> 8873 bytes
+ cards/001095/files/42909_23103.html           |  45 +-
+ cards/001095/files/42909_ruby_23080.zip       | Bin 7174 -> 7278 bytes
+ cards/001095/files/45799_69895.html           | 845 ++++++++++++++++++++++++++
+ cards/001154/card44302.html                   |  12 +-
+ cards/001154/files/44302_69894.html           | 659 ++++++++++++++++++++
+ cards/001562/card56151.html                   |   8 +-
+ cards/001562/files/56151_60109.html           |   5 +-
+ cards/001562/files/56151_ruby_60063.zip       | Bin 267278 -> 562178 bytes
+ cards/001670/card56389.html                   | 234 +++++++
+ cards/001670/files/56389_69755.html           | 336 ++++++++++
+ cards/001670/files/56389_ruby_69710.zip       | Bin 0 -> 11855 bytes
+ cards/002010/card60081.html                   |   2 +-
+ 248 files changed, 6701 insertions(+), 3132 deletions(-)
+Date: Fri Dec 27 15:37:47 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 25 22:57 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11341 Dec 27 15:37 ./aozorabunko/cards/000083/files/59384_ruby_69709.zip
+1/5: ./aozorabunko/cards/000083/files/59384_ruby_69709.zip
+>> add 59384_ruby_sannin_kyodai.txt
+>> add 59384_ruby_utf8_sannin_kyodai.txt
+>> https://www.aozora.gr.jp/cards/000083/card59384.html
+>> 三人兄弟、菊池寛、
+-rwxrwxrwx 1 level level 8873 Dec 27 15:37 ./aozorabunko/cards/001095/files/42856_ruby_34828.zip
+2/5: ./aozorabunko/cards/001095/files/42856_ruby_34828.zip
+>> update 42856_ruby_hanabi.txt
+>> update 42856_ruby_utf8_hanabi.txt
+>> https://www.aozora.gr.jp/cards/001095/card42856.html
+>> 花火、坂口安吾、
+-rwxrwxrwx 1 level level 7278 Dec 27 15:37 ./aozorabunko/cards/001095/files/42909_ruby_23080.zip
+3/5: ./aozorabunko/cards/001095/files/42909_ruby_23080.zip
+>> git-mv 42909_ruby_watasiwa_umio_dakishimete.txt 42909_ruby_watashiwa_umio_dakishimete_itai.txt
+>> git-mv 42909_ruby_utf8_watasiwa_umio_dakishimete.txt 42909_ruby_utf8_watashiwa_umio_dakishimete_itai.txt
+>> https://www.aozora.gr.jp/cards/001095/card42909.html
+>> 私は海をだきしめてゐたい、坂口安吾、
+-rwxrwxrwx 1 level level 562178 Dec 27 15:37 ./aozorabunko/cards/001562/files/56151_ruby_60063.zip
+4/5: ./aozorabunko/cards/001562/files/56151_ruby_60063.zip
+   empty
+total 0
+-rwxrwxrwx 1 level level 11855 Dec 27 15:37 ./aozorabunko/cards/001670/files/56389_ruby_69710.zip
+5/5: ./aozorabunko/cards/001670/files/56389_ruby_69710.zip
+>> add 56389_ruby_143hotoke_kisaburo.txt
+>> add 56389_ruby_utf8_143hotoke_kisaburo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56389.html
+>> 銭形平次捕物控、仏喜三郎、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30790/364 (Accept:4/Reject:0/Update:1/Rename:2/Empty:1/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec 27 15:37:18 JST 2019
+End  : Fri Dec 27 15:38:13 JST 2019
