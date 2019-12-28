@@ -160,14 +160,7 @@ do
 		echo ">> update $target_file"
 		echo "update	$person_to/$target_file	`date +%Y/%m/%d`" >> $UPDATE_FILE
 	else 
-		#異なるファイル名の場合はプライオリティが高いほうを優先
-		cur_priority=`CalcTxtPriority "$cur_target_file"`
-		new_priority=`CalcTxtPriority "$target_file"`
-		if [ $cur_priority -gt $new_priority ];then
-			let reject_cnt++
-			echo "   reject (low priority) $target_file($new_priority) < $cur_target_file($cur_priority)"
-			continue
-		fi
+		#異なるファイル名
 		git -C $git_root mv \
 			"$git_person_to/$cur_target_file" \
 			"$git_person_to/$target_file" >> $GIT_MV_LOG 2>&1
@@ -192,13 +185,7 @@ do
 	elif [ "$cur_target_file_utf8" == "$target_file_utf8" ]; then
 		echo ">> update $target_file_utf8"
 	else 
-		#異なるファイル名の場合はプライオリティが高いほうを優先
-		cur_priority=`CalcTxtPriority "$cur_target_file_utf8"`
-		new_priority=`CalcTxtPriority "$target_file_utf8"`
-		if [ $cur_priority -gt $new_priority ];then
-			echo "   reject (low priority) $target_file_utf8($new_priority) < $cur_target_file_utf8($cur_priority)"
-			continue
-		fi
+		#異なるファイル名
 		"$GIT" -C $git_root mv \
 			"$git_person_to_utf8/$cur_target_file_utf8" \
 			"$git_person_to_utf8/$target_file_utf8" >> $GIT_MV_LOG 2>&1
