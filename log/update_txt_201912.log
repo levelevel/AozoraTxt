@@ -7455,3 +7455,35 @@ Title Total : 30794/364 (Accept:1/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 28 12:40:25 JST 2019
 End  : Sat Dec 28 12:40:31 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Dec 29 08:52:34 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   241f05e4c1..e79da3d532  master     -> origin/master
+Updating 241f05e4c1..e79da3d532
+Fast-forward
+ cards/001030/card47871.html                   |   2 +-
+ cards/001030/card47876.html                   |   2 +-
+ cards/001963/card58853.html                   | 234 ++++++++++++++++++++++++++
+ cards/001963/files/58853_69758.html           |  74 ++++++++
+ cards/001963/files/58853_ruby_69713.zip       | Bin 0 -> 8046 bytes
+ 85 files changed, 1869 insertions(+), 1559 deletions(-)
+Date: Sun Dec 29 08:53:47 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 28 12:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8046 Dec 29 08:53 ./aozorabunko/cards/001963/files/58853_ruby_69713.zip
+1/1: ./aozorabunko/cards/001963/files/58853_ruby_69713.zip
+>> add 58853_ruby_kashito_sono_kyoku.txt
+>> add 58853_ruby_utf8_kashito_sono_kyoku.txt
+>> https://www.aozora.gr.jp/cards/001963/card58853.html
+>> 歌詞とその曲、信時潔、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30796/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Dec 29 08:52:34 JST 2019
+End  : Sun Dec 29 08:54:27 JST 2019
