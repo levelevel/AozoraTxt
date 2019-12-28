@@ -7432,3 +7432,26 @@ Title Total : 30794/364 (Accept:6/Reject:1/Update:2/Rename:4/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 28 11:08:59 JST 2019
 End  : Sat Dec 28 11:11:29 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 28 12:40:25 JST 2019
+#Git pull
+Already up to date.
+Date: Sat Dec 28 12:40:26 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 28 12:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13800 Dec 28 12:40 ./aozorabunko/cards/000082/files/45506_txt_70003.zip
+1/1: ./aozorabunko/cards/000082/files/45506_txt_70003.zip
+>> git-mv 45506_ruby_jihishincho.txt 45506_txt_jihi_shincho.txt
+>> git-mv 45506_ruby_utf8_jihishincho.txt 45506_txt_utf8_jihi_shincho.txt
+>> https://www.aozora.gr.jp/cards/000082/card45506.html
+>> 慈悲心鳥、岡本綺堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30794/364 (Accept:1/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 28 12:40:25 JST 2019
+End  : Sat Dec 28 12:40:31 JST 2019
