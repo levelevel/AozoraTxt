@@ -138,7 +138,7 @@ CalcTxtPriority(){
 	txt_file="$1"
 	case $txt_file in
 	*_ruby*) 	ret=5;;
-	*_txt*)	ret=3;;
+	*_txt*)		ret=3;;
 	*)			ret=1;;
 	esac
 	echo $ret
@@ -150,7 +150,11 @@ TxtIsNPD(){
 }
 
 GetFilenameIllegal(){
-	( cd $TARGET_ROOT; find . -name "[0-9]*.txt" ) | 
-	grep "[^a-z0-9_/.&'+=\-]" > $FILENAME_ILLEGAL
-	#grep "[^a-zA-Z0-9_/.&'+=\-]" > $FILENAME_ILLEGAL
+	while read txt_file
+	do
+		# txt_file: ./000183/52884_ruby_utf8_I am_not.txt
+		txt_id=`basename ${txt_file%%_*.txt}`	#52884
+		person_id=`basename "$txt_file"`
+		echo "$txt_file	https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html"
+	done < <( cd $TARGET_ROOT/person; find . -name "[0-9]*.txt" | grep "[^a-z0-9_/.&'+=\-]" ) > $FILENAME_ILLEGAL
 }

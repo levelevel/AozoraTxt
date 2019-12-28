@@ -1,22 +1,11 @@
-./person/000026/50255_txt_Me_Voila.txt
-./person/000124/652_ruby_OGUMA10.txt
-./person/000157/834_ruby_TOUKOKU1.txt
-./person/000159/858_ruby_Verito.txt
-./person/000183/52884_ruby_I am_not.txt
-./person/000262/48068_ruby_chino_sakazuki .txt
-./person/000608/51135_ruby_ken’ekito_nimotsu_kensa.txt
-./person/001154/43596_ruby_hakubutsushi _atogaki.txt
-./person/001323/48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
-./person/001403/59641_ruby_usukuchi_shoyu .txt
-./person/001475/51496_ruby_aoi_tamato_gin’irono_fue.txt
-./person_utf8/000026/50255_txt_utf8_Me_Voila.txt
-./person_utf8/000124/652_ruby_utf8_OGUMA10.txt
-./person_utf8/000157/834_ruby_utf8_TOUKOKU1.txt
-./person_utf8/000159/858_ruby_utf8_Verito.txt
-./person_utf8/000183/52884_ruby_utf8_I am_not.txt
-./person_utf8/000262/48068_ruby_utf8_chino_sakazuki .txt
-./person_utf8/000608/51135_ruby_utf8_ken’ekito_nimotsu_kensa.txt
-./person_utf8/001154/43596_ruby_utf8_hakubutsushi _atogaki.txt
-./person_utf8/001323/48280_ruby_utf8_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt
-./person_utf8/001403/59641_ruby_utf8_usukuchi_shoyu .txt
-./person_utf8/001475/51496_ruby_utf8_aoi_tamato_gin’irono_fue.txt
+./000026/50255_txt_Me_Voila.txt	https://www.aozora.gr.jp/cards/50255_txt_Me_Voila.txt/card50255.html
+./000124/652_ruby_OGUMA10.txt	https://www.aozora.gr.jp/cards/652_ruby_OGUMA10.txt/card652.html
+./000157/834_ruby_TOUKOKU1.txt	https://www.aozora.gr.jp/cards/834_ruby_TOUKOKU1.txt/card834.html
+./000159/858_ruby_Verito.txt	https://www.aozora.gr.jp/cards/858_ruby_Verito.txt/card858.html
+./000183/52884_ruby_I am_not.txt	https://www.aozora.gr.jp/cards/52884_ruby_I am_not.txt/card52884.html
+./000262/48068_ruby_chino_sakazuki .txt	https://www.aozora.gr.jp/cards/48068_ruby_chino_sakazuki .txt/card48068.html
+./000608/51135_ruby_ken’ekito_nimotsu_kensa.txt	https://www.aozora.gr.jp/cards/51135_ruby_ken’ekito_nimotsu_kensa.txt/card51135.html
+./001154/43596_ruby_hakubutsushi _atogaki.txt	https://www.aozora.gr.jp/cards/43596_ruby_hakubutsushi _atogaki.txt/card43596.html
+./001323/48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt	https://www.aozora.gr.jp/cards/48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt/card48280.html
+./001403/59641_ruby_usukuchi_shoyu .txt	https://www.aozora.gr.jp/cards/59641_ruby_usukuchi_shoyu .txt/card59641.html
+./001475/51496_ruby_aoi_tamato_gin’irono_fue.txt	https://www.aozora.gr.jp/cards/51496_ruby_aoi_tamato_gin’irono_fue.txt/card51496.html
