@@ -7350,3 +7350,85 @@ Title Total : 30790/364 (Accept:4/Reject:0/Update:1/Rename:2/Empty:1/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec 27 15:37:18 JST 2019
 End  : Fri Dec 27 15:38:13 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 28 11:08:59 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ff292abcc5..241f05e4c1  master     -> origin/master
+Updating ff292abcc5..241f05e4c1
+Fast-forward
+ cards/000082/card45506.html                   |   14 +-
+ cards/000082/files/45506_70004.html           |  151 +
+ cards/000082/files/45506_txt_70003.zip        |  Bin 0 -> 13800 bytes
+ cards/000182/card3217.html                    |   12 +-
+ cards/000182/card3668.html                    |   12 +-
+ cards/000182/files/3217_70010.html            |   76 +
+ cards/000182/files/3217_txt_70009.zip         |  Bin 0 -> 4715 bytes
+ cards/000182/files/3668_70012.html            |   77 +
+ cards/000182/files/3668_txt_70011.zip         |  Bin 0 -> 4761 bytes
+ cards/001030/card47871.html                   |  229 ++
+ cards/001030/card47876.html                   |  229 ++
+ cards/001030/files/47871_69757.html           |  146 +
+ cards/001030/files/47871_ruby_69712.zip       |  Bin 0 -> 10317 bytes
+ cards/001030/files/47876_69756.html           |  209 +
+ cards/001030/files/47876_ruby_69711.zip       |  Bin 0 -> 12639 bytes
+ cards/001095/card45799.html                   |   10 +-
+ cards/001095/files/45799_70008.html           |  845 ++++
+ cards/001095/files/45799_ruby_70007.zip       |  Bin 0 -> 73547 bytes
+ cards/001562/card56151.html                   |   12 +-
+ cards/001562/files/56151_70006.html           | 5397 +++++++++++++++++++++++++
+ cards/001562/files/56151_ruby_70005.zip       |  Bin 0 -> 267431 bytes
+ cards/001670/card56389.html                   |    2 +-
+ 166 files changed, 11148 insertions(+), 3431 deletions(-)
+Date: Sat Dec 28 11:09:56 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 27 15:38 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13800 Dec 28 11:09 ./aozorabunko/cards/000082/files/45506_txt_70003.zip
+1/7: ./aozorabunko/cards/000082/files/45506_txt_70003.zip
+   reject (low priority) 45506_txt_jihi_shincho.txt(3) < 45506_ruby_jihishincho.txt(5)
+-rwxrwxrwx 1 level level 4715 Dec 28 11:09 ./aozorabunko/cards/000182/files/3217_txt_70009.zip
+2/7: ./aozorabunko/cards/000182/files/3217_txt_70009.zip
+>> git-mv 3217_txt_sekai_shin_chitsujo_kyu.txt 3217_txt_sekai_shin_chitsujono_genri.txt
+>> git-mv 3217_txt_utf8_sekai_shin_chitsujo_kyu.txt 3217_txt_utf8_sekai_shin_chitsujono_genri.txt
+>> https://www.aozora.gr.jp/cards/000182/card3217.html
+>> 世界新秩序の原理、西田幾多郎、
+-rwxrwxrwx 1 level level 4761 Dec 28 11:09 ./aozorabunko/cards/000182/files/3668_txt_70011.zip
+3/7: ./aozorabunko/cards/000182/files/3668_txt_70011.zip
+>> git-mv 3668_txt_sekai_shin_chitsujo_shin.txt 3668_txt_sekai_shin_chitsujono_genri-2.txt
+>> git-mv 3668_txt_utf8_sekai_shin_chitsujo_shin.txt 3668_txt_utf8_sekai_shin_chitsujono_genri-2.txt
+>> https://www.aozora.gr.jp/cards/000182/card3668.html
+>> 世界新秩序の原理、西田幾多郎、
+-rwxrwxrwx 1 level level 10317 Dec 28 11:09 ./aozorabunko/cards/001030/files/47871_ruby_69712.zip
+4/7: ./aozorabunko/cards/001030/files/47871_ruby_69712.zip
+>> add 47871_ruby_sudachi.txt
+>> add 47871_ruby_utf8_sudachi.txt
+>> https://www.aozora.gr.jp/cards/001030/card47871.html
+>> 巣立ち、堀辰雄、
+-rwxrwxrwx 1 level level 12639 Dec 28 11:09 ./aozorabunko/cards/001030/files/47876_ruby_69711.zip
+5/7: ./aozorabunko/cards/001030/files/47876_ruby_69711.zip
+>> add 47876_ruby_furusato_bito.txt
+>> add 47876_ruby_utf8_furusato_bito.txt
+>> https://www.aozora.gr.jp/cards/001030/card47876.html
+>> ふるさとびと、堀辰雄、
+-rwxrwxrwx 1 level level 73547 Dec 28 11:09 ./aozorabunko/cards/001095/files/45799_ruby_70007.zip
+6/7: ./aozorabunko/cards/001095/files/45799_ruby_70007.zip
+>> update 45799_ruby_takeyabuno_ie.txt
+>> update 45799_ruby_utf8_takeyabuno_ie.txt
+>> https://www.aozora.gr.jp/cards/001095/card45799.html
+>> 竹藪の家、坂口安吾、
+-rwxrwxrwx 1 level level 267431 Dec 28 11:09 ./aozorabunko/cards/001562/files/56151_ruby_70005.zip
+7/7: ./aozorabunko/cards/001562/files/56151_ruby_70005.zip
+>> update 56151_ruby_kennan_jonan.txt
+>> update 56151_ruby_utf8_kennan_jonan.txt
+>> https://www.aozora.gr.jp/cards/001562/card56151.html
+>> 剣難女難、吉川英治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30794/364 (Accept:6/Reject:1/Update:2/Rename:4/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 28 11:08:59 JST 2019
+End  : Sat Dec 28 11:11:29 JST 2019
