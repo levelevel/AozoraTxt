@@ -7542,3 +7542,72 @@ Title Total : 30798/364 (Accept:3/Reject:0/Update:0/Rename:4/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec 30 08:59:12 JST 2019
 End  : Mon Dec 30 09:01:34 JST 2019
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec 31 07:39:17 JST 2019
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8b006cfe14..f79dabcf6e  master     -> origin/master
+Updating 8b006cfe14..f79dabcf6e
+Fast-forward
+ cards/000137/card51869.html                   |   2 +-
+ cards/000137/files/51869_ruby_60506.zip       | Bin 98122 -> 93299 bytes
+ cards/000168/card59819.html                   |   2 +-
+ cards/000291/card59364.html                   | 229 ++++++++++++++++++++++++
+ cards/000291/files/59364_69760.html           |  68 ++++++++
+ cards/000291/files/59364_ruby_69715.zip       | Bin 0 -> 17633 bytes
+ cards/000903/card43555.html                   |  14 +-
+ cards/000903/files/43555_70058.html           | 180 +++++++++++++++++++
+ cards/000903/files/43555_ruby_70057.zip       | Bin 0 -> 9911 bytes
+ cards/001052/card59900.html                   | 239 ++++++++++++++++++++++++++
+ cards/001052/files/59900_69762.html           | 157 +++++++++++++++++
+ cards/001052/files/59900_ruby_69717.zip       | Bin 0 -> 31851 bytes
+ cards/001341/card49674.html                   |   8 +-
+ cards/001341/files/49674_70032.html           | 112 ++++++++++++
+ cards/001569/card57465.html                   | 234 +++++++++++++++++++++++++
+ cards/001569/files/57465_69761.html           |  71 ++++++++
+ cards/001569/files/57465_txt_69716.zip        | Bin 0 -> 4932 bytes
+ cards/001963/card58853.html                   |   2 +-
+ 123 files changed, 3805 insertions(+), 2497 deletions(-)
+Date: Tue Dec 31 07:40:19 JST 2019
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 30 09:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 93299 Dec 31 07:40 ./aozorabunko/cards/000137/files/51869_ruby_60506.zip
+1/5: ./aozorabunko/cards/000137/files/51869_ruby_60506.zip
+>> update 51869_ruby_05homei_gobusaku_tsukimono.txt
+>> update 51869_ruby_utf8_05homei_gobusaku_tsukimono.txt
+>> https://www.aozora.gr.jp/cards/000137/card51869.html
+>> 泡鳴五部作、憑き物、岩野泡鳴、
+-rwxrwxrwx 1 level level 17633 Dec 31 07:40 ./aozorabunko/cards/000291/files/59364_ruby_69715.zip
+2/5: ./aozorabunko/cards/000291/files/59364_ruby_69715.zip
+>> add 59364_ruby_bangiku.txt
+>> add 59364_ruby_utf8_bangiku.txt
+>> https://www.aozora.gr.jp/cards/000291/card59364.html
+>> 晩菊、林芙美子、
+-rwxrwxrwx 1 level level 9911 Dec 31 07:40 ./aozorabunko/cards/000903/files/43555_ruby_70057.zip
+3/5: ./aozorabunko/cards/000903/files/43555_ruby_70057.zip
+>> update 43555_ruby_la_parure.txt
+>> update 43555_ruby_utf8_la_parure.txt
+>> https://www.aozora.gr.jp/cards/000903/card43555.html
+>> 頸飾り、――モウパンサン――、辻潤訳、
+-rwxrwxrwx 1 level level 31851 Dec 31 07:40 ./aozorabunko/cards/001052/files/59900_ruby_69717.zip
+4/5: ./aozorabunko/cards/001052/files/59900_ruby_69717.zip
+>> add 59900_ruby_ikudomekano_saigo.txt
+>> add 59900_ruby_utf8_ikudomekano_saigo.txt
+>> https://www.aozora.gr.jp/cards/001052/card59900.html
+>> 幾度目かの最期、久坂葉子、
+-rwxrwxrwx 1 level level 4932 Dec 31 07:40 ./aozorabunko/cards/001569/files/57465_txt_69716.zip
+5/5: ./aozorabunko/cards/001569/files/57465_txt_69716.zip
+>> add 57465_txt_bunkashijono_teradatorahiko_sensei.txt
+>> add 57465_txt_utf8_bunkashijono_teradatorahiko_sensei.txt
+>> https://www.aozora.gr.jp/cards/001569/card57465.html
+>> 文化史上の寺田寅彦先生、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30804/364 (Accept:5/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec 31 07:39:17 JST 2019
+End  : Tue Dec 31 07:41:13 JST 2019
