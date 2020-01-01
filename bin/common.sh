@@ -154,7 +154,8 @@ GetFilenameIllegal(){
 	do
 		# txt_file: ./000183/52884_ruby_utf8_I am_not.txt
 		txt_id=`basename ${txt_file%%_*.txt}`	#52884
-		person_id=`basename "$txt_file"`
+		person_id=`dirname "$txt_file"`
+		person_id=`basename "$person_id"`
 		echo "$txt_file	https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html"
 	done < <( cd $TARGET_ROOT/person; find . -name "[0-9]*.txt" | grep "[^a-z0-9_/.&'+=\-]" ) > $FILENAME_ILLEGAL
 }
