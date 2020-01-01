@@ -1,0 +1,39 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan  1 14:40:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f79dabcf6e..cf7d54ac7a  master     -> origin/master
+Updating f79dabcf6e..cf7d54ac7a
+Fast-forward
+ aozora-manual/index-input.html                | 1010 +++++++-
+ aozora-manual/index.html                      |  416 +++-
+ banner/pd-locked-mini.png                     |  Bin 6112 -> 5540 bytes
+ banner/pd-locked.png                          |  Bin 5591 -> 16048 bytes
+ cards/000291/card59364.html                   |    2 +-
+ cards/001052/card59900.html                   |    6 +-
+ cards/001569/card57465.html                   |    2 +-
+ cards/001958/card58813.html                   |  234 ++
+ cards/001958/files/58813_69950.html           |  196 ++
+ cards/001958/files/58813_ruby_69897.zip       |  Bin 0 -> 10236 bytes
+ soramoyou/soramoyou2019.html                  |  232 ++
+ soramoyou/soramoyouindex.html                 |  195 +-
+ 60 files changed, 39476 insertions(+), 6679 deletions(-)
+Date: Wed Jan  1 14:41:18 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 31 07:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10236 Jan  1 14:41 ./aozorabunko/cards/001958/files/58813_ruby_69897.zip
+1/1: ./aozorabunko/cards/001958/files/58813_ruby_69897.zip
+>> add 58813_ruby_men.txt
+>> add 58813_ruby_utf8_men.txt
+>> https://www.aozora.gr.jp/cards/001958/card58813.html
+>> 面、富田常雄、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30806/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan  1 14:40:15 JST 2020
+End  : Wed Jan  1 14:41:58 JST 2020
