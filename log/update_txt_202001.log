@@ -37,3 +37,36 @@ Title Total : 30806/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan  1 14:40:15 JST 2020
 End  : Wed Jan  1 14:41:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jan  2 11:28:50 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cf7d54ac7a..d496335847  master     -> origin/master
+Updating cf7d54ac7a..d496335847
+Fast-forward
+ cards/001383/card59300.html                   | 234 +++++++++
+ cards/001383/files/59300_69951.html           | 685 ++++++++++++++++++++++++++
+ cards/001383/files/59300_ruby_69898.zip       | Bin 0 -> 397869 bytes
+ cards/001654/card54262.html                   |   2 +-
+ cards/001654/card54263.html                   |   2 +-
+ cards/001958/card58813.html                   |   2 +-
+ 38 files changed, 1115 insertions(+), 190 deletions(-)
+Date: Thu Jan  2 11:30:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  1 14:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 397869 Jan  2 11:30 ./aozorabunko/cards/001383/files/59300_ruby_69898.zip
+1/1: ./aozorabunko/cards/001383/files/59300_ruby_69898.zip
+>> add 59300_ruby_nekoto_shozoto_futarino_onna_bunko.txt
+>> add 59300_ruby_utf8_nekoto_shozoto_futarino_onna_bunko.txt
+>> https://www.aozora.gr.jp/cards/001383/card59300.html
+>> 猫と庄造と二人のをんな、谷崎潤一郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30808/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jan  2 11:28:50 JST 2020
+End  : Thu Jan  2 11:31:02 JST 2020
