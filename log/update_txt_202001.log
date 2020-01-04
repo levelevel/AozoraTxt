@@ -70,3 +70,74 @@ Title Total : 30808/364 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jan  2 11:28:50 JST 2020
 End  : Thu Jan  2 11:31:02 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan  3 11:43:51 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d496335847..01f6fc4524  master     -> origin/master
+Updating d496335847..01f6fc4524
+Fast-forward
+ cards/001383/card59300.html                   |    2 +-
+ cards/002043/card60202.html                   |  231 ++
+ cards/002043/files/60202_69808.html           |  284 +++
+ cards/002043/files/60202_ruby_69807.zip       |  Bin 0 -> 9844653 bytes
+ 35 files changed, 6860 insertions(+), 225 deletions(-)
+Date: Fri Jan  3 11:44:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  2 11:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9844653 Jan  3 11:44 ./aozorabunko/cards/002043/files/60202_ruby_69807.zip
+1/1: ./aozorabunko/cards/002043/files/60202_ruby_69807.zip
+>> add 60202_NPD_ruby_yokka_hakuma.txt
+>> add 60202_NPD_ruby_utf8_yokka_hakuma.txt
+>> https://www.aozora.gr.jp/cards/002043/card60202.html
+>> 四日白魔、THE FOUR WHITE DAYS、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30808/366 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Jan  3 11:43:51 JST 2020
+End  : Fri Jan  3 11:45:13 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jan  4 15:15:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   01f6fc4524..b6205434e6  master     -> origin/master
+Updating 01f6fc4524..b6205434e6
+Fast-forward
+ cards/001091/card59636.html                   |  247 ++
+ cards/001091/card59742.html                   |  247 ++
+ cards/001091/files/59636_69953.html           |  101 +
+ cards/001091/files/59636_ruby_69900.zip       |  Bin 0 -> 3223 bytes
+ cards/001091/files/59742_69952.html           |  267 +++
+ cards/001091/files/59742_ruby_69899.zip       |  Bin 0 -> 9964 bytes
+ cards/002043/card60202.html                   |    2 +-
+ 53 files changed, 7942 insertions(+), 985 deletions(-)
+Date: Sat Jan  4 15:16:09 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  3 11:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3223 Jan  4 15:16 ./aozorabunko/cards/001091/files/59636_ruby_69900.zip
+1/2: ./aozorabunko/cards/001091/files/59636_ruby_69900.zip
+>> add 59636_ruby_narazumono.txt
+>> add 59636_ruby_utf8_narazumono.txt
+>> https://www.aozora.gr.jp/cards/001091/card59636.html
+>> ならずもの、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 9964 Jan  4 15:16 ./aozorabunko/cards/001091/files/59742_ruby_69899.zip
+2/2: ./aozorabunko/cards/001091/files/59742_ruby_69899.zip
+>> add 59742_ruby_isamashii_chibino_shitateyasan.txt
+>> add 59742_ruby_utf8_isamashii_chibino_shitateyasan.txt
+>> https://www.aozora.gr.jp/cards/001091/card59742.html
+>> いさましい　ちびの仕立屋さん、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30812/366 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jan  4 15:15:13 JST 2020
+End  : Sat Jan  4 15:16:58 JST 2020
