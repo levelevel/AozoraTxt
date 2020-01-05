@@ -141,3 +141,53 @@ Title Total : 30812/366 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan  4 15:15:13 JST 2020
 End  : Sat Jan  4 15:16:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan  5 16:27:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b6205434e6..d59579e997  master     -> origin/master
+Updating b6205434e6..d59579e997
+Fast-forward
+ cards/000148/card58277.html                   | 229 +++++++++++++++++++++++++
+ cards/000148/files/58277_69955.html           | 151 +++++++++++++++++
+ cards/000148/files/58277_ruby_69902.zip       | Bin 0 -> 1805 bytes
+ cards/001091/card59636.html                   |   2 +-
+ cards/001091/card59742.html                   |   2 +-
+ cards/001637/card59055.html                   | 234 ++++++++++++++++++++++++++
+ cards/001637/card59056.html                   | 234 ++++++++++++++++++++++++++
+ cards/001637/files/59055_69954.html           |  78 +++++++++
+ cards/001637/files/59055_ruby_69901.zip       | Bin 0 -> 991 bytes
+ cards/001637/files/59056_69956.html           | 127 ++++++++++++++
+ cards/001637/files/59056_txt_69903.zip        | Bin 0 -> 1723 bytes
+ 114 files changed, 3582 insertions(+), 2539 deletions(-)
+Date: Sun Jan  5 16:28:29 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  4 15:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1805 Jan  5 16:28 ./aozorabunko/cards/000148/files/58277_ruby_69902.zip
+1/3: ./aozorabunko/cards/000148/files/58277_ruby_69902.zip
+>> add 58277_ruby_jugunko.txt
+>> add 58277_ruby_utf8_jugunko.txt
+>> https://www.aozora.gr.jp/cards/000148/card58277.html
+>> 從軍行、夏目漱石、
+-rwxrwxrwx 1 level level 991 Jan  5 16:28 ./aozorabunko/cards/001637/files/59055_ruby_69901.zip
+2/3: ./aozorabunko/cards/001637/files/59055_ruby_69901.zip
+>> add 59055_ruby_aru_hi.txt
+>> add 59055_ruby_utf8_aru_hi.txt
+>> https://www.aozora.gr.jp/cards/001637/card59055.html
+>> ある日、中野鈴子、
+-rwxrwxrwx 1 level level 1723 Jan  5 16:28 ./aozorabunko/cards/001637/files/59056_txt_69903.zip
+3/3: ./aozorabunko/cards/001637/files/59056_txt_69903.zip
+>> add 59056_txt_omaewa_konogoro_yoku_nemuru.txt
+>> add 59056_txt_utf8_omaewa_konogoro_yoku_nemuru.txt
+>> https://www.aozora.gr.jp/cards/001637/card59056.html
+>> お前は此の頃よくねむる、中野鈴子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30818/366 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan  5 16:27:02 JST 2020
+End  : Sun Jan  5 16:29:45 JST 2020
