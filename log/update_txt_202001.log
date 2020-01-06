@@ -191,3 +191,45 @@ Title Total : 30818/366 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jan  5 16:27:02 JST 2020
 End  : Sun Jan  5 16:29:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan  6 22:53:08 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d59579e997..72827e264b  master     -> origin/master
+Updating d59579e997..72827e264b
+Fast-forward
+ cards/000137/card51869.html                   |   10 +-
+ cards/000137/files/51869_70061.html           | 1378 +++++++++++++++++++++++++
+ cards/000137/files/51869_ruby_70060.zip       |  Bin 0 -> 93293 bytes
+ cards/000148/card58277.html                   |    2 +-
+ cards/001637/card59055.html                   |    2 +-
+ cards/001637/card59056.html                   |    2 +-
+ cards/002130/card60082.html                   |  231 +++++
+ cards/002130/files/60082_69487.html           |  149 +++
+ cards/002130/files/60082_txt_69486.zip        |  Bin 0 -> 11864 bytes
+ 45 files changed, 2073 insertions(+), 319 deletions(-)
+Date: Mon Jan  6 22:54:20 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  5 16:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 93293 Jan  6 22:54 ./aozorabunko/cards/000137/files/51869_ruby_70060.zip
+1/2: ./aozorabunko/cards/000137/files/51869_ruby_70060.zip
+>> update 51869_ruby_05homei_gobusaku_tsukimono.txt
+>> update 51869_ruby_utf8_05homei_gobusaku_tsukimono.txt
+>> https://www.aozora.gr.jp/cards/000137/card51869.html
+>> ――泡鳴五部作、憑き物、岩野泡鳴、
+-rwxrwxrwx 1 level level 11864 Jan  6 22:54 ./aozorabunko/cards/002130/files/60082_txt_69486.zip
+2/2: ./aozorabunko/cards/002130/files/60082_txt_69486.zip
+>> add 60082_NPD_txt_kankakuno_kara.txt
+>> add 60082_NPD_txt_utf8_kankakuno_kara.txt
+>> https://www.aozora.gr.jp/cards/002130/card60082.html
+>> 感覚の殻、O. H. ダンバー　O. H. Dunbar、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30818/368 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Jan  6 22:53:08 JST 2020
+End  : Mon Jan  6 22:55:37 JST 2020
