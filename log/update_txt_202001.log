@@ -233,3 +233,46 @@ Title Total : 30818/368 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan  6 22:53:08 JST 2020
 End  : Mon Jan  6 22:55:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan  8 02:05:32 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   72827e264b..f8df13377d  master     -> origin/master
+Updating 72827e264b..f8df13377d
+Fast-forward
+ cards/000137/card51869.html                   |   10 +-
+ cards/000137/files/51869_70063.html           | 1378 +++++++++++++++++++++++++
+ cards/000137/files/51869_ruby_70062.zip       |  Bin 0 -> 93288 bytes
+ cards/000214/card48815.html                   |  243 +++++
+ cards/000214/files/48815_69957.html           |   97 ++
+ cards/000214/files/48815_ruby_69904.zip       |  Bin 0 -> 5382 bytes
+ cards/001341/card49658.html                   |   16 +-
+ cards/001341/files/49658_70065.html           |  352 +++++++
+ cards/001341/files/49658_ruby_70064.txt       |  Bin 0 -> 69497 bytes
+ cards/002130/card60082.html                   |    2 +-
+ 61 files changed, 3513 insertions(+), 1452 deletions(-)
+Date: Wed Jan  8 02:06:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  6 22:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 93288 Jan  8 02:06 ./aozorabunko/cards/000137/files/51869_ruby_70062.zip
+1/2: ./aozorabunko/cards/000137/files/51869_ruby_70062.zip
+>> update 51869_ruby_05homei_gobusaku_tsukimono.txt
+>> update 51869_ruby_utf8_05homei_gobusaku_tsukimono.txt
+>> https://www.aozora.gr.jp/cards/000137/card51869.html
+>> 泡鳴五部作、憑き物、岩野泡鳴、
+-rwxrwxrwx 1 level level 5382 Jan  8 02:06 ./aozorabunko/cards/000214/files/48815_ruby_69904.zip
+2/2: ./aozorabunko/cards/000214/files/48815_ruby_69904.zip
+>> add 48815_ruby_aru_shinnenno_shosetsuhyo.txt
+>> add 48815_ruby_utf8_aru_shinnenno_shosetsuhyo.txt
+>> https://www.aozora.gr.jp/cards/000214/card48815.html
+>> 或新年の小説評、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30820/368 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan  8 02:05:32 JST 2020
+End  : Wed Jan  8 02:07:39 JST 2020
