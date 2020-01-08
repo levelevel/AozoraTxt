@@ -276,3 +276,44 @@ Title Total : 30820/368 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan  8 02:05:32 JST 2020
 End  : Wed Jan  8 02:07:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan  8 23:16:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f8df13377d..a2a7ab4048  master     -> origin/master
+Updating f8df13377d..a2a7ab4048
+Fast-forward
+ cards/000214/card48815.html                   |   2 +-
+ cards/001341/card49658.html                   |  12 +-
+ cards/001341/files/49658_70067.html           | 352 ++++++++++++++++++++++++++
+ cards/001341/files/49658_ruby_70066.zip       | Bin 0 -> 69497 bytes
+ cards/001670/card56388.html                   | 234 +++++++++++++++++
+ cards/001670/files/56388_69958.html           | 312 +++++++++++++++++++++++
+ cards/001670/files/56388_ruby_69905.zip       | Bin 0 -> 11781 bytes
+ cards/002130/card60082.html                   |   2 +-
+ 70 files changed, 2725 insertions(+), 1602 deletions(-)
+Date: Wed Jan  8 23:16:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  8 02:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 69497 Jan  8 23:16 ./aozorabunko/cards/001341/files/49658_ruby_70066.zip
+1/2: ./aozorabunko/cards/001341/files/49658_ruby_70066.zip
+>> git-mv 49658_ruby_hiyorigeta.txt 49658_ruby_hiyori_geta.txt
+>> git-mv 49658_ruby_utf8_hiyorigeta.txt 49658_ruby_utf8_hiyori_geta.txt
+>> https://www.aozora.gr.jp/cards/001341/card49658.html
+>> 日和下駄、一名　東京散策記、永井荷風、
+-rwxrwxrwx 1 level level 11781 Jan  8 23:16 ./aozorabunko/cards/001670/files/56388_ruby_69905.zip
+2/2: ./aozorabunko/cards/001670/files/56388_ruby_69905.zip
+>> add 56388_ruby_144chawan_wari.txt
+>> add 56388_ruby_utf8_144chawan_wari.txt
+>> https://www.aozora.gr.jp/cards/001670/card56388.html
+>> 銭形平次捕物控、茶碗割り、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30822/368 (Accept:2/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan  8 23:16:17 JST 2020
+End  : Wed Jan  8 23:17:01 JST 2020
