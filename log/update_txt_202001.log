@@ -317,3 +317,43 @@ Title Total : 30822/368 (Accept:2/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan  8 23:16:17 JST 2020
 End  : Wed Jan  8 23:17:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 10 00:52:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a2a7ab4048..c6345d334f  master     -> origin/master
+Updating a2a7ab4048..c6345d334f
+Fast-forward
+ cards/001475/card52973.html                   | 229 +++++++++++++++++++++++++
+ cards/001475/card52976.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52973_69959.html           | 135 +++++++++++++++
+ cards/001475/files/52973_ruby_69906.zip       | Bin 0 -> 6019 bytes
+ cards/001475/files/52976_69960.html           |  86 ++++++++++
+ cards/001475/files/52976_ruby_69907.zip       | Bin 0 -> 3059 bytes
+ cards/001670/card56388.html                   |   2 +-
+ 41 files changed, 1243 insertions(+), 564 deletions(-)
+Date: Fri Jan 10 00:53:00 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  8 23:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6019 Jan 10 00:52 ./aozorabunko/cards/001475/files/52973_ruby_69906.zip
+1/2: ./aozorabunko/cards/001475/files/52973_ruby_69906.zip
+>> add 52973_ruby_komadorito_sake.txt
+>> add 52973_ruby_utf8_komadorito_sake.txt
+>> https://www.aozora.gr.jp/cards/001475/card52973.html
+>> こまどりと酒、小川未明、
+-rwxrwxrwx 1 level level 3059 Jan 10 00:52 ./aozorabunko/cards/001475/files/52976_ruby_69907.zip
+2/2: ./aozorabunko/cards/001475/files/52976_ruby_69907.zip
+>> add 52976_ruby_sumomono_hanano_kunikara.txt
+>> add 52976_ruby_utf8_sumomono_hanano_kunikara.txt
+>> https://www.aozora.gr.jp/cards/001475/card52976.html
+>> すももの花の国から、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30826/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 10 00:52:13 JST 2020
+End  : Fri Jan 10 00:53:37 JST 2020
