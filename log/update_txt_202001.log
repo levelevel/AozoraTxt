@@ -425,3 +425,47 @@ Title Total : 30836/368 (Accept:5/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan 11 01:32:09 JST 2020
 End  : Sat Jan 11 01:33:11 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jan 11 10:46:56 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3652a3a921..5979b7e8a4  master     -> origin/master
+Updating 3652a3a921..5979b7e8a4
+Fast-forward
+ cards/000214/card49011.html                   |    2 +-
+ cards/000296/card50268.html                   |    2 +-
+ cards/000599/card58455.html                   |    2 +-
+ cards/001579/card56559.html                   |    2 +-
+ cards/001869/card57624.html                   |  229 ++
+ cards/001869/card57817.html                   |  229 ++
+ cards/001869/files/57624_69967.html           | 2881 +++++++++++++++++++++++++
+ cards/001869/files/57624_ruby_69914.zip       |  Bin 0 -> 225074 bytes
+ cards/001869/files/57817_69966.html           |  178 ++
+ cards/001869/files/57817_ruby_69913.zip       |  Bin 0 -> 13876 bytes
+ cards/001879/card58102.html                   |    2 +-
+ 51 files changed, 4549 insertions(+), 1052 deletions(-)
+Date: Sat Jan 11 10:48:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 11 01:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 225074 Jan 11 10:48 ./aozorabunko/cards/001869/files/57624_ruby_69914.zip
+1/2: ./aozorabunko/cards/001869/files/57624_ruby_69914.zip
+>> add 57624_ruby_sabu.txt
+>> add 57624_ruby_utf8_sabu.txt
+>> https://www.aozora.gr.jp/cards/001869/card57624.html
+>> さぶ、山本周五郎、
+-rwxrwxrwx 1 level level 13876 Jan 11 10:48 ./aozorabunko/cards/001869/files/57817_ruby_69913.zip
+2/2: ./aozorabunko/cards/001869/files/57817_ruby_69913.zip
+>> add 57817_ruby_haru_mitabi.txt
+>> add 57817_ruby_utf8_haru_mitabi.txt
+>> https://www.aozora.gr.jp/cards/001869/card57817.html
+>> 日本婦道記、春三たび、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30840/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jan 11 10:46:56 JST 2020
+End  : Sat Jan 11 10:49:50 JST 2020
