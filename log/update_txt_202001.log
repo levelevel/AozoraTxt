@@ -469,3 +469,44 @@ Title Total : 30840/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan 11 10:46:56 JST 2020
 End  : Sat Jan 11 10:49:50 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan 12 23:06:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5979b7e8a4..4d8de0ab5c  master     -> origin/master
+Updating 5979b7e8a4..4d8de0ab5c
+Fast-forward
+ cards/000026/card55915.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55926.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/55915_69969.html           |  78 +++++++++
+ cards/000026/files/55915_txt_69916.zip        | Bin 0 -> 1190 bytes
+ cards/000026/files/55926_69968.html           |  82 +++++++++
+ cards/000026/files/55926_txt_69915.zip        | Bin 0 -> 1194 bytes
+ cards/001869/card57624.html                   |   2 +-
+ cards/001869/card57817.html                   |   2 +-
+ 65 files changed, 2451 insertions(+), 1653 deletions(-)
+Date: Sun Jan 12 23:08:17 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 11 10:49 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1190 Jan 12 23:07 ./aozorabunko/cards/000026/files/55915_txt_69916.zip
+1/2: ./aozorabunko/cards/000026/files/55915_txt_69916.zip
+>> add 55915_txt_sakewa_daredemo_yowasu.txt
+>> add 55915_txt_utf8_sakewa_daredemo_yowasu.txt
+>> https://www.aozora.gr.jp/cards/000026/card55915.html
+>> （酒は誰でも酔はす）、中原中也、
+-rwxrwxrwx 1 level level 1194 Jan 12 23:07 ./aozorabunko/cards/000026/files/55926_txt_69915.zip
+2/2: ./aozorabunko/cards/000026/files/55926_txt_69915.zip
+>> add 55926_txt_meishino_atsukaini.txt
+>> add 55926_txt_utf8_meishino_atsukaini.txt
+>> https://www.aozora.gr.jp/cards/000026/card55926.html
+>> （名詞の扱ひに）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30844/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan 12 23:06:37 JST 2020
+End  : Sun Jan 12 23:09:09 JST 2020
