@@ -542,3 +542,51 @@ Title Total : 30846/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan 13 10:15:51 JST 2020
 End  : Mon Jan 13 10:19:23 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jan 14 23:37:50 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   80113784ec..6815a2a4dc  master     -> origin/master
+Updating 80113784ec..6815a2a4dc
+Fast-forward
+ cards/000220/card59227.html                   |  234 ++++
+ cards/000220/files/59227_69972.html           |   81 ++
+ cards/000220/files/59227_ruby_69919.zip       |  Bin 0 -> 4369 bytes
+ cards/001411/card59071.html                   |  243 ++++
+ cards/001411/files/59071_69971.html           | 1601 +++++++++++++++++++++++++
+ cards/001411/files/59071_ruby_69918.zip       |  Bin 0 -> 138884 bytes
+ cards/001569/card59211.html                   |    2 +-
+ cards/002043/card60202.html                   |    4 +-
+ cards/002043/files/60202_ruby_69807.zip       |  Bin 9844653 -> 9844598 bytes
+ 59 files changed, 2489 insertions(+), 340 deletions(-)
+Date: Tue Jan 14 23:39:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 13 10:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4369 Jan 14 23:39 ./aozorabunko/cards/000220/files/59227_ruby_69919.zip
+1/3: ./aozorabunko/cards/000220/files/59227_ruby_69919.zip
+>> add 59227_ruby_02hyotono_gyofuni_tsuite.txt
+>> add 59227_ruby_utf8_02hyotono_gyofuni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000220/card59227.html
+>> 氷島の漁夫、「氷島の漁夫」について、吉江喬松、
+-rwxrwxrwx 1 level level 138884 Jan 14 23:39 ./aozorabunko/cards/001411/files/59071_ruby_69918.zip
+2/3: ./aozorabunko/cards/001411/files/59071_ruby_69918.zip
+>> add 59071_ruby_01hyotono_gyofu.txt
+>> add 59071_ruby_utf8_01hyotono_gyofu.txt
+>> https://www.aozora.gr.jp/cards/001411/card59071.html
+>> 氷島の漁夫、PECHEURS D'ISLANDE、ピエル・ロチ　Pierre Loti、吉江喬松訳、
+-rwxrwxrwx 1 level level 9844598 Jan 14 23:39 ./aozorabunko/cards/002043/files/60202_ruby_69807.zip
+3/3: ./aozorabunko/cards/002043/files/60202_ruby_69807.zip
+>> update 60202_NPD_ruby_yokka_hakuma.txt
+>> update 60202_NPD_ruby_utf8_yokka_hakuma.txt
+>> https://www.aozora.gr.jp/cards/002043/card60202.html
+>> 四日白魔、THE FOUR WHITE DAYS、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30850/368 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Tue Jan 14 23:37:50 JST 2020
+End  : Tue Jan 14 23:40:07 JST 2020
