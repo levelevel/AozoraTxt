@@ -590,3 +590,45 @@ Title Total : 30850/368 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jan 14 23:37:50 JST 2020
 End  : Tue Jan 14 23:40:07 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan 15 22:45:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6815a2a4dc..5bab9cda84  master     -> origin/master
+Updating 6815a2a4dc..5bab9cda84
+Fast-forward
+ cards/000082/card48030.html                   |  12 +-
+ cards/000220/card59227.html                   |   2 +-
+ cards/001403/card55112.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55114.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55112_69974.html           |  63 +++++++
+ cards/001403/files/55112_txt_69921.zip        | Bin 0 -> 4911 bytes
+ cards/001403/files/55114_69973.html           |  65 +++++++
+ cards/001403/files/55114_txt_69920.zip        | Bin 0 -> 1681 bytes
+ cards/001411/card59071.html                   |   2 +-
+ 70 files changed, 1955 insertions(+), 1367 deletions(-)
+Date: Wed Jan 15 22:46:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 14 23:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4911 Jan 15 22:46 ./aozorabunko/cards/001403/files/55112_txt_69921.zip
+1/2: ./aozorabunko/cards/001403/files/55112_txt_69921.zip
+>> add 55112_txt_seinen'yo_shio_musuni_erabe.txt
+>> add 55112_txt_utf8_seinen'yo_shio_musuni_erabe.txt
+>> https://www.aozora.gr.jp/cards/001403/card55112.html
+>> 青年よ師を無数に択べ、北大路魯山人、
+-rwxrwxrwx 1 level level 1681 Jan 15 22:46 ./aozorabunko/cards/001403/files/55114_txt_69920.zip
+2/2: ./aozorabunko/cards/001403/files/55114_txt_69920.zip
+>> add 55114_txt_horidashiwa_byokino_moto.txt
+>> add 55114_txt_utf8_horidashiwa_byokino_moto.txt
+>> https://www.aozora.gr.jp/cards/001403/card55114.html
+>> 掘出しは病気の元、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30854/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan 15 22:45:28 JST 2020
+End  : Wed Jan 15 22:46:44 JST 2020
