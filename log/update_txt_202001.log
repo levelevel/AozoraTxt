@@ -632,3 +632,62 @@ Title Total : 30854/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan 15 22:45:28 JST 2020
 End  : Wed Jan 15 22:46:44 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 17 00:38:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5bab9cda84..43f3ad894b  master     -> origin/master
+Updating 5bab9cda84..43f3ad894b
+Fast-forward
+ cards/000050/card4562.html                    |  19 +-
+ cards/000050/files/4562_70099.html            | 382 ++++++++++++++++++++++++++
+ cards/000050/files/4562_ruby_70098.zip        | Bin 0 -> 23772 bytes
+ cards/000082/card48030.html                   |  10 +-
+ cards/000082/files/48030_70095.html           | 144 ++++++++++
+ cards/000082/files/48030_ruby_70094.zip       | Bin 0 -> 11327 bytes
+ cards/000087/card902.html                     |  24 +-
+ cards/000087/files/902_70097.html             |  80 ++++++
+ cards/000087/files/902_ruby_70096.zip         | Bin 0 -> 9844 bytes
+ cards/001403/card55112.html                   |   2 +-
+ cards/001403/card55114.html                   |   2 +-
+ cards/002048/card59504.html                   | 229 +++++++++++++++
+ cards/002048/files/59504_69975.html           | 123 +++++++++
+ cards/002048/files/59504_ruby_69922.zip       | Bin 0 -> 10112 bytes
+ 70 files changed, 1820 insertions(+), 869 deletions(-)
+Date: Fri Jan 17 00:38:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 15 22:46 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 23772 Jan 17 00:38 ./aozorabunko/cards/000050/files/4562_ruby_70098.zip
+1/4: ./aozorabunko/cards/000050/files/4562_ruby_70098.zip
+>> update 4562_ruby_iseno_maki.txt
+>> update 4562_ruby_utf8_iseno_maki.txt
+>> https://www.aozora.gr.jp/cards/000050/card4562.html
+>> 伊勢之巻、泉鏡花、
+-rwxrwxrwx 1 level level 11327 Jan 17 00:38 ./aozorabunko/cards/000082/files/48030_ruby_70094.zip
+2/4: ./aozorabunko/cards/000082/files/48030_ruby_70094.zip
+>> update 48030_ruby_kihachijono_kosode.txt
+>> update 48030_ruby_utf8_kihachijono_kosode.txt
+>> https://www.aozora.gr.jp/cards/000082/card48030.html
+>> 黄八丈の小袖、岡本椅堂、
+-rwxrwxrwx 1 level level 9844 Jan 17 00:38 ./aozorabunko/cards/000087/files/902_ruby_70096.zip
+3/4: ./aozorabunko/cards/000087/files/902_ruby_70096.zip
+>> update 902_ruby_yoga_kenshinno_jikken.txt
+>> update 902_ruby_utf8_yoga_kenshinno_jikken.txt
+>> https://www.aozora.gr.jp/cards/000087/card902.html
+>> 予が見神の実験、綱島梁川、
+-rwxrwxrwx 1 level level 10112 Jan 17 00:38 ./aozorabunko/cards/002048/files/59504_ruby_69922.zip
+4/4: ./aozorabunko/cards/002048/files/59504_ruby_69922.zip
+>> add 59504_ruby_dokyonin_kafu.txt
+>> add 59504_ruby_utf8_dokyonin_kafu.txt
+>> https://www.aozora.gr.jp/cards/002048/card59504.html
+>> 同居人荷風、小西茂也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30856/368 (Accept:4/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 17 00:38:03 JST 2020
+End  : Fri Jan 17 00:39:22 JST 2020
