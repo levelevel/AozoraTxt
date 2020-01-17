@@ -691,3 +691,34 @@ Title Total : 30856/368 (Accept:4/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jan 17 00:38:03 JST 2020
 End  : Fri Jan 17 00:39:22 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 17 22:54:11 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   43f3ad894b..aa1b7fd8ed  master     -> origin/master
+Updating 43f3ad894b..aa1b7fd8ed
+Fast-forward
+ cards/001861/card59416.html                   | 234 ++++++++++++++++++++++++++
+ cards/001861/files/59416_69976.html           |  74 ++++++++
+ cards/001861/files/59416_ruby_69923.zip       | Bin 0 -> 5287 bytes
+ cards/002048/card59504.html                   |   2 +-
+ 44 files changed, 1221 insertions(+), 910 deletions(-)
+Date: Fri Jan 17 22:55:02 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 17 00:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5287 Jan 17 22:54 ./aozorabunko/cards/001861/files/59416_ruby_69923.zip
+1/1: ./aozorabunko/cards/001861/files/59416_ruby_69923.zip
+>> add 59416_ruby_bukozanni_noboru.txt
+>> add 59416_ruby_utf8_bukozanni_noboru.txt
+>> https://www.aozora.gr.jp/cards/001861/card59416.html
+>> 武甲山に登る、河井酔茗、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30858/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 17 22:54:11 JST 2020
+End  : Fri Jan 17 22:55:37 JST 2020
