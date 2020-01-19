@@ -754,3 +754,61 @@ Title Total : 30860/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan 18 10:57:51 JST 2020
 End  : Sat Jan 18 10:59:42 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan 19 17:13:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f6eee08350..3bc4be8ddd  master     -> origin/master
+Updating f6eee08350..3bc4be8ddd
+Fast-forward
+ cards/000082/card45480.html                   |   25 +-
+ cards/000082/files/45480_70103.html           |  188 +++++
+ cards/000082/files/45480_ruby_70102.zip       |  Bin 0 -> 15349 bytes
+ cards/000094/card56515.html                   |  238 ++++++
+ cards/000094/card56535.html                   |  238 ++++++
+ cards/000094/files/56515_69979.html           |  194 +++++
+ cards/000094/files/56515_ruby_69926.zip       |  Bin 0 -> 17070 bytes
+ cards/000094/files/56535_69978.html           |  238 ++++++
+ cards/000094/files/56535_ruby_69925.zip       |  Bin 0 -> 12779 bytes
+ cards/001397/card50071.html                   |   16 +-
+ cards/001397/files/50071_70105.html           | 1041 +++++++++++++++++++++++++
+ cards/001397/files/50071_ruby_70104.zip       |  Bin 0 -> 85896 bytes
+ cards/001670/card56406.html                   |    2 +-
+ 90 files changed, 4383 insertions(+), 2262 deletions(-)
+Date: Sun Jan 19 17:14:43 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 18 10:59 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15349 Jan 19 17:14 ./aozorabunko/cards/000082/files/45480_ruby_70102.zip
+1/4: ./aozorabunko/cards/000082/files/45480_ruby_70102.zip
+>> update 45480_ruby_unagini_norowareta_otoko.txt
+>> update 45480_ruby_utf8_unagini_norowareta_otoko.txt
+>> https://www.aozora.gr.jp/cards/000082/card45480.html
+>> 鰻に呪われた男、岡本綺堂、
+-rwxrwxrwx 1 level level 17070 Jan 19 17:14 ./aozorabunko/cards/000094/files/56515_ruby_69926.zip
+2/4: ./aozorabunko/cards/000094/files/56515_ruby_69926.zip
+>> add 56515_ruby_shimeshi_awase.txt
+>> add 56515_ruby_utf8_shimeshi_awase.txt
+>> https://www.aozora.gr.jp/cards/000094/card56515.html
+>> しめしあわせ、THE ASSIGNATION、エドガア・アラン・ポー　Edgar Allan Poe、佐々木直次郎訳、
+-rwxrwxrwx 1 level level 12779 Jan 19 17:14 ./aozorabunko/cards/000094/files/56535_ruby_69925.zip
+3/4: ./aozorabunko/cards/000094/files/56535_ruby_69925.zip
+>> add 56535_ruby_gunshuno_hito.txt
+>> add 56535_ruby_utf8_gunshuno_hito.txt
+>> https://www.aozora.gr.jp/cards/000094/card56535.html
+>> 群集の人、THE MAN OF THE CROWD、エドガア・アラン・ポー　Edgar Allan Poe、佐々木直次郎訳、
+-rwxrwxrwx 1 level level 85896 Jan 19 17:14 ./aozorabunko/cards/001397/files/50071_ruby_70104.zip
+4/4: ./aozorabunko/cards/001397/files/50071_ruby_70104.zip
+>> update 50071_ruby_hakaga_yondeiru.txt
+>> update 50071_ruby_utf8_hakaga_yondeiru.txt
+>> https://www.aozora.gr.jp/cards/001397/card50071.html
+>> 墓が呼んでいる、橘外男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30864/368 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan 19 17:13:40 JST 2020
+End  : Sun Jan 19 17:15:43 JST 2020
