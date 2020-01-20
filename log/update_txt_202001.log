@@ -812,3 +812,35 @@ Title Total : 30864/368 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jan 19 17:13:40 JST 2020
 End  : Sun Jan 19 17:15:43 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan 20 22:46:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3bc4be8ddd..5dcc3523e9  master     -> origin/master
+Updating 3bc4be8ddd..5dcc3523e9
+Fast-forward
+ cards/000094/card56515.html                   |   2 +-
+ cards/000094/card56535.html                   |   2 +-
+ cards/001308/card49296.html                   | 234 +++++++++++++
+ cards/001308/files/49296_69980.html           | 456 ++++++++++++++++++++++++++
+ cards/001308/files/49296_ruby_69927.zip       | Bin 0 -> 27997 bytes
+ 36 files changed, 1289 insertions(+), 603 deletions(-)
+Date: Mon Jan 20 22:47:10 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 19 17:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 27997 Jan 20 22:46 ./aozorabunko/cards/001308/files/49296_ruby_69927.zip
+1/1: ./aozorabunko/cards/001308/files/49296_ruby_69927.zip
+>> add 49296_ruby_fuyugare.txt
+>> add 49296_ruby_utf8_fuyugare.txt
+>> https://www.aozora.gr.jp/cards/001308/card49296.html
+>> 冬枯れ、徳永直、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30866/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan 20 22:46:00 JST 2020
+End  : Mon Jan 20 22:48:05 JST 2020
