@@ -844,3 +844,79 @@ Title Total : 30866/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan 20 22:46:00 JST 2020
 End  : Mon Jan 20 22:48:05 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan 22 00:01:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5dcc3523e9..f1bb5da28b  master     -> origin/master
+Updating 5dcc3523e9..f1bb5da28b
+Fast-forward
+ cards/000082/card45485.html                   |   21 +-
+ cards/000082/card45491.html                   |   29 +-
+ cards/000082/card45494.html                   |   21 +-
+ cards/000082/files/45485_70111.html           |  244 ++++++
+ cards/000082/files/45485_ruby_70110.zip       |  Bin 0 -> 16913 bytes
+ cards/000082/files/45491_70107.html           |  365 +++++++++
+ cards/000082/files/45491_ruby_70106.zip       |  Bin 0 -> 24403 bytes
+ cards/000082/files/45494_70109.html           |  340 ++++++++
+ cards/000082/files/45494_ruby_70108.zip       |  Bin 0 -> 21743 bytes
+ cards/000311/card46261.html                   |  229 ++++++
+ cards/000311/files/46261_69982.html           | 1084 +++++++++++++++++++++++++
+ cards/000311/files/46261_ruby_69929.zip       |  Bin 0 -> 30658 bytes
+ cards/000416/card57123.html                   |  234 ++++++
+ cards/000416/card57147.html                   |  234 ++++++
+ cards/000416/files/57123_69981.html           |   65 ++
+ cards/000416/files/57123_ruby_69928.zip       |  Bin 0 -> 1668 bytes
+ cards/000416/files/57147_69983.html           |  131 +++
+ cards/000416/files/57147_ruby_69930.zip       |  Bin 0 -> 8120 bytes
+ cards/001308/card49296.html                   |    2 +-
+ 82 files changed, 4690 insertions(+), 1752 deletions(-)
+Date: Wed Jan 22 00:02:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 20 22:47 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16913 Jan 22 00:02 ./aozorabunko/cards/000082/files/45485_ruby_70110.zip
+1/6: ./aozorabunko/cards/000082/files/45485_ruby_70110.zip
+>> update 45485_ruby_kuronbo.txt
+>> update 45485_ruby_utf8_kuronbo.txt
+>> https://www.aozora.gr.jp/cards/000082/card45485.html
+>> くろん坊、岡本綺堂、
+-rwxrwxrwx 1 level level 24403 Jan 22 00:02 ./aozorabunko/cards/000082/files/45491_ruby_70106.zip
+2/6: ./aozorabunko/cards/000082/files/45491_ruby_70106.zip
+>> git-mv 45491_ruby_fukamifujinno_shi.txt 45491_ruby_fukami_fujinno_shi.txt
+>> git-mv 45491_ruby_utf8_fukamifujinno_shi.txt 45491_ruby_utf8_fukami_fujinno_shi.txt
+>> https://www.aozora.gr.jp/cards/000082/card45491.html
+>> 深見夫人の死、岡本綺堂、
+-rwxrwxrwx 1 level level 21743 Jan 22 00:02 ./aozorabunko/cards/000082/files/45494_ruby_70108.zip
+3/6: ./aozorabunko/cards/000082/files/45494_ruby_70108.zip
+>> update 45494_ruby_washi.txt
+>> update 45494_ruby_utf8_washi.txt
+>> https://www.aozora.gr.jp/cards/000082/card45494.html
+>> 鷲、岡本綺堂、
+-rwxrwxrwx 1 level level 30658 Jan 22 00:02 ./aozorabunko/cards/000311/files/46261_ruby_69929.zip
+4/6: ./aozorabunko/cards/000311/files/46261_ruby_69929.zip
+>> add 46261_ruby_31nikki1948.txt
+>> add 46261_ruby_utf8_31nikki1948.txt
+>> https://www.aozora.gr.jp/cards/000311/card46261.html
+>> 日記、一九四八年（昭和二十三年）、宮本百合子、
+-rwxrwxrwx 1 level level 1668 Jan 22 00:02 ./aozorabunko/cards/000416/files/57123_ruby_69928.zip
+5/6: ./aozorabunko/cards/000416/files/57123_ruby_69928.zip
+>> add 57123_ruby_fukuokano_onna.txt
+>> add 57123_ruby_utf8_fukuokano_onna.txt
+>> https://www.aozora.gr.jp/cards/000416/card57123.html
+>> 福岡の女、伊藤野枝、
+-rwxrwxrwx 1 level level 8120 Jan 22 00:02 ./aozorabunko/cards/000416/files/57147_ruby_69930.zip
+6/6: ./aozorabunko/cards/000416/files/57147_ruby_69930.zip
+>> add 57147_ruby_yome_dorobo_tan.txt
+>> add 57147_ruby_utf8_yome_dorobo_tan.txt
+>> https://www.aozora.gr.jp/cards/000416/card57147.html
+>> 嫁泥棒譚、伊藤野枝、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30872/368 (Accept:6/Reject:0/Update:2/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan 22 00:01:44 JST 2020
+End  : Wed Jan 22 00:03:41 JST 2020
