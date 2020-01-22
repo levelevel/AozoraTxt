@@ -920,3 +920,55 @@ Title Total : 30872/368 (Accept:6/Reject:0/Update:2/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan 22 00:01:44 JST 2020
 End  : Wed Jan 22 00:03:41 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan 22 20:50:54 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f1bb5da28b..d2545b4d7b  master     -> origin/master
+Updating f1bb5da28b..d2545b4d7b
+Fast-forward
+ cards/000214/card48907.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48962.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card49009.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48907_69985.html           |  87 +++++++++
+ cards/000214/files/48907_ruby_69932.zip       | Bin 0 -> 5573 bytes
+ cards/000214/files/48962_69986.html           | 130 ++++++++++++++
+ cards/000214/files/48962_ruby_69933.zip       | Bin 0 -> 5777 bytes
+ cards/000214/files/49009_69984.html           |  76 ++++++++
+ cards/000214/files/49009_ruby_69931.zip       | Bin 0 -> 2802 bytes
+ cards/000311/card46261.html                   |   2 +-
+ cards/000416/card57123.html                   |   2 +-
+ cards/000416/card57147.html                   |   2 +-
+ cards/001569/card53221.html                   |   2 +-
+ 118 files changed, 5004 insertions(+), 3878 deletions(-)
+Date: Wed Jan 22 20:52:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 22 00:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5573 Jan 22 20:51 ./aozorabunko/cards/000214/files/48907_ruby_69932.zip
+1/3: ./aozorabunko/cards/000214/files/48907_ruby_69932.zip
+>> add 48907_ruby_seimetsuno_shinri.txt
+>> add 48907_ruby_utf8_seimetsuno_shinri.txt
+>> https://www.aozora.gr.jp/cards/000214/card48907.html
+>> 生滅の心理、田山録弥、
+-rwxrwxrwx 1 level level 5777 Jan 22 20:51 ./aozorabunko/cards/000214/files/48962_ruby_69933.zip
+2/3: ./aozorabunko/cards/000214/files/48962_ruby_69933.zip
+>> add 48962_ruby_yuriko.txt
+>> add 48962_ruby_utf8_yuriko.txt
+>> https://www.aozora.gr.jp/cards/000214/card48962.html
+>> 百合子、田山録弥、
+-rwxrwxrwx 1 level level 2802 Jan 22 20:51 ./aozorabunko/cards/000214/files/49009_ruby_69931.zip
+3/3: ./aozorabunko/cards/000214/files/49009_ruby_69931.zip
+>> add 49009_ruby_kusatsukara_ikahomade.txt
+>> add 49009_ruby_utf8_kusatsukara_ikahomade.txt
+>> https://www.aozora.gr.jp/cards/000214/card49009.html
+>> 草津から伊香保まで、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30878/368 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan 22 20:50:54 JST 2020
+End  : Wed Jan 22 20:52:53 JST 2020
