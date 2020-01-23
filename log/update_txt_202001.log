@@ -972,3 +972,45 @@ Title Total : 30878/368 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan 22 20:50:54 JST 2020
 End  : Wed Jan 22 20:52:53 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jan 23 23:54:30 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d2545b4d7b..9eb28a3e93  master     -> origin/master
+Updating d2545b4d7b..9eb28a3e93
+Fast-forward
+ cards/000214/card48907.html                   |   2 +-
+ cards/000214/card48962.html                   |   2 +-
+ cards/000214/card49009.html                   |   2 +-
+ cards/001520/card56750.html                   | 234 ++++++++++++++++++++++++++
+ cards/001520/card56752.html                   | 234 ++++++++++++++++++++++++++
+ cards/001520/files/56750_69987.html           | 170 +++++++++++++++++++
+ cards/001520/files/56750_ruby_69934.zip       | Bin 0 -> 79957 bytes
+ cards/001520/files/56752_69988.html           | 119 +++++++++++++
+ cards/001520/files/56752_ruby_69935.zip       | Bin 0 -> 8372 bytes
+ 42 files changed, 1513 insertions(+), 768 deletions(-)
+Date: Thu Jan 23 23:55:26 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 22 20:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 79957 Jan 23 23:55 ./aozorabunko/cards/001520/files/56750_ruby_69934.zip
+1/2: ./aozorabunko/cards/001520/files/56750_ruby_69934.zip
+>> add 56750_ruby_mashikono_edobin.txt
+>> add 56750_ruby_utf8_mashikono_edobin.txt
+>> https://www.aozora.gr.jp/cards/001520/card56750.html
+>> 益子の絵土瓶、柳宗悦、
+-rwxrwxrwx 1 level level 8372 Jan 23 23:55 ./aozorabunko/cards/001520/files/56752_ruby_69935.zip
+2/2: ./aozorabunko/cards/001520/files/56752_ruby_69935.zip
+>> add 56752_ruby_yashuno_ishiyane.txt
+>> add 56752_ruby_utf8_yashuno_ishiyane.txt
+>> https://www.aozora.gr.jp/cards/001520/card56752.html
+>> 野州の石屋根、柳宗悦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30882/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jan 23 23:54:30 JST 2020
+End  : Thu Jan 23 23:55:42 JST 2020
