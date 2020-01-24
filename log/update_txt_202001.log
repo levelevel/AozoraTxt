@@ -1014,3 +1014,53 @@ Title Total : 30882/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jan 23 23:54:30 JST 2020
 End  : Thu Jan 23 23:55:42 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 24 22:37:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9eb28a3e93..ec5b7ba453  master     -> origin/master
+Updating 9eb28a3e93..ec5b7ba453
+Fast-forward
+ cards/000237/card50049.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/files/50049_69991.html           | 101 +++++++++++
+ cards/000237/files/50049_ruby_69938.zip       | Bin 0 -> 5068 bytes
+ cards/001520/card56750.html                   |   2 +-
+ cards/001520/card56752.html                   |   2 +-
+ cards/001637/card59057.html                   | 234 ++++++++++++++++++++++++++
+ cards/001637/card59058.html                   | 234 ++++++++++++++++++++++++++
+ cards/001637/files/59057_69989.html           |  89 ++++++++++
+ cards/001637/files/59057_txt_69936.zip        | Bin 0 -> 1151 bytes
+ cards/001637/files/59058_69990.html           |  77 +++++++++
+ cards/001637/files/59058_txt_69937.zip        | Bin 0 -> 869 bytes
+ 69 files changed, 2368 insertions(+), 1389 deletions(-)
+Date: Fri Jan 24 22:38:39 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 23 23:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5068 Jan 24 22:38 ./aozorabunko/cards/000237/files/50049_ruby_69938.zip
+1/3: ./aozorabunko/cards/000237/files/50049_ruby_69938.zip
+>> add 50049_ruby_yoruno_takaosan.txt
+>> add 50049_ruby_utf8_yoruno_takaosan.txt
+>> https://www.aozora.gr.jp/cards/000237/card50049.html
+>> 夜の高尾山、大町桂月、
+-rwxrwxrwx 1 level level 1151 Jan 24 22:38 ./aozorabunko/cards/001637/files/59057_txt_69936.zip
+2/3: ./aozorabunko/cards/001637/files/59057_txt_69936.zip
+>> add 59057_txt_fushiawase_monono_uta.txt
+>> add 59057_txt_utf8_fushiawase_monono_uta.txt
+>> https://www.aozora.gr.jp/cards/001637/card59057.html
+>> ふしあわせ者のうた、中野鈴子、
+-rwxrwxrwx 1 level level 869 Jan 24 22:38 ./aozorabunko/cards/001637/files/59058_txt_69937.zip
+3/3: ./aozorabunko/cards/001637/files/59058_txt_69937.zip
+>> add 59058_txt_spain_no_onna.txt
+>> add 59058_txt_utf8_spain_no_onna.txt
+>> https://www.aozora.gr.jp/cards/001637/card59058.html
+>> スペインの女、中野鈴子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30888/368 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 24 22:37:35 JST 2020
+End  : Fri Jan 24 22:39:30 JST 2020
