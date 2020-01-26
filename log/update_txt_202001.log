@@ -1106,3 +1106,44 @@ Title Total : 30892/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jan 26 01:53:28 JST 2020
 End  : Sun Jan 26 01:54:54 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan 26 11:18:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5e95fce9ee..6696e3ab22  master     -> origin/master
+Updating 5e95fce9ee..6696e3ab22
+Fast-forward
+ cards/000067/card59986.html                   |   2 +-
+ cards/001566/card58037.html                   | 229 +++++++++++++++++++++++++
+ cards/001566/card58447.html                   | 234 ++++++++++++++++++++++++++
+ cards/001566/files/58037_69995.html           |  83 +++++++++
+ cards/001566/files/58037_txt_69942.zip        | Bin 0 -> 2095 bytes
+ cards/001566/files/58447_69994.html           |  78 +++++++++
+ cards/001566/files/58447_ruby_69941.zip       | Bin 0 -> 2448 bytes
+ cards/001569/card57291.html                   |   2 +-
+ 101 files changed, 3633 insertions(+), 2565 deletions(-)
+Date: Sun Jan 26 11:19:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 26 01:54 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2095 Jan 26 11:19 ./aozorabunko/cards/001566/files/58037_txt_69942.zip
+1/2: ./aozorabunko/cards/001566/files/58037_txt_69942.zip
+>> add 58037_txt_fukuso_goi_bunrui_an.txt
+>> add 58037_txt_utf8_fukuso_goi_bunrui_an.txt
+>> https://www.aozora.gr.jp/cards/001566/card58037.html
+>> 服裝語彙分類案、柳田國男、
+-rwxrwxrwx 1 level level 2448 Jan 26 11:19 ./aozorabunko/cards/001566/files/58447_ruby_69941.zip
+2/2: ./aozorabunko/cards/001566/files/58447_ruby_69941.zip
+>> add 58447_ruby_daitoda_matawa_toboshidato_iu_chimei.txt
+>> add 58447_ruby_utf8_daitoda_matawa_toboshidato_iu_chimei.txt
+>> https://www.aozora.gr.jp/cards/001566/card58447.html
+>> 大唐田または唐干田という地名、柳田國男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30896/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan 26 11:18:47 JST 2020
+End  : Sun Jan 26 11:20:35 JST 2020
