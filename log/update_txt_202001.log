@@ -1147,3 +1147,46 @@ Title Total : 30896/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jan 26 11:18:47 JST 2020
 End  : Sun Jan 26 11:20:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan 27 23:11:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6696e3ab22..c009251803  master     -> origin/master
+Updating 6696e3ab22..c009251803
+Fast-forward
+ cards/000067/card59986.html                   |   2 +-
+ cards/001566/card58037.html                   |   2 +-
+ cards/001566/card58447.html                   |   2 +-
+ cards/001569/card57291.html                   |   2 +-
+ cards/001932/card59114.html                   | 243 ++++++++++++++++++++++++++
+ cards/001932/card59115.html                   | 243 ++++++++++++++++++++++++++
+ cards/001932/files/59114_69996.html           | 137 +++++++++++++++
+ cards/001932/files/59114_ruby_69943.zip       | Bin 0 -> 5753 bytes
+ cards/001932/files/59115_69997.html           |  78 +++++++++
+ cards/001932/files/59115_ruby_69944.zip       | Bin 0 -> 4047 bytes
+ 66 files changed, 1304 insertions(+), 627 deletions(-)
+Date: Mon Jan 27 23:12:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 26 11:20 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5753 Jan 27 23:12 ./aozorabunko/cards/001932/files/59114_ruby_69943.zip
+1/2: ./aozorabunko/cards/001932/files/59114_ruby_69943.zip
+>> add 59114_ruby_04hokuetsu_seppu_nihen_jo.txt
+>> add 59114_ruby_utf8_04hokuetsu_seppu_nihen_jo.txt
+>> https://www.aozora.gr.jp/cards/001932/card59114.html
+>> 北越雪譜、北越雪譜二編叙、京山人百樹、岡田武松校訂、
+-rwxrwxrwx 1 level level 4047 Jan 27 23:12 ./aozorabunko/cards/001932/files/59115_ruby_69944.zip
+2/2: ./aozorabunko/cards/001932/files/59115_ruby_69944.zip
+>> add 59115_ruby_05hokuetsu_seppu_nihen_hanrei.txt
+>> add 59115_ruby_utf8_05hokuetsu_seppu_nihen_hanrei.txt
+>> https://www.aozora.gr.jp/cards/001932/card59115.html
+>> 北越雪譜、北越雪譜二編凡例、京山人百樹、岡田武松校訂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30900/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan 27 23:11:02 JST 2020
+End  : Mon Jan 27 23:13:28 JST 2020
