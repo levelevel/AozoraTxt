@@ -1190,3 +1190,35 @@ Title Total : 30900/368 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan 27 23:11:02 JST 2020
 End  : Mon Jan 27 23:13:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jan 28 23:06:34 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c009251803..ecfad2b164  master     -> origin/master
+Updating c009251803..ecfad2b164
+Fast-forward
+ cards/001670/card56400.html                   | 234 +++++++++++++
+ cards/001670/files/56400_69998.html           | 302 +++++++++++++++++
+ cards/001670/files/56400_ruby_69945.zip       | Bin 0 -> 11953 bytes
+ cards/001932/card59114.html                   |   2 +-
+ cards/001932/card59115.html                   |   2 +-
+ 61 files changed, 1427 insertions(+), 1334 deletions(-)
+Date: Tue Jan 28 23:07:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 27 23:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11953 Jan 28 23:07 ./aozorabunko/cards/001670/files/56400_ruby_69945.zip
+1/1: ./aozorabunko/cards/001670/files/56400_ruby_69945.zip
+>> add 56400_ruby_146hakariza_seidan.txt
+>> add 56400_ruby_utf8_146hakariza_seidan.txt
+>> https://www.aozora.gr.jp/cards/001670/card56400.html
+>> 銭形平次捕物控、秤座政談、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30902/368 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jan 28 23:06:34 JST 2020
+End  : Tue Jan 28 23:08:25 JST 2020
