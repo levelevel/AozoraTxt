@@ -1,0 +1,50 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Feb  1 15:03:34 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e199b09ee3..58d7ab2f17  master     -> origin/master
+Updating e199b09ee3..58d7ab2f17
+Fast-forward
+ cards/000023/card55325.html                   | 234 +++++++++++++++++++++++++
+ cards/000023/card55390.html                   | 234 +++++++++++++++++++++++++
+ cards/000023/files/55325_70168.html           | 156 +++++++++++++++++
+ cards/000023/files/55325_ruby_70119.zip       | Bin 0 -> 10357 bytes
+ cards/000023/files/55390_70167.html           | 236 ++++++++++++++++++++++++++
+ cards/000023/files/55390_ruby_70118.zip       | Bin 0 -> 10284 bytes
+ cards/000879/card105.html                     |  10 +-
+ cards/001823/card58337.html                   |   2 +-
+ cards/002085/card59723.html                   | 229 +++++++++++++++++++++++++
+ cards/002085/files/59723_70002.html           |  60 +++++++
+ cards/002085/files/59723_txt_69949.zip        | Bin 0 -> 2457 bytes
+ 126 files changed, 4676 insertions(+), 3412 deletions(-)
+Date: Sat Feb  1 15:06:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 30 09:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10357 Feb  1 15:06 ./aozorabunko/cards/000023/files/55325_ruby_70119.zip
+1/3: ./aozorabunko/cards/000023/files/55325_ruby_70119.zip
+>> add 55325_ruby_yoshinno_ichiya.txt
+>> add 55325_ruby_utf8_yoshinno_ichiya.txt
+>> https://www.aozora.gr.jp/cards/000023/card55325.html
+>> 余震の一夜、徳田秋聲、
+-rwxrwxrwx 1 level level 10284 Feb  1 15:06 ./aozorabunko/cards/000023/files/55390_ruby_70118.zip
+2/3: ./aozorabunko/cards/000023/files/55390_ruby_70118.zip
+>> add 55390_ruby_bashoto_shida.txt
+>> add 55390_ruby_utf8_bashoto_shida.txt
+>> https://www.aozora.gr.jp/cards/000023/card55390.html
+>> 芭蕉と歯朶、徳田秋聲、
+-rwxrwxrwx 1 level level 2457 Feb  1 15:06 ./aozorabunko/cards/002085/files/59723_txt_69949.zip
+3/3: ./aozorabunko/cards/002085/files/59723_txt_69949.zip
+>> add 59723_txt_aoi_kao.txt
+>> add 59723_txt_utf8_aoi_kao.txt
+>> https://www.aozora.gr.jp/cards/002085/card59723.html
+>> “青い顔”、間所紗織、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30914/368 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Feb  1 15:03:34 JST 2020
+End  : Sat Feb  1 15:07:36 JST 2020
