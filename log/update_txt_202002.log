@@ -48,3 +48,78 @@ Title Total : 30914/368 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Feb  1 15:03:34 JST 2020
 End  : Sat Feb  1 15:07:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Feb  2 17:26:51 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   58d7ab2f17..26e0bcec91  master     -> origin/master
+Updating 58d7ab2f17..26e0bcec91
+Fast-forward
+ cards/000023/card55325.html                   |   2 +-
+ cards/000023/card55390.html                   |   2 +-
+ cards/002043/card60318.html                   | 231 +++++++++++++++++
+ cards/002043/files/60318_70101.html           | 352 ++++++++++++++++++++++++++
+ cards/002043/files/60318_ruby_70100.zip       | Bin 0 -> 10701425 bytes
+ cards/002085/card59723.html                   |   2 +-
+ 66 files changed, 871 insertions(+), 301 deletions(-)
+Date: Sun Feb  2 17:28:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  1 15:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10701425 Feb  2 17:28 ./aozorabunko/cards/002043/files/60318_ruby_70100.zip
+1/1: ./aozorabunko/cards/002043/files/60318_ruby_70100.zip
+>> add 60318_NPD_ruby_yokka_yamiyo.txt
+>> add 60318_NPD_ruby_utf8_yokka_yamiyo.txt
+>> https://www.aozora.gr.jp/cards/002043/card60318.html
+>> 四日闇夜、THE FOUR DAYS' NIGHT、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30914/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun Feb  2 17:26:51 JST 2020
+End  : Sun Feb  2 17:29:59 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Feb  3 22:00:11 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   26e0bcec91..e833344dc7  master     -> origin/master
+Updating 26e0bcec91..e833344dc7
+Fast-forward
+ cards/000296/card50297.html                   | 234 ++++++++++++++++++++++++++
+ cards/000296/files/50297_70169.html           |  66 ++++++++
+ cards/000296/files/50297_ruby_70120.zip       | Bin 0 -> 5292 bytes
+ cards/000879/card105.html                     |   8 +-
+ cards/000879/files/105_15146.html             |  41 +++--
+ cards/000879/files/105_ruby_773.zip           | Bin 11649 -> 11786 bytes
+ cards/001373/card57029.html                   |   8 +-
+ cards/001373/files/57029_70259.html           |  69 ++++++++
+ cards/002043/card60318.html                   |   2 +-
+ 78 files changed, 1335 insertions(+), 956 deletions(-)
+Date: Mon Feb  3 22:01:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  2 17:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5292 Feb  3 22:01 ./aozorabunko/cards/000296/files/50297_ruby_70120.zip
+1/2: ./aozorabunko/cards/000296/files/50297_ruby_70120.zip
+>> add 50297_ruby_jinseino_rakuji.txt
+>> add 50297_ruby_utf8_jinseino_rakuji.txt
+>> https://www.aozora.gr.jp/cards/000296/card50297.html
+>> 人生の楽事、福澤諭吉、
+-rwxrwxrwx 1 level level 11786 Feb  3 22:01 ./aozorabunko/cards/000879/files/105_ruby_773.zip
+2/2: ./aozorabunko/cards/000879/files/105_ruby_773.zip
+>> update 105_ruby_nankinno_kirisuto.txt
+>> update 105_ruby_utf8_nankinno_kirisuto.txt
+>> https://www.aozora.gr.jp/cards/000879/card105.html
+>> 南京の基督、芥川龍之介、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30916/370 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Feb  3 22:00:11 JST 2020
+End  : Mon Feb  3 22:03:04 JST 2020
