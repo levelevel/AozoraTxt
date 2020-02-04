@@ -123,3 +123,34 @@ Title Total : 30916/370 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Feb  3 22:00:11 JST 2020
 End  : Mon Feb  3 22:03:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Feb  4 21:53:31 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e833344dc7..1e36a3d8d5  master     -> origin/master
+Updating e833344dc7..1e36a3d8d5
+Fast-forward
+ cards/000296/card50297.html                   |   2 +-
+ cards/001579/card59414.html                   | 234 ++++++++++++++++++++++++++
+ cards/001579/files/59414_70170.html           |  84 +++++++++
+ cards/001579/files/59414_ruby_70121.zip       | Bin 0 -> 1496 bytes
+ 47 files changed, 998 insertions(+), 641 deletions(-)
+Date: Tue Feb  4 21:55:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  3 22:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1496 Feb  4 21:54 ./aozorabunko/cards/001579/files/59414_ruby_70121.zip
+1/1: ./aozorabunko/cards/001579/files/59414_ruby_70121.zip
+>> add 59414_ruby_kanmuri_matsujiroshini_okuru_shi.txt
+>> add 59414_ruby_utf8_kanmuri_matsujiroshini_okuru_shi.txt
+>> https://www.aozora.gr.jp/cards/001579/card59414.html
+>> 冠松次郎氏におくる詩、室生犀星、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30918/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Feb  4 21:53:31 JST 2020
+End  : Tue Feb  4 21:56:21 JST 2020
