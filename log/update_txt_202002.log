@@ -154,3 +154,43 @@ Title Total : 30918/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Feb  4 21:53:31 JST 2020
 End  : Tue Feb  4 21:56:21 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb  5 17:13:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1e36a3d8d5..9f274c9af5  master     -> origin/master
+Updating 1e36a3d8d5..9f274c9af5
+Fast-forward
+ cards/001579/card59414.html                   |    2 +-
+ cards/001753/card59029.html                   |  234 ++
+ cards/001753/card59034.html                   |  234 ++
+ cards/001753/files/59029_70171.html           |   84 +
+ cards/001753/files/59029_ruby_70122.zip       |  Bin 0 -> 4458 bytes
+ cards/001753/files/59034_70172.html           |   82 +
+ cards/001753/files/59034_ruby_70123.zip       |  Bin 0 -> 4971 bytes
+ 94 files changed, 9383 insertions(+), 2488 deletions(-)
+Date: Wed Feb  5 17:14:35 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  4 21:56 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4458 Feb  5 17:14 ./aozorabunko/cards/001753/files/59029_ruby_70122.zip
+1/2: ./aozorabunko/cards/001753/files/59029_ruby_70122.zip
+>> add 59029_ruby_kajika.txt
+>> add 59029_ruby_utf8_kajika.txt
+>> https://www.aozora.gr.jp/cards/001753/card59029.html
+>> 河鹿、尾崎士郎、
+-rwxrwxrwx 1 level level 4971 Feb  5 17:14 ./aozorabunko/cards/001753/files/59034_ruby_70123.zip
+2/2: ./aozorabunko/cards/001753/files/59034_ruby_70123.zip
+>> add 59034_ruby_sekireino_su.txt
+>> add 59034_ruby_utf8_sekireino_su.txt
+>> https://www.aozora.gr.jp/cards/001753/card59034.html
+>> 鶺鴒の巣、尾崎士郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30922/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Feb  5 17:13:15 JST 2020
+End  : Wed Feb  5 17:15:59 JST 2020
