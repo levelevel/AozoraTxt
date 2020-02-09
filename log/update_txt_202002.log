@@ -308,3 +308,35 @@ Title Total : 30930/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Feb  9 01:02:27 JST 2020
 End  : Sun Feb  9 01:06:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Feb  9 18:24:39 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6eb6ad587d..ee08bcd086  master     -> origin/master
+Updating 6eb6ad587d..ee08bcd086
+Fast-forward
+ cards/000148/card59017.html                   | 234 ++++++++++++++++++++++++++
+ cards/000148/files/59017_70177.html           |  81 +++++++++
+ cards/000148/files/59017_ruby_70128.zip       | Bin 0 -> 6188 bytes
+ cards/001475/card51511.html                   |   2 +-
+ cards/001475/card51585.html                   |   2 +-
+ 47 files changed, 786 insertions(+), 475 deletions(-)
+Date: Sun Feb  9 18:24:57 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  9 01:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6188 Feb  9 18:24 ./aozorabunko/cards/000148/files/59017_ruby_70128.zip
+1/1: ./aozorabunko/cards/000148/files/59017_ruby_70128.zip
+>> add 59017_ruby_ohanashi.txt
+>> add 59017_ruby_utf8_ohanashi.txt
+>> https://www.aozora.gr.jp/cards/000148/card59017.html
+>> おはなし、夏目漱石、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30932/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Feb  9 18:24:39 JST 2020
+End  : Sun Feb  9 18:25:12 JST 2020
