@@ -380,3 +380,53 @@ Title Total : 30936/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Feb 10 21:48:40 JST 2020
 End  : Mon Feb 10 21:57:24 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Feb 11 12:25:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   39b614e6f7..d6374b05b1  master     -> origin/master
+Updating 39b614e6f7..d6374b05b1
+Fast-forward
+ cards/000933/card47712.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47727.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47822.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47712_70181.html           | 102 +++++++++++
+ cards/000933/files/47712_ruby_70132.zip       | Bin 0 -> 4912 bytes
+ cards/000933/files/47727_70182.html           | 137 +++++++++++++++
+ cards/000933/files/47727_ruby_70133.zip       | Bin 0 -> 10552 bytes
+ cards/000933/files/47822_70180.html           |  69 ++++++++
+ cards/000933/files/47822_txt_70131.zip        | Bin 0 -> 2362 bytes
+ cards/001652/card54385.html                   |   2 +-
+ cards/001652/card54392.html                   |   2 +-
+ 53 files changed, 2013 insertions(+), 1011 deletions(-)
+Date: Tue Feb 11 12:27:15 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 10 21:56 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4912 Feb 11 12:26 ./aozorabunko/cards/000933/files/47712_ruby_70132.zip
+1/3: ./aozorabunko/cards/000933/files/47712_ruby_70132.zip
+>> add 47712_ruby_nihon_geinono_hanashi.txt
+>> add 47712_ruby_utf8_nihon_geinono_hanashi.txt
+>> https://www.aozora.gr.jp/cards/000933/card47712.html
+>> 日本芸能の話、折口信夫、
+-rwxrwxrwx 1 level level 10552 Feb 11 12:26 ./aozorabunko/cards/000933/files/47727_ruby_70133.zip
+2/3: ./aozorabunko/cards/000933/files/47727_ruby_70133.zip
+>> add 47727_ruby_wakano_hasseito_shogeijutsutono_kankei.txt
+>> add 47727_ruby_utf8_wakano_hasseito_shogeijutsutono_kankei.txt
+>> https://www.aozora.gr.jp/cards/000933/card47727.html
+>> 和歌の発生と諸芸術との関係、折口信夫、
+-rwxrwxrwx 1 level level 2362 Feb 11 12:26 ./aozorabunko/cards/000933/files/47822_txt_70131.zip
+3/3: ./aozorabunko/cards/000933/files/47822_txt_70131.zip
+>> add 47822_txt_bunrakuno_komyo.txt
+>> add 47822_txt_utf8_bunrakuno_komyo.txt
+>> https://www.aozora.gr.jp/cards/000933/card47822.html
+>> 文楽の光明、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30942/370 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Feb 11 12:25:41 JST 2020
+End  : Tue Feb 11 12:28:22 JST 2020
