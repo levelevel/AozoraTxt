@@ -430,3 +430,38 @@ Title Total : 30942/370 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Feb 11 12:25:41 JST 2020
 End  : Tue Feb 11 12:28:22 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb 12 09:17:51 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d6374b05b1..fc30e9db6a  master     -> origin/master
+Updating d6374b05b1..fc30e9db6a
+Fast-forward
+ cards/000933/card47712.html                   |   2 +-
+ cards/000933/card47727.html                   |   2 +-
+ cards/000933/card47822.html                   |   2 +-
+ cards/001652/card54385.html                   |   2 +-
+ cards/001652/card54392.html                   |   2 +-
+ cards/001670/card56404.html                   | 234 ++++++++++++++++++++
+ cards/001670/files/56404_70183.html           | 295 ++++++++++++++++++++++++++
+ cards/001670/files/56404_ruby_70134.zip       | Bin 0 -> 12151 bytes
+ 65 files changed, 1356 insertions(+), 832 deletions(-)
+Date: Wed Feb 12 09:19:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 11 12:28 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12151 Feb 12 09:19 ./aozorabunko/cards/001670/files/56404_ruby_70134.zip
+1/1: ./aozorabunko/cards/001670/files/56404_ruby_70134.zip
+>> add 56404_ruby_148hyottokono_men.txt
+>> add 56404_ruby_utf8_148hyottokono_men.txt
+>> https://www.aozora.gr.jp/cards/001670/card56404.html
+>> 銭形平次捕物控、彦徳の面、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30944/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Feb 12 09:17:51 JST 2020
+End  : Wed Feb 12 09:20:31 JST 2020
