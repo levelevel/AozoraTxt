@@ -465,3 +465,43 @@ Title Total : 30944/370 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Feb 12 09:17:51 JST 2020
 End  : Wed Feb 12 09:20:31 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Feb 13 22:01:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fc30e9db6a..9947c48069  master     -> origin/master
+Updating fc30e9db6a..9947c48069
+Fast-forward
+ cards/000311/card46262.html                   | 229 +++++++++++++++++++++++++
+ cards/000311/files/46262_70185.html           | 121 +++++++++++++
+ cards/000311/files/46262_txt_70216.zip        | Bin 0 -> 1771 bytes
+ cards/001670/card56404.html                   |   2 +-
+ cards/001808/card59872.html                   | 234 ++++++++++++++++++++++++++
+ cards/001808/files/59872_70184.html           |  67 ++++++++
+ cards/001808/files/59872_ruby_70135.zip       | Bin 0 -> 3124 bytes
+ 81 files changed, 1647 insertions(+), 997 deletions(-)
+Date: Thu Feb 13 22:03:13 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 12 09:20 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1771 Feb 13 22:02 ./aozorabunko/cards/000311/files/46262_txt_70216.zip
+1/2: ./aozorabunko/cards/000311/files/46262_txt_70216.zip
+>> add 46262_txt_32nikki1949.txt
+>> add 46262_txt_utf8_32nikki1949.txt
+>> https://www.aozora.gr.jp/cards/000311/card46262.html
+>> 日記、一九四九年（昭和二十四年）、宮本百合子、
+-rwxrwxrwx 1 level level 3124 Feb 13 22:02 ./aozorabunko/cards/001808/files/59872_ruby_70135.zip
+2/2: ./aozorabunko/cards/001808/files/59872_ruby_70135.zip
+>> add 59872_ruby_neko_ryori.txt
+>> add 59872_ruby_utf8_neko_ryori.txt
+>> https://www.aozora.gr.jp/cards/001808/card59872.html
+>> 猫料理、村松梢風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30948/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Feb 13 22:01:27 JST 2020
+End  : Thu Feb 13 22:04:23 JST 2020
