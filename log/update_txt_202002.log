@@ -505,3 +505,44 @@ Title Total : 30948/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Feb 13 22:01:27 JST 2020
 End  : Thu Feb 13 22:04:23 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb 14 17:02:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9947c48069..19c4105567  master     -> origin/master
+Updating 9947c48069..19c4105567
+Fast-forward
+ cards/000311/card46262.html                   |   2 +-
+ cards/001808/card59872.html                   |   2 +-
+ cards/001869/card57727.html                   | 229 +++++++++++++++++
+ cards/001869/card57813.html                   | 229 +++++++++++++++++
+ cards/001869/files/57727_70186.html           | 349 ++++++++++++++++++++++++++
+ cards/001869/files/57727_ruby_70137.zip       | Bin 0 -> 22166 bytes
+ cards/001869/files/57813_70187.html           | 234 +++++++++++++++++
+ cards/001869/files/57813_ruby_70138.zip       | Bin 0 -> 14870 bytes
+ 68 files changed, 2251 insertions(+), 1218 deletions(-)
+Date: Fri Feb 14 17:03:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 13 22:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 22166 Feb 14 17:03 ./aozorabunko/cards/001869/files/57727_ruby_70137.zip
+1/2: ./aozorabunko/cards/001869/files/57727_ruby_70137.zip
+>> add 57727_ruby_hito_goroshi.txt
+>> add 57727_ruby_utf8_hito_goroshi.txt
+>> https://www.aozora.gr.jp/cards/001869/card57727.html
+>> ひとごろし、山本周五郎、
+-rwxrwxrwx 1 level level 14870 Feb 14 17:03 ./aozorabunko/cards/001869/files/57813_ruby_70138.zip
+2/2: ./aozorabunko/cards/001869/files/57813_ruby_70138.zip
+>> add 57813_ruby_furin.txt
+>> add 57813_ruby_utf8_furin.txt
+>> https://www.aozora.gr.jp/cards/001869/card57813.html
+>> 日本婦道記、風鈴、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30952/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Feb 14 17:02:02 JST 2020
+End  : Fri Feb 14 17:03:56 JST 2020
