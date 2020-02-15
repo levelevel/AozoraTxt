@@ -546,3 +546,45 @@ Title Total : 30952/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Feb 14 17:02:02 JST 2020
 End  : Fri Feb 14 17:03:56 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Feb 15 10:31:56 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   19c4105567..cfefc0351b  master     -> origin/master
+Updating 19c4105567..cfefc0351b
+Fast-forward
+ cards/001308/card49287.html                   | 234 ++++++++++++++++++++++
+ cards/001308/files/49287_70188.html           | 275 ++++++++++++++++++++++++++
+ cards/001308/files/49287_ruby_70139.zip       | Bin 0 -> 9350 bytes
+ cards/001798/card59415.html                   | 234 ++++++++++++++++++++++
+ cards/001798/files/59415_70189.html           | 122 ++++++++++++
+ cards/001798/files/59415_ruby_70140.zip       | Bin 0 -> 3614 bytes
+ cards/001808/card59872.html                   |   2 +-
+ cards/001869/card57727.html                   |   2 +-
+ cards/001869/card57813.html                   |   2 +-
+ 96 files changed, 3418 insertions(+), 2171 deletions(-)
+Date: Sat Feb 15 10:32:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 14 17:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9350 Feb 15 10:32 ./aozorabunko/cards/001308/files/49287_ruby_70139.zip
+1/2: ./aozorabunko/cards/001308/files/49287_ruby_70139.zip
+>> add 49287_ruby_kojo_shinbun.txt
+>> add 49287_ruby_utf8_kojo_shinbun.txt
+>> https://www.aozora.gr.jp/cards/001308/card49287.html
+>> 工場新聞、徳永直、
+-rwxrwxrwx 1 level level 3614 Feb 15 10:32 ./aozorabunko/cards/001798/files/59415_ruby_70140.zip
+2/2: ./aozorabunko/cards/001798/files/59415_ruby_70140.zip
+>> add 59415_ruby_yatsugatakeni_oikaesareru.txt
+>> add 59415_ruby_utf8_yatsugatakeni_oikaesareru.txt
+>> https://www.aozora.gr.jp/cards/001798/card59415.html
+>> 八ガ岳に追いかえされる、梅崎春生、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30956/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Feb 15 10:31:56 JST 2020
+End  : Sat Feb 15 10:33:07 JST 2020
