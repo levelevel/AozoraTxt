@@ -588,3 +588,71 @@ Title Total : 30956/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Feb 15 10:31:56 JST 2020
 End  : Sat Feb 15 10:33:07 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Feb 17 12:19:10 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cfefc0351b..5f73026d3a  master     -> origin/master
+Updating cfefc0351b..5f73026d3a
+Fast-forward
+ cards/000067/card59334.html                   | 234 ++++++++
+ cards/000067/files/59334_70192.html           |  66 ++
+ cards/000067/files/59334_ruby_70143.zip       | Bin 0 -> 2482 bytes
+ cards/000129/card59401.html                   | 234 ++++++++
+ cards/000129/files/59401_70193.html           | 155 +++++
+ cards/000129/files/59401_txt_70144.zip        | Bin 0 -> 8029 bytes
+ cards/000158/card45121.html                   | 234 ++++++++
+ cards/000158/files/45121_70191.html           | 833 ++++++++++++++++++++++++++
+ cards/000158/files/45121_ruby_70142.zip       | Bin 0 -> 61757 bytes
+ cards/001095/card56802.html                   | 238 ++++++++
+ cards/001095/files/56802_70194.html           |  88 +++
+ cards/001095/files/56802_ruby_70145.zip       | Bin 0 -> 3825 bytes
+ cards/001308/card49287.html                   |   2 +-
+ cards/001798/card59415.html                   |   2 +-
+ cards/001879/card58119.html                   | 234 ++++++++
+ cards/001879/files/58119_70190.html           |  74 +++
+ cards/001879/files/58119_ruby_70141.zip       | Bin 0 -> 6198 bytes
+ 141 files changed, 4954 insertions(+), 2250 deletions(-)
+Date: Mon Feb 17 12:20:59 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 15 10:32 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2482 Feb 17 12:20 ./aozorabunko/cards/000067/files/59334_ruby_70143.zip
+1/5: ./aozorabunko/cards/000067/files/59334_ruby_70143.zip
+>> add 59334_ruby_honshitsutekina_bungakusha.txt
+>> add 59334_ruby_utf8_honshitsutekina_bungakusha.txt
+>> https://www.aozora.gr.jp/cards/000067/card59334.html
+>> 本質的な文學者、萩原朔太郎、
+-rwxrwxrwx 1 level level 8029 Feb 17 12:20 ./aozorabunko/cards/000129/files/59401_txt_70144.zip
+2/5: ./aozorabunko/cards/000129/files/59401_txt_70144.zip
+>> add 59401_txt_minoue_banashi.txt
+>> add 59401_txt_utf8_minoue_banashi.txt
+>> https://www.aozora.gr.jp/cards/000129/card59401.html
+>> 身上話、森林太郎、
+-rwxrwxrwx 1 level level 61757 Feb 17 12:20 ./aozorabunko/cards/000158/files/45121_ruby_70142.zip
+3/5: ./aozorabunko/cards/000158/files/45121_ruby_70142.zip
+>> add 45121_ruby_chikara_mochi.txt
+>> add 45121_ruby_utf8_chikara_mochi.txt
+>> https://www.aozora.gr.jp/cards/000158/card45121.html
+>> 力餅、島崎藤村、
+-rwxrwxrwx 1 level level 3825 Feb 17 12:20 ./aozorabunko/cards/001095/files/56802_ruby_70145.zip
+4/5: ./aozorabunko/cards/001095/files/56802_ruby_70145.zip
+>> add 56802_ruby_tensaini_narisokonatta_otoko.txt
+>> add 56802_ruby_utf8_tensaini_narisokonatta_otoko.txt
+>> https://www.aozora.gr.jp/cards/001095/card56802.html
+>> 天才になりそこなった男の話、坂口安吾、
+-rwxrwxrwx 1 level level 6198 Feb 17 12:20 ./aozorabunko/cards/001879/files/58119_ruby_70141.zip
+5/5: ./aozorabunko/cards/001879/files/58119_ruby_70141.zip
+>> add 58119_ruby_joshi_kyoikuno_mokuteki.txt
+>> add 58119_ruby_utf8_joshi_kyoikuno_mokuteki.txt
+>> https://www.aozora.gr.jp/cards/001879/card58119.html
+>> 女子教育の目的、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30966/370 (Accept:5/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Feb 17 12:19:10 JST 2020
+End  : Mon Feb 17 12:22:19 JST 2020
