@@ -656,3 +656,46 @@ Title Total : 30966/370 (Accept:5/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Feb 17 12:19:10 JST 2020
 End  : Mon Feb 17 12:22:19 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Feb 18 21:34:58 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5f73026d3a..e627fd957e  master     -> origin/master
+Updating 5f73026d3a..e627fd957e
+Fast-forward
+ cards/000067/card59334.html                   |   2 +-
+ cards/000076/card58399.html                   | 234 +++++++++++++++++++++
+ cards/000076/card58431.html                   | 234 +++++++++++++++++++++
+ cards/000076/files/58399_70195.html           |  81 ++++++++
+ cards/000076/files/58399_ruby_70146.zip       | Bin 0 -> 2622 bytes
+ cards/000076/files/58431_70196.html           | 280 ++++++++++++++++++++++++++
+ cards/000076/files/58431_ruby_70147.zip       | Bin 0 -> 18410 bytes
+ cards/000129/card59401.html                   |   2 +-
+ cards/000158/card45121.html                   |   2 +-
+ cards/001095/card56802.html                   |   2 +-
+ 72 files changed, 2141 insertions(+), 1255 deletions(-)
+Date: Tue Feb 18 21:36:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 17 12:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2622 Feb 18 21:35 ./aozorabunko/cards/000076/files/58399_ruby_70146.zip
+1/2: ./aozorabunko/cards/000076/files/58399_ruby_70146.zip
+>> add 58399_ruby_ase.txt
+>> add 58399_ruby_utf8_ase.txt
+>> https://www.aozora.gr.jp/cards/000076/card58399.html
+>> 汗、岡本かの子、
+-rwxrwxrwx 1 level level 18410 Feb 18 21:35 ./aozorabunko/cards/000076/files/58431_ruby_70147.zip
+2/2: ./aozorabunko/cards/000076/files/58431_ruby_70147.zip
+>> add 58431_ruby_rogi_sho.txt
+>> add 58431_ruby_utf8_rogi_sho.txt
+>> https://www.aozora.gr.jp/cards/000076/card58431.html
+>> 老妓抄、岡本かの子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30970/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Feb 18 21:34:58 JST 2020
+End  : Tue Feb 18 21:37:01 JST 2020
