@@ -740,3 +740,53 @@ Title Total : 30974/370 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Feb 19 22:05:46 JST 2020
 End  : Wed Feb 19 22:07:26 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Feb 20 22:21:14 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   90bbe29f88..835b95c7d9  master     -> origin/master
+Updating 90bbe29f88..835b95c7d9
+Fast-forward
+ cards/001753/card59032.html                   |   2 +-
+ cards/001753/card59033.html                   |   2 +-
+ cards/001801/card59447.html                   | 229 ++++++++++++++++++++++++++
+ cards/001801/card59448.html                   | 229 ++++++++++++++++++++++++++
+ cards/001801/card59532.html                   | 229 ++++++++++++++++++++++++++
+ cards/001801/files/59447_70199.html           |  90 ++++++++++
+ cards/001801/files/59447_ruby_70150.zip       | Bin 0 -> 2878 bytes
+ cards/001801/files/59448_70201.html           |  92 +++++++++++
+ cards/001801/files/59448_ruby_70152.zip       | Bin 0 -> 4021 bytes
+ cards/001801/files/59532_70200.html           | 132 +++++++++++++++
+ cards/001801/files/59532_ruby_70151.zip       | Bin 0 -> 5898 bytes
+ 63 files changed, 2693 insertions(+), 1700 deletions(-)
+Date: Thu Feb 20 22:22:34 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 19 22:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2878 Feb 20 22:22 ./aozorabunko/cards/001801/files/59447_ruby_70150.zip
+1/3: ./aozorabunko/cards/001801/files/59447_ruby_70150.zip
+>> add 59447_ruby_asano_yotto.txt
+>> add 59447_ruby_utf8_asano_yotto.txt
+>> https://www.aozora.gr.jp/cards/001801/card59447.html
+>> 朝のヨット、山川方夫、
+-rwxrwxrwx 1 level level 4021 Feb 20 22:22 ./aozorabunko/cards/001801/files/59448_ruby_70152.zip
+2/3: ./aozorabunko/cards/001801/files/59448_ruby_70152.zip
+>> add 59448_ruby_yuganda_mado.txt
+>> add 59448_ruby_utf8_yuganda_mado.txt
+>> https://www.aozora.gr.jp/cards/001801/card59448.html
+>> 歪んだ窓、山川方夫、
+-rwxrwxrwx 1 level level 5898 Feb 20 22:22 ./aozorabunko/cards/001801/files/59532_ruby_70151.zip
+3/3: ./aozorabunko/cards/001801/files/59532_ruby_70151.zip
+>> add 59532_ruby_natsuno_soretsu.txt
+>> add 59532_ruby_utf8_natsuno_soretsu.txt
+>> https://www.aozora.gr.jp/cards/001801/card59532.html
+>> 夏の葬列、山川方夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30980/370 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Feb 20 22:21:14 JST 2020
+End  : Thu Feb 20 22:23:12 JST 2020
