@@ -790,3 +790,148 @@ Title Total : 30980/370 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Feb 20 22:21:14 JST 2020
 End  : Thu Feb 20 22:23:12 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb 21 07:02:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   835b95c7d9..aed21805e7  master     -> origin/master
+Updating 835b95c7d9..aed21805e7
+Fast-forward
+ cards/001801/card59447.html                   |   2 +-
+ cards/001801/card59448.html                   |   2 +-
+ cards/001801/card59532.html                   |   2 +-
+ cards/002130/card60178.html                   | 231 ++++++++++++++++++++++++++
+ cards/002130/files/60178_69806.html           | 163 ++++++++++++++++++
+ cards/002130/files/60178_ruby_69805.zip       | Bin 0 -> 16811 bytes
+ 39 files changed, 980 insertions(+), 588 deletions(-)
+Date: Fri Feb 21 07:03:22 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 20 22:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16811 Feb 21 07:03 ./aozorabunko/cards/002130/files/60178_ruby_69805.zip
+1/1: ./aozorabunko/cards/002130/files/60178_ruby_69805.zip
+>> add 60178_NPD_ruby_nagai_heya.txt
+>> add 60178_NPD_ruby_utf8_nagai_heya.txt
+>> https://www.aozora.gr.jp/cards/002130/card60178.html
+>> 長い部屋、O. H. ダンバー　O. H. Dunbar、The Creative CAT 訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 30980/372 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Feb 21 07:02:35 JST 2020
+End  : Fri Feb 21 07:03:40 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb 26 20:52:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   aed21805e7..7b8ea5b834  master     -> origin/master
+Updating aed21805e7..7b8ea5b834
+Fast-forward
+ cards/000019/card59373.html                   | 238 +++++++
+ cards/000019/files/59373_70203.html           | 115 ++++
+ cards/000019/files/59373_ruby_70154.zip       | Bin 0 -> 5853 bytes
+ cards/000510/card59422.html                   | 234 +++++++
+ cards/000510/files/59422_70210.html           |  90 +++
+ cards/000510/files/59422_ruby_70161.zip       | Bin 0 -> 6153 bytes
+ cards/001091/card59518.html                   | 247 +++++++
+ cards/001091/card59848.html                   | 247 +++++++
+ cards/001091/files/59518_70205.html           | 166 +++++
+ cards/001091/files/59518_ruby_70156.zip       | Bin 0 -> 80196 bytes
+ cards/001091/files/59848_70206.html           | 122 ++++
+ cards/001091/files/59848_ruby_70157.zip       | Bin 0 -> 55100 bytes
+ cards/001310/card59413.html                   | 234 +++++++
+ cards/001310/files/59413_70202.html           |  81 +++
+ cards/001310/files/59413_ruby_70153.zip       | Bin 0 -> 5778 bytes
+ cards/001336/card51299.html                   | 229 +++++++
+ cards/001336/files/51299_70208.html           |  81 +++
+ cards/001336/files/51299_txt_70159.zip        | Bin 0 -> 3822 bytes
+ cards/001653/card54261.html                   | 234 +++++++
+ cards/001653/files/54261_70204.html           | 169 +++++
+ cards/001653/files/54261_ruby_70155.zip       | Bin 0 -> 9623 bytes
+ cards/001801/card59948.html                   | 234 +++++++
+ cards/001801/files/59948_70207.html           | 203 ++++++
+ cards/001801/files/59948_ruby_70158.zip       | Bin 0 -> 8248 bytes
+ cards/001930/card58401.html                   | 252 +++++++
+ cards/001930/files/58401_70229.html           | 911 ++++++++++++++++++++++++++
+ cards/001930/files/58401_ruby_70228.zip       | Bin 0 -> 9185615 bytes
+ cards/002092/card59878.html                   | 234 +++++++
+ cards/002092/files/59878_70209.html           |  80 +++
+ cards/002092/files/59878_ruby_70160.zip       | Bin 0 -> 4558 bytes
+ cards/002130/card60178.html                   |   2 +-
+ 320 files changed, 9148 insertions(+), 5259 deletions(-)
+Date: Wed Feb 26 20:54:53 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 21 07:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5853 Feb 26 20:54 ./aozorabunko/cards/000019/files/59373_ruby_70154.zip
+1/10: ./aozorabunko/cards/000019/files/59373_ruby_70154.zip
+>> add 59373_ruby_ohakano_nakano_boya.txt
+>> add 59373_ruby_utf8_ohakano_nakano_boya.txt
+>> https://www.aozora.gr.jp/cards/000019/card59373.html
+>> お墓の中の坊や、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 6153 Feb 26 20:54 ./aozorabunko/cards/000510/files/59422_ruby_70161.zip
+2/10: ./aozorabunko/cards/000510/files/59422_ruby_70161.zip
+>> add 59422_ruby_tozanwa_boken_nari.txt
+>> add 59422_ruby_utf8_tozanwa_boken_nari.txt
+>> https://www.aozora.gr.jp/cards/000510/card59422.html
+>> 登山は冒険なり、河東碧梧桐、
+-rwxrwxrwx 1 level level 80196 Feb 26 20:54 ./aozorabunko/cards/001091/files/59518_ruby_70156.zip
+3/10: ./aozorabunko/cards/001091/files/59518_ruby_70156.zip
+>> add 59518_ruby_umai_shobai.txt
+>> add 59518_ruby_utf8_umai_shobai.txt
+>> https://www.aozora.gr.jp/cards/001091/card59518.html
+>> うまい商売、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 55100 Feb 26 20:54 ./aozorabunko/cards/001091/files/59848_ruby_70157.zip
+4/10: ./aozorabunko/cards/001091/files/59848_ruby_70157.zip
+>> add 59848_ruby_hore_obasan.txt
+>> add 59848_ruby_utf8_hore_obasan.txt
+>> https://www.aozora.gr.jp/cards/001091/card59848.html
+>> ホレおばあさん、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 5778 Feb 26 20:54 ./aozorabunko/cards/001310/files/59413_ruby_70153.zip
+5/10: ./aozorabunko/cards/001310/files/59413_ruby_70153.zip
+>> add 59413_ruby_fuji_tozan.txt
+>> add 59413_ruby_utf8_fuji_tozan.txt
+>> https://www.aozora.gr.jp/cards/001310/card59413.html
+>> 富士登山、高浜虚子、
+-rwxrwxrwx 1 level level 3822 Feb 26 20:54 ./aozorabunko/cards/001336/files/51299_txt_70159.zip
+6/10: ./aozorabunko/cards/001336/files/51299_txt_70159.zip
+>> add 51299_txt_sakuramochi.txt
+>> add 51299_txt_utf8_sakuramochi.txt
+>> https://www.aozora.gr.jp/cards/001336/card51299.html
+>> 桜もち、心猿、
+-rwxrwxrwx 1 level level 9623 Feb 26 20:54 ./aozorabunko/cards/001653/files/54261_ruby_70155.zip
+7/10: ./aozorabunko/cards/001653/files/54261_ruby_70155.zip
+>> add 54261_ruby_sobano_hanano_koro.txt
+>> add 54261_ruby_utf8_sobano_hanano_koro.txt
+>> https://www.aozora.gr.jp/cards/001653/card54261.html
+>> 蕎麦の花の頃、李孝石、
+-rwxrwxrwx 1 level level 8248 Feb 26 20:54 ./aozorabunko/cards/001801/files/59948_ruby_70158.zip
+8/10: ./aozorabunko/cards/001801/files/59948_ruby_70158.zip
+>> add 59948_ruby_hiruno_hanabi.txt
+>> add 59948_ruby_utf8_hiruno_hanabi.txt
+>> https://www.aozora.gr.jp/cards/001801/card59948.html
+>> 昼の花火、山川方夫、
+-rwxrwxrwx 1 level level 9185615 Feb 26 20:54 ./aozorabunko/cards/001930/files/58401_ruby_70228.zip
+9/10: ./aozorabunko/cards/001930/files/58401_ruby_70228.zip
+>> add 58401_ruby_06hokuetsu_seppu_nihen.txt
+>> add 58401_ruby_utf8_06hokuetsu_seppu_nihen.txt
+>> https://www.aozora.gr.jp/cards/001930/card58401.html
+>> 北越雪譜、北越雪譜二編、鈴木牧之編撰、京山人百樹刪定、岡田武松校訂、
+-rwxrwxrwx 1 level level 4558 Feb 26 20:54 ./aozorabunko/cards/002092/files/59878_ruby_70160.zip
+10/10: ./aozorabunko/cards/002092/files/59878_ruby_70160.zip
+>> add 59878_ruby_viyon_donzoru.txt
+>> add 59878_ruby_utf8_viyon_donzoru.txt
+>> https://www.aozora.gr.jp/cards/002092/card59878.html
+>> ブイヨン・ドンゾール、――十一時の肉の煮出し――、滝沢敬一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31000/372 (Accept:10/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Feb 26 20:52:46 JST 2020
+End  : Wed Feb 26 20:56:04 JST 2020
