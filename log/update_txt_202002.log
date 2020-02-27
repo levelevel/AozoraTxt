@@ -935,3 +935,35 @@ Title Total : 31000/372 (Accept:10/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:
 Git Failed  : 0
 Start: Wed Feb 26 20:52:46 JST 2020
 End  : Wed Feb 26 20:56:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Feb 27 23:00:16 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7b8ea5b834..0b8a52f845  master     -> origin/master
+Updating 7b8ea5b834..0b8a52f845
+Fast-forward
+ cards/000510/card59422.html                   |   2 +-
+ cards/001670/card56393.html                   | 234 ++++++++++++++++++
+ cards/001670/files/56393_70211.html           | 336 ++++++++++++++++++++++++++
+ cards/001670/files/56393_ruby_70162.zip       | Bin 0 -> 11032 bytes
+ cards/002092/card59878.html                   |   2 +-
+ 44 files changed, 1427 insertions(+), 852 deletions(-)
+Date: Thu Feb 27 23:01:55 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 26 20:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11032 Feb 27 23:01 ./aozorabunko/cards/001670/files/56393_ruby_70162.zip
+1/1: ./aozorabunko/cards/001670/files/56393_ruby_70162.zip
+>> add 56393_ruby_149yuigonjo.txt
+>> add 56393_ruby_utf8_149yuigonjo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56393.html
+>> 銭形平次捕物控、遺言状、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31002/372 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Feb 27 23:00:16 JST 2020
+End  : Thu Feb 27 23:02:57 JST 2020
