@@ -967,3 +967,52 @@ Title Total : 31002/372 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Feb 27 23:00:16 JST 2020
 End  : Thu Feb 27 23:02:57 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb 28 22:10:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0b8a52f845..9c93d96c6f  master     -> origin/master
+Updating 0b8a52f845..9c93d96c6f
+Fast-forward
+ cards/001602/card53797.html                   |  234 ++
+ cards/001602/card53802.html                   |  234 ++
+ cards/001602/files/53797_70212.html           |   82 +
+ cards/001602/files/53797_ruby_70163.zip       |  Bin 0 -> 1213 bytes
+ cards/001602/files/53802_70213.html           |   93 +
+ cards/001602/files/53802_txt_70164.zip        |  Bin 0 -> 1078 bytes
+ cards/001670/card56393.html                   |    2 +-
+ cards/001848/card59608.html                   |  244 ++
+ cards/001848/files/59608_70313.html           | 3463 +++++++++++++++++++++++++
+ cards/001848/files/59608_ruby_70312.zip       |  Bin 0 -> 510769 bytes
+ 127 files changed, 7758 insertions(+), 3021 deletions(-)
+Date: Fri Feb 28 22:11:43 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 27 23:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1213 Feb 28 22:11 ./aozorabunko/cards/001602/files/53797_ruby_70163.zip
+1/3: ./aozorabunko/cards/001602/files/53797_ruby_70163.zip
+>> add 53797_ruby_gasshoni_tsuite.txt
+>> add 53797_ruby_utf8_gasshoni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001602/card53797.html
+>> 合唱について、金鍾漢、
+-rwxrwxrwx 1 level level 1078 Feb 28 22:11 ./aozorabunko/cards/001602/files/53802_txt_70164.zip
+2/3: ./aozorabunko/cards/001602/files/53802_txt_70164.zip
+>> add 53802_txt_taiki.txt
+>> add 53802_txt_utf8_taiki.txt
+>> https://www.aozora.gr.jp/cards/001602/card53802.html
+>> 待機、金鍾漢、
+-rwxrwxrwx 1 level level 510769 Feb 28 22:11 ./aozorabunko/cards/001848/files/59608_ruby_70312.zip
+3/3: ./aozorabunko/cards/001848/files/59608_ruby_70312.zip
+>> add 59608_NPD_ruby_07zuisoroku_dai_sankan.txt
+>> add 59608_NPD_ruby_utf8_07zuisoroku_dai_sankan.txt
+>> https://www.aozora.gr.jp/cards/001848/card59608.html
+>> モンテーニュ随想録、ESSAIS DE MONTAIGNE、第三巻、ミシェル・エーケム・ド・モンテーニュ　Michel Eyquem de Montaigne、関根秀雄訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31006/374 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Feb 28 22:10:35 JST 2020
+End  : Fri Feb 28 22:12:33 JST 2020
