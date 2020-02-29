@@ -1016,3 +1016,45 @@ Title Total : 31006/374 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Feb 28 22:10:35 JST 2020
 End  : Fri Feb 28 22:12:33 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Feb 29 17:20:04 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9c93d96c6f..ed4fccf0df  master     -> origin/master
+Updating 9c93d96c6f..ed4fccf0df
+Fast-forward
+ cards/001475/card51601.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card51674.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/51601_70215.html           | 105 ++++++++++++
+ cards/001475/files/51601_ruby_70166.zip       | Bin 0 -> 4510 bytes
+ cards/001475/files/51674_70214.html           | 115 +++++++++++++
+ cards/001475/files/51674_ruby_70165.zip       | Bin 0 -> 4889 bytes
+ cards/001602/card53797.html                   |   2 +-
+ cards/001602/card53802.html                   |   2 +-
+ cards/001848/card59608.html                   |   2 +-
+ 58 files changed, 1886 insertions(+), 1207 deletions(-)
+Date: Sat Feb 29 17:21:22 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 28 22:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4510 Feb 29 17:21 ./aozorabunko/cards/001475/files/51601_ruby_70166.zip
+1/2: ./aozorabunko/cards/001475/files/51601_ruby_70166.zip
+>> add 51601_ruby_takujishono_aru_mura.txt
+>> add 51601_ruby_utf8_takujishono_aru_mura.txt
+>> https://www.aozora.gr.jp/cards/001475/card51601.html
+>> 托児所のある村、小川未明、
+-rwxrwxrwx 1 level level 4889 Feb 29 17:21 ./aozorabunko/cards/001475/files/51674_ruby_70165.zip
+2/2: ./aozorabunko/cards/001475/files/51674_ruby_70165.zip
+>> add 51674_ruby_bokuga_okikunarumade.txt
+>> add 51674_ruby_utf8_bokuga_okikunarumade.txt
+>> https://www.aozora.gr.jp/cards/001475/card51674.html
+>> 僕が大きくなるまで、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31010/374 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Feb 29 17:20:04 JST 2020
+End  : Sat Feb 29 17:22:37 JST 2020
