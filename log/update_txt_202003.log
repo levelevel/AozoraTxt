@@ -1,0 +1,64 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar  1 18:17:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ed4fccf0df..a7a25c4e86  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating ed4fccf0df..a7a25c4e86
+Fast-forward
+ cards/000067/card59978.html                   | 234 +++++++++++++++++++++++++
+ cards/000067/files/59978_70435.html           |  69 ++++++++
+ cards/000067/files/59978_ruby_70377.zip       | Bin 0 -> 3672 bytes
+ cards/000076/card58305.html                   | 234 +++++++++++++++++++++++++
+ cards/000076/files/58305_70434.html           |  68 ++++++++
+ cards/000076/files/58305_ruby_70376.zip       | Bin 0 -> 2791 bytes
+ cards/000082/card56257.html                   | 238 ++++++++++++++++++++++++++
+ cards/000082/files/56257_70436.html           |  83 +++++++++
+ cards/000082/files/56257_ruby_70378.zip       | Bin 0 -> 5716 bytes
+ cards/001395/card55761.html                   | 229 +++++++++++++++++++++++++
+ cards/001395/files/55761_70437.html           | 113 ++++++++++++
+ cards/001395/files/55761_txt_70379.zip        | Bin 0 -> 12024 bytes
+ cards/001475/card51601.html                   |   2 +-
+ cards/001475/card51674.html                   |   2 +-
+ cards/001602/card53797.html                   |   2 +-
+ cards/001602/card53802.html                   |   2 +-
+ cards/001848/card59608.html                   |   2 +-
+ 136 files changed, 4936 insertions(+), 3672 deletions(-)
+Date: Sun Mar  1 18:37:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 29 17:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3672 Mar  1 18:37 ./aozorabunko/cards/000067/files/59978_ruby_70377.zip
+1/4: ./aozorabunko/cards/000067/files/59978_ruby_70377.zip
+>> add 59978_ruby_akutagawa_ryunosukeno_tsuioku.txt
+>> add 59978_ruby_utf8_akutagawa_ryunosukeno_tsuioku.txt
+>> https://www.aozora.gr.jp/cards/000067/card59978.html
+>> 芥川龍之介の追憶、萩原朔太郎、
+-rwxrwxrwx 1 level level 2791 Mar  1 18:37 ./aozorabunko/cards/000076/files/58305_ruby_70376.zip
+2/4: ./aozorabunko/cards/000076/files/58305_ruby_70376.zip
+>> add 58305_ruby_ai.txt
+>> add 58305_ruby_utf8_ai.txt
+>> https://www.aozora.gr.jp/cards/000076/card58305.html
+>> 愛、岡本かの子、
+-rwxrwxrwx 1 level level 5716 Mar  1 18:37 ./aozorabunko/cards/000082/files/56257_ruby_70378.zip
+3/4: ./aozorabunko/cards/000082/files/56257_ruby_70378.zip
+>> add 56257_ruby_fukuro_musumeno_hanashi.txt
+>> add 56257_ruby_utf8_fukuro_musumeno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/000082/card56257.html
+>> 梟娘の話、岡本綺堂、
+-rwxrwxrwx 1 level level 12024 Mar  1 18:37 ./aozorabunko/cards/001395/files/55761_txt_70379.zip
+4/4: ./aozorabunko/cards/001395/files/55761_txt_70379.zip
+>> add 55761_txt_nishino_kyono_omoide.txt
+>> add 55761_txt_utf8_nishino_kyono_omoide.txt
+>> https://www.aozora.gr.jp/cards/001395/card55761.html
+>> 西の京の思ひ出、和辻哲郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31018/374 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  1 18:17:47 JST 2020
+End  : Sun Mar  1 18:38:50 JST 2020
