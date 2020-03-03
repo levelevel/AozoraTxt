@@ -62,3 +62,87 @@ Title Total : 31018/374 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar  1 18:17:47 JST 2020
 End  : Sun Mar  1 18:38:50 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar  2 22:29:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a7a25c4e86..b63f7e4741  master     -> origin/master
+Updating a7a25c4e86..b63f7e4741
+Fast-forward
+ cards/000067/card59978.html                   |   2 +-
+ cards/000076/card58305.html                   |   2 +-
+ cards/000082/card56257.html                   |   2 +-
+ cards/001395/card55761.html                   |   2 +-
+ cards/001848/card59608.html                   |   2 +-
+ cards/002043/card60411.html                   | 231 +++++++++++++++++++++
+ cards/002043/files/60411_70311.html           | 277 ++++++++++++++++++++++++++
+ cards/002043/files/60411_ruby_70310.zip       | Bin 0 -> 4944938 bytes
+ 135 files changed, 3129 insertions(+), 2642 deletions(-)
+Date: Mon Mar  2 22:29:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  1 18:38 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4944938 Mar  2 22:29 ./aozorabunko/cards/002043/files/60411_ruby_70310.zip
+1/1: ./aozorabunko/cards/002043/files/60411_ruby_70310.zip
+>> add 60411_NPD_ruby_shino_dojo.txt
+>> add 60411_NPD_ruby_utf8_shino_dojo.txt
+>> https://www.aozora.gr.jp/cards/002043/card60411.html
+>> 死の土壌、THE DUST OF DEATH、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31018/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Mar  2 22:29:00 JST 2020
+End  : Mon Mar  2 22:31:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar  3 22:35:49 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b63f7e4741..ddbcb4a44b  master     -> origin/master
+Updating b63f7e4741..ddbcb4a44b
+Fast-forward
+ cards/000252/card52313.html                   | 234 +++++++++++++++
+ cards/000252/card52358.html                   | 234 +++++++++++++++
+ cards/000252/files/52313_70439.html           | 143 +++++++++
+ cards/000252/files/52313_ruby_70381.zip       | Bin 0 -> 10047 bytes
+ cards/000252/files/52358_70440.html           | 405 ++++++++++++++++++++++++++
+ cards/000252/files/52358_ruby_70382.zip       | Bin 0 -> 28126 bytes
+ cards/001581/card58960.html                   | 234 +++++++++++++++
+ cards/001581/files/58960_70438.html           |  76 +++++
+ cards/001581/files/58960_txt_70380.zip        | Bin 0 -> 7626 bytes
+ cards/002043/card60411.html                   |   2 +-
+ 60 files changed, 2266 insertions(+), 945 deletions(-)
+Date: Tue Mar  3 22:38:33 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  2 22:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10047 Mar  3 22:38 ./aozorabunko/cards/000252/files/52313_ruby_70381.zip
+1/3: ./aozorabunko/cards/000252/files/52313_ruby_70381.zip
+>> add 52313_ruby_oyakata_kobuse.txt
+>> add 52313_ruby_utf8_oyakata_kobuse.txt
+>> https://www.aozora.gr.jp/cards/000252/card52313.html
+>> 親方コブセ、金史良、
+-rwxrwxrwx 1 level level 28126 Mar  3 22:38 ./aozorabunko/cards/000252/files/52358_ruby_70382.zip
+2/3: ./aozorabunko/cards/000252/files/52358_ruby_70382.zip
+>> add 52358_ruby_tosonran.txt
+>> add 52358_ruby_utf8_tosonran.txt
+>> https://www.aozora.gr.jp/cards/000252/card52358.html
+>> 土城廊、金史良、
+-rwxrwxrwx 1 level level 7626 Mar  3 22:38 ./aozorabunko/cards/001581/files/58960_txt_70380.zip
+3/3: ./aozorabunko/cards/001581/files/58960_txt_70380.zip
+>> add 58960_txt_henshusha_konjaku.txt
+>> add 58960_txt_utf8_henshusha_konjaku.txt
+>> https://www.aozora.gr.jp/cards/001581/card58960.html
+>> 編集者今昔、正宗白鳥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31024/376 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Mar  3 22:35:49 JST 2020
+End  : Tue Mar  3 22:41:07 JST 2020
