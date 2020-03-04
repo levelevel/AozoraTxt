@@ -146,3 +146,36 @@ Title Total : 31024/376 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar  3 22:35:49 JST 2020
 End  : Tue Mar  3 22:41:07 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar  4 23:39:20 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ddbcb4a44b..59d4b94640  master     -> origin/master
+Updating ddbcb4a44b..59d4b94640
+Fast-forward
+ cards/000025/card56501.html                   | 229 ++++++++++++++++++++++++++
+ cards/000025/files/56501_70441.html           | 107 ++++++++++++
+ cards/000025/files/56501_ruby_70383.zip       | Bin 0 -> 5395 bytes
+ cards/000252/card52313.html                   |   2 +-
+ cards/000252/card52358.html                   |   2 +-
+ cards/001581/card58960.html                   |   2 +-
+ 80 files changed, 1408 insertions(+), 1079 deletions(-)
+Date: Wed Mar  4 23:40:33 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  3 22:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5395 Mar  4 23:40 ./aozorabunko/cards/000025/files/56501_ruby_70383.zip
+1/1: ./aozorabunko/cards/000025/files/56501_ruby_70383.zip
+>> add 56501_ruby_katawamono.txt
+>> add 56501_ruby_utf8_katawamono.txt
+>> https://www.aozora.gr.jp/cards/000025/card56501.html
+>> かたわ者、有島武郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31026/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar  4 23:39:20 JST 2020
+End  : Wed Mar  4 23:41:32 JST 2020
