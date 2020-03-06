@@ -221,3 +221,44 @@ Title Total : 31030/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Mar  5 22:16:37 JST 2020
 End  : Thu Mar  5 22:19:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Mar  6 23:22:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0712516902..50161d4042  master     -> origin/master
+Updating 0712516902..50161d4042
+Fast-forward
+ cards/000237/card50039.html                   | 229 ++++++++++++++++++++++++
+ cards/000237/files/50039_70445.html           |  65 +++++++
+ cards/000237/files/50039_ruby_70387.zip       | Bin 0 -> 3783 bytes
+ cards/001154/card43847.html                   |   2 +-
+ cards/001601/card53796.html                   |   2 +-
+ cards/001867/card58328.html                   | 234 ++++++++++++++++++++++++
+ cards/001867/files/58328_70444.html           | 122 +++++++++++++
+ cards/001867/files/58328_ruby_70386.zip       | Bin 0 -> 5934 bytes
+ 60 files changed, 1621 insertions(+), 977 deletions(-)
+Date: Fri Mar  6 23:22:52 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  5 22:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3783 Mar  6 23:22 ./aozorabunko/cards/000237/files/50039_ruby_70387.zip
+1/2: ./aozorabunko/cards/000237/files/50039_ruby_70387.zip
+>> add 50039_ruby_tamagawa_bokenki.txt
+>> add 50039_ruby_utf8_tamagawa_bokenki.txt
+>> https://www.aozora.gr.jp/cards/000237/card50039.html
+>> 多摩川冒險記、大町桂月、
+-rwxrwxrwx 1 level level 5934 Mar  6 23:22 ./aozorabunko/cards/001867/files/58328_ruby_70386.zip
+2/2: ./aozorabunko/cards/001867/files/58328_ruby_70386.zip
+>> add 58328_ruby_hibino_pan.txt
+>> add 58328_ruby_utf8_hibino_pan.txt
+>> https://www.aozora.gr.jp/cards/001867/card58328.html
+>> 日日の麺麭、小山清、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31034/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Mar  6 23:22:03 JST 2020
+End  : Fri Mar  6 23:23:34 JST 2020
