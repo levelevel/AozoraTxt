@@ -294,3 +294,52 @@ Title Total : 31036/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar  7 12:33:52 JST 2020
 End  : Sat Mar  7 12:35:32 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar  8 13:45:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d4f9d2a695..1b3d4ece3e  master     -> origin/master
+Updating d4f9d2a695..1b3d4ece3e
+Fast-forward
+ cards/000214/card1668.html                    |   8 +-
+ cards/000214/files/1668_26031.html            |   6 +-
+ cards/000214/files/1668_ruby_24546.zip        | Bin 161377 -> 164078 bytes
+ cards/001403/card55046.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55052.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55046_70447.html           |  80 +++++++++
+ cards/001403/files/55046_ruby_70389.zip       | Bin 0 -> 7868 bytes
+ cards/001403/files/55052_70448.html           | 104 ++++++++++++
+ cards/001403/files/55052_ruby_70390.zip       | Bin 0 -> 7832 bytes
+ cards/001670/card57213.html                   |   2 +-
+ 98 files changed, 1934 insertions(+), 1287 deletions(-)
+Date: Sun Mar  8 13:46:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  7 12:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 164078 Mar  8 13:46 ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+1/3: ./aozorabunko/cards/000214/files/1668_ruby_24546.zip
+>> update 1668_ruby_inaka_kyoshi.txt
+>> update 1668_ruby_utf8_inaka_kyoshi.txt
+>> https://www.aozora.gr.jp/cards/000214/card1668.html
+>> 田舎教師、田山花袋、
+-rwxrwxrwx 1 level level 7868 Mar  8 13:46 ./aozorabunko/cards/001403/files/55046_ruby_70389.zip
+2/3: ./aozorabunko/cards/001403/files/55046_ruby_70389.zip
+>> add 55046_ruby_geijutsutekina_shoto_higeijutsutekina_sho.txt
+>> add 55046_ruby_utf8_geijutsutekina_shoto_higeijutsutekina_sho.txt
+>> https://www.aozora.gr.jp/cards/001403/card55046.html
+>> 芸術的な書と非芸術的な書、北大路魯山人、
+-rwxrwxrwx 1 level level 7832 Mar  8 13:46 ./aozorabunko/cards/001403/files/55052_ruby_70390.zip
+3/3: ./aozorabunko/cards/001403/files/55052_ruby_70390.zip
+>> add 55052_ruby_yoi_shoto_umai_sho.txt
+>> add 55052_ruby_utf8_yoi_shoto_umai_sho.txt
+>> https://www.aozora.gr.jp/cards/001403/card55052.html
+>> よい書とうまい書、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31040/376 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  8 13:45:28 JST 2020
+End  : Sun Mar  8 13:47:36 JST 2020
