@@ -343,3 +343,45 @@ Title Total : 31040/376 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar  8 13:45:28 JST 2020
 End  : Sun Mar  8 13:47:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar  9 09:23:25 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1b3d4ece3e..8345028750  master     -> origin/master
+Updating 1b3d4ece3e..8345028750
+Fast-forward
+ cards/001403/card55046.html                   |   2 +-
+ cards/001403/card55052.html                   |   2 +-
+ cards/001475/card51664.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/card51676.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/files/51664_70450.html           |  91 ++++++++++
+ cards/001475/files/51664_ruby_70392.zip       | Bin 0 -> 2446 bytes
+ cards/001475/files/51676_70449.html           |  92 ++++++++++
+ cards/001475/files/51676_ruby_70391.zip       | Bin 0 -> 2168 bytes
+ cards/001670/card57213.html                   |   2 +-
+ 46 files changed, 1663 insertions(+), 1018 deletions(-)
+Date: Mon Mar  9 09:24:13 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  8 13:47 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2446 Mar  9 09:24 ./aozorabunko/cards/001475/files/51664_ruby_70392.zip
+1/2: ./aozorabunko/cards/001475/files/51664_ruby_70392.zip
+>> add 51664_ruby_hitoo_tanomazu.txt
+>> add 51664_ruby_utf8_hitoo_tanomazu.txt
+>> https://www.aozora.gr.jp/cards/001475/card51664.html
+>> ひとをたのまず、小川未明、
+-rwxrwxrwx 1 level level 2168 Mar  9 09:24 ./aozorabunko/cards/001475/files/51676_ruby_70391.zip
+2/2: ./aozorabunko/cards/001475/files/51676_ruby_70391.zip
+>> add 51676_ruby_bokuno_toru_michi.txt
+>> add 51676_ruby_utf8_bokuno_toru_michi.txt
+>> https://www.aozora.gr.jp/cards/001475/card51676.html
+>> 僕の通るみち、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31044/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar  9 09:23:25 JST 2020
+End  : Mon Mar  9 09:24:58 JST 2020
