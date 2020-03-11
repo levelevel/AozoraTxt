@@ -426,3 +426,44 @@ Title Total : 31048/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Mar 11 01:08:38 JST 2020
 End  : Wed Mar 11 01:10:56 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 12 02:18:09 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d109d672b9..8e833e1dca  master     -> origin/master
+Updating d109d672b9..8e833e1dca
+Fast-forward
+ cards/000214/card48729.html                   |   2 +-
+ cards/000214/card49081.html                   |   2 +-
+ cards/001157/card48126.html                   | 229 +++++++++++++++++++++++++
+ cards/001157/files/48126_70453.html           |  88 ++++++++++
+ cards/001157/files/48126_ruby_70395.zip       | Bin 0 -> 6631 bytes
+ cards/001879/card57899.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/files/57899_70454.html           |  84 +++++++++
+ cards/001879/files/57899_ruby_70396.zip       | Bin 0 -> 4545 bytes
+ 96 files changed, 2268 insertions(+), 1641 deletions(-)
+Date: Thu Mar 12 02:18:57 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 11 01:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6631 Mar 12 02:18 ./aozorabunko/cards/001157/files/48126_ruby_70395.zip
+1/2: ./aozorabunko/cards/001157/files/48126_ruby_70395.zip
+>> add 48126_ruby_akai_hana_hoka_4hen_atogaki.txt
+>> add 48126_ruby_utf8_akai_hana_hoka_4hen_atogaki.txt
+>> https://www.aozora.gr.jp/cards/001157/card48126.html
+>> 「あかい花　他四篇」あとがき、神西清、
+-rwxrwxrwx 1 level level 4545 Mar 12 02:18 ./aozorabunko/cards/001879/files/57899_ruby_70396.zip
+2/2: ./aozorabunko/cards/001879/files/57899_ruby_70396.zip
+>> add 57899_ruby_kenseini_okeru_yoronno_seiryoku.txt
+>> add 57899_ruby_utf8_kenseini_okeru_yoronno_seiryoku.txt
+>> https://www.aozora.gr.jp/cards/001879/card57899.html
+>> 憲政に於ける輿論の勢力、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31052/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 12 02:18:09 JST 2020
+End  : Thu Mar 12 02:19:38 JST 2020
