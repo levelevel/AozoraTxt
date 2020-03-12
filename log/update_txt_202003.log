@@ -467,3 +467,55 @@ Title Total : 31052/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Mar 12 02:18:09 JST 2020
 End  : Thu Mar 12 02:19:38 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 12 23:14:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8e833e1dca..fa3692dbf1  master     -> origin/master
+Updating 8e833e1dca..fa3692dbf1
+Fast-forward
+ cards/000129/card50910.html                   |   2 +-
+ cards/000129/card50911.html                   |   2 +-
+ cards/000157/card45396.html                   |   2 +-
+ cards/000157/card45397.html                   |   2 +-
+ cards/000311/card2902.html                    |   2 +-
+ cards/000906/card42607.html                   |   2 +-
+ cards/000906/card42608.html                   |   2 +-
+ cards/000906/card42609.html                   |   2 +-
+ cards/000906/card42611.html                   |   2 +-
+ cards/000906/card46860.html                   |   2 +-
+ cards/000906/card46861.html                   |   2 +-
+ cards/001095/card42878.html                   |   2 +-
+ cards/001127/card45250.html                   |   2 +-
+ cards/001154/card44873.html                   |   2 +-
+ cards/001157/card48126.html                   |   2 +-
+ cards/001157/card48127.html                   |   2 +-
+ cards/001157/card49180.html                   |   2 +-
+ cards/001157/card50191.html                   |   2 +-
+ cards/001759/card45021.html                   |   2 +-
+ cards/001781/card56508.html                   |   2 +-
+ cards/001800/card51339.html                   |   2 +-
+ cards/001879/card57899.html                   |   2 +-
+ cards/002093/card59879.html                   | 234 ++++++++++++++++++++++++++
+ cards/002093/files/59879_70455.html           |  76 +++++++++
+ cards/002093/files/59879_ruby_70397.zip       | Bin 0 -> 3080 bytes
+ 115 files changed, 3535 insertions(+), 1801 deletions(-)
+Date: Thu Mar 12 23:15:25 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 12 02:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3080 Mar 12 23:15 ./aozorabunko/cards/002093/files/59879_ruby_70397.zip
+1/1: ./aozorabunko/cards/002093/files/59879_ruby_70397.zip
+>> add 59879_ruby_amai_nobe.txt
+>> add 59879_ruby_utf8_amai_nobe.txt
+>> https://www.aozora.gr.jp/cards/002093/card59879.html
+>> 甘い野辺、浜本浩、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31054/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 12 23:14:07 JST 2020
+End  : Thu Mar 12 23:17:32 JST 2020
