@@ -519,3 +519,43 @@ Title Total : 31054/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Mar 12 23:14:07 JST 2020
 End  : Thu Mar 12 23:17:32 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 14 00:36:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fa3692dbf1..348d3cd383  master     -> origin/master
+Updating fa3692dbf1..348d3cd383
+Fast-forward
+ cards/000293/card59824.html                   | 234 ++++++++++++++++++++++++++
+ cards/000293/files/59824_70456.html           | 152 +++++++++++++++++
+ cards/000293/files/59824_ruby_70398.zip       | Bin 0 -> 3874 bytes
+ cards/001168/card58155.html                   | 234 ++++++++++++++++++++++++++
+ cards/001168/files/58155_70457.html           |  73 ++++++++
+ cards/001168/files/58155_ruby_70399.zip       | Bin 0 -> 3495 bytes
+ cards/002093/card59879.html                   |   2 +-
+ 48 files changed, 1818 insertions(+), 1128 deletions(-)
+Date: Sat Mar 14 00:38:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 12 23:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3874 Mar 14 00:38 ./aozorabunko/cards/000293/files/59824_ruby_70398.zip
+1/2: ./aozorabunko/cards/000293/files/59824_ruby_70398.zip
+>> add 59824_ruby_chiisana_niwa.txt
+>> add 59824_ruby_utf8_chiisana_niwa.txt
+>> https://www.aozora.gr.jp/cards/000293/card59824.html
+>> 小さな庭、原民喜、
+-rwxrwxrwx 1 level level 3495 Mar 14 00:38 ./aozorabunko/cards/001168/files/58155_ruby_70399.zip
+2/2: ./aozorabunko/cards/001168/files/58155_ruby_70399.zip
+>> add 58155_ruby_eienno_kankaku.txt
+>> add 58155_ruby_utf8_eienno_kankaku.txt
+>> https://www.aozora.gr.jp/cards/001168/card58155.html
+>> 永遠の感覚、高村光太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31058/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar 14 00:36:28 JST 2020
+End  : Sat Mar 14 00:41:23 JST 2020
