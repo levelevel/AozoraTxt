@@ -559,3 +559,45 @@ Title Total : 31058/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar 14 00:36:28 JST 2020
 End  : Sat Mar 14 00:41:23 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 14 21:43:22 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   348d3cd383..6c8aa7e8ea  master     -> origin/master
+Updating 348d3cd383..6c8aa7e8ea
+Fast-forward
+ cards/000293/card59824.html                   |   2 +-
+ cards/001168/card58155.html                   |   2 +-
+ cards/001224/card46084.html                   | 229 ++++++++++++++++++++++++++
+ cards/001224/card46091.html                   | 229 ++++++++++++++++++++++++++
+ cards/001224/files/46084_70459.html           |  89 ++++++++++
+ cards/001224/files/46084_ruby_70401.zip       | Bin 0 -> 11431 bytes
+ cards/001224/files/46091_70458.html           | 172 +++++++++++++++++++
+ cards/001224/files/46091_ruby_70400.zip       | Bin 0 -> 11950 bytes
+ cards/002093/card59879.html                   |   2 +-
+ 82 files changed, 2580 insertions(+), 1869 deletions(-)
+Date: Sat Mar 14 21:44:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 14 00:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11431 Mar 14 21:44 ./aozorabunko/cards/001224/files/46084_ruby_70401.zip
+1/2: ./aozorabunko/cards/001224/files/46084_ruby_70401.zip
+>> add 46084_ruby_kashimashi.txt
+>> add 46084_ruby_utf8_kashimashi.txt
+>> https://www.aozora.gr.jp/cards/001224/card46084.html
+>> 姦（かしまし）、久生十蘭、
+-rwxrwxrwx 1 level level 11950 Mar 14 21:44 ./aozorabunko/cards/001224/files/46091_ruby_70400.zip
+2/2: ./aozorabunko/cards/001224/files/46091_ruby_70400.zip
+>> add 46091_ruby_hidoi_kemuri.txt
+>> add 46091_ruby_utf8_hidoi_kemuri.txt
+>> https://www.aozora.gr.jp/cards/001224/card46091.html
+>> ひどい煙、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31062/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar 14 21:43:22 JST 2020
+End  : Sat Mar 14 21:45:20 JST 2020
