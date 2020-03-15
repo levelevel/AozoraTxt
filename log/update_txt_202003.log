@@ -601,3 +601,154 @@ Title Total : 31062/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar 14 21:43:22 JST 2020
 End  : Sat Mar 14 21:45:20 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar 15 20:17:20 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6c8aa7e8ea..9f2aa881d7  master     -> origin/master
+Updating 6c8aa7e8ea..9f2aa881d7
+Fast-forward
+ cards/000035/card54168.html                   |   2 +-
+ cards/000035/card54170.html                   |   2 +-
+ cards/000035/card54176.html                   |   2 +-
+ cards/000035/card54178.html                   |   2 +-
+ cards/000035/card54179.html                   |   2 +-
+ cards/000035/card54182.html                   |   2 +-
+ cards/000067/card53936.html                   |   2 +-
+ cards/000081/card43735.html                   |   2 +-
+ cards/000081/card43736.html                   |   2 +-
+ cards/000095/card50503.html                   |   2 +-
+ cards/000106/card55610.html                   |   2 +-
+ cards/000106/card55612.html                   |   2 +-
+ cards/000106/card59473.html                   |   2 +-
+ cards/000125/card49262.html                   |   2 +-
+ cards/000129/card13201.html                   |   2 +-
+ cards/000129/card53713.html                   |   2 +-
+ cards/000141/card51285.html                   |   2 +-
+ cards/000141/card51359.html                   |   2 +-
+ cards/000148/card2667.html                    |   2 +-
+ cards/000148/card2668.html                    |   2 +-
+ cards/000148/card2670.html                    |   2 +-
+ cards/000148/card2671.html                    |   2 +-
+ cards/000148/card2672.html                    |   2 +-
+ cards/000148/card42156.html                   |   2 +-
+ cards/000148/card4684.html                    |   2 +-
+ cards/000148/card4688.html                    |   2 +-
+ cards/000148/card47148.html                   |   2 +-
+ cards/000153/card48137.html                   |   2 +-
+ cards/000154/card42339.html                   |   2 +-
+ cards/000154/card49838.html                   |   2 +-
+ cards/000159/card49431.html                   |   2 +-
+ cards/000168/card2157.html                    |   2 +-
+ cards/000207/card47123.html                   |   2 +-
+ cards/000207/card47128.html                   |   2 +-
+ cards/000212/card46452.html                   |   2 +-
+ cards/000214/card51378.html                   |   2 +-
+ cards/000221/card48012.html                   |   2 +-
+ cards/000232/card59540.html                   | 234 ++++++++
+ cards/000232/files/59540_70460.html           |  72 +++
+ cards/000232/files/59540_ruby_70402.zip       | Bin 0 -> 3280 bytes
+ cards/000235/card13202.html                   |   2 +-
+ cards/000260/card49263.html                   |   2 +-
+ cards/000262/card46661.html                   |   2 +-
+ cards/000262/card48077.html                   |   2 +-
+ cards/000296/card46827.html                   |   2 +-
+ cards/000305/card42750.html                   |   2 +-
+ cards/000311/card15997.html                   |   2 +-
+ cards/000311/card3894.html                    |   2 +-
+ cards/000311/card4111.html                    |   2 +-
+ cards/000311/card4113.html                    |   2 +-
+ cards/000311/card4119.html                    |   2 +-
+ cards/000311/card4133.html                    |   2 +-
+ cards/000329/card43288.html                   |   2 +-
+ cards/000393/card56886.html                   |   2 +-
+ cards/000467/card49186.html                   |   2 +-
+ cards/000826/card18414.html                   |   2 +-
+ cards/000879/card24451.html                   |   2 +-
+ cards/000885/card13200.html                   |   2 +-
+ cards/000906/card42607.html                   |   2 +-
+ cards/000906/card42608.html                   |   2 +-
+ cards/000906/card42609.html                   |   2 +-
+ cards/000906/card42611.html                   |   2 +-
+ cards/000906/card46860.html                   |   2 +-
+ cards/000906/card46861.html                   |   2 +-
+ cards/000963/card43097.html                   |   2 +-
+ cards/000963/card43228.html                   |   2 +-
+ cards/001080/card42225.html                   |   2 +-
+ cards/001095/card42855.html                   |   2 +-
+ cards/001124/card42933.html                   |   2 +-
+ cards/001124/card43415.html                   |   2 +-
+ cards/001154/card44306.html                   |   2 +-
+ cards/001154/card44637.html                   |   2 +-
+ cards/001154/card44695.html                   |   2 +-
+ cards/001154/card44757.html                   |   2 +-
+ cards/001154/card44826.html                   |   2 +-
+ cards/001154/card44873.html                   |   2 +-
+ cards/001154/card44877.html                   |   2 +-
+ cards/001154/card44885.html                   |   2 +-
+ cards/001154/card50682.html                   |   2 +-
+ cards/001157/card48126.html                   |   2 +-
+ cards/001157/card48127.html                   |   2 +-
+ cards/001157/card50191.html                   |   2 +-
+ cards/001160/card43623.html                   |   2 +-
+ cards/001170/card49430.html                   |   2 +-
+ cards/001186/card50479.html                   |   2 +-
+ cards/001186/card50480.html                   |   2 +-
+ cards/001206/card45521.html                   |   2 +-
+ cards/001207/card46829.html                   |   2 +-
+ cards/001224/card46084.html                   |   2 +-
+ cards/001224/card46091.html                   |   2 +-
+ cards/001310/card58860.html                   |   2 +-
+ cards/001341/card52181.html                   |   2 +-
+ cards/001383/card49637.html                   |   2 +-
+ cards/001475/card53676.html                   |   2 +-
+ cards/001486/card51161.html                   |   2 +-
+ cards/001500/card51286.html                   |   2 +-
+ cards/001501/card51287.html                   |   2 +-
+ cards/001533/card53057.html                   |   2 +-
+ cards/001551/card4297.html                    |   2 +-
+ cards/001562/card56491.html                   |   2 +-
+ cards/001568/card56031.html                   |   2 +-
+ cards/001582/card53051.html                   |   2 +-
+ cards/001610/card53937.html                   |   2 +-
+ cards/001696/card55153.html                   |   2 +-
+ cards/001697/card55154.html                   |   2 +-
+ cards/001698/card55155.html                   |   2 +-
+ cards/001726/card56085.html                   | 234 ++++++++
+ cards/001726/files/56085_70461.html           | 768 ++++++++++++++++++++++++++
+ cards/001726/files/56085_ruby_70403.zip       | Bin 0 -> 25190 bytes
+ cards/001759/card45021.html                   |   2 +-
+ cards/001765/card56025.html                   |   2 +-
+ cards/001779/card57316.html                   |   2 +-
+ cards/001779/card59399.html                   |   2 +-
+ cards/001781/card56508.html                   |   2 +-
+ cards/001800/card51339.html                   |   2 +-
+ cards/001821/card56981.html                   |   2 +-
+ cards/001907/card58884.html                   |   2 +-
+ cards/002013/card59226.html                   |   2 +-
+ 188 files changed, 2425 insertions(+), 1121 deletions(-)
+Date: Sun Mar 15 20:17:57 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 14 21:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3280 Mar 15 20:17 ./aozorabunko/cards/000232/files/59540_ruby_70402.zip
+1/2: ./aozorabunko/cards/000232/files/59540_ruby_70402.zip
+>> add 59540_ruby_koryukyu_jijo.txt
+>> add 59540_ruby_utf8_koryukyu_jijo.txt
+>> https://www.aozora.gr.jp/cards/000232/card59540.html
+>> 「古琉球」自序、伊波普猷、
+-rwxrwxrwx 1 level level 25190 Mar 15 20:17 ./aozorabunko/cards/001726/files/56085_ruby_70403.zip
+2/2: ./aozorabunko/cards/001726/files/56085_ruby_70403.zip
+>> add 56085_ruby_nakayama_shichiri.txt
+>> add 56085_ruby_utf8_nakayama_shichiri.txt
+>> https://www.aozora.gr.jp/cards/001726/card56085.html
+>> 中山七里　二幕五場、長谷川伸、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31066/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar 15 20:17:20 JST 2020
+End  : Sun Mar 15 20:18:37 JST 2020
