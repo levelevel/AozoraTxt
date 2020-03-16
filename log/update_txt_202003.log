@@ -752,3 +752,44 @@ Title Total : 31066/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar 15 20:17:20 JST 2020
 End  : Sun Mar 15 20:18:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar 16 22:38:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9f2aa881d7..56550a3eda  master     -> origin/master
+Updating 9f2aa881d7..56550a3eda
+Fast-forward
+ cards/000232/card59540.html                   |   2 +-
+ cards/001569/card57868.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59192.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/57868_70462.html           |  84 +++++++++
+ cards/001569/files/57868_ruby_70404.zip       | Bin 0 -> 4967 bytes
+ cards/001569/files/59192_70463.html           |  81 +++++++++
+ cards/001569/files/59192_ruby_70405.zip       | Bin 0 -> 4322 bytes
+ cards/001726/card56085.html                   |   2 +-
+ 92 files changed, 2913 insertions(+), 2279 deletions(-)
+Date: Mon Mar 16 22:38:57 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 15 20:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4967 Mar 16 22:38 ./aozorabunko/cards/001569/files/57868_ruby_70404.zip
+1/2: ./aozorabunko/cards/001569/files/57868_ruby_70404.zip
+>> add 57868_ruby_daiboami.txt
+>> add 57868_ruby_utf8_daiboami.txt
+>> https://www.aozora.gr.jp/cards/001569/card57868.html
+>> 大謀網、中谷宇吉郎、
+-rwxrwxrwx 1 level level 4322 Mar 16 22:38 ./aozorabunko/cards/001569/files/59192_ruby_70405.zip
+2/2: ./aozorabunko/cards/001569/files/59192_ruby_70405.zip
+>> add 59192_ruby_kogisuru_gimu.txt
+>> add 59192_ruby_utf8_kogisuru_gimu.txt
+>> https://www.aozora.gr.jp/cards/001569/card59192.html
+>> 抗議する義務、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31070/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar 16 22:38:00 JST 2020
+End  : Mon Mar 16 22:40:04 JST 2020
