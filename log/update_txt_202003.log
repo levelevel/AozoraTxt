@@ -793,3 +793,44 @@ Title Total : 31070/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Mar 16 22:38:00 JST 2020
 End  : Mon Mar 16 22:40:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar 17 22:33:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   56550a3eda..78d45b2c4d  master     -> origin/master
+Updating 56550a3eda..78d45b2c4d
+Fast-forward
+ cards/000168/card59357.html                   | 236 +++++++++++++++++++++++
+ cards/000168/files/59357_70464.html           | 257 ++++++++++++++++++++++++++
+ cards/000168/files/59357_ruby_70406.zip       | Bin 0 -> 9238 bytes
+ cards/001380/card59870.html                   | 234 +++++++++++++++++++++++
+ cards/001380/files/59870_70465.html           |  86 +++++++++
+ cards/001380/files/59870_ruby_70407.zip       | Bin 0 -> 4035 bytes
+ cards/001569/card57868.html                   |   2 +-
+ cards/001569/card59192.html                   |   2 +-
+ 102 files changed, 2323 insertions(+), 1514 deletions(-)
+Date: Tue Mar 17 22:34:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 16 22:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9238 Mar 17 22:34 ./aozorabunko/cards/000168/files/59357_ruby_70406.zip
+1/2: ./aozorabunko/cards/000168/files/59357_ruby_70406.zip
+>> add 59357_ruby_kanashimeru_kao.txt
+>> add 59357_ruby_utf8_kanashimeru_kao.txt
+>> https://www.aozora.gr.jp/cards/000168/card59357.html
+>> 悲しめる顔、横光利一、
+-rwxrwxrwx 1 level level 4035 Mar 17 22:34 ./aozorabunko/cards/001380/files/59870_ruby_70407.zip
+2/2: ./aozorabunko/cards/001380/files/59870_ruby_70407.zip
+>> add 59870_ruby_uewa_saizenno_sosuka.txt
+>> add 59870_ruby_utf8_uewa_saizenno_sosuka.txt
+>> https://www.aozora.gr.jp/cards/001380/card59870.html
+>> 飢えは最善のソースか、石川欣一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31074/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Mar 17 22:33:35 JST 2020
+End  : Tue Mar 17 22:36:00 JST 2020
