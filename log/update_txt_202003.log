@@ -834,3 +834,40 @@ Title Total : 31074/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar 17 22:33:35 JST 2020
 End  : Tue Mar 17 22:36:00 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 18 23:38:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   78d45b2c4d..d74d4a8b54  master     -> origin/master
+Updating 78d45b2c4d..d74d4a8b54
+Fast-forward
+ cards/000168/card59357.html                   |   2 +-
+ cards/000220/card59227.html                   |   2 +-
+ cards/000601/card42293.html                   |   2 +-
+ cards/001095/card43203.html                   |   2 +-
+ cards/001380/card59870.html                   |   2 +-
+ cards/001478/card53780.html                   |   2 +-
+ cards/001581/card43297.html                   |   2 +-
+ cards/001670/card58210.html                   | 229 ++++++++++++++++++++++++++
+ cards/001670/files/58210_70466.html           | 203 +++++++++++++++++++++++
+ cards/001670/files/58210_ruby_70408.zip       | Bin 0 -> 11175 bytes
+ 51 files changed, 1227 insertions(+), 801 deletions(-)
+Date: Wed Mar 18 23:39:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 17 22:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11175 Mar 18 23:39 ./aozorabunko/cards/001670/files/58210_ruby_70408.zip
+1/1: ./aozorabunko/cards/001670/files/58210_ruby_70408.zip
+>> add 58210_ruby_168kikeino_mame.txt
+>> add 58210_ruby_utf8_168kikeino_mame.txt
+>> https://www.aozora.gr.jp/cards/001670/card58210.html
+>> 銭形平次捕物控、詭計の豆、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31076/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar 18 23:38:52 JST 2020
+End  : Wed Mar 18 23:40:48 JST 2020
