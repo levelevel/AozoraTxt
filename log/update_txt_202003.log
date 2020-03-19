@@ -871,3 +871,43 @@ Title Total : 31076/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Mar 18 23:38:52 JST 2020
 End  : Wed Mar 18 23:40:48 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 19 23:04:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d74d4a8b54..a96b377f42  master     -> origin/master
+Updating d74d4a8b54..a96b377f42
+Fast-forward
+ cards/000026/card51316.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55914.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/51316_70468.html           |  70 ++++++++
+ cards/000026/files/51316_ruby_70410.zip       | Bin 0 -> 855 bytes
+ cards/000026/files/55914_70467.html           |  64 +++++++
+ cards/000026/files/55914_txt_70409.zip        | Bin 0 -> 937 bytes
+ cards/001670/card58210.html                   |   2 +-
+ 58 files changed, 2208 insertions(+), 1621 deletions(-)
+Date: Thu Mar 19 23:05:59 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 18 23:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 855 Mar 19 23:05 ./aozorabunko/cards/000026/files/51316_ruby_70410.zip
+1/2: ./aozorabunko/cards/000026/files/51316_ruby_70410.zip
+>> add 51316_ruby_kodaidokino_insho.txt
+>> add 51316_ruby_utf8_kodaidokino_insho.txt
+>> https://www.aozora.gr.jp/cards/000026/card51316.html
+>> 古代土器の印象、中原中也、
+-rwxrwxrwx 1 level level 937 Mar 19 23:05 ./aozorabunko/cards/000026/files/55914_txt_70409.zip
+2/2: ./aozorabunko/cards/000026/files/55914_txt_70409.zip
+>> add 55914_txt_kishaga_kikoeru.txt
+>> add 55914_txt_utf8_kishaga_kikoeru.txt
+>> https://www.aozora.gr.jp/cards/000026/card55914.html
+>> （汽車が聞える）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31080/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 19 23:04:35 JST 2020
+End  : Thu Mar 19 23:06:45 JST 2020
