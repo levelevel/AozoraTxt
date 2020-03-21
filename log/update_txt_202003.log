@@ -962,3 +962,44 @@ Title Total : 31084/376 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Mar 20 12:52:27 JST 2020
 End  : Fri Mar 20 12:56:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 21 09:07:49 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   98a11d8609..f20cc50957  master     -> origin/master
+Updating 98a11d8609..f20cc50957
+Fast-forward
+ cards/000938/card56573.html                   | 229 +++++++++++++++++++++++++
+ cards/000938/files/56573_70472.html           |  76 +++++++++
+ cards/000938/files/56573_txt_70414.zip        | Bin 0 -> 3422 bytes
+ cards/001475/card51663.html                   |   2 +-
+ cards/001475/card51691.html                   |   2 +-
+ cards/001520/card56738.html                   | 234 ++++++++++++++++++++++++++
+ cards/001520/files/56738_70471.html           |  85 ++++++++++
+ cards/001520/files/56738_ruby_70413.zip       | Bin 0 -> 6254 bytes
+ 82 files changed, 1584 insertions(+), 958 deletions(-)
+Date: Sat Mar 21 09:12:24 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 20 12:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3422 Mar 21 09:11 ./aozorabunko/cards/000938/files/56573_txt_70414.zip
+1/2: ./aozorabunko/cards/000938/files/56573_txt_70414.zip
+>> add 56573_txt_ryugino_sadame.txt
+>> add 56573_txt_utf8_ryugino_sadame.txt
+>> https://www.aozora.gr.jp/cards/000938/card56573.html
+>> 流儀の定め、觀世左近、
+-rwxrwxrwx 1 level level 6254 Mar 21 09:11 ./aozorabunko/cards/001520/files/56738_ruby_70413.zip
+2/2: ./aozorabunko/cards/001520/files/56738_ruby_70413.zip
+>> add 56738_ruby_omoidasu_shokunin.txt
+>> add 56738_ruby_utf8_omoidasu_shokunin.txt
+>> https://www.aozora.gr.jp/cards/001520/card56738.html
+>> 思い出す職人、柳宗悦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31088/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar 21 09:07:49 JST 2020
+End  : Sat Mar 21 09:14:53 JST 2020
