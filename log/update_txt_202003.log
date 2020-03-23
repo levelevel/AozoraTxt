@@ -1046,3 +1046,44 @@ Title Total : 31092/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar 22 08:17:35 JST 2020
 End  : Sun Mar 22 08:19:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar 23 23:56:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a075e026b8..9bef3c148d  master     -> origin/master
+Updating a075e026b8..9bef3c148d
+Fast-forward
+ cards/000255/card47432.html                   |   2 +-
+ cards/000255/card47433.html                   |   2 +-
+ cards/000800/card53186.html                   | 234 +++++++++++++
+ cards/000800/files/53186_70476.html           | 106 ++++++
+ cards/000800/files/53186_ruby_70418.zip       | Bin 0 -> 6518 bytes
+ cards/001403/card55105.html                   | 234 +++++++++++++
+ cards/001403/files/55105_70475.html           | 216 ++++++++++++
+ cards/001403/files/55105_ruby_70417.zip       | Bin 0 -> 8341 bytes
+ 109 files changed, 4815 insertions(+), 4458 deletions(-)
+Date: Tue Mar 24 00:00:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 22 08:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6518 Mar 24 00:00 ./aozorabunko/cards/000800/files/53186_ruby_70418.zip
+1/2: ./aozorabunko/cards/000800/files/53186_ruby_70418.zip
+>> add 53186_ruby_otonano_meto_kodomono_me.txt
+>> add 53186_ruby_utf8_otonano_meto_kodomono_me.txt
+>> https://www.aozora.gr.jp/cards/000800/card53186.html
+>> 大人の眼と子供の眼、水上滝太郎、
+-rwxrwxrwx 1 level level 8341 Mar 24 00:00 ./aozorabunko/cards/001403/files/55105_ruby_70417.zip
+2/2: ./aozorabunko/cards/001403/files/55105_ruby_70417.zip
+>> add 55105_ruby_aito_goroku.txt
+>> add 55105_ruby_utf8_aito_goroku.txt
+>> https://www.aozora.gr.jp/cards/001403/card55105.html
+>> 愛陶語録、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31096/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar 23 23:56:00 JST 2020
+End  : Tue Mar 24 00:02:05 JST 2020
