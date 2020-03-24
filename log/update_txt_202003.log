@@ -1087,3 +1087,35 @@ Title Total : 31096/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Mar 23 23:56:00 JST 2020
 End  : Tue Mar 24 00:02:05 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar 24 23:28:34 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9bef3c148d..54a636d968  master     -> origin/master
+Updating 9bef3c148d..54a636d968
+Fast-forward
+ cards/000800/card53186.html                   |   2 +-
+ cards/001403/card55105.html                   |   2 +-
+ cards/001749/card54114.html                   | 234 ++++++++++++++++++++++++++
+ cards/001749/files/54114_70477.html           |  85 ++++++++++
+ cards/001749/files/54114_txt_70419.zip        | Bin 0 -> 943 bytes
+ 67 files changed, 1938 insertions(+), 1562 deletions(-)
+Date: Tue Mar 24 23:29:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 24 00:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 943 Mar 24 23:29 ./aozorabunko/cards/001749/files/54114_txt_70419.zip
+1/1: ./aozorabunko/cards/001749/files/54114_txt_70419.zip
+>> add 54114_txt_katsute_waga_kanashimiwa.txt
+>> add 54114_txt_utf8_katsute_waga_kanashimiwa.txt
+>> https://www.aozora.gr.jp/cards/001749/card54114.html
+>> かつてわが悲しみは、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31098/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Mar 24 23:28:34 JST 2020
+End  : Tue Mar 24 23:31:37 JST 2020
