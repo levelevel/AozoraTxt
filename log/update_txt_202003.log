@@ -1119,3 +1119,34 @@ Title Total : 31098/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar 24 23:28:34 JST 2020
 End  : Tue Mar 24 23:31:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 25 09:55:10 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   54a636d968..3ad80d69ae  master     -> origin/master
+Updating 54a636d968..3ad80d69ae
+Fast-forward
+ cards/000158/card60026.html                   | 229 ++++++++++++++++++++++++++
+ cards/000158/files/60026_70478.html           | 172 +++++++++++++++++++
+ cards/000158/files/60026_txt_70420.zip        | Bin 0 -> 1100791 bytes
+ cards/001749/card54114.html                   |   2 +-
+ 108 files changed, 1296 insertions(+), 898 deletions(-)
+Date: Wed Mar 25 09:55:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 24 23:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1100791 Mar 25 09:55 ./aozorabunko/cards/000158/files/60026_txt_70420.zip
+1/1: ./aozorabunko/cards/000158/files/60026_txt_70420.zip
+>> add 60026_txt_toson_irohagaruta.txt
+>> add 60026_txt_utf8_toson_irohagaruta.txt
+>> https://www.aozora.gr.jp/cards/000158/card60026.html
+>> 藤村いろは歌留多、島崎藤村、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31100/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar 25 09:55:10 JST 2020
+End  : Wed Mar 25 09:56:00 JST 2020
