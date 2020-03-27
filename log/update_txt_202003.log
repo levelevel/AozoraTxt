@@ -1150,3 +1150,61 @@ Title Total : 31100/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Mar 25 09:55:10 JST 2020
 End  : Wed Mar 25 09:56:00 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Mar 26 23:24:59 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3ad80d69ae..eb7d1883b5  master     -> origin/master
+Updating 3ad80d69ae..eb7d1883b5
+Fast-forward
+ cards/000019/card59324.html                   | 238 +++++++++++++++++++++++
+ cards/000019/files/59324_70480.html           | 143 ++++++++++++++
+ cards/000019/files/59324_ruby_70422.zip       | Bin 0 -> 5541 bytes
+ cards/000067/card59397.html                   | 234 ++++++++++++++++++++++
+ cards/000067/files/59397_70482.html           | 133 +++++++++++++
+ cards/000067/files/59397_ruby_70424.zip       | Bin 0 -> 6882 bytes
+ cards/000158/card60026.html                   |   2 +-
+ cards/001579/card55876.html                   | 234 ++++++++++++++++++++++
+ cards/001579/files/55876_70481.html           | 269 ++++++++++++++++++++++++++
+ cards/001579/files/55876_ruby_70423.zip       | Bin 0 -> 24578 bytes
+ cards/001581/card60172.html                   | 234 ++++++++++++++++++++++
+ cards/001581/files/60172_70479.html           |  65 +++++++
+ cards/001581/files/60172_ruby_70421.zip       | Bin 0 -> 2060 bytes
+ 102 files changed, 3650 insertions(+), 2112 deletions(-)
+Date: Thu Mar 26 23:29:16 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 25 09:55 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5541 Mar 26 23:27 ./aozorabunko/cards/000019/files/59324_ruby_70422.zip
+1/4: ./aozorabunko/cards/000019/files/59324_ruby_70422.zip
+>> add 59324_ruby_buta_kai.txt
+>> add 59324_ruby_utf8_buta_kai.txt
+>> https://www.aozora.gr.jp/cards/000019/card59324.html
+>> ブタ飼い、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 6882 Mar 26 23:27 ./aozorabunko/cards/000067/files/59397_ruby_70424.zip
+2/4: ./aozorabunko/cards/000067/files/59397_ruby_70424.zip
+>> add 59397_ruby_tabatani_itakoro.txt
+>> add 59397_ruby_utf8_tabatani_itakoro.txt
+>> https://www.aozora.gr.jp/cards/000067/card59397.html
+>> 田端に居た頃、（室生犀星のこと）、萩原朔太郎、
+-rwxrwxrwx 1 level level 24578 Mar 26 23:27 ./aozorabunko/cards/001579/files/55876_ruby_70423.zip
+3/4: ./aozorabunko/cards/001579/files/55876_ruby_70423.zip
+>> add 55876_ruby_keiraku_nikki.txt
+>> add 55876_ruby_utf8_keiraku_nikki.txt
+>> https://www.aozora.gr.jp/cards/001579/card55876.html
+>> 京洛日記、室生犀星、
+-rwxrwxrwx 1 level level 2060 Mar 26 23:27 ./aozorabunko/cards/001581/files/60172_ruby_70421.zip
+4/4: ./aozorabunko/cards/001581/files/60172_ruby_70421.zip
+>> add 60172_ruby_choji_muro_saisei.txt
+>> add 60172_ruby_utf8_choji_muro_saisei.txt
+>> https://www.aozora.gr.jp/cards/001581/card60172.html
+>> 弔辞（室生犀星）、正宗白鳥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31108/376 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Mar 26 23:24:59 JST 2020
+End  : Thu Mar 26 23:31:31 JST 2020
