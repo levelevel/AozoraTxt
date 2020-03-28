@@ -1260,3 +1260,36 @@ Title Total : 31114/376 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Mar 27 22:53:20 JST 2020
 End  : Fri Mar 27 22:55:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 28 11:23:12 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7727151afc..fa5edf9e4d  master     -> origin/master
+Updating 7727151afc..fa5edf9e4d
+Fast-forward
+ cards/000094/card56537.html                   |   2 +-
+ cards/000265/card59421.html                   |   2 +-
+ cards/001052/card59902.html                   |   2 +-
+ cards/001670/card57206.html                   | 229 +++++++++++++++++
+ cards/001670/files/57206_70486.html           | 342 ++++++++++++++++++++++++++
+ cards/001670/files/57206_ruby_70428.zip       | Bin 0 -> 13303 bytes
+ 164 files changed, 2169 insertions(+), 1607 deletions(-)
+Date: Sat Mar 28 11:23:25 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 27 22:54 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13303 Mar 28 11:23 ./aozorabunko/cards/001670/files/57206_ruby_70428.zip
+1/1: ./aozorabunko/cards/001670/files/57206_ruby_70428.zip
+>> add 57206_ruby_174magekiri.txt
+>> add 57206_ruby_utf8_174magekiri.txt
+>> https://www.aozora.gr.jp/cards/001670/card57206.html
+>> 銭形平次捕物控、髷切り、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31116/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar 28 11:23:12 JST 2020
+End  : Sat Mar 28 11:23:41 JST 2020
