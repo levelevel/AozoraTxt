@@ -1293,3 +1293,44 @@ Title Total : 31116/376 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar 28 11:23:12 JST 2020
 End  : Sat Mar 28 11:23:41 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar 29 16:37:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fa5edf9e4d..47e3fdbc81  master     -> origin/master
+Updating fa5edf9e4d..47e3fdbc81
+Fast-forward
+ cards/000011/card55300.html                   | 229 ++++++++++++++++++++++++++
+ cards/000011/files/55300_70487.html           |  94 +++++++++++
+ cards/000011/files/55300_ruby_70429.zip       | Bin 0 -> 2712 bytes
+ cards/000293/card59824.html                   |   8 +-
+ cards/000293/files/59824_70456.html           |   3 +-
+ cards/000293/files/59824_ruby_70398.zip       | Bin 3874 -> 3737 bytes
+ cards/001670/card57206.html                   |   2 +-
+ soramoyou/soramoyouindex.html                 |  19 +++
+ 119 files changed, 3181 insertions(+), 2610 deletions(-)
+Date: Sun Mar 29 16:38:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 28 11:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2712 Mar 29 16:38 ./aozorabunko/cards/000011/files/55300_ruby_70429.zip
+1/2: ./aozorabunko/cards/000011/files/55300_ruby_70429.zip
+>> add 55300_ruby_hakushi.txt
+>> add 55300_ruby_utf8_hakushi.txt
+>> https://www.aozora.gr.jp/cards/000011/card55300.html
+>> 白紙、立原道造、
+-rwxrwxrwx 1 level level 3737 Mar 29 16:38 ./aozorabunko/cards/000293/files/59824_ruby_70398.zip
+2/2: ./aozorabunko/cards/000293/files/59824_ruby_70398.zip
+>> update 59824_ruby_chiisana_niwa.txt
+>> update 59824_ruby_utf8_chiisana_niwa.txt
+>> https://www.aozora.gr.jp/cards/000293/card59824.html
+>> 小さな庭、原民喜、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31118/376 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar 29 16:37:47 JST 2020
+End  : Sun Mar 29 16:39:41 JST 2020
