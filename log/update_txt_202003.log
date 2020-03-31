@@ -1376,3 +1376,45 @@ Title Total : 31122/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Mar 30 23:12:32 JST 2020
 End  : Mon Mar 30 23:16:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar 31 22:15:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5b4d8f1691..ab82688a89  master     -> origin/master
+Updating 5b4d8f1691..ab82688a89
+Fast-forward
+ cards/000933/card47711.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47723.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47711_70491.html           |  73 ++++++++
+ cards/000933/files/47711_ruby_70433.zip       | Bin 0 -> 6366 bytes
+ cards/000933/files/47723_70490.html           |  73 ++++++++
+ cards/000933/files/47723_txt_70432.zip        | Bin 0 -> 3527 bytes
+ cards/001670/card57206.html                   |   2 +-
+ cards/001869/card57673.html                   |   2 +-
+ cards/001869/card57784.html                   |   2 +-
+ 53 files changed, 1696 insertions(+), 1088 deletions(-)
+Date: Tue Mar 31 22:17:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 30 23:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6366 Mar 31 22:16 ./aozorabunko/cards/000933/files/47711_ruby_70433.zip
+1/2: ./aozorabunko/cards/000933/files/47711_ruby_70433.zip
+>> add 47711_ruby_nihon_geinono_tokushusei.txt
+>> add 47711_ruby_utf8_nihon_geinono_tokushusei.txt
+>> https://www.aozora.gr.jp/cards/000933/card47711.html
+>> 日本芸能の特殊性、折口信夫、
+-rwxrwxrwx 1 level level 3527 Mar 31 22:16 ./aozorabunko/cards/000933/files/47723_txt_70432.zip
+2/2: ./aozorabunko/cards/000933/files/47723_txt_70432.zip
+>> add 47723_txt_mikoto_yujoto.txt
+>> add 47723_txt_utf8_mikoto_yujoto.txt
+>> https://www.aozora.gr.jp/cards/000933/card47723.html
+>> 巫女と遊女と、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31126/376 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Mar 31 22:15:40 JST 2020
+End  : Tue Mar 31 22:18:19 JST 2020
