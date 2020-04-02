@@ -1,0 +1,82 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Apr  1 20:49:36 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ab82688a89..7e93f45483  master     -> origin/master
+Updating ab82688a89..7e93f45483
+Fast-forward
+ cards/000933/card47711.html                   |   2 +-
+ cards/000933/card47723.html                   |   2 +-
+ cards/000933/card47791.html                   |   2 +-
+ cards/002043/card60412.html                   | 231 ++++++++++++++++++++++
+ cards/002043/files/60412_70315.html           | 272 ++++++++++++++++++++++++++
+ cards/002043/files/60412_ruby_70314.zip       | Bin 0 -> 2672617 bytes
+ 64 files changed, 1306 insertions(+), 812 deletions(-)
+Date: Wed Apr  1 20:51:25 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 31 22:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2672617 Apr  1 20:51 ./aozorabunko/cards/002043/files/60412_ruby_70314.zip
+1/1: ./aozorabunko/cards/002043/files/60412_ruby_70314.zip
+>> add 60412_NPD_ruby_baburu_hokai.txt
+>> add 60412_NPD_ruby_utf8_baburu_hokai.txt
+>> https://www.aozora.gr.jp/cards/002043/card60412.html
+>> バブル崩壊、A BUBBLE BURST、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31126/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Apr  1 20:49:36 JST 2020
+End  : Wed Apr  1 20:53:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr  2 22:26:59 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7e93f45483..93deb37e00  master     -> origin/master
+Updating 7e93f45483..93deb37e00
+Fast-forward
+ cards/000019/card59323.html                   | 238 +++++++++++++++++++++++++
+ cards/000019/files/59323_70728.html           | 118 +++++++++++++
+ cards/000019/files/59323_ruby_70676.zip       | Bin 0 -> 5629 bytes
+ cards/001168/card58178.html                   | 229 ++++++++++++++++++++++++
+ cards/001168/card58216.html                   | 229 ++++++++++++++++++++++++
+ cards/001168/files/58178_70730.html           |  63 +++++++
+ cards/001168/files/58178_txt_70678.zip        | Bin 0 -> 1829 bytes
+ cards/001168/files/58216_70729.html           |  65 +++++++
+ cards/001168/files/58216_txt_70677.zip        | Bin 0 -> 2375 bytes
+ cards/002043/card60412.html                   |   2 +-
+ 130 files changed, 5405 insertions(+), 4309 deletions(-)
+Date: Thu Apr  2 22:28:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  1 20:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5629 Apr  2 22:27 ./aozorabunko/cards/000019/files/59323_ruby_70676.zip
+1/3: ./aozorabunko/cards/000019/files/59323_ruby_70676.zip
+>> add 59323_ruby_konotori.txt
+>> add 59323_ruby_utf8_konotori.txt
+>> https://www.aozora.gr.jp/cards/000019/card59323.html
+>> コウノトリ、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 1829 Apr  2 22:27 ./aozorabunko/cards/001168/files/58178_txt_70678.zip
+2/3: ./aozorabunko/cards/001168/files/58178_txt_70678.zip
+>> add 58178_txt_shono_shin'en.txt
+>> add 58178_txt_utf8_shono_shin'en.txt
+>> https://www.aozora.gr.jp/cards/001168/card58178.html
+>> 書の深淵、高村光太郎、
+-rwxrwxrwx 1 level level 2375 Apr  2 22:27 ./aozorabunko/cards/001168/files/58216_txt_70677.zip
+3/3: ./aozorabunko/cards/001168/files/58216_txt_70677.zip
+>> add 58216_txt_bino_eikyoryoku.txt
+>> add 58216_txt_utf8_bino_eikyoryoku.txt
+>> https://www.aozora.gr.jp/cards/001168/card58216.html
+>> 美の影響力、高村光太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31132/378 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr  2 22:26:59 JST 2020
+End  : Thu Apr  2 22:29:05 JST 2020
