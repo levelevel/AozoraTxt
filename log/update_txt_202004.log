@@ -80,3 +80,45 @@ Title Total : 31132/378 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Apr  2 22:26:59 JST 2020
 End  : Thu Apr  2 22:29:05 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Apr  4 00:16:26 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   93deb37e00..30fe1c008a  master     -> origin/master
+Updating 93deb37e00..30fe1c008a
+Fast-forward
+ cards/000019/card59323.html                   |   2 +-
+ cards/001168/card58178.html                   |   2 +-
+ cards/001168/card58216.html                   |   2 +-
+ cards/001257/card59898.html                   | 238 ++++++++++++++++++++++++++
+ cards/001257/files/59898_70731.html           | 113 ++++++++++++
+ cards/001257/files/59898_ruby_70679.zip       | Bin 0 -> 12553 bytes
+ cards/001385/card49686.html                   | 229 +++++++++++++++++++++++++
+ cards/001385/files/49686_70732.html           |  76 ++++++++
+ cards/001385/files/49686_ruby_70680.zip       | Bin 0 -> 159725 bytes
+ 59 files changed, 1630 insertions(+), 982 deletions(-)
+Date: Sat Apr  4 00:17:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  2 22:28 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12553 Apr  4 00:17 ./aozorabunko/cards/001257/files/59898_ruby_70679.zip
+1/2: ./aozorabunko/cards/001257/files/59898_ruby_70679.zip
+>> add 59898_ruby_wesuto_minsuta_jiin.txt
+>> add 59898_ruby_utf8_wesuto_minsuta_jiin.txt
+>> https://www.aozora.gr.jp/cards/001257/card59898.html
+>> ウェストミンスター寺院、ワシントン・アーヴィング　Washington Irving、吉田甲子太郎訳、
+-rwxrwxrwx 1 level level 159725 Apr  4 00:17 ./aozorabunko/cards/001385/files/49686_ruby_70680.zip
+2/2: ./aozorabunko/cards/001385/files/49686_ruby_70680.zip
+>> add 49686_ruby_pekin_kaenno_sukecchi.txt
+>> add 49686_ruby_utf8_pekin_kaenno_sukecchi.txt
+>> https://www.aozora.gr.jp/cards/001385/card49686.html
+>> 北京「可園」のスケッチ、小林古徑、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31136/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Apr  4 00:16:26 JST 2020
+End  : Sat Apr  4 00:18:50 JST 2020
