@@ -122,3 +122,35 @@ Title Total : 31136/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Apr  4 00:16:26 JST 2020
 End  : Sat Apr  4 00:18:50 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr  5 00:01:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   30fe1c008a..7cecc7494c  master     -> origin/master
+Updating 30fe1c008a..7cecc7494c
+Fast-forward
+ cards/000006/card58819.html                   | 229 ++++++++++++++++++++++++++
+ cards/000006/files/58819_70733.html           | 107 ++++++++++++
+ cards/000006/files/58819_ruby_70681.zip       | Bin 0 -> 4628 bytes
+ cards/001257/card59898.html                   |   2 +-
+ cards/001385/card49686.html                   |   2 +-
+ 31 files changed, 637 insertions(+), 307 deletions(-)
+Date: Sun Apr  5 00:02:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  4 00:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4628 Apr  5 00:02 ./aozorabunko/cards/000006/files/58819_ruby_70681.zip
+1/1: ./aozorabunko/cards/000006/files/58819_ruby_70681.zip
+>> add 58819_ruby_roto_zakki.txt
+>> add 58819_ruby_utf8_roto_zakki.txt
+>> https://www.aozora.gr.jp/cards/000006/card58819.html
+>> 露都雑記、二葉亭四迷、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31138/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Apr  5 00:01:27 JST 2020
+End  : Sun Apr  5 00:03:38 JST 2020
