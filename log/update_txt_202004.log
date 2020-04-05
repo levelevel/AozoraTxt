@@ -154,3 +154,34 @@ Title Total : 31138/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Apr  5 00:01:27 JST 2020
 End  : Sun Apr  5 00:03:38 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr  5 19:33:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7cecc7494c..821e7bd9c7  master     -> origin/master
+Updating 7cecc7494c..821e7bd9c7
+Fast-forward
+ cards/000006/card58819.html                   |    2 +-
+ cards/001749/card55861.html                   |  239 ++
+ cards/001749/files/55861_70734.html           | 1117 +++++++++
+ cards/001749/files/55861_ruby_70682.zip       |  Bin 0 -> 12293 bytes
+ 61 files changed, 8159 insertions(+), 669 deletions(-)
+Date: Sun Apr  5 19:35:00 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  5 00:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12293 Apr  5 19:34 ./aozorabunko/cards/001749/files/55861_ruby_70682.zip
+1/1: ./aozorabunko/cards/001749/files/55861_ruby_70682.zip
+>> add 55861_ruby_ittensho.txt
+>> add 55861_ruby_utf8_ittensho.txt
+>> https://www.aozora.gr.jp/cards/001749/card55861.html
+>> 一點鐘、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31140/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Apr  5 19:33:35 JST 2020
+End  : Sun Apr  5 19:35:57 JST 2020
