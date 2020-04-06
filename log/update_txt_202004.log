@@ -185,3 +185,43 @@ Title Total : 31140/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Apr  5 19:33:35 JST 2020
 End  : Sun Apr  5 19:35:57 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr  6 21:09:59 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   821e7bd9c7..26c8031039  master     -> origin/master
+Updating 821e7bd9c7..26c8031039
+Fast-forward
+ cards/001224/card51822.html                   | 229 ++++++++++++++++++++
+ cards/001224/card59479.html                   | 234 ++++++++++++++++++++
+ cards/001224/files/51822_70735.html           | 295 ++++++++++++++++++++++++++
+ cards/001224/files/51822_ruby_70683.zip       | Bin 0 -> 31093 bytes
+ cards/001224/files/59479_70736.html           |  69 ++++++
+ cards/001224/files/59479_ruby_70684.zip       | Bin 0 -> 1193 bytes
+ cards/001749/card55861.html                   |   2 +-
+ 89 files changed, 3130 insertions(+), 2308 deletions(-)
+Date: Mon Apr  6 21:11:19 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  5 19:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 31093 Apr  6 21:11 ./aozorabunko/cards/001224/files/51822_ruby_70683.zip
+1/2: ./aozorabunko/cards/001224/files/51822_ruby_70683.zip
+>> add 51822_ruby_hamuretto.txt
+>> add 51822_ruby_utf8_hamuretto.txt
+>> https://www.aozora.gr.jp/cards/001224/card51822.html
+>> ハムレット、久生十蘭、
+-rwxrwxrwx 1 level level 1193 Apr  6 21:11 ./aozorabunko/cards/001224/files/59479_ruby_70684.zip
+2/2: ./aozorabunko/cards/001224/files/59479_ruby_70684.zip
+>> add 59479_ruby_kaeru_ryori.txt
+>> add 59479_ruby_utf8_kaeru_ryori.txt
+>> https://www.aozora.gr.jp/cards/001224/card59479.html
+>> 蛙料理、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31144/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr  6 21:09:59 JST 2020
+End  : Mon Apr  6 21:12:08 JST 2020
