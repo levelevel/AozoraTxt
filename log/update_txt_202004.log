@@ -401,3 +401,52 @@ Title Total : 31160/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Apr 10 23:47:53 JST 2020
 End  : Fri Apr 10 23:50:53 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Apr 11 13:04:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5129229296..cd554525bc  master     -> origin/master
+Updating 5129229296..cd554525bc
+Fast-forward
+ cards/001422/card50296.html                   | 229 ++++++++++++++++++
+ cards/001422/files/50296_70745.html           | 323 ++++++++++++++++++++++++++
+ cards/001422/files/50296_ruby_70693.zip       | Bin 0 -> 13950 bytes
+ cards/001569/card59207.html                   | 234 +++++++++++++++++++
+ cards/001569/card59578.html                   | 234 +++++++++++++++++++
+ cards/001569/files/59207_70747.html           |  65 ++++++
+ cards/001569/files/59207_txt_70695.zip        | Bin 0 -> 2151 bytes
+ cards/001569/files/59578_70746.html           |  75 ++++++
+ cards/001569/files/59578_ruby_70694.zip       | Bin 0 -> 2509 bytes
+ cards/001670/card58209.html                   |   2 +-
+ 103 files changed, 3904 insertions(+), 2589 deletions(-)
+Date: Sat Apr 11 13:05:18 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 10 23:50 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13950 Apr 11 13:05 ./aozorabunko/cards/001422/files/50296_ruby_70693.zip
+1/3: ./aozorabunko/cards/001422/files/50296_ruby_70693.zip
+>> add 50296_ruby_imono_kojo.txt
+>> add 50296_ruby_utf8_imono_kojo.txt
+>> https://www.aozora.gr.jp/cards/001422/card50296.html
+>> 鋳物工場、戸田豊子、
+-rwxrwxrwx 1 level level 2151 Apr 11 13:05 ./aozorabunko/cards/001569/files/59207_txt_70695.zip
+2/3: ./aozorabunko/cards/001569/files/59207_txt_70695.zip
+>> add 59207_txt_yukio_furasu_hanashi.txt
+>> add 59207_txt_utf8_yukio_furasu_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59207.html
+>> 雪を降らす話、中谷宇吉郎、
+-rwxrwxrwx 1 level level 2509 Apr 11 13:05 ./aozorabunko/cards/001569/files/59578_ruby_70694.zip
+3/3: ./aozorabunko/cards/001569/files/59578_ruby_70694.zip
+>> add 59578_ruby_kakkono_otozure.txt
+>> add 59578_ruby_utf8_kakkono_otozure.txt
+>> https://www.aozora.gr.jp/cards/001569/card59578.html
+>> 郭公のおとずれ、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31166/378 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Apr 11 13:04:28 JST 2020
+End  : Sat Apr 11 13:05:59 JST 2020
