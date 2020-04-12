@@ -450,3 +450,36 @@ Title Total : 31166/378 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Apr 11 13:04:28 JST 2020
 End  : Sat Apr 11 13:05:59 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr 12 17:53:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cd554525bc..5e8ad3282e  master     -> origin/master
+Updating cd554525bc..5e8ad3282e
+Fast-forward
+ cards/000168/card59689.html                   | 234 ++++++++++++++++++++++++++
+ cards/000168/files/59689_70748.html           |  62 +++++++
+ cards/000168/files/59689_txt_70696.zip        | Bin 0 -> 1446 bytes
+ cards/001422/card50296.html                   |   2 +-
+ cards/001569/card59207.html                   |   2 +-
+ cards/001569/card59578.html                   |   2 +-
+ 77 files changed, 1666 insertions(+), 1302 deletions(-)
+Date: Sun Apr 12 17:55:13 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 11 13:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1446 Apr 12 17:54 ./aozorabunko/cards/000168/files/59689_txt_70696.zip
+1/1: ./aozorabunko/cards/000168/files/59689_txt_70696.zip
+>> add 59689_txt_fuyuhiko_sho.txt
+>> add 59689_txt_utf8_fuyuhiko_sho.txt
+>> https://www.aozora.gr.jp/cards/000168/card59689.html
+>> 冬彦抄、横光利一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31168/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Apr 12 17:53:52 JST 2020
+End  : Sun Apr 12 17:56:39 JST 2020
