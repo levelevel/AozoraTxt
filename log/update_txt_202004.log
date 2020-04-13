@@ -483,3 +483,39 @@ Title Total : 31168/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Apr 12 17:53:52 JST 2020
 End  : Sun Apr 12 17:56:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr 13 22:55:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5e8ad3282e..2c7f7a3237  master     -> origin/master
+Updating 5e8ad3282e..2c7f7a3237
+Fast-forward
+ cards/000168/card59689.html                   |   2 +-
+ cards/001324/card48191.html                   | 229 ++++++++++++++++++++++++++
+ cards/001324/files/48191_70749.html           |  70 ++++++++
+ cards/001324/files/48191_txt_70697.zip        | Bin 0 -> 3314 bytes
+ cards/001422/card50296.html                   |   2 +-
+ cards/001569/card53212.html                   |   2 +-
+ cards/001569/card59207.html                   |   2 +-
+ cards/001569/card59578.html                   |   2 +-
+ soramoyou/soramoyouindex.html                 |  28 ++++
+ 164 files changed, 2719 insertions(+), 2393 deletions(-)
+Date: Mon Apr 13 22:57:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 12 17:56 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3314 Apr 13 22:57 ./aozorabunko/cards/001324/files/48191_txt_70697.zip
+1/1: ./aozorabunko/cards/001324/files/48191_txt_70697.zip
+>> add 48191_txt_juraku_mawari.txt
+>> add 48191_txt_utf8_juraku_mawari.txt
+>> https://www.aozora.gr.jp/cards/001324/card48191.html
+>> 聚樂廻り、羽田亨、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31170/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr 13 22:55:02 JST 2020
+End  : Mon Apr 13 22:59:39 JST 2020
