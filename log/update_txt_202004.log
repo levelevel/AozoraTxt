@@ -519,3 +519,43 @@ Title Total : 31170/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr 13 22:55:02 JST 2020
 End  : Mon Apr 13 22:59:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr 14 23:20:11 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2c7f7a3237..5c845e3cdc  master     -> origin/master
+Updating 2c7f7a3237..5c845e3cdc
+Fast-forward
+ cards/001324/card48191.html                   |   2 +-
+ cards/001670/card56127.html                   | 229 +++++++++++++++++
+ cards/001670/card56128.html                   | 229 +++++++++++++++++
+ cards/001670/files/56127_70750.html           | 352 ++++++++++++++++++++++++++
+ cards/001670/files/56127_ruby_70698.zip       | Bin 0 -> 13871 bytes
+ cards/001670/files/56128_70751.html           | 312 +++++++++++++++++++++++
+ cards/001670/files/56128_ruby_70699.zip       | Bin 0 -> 13820 bytes
+ 98 files changed, 3803 insertions(+), 1913 deletions(-)
+Date: Tue Apr 14 23:22:43 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 13 22:59 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13871 Apr 14 23:22 ./aozorabunko/cards/001670/files/56127_ruby_70698.zip
+1/2: ./aozorabunko/cards/001670/files/56127_ruby_70698.zip
+>> add 56127_ruby_03obake_wakashu.txt
+>> add 56127_ruby_utf8_03obake_wakashu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56127.html
+>> 新奇談クラブ、第三夜　お化け若衆、野村胡堂、
+-rwxrwxrwx 1 level level 13820 Apr 14 23:22 ./aozorabunko/cards/001670/files/56128_ruby_70699.zip
+2/2: ./aozorabunko/cards/001670/files/56128_ruby_70699.zip
+>> add 56128_ruby_04koino_fuzaishomei.txt
+>> add 56128_ruby_utf8_04koino_fuzaishomei.txt
+>> https://www.aozora.gr.jp/cards/001670/card56128.html
+>> 新奇談クラブ、第四夜　恋の不在証明、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31174/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr 14 23:20:11 JST 2020
+End  : Tue Apr 14 23:27:19 JST 2020
