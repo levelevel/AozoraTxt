@@ -559,3 +559,44 @@ Title Total : 31174/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Apr 14 23:20:11 JST 2020
 End  : Tue Apr 14 23:27:19 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Apr 15 10:09:20 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5c845e3cdc..75aa8eedf2  master     -> origin/master
+Updating 5c845e3cdc..75aa8eedf2
+Fast-forward
+ cards/000326/card59490.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/card59493.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59490_70752.html           | 157 +++++++++++++++++
+ cards/000326/files/59490_ruby_70700.zip       | Bin 0 -> 5888 bytes
+ cards/000326/files/59493_70753.html           | 111 ++++++++++++
+ cards/000326/files/59493_ruby_70701.zip       | Bin 0 -> 5437 bytes
+ cards/001670/card56127.html                   |   2 +-
+ cards/001670/card56128.html                   |   2 +-
+ 86 files changed, 2871 insertions(+), 2141 deletions(-)
+Date: Wed Apr 15 10:09:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 14 23:26 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5888 Apr 15 10:09 ./aozorabunko/cards/000326/files/59490_ruby_70700.zip
+1/2: ./aozorabunko/cards/000326/files/59490_ruby_70700.zip
+>> add 59490_ruby_genso.txt
+>> add 59490_ruby_utf8_genso.txt
+>> https://www.aozora.gr.jp/cards/000326/card59490.html
+>> 幻想、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+-rwxrwxrwx 1 level level 5437 Apr 15 10:09 ./aozorabunko/cards/000326/files/59493_ruby_70701.zip
+2/2: ./aozorabunko/cards/000326/files/59493_ruby_70701.zip
+>> add 59493_ruby_juji_gojippunno_kyuko.txt
+>> add 59493_ruby_utf8_juji_gojippunno_kyuko.txt
+>> https://www.aozora.gr.jp/cards/000326/card59493.html
+>> 十時五十分の急行、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31178/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Apr 15 10:09:20 JST 2020
+End  : Wed Apr 15 10:09:45 JST 2020
