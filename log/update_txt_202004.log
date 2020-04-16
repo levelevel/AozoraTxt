@@ -600,3 +600,35 @@ Title Total : 31178/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Apr 15 10:09:20 JST 2020
 End  : Wed Apr 15 10:09:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 16 21:58:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   75aa8eedf2..1b1da3f443  master     -> origin/master
+Updating 75aa8eedf2..1b1da3f443
+Fast-forward
+ cards/000168/card60001.html                   | 234 ++++++++++++++++++++++++++
+ cards/000168/files/60001_70754.html           |  65 +++++++
+ cards/000168/files/60001_txt_70702.zip        | Bin 0 -> 1240 bytes
+ cards/000326/card59490.html                   |   2 +-
+ cards/000326/card59493.html                   |   2 +-
+ 129 files changed, 1769 insertions(+), 1474 deletions(-)
+Date: Thu Apr 16 22:00:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 15 10:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1240 Apr 16 21:59 ./aozorabunko/cards/000168/files/60001_txt_70702.zip
+1/1: ./aozorabunko/cards/000168/files/60001_txt_70702.zip
+>> add 60001_txt_043taisho_11nen_9gatsu_20nichi.txt
+>> add 60001_txt_utf8_043taisho_11nen_9gatsu_20nichi.txt
+>> https://www.aozora.gr.jp/cards/000168/card60001.html
+>> 書翰、大正十一年九月二十日　川端康成宛、横光利一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31180/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 16 21:58:07 JST 2020
+End  : Thu Apr 16 22:01:27 JST 2020
