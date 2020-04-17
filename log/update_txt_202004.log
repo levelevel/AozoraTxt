@@ -632,3 +632,60 @@ Title Total : 31180/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Apr 16 21:58:07 JST 2020
 End  : Thu Apr 16 22:01:27 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr 17 22:09:24 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1b1da3f443..7bfade6136  master     -> origin/master
+Updating 1b1da3f443..7bfade6136
+Fast-forward
+ cards/000009/card55882.html                   |   4 +-
+ cards/000009/files/55882_ruby_50045.zip       | Bin 3378463 -> 2698736 bytes
+ cards/000168/card60001.html                   |   2 +-
+ cards/001597/card53699.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/card53702.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/card53708.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/files/53699_70756.html           |  86 ++++++++++
+ cards/001597/files/53699_txt_70704.zip        | Bin 0 -> 1291 bytes
+ cards/001597/files/53702_70757.html           |  92 ++++++++++
+ cards/001597/files/53702_txt_70705.zip        | Bin 0 -> 1185 bytes
+ cards/001597/files/53708_70755.html           |  89 ++++++++++
+ cards/001597/files/53708_txt_70703.zip        | Bin 0 -> 1442 bytes
+ 78 files changed, 1988 insertions(+), 1026 deletions(-)
+Date: Fri Apr 17 22:09:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 16 22:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2698736 Apr 17 22:09 ./aozorabunko/cards/000009/files/55882_ruby_50045.zip
+1/4: ./aozorabunko/cards/000009/files/55882_ruby_50045.zip
+>> update 55882_NPD_ruby_sussexno_kyuketsuki.txt
+>> update 55882_NPD_ruby_utf8_sussexno_kyuketsuki.txt
+>> https://www.aozora.gr.jp/cards/000009/card55882.html
+>> サセックスの吸血鬼、THE ADVENTURE OF THE SUSSEX VAMPIRE、アーサー・コナン・ドイル　Arthur Conan Doyle、大久保ゆう訳、
+-rwxrwxrwx 1 level level 1291 Apr 17 22:09 ./aozorabunko/cards/001597/files/53699_txt_70704.zip
+2/4: ./aozorabunko/cards/001597/files/53699_txt_70704.zip
+>> add 53699_txt_senni_kansuru_oboegaki_1.txt
+>> add 53699_txt_utf8_senni_kansuru_oboegaki_1.txt
+>> https://www.aozora.gr.jp/cards/001597/card53699.html
+>> 線に関する覚書１、李箱、
+-rwxrwxrwx 1 level level 1185 Apr 17 22:09 ./aozorabunko/cards/001597/files/53702_txt_70705.zip
+3/4: ./aozorabunko/cards/001597/files/53702_txt_70705.zip
+>> add 53702_txt_senni_kansuru_oboegaki_2.txt
+>> add 53702_txt_utf8_senni_kansuru_oboegaki_2.txt
+>> https://www.aozora.gr.jp/cards/001597/card53702.html
+>> 線に関する覚書２、李箱、
+-rwxrwxrwx 1 level level 1442 Apr 17 22:09 ./aozorabunko/cards/001597/files/53708_txt_70703.zip
+4/4: ./aozorabunko/cards/001597/files/53708_txt_70703.zip
+>> add 53708_txt_hahenno_keshiki.txt
+>> add 53708_txt_utf8_hahenno_keshiki.txt
+>> https://www.aozora.gr.jp/cards/001597/card53708.html
+>> 破片ノ景色――、△ハ俺ノ AMOUREUSE デアル、李箱、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31186/378 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Apr 17 22:09:24 JST 2020
+End  : Fri Apr 17 22:10:09 JST 2020
