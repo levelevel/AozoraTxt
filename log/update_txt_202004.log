@@ -722,3 +722,34 @@ Title Total : 31188/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Apr 18 12:30:44 JST 2020
 End  : Sat Apr 18 12:31:30 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr 19 17:59:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fd6b057f0a..e94fe083d2  master     -> origin/master
+Updating fd6b057f0a..e94fe083d2
+Fast-forward
+ cards/001670/card57207.html                   | 229 +++++++++++++++++
+ cards/001670/files/57207_70759.html           | 346 ++++++++++++++++++++++++++
+ cards/001670/files/57207_ruby_70707.zip       | Bin 0 -> 13764 bytes
+ cards/001997/card59354.html                   |   2 +-
+ 127 files changed, 1629 insertions(+), 1057 deletions(-)
+Date: Sun Apr 19 18:00:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 18 12:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13764 Apr 19 18:00 ./aozorabunko/cards/001670/files/57207_ruby_70707.zip
+1/1: ./aozorabunko/cards/001670/files/57207_ruby_70707.zip
+>> add 57207_ruby_200shigaino_hanayome.txt
+>> add 57207_ruby_utf8_200shigaino_hanayome.txt
+>> https://www.aozora.gr.jp/cards/001670/card57207.html
+>> 銭形平次捕物控、死骸の花嫁、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31190/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Apr 19 17:59:45 JST 2020
+End  : Sun Apr 19 18:01:47 JST 2020
