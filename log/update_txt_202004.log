@@ -753,3 +753,43 @@ Title Total : 31190/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Apr 19 17:59:45 JST 2020
 End  : Sun Apr 19 18:01:47 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr 20 21:46:36 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e94fe083d2..c28ea51979  master     -> origin/master
+Updating e94fe083d2..c28ea51979
+Fast-forward
+ cards/001403/card55050.html                   | 234 +++++++++++++
+ cards/001403/card55061.html                   | 234 +++++++++++++
+ cards/001403/files/55050_70760.html           |  65 ++++
+ cards/001403/files/55050_ruby_70708.zip       | Bin 0 -> 3041 bytes
+ cards/001403/files/55061_70761.html           |  68 ++++
+ cards/001403/files/55061_ruby_70709.zip       | Bin 0 -> 3068 bytes
+ cards/001670/card57207.html                   |   2 +-
+ 75 files changed, 2546 insertions(+), 2400 deletions(-)
+Date: Mon Apr 20 21:48:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 19 18:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3041 Apr 20 21:47 ./aozorabunko/cards/001403/files/55050_ruby_70708.zip
+1/2: ./aozorabunko/cards/001403/files/55050_ruby_70708.zip
+>> add 55050_ruby_shodoo_ayamaraseru_shodo_shoreikai.txt
+>> add 55050_ruby_utf8_shodoo_ayamaraseru_shodo_shoreikai.txt
+>> https://www.aozora.gr.jp/cards/001403/card55050.html
+>> 書道を誤らせる書道奨励会、北大路魯山人、
+-rwxrwxrwx 1 level level 3068 Apr 20 21:47 ./aozorabunko/cards/001403/files/55061_ruby_70709.zip
+2/2: ./aozorabunko/cards/001403/files/55061_ruby_70709.zip
+>> add 55061_ruby_tojiin_rokkao_shokaisuru.txt
+>> add 55061_ruby_utf8_tojiin_rokkao_shokaisuru.txt
+>> https://www.aozora.gr.jp/cards/001403/card55061.html
+>> 陶磁印六顆を紹介する、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31194/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr 20 21:46:36 JST 2020
+End  : Mon Apr 20 21:48:59 JST 2020
