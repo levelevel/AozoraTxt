@@ -793,3 +793,35 @@ Title Total : 31194/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr 20 21:46:36 JST 2020
 End  : Mon Apr 20 21:48:59 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr 21 21:31:20 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c28ea51979..efcc811726  master     -> origin/master
+Updating c28ea51979..efcc811726
+Fast-forward
+ cards/001403/card55050.html                   |   2 +-
+ cards/001403/card55061.html                   |   2 +-
+ cards/001869/card57818.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57818_70762.html           | 194 ++++++++++++++++++++++
+ cards/001869/files/57818_ruby_70710.zip       | Bin 0 -> 12284 bytes
+ 36 files changed, 1120 insertions(+), 701 deletions(-)
+Date: Tue Apr 21 21:32:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 20 21:48 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12284 Apr 21 21:32 ./aozorabunko/cards/001869/files/57818_ruby_70710.zip
+1/1: ./aozorabunko/cards/001869/files/57818_ruby_70710.zip
+>> add 57818_ruby_fudanso.txt
+>> add 57818_ruby_utf8_fudanso.txt
+>> https://www.aozora.gr.jp/cards/001869/card57818.html
+>> 日本婦道記、不断草、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31196/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr 21 21:31:20 JST 2020
+End  : Tue Apr 21 21:34:42 JST 2020
