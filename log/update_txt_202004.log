@@ -898,3 +898,74 @@ Title Total : 31202/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Apr 23 23:27:46 JST 2020
 End  : Thu Apr 23 23:30:15 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr 24 22:21:43 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b410bd5933..c21e01ed87  master     -> origin/master
+Updating b410bd5933..c21e01ed87
+Fast-forward
+ cards/000255/card47437.html                   |   2 +-
+ cards/001869/card57689.html                   | 229 +++++++++++++++
+ cards/001869/files/57689_70766.html           | 395 ++++++++++++++++++++++++++
+ cards/001869/files/57689_ruby_70714.zip       | Bin 0 -> 21381 bytes
+ 35 files changed, 1140 insertions(+), 519 deletions(-)
+Date: Fri Apr 24 22:22:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 23 23:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 21381 Apr 24 22:22 ./aozorabunko/cards/001869/files/57689_ruby_70714.zip
+1/1: ./aozorabunko/cards/001869/files/57689_ruby_70714.zip
+>> add 57689_ruby_doroboto_wakatono.txt
+>> add 57689_ruby_utf8_doroboto_wakatono.txt
+>> https://www.aozora.gr.jp/cards/001869/card57689.html
+>> 泥棒と若殿、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31204/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Apr 24 22:21:43 JST 2020
+End  : Fri Apr 24 22:23:31 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Apr 25 12:35:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c21e01ed87..dd8f36fecc  master     -> origin/master
+Updating c21e01ed87..dd8f36fecc
+Fast-forward
+ cards/001520/card56744.html                   | 234 +++++++++++++++++++
+ cards/001520/card56747.html                   | 234 +++++++++++++++++++
+ cards/001520/files/56744_70768.html           | 321 ++++++++++++++++++++++++++
+ cards/001520/files/56744_ruby_70716.zip       | Bin 0 -> 12916 bytes
+ cards/001520/files/56747_70767.html           |  91 ++++++++
+ cards/001520/files/56747_ruby_70715.zip       | Bin 0 -> 7036 bytes
+ cards/001869/card57689.html                   |   2 +-
+ 53 files changed, 2219 insertions(+), 1344 deletions(-)
+Date: Sat Apr 25 12:35:56 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 24 22:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12916 Apr 25 12:35 ./aozorabunko/cards/001520/files/56744_ruby_70716.zip
+1/2: ./aozorabunko/cards/001520/files/56744_ruby_70716.zip
+>> add 56744_ruby_taiwanno_mingeini_tsuite.txt
+>> add 56744_ruby_utf8_taiwanno_mingeini_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001520/card56744.html
+>> 台湾の民藝について、柳宗悦、
+-rwxrwxrwx 1 level level 7036 Apr 25 12:35 ./aozorabunko/cards/001520/files/56747_ruby_70715.zip
+2/2: ./aozorabunko/cards/001520/files/56747_ruby_70715.zip
+>> add 56747_ruby_naeshirogawano_kuromon.txt
+>> add 56747_ruby_utf8_naeshirogawano_kuromon.txt
+>> https://www.aozora.gr.jp/cards/001520/card56747.html
+>> 苗代川の黒物、柳宗悦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31208/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Apr 25 12:35:17 JST 2020
+End  : Sat Apr 25 12:36:14 JST 2020
