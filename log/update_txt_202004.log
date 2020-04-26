@@ -969,3 +969,44 @@ Title Total : 31208/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Apr 25 12:35:17 JST 2020
 End  : Sat Apr 25 12:36:14 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr 26 13:08:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dd8f36fecc..b7ed6d6fd3  master     -> origin/master
+Updating dd8f36fecc..b7ed6d6fd3
+Fast-forward
+ cards/001475/card52561.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card52619.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52561_70769.html           |  99 +++++++++++
+ cards/001475/files/52561_ruby_70717.zip       | Bin 0 -> 3693 bytes
+ cards/001475/files/52619_70770.html           |  99 +++++++++++
+ cards/001475/files/52619_ruby_70718.zip       | Bin 0 -> 3877 bytes
+ cards/001520/card56744.html                   |   2 +-
+ cards/001520/card56747.html                   |   2 +-
+ 58 files changed, 2435 insertions(+), 1775 deletions(-)
+Date: Sun Apr 26 13:09:56 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 25 12:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3693 Apr 26 13:09 ./aozorabunko/cards/001475/files/52561_ruby_70717.zip
+1/2: ./aozorabunko/cards/001475/files/52561_ruby_70717.zip
+>> add 52561_ruby_kodomowa_bakade_nakatta.txt
+>> add 52561_ruby_utf8_kodomowa_bakade_nakatta.txt
+>> https://www.aozora.gr.jp/cards/001475/card52561.html
+>> 子供はばかでなかった、小川未明、
+-rwxrwxrwx 1 level level 3877 Apr 26 13:09 ./aozorabunko/cards/001475/files/52619_ruby_70718.zip
+2/2: ./aozorabunko/cards/001475/files/52619_ruby_70718.zip
+>> add 52619_ruby_okasanno_kanzashi.txt
+>> add 52619_ruby_utf8_okasanno_kanzashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52619.html
+>> お母さんのかんざし、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31212/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Apr 26 13:08:52 JST 2020
+End  : Sun Apr 26 13:11:01 JST 2020
