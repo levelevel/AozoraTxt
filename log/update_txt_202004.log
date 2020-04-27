@@ -1010,3 +1010,35 @@ Title Total : 31212/378 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Apr 26 13:08:52 JST 2020
 End  : Sun Apr 26 13:11:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr 27 10:35:10 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b7ed6d6fd3..03b12f204e  master     -> origin/master
+Updating b7ed6d6fd3..03b12f204e
+Fast-forward
+ cards/001383/card58927.html                   | 234 ++++++++++++++++++++++++++
+ cards/001383/files/58927_70771.html           |  91 ++++++++++
+ cards/001383/files/58927_ruby_70719.zip       | Bin 0 -> 5050 bytes
+ cards/001475/card52561.html                   |   2 +-
+ cards/001475/card52619.html                   |   2 +-
+ 35 files changed, 641 insertions(+), 311 deletions(-)
+Date: Mon Apr 27 10:36:11 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 26 13:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5050 Apr 27 10:35 ./aozorabunko/cards/001383/files/58927_ruby_70719.zip
+1/1: ./aozorabunko/cards/001383/files/58927_ruby_70719.zip
+>> add 58927_ruby_bunbogu_mandan.txt
+>> add 58927_ruby_utf8_bunbogu_mandan.txt
+>> https://www.aozora.gr.jp/cards/001383/card58927.html
+>> 文房具漫談、谷崎潤一郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31214/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr 27 10:35:10 JST 2020
+End  : Mon Apr 27 10:37:08 JST 2020
