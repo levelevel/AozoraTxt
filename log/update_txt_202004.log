@@ -1042,3 +1042,35 @@ Title Total : 31214/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr 27 10:35:10 JST 2020
 End  : Mon Apr 27 10:37:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Apr 29 01:11:01 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   03b12f204e..ae5208bdbc  master     -> origin/master
+Updating 03b12f204e..ae5208bdbc
+Fast-forward
+ cards/000311/card2893.html                    |   2 +-
+ cards/001383/card58927.html                   |   2 +-
+ cards/001670/card57248.html                   | 234 +++++++++++++++
+ cards/001670/files/57248_70772.html           | 402 ++++++++++++++++++++++++++
+ cards/001670/files/57248_ruby_70720.zip       | Bin 0 -> 18157 bytes
+ 144 files changed, 1822 insertions(+), 1189 deletions(-)
+Date: Wed Apr 29 01:11:36 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 27 10:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 18157 Apr 29 01:11 ./aozorabunko/cards/001670/files/57248_ruby_70720.zip
+1/1: ./aozorabunko/cards/001670/files/57248_ruby_70720.zip
+>> add 57248_ruby_211tomeganeno_tonosama.txt
+>> add 57248_ruby_utf8_211tomeganeno_tonosama.txt
+>> https://www.aozora.gr.jp/cards/001670/card57248.html
+>> 銭形平次捕物控、遠眼鏡の殿様、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31216/378 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Apr 29 01:11:01 JST 2020
+End  : Wed Apr 29 01:12:05 JST 2020
