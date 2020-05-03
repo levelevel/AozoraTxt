@@ -1,0 +1,131 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun May  3 21:52:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ae5208bdbc..ba4478c64e  master     -> origin/master
+Updating ae5208bdbc..ba4478c64e
+Fast-forward
+ cards/000026/card55904.html                   |  229 +++++
+ cards/000026/card55906.html                   |  229 +++++
+ cards/000026/card55916.html                   |  229 +++++
+ cards/000026/files/55904_70773.html           |   78 ++
+ cards/000026/files/55904_txt_70721.zip        |  Bin 0 -> 1112 bytes
+ cards/000026/files/55906_70774.html           |   78 ++
+ cards/000026/files/55906_txt_70722.zip        |  Bin 0 -> 1065 bytes
+ cards/000026/files/55916_70775.html           |   70 ++
+ cards/000026/files/55916_txt_70723.zip        |  Bin 0 -> 944 bytes
+ cards/000064/card55664.html                   |  229 +++++
+ cards/000064/files/55664_70961.html           |  132 +++
+ cards/000064/files/55664_ruby_70911.zip       |  Bin 0 -> 18708 bytes
+ cards/001336/card51296.html                   |  234 +++++
+ cards/001336/files/51296_70779.html           |  195 ++++
+ cards/001336/files/51296_ruby_70727.zip       |  Bin 0 -> 7055 bytes
+ cards/001341/card59487.html                   |  247 +++++
+ cards/001341/card59688.html                   |  234 +++++
+ cards/001341/files/59487_70777.html           | 1363 +++++++++++++++++++++++++
+ cards/001341/files/59487_ruby_70725.zip       |  Bin 0 -> 14968 bytes
+ cards/001341/files/59688_70778.html           |  348 +++++++
+ cards/001341/files/59688_ruby_70726.zip       |  Bin 0 -> 5703 bytes
+ cards/001474/card56955.html                   |  229 +++++
+ cards/001474/files/56955_70960.html           |   80 ++
+ cards/001474/files/56955_ruby_70910.zip       |  Bin 0 -> 7731 bytes
+ cards/001520/card56743.html                   |  234 +++++
+ cards/001520/files/56743_70963.html           |  137 +++
+ cards/001520/files/56743_ruby_70913.zip       |  Bin 0 -> 21069 bytes
+ cards/001670/card57248.html                   |    2 +-
+ cards/001949/card59135.html                   |  229 +++++
+ cards/001949/files/59135_70962.html           |  630 ++++++++++++
+ cards/001949/files/59135_txt_70912.zip        |  Bin 0 -> 29944 bytes
+ cards/001954/card58704.html                   |  229 +++++
+ cards/001954/files/58704_70776.html           | 1058 +++++++++++++++++++
+ cards/001954/files/58704_ruby_70724.zip       |  Bin 0 -> 5110137 bytes
+ cards/001958/card58935.html                   |   14 +-
+ cards/002043/card60484.html                   |  231 +++++
+ cards/002043/files/60484_70895.html           |  291 ++++++
+ cards/002043/files/60484_ruby_70894.zip       |  Bin 0 -> 6418069 bytes
+ 356 files changed, 13944 insertions(+), 6759 deletions(-)
+Date: Sun May  3 21:53:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Apr 29 01:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1112 May  3 21:53 ./aozorabunko/cards/000026/files/55904_txt_70721.zip
+1/12: ./aozorabunko/cards/000026/files/55904_txt_70721.zip
+>> add 55904_txt_haruno_yugure.txt
+>> add 55904_txt_utf8_haruno_yugure.txt
+>> https://www.aozora.gr.jp/cards/000026/card55904.html
+>> 春の夕暮、中原中也、
+-rwxrwxrwx 1 level level 1065 May  3 21:53 ./aozorabunko/cards/000026/files/55906_txt_70722.zip
+2/12: ./aozorabunko/cards/000026/files/55906_txt_70722.zip
+>> add 55906_txt_mayotte_imasu.txt
+>> add 55906_txt_utf8_mayotte_imasu.txt
+>> https://www.aozora.gr.jp/cards/000026/card55906.html
+>> 迷つてゐます、中原中也、
+-rwxrwxrwx 1 level level 944 May  3 21:53 ./aozorabunko/cards/000026/files/55916_txt_70723.zip
+3/12: ./aozorabunko/cards/000026/files/55916_txt_70723.zip
+>> add 55916_txt_sake.txt
+>> add 55916_txt_utf8_sake.txt
+>> https://www.aozora.gr.jp/cards/000026/card55916.html
+>> （酒）、中原中也、
+-rwxrwxrwx 1 level level 18708 May  3 21:53 ./aozorabunko/cards/000064/files/55664_ruby_70911.zip
+4/12: ./aozorabunko/cards/000064/files/55664_ruby_70911.zip
+>> add 55664_ruby_samidare.txt
+>> add 55664_ruby_utf8_samidare.txt
+>> https://www.aozora.gr.jp/cards/000064/card55664.html
+>> 五月雨、一葉稿、
+-rwxrwxrwx 1 level level 7055 May  3 21:53 ./aozorabunko/cards/001336/files/51296_ruby_70727.zip
+5/12: ./aozorabunko/cards/001336/files/51296_ruby_70727.zip
+>> add 51296_ruby_kafuono_hokku.txt
+>> add 51296_ruby_utf8_kafuono_hokku.txt
+>> https://www.aozora.gr.jp/cards/001336/card51296.html
+>> 荷風翁の發句、心猿、
+-rwxrwxrwx 1 level level 14968 May  3 21:53 ./aozorabunko/cards/001341/files/59487_ruby_70725.zip
+6/12: ./aozorabunko/cards/001341/files/59487_ruby_70725.zip
+>> add 59487_ruby_henkikan_ginso.txt
+>> add 59487_ruby_utf8_henkikan_ginso.txt
+>> https://www.aozora.gr.jp/cards/001341/card59487.html
+>> 偏奇館吟草、永井壮吉、
+-rwxrwxrwx 1 level level 5703 May  3 21:53 ./aozorabunko/cards/001341/files/59688_ruby_70726.zip
+7/12: ./aozorabunko/cards/001341/files/59688_ruby_70726.zip
+>> add 59688_ruby_jisen_kafu_hyakku.txt
+>> add 59688_ruby_utf8_jisen_kafu_hyakku.txt
+>> https://www.aozora.gr.jp/cards/001341/card59688.html
+>> 自選　荷風百句、永井荷風、
+-rwxrwxrwx 1 level level 7731 May  3 21:53 ./aozorabunko/cards/001474/files/56955_ruby_70910.zip
+8/12: ./aozorabunko/cards/001474/files/56955_ruby_70910.zip
+>> add 56955_ruby_rakudaito_taiko.txt
+>> add 56955_ruby_utf8_rakudaito_taiko.txt
+>> https://www.aozora.gr.jp/cards/001474/card56955.html
+>> 落第と退校、丘浅次郎、
+-rwxrwxrwx 1 level level 21069 May  3 21:53 ./aozorabunko/cards/001520/files/56743_ruby_70913.zip
+9/12: ./aozorabunko/cards/001520/files/56743_ruby_70913.zip
+>> add 56743_ruby_zenra_kiko.txt
+>> add 56743_ruby_utf8_zenra_kiko.txt
+>> https://www.aozora.gr.jp/cards/001520/card56743.html
+>> 全羅紀行、柳宗悦、
+-rwxrwxrwx 1 level level 29944 May  3 21:53 ./aozorabunko/cards/001949/files/59135_txt_70912.zip
+10/12: ./aozorabunko/cards/001949/files/59135_txt_70912.zip
+>> add 59135_txt_04shinkenpono_kaisetsu_kaisetsu.txt
+>> add 59135_txt_utf8_04shinkenpono_kaisetsu_kaisetsu.txt
+>> https://www.aozora.gr.jp/cards/001949/card59135.html
+>> 新憲法の解説、解説、山浦貫一、
+-rwxrwxrwx 1 level level 5110137 May  3 21:53 ./aozorabunko/cards/001954/files/58704_ruby_70724.zip
+11/12: ./aozorabunko/cards/001954/files/58704_ruby_70724.zip
+>> add 58704_ruby_aru_haimatsuno_dokuhaku.txt
+>> add 58704_ruby_utf8_aru_haimatsuno_dokuhaku.txt
+>> https://www.aozora.gr.jp/cards/001954/card58704.html
+>> ある偃松の独白、中村清太郎、
+-rwxrwxrwx 1 level level 6418069 May  3 21:53 ./aozorabunko/cards/002043/files/60484_ruby_70894.zip
+12/12: ./aozorabunko/cards/002043/files/60484_ruby_70894.zip
+>> add 60484_NPD_ruby_miezaru_chikara.txt
+>> add 60484_NPD_ruby_utf8_miezaru_chikara.txt
+>> https://www.aozora.gr.jp/cards/002043/card60484.html
+>> 見えざる力、THE INVISIBLE FORCE、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31238/380 (Accept:12/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun May  3 21:52:18 JST 2020
+End  : Sun May  3 21:54:41 JST 2020
