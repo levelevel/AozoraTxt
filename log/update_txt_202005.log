@@ -179,3 +179,44 @@ Title Total : 31242/380 (Accept:3/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May  4 12:26:36 JST 2020
 End  : Mon May  4 12:28:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May  5 10:59:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dd7bf691a7..a1fb80875f  master     -> origin/master
+Updating dd7bf691a7..a1fb80875f
+Fast-forward
+ cards/000019/card58847.html                   |  238 ++
+ cards/000019/card58874.html                   |  238 ++
+ cards/000019/files/58847_70967.html           |  115 +
+ cards/000019/files/58847_ruby_70917.zip       |  Bin 0 -> 5810 bytes
+ cards/000019/files/58874_70966.html           |  118 +
+ cards/000019/files/58874_ruby_70916.zip       |  Bin 0 -> 7309 bytes
+ cards/001750/card55803.html                   |    2 +-
+ cards/001846/card59873.html                   |    2 +-
+ 52 files changed, 7473 insertions(+), 644 deletions(-)
+Date: Tue May  5 10:59:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May  4 12:28 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5810 May  5 10:59 ./aozorabunko/cards/000019/files/58847_ruby_70917.zip
+1/2: ./aozorabunko/cards/000019/files/58847_ruby_70917.zip
+>> add 58847_ruby_suzuno_heitaisan.txt
+>> add 58847_ruby_utf8_suzuno_heitaisan.txt
+>> https://www.aozora.gr.jp/cards/000019/card58847.html
+>> すずの兵隊さん、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 7309 May  5 10:59 ./aozorabunko/cards/000019/files/58874_ruby_70916.zip
+2/2: ./aozorabunko/cards/000019/files/58874_ruby_70916.zip
+>> add 58874_ruby_sora_tobu_toranku.txt
+>> add 58874_ruby_utf8_sora_tobu_toranku.txt
+>> https://www.aozora.gr.jp/cards/000019/card58874.html
+>> 空とぶトランク、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31246/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May  5 10:59:00 JST 2020
+End  : Tue May  5 10:59:25 JST 2020
