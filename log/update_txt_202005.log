@@ -220,3 +220,53 @@ Title Total : 31246/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May  5 10:59:00 JST 2020
 End  : Tue May  5 10:59:25 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May  6 12:36:30 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a1fb80875f..3b06676b8b  master     -> origin/master
+Updating a1fb80875f..3b06676b8b
+Fast-forward
+ cards/000019/card58847.html                   |   2 +-
+ cards/000019/card58874.html                   |   2 +-
+ cards/001467/card50730.html                   | 244 ++++++++++++++++++++++++++
+ cards/001467/files/50730_70968.html           |  98 +++++++++++
+ cards/001467/files/50730_ruby_70918.zip       | Bin 0 -> 7757 bytes
+ cards/001763/card59309.html                   | 234 ++++++++++++++++++++++++
+ cards/001763/card59942.html                   | 234 ++++++++++++++++++++++++
+ cards/001763/files/59309_70969.html           |  76 ++++++++
+ cards/001763/files/59309_txt_70919.zip        | Bin 0 -> 3052 bytes
+ cards/001763/files/59942_70970.html           |  75 ++++++++
+ cards/001763/files/59942_ruby_70920.zip       | Bin 0 -> 5079 bytes
+ 75 files changed, 2887 insertions(+), 1926 deletions(-)
+Date: Wed May  6 12:38:33 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May  5 10:59 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7757 May  6 12:38 ./aozorabunko/cards/001467/files/50730_ruby_70918.zip
+1/3: ./aozorabunko/cards/001467/files/50730_ruby_70918.zip
+>> add 50730_ruby_kyomonron_gimon.txt
+>> add 50730_ruby_utf8_kyomonron_gimon.txt
+>> https://www.aozora.gr.jp/cards/001467/card50730.html
+>> 教門論疑問、柏原孝章、
+-rwxrwxrwx 1 level level 3052 May  6 12:38 ./aozorabunko/cards/001763/files/59309_txt_70919.zip
+2/3: ./aozorabunko/cards/001763/files/59309_txt_70919.zip
+>> add 59309_txt_ogon_kitan.txt
+>> add 59309_txt_utf8_ogon_kitan.txt
+>> https://www.aozora.gr.jp/cards/001763/card59309.html
+>> 黄金綺譚、潔癖の人必ず読むべからず、佐藤春夫、
+-rwxrwxrwx 1 level level 5079 May  6 12:38 ./aozorabunko/cards/001763/files/59942_ruby_70920.zip
+3/3: ./aozorabunko/cards/001763/files/59942_ruby_70920.zip
+>> add 59942_ruby_tantei_shosetsu_shoron.txt
+>> add 59942_ruby_utf8_tantei_shosetsu_shoron.txt
+>> https://www.aozora.gr.jp/cards/001763/card59942.html
+>> 探偵小説小論、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31252/380 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May  6 12:36:30 JST 2020
+End  : Wed May  6 12:39:27 JST 2020
