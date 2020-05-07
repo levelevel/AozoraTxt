@@ -270,3 +270,36 @@ Title Total : 31252/380 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May  6 12:36:30 JST 2020
 End  : Wed May  6 12:39:27 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May  7 21:51:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3b06676b8b..9ebabfeac5  master     -> origin/master
+Updating 3b06676b8b..9ebabfeac5
+Fast-forward
+ cards/001467/card50730.html                   |   2 +-
+ cards/001670/card57214.html                   | 229 +++++++++++++++++
+ cards/001670/files/57214_70971.html           | 355 ++++++++++++++++++++++++++
+ cards/001670/files/57214_ruby_70921.zip       | Bin 0 -> 14007 bytes
+ cards/001763/card59309.html                   |   2 +-
+ cards/001763/card59942.html                   |   2 +-
+ 76 files changed, 2683 insertions(+), 2106 deletions(-)
+Date: Thu May  7 21:52:34 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May  6 12:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14007 May  7 21:52 ./aozorabunko/cards/001670/files/57214_ruby_70921.zip
+1/1: ./aozorabunko/cards/001670/files/57214_ruby_70921.zip
+>> add 57214_ruby_213hitome_senryo.txt
+>> add 57214_ruby_utf8_213hitome_senryo.txt
+>> https://www.aozora.gr.jp/cards/001670/card57214.html
+>> 銭形平次捕物控、一と目千両、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31254/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May  7 21:51:03 JST 2020
+End  : Thu May  7 21:53:47 JST 2020
