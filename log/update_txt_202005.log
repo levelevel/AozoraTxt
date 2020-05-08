@@ -303,3 +303,43 @@ Title Total : 31254/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May  7 21:51:03 JST 2020
 End  : Thu May  7 21:53:47 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May  8 22:13:59 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9ebabfeac5..476b690fc9  master     -> origin/master
+Updating 9ebabfeac5..476b690fc9
+Fast-forward
+ cards/001566/card58445.html                   | 234 ++++++++++++++++++++++++++
+ cards/001566/card58450.html                   | 234 ++++++++++++++++++++++++++
+ cards/001566/files/58445_70972.html           |  67 ++++++++
+ cards/001566/files/58445_ruby_70922.zip       | Bin 0 -> 3552 bytes
+ cards/001566/files/58450_70973.html           | 112 ++++++++++++
+ cards/001566/files/58450_ruby_70923.zip       | Bin 0 -> 8756 bytes
+ cards/001670/card57214.html                   |   2 +-
+ 42 files changed, 1655 insertions(+), 1013 deletions(-)
+Date: Fri May  8 22:15:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May  7 21:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3552 May  8 22:15 ./aozorabunko/cards/001566/files/58445_ruby_70922.zip
+1/2: ./aozorabunko/cards/001566/files/58445_ruby_70922.zip
+>> add 58445_ruby_mitsukaido_kosho.txt
+>> add 58445_ruby_utf8_mitsukaido_kosho.txt
+>> https://www.aozora.gr.jp/cards/001566/card58445.html
+>> 水海道古称、柳田國男、
+-rwxrwxrwx 1 level level 8756 May  8 22:15 ./aozorabunko/cards/001566/files/58450_ruby_70923.zip
+2/2: ./aozorabunko/cards/001566/files/58450_ruby_70923.zip
+>> add 58450_ruby_washu_chimei_dan.txt
+>> add 58450_ruby_utf8_washu_chimei_dan.txt
+>> https://www.aozora.gr.jp/cards/001566/card58450.html
+>> 和州地名談、柳田國男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31258/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May  8 22:13:59 JST 2020
+End  : Fri May  8 22:17:29 JST 2020
