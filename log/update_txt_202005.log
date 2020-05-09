@@ -343,3 +343,35 @@ Title Total : 31258/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May  8 22:13:59 JST 2020
 End  : Fri May  8 22:17:29 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May  9 10:50:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   476b690fc9..5c6a361539  master     -> origin/master
+Updating 476b690fc9..5c6a361539
+Fast-forward
+ cards/001566/card58445.html                   |   2 +-
+ cards/001566/card58450.html                   |   2 +-
+ cards/001869/card57621.html                   | 229 ++++++++++
+ cards/001869/files/57621_70974.html           | 604 ++++++++++++++++++++++++++
+ cards/001869/files/57621_txt_70924.zip        | Bin 0 -> 40026 bytes
+ 40 files changed, 1731 insertions(+), 893 deletions(-)
+Date: Sat May  9 10:51:17 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May  8 22:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 40026 May  9 10:51 ./aozorabunko/cards/001869/files/57621_txt_70924.zip
+1/1: ./aozorabunko/cards/001869/files/57621_txt_70924.zip
+>> add 57621_txt_kuwano_ki_monogatari.txt
+>> add 57621_txt_utf8_kuwano_ki_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card57621.html
+>> 桑の木物語、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31260/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May  9 10:50:17 JST 2020
+End  : Sat May  9 10:52:38 JST 2020
