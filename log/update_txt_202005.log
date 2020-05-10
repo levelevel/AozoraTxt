@@ -415,3 +415,107 @@ Title Total : 31264/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May 10 13:20:53 JST 2020
 End  : Sun May 10 13:23:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon May 11 07:16:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   47e4cf0ad9..5e82ba787b  master     -> origin/master
+Updating 47e4cf0ad9..5e82ba787b
+Fast-forward
+ cards/000006/card58810.html                   |   2 +-
+ cards/000067/card59989.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/card60077.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/files/59989_70979.html           |  82 +++++++++
+ cards/000067/files/59989_ruby_70929.zip       | Bin 0 -> 2049 bytes
+ cards/000067/files/60077_70978.html           |  77 +++++++++
+ cards/000067/files/60077_ruby_70928.zip       | Bin 0 -> 5654 bytes
+ cards/001475/card53160.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/53160_70977.html           | 161 ++++++++++++++++++
+ cards/001475/files/53160_ruby_70927.zip       | Bin 0 -> 8955 bytes
+ cards/001513/card51425.html                   |   2 +-
+ cards/001750/card55800.html                   |   8 +-
+ cards/001750/card55801.html                   |   8 +-
+ cards/001750/card55804.html                   |  10 +-
+ cards/001750/card55806.html                   |   8 +-
+ cards/001750/card55807.html                   |   8 +-
+ cards/001750/card55808.html                   |   8 +-
+ cards/001750/files/55800_57280.html           |  17 +-
+ cards/001750/files/55800_ruby_56955.zip       | Bin 7867 -> 7825 bytes
+ cards/001750/files/55801_57080.html           |  11 +-
+ cards/001750/files/55801_ruby_57038.zip       | Bin 8291 -> 8308 bytes
+ cards/001750/files/55804_57088.html           |  21 +--
+ cards/001750/files/55804_ruby_57046.zip       | Bin 7878 -> 7902 bytes
+ cards/001750/files/55806_57073.html           |  11 +-
+ cards/001750/files/55806_ruby_57031.zip       | Bin 8255 -> 8210 bytes
+ cards/001750/files/55807_57281.html           |  23 +--
+ cards/001750/files/55807_ruby_56965.zip       | Bin 21335 -> 21433 bytes
+ cards/001750/files/55808_57282.html           |   9 +-
+ cards/001750/files/55808_ruby_57023.zip       | Bin 8992 -> 8947 bytes
+ 100 files changed, 2610 insertions(+), 1590 deletions(-)
+Date: Mon May 11 07:17:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 10 13:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2049 May 11 07:17 ./aozorabunko/cards/000067/files/59989_ruby_70929.zip
+1/9: ./aozorabunko/cards/000067/files/59989_ruby_70929.zip
+>> add 59989_ruby_ramune_hoka_4hen.txt
+>> add 59989_ruby_utf8_ramune_hoka_4hen.txt
+>> https://www.aozora.gr.jp/cards/000067/card59989.html
+>> ラムネ・他四編、萩原朔太郎、
+-rwxrwxrwx 1 level level 5654 May 11 07:17 ./aozorabunko/cards/000067/files/60077_ruby_70928.zip
+2/9: ./aozorabunko/cards/000067/files/60077_ruby_70928.zip
+>> add 60077_ruby_chuotei_sodo_jiken_jitsuroku.txt
+>> add 60077_ruby_utf8_chuotei_sodo_jiken_jitsuroku.txt
+>> https://www.aozora.gr.jp/cards/000067/card60077.html
+>> 中央亭騷動事件（實録）、萩原朔太郎、
+-rwxrwxrwx 1 level level 8955 May 11 07:17 ./aozorabunko/cards/001475/files/53160_ruby_70927.zip
+3/9: ./aozorabunko/cards/001475/files/53160_ruby_70927.zip
+>> add 53160_ruby_barato_miko.txt
+>> add 53160_ruby_utf8_barato_miko.txt
+>> https://www.aozora.gr.jp/cards/001475/card53160.html
+>> 薔薇と巫女、小川未明、
+-rwxrwxrwx 1 level level 7825 May 11 07:17 ./aozorabunko/cards/001750/files/55800_ruby_56955.zip
+4/9: ./aozorabunko/cards/001750/files/55800_ruby_56955.zip
+>> update 55800_ruby_asaokino_hitotatchi.txt
+>> update 55800_ruby_utf8_asaokino_hitotatchi.txt
+>> https://www.aozora.gr.jp/cards/001750/card55800.html
+>> 朝起の人達、佐々木邦、
+-rwxrwxrwx 1 level level 8308 May 11 07:17 ./aozorabunko/cards/001750/files/55801_ruby_57038.zip
+5/9: ./aozorabunko/cards/001750/files/55801_ruby_57038.zip
+>> update 55801_ruby_aru_ryojinno_zanpai.txt
+>> update 55801_ruby_utf8_aru_ryojinno_zanpai.txt
+>> https://www.aozora.gr.jp/cards/001750/card55801.html
+>> 或良人の惨敗、佐々木邦、
+-rwxrwxrwx 1 level level 7902 May 11 07:17 ./aozorabunko/cards/001750/files/55804_ruby_57046.zip
+6/9: ./aozorabunko/cards/001750/files/55804_ruby_57046.zip
+>> update 55804_ruby_ichinenno_kei.txt
+>> update 55804_ruby_utf8_ichinenno_kei.txt
+>> https://www.aozora.gr.jp/cards/001750/card55804.html
+>> 一年の計、佐々木邦、
+-rwxrwxrwx 1 level level 8210 May 11 07:17 ./aozorabunko/cards/001750/files/55806_ruby_57031.zip
+7/9: ./aozorabunko/cards/001750/files/55806_ruby_57031.zip
+>> update 55806_ruby_onshi.txt
+>> update 55806_ruby_utf8_onshi.txt
+>> https://www.aozora.gr.jp/cards/001750/card55806.html
+>> 恩師、佐々木邦、
+-rwxrwxrwx 1 level level 21433 May 11 07:17 ./aozorabunko/cards/001750/files/55807_ruby_56965.zip
+8/9: ./aozorabunko/cards/001750/files/55807_ruby_56965.zip
+>> update 55807_ruby_josei.txt
+>> update 55807_ruby_utf8_josei.txt
+>> https://www.aozora.gr.jp/cards/001750/card55807.html
+>> 女婿、佐々木邦、
+-rwxrwxrwx 1 level level 8947 May 11 07:17 ./aozorabunko/cards/001750/files/55808_ruby_57023.zip
+9/9: ./aozorabunko/cards/001750/files/55808_ruby_57023.zip
+>> update 55808_ruby_kakka.txt
+>> update 55808_ruby_utf8_kakka.txt
+>> https://www.aozora.gr.jp/cards/001750/card55808.html
+>> 閣下、佐々木邦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31270/380 (Accept:9/Reject:0/Update:6/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon May 11 07:16:07 JST 2020
+End  : Mon May 11 07:18:29 JST 2020
