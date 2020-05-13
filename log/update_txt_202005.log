@@ -552,3 +552,52 @@ Title Total : 31272/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 12 13:06:30 JST 2020
 End  : Tue May 12 13:07:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 13 22:31:04 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ac0169d6f8..ddc25eba0f  master     -> origin/master
+Updating ac0169d6f8..ddc25eba0f
+Fast-forward
+ cards/000214/card48745.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48873.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card49089.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48745_70982.html           |  58 ++++++
+ cards/000214/files/48745_txt_70932.zip        | Bin 0 -> 905 bytes
+ cards/000214/files/48873_70983.html           | 133 ++++++++++++++
+ cards/000214/files/48873_ruby_70933.zip       | Bin 0 -> 7478 bytes
+ cards/000214/files/49089_70981.html           |  71 ++++++++
+ cards/000214/files/49089_ruby_70931.zip       | Bin 0 -> 2668 bytes
+ cards/000255/card47436.html                   |   2 +-
+ 69 files changed, 2936 insertions(+), 1974 deletions(-)
+Date: Wed May 13 22:32:16 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 12 13:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 905 May 13 22:32 ./aozorabunko/cards/000214/files/48745_txt_70932.zip
+1/3: ./aozorabunko/cards/000214/files/48745_txt_70932.zip
+>> add 48745_txt_honno.txt
+>> add 48745_txt_utf8_honno.txt
+>> https://www.aozora.gr.jp/cards/000214/card48745.html
+>> 本能、田山録弥、
+-rwxrwxrwx 1 level level 7478 May 13 22:32 ./aozorabunko/cards/000214/files/48873_ruby_70933.zip
+2/3: ./aozorabunko/cards/000214/files/48873_ruby_70933.zip
+>> add 48873_ruby_sankanno_ryosha.txt
+>> add 48873_ruby_utf8_sankanno_ryosha.txt
+>> https://www.aozora.gr.jp/cards/000214/card48873.html
+>> 山間の旅舎、田山録弥、
+-rwxrwxrwx 1 level level 2668 May 13 22:32 ./aozorabunko/cards/000214/files/49089_ruby_70931.zip
+3/3: ./aozorabunko/cards/000214/files/49089_ruby_70931.zip
+>> add 49089_ruby_harusameni_nureta_tabi.txt
+>> add 49089_ruby_utf8_harusameni_nureta_tabi.txt
+>> https://www.aozora.gr.jp/cards/000214/card49089.html
+>> 春雨にぬれた旅、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31278/380 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 13 22:31:04 JST 2020
+End  : Wed May 13 22:33:18 JST 2020
