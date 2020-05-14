@@ -601,3 +601,45 @@ Title Total : 31278/380 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May 13 22:31:04 JST 2020
 End  : Wed May 13 22:33:18 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May 14 22:14:49 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ddc25eba0f..de16bd8307  master     -> origin/master
+Updating ddc25eba0f..de16bd8307
+Fast-forward
+ cards/000214/card48745.html                   |   2 +-
+ cards/000214/card48873.html                   |   2 +-
+ cards/000214/card49089.html                   |   2 +-
+ cards/001403/card55116.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55117.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55116_70984.html           |  65 +++++++
+ cards/001403/files/55116_txt_70934.zip        | Bin 0 -> 1918 bytes
+ cards/001403/files/55117_70985.html           |  66 ++++++++
+ cards/001403/files/55117_txt_70935.zip        | Bin 0 -> 2579 bytes
+ 52 files changed, 1190 insertions(+), 603 deletions(-)
+Date: Thu May 14 22:19:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 13 22:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1918 May 14 22:19 ./aozorabunko/cards/001403/files/55116_txt_70934.zip
+1/2: ./aozorabunko/cards/001403/files/55116_txt_70934.zip
+>> add 55116_txt_rosanjin_kazo_hyakusen_jo.txt
+>> add 55116_txt_utf8_rosanjin_kazo_hyakusen_jo.txt
+>> https://www.aozora.gr.jp/cards/001403/card55116.html
+>> 魯山人家蔵百選　序、北大路魯山人、
+-rwxrwxrwx 1 level level 2579 May 14 22:19 ./aozorabunko/cards/001403/files/55117_txt_70935.zip
+2/2: ./aozorabunko/cards/001403/files/55117_txt_70935.zip
+>> add 55117_txt_rosanjin_sakuto_hyakuei_jo.txt
+>> add 55117_txt_utf8_rosanjin_sakuto_hyakuei_jo.txt
+>> https://www.aozora.gr.jp/cards/001403/card55117.html
+>> 魯山人作陶百影　序、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31282/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May 14 22:14:49 JST 2020
+End  : Thu May 14 22:22:13 JST 2020
