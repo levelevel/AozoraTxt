@@ -643,3 +643,35 @@ Title Total : 31282/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 14 22:14:49 JST 2020
 End  : Thu May 14 22:22:13 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 15 21:24:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   de16bd8307..9c6d42795d  master     -> origin/master
+Updating de16bd8307..9c6d42795d
+Fast-forward
+ cards/001324/card48188.html                   | 229 ++++++++++++++++++++++++++
+ cards/001324/files/48188_70986.html           |  73 ++++++++
+ cards/001324/files/48188_txt_70936.zip        | Bin 0 -> 3839 bytes
+ cards/001403/card55116.html                   |   2 +-
+ cards/001403/card55117.html                   |   2 +-
+ 68 files changed, 1746 insertions(+), 1448 deletions(-)
+Date: Fri May 15 21:26:59 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 14 22:21 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3839 May 15 21:26 ./aozorabunko/cards/001324/files/48188_txt_70936.zip
+1/1: ./aozorabunko/cards/001324/files/48188_txt_70936.zip
+>> add 48188_txt_kashikodokoro_okagurano_gi.txt
+>> add 48188_txt_utf8_kashikodokoro_okagurano_gi.txt
+>> https://www.aozora.gr.jp/cards/001324/card48188.html
+>> 賢所御神樂の儀、羽田亨、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31284/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 15 21:24:52 JST 2020
+End  : Fri May 15 21:31:00 JST 2020
