@@ -675,3 +675,36 @@ Title Total : 31284/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 15 21:24:52 JST 2020
 End  : Fri May 15 21:31:00 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 16 10:43:55 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9c6d42795d..c30a274b9e  master     -> origin/master
+Updating 9c6d42795d..c30a274b9e
+Fast-forward
+ cards/001272/card59346.html                   | 229 ++++++++++++++++++++++++
+ cards/001272/files/59346_70987.html           |  57 ++++++
+ cards/001272/files/59346_txt_70937.zip        | Bin 0 -> 1039 bytes
+ cards/001324/card48188.html                   |   2 +-
+ cards/001403/card55116.html                   |   2 +-
+ cards/001403/card55117.html                   |   2 +-
+ 39 files changed, 955 insertions(+), 666 deletions(-)
+Date: Sat May 16 10:44:20 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 15 21:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1039 May 16 10:44 ./aozorabunko/cards/001272/files/59346_txt_70937.zip
+1/1: ./aozorabunko/cards/001272/files/59346_txt_70937.zip
+>> add 59346_txt_eiga_shin_heike_monogatari.txt
+>> add 59346_txt_utf8_eiga_shin_heike_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001272/card59346.html
+>> 映画『新・平家物語』、溝口健二、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31286/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 16 10:43:55 JST 2020
+End  : Sat May 16 10:44:36 JST 2020
