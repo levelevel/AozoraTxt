@@ -708,3 +708,34 @@ Title Total : 31286/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat May 16 10:43:55 JST 2020
 End  : Sat May 16 10:44:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun May 17 22:04:51 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c30a274b9e..e56c176f18  master     -> origin/master
+Updating c30a274b9e..e56c176f18
+Fast-forward
+ cards/001272/card59346.html                   |   2 +-
+ cards/001670/card57250.html                   | 229 +++++++++++++++
+ cards/001670/files/57250_70988.html           | 402 ++++++++++++++++++++++++++
+ cards/001670/files/57250_ruby_70938.zip       | Bin 0 -> 15446 bytes
+ 49 files changed, 1611 insertions(+), 983 deletions(-)
+Date: Sun May 17 22:05:35 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 16 10:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15446 May 17 22:05 ./aozorabunko/cards/001670/files/57250_ruby_70938.zip
+1/1: ./aozorabunko/cards/001670/files/57250_ruby_70938.zip
+>> add 57250_ruby_277orandano_ginka.txt
+>> add 57250_ruby_utf8_277orandano_ginka.txt
+>> https://www.aozora.gr.jp/cards/001670/card57250.html
+>> 銭形平次捕物控、和蘭の銀貨、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31288/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun May 17 22:04:51 JST 2020
+End  : Sun May 17 22:06:28 JST 2020
