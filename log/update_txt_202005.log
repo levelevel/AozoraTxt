@@ -739,3 +739,43 @@ Title Total : 31288/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May 17 22:04:51 JST 2020
 End  : Sun May 17 22:06:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon May 18 21:57:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e56c176f18..412dab4f30  master     -> origin/master
+Updating e56c176f18..412dab4f30
+Fast-forward
+ cards/001569/card57862.html                   | 234 +++++++++++++
+ cards/001569/card59189.html                   | 234 +++++++++++++
+ cards/001569/files/57862_70990.html           | 107 ++++++
+ cards/001569/files/57862_ruby_70940.zip       | Bin 0 -> 8779 bytes
+ cards/001569/files/59189_70989.html           |  94 ++++++
+ cards/001569/files/59189_txt_70939.zip        | Bin 0 -> 3274 bytes
+ cards/001670/card57250.html                   |   2 +-
+ 41 files changed, 1660 insertions(+), 1446 deletions(-)
+Date: Mon May 18 21:58:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 17 22:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8779 May 18 21:58 ./aozorabunko/cards/001569/files/57862_ruby_70940.zip
+1/2: ./aozorabunko/cards/001569/files/57862_ruby_70940.zip
+>> add 57862_ruby_usagino_mimi.txt
+>> add 57862_ruby_utf8_usagino_mimi.txt
+>> https://www.aozora.gr.jp/cards/001569/card57862.html
+>> 兎の耳、中谷宇吉郎、
+-rwxrwxrwx 1 level level 3274 May 18 21:58 ./aozorabunko/cards/001569/files/59189_txt_70939.zip
+2/2: ./aozorabunko/cards/001569/files/59189_txt_70939.zip
+>> add 59189_txt_enpitsuno_shin.txt
+>> add 59189_txt_utf8_enpitsuno_shin.txt
+>> https://www.aozora.gr.jp/cards/001569/card59189.html
+>> 鉛筆のしん、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31292/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon May 18 21:57:03 JST 2020
+End  : Mon May 18 21:59:01 JST 2020
