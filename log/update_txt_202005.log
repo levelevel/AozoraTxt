@@ -779,3 +779,35 @@ Title Total : 31292/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 18 21:57:03 JST 2020
 End  : Mon May 18 21:59:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 19 20:34:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   412dab4f30..2a956aa173  master     -> origin/master
+Updating 412dab4f30..2a956aa173
+Fast-forward
+ cards/001569/card57862.html                   |   2 +-
+ cards/001569/card59189.html                   |   2 +-
+ cards/001959/card58820.html                   | 238 ++++++++++++++++++++++++++
+ cards/001959/files/58820_70991.html           | 183 ++++++++++++++++++++
+ cards/001959/files/58820_ruby_70941.zip       | Bin 0 -> 7739 bytes
+ 33 files changed, 1050 insertions(+), 634 deletions(-)
+Date: Tue May 19 20:35:09 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 18 21:58 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7739 May 19 20:35 ./aozorabunko/cards/001959/files/58820_ruby_70941.zip
+1/1: ./aozorabunko/cards/001959/files/58820_ruby_70941.zip
+>> add 58820_ruby_mukuno_mihairo.txt
+>> add 58820_ruby_utf8_mukuno_mihairo.txt
+>> https://www.aozora.gr.jp/cards/001959/card58820.html
+>> 椋のミハイロ、ボレスラーフ、プルース、二葉亭四迷訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31294/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 19 20:34:28 JST 2020
+End  : Tue May 19 20:35:46 JST 2020
