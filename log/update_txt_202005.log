@@ -811,3 +811,34 @@ Title Total : 31294/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 19 20:34:28 JST 2020
 End  : Tue May 19 20:35:46 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 20 08:11:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2a956aa173..2b791d8b31  master     -> origin/master
+Updating 2a956aa173..2b791d8b31
+Fast-forward
+ cards/000026/card55930.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/55930_70992.html           |  70 ++++++++
+ cards/000026/files/55930_ruby_70942.zip       | Bin 0 -> 979 bytes
+ cards/001959/card58820.html                   |   2 +-
+ 41 files changed, 989 insertions(+), 693 deletions(-)
+Date: Wed May 20 08:12:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 19 20:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 979 May 20 08:12 ./aozorabunko/cards/000026/files/55930_ruby_70942.zip
+1/1: ./aozorabunko/cards/000026/files/55930_ruby_70942.zip
+>> add 55930_ruby_baruzakku.txt
+>> add 55930_ruby_utf8_baruzakku.txt
+>> https://www.aozora.gr.jp/cards/000026/card55930.html
+>> （バルザック）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31296/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 20 08:11:47 JST 2020
+End  : Wed May 20 08:13:14 JST 2020
