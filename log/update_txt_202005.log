@@ -842,3 +842,35 @@ Title Total : 31296/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May 20 08:11:47 JST 2020
 End  : Wed May 20 08:13:14 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May 21 20:48:10 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2b791d8b31..efc9a29c9c  master     -> origin/master
+Updating 2b791d8b31..efc9a29c9c
+Fast-forward
+ cards/000026/card55930.html                   |   2 +-
+ cards/000288/card1760.html                    |  12 +-
+ cards/001869/card57811.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57811_70993.html           |  90 ++++++++++
+ cards/001869/files/57811_ruby_70943.zip       | Bin 0 -> 14145 bytes
+ 38 files changed, 1230 insertions(+), 914 deletions(-)
+Date: Thu May 21 20:48:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 20 08:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14145 May 21 20:48 ./aozorabunko/cards/001869/files/57811_ruby_70943.zip
+1/1: ./aozorabunko/cards/001869/files/57811_ruby_70943.zip
+>> add 57811_ruby_momono_ido.txt
+>> add 57811_ruby_utf8_momono_ido.txt
+>> https://www.aozora.gr.jp/cards/001869/card57811.html
+>> 日本婦道記、桃の井戸、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31298/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May 21 20:48:10 JST 2020
+End  : Thu May 21 20:49:24 JST 2020
