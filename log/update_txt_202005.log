@@ -905,3 +905,44 @@ Title Total : 31300/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 22 21:09:05 JST 2020
 End  : Fri May 22 21:11:21 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 23 12:06:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   600457b74e..2198728732  master     -> origin/master
+Updating 600457b74e..2198728732
+Fast-forward
+ cards/000416/card56964.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/card56968.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/files/56964_70995.html           |  71 ++++++++
+ cards/000416/files/56964_ruby_70945.zip       | Bin 0 -> 5573 bytes
+ cards/000416/files/56968_70996.html           |  71 ++++++++
+ cards/000416/files/56968_ruby_70946.zip       | Bin 0 -> 4150 bytes
+ cards/001597/card53698.html                   |   2 +-
+ cards/001869/card57811.html                   |   2 +-
+ 64 files changed, 1739 insertions(+), 1134 deletions(-)
+Date: Sat May 23 12:07:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 22 21:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5573 May 23 12:06 ./aozorabunko/cards/000416/files/56964_ruby_70945.zip
+1/2: ./aozorabunko/cards/000416/files/56964_ruby_70945.zip
+>> add 56964_ruby_itokoni.txt
+>> add 56964_ruby_utf8_itokoni.txt
+>> https://www.aozora.gr.jp/cards/000416/card56964.html
+>> 従妹に、伊藤野枝、
+-rwxrwxrwx 1 level level 4150 May 23 12:06 ./aozorabunko/cards/000416/files/56968_ruby_70946.zip
+2/2: ./aozorabunko/cards/000416/files/56968_ruby_70946.zip
+>> add 56968_ruby_kansono_danpen.txt
+>> add 56968_ruby_utf8_kansono_danpen.txt
+>> https://www.aozora.gr.jp/cards/000416/card56968.html
+>> 感想の断片、伊藤野枝、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31304/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 23 12:06:17 JST 2020
+End  : Sat May 23 12:07:32 JST 2020
