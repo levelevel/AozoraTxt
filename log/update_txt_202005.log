@@ -987,3 +987,44 @@ Title Total : 31308/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May 24 08:58:21 JST 2020
 End  : Sun May 24 09:00:25 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon May 25 21:34:55 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5a74c4c5b7..605a7f09e2  master     -> origin/master
+Updating 5a74c4c5b7..605a7f09e2
+Fast-forward
+ cards/001475/card52626.html                   |   2 +-
+ cards/001475/card53007.html                   |   2 +-
+ cards/001879/card58122.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/card58123.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/files/58122_71000.html           |  88 ++++++++++
+ cards/001879/files/58122_ruby_70950.zip       | Bin 0 -> 8736 bytes
+ cards/001879/files/58123_70999.html           |  77 +++++++++
+ cards/001879/files/58123_ruby_70949.zip       | Bin 0 -> 6196 bytes
+ 63 files changed, 2341 insertions(+), 1714 deletions(-)
+Date: Mon May 25 21:36:19 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 24 09:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8736 May 25 21:36 ./aozorabunko/cards/001879/files/58122_ruby_70950.zip
+1/2: ./aozorabunko/cards/001879/files/58122_ruby_70950.zip
+>> add 58122_ruby_tozai_bunmeino_chowao_ronjite.txt
+>> add 58122_ruby_utf8_tozai_bunmeino_chowao_ronjite.txt
+>> https://www.aozora.gr.jp/cards/001879/card58122.html
+>> 東西両文明の調和を論じて帝国の将来に及ぶ、大隈重信、
+-rwxrwxrwx 1 level level 6196 May 25 21:36 ./aozorabunko/cards/001879/files/58123_ruby_70949.zip
+2/2: ./aozorabunko/cards/001879/files/58123_ruby_70949.zip
+>> add 58123_ruby_nisshi_shinzensaku_ikan.txt
+>> add 58123_ruby_utf8_nisshi_shinzensaku_ikan.txt
+>> https://www.aozora.gr.jp/cards/001879/card58123.html
+>> 日支親善策如何、――我輩の日支親善論、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31312/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon May 25 21:34:55 JST 2020
+End  : Mon May 25 21:37:52 JST 2020
