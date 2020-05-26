@@ -1028,3 +1028,44 @@ Title Total : 31312/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 25 21:34:55 JST 2020
 End  : Mon May 25 21:37:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 26 20:51:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   605a7f09e2..3ee60964e6  master     -> origin/master
+Updating 605a7f09e2..3ee60964e6
+Fast-forward
+ cards/001520/card56751.html                   | 235 +++++++++++++++++++++++++
+ cards/001520/card56753.html                   | 234 +++++++++++++++++++++++++
+ cards/001520/files/56751_71001.html           | 118 +++++++++++++
+ cards/001520/files/56751_ruby_70951.zip       | Bin 0 -> 10366 bytes
+ cards/001520/files/56753_71002.html           | 105 +++++++++++
+ cards/001520/files/56753_ruby_70952.zip       | Bin 0 -> 11564 bytes
+ cards/001879/card58122.html                   |   2 +-
+ cards/001879/card58123.html                   |   2 +-
+ 47 files changed, 1623 insertions(+), 875 deletions(-)
+Date: Tue May 26 20:52:59 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 25 21:37 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10366 May 26 20:52 ./aozorabunko/cards/001520/files/56751_ruby_70951.zip
+1/2: ./aozorabunko/cards/001520/files/56751_ruby_70951.zip
+>> add 56751_ruby_minono_koto.txt
+>> add 56751_ruby_utf8_minono_koto.txt
+>> https://www.aozora.gr.jp/cards/001520/card56751.html
+>> 蓑のこと、柳宗悦、
+-rwxrwxrwx 1 level level 11564 May 26 20:52 ./aozorabunko/cards/001520/files/56753_ruby_70952.zip
+2/2: ./aozorabunko/cards/001520/files/56753_ruby_70952.zip
+>> add 56753_ruby_rikuchu_zakki.txt
+>> add 56753_ruby_utf8_rikuchu_zakki.txt
+>> https://www.aozora.gr.jp/cards/001520/card56753.html
+>> 陸中雑記、柳宗悦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31316/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 26 20:51:46 JST 2020
+End  : Tue May 26 20:54:09 JST 2020
