@@ -1069,3 +1069,37 @@ Title Total : 31316/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue May 26 20:51:46 JST 2020
 End  : Tue May 26 20:54:09 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 27 09:58:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3ee60964e6..e51e7da1f1  master     -> origin/master
+Updating 3ee60964e6..e51e7da1f1
+Fast-forward
+ cards/001520/card56751.html                   |   2 +-
+ cards/001520/card56753.html                   |   2 +-
+ cards/001670/card57247.html                   | 234 +++++++++++++++
+ cards/001670/files/57247_71003.html           | 415 ++++++++++++++++++++++++++
+ cards/001670/files/57247_ruby_70953.zip       | Bin 0 -> 17832 bytes
+ cards/001879/card58122.html                   |   2 +-
+ cards/001879/card58123.html                   |   2 +-
+ 43 files changed, 1626 insertions(+), 981 deletions(-)
+Date: Wed May 27 09:59:54 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 26 20:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 17832 May 27 09:59 ./aozorabunko/cards/001670/files/57247_ruby_70953.zip
+1/1: ./aozorabunko/cards/001670/files/57247_ruby_70953.zip
+>> add 57247_ruby_282misshitsu.txt
+>> add 57247_ruby_utf8_282misshitsu.txt
+>> https://www.aozora.gr.jp/cards/001670/card57247.html
+>> 銭形平次捕物控、密室、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31318/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 27 09:58:44 JST 2020
+End  : Wed May 27 10:00:55 JST 2020
