@@ -1103,3 +1103,43 @@ Title Total : 31318/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May 27 09:58:44 JST 2020
 End  : Wed May 27 10:00:55 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May 28 20:50:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e51e7da1f1..b345cf6951  master     -> origin/master
+Updating e51e7da1f1..b345cf6951
+Fast-forward
+ cards/001030/card47875.html                   | 229 ++++++++++++++++++++++++++
+ cards/001030/card47934.html                   | 229 ++++++++++++++++++++++++++
+ cards/001030/files/47875_71005.html           | 126 ++++++++++++++
+ cards/001030/files/47875_ruby_70955.zip       | Bin 0 -> 12049 bytes
+ cards/001030/files/47934_71004.html           |  91 ++++++++++
+ cards/001030/files/47934_ruby_70954.zip       | Bin 0 -> 5211 bytes
+ cards/001670/card57247.html                   |   2 +-
+ 134 files changed, 1906 insertions(+), 1236 deletions(-)
+Date: Thu May 28 20:52:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 27 10:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12049 May 28 20:51 ./aozorabunko/cards/001030/files/47875_ruby_70955.zip
+1/2: ./aozorabunko/cards/001030/files/47875_ruby_70955.zip
+>> add 47875_ruby_nanatsuno_tegami.txt
+>> add 47875_ruby_utf8_nanatsuno_tegami.txt
+>> https://www.aozora.gr.jp/cards/001030/card47875.html
+>> 七つの手紙、或女友達に、堀辰雄、
+-rwxrwxrwx 1 level level 5211 May 28 20:51 ./aozorabunko/cards/001030/files/47934_ruby_70954.zip
+2/2: ./aozorabunko/cards/001030/files/47934_ruby_70954.zip
+>> add 47934_ruby_bokuka.txt
+>> add 47934_ruby_utf8_bokuka.txt
+>> https://www.aozora.gr.jp/cards/001030/card47934.html
+>> 牧歌、恩地三保子孃に、堀辰雄、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31322/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May 28 20:50:44 JST 2020
+End  : Thu May 28 20:53:14 JST 2020
