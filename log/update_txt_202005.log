@@ -1143,3 +1143,36 @@ Title Total : 31322/380 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 28 20:50:44 JST 2020
 End  : Thu May 28 20:53:14 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 29 21:43:34 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b345cf6951..a8370cda14  master     -> origin/master
+Updating b345cf6951..a8370cda14
+Fast-forward
+ cards/000885/card59423.html                   | 234 ++++++++++++++++++++++++++
+ cards/000885/files/59423_71006.html           |  67 ++++++++
+ cards/000885/files/59423_ruby_70956.zip       | Bin 0 -> 2622 bytes
+ cards/001030/card47875.html                   |   2 +-
+ cards/001030/card47934.html                   |   2 +-
+ cards/001670/card57247.html                   |   2 +-
+ 49 files changed, 1256 insertions(+), 959 deletions(-)
+Date: Fri May 29 21:44:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 28 20:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2622 May 29 21:44 ./aozorabunko/cards/000885/files/59423_ruby_70956.zip
+1/1: ./aozorabunko/cards/000885/files/59423_ruby_70956.zip
+>> add 59423_ruby_takakie_akogareru_kokoro.txt
+>> add 59423_ruby_utf8_takakie_akogareru_kokoro.txt
+>> https://www.aozora.gr.jp/cards/000885/card59423.html
+>> 高きへ憧れる心、与謝野晶子、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31324/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 29 21:43:34 JST 2020
+End  : Fri May 29 21:45:24 JST 2020
