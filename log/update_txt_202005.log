@@ -1176,3 +1176,34 @@ Title Total : 31324/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 29 21:43:34 JST 2020
 End  : Fri May 29 21:45:24 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 30 07:04:16 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a8370cda14..ae25afb2c2  master     -> origin/master
+Updating a8370cda14..ae25afb2c2
+Fast-forward
+ cards/000885/card59423.html                   |   2 +-
+ cards/001869/card57723.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57723_71007.html           | 182 ++++++++++++++++++++
+ cards/001869/files/57723_ruby_70957.zip       | Bin 0 -> 12644 bytes
+ 36 files changed, 1125 insertions(+), 717 deletions(-)
+Date: Sat May 30 07:05:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 29 21:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12644 May 30 07:05 ./aozorabunko/cards/001869/files/57723_ruby_70957.zip
+1/1: ./aozorabunko/cards/001869/files/57723_ruby_70957.zip
+>> add 57723_ruby_byobuwa_tatamareta.txt
+>> add 57723_ruby_utf8_byobuwa_tatamareta.txt
+>> https://www.aozora.gr.jp/cards/001869/card57723.html
+>> 屏風はたたまれた、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31326/380 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 30 07:04:16 JST 2020
+End  : Sat May 30 07:06:28 JST 2020
