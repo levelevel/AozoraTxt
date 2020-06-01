@@ -1,0 +1,73 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun  1 07:02:39 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   14d762938f..acec8c03cc  master     -> origin/master
+Updating 14d762938f..acec8c03cc
+Fast-forward
+ cards/000214/card48721.html                   |   2 +-
+ cards/000214/card49088.html                   |   2 +-
+ cards/001869/card57723.html                   |   2 +-
+ cards/002043/card60485.html                   | 231 ++++++++++++++++
+ cards/002043/files/60485_71072.html           | 364 ++++++++++++++++++++++++++
+ cards/002043/files/60485_ruby_71071.zip       | Bin 0 -> 9010787 bytes
+ 84 files changed, 3018 insertions(+), 2428 deletions(-)
+Date: Mon Jun  1 07:03:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 May 31 12:26 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9010787 Jun  1 07:03 ./aozorabunko/cards/002043/files/60485_ruby_71071.zip
+1/1: ./aozorabunko/cards/002043/files/60485_ruby_71071.zip
+>> add 60485_NPD_ruby_shino_kawa.txt
+>> add 60485_NPD_ruby_utf8_shino_kawa.txt
+>> https://www.aozora.gr.jp/cards/002043/card60485.html
+>> 死の川、THE RIVER OF DEATH、ロンドン危機シリーズ、A STORY IN THE "DOOM OF LONDON" SERIES、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31330/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Jun  1 07:02:39 JST 2020
+End  : Mon Jun  1 07:03:56 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun  2 07:12:01 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   acec8c03cc..f2c5bf7fea  master     -> origin/master
+Updating acec8c03cc..f2c5bf7fea
+Fast-forward
+ cards/001403/card55047.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55048.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55047_71123.html           | 143 ++++++++++++++++
+ cards/001403/files/55047_ruby_71078.zip       | Bin 0 -> 11081 bytes
+ cards/001403/files/55048_71122.html           |  63 +++++++
+ cards/001403/files/55048_ruby_71077.zip       | Bin 0 -> 1786 bytes
+ cards/002043/card60485.html                   |   2 +-
+ 58 files changed, 2868 insertions(+), 2199 deletions(-)
+Date: Tue Jun  2 07:14:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  1 20:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11081 Jun  2 07:13 ./aozorabunko/cards/001403/files/55047_ruby_71078.zip
+1/2: ./aozorabunko/cards/001403/files/55047_ruby_71078.zip
+>> add 55047_ruby_shusho_yoketsu.txt
+>> add 55047_ruby_utf8_shusho_yoketsu.txt
+>> https://www.aozora.gr.jp/cards/001403/card55047.html
+>> 習書要訣、――美の認識について――、北大路魯山人、
+-rwxrwxrwx 1 level level 1786 Jun  2 07:13 ./aozorabunko/cards/001403/files/55048_ruby_71077.zip
+2/2: ./aozorabunko/cards/001403/files/55048_ruby_71077.zip
+>> add 55048_ruby_shodo_shugakuno_michi.txt
+>> add 55048_ruby_utf8_shodo_shugakuno_michi.txt
+>> https://www.aozora.gr.jp/cards/001403/card55048.html
+>> 書道習学の道、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31334/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun  2 07:12:01 JST 2020
+End  : Tue Jun  2 07:16:39 JST 2020
