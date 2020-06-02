@@ -71,3 +71,35 @@ Title Total : 31334/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun  2 07:12:01 JST 2020
 End  : Tue Jun  2 07:16:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun  3 07:06:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f2c5bf7fea..67db4915e0  master     -> origin/master
+Updating f2c5bf7fea..67db4915e0
+Fast-forward
+ cards/001403/card55047.html                   |   2 +-
+ cards/001403/card55048.html                   |   2 +-
+ cards/001691/card55763.html                   | 229 ++++++++++++++++++++++++++
+ cards/001691/files/55763_71124.html           |  88 ++++++++++
+ cards/001691/files/55763_ruby_71079.zip       | Bin 0 -> 1287 bytes
+ 34 files changed, 739 insertions(+), 426 deletions(-)
+Date: Wed Jun  3 07:07:34 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  2 07:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1287 Jun  3 07:07 ./aozorabunko/cards/001691/files/55763_ruby_71079.zip
+1/1: ./aozorabunko/cards/001691/files/55763_ruby_71079.zip
+>> add 55763_ruby_yamato_buri.txt
+>> add 55763_ruby_utf8_yamato_buri.txt
+>> https://www.aozora.gr.jp/cards/001691/card55763.html
+>> 大和ぶり、佐佐木信綱、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31336/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun  3 07:06:37 JST 2020
+End  : Wed Jun  3 07:09:28 JST 2020
