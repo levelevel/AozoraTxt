@@ -103,3 +103,34 @@ Title Total : 31336/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jun  3 07:06:37 JST 2020
 End  : Wed Jun  3 07:09:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jun  4 07:05:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   67db4915e0..631d9fbd60  master     -> origin/master
+Updating 67db4915e0..631d9fbd60
+Fast-forward
+ cards/001224/card46094.html                   | 229 ++++++++++++++++++++++++++
+ cards/001224/files/46094_71125.html           | 183 ++++++++++++++++++++
+ cards/001224/files/46094_ruby_71080.zip       | Bin 0 -> 10193 bytes
+ cards/001691/card55763.html                   |   2 +-
+ 47 files changed, 1168 insertions(+), 748 deletions(-)
+Date: Thu Jun  4 07:06:29 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  3 07:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10193 Jun  4 07:06 ./aozorabunko/cards/001224/files/46094_ruby_71080.zip
+1/1: ./aozorabunko/cards/001224/files/46094_ruby_71080.zip
+>> add 46094_ruby_haruno_yama.txt
+>> add 46094_ruby_utf8_haruno_yama.txt
+>> https://www.aozora.gr.jp/cards/001224/card46094.html
+>> 春の山、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31338/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jun  4 07:05:37 JST 2020
+End  : Thu Jun  4 07:07:06 JST 2020
