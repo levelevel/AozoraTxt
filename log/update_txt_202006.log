@@ -134,3 +134,74 @@ Title Total : 31338/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun  4 07:05:37 JST 2020
 End  : Thu Jun  4 07:07:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun  5 21:18:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   631d9fbd60..8966c6f962  master     -> origin/master
+Updating 631d9fbd60..8966c6f962
+Fast-forward
+ cards/000097/card59477.html                   |  238 ++
+ cards/000097/files/59477_71126.html           |  165 ++
+ cards/000097/files/59477_ruby_71081.zip       |  Bin 0 -> 13118 bytes
+ cards/001224/card46094.html                   |    2 +-
+ 42 files changed, 7268 insertions(+), 734 deletions(-)
+Date: Fri Jun  5 21:19:06 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  4 07:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13118 Jun  5 21:18 ./aozorabunko/cards/000097/files/59477_ruby_71081.zip
+1/1: ./aozorabunko/cards/000097/files/59477_ruby_71081.zip
+>> add 59477_ruby_suishano_aru_kyokai.txt
+>> add 59477_ruby_utf8_suishano_aru_kyokai.txt
+>> https://www.aozora.gr.jp/cards/000097/card59477.html
+>> 水車のある教會、オウ・ヘンリ、三宅幾三郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31340/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun  5 21:18:18 JST 2020
+End  : Fri Jun  5 21:19:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jun  6 09:11:21 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8966c6f962..3254373f49  master     -> origin/master
+Updating 8966c6f962..3254373f49
+Fast-forward
+ cards/000097/card59477.html                   |   2 +-
+ cards/000214/card48693.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48757.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48693_71127.html           |  59 +++++++
+ cards/000214/files/48693_txt_71082.zip        | Bin 0 -> 982 bytes
+ cards/000214/files/48757_71128.html           |  59 +++++++
+ cards/000214/files/48757_txt_71083.zip        | Bin 0 -> 783 bytes
+ 71 files changed, 2818 insertions(+), 2233 deletions(-)
+Date: Sat Jun  6 09:12:19 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  5 21:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 982 Jun  6 09:12 ./aozorabunko/cards/000214/files/48693_txt_71082.zip
+1/2: ./aozorabunko/cards/000214/files/48693_txt_71082.zip
+>> add 48693_txt_ikkokuno_shuto.txt
+>> add 48693_txt_utf8_ikkokuno_shuto.txt
+>> https://www.aozora.gr.jp/cards/000214/card48693.html
+>> 一國の首都、田山録弥、
+-rwxrwxrwx 1 level level 783 Jun  6 09:12 ./aozorabunko/cards/000214/files/48757_txt_71083.zip
+2/2: ./aozorabunko/cards/000214/files/48757_txt_71083.zip
+>> add 48757_txt_yokuboto_riso.txt
+>> add 48757_txt_utf8_yokuboto_riso.txt
+>> https://www.aozora.gr.jp/cards/000214/card48757.html
+>> 欲望と理想、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31344/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jun  6 09:11:21 JST 2020
+End  : Sat Jun  6 09:13:05 JST 2020
