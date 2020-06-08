@@ -237,3 +237,34 @@ Title Total : 31346/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun  7 09:51:33 JST 2020
 End  : Sun Jun  7 09:53:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun  8 20:49:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   361d83e1f8..4c139fefcf  master     -> origin/master
+Updating 361d83e1f8..4c139fefcf
+Fast-forward
+ cards/001670/card57249.html                   |   2 +-
+ cards/001907/card59418.html                   | 234 ++++++++++++++++++++++++
+ cards/001907/files/59418_71130.html           | 172 ++++++++++++++++++
+ cards/001907/files/59418_ruby_71085.zip       | Bin 0 -> 8445 bytes
+ 29 files changed, 986 insertions(+), 583 deletions(-)
+Date: Mon Jun  8 20:51:43 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  7 09:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8445 Jun  8 20:51 ./aozorabunko/cards/001907/files/59418_ruby_71085.zip
+1/1: ./aozorabunko/cards/001907/files/59418_ruby_71085.zip
+>> add 59418_ruby_eboshidakeno_chojo.txt
+>> add 59418_ruby_utf8_eboshidakeno_chojo.txt
+>> https://www.aozora.gr.jp/cards/001907/card59418.html
+>> 烏帽子岳の頂上、窪田空穂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31348/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jun  8 20:49:06 JST 2020
+End  : Mon Jun  8 20:54:49 JST 2020
