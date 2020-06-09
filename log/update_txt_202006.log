@@ -268,3 +268,43 @@ Title Total : 31348/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun  8 20:49:06 JST 2020
 End  : Mon Jun  8 20:54:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun  9 21:01:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4c139fefcf..dfc182e3ad  master     -> origin/master
+Updating 4c139fefcf..dfc182e3ad
+Fast-forward
+ cards/000026/card55923.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/card55928.html                   | 229 ++++++++++++++++++++++++++
+ cards/000026/files/55923_71131.html           |  80 +++++++++
+ cards/000026/files/55923_txt_71086.zip        | Bin 0 -> 1187 bytes
+ cards/000026/files/55928_71132.html           |  76 +++++++++
+ cards/000026/files/55928_ruby_71087.zip       | Bin 0 -> 1123 bytes
+ cards/001907/card59418.html                   |   2 +-
+ 46 files changed, 1586 insertions(+), 977 deletions(-)
+Date: Tue Jun  9 21:02:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  8 20:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1187 Jun  9 21:02 ./aozorabunko/cards/000026/files/55923_txt_71086.zip
+1/2: ./aozorabunko/cards/000026/files/55923_txt_71086.zip
+>> add 55923_txt_furuzureta.txt
+>> add 55923_txt_utf8_furuzureta.txt
+>> https://www.aozora.gr.jp/cards/000026/card55923.html
+>> （古る摺れた）、中原中也、
+-rwxrwxrwx 1 level level 1123 Jun  9 21:02 ./aozorabunko/cards/000026/files/55928_ruby_71087.zip
+2/2: ./aozorabunko/cards/000026/files/55928_ruby_71087.zip
+>> add 55928_ruby_tsukkendonni.txt
+>> add 55928_ruby_utf8_tsukkendonni.txt
+>> https://www.aozora.gr.jp/cards/000026/card55928.html
+>> （ツツケンドンに）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31352/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun  9 21:01:15 JST 2020
+End  : Tue Jun  9 21:03:34 JST 2020
