@@ -308,3 +308,44 @@ Title Total : 31352/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun  9 21:01:15 JST 2020
 End  : Tue Jun  9 21:03:34 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 10 20:50:12 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dfc182e3ad..4b234257ef  master     -> origin/master
+Updating dfc182e3ad..4b234257ef
+Fast-forward
+ cards/000026/card55923.html                   |   2 +-
+ cards/000026/card55928.html                   |   2 +-
+ cards/000237/card50025.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/card50032.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/files/50025_71133.html           | 142 ++++++++++++++++
+ cards/000237/files/50025_ruby_71088.zip       | Bin 0 -> 5576 bytes
+ cards/000237/files/50032_71134.html           |  88 ++++++++++
+ cards/000237/files/50032_txt_71089.zip        | Bin 0 -> 4070 bytes
+ 68 files changed, 2825 insertions(+), 2143 deletions(-)
+Date: Wed Jun 10 20:51:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun  9 21:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5576 Jun 10 20:51 ./aozorabunko/cards/000237/files/50025_ruby_71088.zip
+1/2: ./aozorabunko/cards/000237/files/50025_ruby_71088.zip
+>> add 50025_ruby_ashigarano_sansui.txt
+>> add 50025_ruby_utf8_ashigarano_sansui.txt
+>> https://www.aozora.gr.jp/cards/000237/card50025.html
+>> 足柄の山水、大町桂月、
+-rwxrwxrwx 1 level level 4070 Jun 10 20:51 ./aozorabunko/cards/000237/files/50032_txt_71089.zip
+2/2: ./aozorabunko/cards/000237/files/50032_txt_71089.zip
+>> add 50032_txt_koshigayano_hanjitsu.txt
+>> add 50032_txt_utf8_koshigayano_hanjitsu.txt
+>> https://www.aozora.gr.jp/cards/000237/card50032.html
+>> 越ヶ谷の半日、大町桂月、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31356/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 10 20:50:12 JST 2020
+End  : Wed Jun 10 20:52:46 JST 2020
