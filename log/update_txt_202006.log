@@ -390,3 +390,46 @@ Title Total : 31360/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 11 22:24:30 JST 2020
 End  : Thu Jun 11 22:31:30 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 12 22:01:39 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5274bf07d7..9ef118e6d2  master     -> origin/master
+Updating 5274bf07d7..9ef118e6d2
+Fast-forward
+ cards/000237/card50025.html                   |   2 +-
+ cards/000237/card50032.html                   |   2 +-
+ cards/001475/card52627.html                   |   2 +-
+ cards/001475/card52989.html                   |   2 +-
+ cards/001569/card59196.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59197.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59196_71138.html           |  99 +++++++++++
+ cards/001569/files/59196_ruby_71093.zip       | Bin 0 -> 10679 bytes
+ cards/001569/files/59197_71137.html           | 126 ++++++++++++++
+ cards/001569/files/59197_ruby_71092.zip       | Bin 0 -> 9503 bytes
+ 42 files changed, 1393 insertions(+), 706 deletions(-)
+Date: Fri Jun 12 22:02:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 11 22:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10679 Jun 12 22:02 ./aozorabunko/cards/001569/files/59196_ruby_71093.zip
+1/2: ./aozorabunko/cards/001569/files/59196_ruby_71093.zip
+>> add 59196_ruby_suzurito_sumi.txt
+>> add 59196_ruby_utf8_suzurito_sumi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59196.html
+>> 硯と墨、中谷宇吉郎、
+-rwxrwxrwx 1 level level 9503 Jun 12 22:02 ./aozorabunko/cards/001569/files/59197_ruby_71092.zip
+2/2: ./aozorabunko/cards/001569/files/59197_ruby_71092.zip
+>> add 59197_ruby_suteru_bunka.txt
+>> add 59197_ruby_utf8_suteru_bunka.txt
+>> https://www.aozora.gr.jp/cards/001569/card59197.html
+>> 捨てる文化、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31364/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 12 22:01:39 JST 2020
+End  : Fri Jun 12 22:02:36 JST 2020
