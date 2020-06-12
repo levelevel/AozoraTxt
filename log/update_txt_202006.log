@@ -433,3 +433,36 @@ Title Total : 31364/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jun 12 22:01:39 JST 2020
 End  : Fri Jun 12 22:02:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jun 13 08:51:32 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9ef118e6d2..187f19b36b  master     -> origin/master
+Updating 9ef118e6d2..187f19b36b
+Fast-forward
+ cards/001569/card57867.html                   |   2 +-
+ cards/001569/card59196.html                   |   2 +-
+ cards/001569/card59197.html                   |   2 +-
+ cards/001801/card59449.html                   | 229 ++++++++++++++++++++++++++
+ cards/001801/files/59449_71139.html           |  96 +++++++++++
+ cards/001801/files/59449_txt_71094.zip        | Bin 0 -> 2768 bytes
+ 39 files changed, 999 insertions(+), 678 deletions(-)
+Date: Sat Jun 13 08:52:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 12 22:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2768 Jun 13 08:52 ./aozorabunko/cards/001801/files/59449_txt_71094.zip
+1/1: ./aozorabunko/cards/001801/files/59449_txt_71094.zip
+>> add 59449_txt_yokan.txt
+>> add 59449_txt_utf8_yokan.txt
+>> https://www.aozora.gr.jp/cards/001801/card59449.html
+>> 予感、山川方夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31366/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jun 13 08:51:32 JST 2020
+End  : Sat Jun 13 08:54:08 JST 2020
