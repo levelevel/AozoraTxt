@@ -466,3 +466,34 @@ Title Total : 31366/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun 13 08:51:32 JST 2020
 End  : Sat Jun 13 08:54:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun 14 09:30:09 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   187f19b36b..78ebac496c  master     -> origin/master
+Updating 187f19b36b..78ebac496c
+Fast-forward
+ cards/000168/card60002.html                   | 234 ++++++++++++++++++++++++++
+ cards/000168/files/60002_71140.html           |  74 ++++++++
+ cards/000168/files/60002_txt_71095.zip        | Bin 0 -> 2008 bytes
+ cards/001801/card59449.html                   |   2 +-
+ 57 files changed, 1758 insertions(+), 1453 deletions(-)
+Date: Sun Jun 14 09:31:29 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 13 08:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2008 Jun 14 09:31 ./aozorabunko/cards/000168/files/60002_txt_71095.zip
+1/1: ./aozorabunko/cards/000168/files/60002_txt_71095.zip
+>> add 60002_txt_059taisho_13nen_11gatsu_4nichi.txt
+>> add 60002_txt_utf8_059taisho_13nen_11gatsu_4nichi.txt
+>> https://www.aozora.gr.jp/cards/000168/card60002.html
+>> 書翰、大正十三年十一月四日　川端康成宛、横光利一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31368/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun 14 09:30:09 JST 2020
+End  : Sun Jun 14 09:32:35 JST 2020
