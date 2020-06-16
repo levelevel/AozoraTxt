@@ -529,3 +529,34 @@ Title Total : 31370/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun 15 21:09:23 JST 2020
 End  : Mon Jun 15 21:12:20 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 16 22:01:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   813bcf22b3..16b15a19fc  master     -> origin/master
+Updating 813bcf22b3..16b15a19fc
+Fast-forward
+ cards/001869/card57810.html                   |   2 +-
+ cards/001956/card59867.html                   | 229 ++++++++++++++++++++++++++
+ cards/001956/files/59867_71142.html           | 162 ++++++++++++++++++
+ cards/001956/files/59867_ruby_71097.zip       | Bin 0 -> 18764 bytes
+ 32 files changed, 970 insertions(+), 576 deletions(-)
+Date: Tue Jun 16 22:04:17 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 15 21:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 18764 Jun 16 22:03 ./aozorabunko/cards/001956/files/59867_ruby_71097.zip
+1/1: ./aozorabunko/cards/001956/files/59867_ruby_71097.zip
+>> add 59867_ruby_oyawa_nagamete_kangaete_iru.txt
+>> add 59867_ruby_utf8_oyawa_nagamete_kangaete_iru.txt
+>> https://www.aozora.gr.jp/cards/001956/card59867.html
+>> 親は眺めて考えている、金森徳次郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31372/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 16 22:01:52 JST 2020
+End  : Tue Jun 16 22:05:58 JST 2020
