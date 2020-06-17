@@ -560,3 +560,35 @@ Title Total : 31372/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun 16 22:01:52 JST 2020
 End  : Tue Jun 16 22:05:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 17 20:30:20 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   16b15a19fc..7d33d028e2  master     -> origin/master
+Updating 16b15a19fc..7d33d028e2
+Fast-forward
+ cards/001670/card57212.html                   | 229 ++++++++++++++++++
+ cards/001670/files/57212_71143.html           | 332 ++++++++++++++++++++++++++
+ cards/001670/files/57212_ruby_71098.zip       | Bin 0 -> 14631 bytes
+ cards/001869/card57810.html                   |   2 +-
+ cards/001956/card59867.html                   |   2 +-
+ 61 files changed, 1892 insertions(+), 1240 deletions(-)
+Date: Wed Jun 17 20:30:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 16 22:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14631 Jun 17 20:30 ./aozorabunko/cards/001670/files/57212_ruby_71098.zip
+1/1: ./aozorabunko/cards/001670/files/57212_ruby_71098.zip
+>> add 57212_ruby_320orokuno_yakume.txt
+>> add 57212_ruby_utf8_320orokuno_yakume.txt
+>> https://www.aozora.gr.jp/cards/001670/card57212.html
+>> 銭形平次捕物控、お六の役目、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31374/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 17 20:30:20 JST 2020
+End  : Wed Jun 17 20:31:04 JST 2020
