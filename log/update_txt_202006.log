@@ -592,3 +592,34 @@ Title Total : 31374/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jun 17 20:30:20 JST 2020
 End  : Wed Jun 17 20:31:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jun 18 21:42:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7d33d028e2..5a99fbe69c  master     -> origin/master
+Updating 7d33d028e2..5a99fbe69c
+Fast-forward
+ cards/001248/card50616.html                   | 229 ++++++++++++++++++++++++++
+ cards/001248/files/50616_71144.html           |  61 +++++++
+ cards/001248/files/50616_txt_71099.zip        | Bin 0 -> 2024 bytes
+ cards/001670/card57212.html                   |   2 +-
+ 41 files changed, 1232 insertions(+), 945 deletions(-)
+Date: Thu Jun 18 21:42:17 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 17 20:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2024 Jun 18 21:42 ./aozorabunko/cards/001248/files/50616_txt_71099.zip
+1/1: ./aozorabunko/cards/001248/files/50616_txt_71099.zip
+>> add 50616_txt_garagaratsuri.txt
+>> add 50616_txt_utf8_garagaratsuri.txt
+>> https://www.aozora.gr.jp/cards/001248/card50616.html
+>> ガラガラ釣、佐藤垢石、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31376/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jun 18 21:42:02 JST 2020
+End  : Thu Jun 18 21:42:36 JST 2020
