@@ -623,3 +623,43 @@ Title Total : 31376/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 18 21:42:02 JST 2020
 End  : Thu Jun 18 21:42:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 19 21:02:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   5a99fbe69c..ca4ed9bcc1  master     -> origin/master
+Updating 5a99fbe69c..ca4ed9bcc1
+Fast-forward
+ cards/001248/card50616.html                   |   2 +-
+ cards/001763/card58554.html                   | 234 ++++++++++++++++++
+ cards/001763/files/58554_71145.html           | 190 +++++++++++++++
+ cards/001763/files/58554_txt_71100.zip        | Bin 0 -> 17322 bytes
+ cards/001867/card58197.html                   | 234 ++++++++++++++++++
+ cards/001867/files/58197_71146.html           | 330 ++++++++++++++++++++++++++
+ cards/001867/files/58197_ruby_71101.zip       | Bin 0 -> 31542 bytes
+ 51 files changed, 1776 insertions(+), 791 deletions(-)
+Date: Fri Jun 19 21:03:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 18 21:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 17322 Jun 19 21:03 ./aozorabunko/cards/001763/files/58554_txt_71100.zip
+1/2: ./aozorabunko/cards/001763/files/58554_txt_71100.zip
+>> add 58554_txt_aru_bungaku_seinen_zo.txt
+>> add 58554_txt_utf8_aru_bungaku_seinen_zo.txt
+>> https://www.aozora.gr.jp/cards/001763/card58554.html
+>> 或る文学青年像、佐藤春夫、
+-rwxrwxrwx 1 level level 31542 Jun 19 21:03 ./aozorabunko/cards/001867/files/58197_ruby_71101.zip
+2/2: ./aozorabunko/cards/001867/files/58197_ruby_71101.zip
+>> add 58197_ruby_mefisuto.txt
+>> add 58197_ruby_utf8_mefisuto.txt
+>> https://www.aozora.gr.jp/cards/001867/card58197.html
+>> メフィスト、小山清、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31380/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 19 21:02:27 JST 2020
+End  : Fri Jun 19 21:04:17 JST 2020
