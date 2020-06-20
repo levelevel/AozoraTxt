@@ -663,3 +663,35 @@ Title Total : 31380/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jun 19 21:02:27 JST 2020
 End  : Fri Jun 19 21:04:17 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jun 20 08:55:50 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ca4ed9bcc1..6060484492  master     -> origin/master
+Updating ca4ed9bcc1..6060484492
+Fast-forward
+ cards/000255/card47424.html                   | 234 ++++++++++++++++++++++++++
+ cards/000255/files/47424_71147.html           | 215 +++++++++++++++++++++++
+ cards/000255/files/47424_ruby_71102.zip       | Bin 0 -> 10649 bytes
+ cards/001763/card58554.html                   |   2 +-
+ cards/001867/card58197.html                   |   2 +-
+ 65 files changed, 2823 insertions(+), 2380 deletions(-)
+Date: Sat Jun 20 08:56:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 19 21:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10649 Jun 20 08:56 ./aozorabunko/cards/000255/files/47424_ruby_71102.zip
+1/1: ./aozorabunko/cards/000255/files/47424_ruby_71102.zip
+>> add 47424_ruby_shino_kokai.txt
+>> add 47424_ruby_utf8_shino_kokai.txt
+>> https://www.aozora.gr.jp/cards/000255/card47424.html
+>> 死の航海、国枝史郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31382/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jun 20 08:55:50 JST 2020
+End  : Sat Jun 20 08:57:13 JST 2020
