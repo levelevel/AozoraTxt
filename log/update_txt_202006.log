@@ -726,3 +726,43 @@ Title Total : 31384/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun 21 21:55:01 JST 2020
 End  : Sun Jun 21 21:57:15 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun 22 21:00:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f686decd1d..75318867a0  master     -> origin/master
+Updating f686decd1d..75318867a0
+Fast-forward
+ cards/001566/card58033.html                   |    2 +-
+ cards/001869/card57587.html                   |  229 ++++++
+ cards/001869/card57758.html                   |  229 ++++++
+ cards/001869/files/57587_71149.html           |  537 +++++++++++++
+ cards/001869/files/57587_ruby_71104.zip       |  Bin 0 -> 35686 bytes
+ cards/001869/files/57758_71150.html           | 1022 +++++++++++++++++++++++++
+ cards/001869/files/57758_ruby_71105.zip       |  Bin 0 -> 99376 bytes
+ 74 files changed, 4146 insertions(+), 2584 deletions(-)
+Date: Mon Jun 22 21:01:24 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 21 21:57 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 35686 Jun 22 21:01 ./aozorabunko/cards/001869/files/57587_ruby_71104.zip
+1/2: ./aozorabunko/cards/001869/files/57587_ruby_71104.zip
+>> add 57587_ruby_kikuchiyo_sho.txt
+>> add 57587_ruby_utf8_kikuchiyo_sho.txt
+>> https://www.aozora.gr.jp/cards/001869/card57587.html
+>> 菊千代抄、山本周五郎、
+-rwxrwxrwx 1 level level 99376 Jun 22 21:01 ./aozorabunko/cards/001869/files/57758_ruby_71105.zip
+2/2: ./aozorabunko/cards/001869/files/57758_ruby_71105.zip
+>> add 57758_ruby_yanagibashi_monogatari.txt
+>> add 57758_ruby_utf8_yanagibashi_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card57758.html
+>> 柳橋物語、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31388/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jun 22 21:00:03 JST 2020
+End  : Mon Jun 22 21:02:28 JST 2020
