@@ -766,3 +766,44 @@ Title Total : 31388/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun 22 21:00:03 JST 2020
 End  : Mon Jun 22 21:02:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 23 21:29:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   75318867a0..b80731dad2  master     -> origin/master
+Updating 75318867a0..b80731dad2
+Fast-forward
+ cards/000214/card48990.html                   | 243 +++++++++++++
+ cards/000214/files/48990_71152.html           |  96 ++++++
+ cards/000214/files/48990_ruby_71107.zip       | Bin 0 -> 5349 bytes
+ cards/001869/card57587.html                   |   2 +-
+ cards/001869/card57758.html                   |   2 +-
+ cards/001875/card58601.html                   | 229 +++++++++++++
+ cards/001875/files/58601_71151.html           | 470 ++++++++++++++++++++++++++
+ cards/001875/files/58601_ruby_71106.zip       | Bin 0 -> 23345 bytes
+ 107 files changed, 3548 insertions(+), 2458 deletions(-)
+Date: Tue Jun 23 21:30:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 22 21:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5349 Jun 23 21:30 ./aozorabunko/cards/000214/files/48990_ruby_71107.zip
+1/2: ./aozorabunko/cards/000214/files/48990_ruby_71107.zip
+>> add 48990_ruby_enjinno_hibiki.txt
+>> add 48990_ruby_utf8_enjinno_hibiki.txt
+>> https://www.aozora.gr.jp/cards/000214/card48990.html
+>> エンジンの響、田山録弥、
+-rwxrwxrwx 1 level level 23345 Jun 23 21:30 ./aozorabunko/cards/001875/files/58601_ruby_71106.zip
+2/2: ./aozorabunko/cards/001875/files/58601_ruby_71106.zip
+>> add 58601_ruby_daikono_ha.txt
+>> add 58601_ruby_utf8_daikono_ha.txt
+>> https://www.aozora.gr.jp/cards/001875/card58601.html
+>> 大根の葉、壺井栄、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31392/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 23 21:29:35 JST 2020
+End  : Tue Jun 23 21:31:45 JST 2020
