@@ -807,3 +807,62 @@ Title Total : 31392/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun 23 21:29:35 JST 2020
 End  : Tue Jun 23 21:31:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 24 09:10:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b80731dad2..dfaffe4f5d  master     -> origin/master
+Updating b80731dad2..dfaffe4f5d
+Fast-forward
+ cards/000168/card59514.html                   | 234 +++++++++++++++++++++
+ cards/000168/card59892.html                   | 234 +++++++++++++++++++++
+ cards/000168/card59946.html                   | 234 +++++++++++++++++++++
+ cards/000168/card60004.html                   | 234 +++++++++++++++++++++
+ cards/000168/files/59514_71154.html           |  76 +++++++
+ cards/000168/files/59514_txt_71109.zip        | Bin 0 -> 6577 bytes
+ cards/000168/files/59892_71155.html           |  69 +++++++
+ cards/000168/files/59892_txt_71110.zip        | Bin 0 -> 2849 bytes
+ cards/000168/files/59946_71153.html           |  72 +++++++
+ cards/000168/files/59946_txt_71108.zip        | Bin 0 -> 6320 bytes
+ cards/000168/files/60004_71156.html           |  76 +++++++
+ cards/000168/files/60004_txt_71111.zip        | Bin 0 -> 2668 bytes
+ cards/000214/card48990.html                   |   2 +-
+ cards/001875/card58601.html                   |   2 +-
+ 58 files changed, 3227 insertions(+), 2013 deletions(-)
+Date: Wed Jun 24 09:11:04 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 23 21:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6577 Jun 24 09:10 ./aozorabunko/cards/000168/files/59514_txt_71109.zip
+1/4: ./aozorabunko/cards/000168/files/59514_txt_71109.zip
+>> add 59514_txt_045taisho_11nen_9gatsu_suitei.txt
+>> add 59514_txt_utf8_045taisho_11nen_9gatsu_suitei.txt
+>> https://www.aozora.gr.jp/cards/000168/card59514.html
+>> 書翰、大正十一年九月（推定）　小島勗宛、横光利一、
+-rwxrwxrwx 1 level level 2849 Jun 24 09:10 ./aozorabunko/cards/000168/files/59892_txt_71110.zip
+2/4: ./aozorabunko/cards/000168/files/59892_txt_71110.zip
+>> add 59892_txt_046taisho_11nen_9gatsu_suitei.txt
+>> add 59892_txt_utf8_046taisho_11nen_9gatsu_suitei.txt
+>> https://www.aozora.gr.jp/cards/000168/card59892.html
+>> 書翰、大正十一年九月（推定）　小島勗宛、横光利一、
+-rwxrwxrwx 1 level level 6320 Jun 24 09:10 ./aozorabunko/cards/000168/files/59946_txt_71108.zip
+3/4: ./aozorabunko/cards/000168/files/59946_txt_71108.zip
+>> add 59946_txt_044taisho_11nen_9gatsu_suitei.txt
+>> add 59946_txt_utf8_044taisho_11nen_9gatsu_suitei.txt
+>> https://www.aozora.gr.jp/cards/000168/card59946.html
+>> 書翰、大正十一年九月（推定）　小島勗宛、横光利一、
+-rwxrwxrwx 1 level level 2668 Jun 24 09:10 ./aozorabunko/cards/000168/files/60004_txt_71111.zip
+4/4: ./aozorabunko/cards/000168/files/60004_txt_71111.zip
+>> add 60004_txt_050taisho_12_3nen.txt
+>> add 60004_txt_utf8_050taisho_12_3nen.txt
+>> https://www.aozora.gr.jp/cards/000168/card60004.html
+>> 書翰、大正十二、三年（推定）　横光君子宛、横光利一、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31400/382 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 24 09:10:18 JST 2020
+End  : Wed Jun 24 09:11:37 JST 2020
