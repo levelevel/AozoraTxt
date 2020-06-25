@@ -866,3 +866,46 @@ Title Total : 31400/382 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jun 24 09:10:18 JST 2020
 End  : Wed Jun 24 09:11:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jun 25 20:11:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dfaffe4f5d..bfd685b6a6  master     -> origin/master
+Updating dfaffe4f5d..bfd685b6a6
+Fast-forward
+ cards/000168/card59514.html                   |   2 +-
+ cards/000168/card59892.html                   |   2 +-
+ cards/000168/card59946.html                   |   2 +-
+ cards/000168/card60004.html                   |   2 +-
+ cards/001475/card52972.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53469.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52972_71157.html           | 116 +++++++++++++
+ cards/001475/files/52972_ruby_71112.zip       | Bin 0 -> 5150 bytes
+ cards/001475/files/53469_71158.html           | 139 +++++++++++++++
+ cards/001475/files/53469_ruby_71113.zip       | Bin 0 -> 6376 bytes
+ 55 files changed, 2100 insertions(+), 1385 deletions(-)
+Date: Thu Jun 25 20:12:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 24 09:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5150 Jun 25 20:12 ./aozorabunko/cards/001475/files/52972_ruby_71112.zip
+1/2: ./aozorabunko/cards/001475/files/52972_ruby_71112.zip
+>> add 52972_ruby_kodomoto_umano_hanashi.txt
+>> add 52972_ruby_utf8_kodomoto_umano_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52972.html
+>> 子供と馬の話、小川未明、
+-rwxrwxrwx 1 level level 6376 Jun 25 20:12 ./aozorabunko/cards/001475/files/53469_ruby_71113.zip
+2/2: ./aozorabunko/cards/001475/files/53469_ruby_71113.zip
+>> add 53469_ruby_natsukashimareta_hito.txt
+>> add 53469_ruby_utf8_natsukashimareta_hito.txt
+>> https://www.aozora.gr.jp/cards/001475/card53469.html
+>> なつかしまれた人、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31404/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jun 25 20:11:40 JST 2020
+End  : Thu Jun 25 20:13:26 JST 2020
