@@ -909,3 +909,44 @@ Title Total : 31404/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 25 20:11:40 JST 2020
 End  : Thu Jun 25 20:13:26 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 26 21:35:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bfd685b6a6..930c9c564e  master     -> origin/master
+Updating bfd685b6a6..930c9c564e
+Fast-forward
+ cards/001403/card55058.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card55063.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55058_71159.html           | 193 +++++++++++++++++++++
+ cards/001403/files/55058_ruby_71114.zip       | Bin 0 -> 20205 bytes
+ cards/001403/files/55063_71160.html           |  74 ++++++++
+ cards/001403/files/55063_ruby_71115.zip       | Bin 0 -> 5509 bytes
+ cards/001475/card52972.html                   |   2 +-
+ cards/001475/card53469.html                   |   2 +-
+ 52 files changed, 1573 insertions(+), 844 deletions(-)
+Date: Fri Jun 26 21:36:30 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 25 20:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 20205 Jun 26 21:36 ./aozorabunko/cards/001403/files/55058_ruby_71114.zip
+1/2: ./aozorabunko/cards/001403/files/55058_ruby_71114.zip
+>> add 55058_ruby_gendai_nosho_hihyo.txt
+>> add 55058_ruby_utf8_gendai_nosho_hihyo.txt
+>> https://www.aozora.gr.jp/cards/001403/card55058.html
+>> 現代能書批評、北大路魯山人、
+-rwxrwxrwx 1 level level 5509 Jun 26 21:36 ./aozorabunko/cards/001403/files/55063_ruby_71115.zip
+2/2: ./aozorabunko/cards/001403/files/55063_ruby_71115.zip
+>> add 55063_ruby_noshoo_kataru.txt
+>> add 55063_ruby_utf8_noshoo_kataru.txt
+>> https://www.aozora.gr.jp/cards/001403/card55063.html
+>> 能書を語る、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31408/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 26 21:35:06 JST 2020
+End  : Fri Jun 26 21:37:45 JST 2020
