@@ -991,3 +991,35 @@ Title Total : 31412/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun 27 08:27:25 JST 2020
 End  : Sat Jun 27 08:28:30 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun 28 10:06:55 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   af0c87a4ac..f283bef3c5  master     -> origin/master
+Updating af0c87a4ac..f283bef3c5
+Fast-forward
+ cards/000258/card59425.html                   |   2 +-
+ cards/000258/card59430.html                   |   2 +-
+ cards/001670/card57211.html                   | 229 +++++++++++++++
+ cards/001670/files/57211_71163.html           | 384 ++++++++++++++++++++++++++
+ cards/001670/files/57211_ruby_71118.zip       | Bin 0 -> 14599 bytes
+ 180 files changed, 3621 insertions(+), 2834 deletions(-)
+Date: Sun Jun 28 10:07:55 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 27 08:28 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14599 Jun 28 10:07 ./aozorabunko/cards/001670/files/57211_ruby_71118.zip
+1/1: ./aozorabunko/cards/001670/files/57211_ruby_71118.zip
+>> add 57211_ruby_321hashibano_ningyo.txt
+>> add 57211_ruby_utf8_321hashibano_ningyo.txt
+>> https://www.aozora.gr.jp/cards/001670/card57211.html
+>> 銭形平次捕物控、橋場の人魚、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31414/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun 28 10:06:55 JST 2020
+End  : Sun Jun 28 10:08:27 JST 2020
