@@ -1023,3 +1023,43 @@ Title Total : 31414/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun 28 10:06:55 JST 2020
 End  : Sun Jun 28 10:08:27 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun 29 20:17:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f283bef3c5..4d556818e5  master     -> origin/master
+Updating f283bef3c5..4d556818e5
+Fast-forward
+ cards/001670/card57211.html                   |   2 +-
+ cards/001879/card58084.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/card58115.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/files/58084_71164.html           |  84 +++++++++
+ cards/001879/files/58084_ruby_71119.zip       | Bin 0 -> 3882 bytes
+ cards/001879/files/58115_71165.html           |  77 +++++++++
+ cards/001879/files/58115_ruby_71120.zip       | Bin 0 -> 6923 bytes
+ 83 files changed, 2182 insertions(+), 1558 deletions(-)
+Date: Mon Jun 29 20:18:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 28 10:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3882 Jun 29 20:18 ./aozorabunko/cards/001879/files/58084_ruby_71119.zip
+1/2: ./aozorabunko/cards/001879/files/58084_ruby_71119.zip
+>> add 58084_ruby_fujinni_taisuru_jitsugyo_shisono_kyumu.txt
+>> add 58084_ruby_utf8_fujinni_taisuru_jitsugyo_shisono_kyumu.txt
+>> https://www.aozora.gr.jp/cards/001879/card58084.html
+>> 婦人に対する実業思想の急務、大隈重信、
+-rwxrwxrwx 1 level level 6923 Jun 29 20:18 ./aozorabunko/cards/001879/files/58115_ruby_71120.zip
+2/2: ./aozorabunko/cards/001879/files/58115_ruby_71120.zip
+>> add 58115_ruby_rekkyo_kanshino_chushinni_aru_nihon.txt
+>> add 58115_ruby_utf8_rekkyo_kanshino_chushinni_aru_nihon.txt
+>> https://www.aozora.gr.jp/cards/001879/card58115.html
+>> 列強環視の中心に在る日本、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31418/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jun 29 20:17:18 JST 2020
+End  : Mon Jun 29 20:19:16 JST 2020
