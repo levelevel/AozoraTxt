@@ -1063,3 +1063,35 @@ Title Total : 31418/382 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun 29 20:17:18 JST 2020
 End  : Mon Jun 29 20:19:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 30 20:47:12 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4d556818e5..878e6365de  master     -> origin/master
+Updating 4d556818e5..878e6365de
+Fast-forward
+ cards/001091/card59634.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59634_71166.html           | 119 +++++++++++++
+ cards/001091/files/59634_ruby_71121.zip       | Bin 0 -> 159642 bytes
+ cards/001879/card58084.html                   |   2 +-
+ cards/001879/card58115.html                   |   2 +-
+ 69 files changed, 1360 insertions(+), 980 deletions(-)
+Date: Tue Jun 30 20:48:13 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 29 20:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 159642 Jun 30 20:48 ./aozorabunko/cards/001091/files/59634_ruby_71121.zip
+1/1: ./aozorabunko/cards/001091/files/59634_ruby_71121.zip
+>> add 59634_ruby_3ninno_itokuri_onna.txt
+>> add 59634_ruby_utf8_3ninno_itokuri_onna.txt
+>> https://www.aozora.gr.jp/cards/001091/card59634.html
+>> 三人の糸くり女、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31420/382 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 30 20:47:12 JST 2020
+End  : Tue Jun 30 20:49:00 JST 2020
