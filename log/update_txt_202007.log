@@ -1,0 +1,43 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul  1 20:55:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   878e6365de..d069ce5ba5  master     -> origin/master
+Updating 878e6365de..d069ce5ba5
+Fast-forward
+ cards/000361/card2067.html                    |   4 +-
+ cards/000361/card42941.html                   |   4 +-
+ cards/000361/card58199.html                   |   4 +-
+ cards/001091/card59634.html                   |   2 +-
+ cards/001341/card59939.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/files/59939_71267.html           |  95 +++++++++++
+ cards/001341/files/59939_ruby_71218.zip       | Bin 0 -> 8022 bytes
+ cards/001763/card58554.html                   |   8 +-
+ cards/001763/files/58554_71145.html           |  14 +-
+ cards/001763/files/58554_txt_71100.zip        | Bin 17322 -> 17192 bytes
+ 83 files changed, 1877 insertions(+), 1340 deletions(-)
+Date: Wed Jul  1 20:58:07 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jun 30 20:48 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8022 Jul  1 20:58 ./aozorabunko/cards/001341/files/59939_ruby_71218.zip
+1/2: ./aozorabunko/cards/001341/files/59939_ruby_71218.zip
+>> add 59939_ruby_hanabi.txt
+>> add 59939_ruby_utf8_hanabi.txt
+>> https://www.aozora.gr.jp/cards/001341/card59939.html
+>> 花火、永井荷風、
+-rwxrwxrwx 1 level level 17192 Jul  1 20:58 ./aozorabunko/cards/001763/files/58554_txt_71100.zip
+2/2: ./aozorabunko/cards/001763/files/58554_txt_71100.zip
+>> update 58554_txt_aru_bungaku_seinen_zo.txt
+>> update 58554_txt_utf8_aru_bungaku_seinen_zo.txt
+>> https://www.aozora.gr.jp/cards/001763/card58554.html
+>> 或る文学青年像、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31422/382 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul  1 20:55:44 JST 2020
+End  : Wed Jul  1 20:58:44 JST 2020
