@@ -41,3 +41,65 @@ Title Total : 31422/382 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jul  1 20:55:44 JST 2020
 End  : Wed Jul  1 20:58:44 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jul  2 22:07:23 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d069ce5ba5..91aeafbe0a  master     -> origin/master
+Updating d069ce5ba5..91aeafbe0a
+Fast-forward
+ cards/001341/card59939.html                   |   2 +-
+ cards/002043/card60548.html                   | 231 +++++++++++++++++++++++
+ cards/002043/files/60548_71317.html           | 261 ++++++++++++++++++++++++++
+ cards/002043/files/60548_ruby_71316.zip       | Bin 0 -> 1463532 bytes
+ 42 files changed, 886 insertions(+), 406 deletions(-)
+Date: Thu Jul  2 22:08:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  1 20:58 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1463532 Jul  2 22:08 ./aozorabunko/cards/002043/files/60548_ruby_71316.zip
+1/1: ./aozorabunko/cards/002043/files/60548_ruby_71316.zip
+>> add 60548_NPD_ruby_chohobu_hiwa_01.txt
+>> add 60548_NPD_ruby_utf8_chohobu_hiwa_01.txt
+>> https://www.aozora.gr.jp/cards/002043/card60548.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第一話　女の知恵、NO I BY WOMAN'S WIT、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31422/384 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu Jul  2 22:07:23 JST 2020
+End  : Thu Jul  2 22:09:53 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jul  3 21:13:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   91aeafbe0a..1e504736f2  master     -> origin/master
+Updating 91aeafbe0a..1e504736f2
+Fast-forward
+ cards/001344/card49790.html                   | 229 +++++++++++++++++++++++++
+ cards/001344/files/49790_71268.html           | 102 +++++++++++
+ cards/001344/files/49790_ruby_71219.zip       | Bin 0 -> 54081 bytes
+ cards/002043/card60548.html                   |   2 +-
+ 52 files changed, 1293 insertions(+), 965 deletions(-)
+Date: Fri Jul  3 21:14:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  2 22:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 54081 Jul  3 21:14 ./aozorabunko/cards/001344/files/49790_ruby_71219.zip
+1/1: ./aozorabunko/cards/001344/files/49790_ruby_71219.zip
+>> add 49790_ruby_isonokami_jinguno_jinpo_nanatsu_sayano_tachi.txt
+>> add 49790_ruby_utf8_isonokami_jinguno_jinpo_nanatsu_sayano_tachi.txt
+>> https://www.aozora.gr.jp/cards/001344/card49790.html
+>> 石上神宮の神宝七枝刀、喜田貞吉、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31424/384 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jul  3 21:13:45 JST 2020
+End  : Fri Jul  3 21:15:02 JST 2020
