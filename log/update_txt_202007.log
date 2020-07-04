@@ -103,3 +103,54 @@ Title Total : 31424/384 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jul  3 21:13:45 JST 2020
 End  : Fri Jul  3 21:15:02 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jul  4 10:02:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1e504736f2..27eedf1379  master     -> origin/master
+Updating 1e504736f2..27eedf1379
+Fast-forward
+ cards/001189/card60544.html                   |  221 ++++
+ cards/001248/card50588.html                   |  229 +++++
+ cards/001248/files/50588_71269.html           |   69 ++
+ cards/001248/files/50588_ruby_71220.zip       |  Bin 0 -> 1945 bytes
+ cards/001344/card49790.html                   |    2 +-
+ cards/001393/card60551.html                   |  235 +++++
+ cards/001393/files/60551_71319.html           | 1339 +++++++++++++++++++++++++
+ cards/001393/files/60551_ruby_71318.zip       |  Bin 0 -> 17089255 bytes
+ cards/001569/card59193.html                   |  234 +++++
+ cards/001569/files/59193_71270.html           |   99 ++
+ cards/001569/files/59193_ruby_71221.zip       |  Bin 0 -> 227819 bytes
+ cards/002043/card60548.html                   |    2 +-
+ 155 files changed, 6172 insertions(+), 3765 deletions(-)
+Date: Sat Jul  4 10:04:28 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  3 21:14 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1945 Jul  4 10:03 ./aozorabunko/cards/001248/files/50588_ruby_71220.zip
+1/3: ./aozorabunko/cards/001248/files/50588_ruby_71220.zip
+>> add 50588_ruby_kanbayano_ki.txt
+>> add 50588_ruby_utf8_kanbayano_ki.txt
+>> https://www.aozora.gr.jp/cards/001248/card50588.html
+>> 寒鮠の記、佐藤垢石、
+-rwxrwxrwx 1 level level 17089255 Jul  4 10:03 ./aozorabunko/cards/001393/files/60551_ruby_71318.zip
+2/3: ./aozorabunko/cards/001393/files/60551_ruby_71318.zip
+>> add 60551_NPD_ruby_alicewa_fushigino_kunide_r.txt
+>> add 60551_NPD_ruby_utf8_alicewa_fushigino_kunide_r.txt
+>> https://www.aozora.gr.jp/cards/001393/card60551.html
+>> アリスはふしぎの国で、ALICE IN WONDERLAND、アーサー・ラッカム挿絵版、ルイス・キャロル　Lewis Carroll、大久保ゆう訳、
+-rwxrwxrwx 1 level level 227819 Jul  4 10:03 ./aozorabunko/cards/001569/files/59193_ruby_71221.zip
+3/3: ./aozorabunko/cards/001569/files/59193_ruby_71221.zip
+>> add 59193_ruby_shizenno_megumi.txt
+>> add 59193_ruby_utf8_shizenno_megumi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59193.html
+>> 自然の恵み、――少国民のための新しい雪の話――、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31428/386 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Jul  4 10:02:02 JST 2020
+End  : Sat Jul  4 10:05:52 JST 2020
