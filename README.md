@@ -3,6 +3,8 @@
 
 https://github.com/aozorabunko/aozorabunko で公開されているものをベースにしています。
 
+テキストファイルだけを欲しい人は[Google Drive](https://drive.google.com/drive/folders/1rgjtxZqPQbOrpM8soGj_wFe_WNk5CStP?usp=sharing)からzipファイルを取得できます。
+
 ## ディレクトリ構成
 - person/<作者ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
   zipファイルに格納されているファイルそのままで、管理しやすいようにファイル名のみ変更しています。文字コードはSJIS、改行コードはCRLF（Windows形式）です。
