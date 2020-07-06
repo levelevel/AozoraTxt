@@ -1,5 +1,9 @@
 LANG=C
 
+if [ "$BIN" == "" ]; then
+	BIN=~/Work/AozoraTxt/bin
+fi
+
 AOZORA_ROOT=./aozorabunko
 TARGET_ROOT=./AozoraTxt
 TARGET_ROOT_NPD=./AozoraTxtNpd
