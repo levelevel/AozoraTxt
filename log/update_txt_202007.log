@@ -219,3 +219,85 @@ Title Total : 31432/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jul  6 21:02:31 JST 2020
 End  : Mon Jul  6 21:05:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jul  7 22:59:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4b463a834c..88f9b4547e  master     -> origin/master
+Updating 4b463a834c..88f9b4547e
+Fast-forward
+ cards/000214/card48955.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48960.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48955_71273.html           | 113 ++++++++++++
+ cards/000214/files/48955_ruby_71224.zip       | Bin 0 -> 4744 bytes
+ cards/000214/files/48960_71274.html           | 125 +++++++++++++
+ cards/000214/files/48960_ruby_71225.zip       | Bin 0 -> 8021 bytes
+ cards/001670/card56294.html                   |   2 +-
+ soramoyou/soramoyouindex.html                 |  25 +++
+ 79 files changed, 1966 insertions(+), 1236 deletions(-)
+Date: Tue Jul  7 22:59:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  6 21:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4744 Jul  7 22:59 ./aozorabunko/cards/000214/files/48955_ruby_71224.zip
+1/2: ./aozorabunko/cards/000214/files/48955_ruby_71224.zip
+>> add 48955_ruby_bundan_issekiwa.txt
+>> add 48955_ruby_utf8_bundan_issekiwa.txt
+>> https://www.aozora.gr.jp/cards/000214/card48955.html
+>> 文壇一夕話、田山録弥、
+-rwxrwxrwx 1 level level 8021 Jul  7 22:59 ./aozorabunko/cards/000214/files/48960_ruby_71225.zip
+2/2: ./aozorabunko/cards/000214/files/48960_ruby_71225.zip
+>> add 48960_ruby_meiji_bungakuno_gaikan.txt
+>> add 48960_ruby_utf8_meiji_bungakuno_gaikan.txt
+>> https://www.aozora.gr.jp/cards/000214/card48960.html
+>> 明治文学の概観、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31436/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jul  7 22:59:06 JST 2020
+End  : Tue Jul  7 23:00:17 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul  8 21:24:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   88f9b4547e..4595dc5039  master     -> origin/master
+Updating 88f9b4547e..4595dc5039
+Fast-forward
+ cards/000214/card48955.html                   |   2 +-
+ cards/000214/card48960.html                   |   2 +-
+ cards/001475/card52628.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card54187.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52628_71276.html           | 122 ++++++++++++++
+ cards/001475/files/52628_ruby_71227.zip       | Bin 0 -> 5356 bytes
+ cards/001475/files/54187_71275.html           | 117 +++++++++++++
+ cards/001475/files/54187_ruby_71226.zip       | Bin 0 -> 5148 bytes
+ 107 files changed, 2943 insertions(+), 2184 deletions(-)
+Date: Wed Jul  8 21:25:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul  7 23:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5356 Jul  8 21:25 ./aozorabunko/cards/001475/files/52628_ruby_71227.zip
+1/2: ./aozorabunko/cards/001475/files/52628_ruby_71227.zip
+>> add 52628_ruby_kusaharano_yume.txt
+>> add 52628_ruby_utf8_kusaharano_yume.txt
+>> https://www.aozora.gr.jp/cards/001475/card52628.html
+>> 草原の夢、小川未明、
+-rwxrwxrwx 1 level level 5148 Jul  8 21:25 ./aozorabunko/cards/001475/files/54187_ruby_71226.zip
+2/2: ./aozorabunko/cards/001475/files/54187_ruby_71226.zip
+>> add 54187_ruby_kyodaino_yamabato.txt
+>> add 54187_ruby_utf8_kyodaino_yamabato.txt
+>> https://www.aozora.gr.jp/cards/001475/card54187.html
+>> 兄弟のやまばと、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31440/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul  8 21:24:46 JST 2020
+End  : Wed Jul  8 21:25:45 JST 2020
