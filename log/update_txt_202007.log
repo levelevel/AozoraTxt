@@ -454,3 +454,35 @@ Title Total : 31452/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jul 12 09:48:39 JST 2020
 End  : Sun Jul 12 09:53:21 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jul 13 21:43:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ca929041e0..efc6a2ae5e  master     -> origin/master
+Updating ca929041e0..efc6a2ae5e
+Fast-forward
+ cards/000026/card55920.html                   |   2 +-
+ cards/000026/card55922.html                   |   2 +-
+ cards/001869/card57809.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57809_71283.html           | 197 ++++++++++++++++++++++
+ cards/001869/files/57809_ruby_71234.zip       | Bin 0 -> 14355 bytes
+ 68 files changed, 1538 insertions(+), 856 deletions(-)
+Date: Mon Jul 13 21:44:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 12 09:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14355 Jul 13 21:44 ./aozorabunko/cards/001869/files/57809_ruby_71234.zip
+1/1: ./aozorabunko/cards/001869/files/57809_ruby_71234.zip
+>> add 57809_ruby_yabuno_kage.txt
+>> add 57809_ruby_utf8_yabuno_kage.txt
+>> https://www.aozora.gr.jp/cards/001869/card57809.html
+>> 日本婦道記、藪の蔭、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31454/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jul 13 21:43:17 JST 2020
+End  : Mon Jul 13 21:46:09 JST 2020
