@@ -517,3 +517,34 @@ Title Total : 31456/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jul 14 21:43:24 JST 2020
 End  : Tue Jul 14 21:44:50 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul 15 08:59:08 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   198fe5c241..3ec962c830  master     -> origin/master
+Updating 198fe5c241..3ec962c830
+Fast-forward
+ cards/000293/card60435.html                   |   2 +-
+ cards/001224/card46083.html                   | 229 ++++++++++++++++
+ cards/001224/files/46083_71285.html           | 366 ++++++++++++++++++++++++++
+ cards/001224/files/46083_ruby_71236.zip       | Bin 0 -> 26251 bytes
+ 59 files changed, 1829 insertions(+), 1174 deletions(-)
+Date: Wed Jul 15 08:59:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 14 21:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 26251 Jul 15 08:59 ./aozorabunko/cards/001224/files/46083_ruby_71236.zip
+1/1: ./aozorabunko/cards/001224/files/46083_ruby_71236.zip
+>> add 46083_ruby_chono_e.txt
+>> add 46083_ruby_utf8_chono_e.txt
+>> https://www.aozora.gr.jp/cards/001224/card46083.html
+>> 蝶の絵、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31458/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul 15 08:59:08 JST 2020
+End  : Wed Jul 15 09:00:26 JST 2020
