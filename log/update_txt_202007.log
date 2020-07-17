@@ -548,3 +548,66 @@ Title Total : 31458/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jul 15 08:59:08 JST 2020
 End  : Wed Jul 15 09:00:26 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jul 16 20:49:43 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3ec962c830..c9fe3e8803  master     -> origin/master
+Updating 3ec962c830..c9fe3e8803
+Fast-forward
+ cards/001224/card46083.html                   |   2 +-
+ cards/001670/card56293.html                   | 234 +++++++++++++++++++
+ cards/001670/files/56293_71286.html           | 315 ++++++++++++++++++++++++++
+ cards/001670/files/56293_ruby_71237.zip       | Bin 0 -> 13693 bytes
+ 50 files changed, 2058 insertions(+), 1512 deletions(-)
+Date: Thu Jul 16 20:51:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 15 09:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13693 Jul 16 20:51 ./aozorabunko/cards/001670/files/56293_ruby_71237.zip
+1/1: ./aozorabunko/cards/001670/files/56293_ruby_71237.zip
+>> add 56293_ruby_016ningyono_shi.txt
+>> add 56293_ruby_utf8_016ningyono_shi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56293.html
+>> 銭形平次捕物控、人魚の死、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31460/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jul 16 20:49:43 JST 2020
+End  : Thu Jul 16 20:53:18 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jul 17 21:49:50 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c9fe3e8803..cab4d9699a  master     -> origin/master
+Updating c9fe3e8803..cab4d9699a
+Fast-forward
+ cards/001224/card46083.html                   |   2 +-
+ cards/001524/card51921.html                   | 247 ++++++++++++++++++++++++++
+ cards/001524/files/51921_71330.html           | 183 +++++++++++++++++++
+ cards/001524/files/51921_ruby_71238.zip       | Bin 0 -> 14690 bytes
+ cards/001670/card56293.html                   |   2 +-
+ 60 files changed, 1565 insertions(+), 1141 deletions(-)
+Date: Fri Jul 17 21:52:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 16 20:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14690 Jul 17 21:52 ./aozorabunko/cards/001524/files/51921_ruby_71238.zip
+1/1: ./aozorabunko/cards/001524/files/51921_ruby_71238.zip
+>> add 51921_ruby_01hakui_retsuden.txt
+>> add 51921_ruby_utf8_01hakui_retsuden.txt
+>> https://www.aozora.gr.jp/cards/001524/card51921.html
+>> 國譯史記列傳、伯夷列傳第一、司馬遷、箭内亙訳註、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31462/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jul 17 21:49:50 JST 2020
+End  : Fri Jul 17 21:55:31 JST 2020
