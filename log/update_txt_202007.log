@@ -642,3 +642,45 @@ Title Total : 31464/386 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul 18 17:42:32 JST 2020
 End  : Sat Jul 18 17:44:41 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jul 19 17:24:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   554c3beb44..46687500ea  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating 554c3beb44..46687500ea
+Fast-forward
+ cards/000255/card47428.html                   |    2 +-
+ cards/001693/card55053.html                   |  229 ++++
+ cards/001693/files/55053_71290.html           | 1636 +++++++++++++++++++++++++
+ cards/001693/files/55053_ruby_71241.zip       |  Bin 0 -> 20676 bytes
+ cards/001798/card59356.html                   |  229 ++++
+ cards/001798/files/59356_71289.html           |  125 ++
+ cards/001798/files/59356_txt_71240.zip        |  Bin 0 -> 12069 bytes
+ 79 files changed, 4261 insertions(+), 2020 deletions(-)
+Date: Sun Jul 19 17:30:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 18 17:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 20676 Jul 19 17:30 ./aozorabunko/cards/001693/files/55053_ruby_71241.zip
+1/2: ./aozorabunko/cards/001693/files/55053_ruby_71241.zip
+>> add 55053_ruby_yamanokuchi_baku_shishu.txt
+>> add 55053_ruby_utf8_yamanokuchi_baku_shishu.txt
+>> https://www.aozora.gr.jp/cards/001693/card55053.html
+>> 山之口貘詩集、山之口貘、
+-rwxrwxrwx 1 level level 12069 Jul 19 17:30 ./aozorabunko/cards/001798/files/59356_txt_71240.zip
+2/2: ./aozorabunko/cards/001798/files/59356_txt_71240.zip
+>> add 59356_txt_akai_rakuda.txt
+>> add 59356_txt_utf8_akai_rakuda.txt
+>> https://www.aozora.gr.jp/cards/001798/card59356.html
+>> 赤い駱駝、梅崎春生、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31468/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jul 19 17:24:41 JST 2020
+End  : Sun Jul 19 17:30:51 JST 2020
