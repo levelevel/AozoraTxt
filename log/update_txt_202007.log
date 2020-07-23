@@ -784,3 +784,44 @@ Title Total : 31480/386 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jul 22 22:36:53 JST 2020
 End  : Wed Jul 22 22:41:34 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jul 23 09:04:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   271cce092c..9f650ad6a8  master     -> origin/master
+Updating 271cce092c..9f650ad6a8
+Fast-forward
+ cards/000019/card59321.html                   |   2 +-
+ cards/000019/card59372.html                   |   2 +-
+ cards/001403/card55056.html                   | 234 +++++++++++++
+ cards/001403/card55115.html                   | 234 +++++++++++++
+ cards/001403/files/55056_71297.html           |  60 ++++
+ cards/001403/files/55056_ruby_71248.zip       | Bin 0 -> 1234 bytes
+ cards/001403/files/55115_71298.html           |  59 ++++
+ cards/001403/files/55115_ruby_71249.zip       | Bin 0 -> 2161 bytes
+ 63 files changed, 1953 insertions(+), 1786 deletions(-)
+Date: Thu Jul 23 09:04:48 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 22 22:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1234 Jul 23 09:04 ./aozorabunko/cards/001403/files/55056_ruby_71248.zip
+1/2: ./aozorabunko/cards/001403/files/55056_ruby_71248.zip
+>> add 55056_ruby_enshuno_bokuseki.txt
+>> add 55056_ruby_utf8_enshuno_bokuseki.txt
+>> https://www.aozora.gr.jp/cards/001403/card55056.html
+>> 遠州の墨蹟、北大路魯山人、
+-rwxrwxrwx 1 level level 2161 Jul 23 09:04 ./aozorabunko/cards/001403/files/55115_ruby_71249.zip
+2/2: ./aozorabunko/cards/001403/files/55115_ruby_71249.zip
+>> add 55115_ruby_yoga_kingyotoshite_tojiki_seisaku.txt
+>> add 55115_ruby_utf8_yoga_kingyotoshite_tojiki_seisaku.txt
+>> https://www.aozora.gr.jp/cards/001403/card55115.html
+>> 余が近業として陶磁器製作を試みる所以、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31484/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jul 23 09:04:37 JST 2020
+End  : Thu Jul 23 09:04:58 JST 2020
