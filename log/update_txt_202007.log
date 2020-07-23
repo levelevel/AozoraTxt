@@ -825,3 +825,62 @@ Title Total : 31484/386 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jul 23 09:04:37 JST 2020
 End  : Thu Jul 23 09:04:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jul 24 08:31:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9f650ad6a8..208814389b  master     -> origin/master
+Updating 9f650ad6a8..208814389b
+Fast-forward
+ cards/000067/card59327.html                   |  234 ++++
+ cards/000067/files/59327_71299.html           |  215 ++++
+ cards/000067/files/59327_ruby_71250.zip       |  Bin 0 -> 15889 bytes
+ cards/000879/card60574.html                   |  235 ++++
+ cards/000879/files/60574_71364.html           |   74 ++
+ cards/000879/files/60574_txt_71363.zip        |  Bin 0 -> 2223 bytes
+ cards/001383/card57416.html                   |  234 ++++
+ cards/001383/files/57416_71300.html           | 1640 +++++++++++++++++++++++++
+ cards/001383/files/57416_ruby_71251.zip       |  Bin 0 -> 194985 bytes
+ cards/001403/card55056.html                   |    2 +-
+ cards/001403/card55115.html                   |    2 +-
+ cards/001763/card59311.html                   |  234 ++++
+ cards/001763/files/59311_71301.html           |   67 +
+ cards/001763/files/59311_txt_71252.zip        |  Bin 0 -> 2350 bytes
+ 110 files changed, 6412 insertions(+), 3149 deletions(-)
+Date: Fri Jul 24 08:32:18 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 23 09:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15889 Jul 24 08:32 ./aozorabunko/cards/000067/files/59327_ruby_71250.zip
+1/4: ./aozorabunko/cards/000067/files/59327_ruby_71250.zip
+>> add 59327_ruby_akutagawa_ryunosukeno_shi.txt
+>> add 59327_ruby_utf8_akutagawa_ryunosukeno_shi.txt
+>> https://www.aozora.gr.jp/cards/000067/card59327.html
+>> 芥川龍之介の死、萩原朔太郎、
+-rwxrwxrwx 1 level level 2223 Jul 24 08:32 ./aozorabunko/cards/000879/files/60574_txt_71363.zip
+2/4: ./aozorabunko/cards/000879/files/60574_txt_71363.zip
+>> add 60574_NPD_txt_afterlife_eiyaku_kosei.txt
+>> add 60574_NPD_txt_utf8_afterlife_eiyaku_kosei.txt
+>> https://www.aozora.gr.jp/cards/000879/card60574.html
+>> Afterlife、英訳「後世」、AKUTAGAWA Ryunosuke、Translated by OKUBO Yu、
+-rwxrwxrwx 1 level level 194985 Jul 24 08:32 ./aozorabunko/cards/001383/files/57416_ruby_71251.zip
+3/4: ./aozorabunko/cards/001383/files/57416_ruby_71251.zip
+>> add 57416_ruby_02sasameyuki_chukan.txt
+>> add 57416_ruby_utf8_02sasameyuki_chukan.txt
+>> https://www.aozora.gr.jp/cards/001383/card57416.html
+>> 細雪、中巻、谷崎潤一郎、
+-rwxrwxrwx 1 level level 2350 Jul 24 08:32 ./aozorabunko/cards/001763/files/59311_txt_71252.zip
+4/4: ./aozorabunko/cards/001763/files/59311_txt_71252.zip
+>> add 59311_txt_tanizaki_bungakuno_daihyosaku_sasameyuki.txt
+>> add 59311_txt_utf8_tanizaki_bungakuno_daihyosaku_sasameyuki.txt
+>> https://www.aozora.gr.jp/cards/001763/card59311.html
+>> 谷崎文学の代表作「細雪」、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31490/388 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Jul 24 08:31:28 JST 2020
+End  : Fri Jul 24 08:33:15 JST 2020
