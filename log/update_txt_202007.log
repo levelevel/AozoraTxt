@@ -918,3 +918,43 @@ Title Total : 31492/388 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul 25 08:23:37 JST 2020
 End  : Sat Jul 25 08:25:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jul 26 09:37:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e02ebec03e..636022f8c7  master     -> origin/master
+Updating e02ebec03e..636022f8c7
+Fast-forward
+ cards/000416/card57155.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/files/57155_71304.html           |  97 +++++++++++
+ cards/000416/files/57155_ruby_71255.zip       | Bin 0 -> 5542 bytes
+ cards/001533/card59420.html                   | 234 ++++++++++++++++++++++++++
+ cards/001533/files/59420_71303.html           | 111 ++++++++++++
+ cards/001533/files/59420_ruby_71254.zip       | Bin 0 -> 6828 bytes
+ cards/001670/card56305.html                   |   2 +-
+ 140 files changed, 2187 insertions(+), 1514 deletions(-)
+Date: Sun Jul 26 09:39:15 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 25 08:25 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5542 Jul 26 09:38 ./aozorabunko/cards/000416/files/57155_ruby_71255.zip
+1/2: ./aozorabunko/cards/000416/files/57155_ruby_71255.zip
+>> add 57155_ruby_woren_fujinto_sono_musume.txt
+>> add 57155_ruby_utf8_woren_fujinto_sono_musume.txt
+>> https://www.aozora.gr.jp/cards/000416/card57155.html
+>> ウォーレン夫人とその娘、伊藤野枝、
+-rwxrwxrwx 1 level level 6828 Jul 26 09:38 ./aozorabunko/cards/001533/files/59420_ruby_71254.zip
+2/2: ./aozorabunko/cards/001533/files/59420_ruby_71254.zip
+>> add 59420_ruby_sorekara_sore.txt
+>> add 59420_ruby_utf8_sorekara_sore.txt
+>> https://www.aozora.gr.jp/cards/001533/card59420.html
+>> それからそれ、書斎山岳文断片、宇野浩二、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31496/388 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jul 26 09:37:45 JST 2020
+End  : Sun Jul 26 09:40:57 JST 2020
