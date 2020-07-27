@@ -958,3 +958,46 @@ Title Total : 31496/388 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jul 26 09:37:45 JST 2020
 End  : Sun Jul 26 09:40:57 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jul 27 22:38:34 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   636022f8c7..c0c9007a46  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating 636022f8c7..c0c9007a46
+Fast-forward
+ cards/000255/card47420.html                   | 234 ++++++++++++++++++++++++++
+ cards/000255/files/47420_71305.html           | 213 +++++++++++++++++++++++
+ cards/000255/files/47420_ruby_71256.zip       | Bin 0 -> 9072 bytes
+ cards/000416/card57155.html                   |   2 +-
+ cards/000879/card60574.html                   |   6 +-
+ cards/000879/files/60574_71364.html           |   4 +-
+ cards/000879/files/60574_txt_71363.zip        | Bin 2223 -> 2223 bytes
+ cards/001533/card59420.html                   |   2 +-
+ 104 files changed, 3194 insertions(+), 2394 deletions(-)
+Date: Mon Jul 27 22:47:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 26 09:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9072 Jul 27 22:47 ./aozorabunko/cards/000255/files/47420_ruby_71256.zip
+1/2: ./aozorabunko/cards/000255/files/47420_ruby_71256.zip
+>> add 47420_ruby_kokujihanno_yukue.txt
+>> add 47420_ruby_utf8_kokujihanno_yukue.txt
+>> https://www.aozora.gr.jp/cards/000255/card47420.html
+>> 国事犯の行方、―破獄の志士赤井景韶―、国枝史郎、
+-rwxrwxrwx 1 level level 2223 Jul 27 22:47 ./aozorabunko/cards/000879/files/60574_txt_71363.zip
+2/2: ./aozorabunko/cards/000879/files/60574_txt_71363.zip
+>> update 60574_NPD_txt_afterlife_eiyaku_kosei.txt
+>> update 60574_NPD_txt_utf8_afterlife_eiyaku_kosei.txt
+>> https://www.aozora.gr.jp/cards/000879/card60574.html
+>> Afterlife、英訳「後世」、AKUTAGAWA Ryunosuke、Translated by OKUBO Yu、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31498/388 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon Jul 27 22:38:34 JST 2020
+End  : Mon Jul 27 22:49:35 JST 2020
