@@ -1001,3 +1001,45 @@ Title Total : 31498/388 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jul 27 22:38:34 JST 2020
 End  : Mon Jul 27 22:49:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jul 28 21:16:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c0c9007a46..a2d34f0190  master     -> origin/master
+Updating c0c9007a46..a2d34f0190
+Fast-forward
+ cards/000255/card47420.html                   |    2 +-
+ cards/001393/card60551.html                   |    2 +-
+ cards/001393/files/60551_71319.html           |    4 +-
+ cards/001779/card57243.html                   |  234 +++++
+ cards/001779/card57517.html                   |  234 +++++
+ cards/001779/files/57243_71307.html           |  567 ++++++++++
+ cards/001779/files/57243_ruby_71258.zip       |  Bin 0 -> 70001 bytes
+ cards/001779/files/57517_71306.html           | 1364 +++++++++++++++++++++++++
+ cards/001779/files/57517_ruby_71257.zip       |  Bin 0 -> 66367 bytes
+ 64 files changed, 3668 insertions(+), 1274 deletions(-)
+Date: Tue Jul 28 21:16:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 27 22:49 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 70001 Jul 28 21:16 ./aozorabunko/cards/001779/files/57243_ruby_71258.zip
+1/2: ./aozorabunko/cards/001779/files/57243_ruby_71258.zip
+>> add 57243_ruby_nanimono.txt
+>> add 57243_ruby_utf8_nanimono.txt
+>> https://www.aozora.gr.jp/cards/001779/card57243.html
+>> 何者、江戸川乱歩、
+-rwxrwxrwx 1 level level 66367 Jul 28 21:16 ./aozorabunko/cards/001779/files/57517_ruby_71257.zip
+2/2: ./aozorabunko/cards/001779/files/57517_ruby_71257.zip
+>> add 57517_ruby_kyofu_o.txt
+>> add 57517_ruby_utf8_kyofu_o.txt
+>> https://www.aozora.gr.jp/cards/001779/card57517.html
+>> 恐怖王、江戸川乱歩、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31502/388 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jul 28 21:16:35 JST 2020
+End  : Tue Jul 28 21:17:14 JST 2020
