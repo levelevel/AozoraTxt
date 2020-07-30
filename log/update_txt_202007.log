@@ -1093,3 +1093,71 @@ Title Total : 31506/388 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jul 29 21:38:38 JST 2020
 End  : Wed Jul 29 21:41:25 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jul 30 21:38:48 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4749ca145b..069170ca09  master     -> origin/master
+Updating 4749ca145b..069170ca09
+Fast-forward
+ cards/000051/card59419.html                   | 234 ++++++++++++++++++++++++
+ cards/000051/files/59419_71310.html           |  67 +++++++
+ cards/000051/files/59419_ruby_71261.zip       | Bin 0 -> 2730 bytes
+ cards/000058/card57334.html                   | 234 ++++++++++++++++++++++++
+ cards/000058/files/57334_71312.html           |  66 +++++++
+ cards/000058/files/57334_ruby_71263.zip       | Bin 0 -> 1754 bytes
+ cards/000121/card60573.html                   | 235 ++++++++++++++++++++++++
+ cards/000121/files/60573_71366.html           | 101 +++++++++++
+ cards/000121/files/60573_txt_71365.zip        | Bin 0 -> 4132 bytes
+ cards/001383/card58153.html                   | 234 ++++++++++++++++++++++++
+ cards/001383/card58492.html                   | 234 ++++++++++++++++++++++++
+ cards/001383/files/58153_71313.html           | 242 +++++++++++++++++++++++++
+ cards/001383/files/58153_ruby_71264.zip       | Bin 0 -> 16465 bytes
+ cards/001383/files/58492_71311.html           |  89 ++++++++++
+ cards/001383/files/58492_ruby_71262.zip       | Bin 0 -> 8379 bytes
+ cards/001569/card59194.html                   |   2 +-
+ cards/001569/card59195.html                   |   2 +-
+ 144 files changed, 7445 insertions(+), 5724 deletions(-)
+Date: Thu Jul 30 21:39:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 29 21:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2730 Jul 30 21:39 ./aozorabunko/cards/000051/files/59419_ruby_71261.zip
+1/5: ./aozorabunko/cards/000051/files/59419_ruby_71261.zip
+>> add 59419_ruby_hotakadake.txt
+>> add 59419_ruby_utf8_hotakadake.txt
+>> https://www.aozora.gr.jp/cards/000051/card59419.html
+>> 穂高岳、幸田露伴、
+-rwxrwxrwx 1 level level 1754 Jul 30 21:39 ./aozorabunko/cards/000058/files/57334_ruby_71263.zip
+2/5: ./aozorabunko/cards/000058/files/57334_ruby_71263.zip
+>> add 57334_ruby_shiragiku.txt
+>> add 57334_ruby_utf8_shiragiku.txt
+>> https://www.aozora.gr.jp/cards/000058/card57334.html
+>> 白菊、伊藤左千夫、
+-rwxrwxrwx 1 level level 4132 Jul 30 21:39 ./aozorabunko/cards/000121/files/60573_txt_71365.zip
+3/5: ./aozorabunko/cards/000121/files/60573_txt_71365.zip
+>> add 60573_NPD_txt_buying_mittens_eiyaku.txt
+>> add 60573_NPD_txt_utf8_buying_mittens_eiyaku.txt
+>> https://www.aozora.gr.jp/cards/000121/card60573.html
+>> Buying Mittens、英訳「手袋を買いに」、NIIMI Nankichi、Retold by OKUBO Yu、
+-rwxrwxrwx 1 level level 16465 Jul 30 21:39 ./aozorabunko/cards/001383/files/58153_ruby_71264.zip
+4/5: ./aozorabunko/cards/001383/files/58153_ruby_71264.zip
+>> add 58153_ruby_the_affair_of_two_watches.txt
+>> add 58153_ruby_utf8_the_affair_of_two_watches.txt
+>> https://www.aozora.gr.jp/cards/001383/card58153.html
+>> The Affair of Two Watches、谷崎潤一郎、
+-rwxrwxrwx 1 level level 8379 Jul 30 21:39 ./aozorabunko/cards/001383/files/58492_ruby_71262.zip
+5/5: ./aozorabunko/cards/001383/files/58492_ruby_71262.zip
+>> add 58492_ruby_kyaku_girai.txt
+>> add 58492_ruby_utf8_kyaku_girai.txt
+>> https://www.aozora.gr.jp/cards/001383/card58492.html
+>> 客ぎらい、谷崎潤一郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31514/390 (Accept:5/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu Jul 30 21:38:48 JST 2020
+End  : Thu Jul 30 21:40:42 JST 2020
