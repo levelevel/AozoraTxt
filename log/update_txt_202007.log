@@ -1161,3 +1161,47 @@ Title Total : 31514/390 (Accept:5/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jul 30 21:38:48 JST 2020
 End  : Thu Jul 30 21:40:42 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jul 31 22:01:50 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   069170ca09..ee26abb6c5  master     -> origin/master
+Updating 069170ca09..ee26abb6c5
+Fast-forward
+ cards/000051/card59419.html                   |   2 +-
+ cards/000058/card57334.html                   |   2 +-
+ cards/000121/card60573.html                   |   2 +-
+ cards/001383/card58153.html                   |   2 +-
+ cards/001383/card58492.html                   |   2 +-
+ cards/001566/card58319.html                   | 229 +++++++++++++++++++++++++
+ cards/001566/card58452.html                   | 234 +++++++++++++++++++++++++
+ cards/001566/files/58319_71315.html           |  74 ++++++++
+ cards/001566/files/58319_ruby_71266.zip       | Bin 0 -> 2106 bytes
+ cards/001566/files/58452_71314.html           |  82 +++++++++
+ cards/001566/files/58452_ruby_71265.zip       | Bin 0 -> 3463 bytes
+ 139 files changed, 3393 insertions(+), 2705 deletions(-)
+Date: Fri Jul 31 22:02:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Jul 30 21:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2106 Jul 31 22:02 ./aozorabunko/cards/001566/files/58319_ruby_71266.zip
+1/2: ./aozorabunko/cards/001566/files/58319_ruby_71266.zip
+>> add 58319_ruby_izuoshimano_hanashi.txt
+>> add 58319_ruby_utf8_izuoshimano_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001566/card58319.html
+>> 伊豆大島の話、柳田國男、
+-rwxrwxrwx 1 level level 3463 Jul 31 22:02 ./aozorabunko/cards/001566/files/58452_ruby_71265.zip
+2/2: ./aozorabunko/cards/001566/files/58452_ruby_71265.zip
+>> add 58452_ruby_atenukito_iu_chimei.txt
+>> add 58452_ruby_utf8_atenukito_iu_chimei.txt
+>> https://www.aozora.gr.jp/cards/001566/card58452.html
+>> アテヌキという地名、柳田國男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31518/390 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jul 31 22:01:50 JST 2020
+End  : Fri Jul 31 22:03:25 JST 2020
