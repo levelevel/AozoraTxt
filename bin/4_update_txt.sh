@@ -13,9 +13,10 @@ verbose=1
 BIN=`dirname $0`
 . $BIN/common.sh
 
-LOG=$TARGET_ROOT/log/update_txt_`date +%Y%m`.log
+TARGET_LOGYYYY=$TARGET_LOG/`date +%Y`
 TARGET_LOGTMP=$TARGET_LOG/tmp
-mkdir -p $TARGET_LOGTMP
+mkdir -p $TARGET_LOGYYYY $TARGET_LOGTMP
+LOG=$TARGET_LOGYYYY/update_txt_`date +%Y%m`.log
 LAST_LOG=$TARGET_LOGTMP/update_txt_last.log
 GIT_MV_LOG=$TARGET_LOGTMP/update_txt_git-mv.log
 GIT_PULL_LOG=$TARGET_LOGTMP/update_txt_git-pull.log
