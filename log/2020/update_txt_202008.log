@@ -48,3 +48,67 @@ Title Total : 31524/390 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug  1 11:02:32 JST 2020
 End  : Sat Aug  1 11:03:44 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Aug  2 08:58:29 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6e24340aa5..8ecb348137  master     -> origin/master
+Updating 6e24340aa5..8ecb348137
+Fast-forward
+ cards/000067/card59330.html                   |   2 +-
+ cards/000067/card59331.html                   |   2 +-
+ cards/001579/card58042.html                   |   2 +-
+ cards/002043/card60549.html                   | 231 ++++++++++++++++++++++
+ cards/002043/files/60549_71368.html           | 268 ++++++++++++++++++++++++++
+ cards/002043/files/60549_ruby_71367.zip       | Bin 0 -> 1708504 bytes
+ 65 files changed, 1181 insertions(+), 686 deletions(-)
+Date: Sun Aug  2 08:59:33 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  1 11:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1708504 Aug  2 08:59 ./aozorabunko/cards/002043/files/60549_ruby_71367.zip
+1/1: ./aozorabunko/cards/002043/files/60549_ruby_71367.zip
+>> add 60549_NPD_ruby_chohobu_hiwa_02.txt
+>> add 60549_NPD_ruby_utf8_chohobu_hiwa_02.txt
+>> https://www.aozora.gr.jp/cards/002043/card60549.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第二話　マザロフ銃、No II THE MAZAROFF RIFLE、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31524/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun Aug  2 08:58:29 JST 2020
+End  : Sun Aug  2 09:00:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug  3 22:32:10 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8ecb348137..124b247a65  master     -> origin/master
+Updating 8ecb348137..124b247a65
+Fast-forward
+ cards/000237/card48425.html                   | 229 ++++++++++++++++++++++++++
+ cards/000237/files/48425_71439.html           |  95 +++++++++++
+ cards/000237/files/48425_ruby_71390.zip       | Bin 0 -> 12230 bytes
+ cards/002043/card60549.html                   |   2 +-
+ 72 files changed, 1498 insertions(+), 1177 deletions(-)
+Date: Mon Aug  3 22:33:33 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  2 09:00 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12230 Aug  3 22:33 ./aozorabunko/cards/000237/files/48425_ruby_71390.zip
+1/1: ./aozorabunko/cards/000237/files/48425_ruby_71390.zip
+>> add 48425_ruby_sogo_reido.txt
+>> add 48425_ruby_utf8_sogo_reido.txt
+>> https://www.aozora.gr.jp/cards/000237/card48425.html
+>> 宗吾靈堂、大町桂月、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31526/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug  3 22:32:10 JST 2020
+End  : Mon Aug  3 22:35:35 JST 2020
