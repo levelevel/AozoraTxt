@@ -112,3 +112,43 @@ Title Total : 31526/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Aug  3 22:32:10 JST 2020
 End  : Mon Aug  3 22:35:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug  4 21:21:19 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   124b247a65..e1007a432a  master     -> origin/master
+Updating 124b247a65..e1007a432a
+Fast-forward
+ cards/000019/card59998.html                   | 238 ++++++++++++++++++++++++++
+ cards/000019/card60068.html                   | 238 ++++++++++++++++++++++++++
+ cards/000019/files/59998_71440.html           | 139 +++++++++++++++
+ cards/000019/files/59998_ruby_71391.zip       | Bin 0 -> 8556 bytes
+ cards/000019/files/60068_71441.html           |  88 ++++++++++
+ cards/000019/files/60068_ruby_71392.zip       | Bin 0 -> 5871 bytes
+ cards/000237/card48425.html                   |   2 +-
+ 86 files changed, 2557 insertions(+), 1815 deletions(-)
+Date: Tue Aug  4 21:22:22 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  3 22:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8556 Aug  4 21:22 ./aozorabunko/cards/000019/files/59998_ruby_71391.zip
+1/2: ./aozorabunko/cards/000019/files/59998_ruby_71391.zip
+>> add 59998_ruby_idachanno_ohana.txt
+>> add 59998_ruby_utf8_idachanno_ohana.txt
+>> https://www.aozora.gr.jp/cards/000019/card59998.html
+>> イーダちゃんのお花、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 5871 Aug  4 21:22 ./aozorabunko/cards/000019/files/60068_ruby_71392.zip
+2/2: ./aozorabunko/cards/000019/files/60068_ruby_71392.zip
+>> add 60068_ruby_ningyo_tsukai.txt
+>> add 60068_ruby_utf8_ningyo_tsukai.txt
+>> https://www.aozora.gr.jp/cards/000019/card60068.html
+>> 人形つかい、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31530/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug  4 21:21:19 JST 2020
+End  : Tue Aug  4 21:23:39 JST 2020
