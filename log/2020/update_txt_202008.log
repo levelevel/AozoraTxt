@@ -152,3 +152,44 @@ Title Total : 31530/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug  4 21:21:19 JST 2020
 End  : Tue Aug  4 21:23:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Aug  5 22:22:36 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e1007a432a..d2ffd8673a  master     -> origin/master
+Updating e1007a432a..d2ffd8673a
+Fast-forward
+ cards/000019/card59998.html                   |    2 +-
+ cards/000019/card60068.html                   |    2 +-
+ cards/001875/card58602.html                   |  229 ++
+ cards/001875/card59830.html                   |  229 ++
+ cards/001875/files/58602_71443.html           |  286 +++
+ cards/001875/files/58602_ruby_71394.zip       |  Bin 0 -> 14132 bytes
+ cards/001875/files/59830_71442.html           |  265 +++
+ cards/001875/files/59830_ruby_71393.zip       |  Bin 0 -> 11965 bytes
+ 86 files changed, 10161 insertions(+), 3021 deletions(-)
+Date: Wed Aug  5 22:23:26 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  4 21:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14132 Aug  5 22:23 ./aozorabunko/cards/001875/files/58602_ruby_71394.zip
+1/2: ./aozorabunko/cards/001875/files/58602_ruby_71394.zip
+>> add 58602_ruby_kakino_kino_aru_ie.txt
+>> add 58602_ruby_utf8_kakino_kino_aru_ie.txt
+>> https://www.aozora.gr.jp/cards/001875/card58602.html
+>> 柿の木のある家、壺井栄、
+-rwxrwxrwx 1 level level 11965 Aug  5 22:23 ./aozorabunko/cards/001875/files/59830_ruby_71393.zip
+2/2: ./aozorabunko/cards/001875/files/59830_ruby_71393.zip
+>> add 59830_ruby_akai_sutekki.txt
+>> add 59830_ruby_utf8_akai_sutekki.txt
+>> https://www.aozora.gr.jp/cards/001875/card59830.html
+>> 赤いステッキ、壺井栄、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31534/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Aug  5 22:22:36 JST 2020
+End  : Wed Aug  5 22:24:22 JST 2020
