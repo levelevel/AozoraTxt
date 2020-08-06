@@ -234,3 +234,35 @@ Title Total : 31538/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug  6 22:22:07 JST 2020
 End  : Thu Aug  6 22:23:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Aug  7 08:18:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   36be4bdba1..156c73797f  master     -> origin/master
+Updating 36be4bdba1..156c73797f
+Fast-forward
+ cards/000293/card60447.html                   |   2 +-
+ cards/000293/card60516.html                   |   2 +-
+ cards/001670/card56292.html                   | 234 +++++++++++++
+ cards/001670/files/56292_71446.html           | 459 ++++++++++++++++++++++++++
+ cards/001670/files/56292_ruby_71397.zip       | Bin 0 -> 63849 bytes
+ 117 files changed, 3271 insertions(+), 1999 deletions(-)
+Date: Fri Aug  7 08:19:20 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  6 22:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 63849 Aug  7 08:19 ./aozorabunko/cards/001670/files/56292_ruby_71397.zip
+1/1: ./aozorabunko/cards/001670/files/56292_ruby_71397.zip
+>> add 56292_ruby_063hanamino_adauchi.txt
+>> add 56292_ruby_utf8_063hanamino_adauchi.txt
+>> https://www.aozora.gr.jp/cards/001670/card56292.html
+>> 銭形平次捕物控、花見の仇討、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31540/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Aug  7 08:18:15 JST 2020
+End  : Fri Aug  7 08:20:36 JST 2020
