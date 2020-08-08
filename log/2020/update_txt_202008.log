@@ -266,3 +266,106 @@ Title Total : 31540/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Aug  7 08:18:15 JST 2020
 End  : Fri Aug  7 08:20:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug  8 09:50:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   156c73797f..861b2c0ef7  master     -> origin/master
+Updating 156c73797f..861b2c0ef7
+Fast-forward
+ cards/000082/card1298.html                    |   2 +-
+ cards/000082/card1299.html                    |   2 +-
+ cards/000082/card1300.html                    |   2 +-
+ cards/000082/card1301.html                    |   2 +-
+ cards/000082/card1302.html                    |   2 +-
+ cards/000082/card1303.html                    |   2 +-
+ cards/000082/card2235.html                    |   2 +-
+ cards/000082/card2236.html                    |   2 +-
+ cards/000082/card2237.html                    |   2 +-
+ cards/000082/card2238.html                    |   2 +-
+ cards/000082/card2239.html                    |   2 +-
+ cards/000082/card2240.html                    |   2 +-
+ cards/000082/card2241.html                    |   2 +-
+ cards/000082/card2242.html                    |   2 +-
+ cards/000082/card2243.html                    |   2 +-
+ cards/000154/card1616.html                    |   2 +-
+ cards/000154/card1617.html                    |   2 +-
+ cards/000154/card1618.html                    |   2 +-
+ cards/000154/card1619.html                    |   2 +-
+ cards/000154/card1620.html                    |   2 +-
+ cards/000154/card1621.html                    |   2 +-
+ cards/000154/card1622.html                    |   2 +-
+ cards/000154/card1623.html                    |   2 +-
+ cards/000154/card1624.html                    |   2 +-
+ cards/000154/card1625.html                    |   2 +-
+ cards/000154/card1626.html                    |   2 +-
+ cards/000154/card1627.html                    |   2 +-
+ cards/000154/card1628.html                    |   2 +-
+ cards/000154/card1629.html                    |   2 +-
+ cards/000154/card1630.html                    |   2 +-
+ cards/000154/card1631.html                    |   2 +-
+ cards/000154/card1632.html                    |   2 +-
+ cards/000154/card1633.html                    |   2 +-
+ cards/000154/card1634.html                    |   2 +-
+ cards/000154/card1635.html                    |   2 +-
+ cards/000154/card1636.html                    |   2 +-
+ cards/000154/card1637.html                    |   2 +-
+ cards/000154/card1638.html                    |   2 +-
+ cards/000154/card1639.html                    |   2 +-
+ cards/000154/card1640.html                    |   2 +-
+ cards/000154/card1641.html                    |   2 +-
+ cards/000154/card1642.html                    |   2 +-
+ cards/000154/card1643.html                    |   2 +-
+ cards/000154/card1644.html                    |   2 +-
+ cards/000154/card1645.html                    |   2 +-
+ cards/000154/card1646.html                    |   2 +-
+ cards/000154/card1647.html                    |   2 +-
+ cards/000154/card1648.html                    |   2 +-
+ cards/000154/card1649.html                    |   2 +-
+ cards/000154/card1650.html                    |   2 +-
+ cards/000154/card1651.html                    |   2 +-
+ cards/000154/card1652.html                    |   2 +-
+ cards/000154/card1653.html                    |   2 +-
+ cards/000154/card1654.html                    |   2 +-
+ cards/000154/card1655.html                    |   2 +-
+ cards/000154/card1656.html                    |   2 +-
+ cards/000154/card1657.html                    |   2 +-
+ cards/000154/card1658.html                    |   2 +-
+ cards/000154/card1659.html                    |   2 +-
+ cards/000154/card1660.html                    |   2 +-
+ cards/000154/card1661.html                    |   2 +-
+ cards/000154/card1662.html                    |   2 +-
+ cards/000154/card4923.html                    |   2 +-
+ cards/001566/card58320.html                   | 229 ++++++++++++++++++++++++++
+ cards/001566/card58321.html                   | 229 ++++++++++++++++++++++++++
+ cards/001566/files/58320_71447.html           |  66 ++++++++
+ cards/001566/files/58320_txt_71398.zip        | Bin 0 -> 1638 bytes
+ cards/001566/files/58321_71448.html           |  67 ++++++++
+ cards/001566/files/58321_ruby_71399.zip       | Bin 0 -> 3424 bytes
+ cards/001670/card56292.html                   |   2 +-
+ 126 files changed, 2553 insertions(+), 1905 deletions(-)
+Date: Sat Aug  8 09:51:02 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug  7 08:20 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1638 Aug  8 09:50 ./aozorabunko/cards/001566/files/58320_txt_71398.zip
+1/2: ./aozorabunko/cards/001566/files/58320_txt_71398.zip
+>> add 58320_txt_setonaikaino_ama.txt
+>> add 58320_txt_utf8_setonaikaino_ama.txt
+>> https://www.aozora.gr.jp/cards/001566/card58320.html
+>> 瀬戸内海の海人、柳田國男、
+-rwxrwxrwx 1 level level 3424 Aug  8 09:50 ./aozorabunko/cards/001566/files/58321_ruby_71399.zip
+2/2: ./aozorabunko/cards/001566/files/58321_ruby_71399.zip
+>> add 58321_ruby_setonaikaino_shimajima.txt
+>> add 58321_ruby_utf8_setonaikaino_shimajima.txt
+>> https://www.aozora.gr.jp/cards/001566/card58321.html
+>> 瀬戸内海の島々、柳田國男、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31544/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug  8 09:50:13 JST 2020
+End  : Sat Aug  8 09:51:57 JST 2020
