@@ -451,3 +451,35 @@ Title Total : 31552/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Aug 10 09:59:03 JST 2020
 End  : Mon Aug 10 10:01:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug 11 08:15:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2d26a50600..4494efa798  master     -> origin/master
+Updating 2d26a50600..4494efa798
+Fast-forward
+ cards/001403/card55065.html                   |    2 +-
+ cards/001403/card55067.html                   |    2 +-
+ cards/001750/card57336.html                   |  229 +++
+ cards/001750/files/57336_71453.html           | 2598 +++++++++++++++++++++++++
+ cards/001750/files/57336_ruby_71404.zip       |  Bin 0 -> 89799 bytes
+ 44 files changed, 3556 insertions(+), 733 deletions(-)
+Date: Tue Aug 11 08:16:13 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 10 10:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 89799 Aug 11 08:16 ./aozorabunko/cards/001750/files/57336_ruby_71404.zip
+1/1: ./aozorabunko/cards/001750/files/57336_ruby_71404.zip
+>> add 57336_ruby_oyadori_kotori.txt
+>> add 57336_ruby_utf8_oyadori_kotori.txt
+>> https://www.aozora.gr.jp/cards/001750/card57336.html
+>> 親鳥子鳥、佐々木邦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31554/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug 11 08:15:17 JST 2020
+End  : Tue Aug 11 08:17:44 JST 2020
