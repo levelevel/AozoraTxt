@@ -483,3 +483,45 @@ Title Total : 31554/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug 11 08:15:17 JST 2020
 End  : Tue Aug 11 08:17:44 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Aug 12 10:32:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4494efa798..c21a68f74d  master     -> origin/master
+Updating 4494efa798..c21a68f74d
+Fast-forward
+ cards/000933/card47791.html                   |   6 +-
+ cards/001569/card59200.html                   | 234 +++++++++++++++++++++++++
+ cards/001569/card59208.html                   | 234 +++++++++++++++++++++++++
+ cards/001569/files/59200_71454.html           |  94 ++++++++++
+ cards/001569/files/59200_ruby_71405.zip       | Bin 0 -> 6657 bytes
+ cards/001569/files/59208_71455.html           | 111 ++++++++++++
+ cards/001569/files/59208_ruby_71406.zip       | Bin 0 -> 8032 bytes
+ cards/001750/card57336.html                   |   2 +-
+ cards/002043/card60548.html                   |   2 +-
+ 73 files changed, 2267 insertions(+), 1549 deletions(-)
+Date: Wed Aug 12 10:33:30 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 11 08:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6657 Aug 12 10:33 ./aozorabunko/cards/001569/files/59200_ruby_71405.zip
+1/2: ./aozorabunko/cards/001569/files/59200_ruby_71405.zip
+>> add 59200_ruby_deitanchi_sowa.txt
+>> add 59200_ruby_utf8_deitanchi_sowa.txt
+>> https://www.aozora.gr.jp/cards/001569/card59200.html
+>> 泥炭地双話、中谷宇吉郎、
+-rwxrwxrwx 1 level level 8032 Aug 12 10:33 ./aozorabunko/cards/001569/files/59208_ruby_71406.zip
+2/2: ./aozorabunko/cards/001569/files/59208_ruby_71406.zip
+>> add 59208_ruby_zerontoroji.txt
+>> add 59208_ruby_utf8_zerontoroji.txt
+>> https://www.aozora.gr.jp/cards/001569/card59208.html
+>> 老齢学、――長生きをする学問の存在――、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31558/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Aug 12 10:32:44 JST 2020
+End  : Wed Aug 12 10:34:37 JST 2020
