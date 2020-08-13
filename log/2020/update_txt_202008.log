@@ -575,3 +575,45 @@ Title Total : 31564/392 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug 13 09:05:59 JST 2020
 End  : Thu Aug 13 09:08:18 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Aug 14 08:19:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   227da782b1..7595cbe6ca  master     -> origin/master
+Updating 227da782b1..7595cbe6ca
+Fast-forward
+ cards/000232/card59507.html                   |   2 +-
+ cards/001091/card59744.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59744_71459.html           | 112 ++++++++++++
+ cards/001091/files/59744_ruby_71410.zip       | Bin 0 -> 5468 bytes
+ cards/001652/card54387.html                   |   2 +-
+ cards/001652/card54394.html                   |   2 +-
+ cards/002043/card59883.html                   |   6 +-
+ cards/002043/files/59883_68322.html           |  16 +-
+ cards/002043/files/59883_ruby_68321.zip       | Bin 3494726 -> 3494726 bytes
+ 68 files changed, 1592 insertions(+), 1240 deletions(-)
+Date: Fri Aug 14 08:20:26 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 13 09:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5468 Aug 14 08:20 ./aozorabunko/cards/001091/files/59744_ruby_71410.zip
+1/2: ./aozorabunko/cards/001091/files/59744_ruby_71410.zip
+>> add 59744_ruby_shiro_hebi.txt
+>> add 59744_ruby_utf8_shiro_hebi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59744.html
+>> 白ヘビ、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 3494726 Aug 14 08:20 ./aozorabunko/cards/002043/files/59883_ruby_68321.zip
+2/2: ./aozorabunko/cards/002043/files/59883_ruby_68321.zip
+>> update 59883_NPD_ruby_nazono_yotsuyubi.txt
+>> update 59883_NPD_ruby_utf8_nazono_yotsuyubi.txt
+>> https://www.aozora.gr.jp/cards/002043/card59883.html
+>> 謎の四つ指、The Mystery of the Four Fingers、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31566/392 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Aug 14 08:19:27 JST 2020
+End  : Fri Aug 14 08:22:38 JST 2020

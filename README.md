@@ -3,7 +3,7 @@
 
 https://github.com/aozorabunko/aozorabunko で公開されているものをベースにしています。
 
-テキストファイルだけを欲しい人は[Google Drive](https://drive.google.com/drive/folders/1rgjtxZqPQbOrpM8soGj_wFe_WNk5CStP?usp=sharing)からzipファイルを取得できます。
+テキストファイルだけを欲しい人は[Google Drive](https://drive.google.com/drive/folders/1rgjtxZqPQbOrpM8soGj_wFe_WNk5CStP?usp=sharing)からzipファイルを取得できます（不定期更新）。
 
 ## ディレクトリ構成
 - person/<作者ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
