@@ -525,3 +525,53 @@ Title Total : 31558/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug 12 10:32:44 JST 2020
 End  : Wed Aug 12 10:34:37 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 13 09:05:59 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c21a68f74d..227da782b1  master     -> origin/master
+Updating c21a68f74d..227da782b1
+Fast-forward
+ cards/000232/card59507.html                   | 234 ++++++++++++++++++++++++++
+ cards/000232/files/59507_71457.html           | 111 ++++++++++++
+ cards/000232/files/59507_ruby_71408.zip       | Bin 0 -> 14626 bytes
+ cards/001569/card59200.html                   |   2 +-
+ cards/001569/card59208.html                   |   2 +-
+ cards/001652/card54387.html                   | 229 +++++++++++++++++++++++++
+ cards/001652/card54394.html                   | 229 +++++++++++++++++++++++++
+ cards/001652/files/54387_71456.html           |  70 ++++++++
+ cards/001652/files/54387_ruby_71407.zip       | Bin 0 -> 1058 bytes
+ cards/001652/files/54394_71458.html           |  67 ++++++++
+ cards/001652/files/54394_ruby_71409.zip       | Bin 0 -> 876 bytes
+ 106 files changed, 2706 insertions(+), 1741 deletions(-)
+Date: Thu Aug 13 09:07:10 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 12 10:34 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14626 Aug 13 09:06 ./aozorabunko/cards/000232/files/59507_ruby_71408.zip
+1/3: ./aozorabunko/cards/000232/files/59507_ruby_71408.zip
+>> add 59507_ruby_ryukyushino_susei.txt
+>> add 59507_ruby_utf8_ryukyushino_susei.txt
+>> https://www.aozora.gr.jp/cards/000232/card59507.html
+>> 琉球史の趨勢、伊波普猷、
+-rwxrwxrwx 1 level level 1058 Aug 13 09:06 ./aozorabunko/cards/001652/files/54387_ruby_71407.zip
+2/3: ./aozorabunko/cards/001652/files/54387_ruby_71407.zip
+>> add 54387_ruby_machi.txt
+>> add 54387_ruby_utf8_machi.txt
+>> https://www.aozora.gr.jp/cards/001652/card54387.html
+>> 街、※［＃始め二重山括弧、1-1-52］或る友に※［＃終わり二重山括弧、1-1-53］、森川義信、
+-rwxrwxrwx 1 level level 876 Aug 13 09:06 ./aozorabunko/cards/001652/files/54394_ruby_71409.zip
+3/3: ./aozorabunko/cards/001652/files/54394_ruby_71409.zip
+>> add 54394_ruby_tabibitono_uta.txt
+>> add 54394_ruby_utf8_tabibitono_uta.txt
+>> https://www.aozora.gr.jp/cards/001652/card54394.html
+>> 旅人の唄、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31564/392 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug 13 09:05:59 JST 2020
+End  : Thu Aug 13 09:08:18 JST 2020
