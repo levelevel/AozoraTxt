@@ -19,7 +19,7 @@ with open(os.path.dirname(__file__)+'/jisx0213-2004-std.txt') as f:
     gaiji_table = {m[1]: get_chr(m) for m in ms if m}
 
 def is_special(c):
-    return c in '《》［］〔〕｜＃※'
+    return c in '《》［］〔〕｜※'
 
 def get_gaiji(s):
     # ※［＃感嘆符二つ、1-8-75］
