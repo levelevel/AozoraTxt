@@ -36,13 +36,13 @@ https://www.aozora.gr.jp/cards/<作者ID>/card<作品ID>.html
 - ‼　：　※［＃感嘆符二つ、1-8-75］
 
 以下のような青空文庫記法における特殊文字はUnicode変換の対象外となっています。
-- 《　：　※［＃始め二重山括弧、1-1-52］　（ルビ）
+- 《　：　※［＃始め二重山括弧、1-1-52］　（[ルビ](https://www.aozora.gr.jp/annotation/etc.html#ruby)）
 - 》　：　※［＃終わり二重山括弧、1-1-53］（ルビ）
-- ［　：　※［＃始め角括弧、1-1-46］   （注記）
+- ［　：　※［＃始め角括弧、1-1-46］   （[注記](https://www.aozora.gr.jp/annotation/)）
 - ］　：　※［＃終わり角括弧、1-1-47］ （注記）
-- 〔　：　※［＃始めきっこう（亀甲）括弧、1-1-44］　（アクセント分解）
+- 〔　：　※［＃始めきっこう（亀甲）括弧、1-1-44］　（[アクセント分解](https://www.aozora.gr.jp/annotation/external_character.html#accent)）
 - 〕　：　※［＃終わりきっこう（亀甲）括弧、1-1-45］（アクセント分解）
 - ｜　：　※［＃縦線、1-1-35］　（ルビ）
-- ※　：　※［＃米印、1-2-8］　（外字）
+- ※　：　※［＃米印、1-2-8］　（[外字](https://www.aozora.gr.jp/annotation/external_character.html)）
 
-「／＼」や「／″＼」のような青空文庫記法の踊り字もUnicodeへ変換は可能ですがそのまま残してあります。
+「／＼」や「／″＼」のような青空文庫記法の踊り字（[くの字点](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97#%E3%80%B1%EF%BC%88%E3%81%8F%E3%81%AE%E5%AD%97%E7%82%B9%EF%BC%89)）もUnicodeへ変換は可能ですがそのまま残してあります。
