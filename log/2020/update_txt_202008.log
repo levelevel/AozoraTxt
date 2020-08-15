@@ -617,3 +617,61 @@ Title Total : 31566/392 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Aug 14 08:19:27 JST 2020
 End  : Fri Aug 14 08:22:38 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 15 09:24:01 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7595cbe6ca..9e239fa33e  master     -> origin/master
+Updating 7595cbe6ca..9e239fa33e
+Fast-forward
+ cards/000009/card54913.html                   |   6 +-
+ cards/000009/card54914.html                   |   8 +-
+ cards/000009/files/54913_47224.html           |  13 +-
+ cards/000009/files/54913_ruby_47223.zip       | Bin 2535716 -> 2535716 bytes
+ cards/000009/files/54914_47226.html           |  13 +-
+ cards/000009/files/54914_ruby_47225.zip       | Bin 1815242 -> 1815261 bytes
+ cards/001091/card59744.html                   |   2 +-
+ cards/001235/card47213.html                   |   8 +-
+ cards/001235/files/47213_28180.html           |  11 +-
+ cards/001235/files/47213_txt_28179.zip        | Bin 4417 -> 4439 bytes
+ cards/001652/card54390.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/files/54390_71460.html           |  65 ++++++++
+ cards/001652/files/54390_txt_71411.zip        | Bin 0 -> 738 bytes
+ 93 files changed, 1363 insertions(+), 1009 deletions(-)
+Date: Sat Aug 15 09:24:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 14 08:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2535716 Aug 15 09:24 ./aozorabunko/cards/000009/files/54913_ruby_47223.zip
+1/4: ./aozorabunko/cards/000009/files/54913_ruby_47223.zip
+>> update 54913_NPD_ruby_reigate_puzzle.txt
+>> update 54913_NPD_ruby_utf8_reigate_puzzle.txt
+>> https://www.aozora.gr.jp/cards/000009/card54913.html
+>> ライギット・パズル、THE REIGATE PUZZLE、アーサー・コナン・ドイル　Arthur Conan Doyle、三上於菟吉訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 1815261 Aug 15 09:24 ./aozorabunko/cards/000009/files/54914_ruby_47225.zip
+2/4: ./aozorabunko/cards/000009/files/54914_ruby_47225.zip
+>> update 54914_NPD_ruby_jitenshanorino_kage.txt
+>> update 54914_NPD_ruby_utf8_jitenshanorino_kage.txt
+>> https://www.aozora.gr.jp/cards/000009/card54914.html
+>> 自転車乗りの影、THE ADVENTURE OF THE SOLITARY CYCLIST、アーサー・コナン・ドイル　Arthur Conan Doyle、三上於菟吉訳、大久保ゆう改訳、
+-rwxrwxrwx 1 level level 4439 Aug 15 09:24 ./aozorabunko/cards/001235/files/47213_txt_28179.zip
+3/4: ./aozorabunko/cards/001235/files/47213_txt_28179.zip
+>> update 47213_NPD_txt_dorino_maede.txt
+>> update 47213_NPD_txt_utf8_dorino_maede.txt
+>> https://www.aozora.gr.jp/cards/001235/card47213.html
+>> 道理の前で、VOR DEM GESETZ、フランツ・カフカ　Franz Kafka、大久保ゆう訳、
+-rwxrwxrwx 1 level level 738 Aug 15 09:24 ./aozorabunko/cards/001652/files/54390_txt_71411.zip
+4/4: ./aozorabunko/cards/001652/files/54390_txt_71411.zip
+>> add 54390_txt_zanzo.txt
+>> add 54390_txt_utf8_zanzo.txt
+>> https://www.aozora.gr.jp/cards/001652/card54390.html
+>> 残像、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31568/392 (Accept:4/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Sat Aug 15 09:24:01 JST 2020
+End  : Sat Aug 15 09:25:27 JST 2020
