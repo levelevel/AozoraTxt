@@ -827,3 +827,35 @@ Title Total : 31574/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Aug 17 20:10:09 JST 2020
 End  : Mon Aug 17 20:13:11 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Aug 18 08:10:55 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a2446e5660..c63ecf6fdf  master     -> origin/master
+Updating a2446e5660..c63ecf6fdf
+Fast-forward
+ cards/001670/card56370.html                   | 234 +++++++++++++
+ cards/001670/files/56370_71464.html           | 436 ++++++++++++++++++++++++
+ cards/001670/files/56370_ruby_71415.zip       | Bin 0 -> 16763 bytes
+ cards/001931/card59116.html                   |   2 +-
+ cards/001938/card59081.html                   |   2 +-
+ 57 files changed, 2043 insertions(+), 1829 deletions(-)
+Date: Tue Aug 18 08:11:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 17 20:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16763 Aug 18 08:11 ./aozorabunko/cards/001670/files/56370_ruby_71415.zip
+1/1: ./aozorabunko/cards/001670/files/56370_ruby_71415.zip
+>> add 56370_ruby_111katonno_jutsu.txt
+>> add 56370_ruby_utf8_111katonno_jutsu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56370.html
+>> 銭形平次捕物控、火遁の術、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31576/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Aug 18 08:10:55 JST 2020
+End  : Tue Aug 18 08:12:10 JST 2020
