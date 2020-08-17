@@ -706,3 +706,124 @@ Title Total : 31570/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug 16 09:09:15 JST 2020
 End  : Sun Aug 16 09:11:00 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug 17 20:10:09 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f58f9726e9..a2446e5660  master     -> origin/master
+Updating f58f9726e9..a2446e5660
+Fast-forward
+ cards/000019/card42386.html                   |   2 +-
+ cards/000083/card1038.html                    |   2 +-
+ cards/000083/card1039.html                    |   2 +-
+ cards/000083/card1051.html                    |   2 +-
+ cards/000083/card1090.html                    |   2 +-
+ cards/000083/card1101.html                    |   2 +-
+ cards/000083/card13217.html                   |   2 +-
+ cards/000083/card1339.html                    |   2 +-
+ cards/000083/card1340.html                    |   2 +-
+ cards/000083/card1341.html                    |   2 +-
+ cards/000083/card1342.html                    |   2 +-
+ cards/000083/card1343.html                    |   2 +-
+ cards/000083/card1344.html                    |   2 +-
+ cards/000083/card1355.html                    |   2 +-
+ cards/000083/card1356.html                    |   2 +-
+ cards/000083/card1357.html                    |   2 +-
+ cards/000083/card1358.html                    |   2 +-
+ cards/000083/card1359.html                    |   2 +-
+ cards/000083/card1360.html                    |   2 +-
+ cards/000083/card1361.html                    |   2 +-
+ cards/000083/card1362.html                    |   2 +-
+ cards/000083/card1363.html                    |   2 +-
+ cards/000083/card1364.html                    |   2 +-
+ cards/000083/card1365.html                    |   2 +-
+ cards/000083/card1366.html                    |   2 +-
+ cards/000083/card1367.html                    |   2 +-
+ cards/000083/card1368.html                    |   2 +-
+ cards/000083/card1369.html                    |   2 +-
+ cards/000083/card1370.html                    |   2 +-
+ cards/000083/card1386.html                    |   2 +-
+ cards/000083/card1387.html                    |   2 +-
+ cards/000083/card1388.html                    |   2 +-
+ cards/000083/card2695.html                    |   2 +-
+ cards/000083/card3033.html                    |   2 +-
+ cards/000083/card3329.html                    |   2 +-
+ cards/000083/card43057.html                   |   2 +-
+ cards/000083/card43058.html                   |   2 +-
+ cards/000083/card4306.html                    |   2 +-
+ cards/000083/card43073.html                   |   2 +-
+ cards/000083/card43121.html                   |   2 +-
+ cards/000083/card43122.html                   |   2 +-
+ cards/000083/card43123.html                   |   2 +-
+ cards/000083/card43270.html                   |   2 +-
+ cards/000083/card46289.html                   |   2 +-
+ cards/000083/card46591.html                   |   2 +-
+ cards/000083/card47856.html                   |   2 +-
+ cards/000083/card47857.html                   |   2 +-
+ cards/000083/card47858.html                   |   2 +-
+ cards/000083/card48206.html                   |   2 +-
+ cards/000083/card4822.html                    |   2 +-
+ cards/000083/card485.html                     |   2 +-
+ cards/000083/card486.html                     |   2 +-
+ cards/000083/card487.html                     |   2 +-
+ cards/000083/card488.html                     |   2 +-
+ cards/000083/card489.html                     |   2 +-
+ cards/000083/card490.html                     |   2 +-
+ cards/000083/card491.html                     |   2 +-
+ cards/000083/card492.html                     |   2 +-
+ cards/000083/card493.html                     |   2 +-
+ cards/000083/card494.html                     |   2 +-
+ cards/000083/card495.html                     |   2 +-
+ cards/000083/card496.html                     |   2 +-
+ cards/000083/card497.html                     |   2 +-
+ cards/000083/card498.html                     |   2 +-
+ cards/000083/card499.html                     |   2 +-
+ cards/000083/card500.html                     |   2 +-
+ cards/000083/card501.html                     |   2 +-
+ cards/000083/card502.html                     |   2 +-
+ cards/000083/card503.html                     |   2 +-
+ cards/000083/card504.html                     |   2 +-
+ cards/000083/card50447.html                   |   2 +-
+ cards/000083/card50449.html                   |   2 +-
+ cards/000083/card505.html                     |   2 +-
+ cards/000083/card55989.html                   |   2 +-
+ cards/000083/card59173.html                   |   2 +-
+ cards/000083/card59384.html                   |   2 +-
+ cards/000361/card42941.html                   |   2 +-
+ cards/001044/card4880.html                    |   2 +-
+ cards/001045/card4881.html                    |   2 +-
+ cards/001091/card42308.html                   |   2 +-
+ cards/001121/card46187.html                   |   2 +-
+ cards/001869/card57770.html                   |   2 +-
+ cards/001931/card59116.html                   | 234 ++++++++++++++++++++++++++
+ cards/001931/files/59116_71462.html           |  77 +++++++++
+ cards/001931/files/59116_ruby_71413.zip       | Bin 0 -> 2625 bytes
+ cards/001938/card59081.html                   | 234 ++++++++++++++++++++++++++
+ cards/001938/files/59081_71463.html           |  82 +++++++++
+ cards/001938/files/59081_txt_71414.zip        | Bin 0 -> 2107 bytes
+ 144 files changed, 2596 insertions(+), 1972 deletions(-)
+Date: Mon Aug 17 20:11:11 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 16 09:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2625 Aug 17 20:11 ./aozorabunko/cards/001931/files/59116_ruby_71413.zip
+1/2: ./aozorabunko/cards/001931/files/59116_ruby_71413.zip
+>> add 59116_ruby_07hokuetsu_seppu_chukai.txt
+>> add 59116_ruby_utf8_07hokuetsu_seppu_chukai.txt
+>> https://www.aozora.gr.jp/cards/001931/card59116.html
+>> 北越雪譜、註解、岡田武松、
+-rwxrwxrwx 1 level level 2107 Aug 17 20:11 ./aozorabunko/cards/001938/files/59081_txt_71414.zip
+2/2: ./aozorabunko/cards/001938/files/59081_txt_71414.zip
+>> add 59081_txt_fukinoto.txt
+>> add 59081_txt_utf8_fukinoto.txt
+>> https://www.aozora.gr.jp/cards/001938/card59081.html
+>> 蕗の薹、新村出、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31574/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug 17 20:10:09 JST 2020
+End  : Mon Aug 17 20:13:11 JST 2020
