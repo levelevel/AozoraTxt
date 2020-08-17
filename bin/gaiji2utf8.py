@@ -22,7 +22,18 @@ def is_special(c):
     return c in '《》［］〔〕｜※'
 
 def get_gaiji(s):
+    # ※［＃「馬＋「柳の本字、第4水準2-14-72」のつくり」、U+99F5、ページ数-行数］
+    # ↑のようなケースがあるので句点コードよりもUnicodeを優先する
+    # Unicode: ※［＃「皷／冬」、U+2DF78、111-下-17］
+    m = re.search(r'U[+＋](\w{4,5})', s)
+    if m:
+        c = chr(int(m[1], 16))
+        if is_special(c):
+            return s
+        return c
+    # 句点コード:
     # ※［＃感嘆符二つ、1-8-75］
+    # ※［＃「流のつくり」、第4水準2-1-18］
     m = re.search(r'[^\d]([12])-(\d{1,2})-(\d{1,2})', s)
     if m:
         key = f'{int(m[1])+2}-{int(m[2])+32:2X}{int(m[3])+32:2X}'
@@ -30,18 +41,12 @@ def get_gaiji(s):
         if is_special(c):
             return s
         return c
-    # ※［＃「皷／冬」、U+2DF78、111-下-17］
-    m = re.search(r'U\+(\w{4,5})', s)
-    if m:
-        c = chr(int(m[1], 16))
-        if is_special(c):
-            return s
-        return c
     # unknown format
     return s
 
 def sub_gaiji(text):
-    text = re.sub(r'※［＃.+?］', lambda m: get_gaiji(m[0]), text)
+    text = re.sub(r'※［＃(※［＃[^］]+］|[^］])*］', lambda m: get_gaiji(m[0]), text)
+    #text = re.sub(r'※［＃.+?］', lambda m: get_gaiji(m[0]), text)
     #text = re.sub('／＼', '〳〵', text)
     #text = re.sub('／″＼', '〴〵', text)
     return text
