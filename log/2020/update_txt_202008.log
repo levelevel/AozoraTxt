@@ -890,3 +890,52 @@ Title Total : 31578/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug 19 22:08:25 JST 2020
 End  : Wed Aug 19 22:10:46 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 20 08:11:22 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   68cde5958a..d815c65a15  master     -> origin/master
+Updating 68cde5958a..d815c65a15
+Fast-forward
+ cards/000214/card48866.html                   |   2 +-
+ cards/001597/card53703.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/card53704.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/card53705.html                   | 234 ++++++++++++++++++++++++++
+ cards/001597/files/53703_71466.html           |  73 ++++++++
+ cards/001597/files/53703_txt_71417.zip        | Bin 0 -> 924 bytes
+ cards/001597/files/53704_71467.html           |  67 ++++++++
+ cards/001597/files/53704_txt_71418.zip        | Bin 0 -> 1047 bytes
+ cards/001597/files/53705_71468.html           |  75 +++++++++
+ cards/001597/files/53705_txt_71419.zip        | Bin 0 -> 1579 bytes
+ 65 files changed, 1935 insertions(+), 1028 deletions(-)
+Date: Thu Aug 20 08:12:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 19 22:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 924 Aug 20 08:12 ./aozorabunko/cards/001597/files/53703_txt_71417.zip
+1/3: ./aozorabunko/cards/001597/files/53703_txt_71417.zip
+>> add 53703_txt_senni_kansuru_oboegaki_3.txt
+>> add 53703_txt_utf8_senni_kansuru_oboegaki_3.txt
+>> https://www.aozora.gr.jp/cards/001597/card53703.html
+>> 線に関する覚書３、李箱、
+-rwxrwxrwx 1 level level 1047 Aug 20 08:12 ./aozorabunko/cards/001597/files/53704_txt_71418.zip
+2/3: ./aozorabunko/cards/001597/files/53704_txt_71418.zip
+>> add 53704_txt_senni_kansuru_oboegaki_4.txt
+>> add 53704_txt_utf8_senni_kansuru_oboegaki_4.txt
+>> https://www.aozora.gr.jp/cards/001597/card53704.html
+>> 線に関する覚書４、李箱、
+-rwxrwxrwx 1 level level 1579 Aug 20 08:12 ./aozorabunko/cards/001597/files/53705_txt_71419.zip
+3/3: ./aozorabunko/cards/001597/files/53705_txt_71419.zip
+>> add 53705_txt_senni_kansuru_oboegaki_5.txt
+>> add 53705_txt_utf8_senni_kansuru_oboegaki_5.txt
+>> https://www.aozora.gr.jp/cards/001597/card53705.html
+>> 線に関する覚書５、李箱、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31584/392 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug 20 08:11:22 JST 2020
+End  : Thu Aug 20 08:12:51 JST 2020
