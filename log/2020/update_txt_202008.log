@@ -939,3 +939,36 @@ Title Total : 31584/392 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug 20 08:11:22 JST 2020
 End  : Thu Aug 20 08:12:51 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Aug 21 08:25:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d815c65a15..68d7af9771  master     -> origin/master
+Updating d815c65a15..68d7af9771
+Fast-forward
+ cards/001597/card53703.html                   |   2 +-
+ cards/001597/card53704.html                   |   2 +-
+ cards/001597/card53705.html                   |   2 +-
+ cards/001869/card57584.html                   | 229 +++++++++++++++
+ cards/001869/files/57584_71469.html           | 399 ++++++++++++++++++++++++++
+ cards/001869/files/57584_ruby_71420.zip       | Bin 0 -> 30738 bytes
+ 71 files changed, 2952 insertions(+), 2311 deletions(-)
+Date: Fri Aug 21 08:26:45 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 20 08:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 30738 Aug 21 08:26 ./aozorabunko/cards/001869/files/57584_ruby_71420.zip
+1/1: ./aozorabunko/cards/001869/files/57584_ruby_71420.zip
+>> add 57584_ruby_ochibaiki.txt
+>> add 57584_ruby_utf8_ochibaiki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57584.html
+>> 落ち梅記、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31586/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Aug 21 08:25:40 JST 2020
+End  : Fri Aug 21 08:27:49 JST 2020
