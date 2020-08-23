@@ -1003,3 +1003,44 @@ Title Total : 31588/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug 22 09:17:23 JST 2020
 End  : Sat Aug 22 09:19:34 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Aug 23 09:10:43 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6f102b4215..da5ab1adf4  master     -> origin/master
+Updating 6f102b4215..da5ab1adf4
+Fast-forward
+ cards/001569/card53490.html                   |    2 +-
+ cards/001569/card59188.html                   |    2 +-
+ cards/001749/card59083.html                   |  234 ++++
+ cards/001749/card59320.html                   |  234 ++++
+ cards/001749/files/59083_71470.html           | 1763 +++++++++++++++++++++++++
+ cards/001749/files/59083_ruby_71421.zip       |  Bin 0 -> 22334 bytes
+ cards/001749/files/59320_71471.html           |  168 +++
+ cards/001749/files/59320_ruby_71422.zip       |  Bin 0 -> 1627 bytes
+ 82 files changed, 5164 insertions(+), 2634 deletions(-)
+Date: Sun Aug 23 09:11:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 22 09:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 22334 Aug 23 09:11 ./aozorabunko/cards/001749/files/59083_ruby_71421.zip
+1/2: ./aozorabunko/cards/001749/files/59083_ruby_71421.zip
+>> add 59083_ruby_rakudano_kobuni_matagatte.txt
+>> add 59083_ruby_utf8_rakudano_kobuni_matagatte.txt
+>> https://www.aozora.gr.jp/cards/001749/card59083.html
+>> 駱駝の瘤にまたがつて、三好達治、
+-rwxrwxrwx 1 level level 1627 Aug 23 09:11 ./aozorabunko/cards/001749/files/59320_ruby_71422.zip
+2/2: ./aozorabunko/cards/001749/files/59320_ruby_71422.zip
+>> add 59320_ruby_wagamichi_yukamu.txt
+>> add 59320_ruby_utf8_wagamichi_yukamu.txt
+>> https://www.aozora.gr.jp/cards/001749/card59320.html
+>> わが路ゆかむ、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31592/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Aug 23 09:10:43 JST 2020
+End  : Sun Aug 23 09:12:18 JST 2020
