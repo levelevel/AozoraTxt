@@ -1044,3 +1044,44 @@ Title Total : 31592/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug 23 09:10:43 JST 2020
 End  : Sun Aug 23 09:12:18 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug 24 21:33:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   da5ab1adf4..a35d312b01  master     -> origin/master
+Updating da5ab1adf4..a35d312b01
+Fast-forward
+ cards/000933/card47788.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47814.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47788_71473.html           |  68 ++++++++
+ cards/000933/files/47788_txt_71424.zip        | Bin 0 -> 1939 bytes
+ cards/000933/files/47814_71472.html           | 126 ++++++++++++++
+ cards/000933/files/47814_ruby_71423.zip       | Bin 0 -> 15498 bytes
+ cards/001749/card59083.html                   |   2 +-
+ cards/001749/card59320.html                   |   2 +-
+ 63 files changed, 2762 insertions(+), 2044 deletions(-)
+Date: Mon Aug 24 21:35:06 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 23 09:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1939 Aug 24 21:34 ./aozorabunko/cards/000933/files/47788_txt_71424.zip
+1/2: ./aozorabunko/cards/000933/files/47788_txt_71424.zip
+>> add 47788_txt_oiwato_yomoshichi.txt
+>> add 47788_txt_utf8_oiwato_yomoshichi.txt
+>> https://www.aozora.gr.jp/cards/000933/card47788.html
+>> お岩と与茂七、折口信夫、
+-rwxrwxrwx 1 level level 15498 Aug 24 21:34 ./aozorabunko/cards/000933/files/47814_ruby_71423.zip
+2/2: ./aozorabunko/cards/000933/files/47814_ruby_71423.zip
+>> add 47814_ruby_natsu_shibai.txt
+>> add 47814_ruby_utf8_natsu_shibai.txt
+>> https://www.aozora.gr.jp/cards/000933/card47814.html
+>> 夏芝居、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31596/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug 24 21:33:45 JST 2020
+End  : Mon Aug 24 21:36:18 JST 2020
