@@ -61,7 +61,7 @@ else
 fi
 
 GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"
-SJIS2UTF8="iconv -f CP932 -t utf8"
+SJIS2UTF8="iconv -f CP932 -t utf8 -c"
 if [ "$WINDIR" != "" ]; then
 	UNZIP="$WINDIR/Program Files/7-Zip/7z.exe"
 	UNZIP_OPT="x -y -o$TMP"
