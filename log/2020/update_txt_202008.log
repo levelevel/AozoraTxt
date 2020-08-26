@@ -1157,3 +1157,35 @@ Title Total : 31602/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug 26 22:08:37 JST 2020
 End  : Wed Aug 26 22:10:43 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 27 07:26:33 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   10ad8ca27c..4b63f5cab3  master     -> origin/master
+Updating 10ad8ca27c..4b63f5cab3
+Fast-forward
+ cards/001475/card52982.html                   |   2 +-
+ cards/001475/card53155.html                   |   2 +-
+ cards/001670/card56353.html                   | 234 +++++++++++++
+ cards/001670/files/56353_71477.html           | 464 ++++++++++++++++++++++++++
+ cards/001670/files/56353_ruby_71428.zip       | Bin 0 -> 15102 bytes
+ 61 files changed, 2082 insertions(+), 1388 deletions(-)
+Date: Thu Aug 27 07:27:16 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 26 22:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15102 Aug 27 07:27 ./aozorabunko/cards/001670/files/56353_ruby_71428.zip
+1/1: ./aozorabunko/cards/001670/files/56353_ruby_71428.zip
+>> add 56353_ruby_112kitsuneno_yomeiri.txt
+>> add 56353_ruby_utf8_112kitsuneno_yomeiri.txt
+>> https://www.aozora.gr.jp/cards/001670/card56353.html
+>> 銭形平次捕物控、狐の嫁入、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31602/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug 27 07:26:33 JST 2020
+End  : Thu Aug 27 07:27:39 JST 2020
