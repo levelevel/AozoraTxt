@@ -1117,3 +1117,43 @@ Title Total : 31598/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug 25 08:53:11 JST 2020
 End  : Tue Aug 25 08:54:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Aug 26 22:08:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8a010c7dd4..10ad8ca27c  master     -> origin/master
+Updating 8a010c7dd4..10ad8ca27c
+Fast-forward
+ cards/001224/card46116.html                   |   2 +-
+ cards/001475/card52982.html                   | 229 ++++++++++++++++++++++++++
+ cards/001475/card53155.html                   | 229 ++++++++++++++++++++++++++
+ cards/001475/files/52982_71475.html           | 105 ++++++++++++
+ cards/001475/files/52982_ruby_71426.zip       | Bin 0 -> 5128 bytes
+ cards/001475/files/53155_71476.html           | 140 ++++++++++++++++
+ cards/001475/files/53155_ruby_71427.zip       | Bin 0 -> 10012 bytes
+ 155 files changed, 3151 insertions(+), 2379 deletions(-)
+Date: Wed Aug 26 22:10:00 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 25 08:54 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5128 Aug 26 22:09 ./aozorabunko/cards/001475/files/52982_ruby_71426.zip
+1/2: ./aozorabunko/cards/001475/files/52982_ruby_71426.zip
+>> add 52982_ruby_hanasaku_shimano_hanashi.txt
+>> add 52982_ruby_utf8_hanasaku_shimano_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52982.html
+>> 花咲く島の話、小川未明、
+-rwxrwxrwx 1 level level 10012 Aug 26 22:09 ./aozorabunko/cards/001475/files/53155_ruby_71427.zip
+2/2: ./aozorabunko/cards/001475/files/53155_ruby_71427.zip
+>> add 53155_ruby_ten.txt
+>> add 53155_ruby_utf8_ten.txt
+>> https://www.aozora.gr.jp/cards/001475/card53155.html
+>> 点、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31602/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Aug 26 22:08:37 JST 2020
+End  : Wed Aug 26 22:10:43 JST 2020
