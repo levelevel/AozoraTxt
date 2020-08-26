@@ -110,7 +110,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 【例題三】これは國民學校の一年生でもできるであらう。一位からやつて行く。
 
 　□８４５６２
-−　８□１□３
+－　８□１□３
 ―――――――
 　６□７□７□
 
@@ -122,7 +122,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 　十萬の位の□は７である。なぜなら下へ１を貸してあつて、答は６となつてゐるから、７にちがひない。これで出來た。下のやうになる。
 
 　７８４５６２
-−　８７１８３
+－　８７１８３
 ―――――――
 　６９７３７９
 
@@ -258,7 +258,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 　　　　　――――
 　　　　　　　ＭＩ
 
-　さあ、こんどはどこに第二の鍵を發見すべきであらうか。うん、これだ。三段目の右端のＳが曲者である。このＳの上はＰである。またこのＳの下も同じＰである。ＰからＳを引いて答はＰだ。P−S＝P。これは變な關係だ。いや變ではない。かういふ關係はＳが零のときのみに成立つ。これでいい。第二の鍵はこのＳが０であることだつた。
+　さあ、こんどはどこに第二の鍵を發見すべきであらうか。うん、これだ。三段目の右端のＳが曲者である。このＳの上はＰである。またこのＳの下も同じＰである。ＰからＳを引いて答はＰだ。P－S＝P。これは變な關係だ。いや變ではない。かういふ關係はＳが零のときのみに成立つ。これでいい。第二の鍵はこのＳが０であることだつた。
 　そこで運算書の中のＳを０として再び書き改める。これで大分明るく［＃「明るく」は底本では「明る」］なつた。
 　いや、まだ安心するのは早い。前途にどんな難關が横たはつてゐるか分らない。
 
@@ -487,7 +487,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （２）
 
 　８□７４□
-−　６□２３
+－　６□２３
 ――――――
 　□１１□６
 
@@ -528,7 +528,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （１）
 
 　　　５２６
-　−　□７□
+　－　□７□
 ――――――
 　　　３４７
 
@@ -701,7 +701,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （２）
 
 　　　□８４５６２
-　−　　８□１□３
+　－　　８□１□３
 ―――――――――
 　　　６□７□７□
 
@@ -755,7 +755,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （２）
 
 　　　５４８３□
-　−　□□２□□
+　－　□□２□□
 ――――――――
 　　　　９６３９
 
@@ -868,11 +868,11 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （２）
 
 　　　４□□□４
-　−　□９４７□
+　－　□９４７□
 ――――――――
 　　　２６２０５
 
-［＃「−」は底本では「＋」］
+［＃「－」は底本では「＋」］
 
 （３）
 
@@ -1111,7 +1111,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （３）
 
 　　　Ａ３Ｂ
-　−　３ＢＡ
+　－　３ＢＡ
 ――――――
 　　　１８９
 
@@ -1391,7 +1391,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （１）
 
 　　　□□Ｅ７
-　−　　ＮＮＮ
+　－　　ＮＮＮ
 ―――――――
 　　　　ＥＥＥ
 
@@ -1842,7 +1842,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （１）
 
 　　　ＡＢ７
-　−　７ＢＡ
+　－　７ＢＡ
 ――――――
 　　　１ＡＢ
 
@@ -1900,7 +1900,7 @@ A.S.E.Ackermann,“Scientific Paradoxes and Problems”
 （１）
 
 　　　ＡＢＣ
-　−　ＣＢＡ
+　－　ＣＢＡ
 ――――――
 　　　３ＢＡ
 

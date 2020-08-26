@@ -39,7 +39,7 @@ http://www.aozora.gr.jp/accent_separation.html
 　Rutherford が Cavendish Laboratory の長として Cambridge に居た頃は，Bohr は大抵１年に一度か２年に二度海を渡つて Rutherford を訪問し，Cavendish Laboratory で講演したりなどして居た．現に筆者が初めて Bohr に會つたのは，1922年３月 Cavendish Laboratory に於てであつた．
 　話が岐路に走つたが，Bohr が Manchester に行つた時は，恰度 Rutherford がα粒子の散亂に關する實驗結果からして，實驗的に長岡博士の模型即ち核原子の模型に到達し，これを提唱した直後であつた．此模型は周知の通り今日の原子構造論の礎石を置いたもので，惹いては現下の元素の人工變換に導いて行つたのである．今日から見ればこれは大して破天荒の着想とも考へられないかも知れないが，それは後からの話で，其頃物理學界を風靡して居た J. J. Thomson の模型，即ち陽電氣の雲塊の中に電子が浮かんで居るものに比べると，全く新しい洞察であつた．
 　此核原子の模型によつて放射性元素の問題にも色々の曙光を認めた．此點に就ても先鞭を着けたのは Bohr であつたが，實をいふと Bohr の立場は更に高い所にあつた．即ち此模型の眞實性を確信し，これにより原子，分子の構造を明かにし，一般的物性の依て來る處を説明しようとするのであつて，放射性元素について其當時問題となつた事は其一端に過ぎなかつた．從つて滯英中これ等のことに就いては何の發表をもしないで歸國した．
-　丁抹に歸つた冬即ち1912-1913年の冬の學期には，講師として講義をし乍ら此問題の研究に沒頭した．そして原子の出すスペクトルの究明に着手して茲に不朽の業績を樹てたのである．それは周知の通り前記の核原子模型に Planck の作用量子の假定を適用する事により，古典論では説明の付かなかつた水素の原子スペクトルを理論的に解いたのである．これは雜誌 Phil. Mag. 1913年７〜11月號 (5)(6)(7)［＃「(5)(6)(7)」は上付き小文字］ に３囘に亙つて發表せられて居る．其骨子はよく知られて居る通り古典論では律し得ない二つの基礎假定＊［＃「＊」は上付き小文字］にある．此假定は今日の量子論に於ても結果として其儘殘るものである．
+　丁抹に歸つた冬即ち1912-1913年の冬の學期には，講師として講義をし乍ら此問題の研究に沒頭した．そして原子の出すスペクトルの究明に着手して茲に不朽の業績を樹てたのである．それは周知の通り前記の核原子模型に Planck の作用量子の假定を適用する事により，古典論では説明の付かなかつた水素の原子スペクトルを理論的に解いたのである．これは雜誌 Phil. Mag. 1913年７～11月號 (5)(6)(7)［＃「(5)(6)(7)」は上付き小文字］ に３囘に亙つて發表せられて居る．其骨子はよく知られて居る通り古典論では律し得ない二つの基礎假定＊［＃「＊」は上付き小文字］にある．此假定は今日の量子論に於ても結果として其儘殘るものである．
 　此 Bohr の原子論に就いて述ぶべき事が二つある．第一は其當時の理論は所謂古典的量子論であつて，原子の定常状態のエネルギーを算出するには古典論を用ひるが，定常状態の規定並に定常状態の間の遷移には，古典論と相容れない上述の二假定を用ひるのであるから，理論としては一貫性を缺いだ不滿足のものである．そして此二假定も今日の量子論からは自然に導き出されるものであるから，Bohr 理論は今日の量子論の生みの親であつたといふ歴史的價値以外には，理論としては最早今日何の價値もないものであるといふ議論を聞くが，これは妥當な見解とは云へない．
 　勿論定量的の問題を解くに當つては，Bohr 理論は凡て今日の量子力學によつて置き代へらるべきであるといふことに異論はない．然し原子内の電子の行動について，吾人のもつて居る概念を用ひてこれを表現しようとすると，其一つの行き方として Bohr 理論に歸着することは避け得ないのである．勿論巨視的事象を通して形成せられた吾人の概念を，描像能力の極限を超えて居る原子，分子等の微視的對象に適用すると，行き詰りを生ずることがあつてもそれは止むを得ないことである．それが Bohr 理論の遭遇した運命であり，又前述の金屬の電子論に表はれた事態であつて，定量的の問題は描像能力の限界内にある古典論では解き得ず，描像を超脱した量子力學を必要としたのである．然し苟も描像を用ひるならば，其範圍内では Lorentz の古典論は正しい．それと同樣に原子なる對象を描像を用ひ得る古典論によつて表はすならば，Bohr 理論が一つの表現法なのである．只これでは描像は可能であるが，量的には不正確である．これを補ふために前記の假定を別に導入して量子力學と同一結果に達することを得たのである．即ち量子力學を知らずしてこれと一致する結果を得る同等の方法を見出したのであるから，前述の通り Bohr の勘の好さが窺はれるであらう．勿論此假定は既に描像の範圍を脱して居り，又これでも定量的には不充分であつて，結局理論を定量的に進めて行く量子力學が生れたのであるが，太陽系に似た模型を用ふる Bohr の概念は正しい．そして定常状態とか定常状態間の遷移などの考へは，その儘永く殘るものである．
 　Bohr の理論は原子，分子の行動を表現する一方法であると云つたが，他の描像は何であるかと云へば，それは de Broglie の波動論である．即ち原子を一つの定常波として取扱ふのである．此波動も古典論に從ふ波動でないことは，Bohr 理論に於ける電子が古典論に從ふ粒子でないことと對應して居つて，de Broglie 理論に於ても定量的に問題を取扱ふには，やはり波動場の量子論を必要とするのである．此點では Bohr 理論と同樣描像の限界内にあるものであるから，その範圍を超えた問題についてはやはり無力である．
@@ -48,14 +48,14 @@ http://www.aozora.gr.jp/accent_separation.html
 　然し一面から云ふと，此一致があつた爲に古典論の力を過信した傾きがなかつたとも云へない．殊に Sommerfeld の微細構造の理論等が，之も偶然の一致から實驗に合ふ結果を示したので，其當時の人は古典論は原子，分子にも定量的に適用し得るといふ誤信を抱くものもあつた．之が爲に今日の量子力學の發見が或は多少遲れたかも知れない．然し又一旦之が發見せられると其進展の驚くべく迅速であつたのは，古典論の適用によつて嘗めさせられた經驗の苦さ，及び前述の通り古典量子論によつて形成せられた正しい背景が與つて力あつたと思へば，これも結局は幸であつたといふべきであらう．殊に何の手掛りもなくては量子力學も發見が困難であつたらうから，つまり今日の量子論は行くべき道を進んだと考ふべきである．
 ＊［＃「＊」は上付き小文字］（Ａ）原子内の電子の運動状態は，或る條件で規定せられる所謂定常状態のみが許される．そして此状態は不思議な安定度を有つて居つて，電子が其運動状態を變へる場合には，必ず一つの定常状態から他のものに移り，如何なる作用があつても其中間の状態にはあり得ない．
 （Ｂ）一つの定常状態から他の定常状態に移る場合には，次の式で與へられる振動數νをもつ電磁波を輻射又は吸收する
-［＃１５字下げ］hν＝E'−E''
+［＃１５字下げ］hν＝E'－E''
 但し E'，E'' はそれぞれ初めと終りとの定常状態に於ける原子のエネルギーで，h は Planck の常數である．
 ［＃１字下げ］§４.　Bohr の理論物理學研究所．［＃「§４.　Bohr の理論物理學研究所．」は中見出し］
 　1913年の夏 Bohr は Christiansen の後をついだ Knudsen の後任として大學物理學科の助教授（Docent）となつた．此講座では醫學部の學生に物理學初歩を教へるのであつたが，之はあまり有難い仕事ではなかつた．然し夫は１年丈で濟んだ．といふのは1914年には Manchester の Rutherford の所へ，物理の講師として呼ばれたからである．當時歐州大戰が勃發したが同年10月には英國に渡り，２年間 Manchester に滯在した．其間1915年には前記スペクトルと原子構造の研究の繼續結果を發表した (11)(13)［＃「(11)(13)」は上付き小文字］．
 　1916年には Copenhagen 大學に Bohr の爲に理論物理の講座が設けられ其教授に任ぜられた．そして此講座にはやはり前記の醫學部學生への講義が付き纏つて居たのであるが，1916年夏歸國するや代講者を置くことを許され，又1918年には別に此講義の講師が置かれることになつて，全く惡縁を切ることになつた．
 　Bohr は就任後直ちに，此講座に附屬する理論物理學研究所の建設を大學當局に提議した．其内容は圖書室，講義室並に理論物理學研究に必要な設備，又理論物理學研究結果の檢討並に理論發展の手引きをすべき，實驗研究を行ふための器械裝置及び工作場を設けることであつた．此建議は大學當局，政府，議會を簡單に通過した．それは此敷地が有志者の寄附（８萬クローネ即ち現在の８萬圓）によつて，市の東北 Blegdamsvej に購入することが決つたからである．
 　此建築は1918-1919年の冬に始められ，1921年３月３日大學理論物理學研究所（Universitetets Institute for teoretisk Fysik）として開所せられた．此建物は約15間×７間位で，半地下室は物理實驗室及び工作場に用ひられ，その上の階が講義室，圖書室並に理論の方の人の居室，及び化學實驗室になつて居り，二階は Bohr 教授一家の住居となつて居た．此研究所の完成により外國の若い理論並に實驗物理學者が次から次へと集つて來た．我國の學者で此處で研究した人も10人近くある．Bohr 教授は日本の留學生に對しては非常に好意を寄せられ，皆愉快に研究に沒頭することが出來た＊［＃「＊」は上付き小文字］．
-　此研究所に最初に來た物理學者は和蘭の Kramers で，助手並に講師として10年近くも滯在したやうである．Kramers が Utrecht に去つた後任は Heisenberg であつたが，其任期は２箇年位であつたらう．Heisenberg が Leipzig に行つた後を O. Klein が繼ぎ，３〜４年の後 Klein が Stockholm に去つて暫くは空席であつたのを，〔Mo/ller〕［＃「〔Mo/ller〕」は底本では「〔Mo'ller〕」］が引き繼いで今日に至つて居る．此外に Rosenfeld も既に數年間助手として滯在して居るやうである．之等の助手の中丁抹人は〔Mo/ller〕［＃「〔Mo/ller〕」は底本では「〔Mo'ller〕」］１人で，他は皆外國人である．此研究所の空氣が如何に cosmopolitan であるかが解るであらう．又 Hevesy は Manchester 以來 Bohr の親友であつて，中途獨逸の Freiburg に教授として赴任して居た數年を除いては，殆ど最初から此研究所で研究を行ひ，後に述べる元素 Hf の發見後，其化學的研究並に分離を行つた．人工放射能の發見と共に今日では專ら生物學の研究に沒頭し，大切な仕事を出して居る．
+　此研究所に最初に來た物理學者は和蘭の Kramers で，助手並に講師として10年近くも滯在したやうである．Kramers が Utrecht に去つた後任は Heisenberg であつたが，其任期は２箇年位であつたらう．Heisenberg が Leipzig に行つた後を O. Klein が繼ぎ，３～４年の後 Klein が Stockholm に去つて暫くは空席であつたのを，〔Mo/ller〕［＃「〔Mo/ller〕」は底本では「〔Mo'ller〕」］が引き繼いで今日に至つて居る．此外に Rosenfeld も既に數年間助手として滯在して居るやうである．之等の助手の中丁抹人は〔Mo/ller〕［＃「〔Mo/ller〕」は底本では「〔Mo'ller〕」］１人で，他は皆外國人である．此研究所の空氣が如何に cosmopolitan であるかが解るであらう．又 Hevesy は Manchester 以來 Bohr の親友であつて，中途獨逸の Freiburg に教授として赴任して居た數年を除いては，殆ど最初から此研究所で研究を行ひ，後に述べる元素 Hf の發見後，其化學的研究並に分離を行つた．人工放射能の發見と共に今日では專ら生物學の研究に沒頭し，大切な仕事を出して居る．
 　此外 Pauli, Dirac, Jordan, Slater, Urey（重水發見者）, Gamow, Heitler, Nordheim, Hund, Bloch, Goudsmit, 〔Weizsa:cker〕, Coster, Kopfermann 其他今日物理學界に名を知られて居る人の大半は，長いか短いか此研究所に居つた經驗をもつて居るのである．從つて此研究所は20世紀前半の物理學史上，直接間接に不朽の貢獻をしたものであつて，誰か此研究所の歴史を書き殘して置くことは後日の爲大切なことであらう思はれる．
 　1931年に此研究所は創立10年記念を祝つた．其際此研究所から發表せられた全部の論文の別刷を集めて一冊とし，これを Bohr 教授に贈呈した．論文の數は約275あつたといふことである．此目録は雜誌［＃横組み］‘Fysisk Tidsskrift’(1931)［＃横組み終わり］ に出て居る．
 　其後此研究所も次第に手狹くなつて居たが，1923年に米國の Rockfeller Foundation から４萬弗援助を得て擴張を行つた．敷地は Copenhagen 市より寄附することになり，經常費は政府が出し，又丁抹ビール會社 Carlsberg の設立した Carlsberg Foundation も多額の寄附をしたので，研究所の擴張として1925年に先づ Bohr 教授の官舍が隣に新築せられて一家はこれに移られた．そして元の住宅であつた二階は理論の方の人が使ふことになり，又別に工作場と實驗室とを含む１棟が増築せられた．實驗の方の助手 Jacobsen は初め此處で仕事をして居つた．
@@ -66,7 +66,7 @@ http://www.aozora.gr.jp/accent_separation.html
 　Bohr は水素原子の理論を提唱した最初から，量子論に沒頭しながらも古典論から目を離さなかつた．否寧ろ古典論の結果を出來るだけ量子論に利用して其發展を企てたのである．そして此兩者の間には不離不即ともいふべき一種の對應の存在することに氣付いて居た．これを Bohr は對應原理と名付けた．
 　例へば量子數の大きい極限に於ては，Bohr 理論と古典論とは其結果に於て一致する．勿論これは結果だけであつて其物理的解釋は全く異つて居る．例へば原子が光を出す場合に於ても，量子論では一つの素過程に於て單一の振動數を有する光量子を放出する．そして異つた素過程の集合した結果多くの振動數をもつ光を出すのである．所が古典論では帶電粒子が軌道運動をすれば，同時に多くの振動數をもつた光を出すことになる．此兩者の結果は一般には一致しないが，量子數の大きい極限に於ては同じことになる．これからして Bohr は量子論が古典論を一般化したものであるといふ考へを夙くから抱いて居つた．
 　又原子に於て Bohr の二假定に從つて輻射される光の強度と，それに關聯した定常状態に於ける電子の運動の Fourier 展開係數とが，特別の場合には古典論に從ふ關係をもつことを指摘した．これは其後 Kramers によつて Stark 效果の場合に適用して詳細に研究せられた．
-　古典量子論を原子，分子の問題に直接適用出來ないことは，其後次第に明かになつて來た．こんな場合にも Bohr は古典論との對應を追究することによつて，問題を解く端緒を得て行つたのであつて，云はば對應原理は闇夜の燈火であつた．これ等の點を最もよく論述したのは丁抹の學士院の報文として1918年 (15)(16)［＃「(15)(16)」は上付き小文字］ 並に1922年 (26)［＃「(26)」は上付き小文字］ に發表せられた３論文である．之は量子力學の發見以前は，量子論の基礎假定に關する1923〜1924年の論文 (34)(35)［＃「(34)(35)」は上付き小文字］ と共に，量子論の教書のやうに考へられたものである．
+　古典量子論を原子，分子の問題に直接適用出來ないことは，其後次第に明かになつて來た．こんな場合にも Bohr は古典論との對應を追究することによつて，問題を解く端緒を得て行つたのであつて，云はば對應原理は闇夜の燈火であつた．これ等の點を最もよく論述したのは丁抹の學士院の報文として1918年 (15)(16)［＃「(15)(16)」は上付き小文字］ 並に1922年 (26)［＃「(26)」は上付き小文字］ に發表せられた３論文である．之は量子力學の發見以前は，量子論の基礎假定に關する1923～1924年の論文 (34)(35)［＃「(34)(35)」は上付き小文字］ と共に，量子論の教書のやうに考へられたものである．
 　Bohr は對應原理を指針として，元素の週期律を原子構造の立場から解明しようと試みた．それには各元素の裸の原子核が，電子を１箇宛捕捉して行く時に生ずるスペクトルを理論的に攻究し，それとＸ線スペクトル並に原子スペクトルに關する實驗結果とを照し合せ，又他の諸性質をも參考として各元素の原子構造を明かにした．そしてその結果を初めて［＃横組み］‘Fysisk Tidsskrift’(1921)(22)［＃「(22)」は上付き小文字］［＃横組み終わり］に發表した．
 　これによつて各原子の構造が解ると共に，逆に此結果から未發見の元素の性質が豫告し得るやうになつた．Hevesy，Coster の72番の元素 Hf の發見は，これに基いてジルコン鑛石の中を探索した結果であつて，Bohr 理論の大きな應用の一つである．Bohr は1922年12月のノーベル授賞式の講演に於て，この發見を最初に發表したのであつた．これより先佛國の Urbain は此72番の元素を稀土類の中に發見したと云ひ，これを Celtium と名付けて居たのであるが，Bohr の理論によれば，之は稀土類に屬さぬものであることが明かであつて，此發見に就いては Urbain と Hevesy，Coster との間に論爭を生じたが，今日では Celtium なる名は消滅したやうである．
 　Bohr の原子構造論は其後 Main-Smith 並に Stoner によつて多少改められたが，ともかく今日の量子力學と Pauli の原理とからして得られる結果と少しも異る所はない．今日から見ると對應原理を唯一の信條として，よくも此處迄漕ぎ付け得られたものと思はれる．これも Bohr の勘の好さによるのである．
@@ -138,154 +138,154 @@ does not limit its application.
 ［＃ここから１５字下げ］
 1909
 ［＃ここから改行天付き、折り返して２字下げ］
-1.　Determination of the Surface-Tension of Water by the Method of Jet Vibration. Phil.Trans., 209［＃「209」は太字］, 281〜317.
+1.　Determination of the Surface-Tension of Water by the Method of Jet Vibration. Phil.Trans., 209［＃「209」は太字］, 281～317.
 ［＃ここから１５字下げ］
 1910
 ［＃ここから改行天付き、折り返して２字下げ］
-2.　On the Determination of the Tension of a Recently-formed Water-Surface. Proc. Roy. Soc. London, 84［＃「84」は太字］, 395〜403.
+2.　On the Determination of the Tension of a Recently-formed Water-Surface. Proc. Roy. Soc. London, 84［＃「84」は太字］, 395～403.
 ［＃ここから１５字下げ］
 1912
 ［＃ここから改行天付き、折り返して２字下げ］
-3.　Note on the Electron Theory of Thermoelectric Phenomena. Phil. Mag., 23［＃「23」は太字］, 984〜986.
+3.　Note on the Electron Theory of Thermoelectric Phenomena. Phil. Mag., 23［＃「23」は太字］, 984～986.
 ［＃ここから１５字下げ］
 1913
 ［＃ここから改行天付き、折り返して２字下げ］
-4.　On the Theory of the Decrease of Velocity of Moving Electrified Particles on passing through Matter. Phil. Mag., 25［＃「25」は太字］, 10〜31.
-5.　On the Constitution of Atoms and Molecules. Phil. Mag., 26［＃「26」は太字］, 1〜25.
-6.　On the Constitution of Atoms and Molecules. II. Phil. Mag., 26［＃「26」は太字］, 476〜502.
-7.　On the Constitution of Atoms and Molecules. III. Phil. Mag., 26［＃「26」は太字］, 857〜875.
-8.　The Spectra of Helium and Hydrogen. Nature, 92［＃「92」は太字］, 231〜233.
+4.　On the Theory of the Decrease of Velocity of Moving Electrified Particles on passing through Matter. Phil. Mag., 25［＃「25」は太字］, 10～31.
+5.　On the Constitution of Atoms and Molecules. Phil. Mag., 26［＃「26」は太字］, 1～25.
+6.　On the Constitution of Atoms and Molecules. II. Phil. Mag., 26［＃「26」は太字］, 476～502.
+7.　On the Constitution of Atoms and Molecules. III. Phil. Mag., 26［＃「26」は太字］, 857～875.
+8.　The Spectra of Helium and Hydrogen. Nature, 92［＃「92」は太字］, 231～233.
 ［＃ここから１５字下げ］
 1914
 ［＃ここから改行天付き、折り返して２字下げ］
-9.　Atomic Models and X-Ray Spectra, (with H. Moseley). Nature, 92［＃「92」は太字］, 553〜554.
-10.　On the Effect of Electric and Magnetic Fields on Spectral Lines. Phil. Mag., 27［＃「27」は太字］, 506〜524.
+9.　Atomic Models and X-Ray Spectra, (with H. Moseley). Nature, 92［＃「92」は太字］, 553～554.
+10.　On the Effect of Electric and Magnetic Fields on Spectral Lines. Phil. Mag., 27［＃「27」は太字］, 506～524.
 ［＃ここから１５字下げ］
 1915
 ［＃ここから改行天付き、折り返して２字下げ］
-11.　On the Series Spectrum of Hydrogen and the Structure of the Atom. Phil. Mag., 29［＃「29」は太字］, 332〜335.
-12.　The Spectra of Hydrogen and Helium. Nature, 95［＃「95」は太字］, 6〜7.
-13.　On the Quantum Theory of Radiation and the Structure of the Atom. Phil. Mag., 30［＃「30」は太字］, 394〜415.
-14.　On the Decrease of Velocity of Swiftly Moving Electrified Particles in passing through Matter. Phil. Mag., 30［＃「30」は太字］, 581〜612.
+11.　On the Series Spectrum of Hydrogen and the Structure of the Atom. Phil. Mag., 29［＃「29」は太字］, 332～335.
+12.　The Spectra of Hydrogen and Helium. Nature, 95［＃「95」は太字］, 6～7.
+13.　On the Quantum Theory of Radiation and the Structure of the Atom. Phil. Mag., 30［＃「30」は太字］, 394～415.
+14.　On the Decrease of Velocity of Swiftly Moving Electrified Particles in passing through Matter. Phil. Mag., 30［＃「30」は太字］, 581～612.
 ［＃ここから１５字下げ］
 1918
 ［＃ここから改行天付き、折り返して２字下げ］
-15.　On the Quantum Theory of Line-Spectra. Part I. D. Kgl. Danske Vidensk. Selsk. Skrifter, naturvid. og math. Afd., 8 Raekke, IV, 1［＃「1」は太字］, 1〜36.
-16.　On the Quantum Theory of Line-Spectra. Part II. D. Kgl. Danske Vidensk. Selsk. Skrifter, naturvid. og math. Afd., 8 Raekke, IV. 1［＃「1」はママ］, 37〜100.
+15.　On the Quantum Theory of Line-Spectra. Part I. D. Kgl. Danske Vidensk. Selsk. Skrifter, naturvid. og math. Afd., 8 Raekke, IV, 1［＃「1」は太字］, 1～36.
+16.　On the Quantum Theory of Line-Spectra. Part II. D. Kgl. Danske Vidensk. Selsk. Skrifter, naturvid. og math. Afd., 8 Raekke, IV. 1［＃「1」はママ］, 37～100.
 ［＃ここから１５字下げ］
 1919
 ［＃ここから改行天付き、折り返して２字下げ］
-17.　On the Model of a Triatomic Hydrogen Molecule. Meddel. Nobelinstitut, 5［＃「5」は太字］, 1〜6.
+17.　On the Model of a Triatomic Hydrogen Molecule. Meddel. Nobelinstitut, 5［＃「5」は太字］, 1～6.
 ［＃ここから１５字下げ］
 1920
 ［＃ここから改行天付き、折り返して２字下げ］
-18.　〔U:ber die Serienspektra der Elemente. (Vortrag in der D. Phys. Ges. am 27. April, 1920). Zeits. f. Phys., 2［＃「2」は太字］, 423〜469.〕
+18.　〔U:ber die Serienspektra der Elemente. (Vortrag in der D. Phys. Ges. am 27. April, 1920). Zeits. f. Phys., 2［＃「2」は太字］, 423～469.〕
 ［＃ここから１５字下げ］
 1921
 ［＃ここから改行天付き、折り返して２字下げ］
-19.　Atomic Structure. Nature, 107［＃「107」は太字］, 104〜107.
-20.　Atomic Structure. Nature, 108［＃「108」は太字］, 208〜209.
-21.　Zur Frage der Polarisation der Strahlung in der Quantentheorie. Zeits. f. Phys., 6［＃「6」は太字］, 1〜9.
-22.［＃「22.」は底本では「22」］　Atomernes Bygning og Stofferes fysiske og kemiske Egenskaber. Fysisk Tidskr., 19［＃「19」は太字］, 153〜220.
+19.　Atomic Structure. Nature, 107［＃「107」は太字］, 104～107.
+20.　Atomic Structure. Nature, 108［＃「108」は太字］, 208～209.
+21.　Zur Frage der Polarisation der Strahlung in der Quantentheorie. Zeits. f. Phys., 6［＃「6」は太字］, 1～9.
+22.［＃「22.」は底本では「22」］　Atomernes Bygning og Stofferes fysiske og kemiske Egenskaber. Fysisk Tidskr., 19［＃「19」は太字］, 153～220.
 ［＃ここから１５字下げ］
 1922
 ［＃ここから改行天付き、折り返して２字下げ］
-23.　The Difference between Series Spectra of Isotopes, (with P. Ehrenfest). Nature, 109［＃「109」は太字］, 745〜746.
-24.　On the Selection Principle of the Quantum Theory. Phil. Mag., 43［＃「43」は太字］, 1112〜1116.
-25.　Der Bau der Atome und die physikalischen und chemischen Eigenschaften der Elemente. Zeits. f. Phys., 9［＃「9」は太字］, 1〜67.
-26.　On the Quantum Theory of Line-Spectra. Part III. D. Kgl. Danske Vidensk. Selsk. Skrifter. naturvid. og math. Afd., 8 Raekke, IV. 1［＃「1」はママ］, 101〜118.
-27.　Om Forklaringen af det periodiske System. Fysisk Tidskr., 20［＃「20」は太字］, 112〜115.
+23.　The Difference between Series Spectra of Isotopes, (with P. Ehrenfest). Nature, 109［＃「109」は太字］, 745～746.
+24.　On the Selection Principle of the Quantum Theory. Phil. Mag., 43［＃「43」は太字］, 1112～1116.
+25.　Der Bau der Atome und die physikalischen und chemischen Eigenschaften der Elemente. Zeits. f. Phys., 9［＃「9」は太字］, 1～67.
+26.　On the Quantum Theory of Line-Spectra. Part III. D. Kgl. Danske Vidensk. Selsk. Skrifter. naturvid. og math. Afd., 8 Raekke, IV. 1［＃「1」はママ］, 101～118.
+27.　Om Forklaringen af det periodiske System. Fysisk Tidskr., 20［＃「20」は太字］, 112～115.
 ［＃ここから１５字下げ］
 1923
 ［＃ここから改行天付き、折り返して２字下げ］
-28.　Om Atomernes Bygning. Fysisk Tidskr., 21［＃「21」は太字］, 6〜44.
-29.　〔U:ber den Bau der Atome, (Nobelvortrag vom 11. Dez. 1922). Naturwiss., 11［＃「11」は太字］, 606〜624.〕
-30.　The Structure of the Atom. Nature, 112［＃「112」は太字］, 29〜44.
-31.　Linienspektren und Atombau. Ann. d. Phys., 71［＃「71」は太字］, 228〜288.
-32.　〔Ro:ntogenspektren und periodisches System der Elemente, (mit D. Coster), Zeits. f. Phys., 12［＃「12」は太字］, 342〜374.〕
-33.　The Effect of Electric and Magnetic Fields on Spectral Lines. Proc. Phys. Soc., 35［＃「35」は太字］, 275〜302.
-34.　〔U:ber die Anwendung der Quantentheorie auf den Atombau. Zeits. f. Phys., 13［＃「13」は太字］, 117〜165.〕
+28.　Om Atomernes Bygning. Fysisk Tidskr., 21［＃「21」は太字］, 6～44.
+29.　〔U:ber den Bau der Atome, (Nobelvortrag vom 11. Dez. 1922). Naturwiss., 11［＃「11」は太字］, 606～624.〕
+30.　The Structure of the Atom. Nature, 112［＃「112」は太字］, 29～44.
+31.　Linienspektren und Atombau. Ann. d. Phys., 71［＃「71」は太字］, 228～288.
+32.　〔Ro:ntogenspektren und periodisches System der Elemente, (mit D. Coster), Zeits. f. Phys., 12［＃「12」は太字］, 342～374.〕
+33.　The Effect of Electric and Magnetic Fields on Spectral Lines. Proc. Phys. Soc., 35［＃「35」は太字］, 275～302.
+34.　〔U:ber die Anwendung der Quantentheorie auf den Atombau. Zeits. f. Phys., 13［＃「13」は太字］, 117～165.〕
 ［＃ここから１５字下げ］
 1924
 ［＃ここから改行天付き、折り返して２字下げ］
-35.　On the Application of the Quantum Theory to Atomic Structure. Part I. The Fundamental Postulates, (translated from Zeits. f. Phys., 13［＃「13」は太字］, 117〜165). Proc. Cambridge Phil. Soc., Suppl. 42.
-36.　The Spectra of the Lighter Elements, (discussion in Sect. A of the Brit. Assoc. Liverpool, 1923). Nature, 113［＃「113」は太字］,223〜224.
-37.　The Quantum Theory of Radiation, (with H. A. Kramers and J. C. Slater). Phil. Mag., 47［＃「47」は太字］, 785〜802.
-38.　〔U:ber die Quantentheorie der Strahlung, (mit H. A. Kramers und J. C. Slater) Zeits. f. Phys., 24［＃「24」は太字］, 69〜87.〕
-39.　Zur Polarisation des Fluoreszenzlichtes. Naturwiss., 12［＃「12」は太字］, 1115〜1117.
+35.　On the Application of the Quantum Theory to Atomic Structure. Part I. The Fundamental Postulates, (translated from Zeits. f. Phys., 13［＃「13」は太字］, 117～165). Proc. Cambridge Phil. Soc., Suppl. 42.
+36.　The Spectra of the Lighter Elements, (discussion in Sect. A of the Brit. Assoc. Liverpool, 1923). Nature, 113［＃「113」は太字］,223～224.
+37.　The Quantum Theory of Radiation, (with H. A. Kramers and J. C. Slater). Phil. Mag., 47［＃「47」は太字］, 785～802.
+38.　〔U:ber die Quantentheorie der Strahlung, (mit H. A. Kramers und J. C. Slater) Zeits. f. Phys., 24［＃「24」は太字］, 69～87.〕
+39.　Zur Polarisation des Fluoreszenzlichtes. Naturwiss., 12［＃「12」は太字］, 1115～1117.
 ［＃ここから１５字下げ］
 1925
 ［＃ここから改行天付き、折り返して２字下げ］
-40.　〔U:ber die Wirkung von Atomen bei Sto:ssen. Zeits. f. Phys., 34［＃「34」は太字］, 142〜157.〕
+40.　〔U:ber die Wirkung von Atomen bei Sto:ssen. Zeits. f. Phys., 34［＃「34」は太字］, 142～157.〕
 41.　Atomic Theory and Mechanics. Nature, 116［＃「116」は太字］, 809.
 ［＃ここから１５字下げ］
 1926
 ［＃ここから改行天付き、折り返して２字下げ］
-42.　Atomtheorie und Mechanik. Naturwiss., 14［＃「14」は太字］, 1〜10.
-43.　Nogle Traek fra Atomteoriens senere Udvikling. Fysisk Tidskr., 24［＃「24」は太字］, 20〜21.
+42.　Atomtheorie und Mechanik. Naturwiss., 14［＃「14」は太字］, 1～10.
+43.　Nogle Traek fra Atomteoriens senere Udvikling. Fysisk Tidskr., 24［＃「24」は太字］, 20～21.
 44.　Spinning Electrons and the Structure of Spectra. Nature, 117［＃「117」は太字］, 265.
-45.　Sir Ernest Rutherford. Nature, 118［＃「118」は太字］, Suppl. 51〜52.
+45.　Sir Ernest Rutherford. Nature, 118［＃「118」は太字］, Suppl. 51～52.
 ［＃ここから１５字下げ］
 1927
 ［＃ここから改行天付き、折り返して２字下げ］
-46.　The Quantum Postulate and the Recent Development of Atomic Theory. Atti Congr. Intern. dei Fisica Como-Pavia. Roma, Sept., 565〜588.
+46.　The Quantum Postulate and the Recent Development of Atomic Theory. Atti Congr. Intern. dei Fisica Como-Pavia. Roma, Sept., 565～588.
 ［＃ここから１５字下げ］
 1928
 ［＃ここから改行天付き、折り返して２字下げ］
-47.　The Quantum Postulate and the Recent Development of Atomic Theory. Nature, 121［＃「121」は太字］, 580〜590.
-48.　Das Quantenpostulat und die neuere Entwicklung der Atomistik. Naturwiss., 16［＃「16」は太字］, 245〜257.
+47.　The Quantum Postulate and the Recent Development of Atomic Theory. Nature, 121［＃「121」は太字］, 580～590.
+48.　Das Quantenpostulat und die neuere Entwicklung der Atomistik. Naturwiss., 16［＃「16」は太字］, 245～257.
 49.　Sommerfeld und die Atomtheorie. Naturwiss., 16［＃「16」は太字］, 1036.
 ［＃ここから１５字下げ］
 1929
 ［＃ここから改行天付き、折り返して２字下げ］
-50.　Atomteorien og Grundprincipperne for Naturbeskrivelsen. Fysisk Tidskr., 27［＃「27」は太字］, 103〜114.
-51.　Wirkungsquantum und Naturbeschreibung. Naturwiss., 17［＃「17」は太字］, 483〜486.
+50.　Atomteorien og Grundprincipperne for Naturbeskrivelsen. Fysisk Tidskr., 27［＃「27」は太字］, 103～114.
+51.　Wirkungsquantum und Naturbeschreibung. Naturwiss., 17［＃「17」は太字］, 483～486.
 52.　Quantum Theory and Relativity. Nature, 123［＃「123」は太字］, 434.
 ［＃ここから１５字下げ］
 1930
 ［＃ここから改行天付き、折り返して２字下げ］
-53.　Die Atomtheorie und die Prinzipien der Naturebeschreibung. Naturwiss., 18［＃「18」は太字］, 73〜78.
+53.　Die Atomtheorie und die Prinzipien der Naturebeschreibung. Naturwiss., 18［＃「18」は太字］, 73～78.
 ［＃ここから１５字下げ］
 1931
 ［＃ここから改行天付き、折り返して２字下げ］
-54.　Maxwell and Modern Theoretical Physics. Nature, 128［＃「128」は太字］, 691〜692.
+54.　Maxwell and Modern Theoretical Physics. Nature, 128［＃「128」は太字］, 691～692.
 ［＃ここから１５字下げ］
 1932
 ［＃ここから改行天付き、折り返して２字下げ］
-55.　Chemistry and the Quantum Theory of Atomic Constitution, (Faraday Lecture). Journ. Chem Soc., Pt. I, 349〜384.
+55.　Chemistry and the Quantum Theory of Atomic Constitution, (Faraday Lecture). Journ. Chem Soc., Pt. I, 349～384.
 56.　Atomic Stability and Conservation Laws. Fondazione A. Volta, atti dei convegni 1.“Convegno di fisica nucleare, Ottobre 1931”, Roma.
 ［＃ここから１５字下げ］
 1933
 ［＃ここから改行天付き、折り返して２字下げ］
-57.　Licht und Leben. Naturwiss., 21［＃「21」は太字］, 245〜250.
-58.　Light and Life, 131［＃「131」は太字］, 421〜423; 457〜459.
-59.　〔Zur Frage der Messbarkeit der elektromagnetischen Feldgro:ssen, (mit L. Rosenfeld). D. Kgl. Danske Vidensk. Selsk. Math.-fys. Medd., XII. 8., 1〜65.〕
+57.　Licht und Leben. Naturwiss., 21［＃「21」は太字］, 245～250.
+58.　Light and Life, 131［＃「131」は太字］, 421～423; 457～459.
+59.　〔Zur Frage der Messbarkeit der elektromagnetischen Feldgro:ssen, (mit L. Rosenfeld). D. Kgl. Danske Vidensk. Selsk. Math.-fys. Medd., XII. 8., 1～65.〕
 ［＃ここから１５字下げ］
 1935
 ［＃ここから改行天付き、折り返して２字下げ］
-60.　Can Quantum-Mechanical Description of Physical Reality be Complete? Phys. Rev., 48［＃「48」は太字］, 696〜702.
-61.　Zeeman Effect and Theory of Atomic Constitution,“Zeeman Verhandelingen.”Haag, 131〜134.
-62.　Friedrich Paschen zum siebzigsten Geburtstage. Forschungen u. Fortschr., 11［＃「11」は太字］, 50〜51.
+60.　Can Quantum-Mechanical Description of Physical Reality be Complete? Phys. Rev., 48［＃「48」は太字］, 696～702.
+61.　Zeeman Effect and Theory of Atomic Constitution,“Zeeman Verhandelingen.”Haag, 131～134.
+62.　Friedrich Paschen zum siebzigsten Geburtstage. Forschungen u. Fortschr., 11［＃「11」は太字］, 50～51.
 ［＃ここから１５字下げ］
 1936
 ［＃ここから改行天付き、折り返して２字下げ］
-63.　Neutron Capture and Nuclear Constitution. Nature, 137［＃「137」は太字］, 344〜348. 351.
-64.　Neutroneneinfang und Bau der Atomkerne. Naturwiss., 24［＃「24」は太字］, 241〜245.
-65.　Conservation Laws in Quantum Theory. Nature, 138［＃「138」は太字］, 25〜26.
-66.　〔Kausalita:t und Komplementarita:t. Erkenntnis, 6［＃「6」は太字］, 293〜303.〕
+63.　Neutron Capture and Nuclear Constitution. Nature, 137［＃「137」は太字］, 344～348. 351.
+64.　Neutroneneinfang und Bau der Atomkerne. Naturwiss., 24［＃「24」は太字］, 241～245.
+65.　Conservation Laws in Quantum Theory. Nature, 138［＃「138」は太字］, 25～26.
+66.　〔Kausalita:t und Komplementarita:t. Erkenntnis, 6［＃「6」は太字］, 293～303.〕
 67.　Causality and Complementarity.
 ［＃ここから１５字下げ］
 1937
 ［＃ここから改行天付き、折り返して２字下げ］
-68.　Transmutation of Atomic Nuclei. Science, 86［＃「86」は太字］, 161〜165.
-69.　On the Transmutation of Atomic Nuclei by Impact of Material Particles. I. General Theoretical Remarks. Det Kgl. Danske Vidensk. Selsk.(with F. Kalckar). Math.-fys. Medd., XIV, 10［＃「10」は太字］, 1〜40.
-70.　Lord Rutherford. Nature,140［＃「140」は太字］, 752〜753; 1048〜1049
+68.　Transmutation of Atomic Nuclei. Science, 86［＃「86」は太字］, 161～165.
+69.　On the Transmutation of Atomic Nuclei by Impact of Material Particles. I. General Theoretical Remarks. Det Kgl. Danske Vidensk. Selsk.(with F. Kalckar). Math.-fys. Medd., XIV, 10［＃「10」は太字］, 1～40.
+70.　Lord Rutherford. Nature,140［＃「140」は太字］, 752～753; 1048～1049
 ［＃ここから１５字下げ］
 1938
 ［＃ここから改行天付き、折り返して２字下げ］
-71.　Nuclear Photo-effect. Nature, 141［＃「141」は太字］, 326〜327.
-72.　Resonance in Nuclear Photo-effect. Nature, 141［＃「141」は太字］, 1096〜1097.
-73.　Wirkungsquantum und Atomkern. Ann. der Phys., 32［＃「32」は太字］, 5〜9.
+71.　Nuclear Photo-effect. Nature, 141［＃「141」は太字］, 326～327.
+72.　Resonance in Nuclear Photo-effect. Nature, 141［＃「141」は太字］, 1096～1097.
+73.　Wirkungsquantum und Atomkern. Ann. der Phys., 32［＃「32」は太字］, 5～9.
 ［＃ここで字下げ終わり］
 ［＃ここで横組み終わり］
 
@@ -293,7 +293,7 @@ does not limit its application.
 
 ［＃ここから横組み］
 ［＃ここから１字下げ、折り返して３字下げ］
-Ⅰ　〔Abhandlungen U:ber Atombau aus den Jahren 1913〜1916. (Autorisierte deutsche U:bersetzung mit einem Geleitwort von N. Bohr-von Hugo Stintzing). XX u. 155S. Braunschweig, Verlag von Friedr. Vieweg u. Sohn, (1921).〕
+Ⅰ　〔Abhandlungen U:ber Atombau aus den Jahren 1913～1916. (Autorisierte deutsche U:bersetzung mit einem Geleitwort von N. Bohr-von Hugo Stintzing). XX u. 155S. Braunschweig, Verlag von Friedr. Vieweg u. Sohn, (1921).〕
 Ⅱ　The Theory of Spectra and Atomic Constitution. Three Essays. Cambridge University Press, (1922).
 Ⅲ　〔Drei Aufsa:tze u:ber Spektren und Atombau. Mit 7 Abbildungen. Verlag von Friedr. Vieweg u. Sohn, (1922).〕
 Ⅳ　〔U:ber die Quantentheorie der Linienspektren, (Uebersetzt von P. Hertz). Braunschweig, (1923).〕
