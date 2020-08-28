@@ -21,7 +21,13 @@ with open(os.path.dirname(__file__)+'/jisx0213-2004-std.txt') as f:
 def is_special(c):
     return c in '《》［］〔〕｜※'
 
+#外字注記sをUnicode文字に変換して返す。置き換え不可の場合はそのまま返す。
 def get_gaiji(s):
+    # 外字注記が入れ子になっている場合は、まず中の注記を変換する。
+    s = re.sub(r'^※', '', s)
+    s = re.sub(r'※［＃[^］]+］', lambda m: get_gaiji(m[0]), s)
+    s = re.sub(r'^', '※', s)
+    
     # ※［＃「馬＋「柳の本字、第4水準2-14-72」のつくり」、U+99F5、ページ数-行数］
     # ↑のようなケースがあるので句点コードよりもUnicodeを優先する
     # Unicode: ※［＃「皷／冬」、U+2DF78、111-下-17］
@@ -44,6 +50,7 @@ def get_gaiji(s):
     # unknown format
     return s
 
+# 外字注記部分をget_gaiji()で置き換える
 def sub_gaiji(text):
     text = re.sub(r'※［＃(※［＃[^］]+］|[^］])*］', lambda m: get_gaiji(m[0]), text)
     #text = re.sub(r'※［＃.+?］', lambda m: get_gaiji(m[0]), text)

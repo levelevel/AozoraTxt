@@ -10,6 +10,8 @@ BIN=`dirname $0`
 
 person_from=$BIN/../person
 person_to=$BIN/../person_utf8_tmp
+#person_from=$BIN/../../AozoraTxtNpd/person
+#person_to=$BIN/../../AozoraTxtNpd/person_utf8_tmp
 
 while read txt_sjis
 do
