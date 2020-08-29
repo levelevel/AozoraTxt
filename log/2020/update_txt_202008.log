@@ -1251,3 +1251,35 @@ Title Total : 31608/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug 29 08:08:03 JST 2020
 End  : Sat Aug 29 08:09:59 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Aug 30 08:34:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   55f15c722b..21e3b1daa3  master     -> origin/master
+Updating 55f15c722b..21e3b1daa3
+Fast-forward
+ cards/001075/card33221.html                   |  16 +-
+ cards/001569/card59210.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59210_71480.html           |  67 ++++++++
+ cards/001569/files/59210_ruby_71431.zip       | Bin 0 -> 2208 bytes
+ cards/001869/card57646.html                   |   2 +-
+ 125 files changed, 1956 insertions(+), 1658 deletions(-)
+Date: Sun Aug 30 08:35:34 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 29 08:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2208 Aug 30 08:35 ./aozorabunko/cards/001569/files/59210_ruby_71431.zip
+1/1: ./aozorabunko/cards/001569/files/59210_ruby_71431.zip
+>> add 59210_ruby_america_daneno_rakugo.txt
+>> add 59210_ruby_utf8_america_daneno_rakugo.txt
+>> https://www.aozora.gr.jp/cards/001569/card59210.html
+>> アメリカ種の落語、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31610/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Aug 30 08:34:28 JST 2020
+End  : Sun Aug 30 08:37:03 JST 2020
