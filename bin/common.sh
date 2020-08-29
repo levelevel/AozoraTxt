@@ -65,10 +65,14 @@ SJIS2UTF8="iconv -f CP932 -t utf8 -c"
 if [ "$WINDIR" != "" ]; then
 	UNZIP="$WINDIR/Program Files/7-Zip/7z.exe"
 	UNZIP_OPT="x -y -o$TMP"
+	ZIP="$UNZIP"
+	ZIP_OPT="a -y -r"
 	GIT="$WINDIR/Program Files/Git/bin/git.exe"
-else
+else	#Sygwin
 	UNZIP="unzip"
 	UNZIP_OPT="-qoC -d $TMP"
+	ZIP="zip"
+	ZIP_OPT="-rq"
 	GIT=git
 fi
 
