@@ -1283,3 +1283,34 @@ Title Total : 31610/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug 30 08:34:28 JST 2020
 End  : Sun Aug 30 08:37:03 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug 31 22:14:19 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   21e3b1daa3..ed330471f8  master     -> origin/master
+Updating 21e3b1daa3..ed330471f8
+Fast-forward
+ cards/001091/card59747.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59747_71482.html           |  83 +++++++++
+ cards/001091/files/59747_ruby_71433.zip       | Bin 0 -> 2296 bytes
+ cards/001569/card59210.html                   |   2 +-
+ 89 files changed, 1121 insertions(+), 809 deletions(-)
+Date: Mon Aug 31 22:17:00 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 30 08:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2296 Aug 31 22:16 ./aozorabunko/cards/001091/files/59747_ruby_71433.zip
+1/1: ./aozorabunko/cards/001091/files/59747_ruby_71433.zip
+>> add 59747_ruby_warato_sumito_mame.txt
+>> add 59747_ruby_utf8_warato_sumito_mame.txt
+>> https://www.aozora.gr.jp/cards/001091/card59747.html
+>> わらと炭と豆、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31612/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug 31 22:14:19 JST 2020
+End  : Mon Aug 31 22:18:45 JST 2020
