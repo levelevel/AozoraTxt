@@ -1,0 +1,40 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Sep  1 08:57:25 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ed330471f8..d974772bf7  master     -> origin/master
+Updating ed330471f8..d974772bf7
+Fast-forward
+ cards/001091/card59747.html                   |   2 +-
+ cards/001344/card50579.html                   | 229 ++++++++++++++++++++++++++
+ cards/001344/card50580.html                   | 229 ++++++++++++++++++++++++++
+ cards/001344/files/50579_71656.html           | 214 ++++++++++++++++++++++++
+ cards/001344/files/50579_ruby_71610.zip       | Bin 0 -> 23014 bytes
+ cards/001344/files/50580_71657.html           | 169 +++++++++++++++++++
+ cards/001344/files/50580_ruby_71611.zip       | Bin 0 -> 21408 bytes
+ 135 files changed, 5297 insertions(+), 3981 deletions(-)
+Date: Tue Sep  1 08:58:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Aug 31 22:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 23014 Sep  1 08:58 ./aozorabunko/cards/001344/files/50579_ruby_71610.zip
+1/2: ./aozorabunko/cards/001344/files/50579_ruby_71610.zip
+>> add 50579_ruby_shinsai_koki.txt
+>> add 50579_ruby_utf8_shinsai_koki.txt
+>> https://www.aozora.gr.jp/cards/001344/card50579.html
+>> 震災後記、喜田貞吉、
+-rwxrwxrwx 1 level level 21408 Sep  1 08:58 ./aozorabunko/cards/001344/files/50580_ruby_71611.zip
+2/2: ./aozorabunko/cards/001344/files/50580_ruby_71611.zip
+>> add 50580_ruby_shinsai_nisshi.txt
+>> add 50580_ruby_utf8_shinsai_nisshi.txt
+>> https://www.aozora.gr.jp/cards/001344/card50580.html
+>> 震災日誌、喜田貞吉、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31616/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Sep  1 08:57:25 JST 2020
+End  : Tue Sep  1 09:00:04 JST 2020
