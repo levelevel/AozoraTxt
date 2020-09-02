@@ -72,3 +72,43 @@ Title Total : 31618/392 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep  2 08:31:44 JST 2020
 End  : Wed Sep  2 08:34:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep  3 08:14:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   086d5bd282..48d7c99262  master     -> origin/master
+Updating 086d5bd282..48d7c99262
+Fast-forward
+ cards/000933/card47715.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47828.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47715_71659.html           | 144 ++++++++++++++++
+ cards/000933/files/47715_ruby_71613.zip       | Bin 0 -> 10987 bytes
+ cards/000933/files/47828_71660.html           |  70 ++++++++
+ cards/000933/files/47828_txt_71614.zip        | Bin 0 -> 4180 bytes
+ cards/001931/card59117.html                   |   2 +-
+ 43 files changed, 1764 insertions(+), 1087 deletions(-)
+Date: Thu Sep  3 08:16:03 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  2 08:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10987 Sep  3 08:15 ./aozorabunko/cards/000933/files/47715_ruby_71613.zip
+1/2: ./aozorabunko/cards/000933/files/47715_ruby_71613.zip
+>> add 47715_ruby_nihonbungakuni_okeru_hitotsuno_shocho.txt
+>> add 47715_ruby_utf8_nihonbungakuni_okeru_hitotsuno_shocho.txt
+>> https://www.aozora.gr.jp/cards/000933/card47715.html
+>> 日本文学における一つの象徴、折口信夫、
+-rwxrwxrwx 1 level level 4180 Sep  3 08:15 ./aozorabunko/cards/000933/files/47828_txt_71614.zip
+2/2: ./aozorabunko/cards/000933/files/47828_txt_71614.zip
+>> add 47828_txt_yoseno_yudachi.txt
+>> add 47828_txt_utf8_yoseno_yudachi.txt
+>> https://www.aozora.gr.jp/cards/000933/card47828.html
+>> 寄席の夕立、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31622/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep  3 08:14:41 JST 2020
+End  : Thu Sep  3 08:17:10 JST 2020
