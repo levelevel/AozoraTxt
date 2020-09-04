@@ -112,3 +112,75 @@ Title Total : 31622/392 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep  3 08:14:41 JST 2020
 End  : Thu Sep  3 08:17:10 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep  4 08:36:11 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   48d7c99262..c0d839b6f2  master     -> origin/master
+Updating 48d7c99262..c0d839b6f2
+Fast-forward
+ cards/000933/card47715.html                   |   2 +-
+ cards/000933/card47828.html                   |   2 +-
+ cards/002043/card60615.html                   | 231 +++++++++++++++++++++
+ cards/002043/files/60615_71559.html           | 286 ++++++++++++++++++++++++++
+ cards/002043/files/60615_ruby_71558.zip       | Bin 0 -> 1773917 bytes
+ 46 files changed, 1154 insertions(+), 650 deletions(-)
+Date: Fri Sep  4 08:38:16 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  3 08:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1773917 Sep  4 08:37 ./aozorabunko/cards/002043/files/60615_ruby_71558.zip
+1/1: ./aozorabunko/cards/002043/files/60615_ruby_71558.zip
+>> add 60615_NPD_ruby_chohobu_hiwa_03.txt
+>> add 60615_NPD_ruby_utf8_chohobu_hiwa_03.txt
+>> https://www.aozora.gr.jp/cards/002043/card60615.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第三話　急行列車、No III IN THE EXPRESS、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31622/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Sep  4 08:36:11 JST 2020
+End  : Fri Sep  4 08:40:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep  5 07:12:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c0d839b6f2..072e591af5  master     -> origin/master
+Updating c0d839b6f2..072e591af5
+Fast-forward
+ cards/001403/card55051.html                   |  234 ++
+ cards/001403/card59654.html                   |  234 ++
+ cards/001403/files/55051_71661.html           |   66 +
+ cards/001403/files/55051_ruby_71615.zip       |  Bin 0 -> 5197 bytes
+ cards/001403/files/59654_71662.html           |   72 +
+ cards/001403/files/59654_ruby_71616.zip       |  Bin 0 -> 3985 bytes
+ cards/002043/card60615.html                   |    2 +-
+ 86 files changed, 8993 insertions(+), 2150 deletions(-)
+Date: Sat Sep  5 07:13:34 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  4 08:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5197 Sep  5 07:13 ./aozorabunko/cards/001403/files/55051_ruby_71615.zip
+1/2: ./aozorabunko/cards/001403/files/55051_ruby_71615.zip
+>> add 55051_ruby_bijutsu_geijutsu_toshiteno_seimeino_shodo.txt
+>> add 55051_ruby_utf8_bijutsu_geijutsu_toshiteno_seimeino_shodo.txt
+>> https://www.aozora.gr.jp/cards/001403/card55051.html
+>> 美術芸術としての生命の書道、北大路魯山人、
+-rwxrwxrwx 1 level level 3985 Sep  5 07:13 ./aozorabunko/cards/001403/files/59654_ruby_71616.zip
+2/2: ./aozorabunko/cards/001403/files/59654_ruby_71616.zip
+>> add 59654_ruby_umino_aoto_sorano_ao.txt
+>> add 59654_ruby_utf8_umino_aoto_sorano_ao.txt
+>> https://www.aozora.gr.jp/cards/001403/card59654.html
+>> 海の青と空の青、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31626/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep  5 07:12:40 JST 2020
+End  : Sat Sep  5 07:14:06 JST 2020
