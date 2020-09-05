@@ -184,3 +184,35 @@ Title Total : 31626/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep  5 07:12:40 JST 2020
 End  : Sat Sep  5 07:14:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep  6 08:31:36 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   072e591af5..13818a196b  master     -> origin/master
+Updating 072e591af5..13818a196b
+Fast-forward
+ cards/001403/card55051.html                   |   2 +-
+ cards/001403/card59654.html                   |   2 +-
+ cards/001670/card56385.html                   | 234 ++++++++++++++++
+ cards/001670/files/56385_71663.html           | 371 ++++++++++++++++++++++++++
+ cards/001670/files/56385_ruby_71617.zip       | Bin 0 -> 12822 bytes
+ 83 files changed, 3178 insertions(+), 2221 deletions(-)
+Date: Sun Sep  6 08:32:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  5 07:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12822 Sep  6 08:32 ./aozorabunko/cards/001670/files/56385_ruby_71617.zip
+1/1: ./aozorabunko/cards/001670/files/56385_ruby_71617.zip
+>> add 56385_ruby_113hokumeino_uo.txt
+>> add 56385_ruby_utf8_113hokumeino_uo.txt
+>> https://www.aozora.gr.jp/cards/001670/card56385.html
+>> 銭形平次捕物控、北冥の魚、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31628/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep  6 08:31:36 JST 2020
+End  : Sun Sep  6 08:33:36 JST 2020
