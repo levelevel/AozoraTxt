@@ -216,3 +216,60 @@ Title Total : 31628/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Sep  6 08:31:36 JST 2020
 End  : Sun Sep  6 08:33:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep  7 21:54:16 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   13818a196b..2c833a44a0  master     -> origin/master
+Updating 13818a196b..2c833a44a0
+Fast-forward
+ cards/000023/card59352.html                   | 234 +++++++
+ cards/000023/files/59352_71664.html           |  66 ++
+ cards/000023/files/59352_ruby_71618.zip       | Bin 0 -> 5532 bytes
+ cards/000050/card50110.html                   | 234 +++++++
+ cards/000050/files/50110_71665.html           | 965 ++++++++++++++++++++++++++
+ cards/000050/files/50110_ruby_71619.zip       | Bin 0 -> 47302 bytes
+ cards/001224/card47497.html                   |   2 +-
+ cards/001224/card47498.html                   |   2 +-
+ cards/001224/card47499.html                   |   2 +-
+ cards/001224/card47500.html                   |   2 +-
+ cards/001224/card47501.html                   |   2 +-
+ cards/001224/card47502.html                   |   2 +-
+ cards/001224/card47503.html                   |   2 +-
+ cards/001224/card47504.html                   |   2 +-
+ cards/001373/card56548.html                   |   8 +-
+ cards/001373/files/56548_54432.html           |   6 +-
+ cards/001373/files/56548_ruby_54481.zip       | Bin 191174 -> 190263 bytes
+ cards/001670/card56385.html                   |   2 +-
+ 142 files changed, 3390 insertions(+), 1830 deletions(-)
+Date: Mon Sep  7 21:55:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  6 08:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5532 Sep  7 21:55 ./aozorabunko/cards/000023/files/59352_ruby_71618.zip
+1/3: ./aozorabunko/cards/000023/files/59352_ruby_71618.zip
+>> add 59352_ruby_naki_kyokakun'o_kataru.txt
+>> add 59352_ruby_utf8_naki_kyokakun'o_kataru.txt
+>> https://www.aozora.gr.jp/cards/000023/card59352.html
+>> 亡鏡花君を語る、徳田秋聲、
+-rwxrwxrwx 1 level level 47302 Sep  7 21:55 ./aozorabunko/cards/000050/files/50110_ruby_71619.zip
+2/3: ./aozorabunko/cards/000050/files/50110_ruby_71619.zip
+>> add 50110_ruby_waka_murasaki.txt
+>> add 50110_ruby_utf8_waka_murasaki.txt
+>> https://www.aozora.gr.jp/cards/000050/card50110.html
+>> わか紫、泉鏡花、
+-rwxrwxrwx 1 level level 190263 Sep  7 21:55 ./aozorabunko/cards/001373/files/56548_ruby_54481.zip
+3/3: ./aozorabunko/cards/001373/files/56548_ruby_54481.zip
+>> update 56548_ruby_shiroumadake.txt
+>> update 56548_ruby_utf8_shiroumadake.txt
+>> https://www.aozora.gr.jp/cards/001373/card56548.html
+>> 白馬岳、木暮理太郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31632/394 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep  7 21:54:16 JST 2020
+End  : Mon Sep  7 21:57:01 JST 2020
