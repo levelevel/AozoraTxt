@@ -305,3 +305,34 @@ Title Total : 31634/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep  8 08:39:42 JST 2020
 End  : Tue Sep  8 08:40:56 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep  9 07:52:04 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ba8abb61af..fe494b092d  master     -> origin/master
+Updating ba8abb61af..fe494b092d
+Fast-forward
+ cards/000019/card59374.html                   |   2 +-
+ cards/000214/card48884.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48884_71667.html           | 116 ++++++++++++
+ cards/000214/files/48884_ruby_71621.zip       | Bin 0 -> 5565 bytes
+ 74 files changed, 3315 insertions(+), 2965 deletions(-)
+Date: Wed Sep  9 07:52:48 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  8 08:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5565 Sep  9 07:52 ./aozorabunko/cards/000214/files/48884_ruby_71621.zip
+1/1: ./aozorabunko/cards/000214/files/48884_ruby_71621.zip
+>> add 48884_ruby_shakaito_jiko.txt
+>> add 48884_ruby_utf8_shakaito_jiko.txt
+>> https://www.aozora.gr.jp/cards/000214/card48884.html
+>> 社会と自己、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31636/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep  9 07:52:04 JST 2020
+End  : Wed Sep  9 07:53:23 JST 2020
