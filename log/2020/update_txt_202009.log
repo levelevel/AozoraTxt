@@ -336,3 +336,43 @@ Title Total : 31636/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep  9 07:52:04 JST 2020
 End  : Wed Sep  9 07:53:23 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep 10 21:17:53 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fe494b092d..ac07c96e0d  master     -> origin/master
+Updating fe494b092d..ac07c96e0d
+Fast-forward
+ cards/000214/card48884.html                   |   2 +-
+ cards/001475/card52977.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/card52981.html                   | 239 ++++++++++++++++++++++++++
+ cards/001475/files/52977_71668.html           |  96 +++++++++++
+ cards/001475/files/52977_ruby_71622.zip       | Bin 0 -> 2997 bytes
+ cards/001475/files/52981_71669.html           | 116 +++++++++++++
+ cards/001475/files/52981_ruby_71623.zip       | Bin 0 -> 5335 bytes
+ 130 files changed, 4436 insertions(+), 3399 deletions(-)
+Date: Thu Sep 10 21:19:09 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep  9 07:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2997 Sep 10 21:19 ./aozorabunko/cards/001475/files/52977_ruby_71622.zip
+1/2: ./aozorabunko/cards/001475/files/52977_ruby_71622.zip
+>> add 52977_ruby_takeumano_taro.txt
+>> add 52977_ruby_utf8_takeumano_taro.txt
+>> https://www.aozora.gr.jp/cards/001475/card52977.html
+>> 竹馬の太郎、小川未明、
+-rwxrwxrwx 1 level level 5335 Sep 10 21:19 ./aozorabunko/cards/001475/files/52981_ruby_71623.zip
+2/2: ./aozorabunko/cards/001475/files/52981_ruby_71623.zip
+>> add 52981_ruby_tokeito_yocchan.txt
+>> add 52981_ruby_utf8_tokeito_yocchan.txt
+>> https://www.aozora.gr.jp/cards/001475/card52981.html
+>> 時計とよっちゃん、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31640/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep 10 21:17:53 JST 2020
+End  : Thu Sep 10 21:20:06 JST 2020
