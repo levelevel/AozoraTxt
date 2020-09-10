@@ -376,3 +376,36 @@ Title Total : 31640/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep 10 21:17:53 JST 2020
 End  : Thu Sep 10 21:20:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 11 07:56:48 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ac07c96e0d..83d5ca7e13  master     -> origin/master
+Updating ac07c96e0d..83d5ca7e13
+Fast-forward
+ cards/000214/card48884.html                   |    2 +-
+ cards/001475/card52977.html                   |    2 +-
+ cards/001475/card52981.html                   |    2 +-
+ cards/001693/card55317.html                   |  229 +++
+ cards/001693/files/55317_71670.html           | 2689 +++++++++++++++++++++++++
+ cards/001693/files/55317_ruby_71624.zip       |  Bin 0 -> 26843 bytes
+ 40 files changed, 3808 insertions(+), 894 deletions(-)
+Date: Fri Sep 11 07:58:03 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 10 21:19 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 26843 Sep 11 07:57 ./aozorabunko/cards/001693/files/55317_ruby_71624.zip
+1/1: ./aozorabunko/cards/001693/files/55317_ruby_71624.zip
+>> add 55317_ruby_maguroni_iwashi.txt
+>> add 55317_ruby_utf8_maguroni_iwashi.txt
+>> https://www.aozora.gr.jp/cards/001693/card55317.html
+>> 鮪に鰯、山之口貘、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31642/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep 11 07:56:48 JST 2020
+End  : Fri Sep 11 07:59:06 JST 2020
