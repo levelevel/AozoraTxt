@@ -409,3 +409,36 @@ Title Total : 31642/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Sep 11 07:56:48 JST 2020
 End  : Fri Sep 11 07:59:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep 12 08:48:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   83d5ca7e13..0b224365f8  master     -> origin/master
+Updating 83d5ca7e13..0b224365f8
+Fast-forward
+ cards/000879/card145.html                     |   2 +-
+ cards/001059/card5082.html                    |   8 +-
+ cards/001693/card55317.html                   |   2 +-
+ cards/001869/card57679.html                   | 229 +++++++++++++++
+ cards/001869/files/57679_71671.html           | 391 ++++++++++++++++++++++++++
+ cards/001869/files/57679_ruby_71625.zip       | Bin 0 -> 22190 bytes
+ 57 files changed, 1782 insertions(+), 1165 deletions(-)
+Date: Sat Sep 12 08:49:18 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 11 07:58 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 22190 Sep 12 08:49 ./aozorabunko/cards/001869/files/57679_ruby_71625.zip
+1/1: ./aozorabunko/cards/001869/files/57679_ruby_71625.zip
+>> add 57679_ruby_tsubakuro.txt
+>> add 57679_ruby_utf8_tsubakuro.txt
+>> https://www.aozora.gr.jp/cards/001869/card57679.html
+>> つばくろ、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31644/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep 12 08:48:15 JST 2020
+End  : Sat Sep 12 08:50:48 JST 2020
