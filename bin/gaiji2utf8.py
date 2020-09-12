@@ -5,6 +5,16 @@
 import re
 import os
 
+special_chars = '《》［］〔〕｜※'   #青空文庫の特殊文字
+full_mode=False #青空文庫の特殊文字を変換しない
+#full_mode=True
+
+def is_special(c):
+    global special_chars
+    if full_mode:
+        return False
+    return c in special_chars
+
 def get_chr(m):
     if m[5]:    #Fullwitdh: U+XXXX
         return chr(int(m[5], 16))
@@ -17,9 +27,6 @@ with open(os.path.dirname(__file__)+'/jisx0213-2004-std.txt') as f:
     #                       1            2           3    4                         5
     ms = (re.match(r'(\d-\w{4})\s+U\+(\w{4,5})\+?(\w{4})?(\s.+\sFullwidth: U\+)?(\w{4})?', l) for l in f if l[0] != '#')
     gaiji_table = {m[1]: get_chr(m) for m in ms if m}
-
-def is_special(c):
-    return c in '《》［］〔〕｜※'
 
 #外字注記sをUnicode文字に変換して返す。置き換え不可の場合はそのまま返す。
 def get_gaiji(s):
@@ -61,13 +68,22 @@ def sub_gaiji(text):
 def main():
     import sys
     import io
-    sys.stdin  = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
+    import argparse
+
+    sys.stdin  = io.TextIOWrapper(sys.stdin.buffer,  encoding='utf-8')
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    if len(sys.argv) <= 1:
-        print(sub_gaiji(sys.stdin.read()))
-    else:
-        with open(sys.argv[1], mode='r', encoding='utf-8') as f:
-            print(sub_gaiji(f.read()))
+
+    parser = argparse.ArgumentParser(description='青空文庫の外字表記を文字に変換する。'
+        +'プログラムと同じディレクトリにjisx0213-2004-std.txtが必要。')
+    parser.add_argument('-f', '--full', action='store_true', 
+        help='すべての外字を変換する。デフォルトでは青空文庫の特殊文字（'+special_chars+'）は変換しない。')
+    parser.add_argument('file', nargs='?', type=argparse.FileType('r'), default=sys.stdin, 
+        help='入力ファイル（UTF-8）')
+    args = parser.parse_args()
+    global full_mode
+    full_mode = args.full
+
+    print(sub_gaiji(args.file.read()))
 
 if __name__ == '__main__':
     main()
