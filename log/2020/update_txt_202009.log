@@ -442,3 +442,35 @@ Title Total : 31644/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 12 08:48:15 JST 2020
 End  : Sat Sep 12 08:50:48 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 13 08:40:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0b224365f8..62eebba3a7  master     -> origin/master
+Updating 0b224365f8..62eebba3a7
+Fast-forward
+ cards/001059/card5082.html                    |  10 +-
+ cards/001869/card57679.html                   |   2 +-
+ cards/001879/card58104.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/files/58104_71672.html           |  98 +++++++++++
+ cards/001879/files/58104_ruby_71626.zip       | Bin 0 -> 15568 bytes
+ 64 files changed, 846 insertions(+), 508 deletions(-)
+Date: Sun Sep 13 08:41:17 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 12 08:50 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15568 Sep 13 08:41 ./aozorabunko/cards/001879/files/58104_ruby_71626.zip
+1/1: ./aozorabunko/cards/001879/files/58104_ruby_71626.zip
+>> add 58104_ruby_gendaino_fujinni_tsugu.txt
+>> add 58104_ruby_utf8_gendaino_fujinni_tsugu.txt
+>> https://www.aozora.gr.jp/cards/001879/card58104.html
+>> 現代の婦人に告ぐ、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31646/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 13 08:40:07 JST 2020
+End  : Sun Sep 13 08:42:23 JST 2020
