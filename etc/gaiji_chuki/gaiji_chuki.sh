@@ -5,6 +5,7 @@ set -u
 ROOT=`dirname $0`
 FALL=${ROOT}/all/gaiji_chuki_all_grep.txt
 FGREP=${ROOT}/gaiji_chuki_grep.txt
+FGREPUNIQ=${ROOT}/gaiji_chuki_grep_uniq.txt
 FSORT=${ROOT}/gaiji_chuki_sort.txt
 FUNIQ=${ROOT}/gaiji_chuki_uniq.txt
 FERROR=${ROOT}/gaiji_chuki_error.txt
@@ -50,3 +51,10 @@ FUTF8NO1=${ROOT}/all/gaiji_chuki_all_grep_utf8_no1_.txt
 FUTF8NO2=${ROOT}/all/gaiji_chuki_all_grep_utf8_no2_.txt  #変換できるが変換しなかったもの
 grep ※ $FUTF8 | egrep -v '[12]-[0-9]+-[0-9]+' > $FUTF8NO1
 grep ※ $FUTF8 | egrep    '[12]-[0-9]+-[0-9]+' > $FUTF8NO2
+
+#ファイルごとのコード無し外字注記一覧
+egrep -v -e '変体仮名' -e '篆書体' $FGREP |
+    sed -e 's/([0-9]\+,[0-9]\+)//' \
+        -e 's/、[-0-9第水準上中下段巻序一ニ三四五六七八九はしがきコマ右左（）目次脚注本文－]\+］$//' |
+    egrep -v -e '、U[+＋][0-9A-F]+］?$' -e '、第[34３４]水準[-0-9 ]+］?$' |
+    sort | uniq -c > $FGREPUNIQ
