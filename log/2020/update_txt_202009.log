@@ -574,3 +574,43 @@ Title Total : 31654/394 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 15 07:30:11 JST 2020
 End  : Tue Sep 15 07:33:09 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 16 21:42:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   318216df08..4a46ea6270  master     -> origin/master
+Updating 318216df08..4a46ea6270
+Fast-forward
+ cards/000019/card59376.html                   |   2 +-
+ cards/000169/card52157.html                   | 234 ++++++++++++++++++++++++++
+ cards/000169/files/52157_71677.html           |  64 +++++++
+ cards/000169/files/52157_txt_71631.zip        | Bin 0 -> 1229 bytes
+ cards/000416/card57112.html                   | 234 ++++++++++++++++++++++++++
+ cards/000416/files/57112_71678.html           |  77 +++++++++
+ cards/000416/files/57112_ruby_71632.zip       | Bin 0 -> 6658 bytes
+ 164 files changed, 5784 insertions(+), 4803 deletions(-)
+Date: Wed Sep 16 21:43:04 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 15 07:32 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1229 Sep 16 21:42 ./aozorabunko/cards/000169/files/52157_txt_71631.zip
+1/2: ./aozorabunko/cards/000169/files/52157_txt_71631.zip
+>> add 52157_txt_atarashii_onna.txt
+>> add 52157_txt_utf8_atarashii_onna.txt
+>> https://www.aozora.gr.jp/cards/000169/card52157.html
+>> 新しい女、大杉栄、
+-rwxrwxrwx 1 level level 6658 Sep 16 21:42 ./aozorabunko/cards/000416/files/57112_ruby_71632.zip
+2/2: ./aozorabunko/cards/000416/files/57112_ruby_71632.zip
+>> add 57112_ruby_teisoni_tsuiteno_zakkan.txt
+>> add 57112_ruby_utf8_teisoni_tsuiteno_zakkan.txt
+>> https://www.aozora.gr.jp/cards/000416/card57112.html
+>> 貞操に就いての雑感、伊藤野枝、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31658/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 16 21:42:13 JST 2020
+End  : Wed Sep 16 21:43:42 JST 2020
