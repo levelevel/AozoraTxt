@@ -646,3 +646,34 @@ Title Total : 31660/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep 17 08:14:32 JST 2020
 End  : Thu Sep 17 08:16:25 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 18 08:29:39 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   977900a1c7..08a46e97b9  master     -> origin/master
+Updating 977900a1c7..08a46e97b9
+Fast-forward
+ cards/000058/card56540.html                   | 229 ++++++++++++++++++++++++++
+ cards/000058/files/56540_71680.html           | 226 +++++++++++++++++++++++++
+ cards/000058/files/56540_ruby_71634.zip       | Bin 0 -> 18538 bytes
+ cards/001670/card56354.html                   |   2 +-
+ 50 files changed, 1230 insertions(+), 778 deletions(-)
+Date: Fri Sep 18 08:30:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 17 08:16 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 18538 Sep 18 08:30 ./aozorabunko/cards/000058/files/56540_ruby_71634.zip
+1/1: ./aozorabunko/cards/000058/files/56540_ruby_71634.zip
+>> add 56540_ruby_yameru.txt
+>> add 56540_ruby_utf8_yameru.txt
+>> https://www.aozora.gr.jp/cards/000058/card56540.html
+>> 廃める、伊藤左千夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31662/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep 18 08:29:39 JST 2020
+End  : Fri Sep 18 08:30:52 JST 2020
