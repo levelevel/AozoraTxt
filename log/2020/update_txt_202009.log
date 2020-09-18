@@ -677,3 +677,43 @@ Title Total : 31662/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Sep 18 08:29:39 JST 2020
 End  : Fri Sep 18 08:30:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep 19 08:21:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   08a46e97b9..8af5004cdf  master     -> origin/master
+Updating 08a46e97b9..8af5004cdf
+Fast-forward
+ cards/000058/card56540.html                   |   2 +-
+ cards/001569/card59204.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59212.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59204_71682.html           |  68 ++++++++
+ cards/001569/files/59204_ruby_71636.zip       | Bin 0 -> 2276 bytes
+ cards/001569/files/59212_71681.html           | 116 +++++++++++++
+ cards/001569/files/59212_ruby_71635.zip       | Bin 0 -> 11300 bytes
+ 86 files changed, 3794 insertions(+), 3147 deletions(-)
+Date: Sat Sep 19 08:22:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 18 08:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2276 Sep 19 08:22 ./aozorabunko/cards/001569/files/59204_ruby_71636.zip
+1/2: ./aozorabunko/cards/001569/files/59204_ruby_71636.zip
+>> add 59204_ruby_miraino_ashioto.txt
+>> add 59204_ruby_utf8_miraino_ashioto.txt
+>> https://www.aozora.gr.jp/cards/001569/card59204.html
+>> 未来の足音、中谷宇吉郎、
+-rwxrwxrwx 1 level level 11300 Sep 19 08:22 ./aozorabunko/cards/001569/files/59212_ruby_71635.zip
+2/2: ./aozorabunko/cards/001569/files/59212_ruby_71635.zip
+>> add 59212_ruby_jisutoma_taijino_hanashi.txt
+>> add 59212_ruby_utf8_jisutoma_taijino_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59212.html
+>> ジストマ退治の話、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31666/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep 19 08:21:27 JST 2020
+End  : Sat Sep 19 08:24:24 JST 2020
