@@ -1103,16 +1103,8 @@
       2 ・001059\42157_ruby_seppun.txt: ※［＃「漑」のさんずいに代えて「口」
       1 ・001059\43501_ruby_nenjushu.txt: ※［＃「てへん＋參」
       1 ・001059\43501_ruby_nenjushu.txt: ※［＃「やまいだれ＋（「堊」の「王」に代えて「田」）」
-      1 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「さんずい＋（勹＜一）」
-      2 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「にんべん＋弖」
-      2 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「りっしんべん＋可」
-      1 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「嬰」の「女」に代えて「鳥」
-      1 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「王＋倉」
-      1 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「糸＋包」
-      4 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「女＋感」
-      4 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「女＋釆」
-      1 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「女＋麗」
-      2 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「目＋碌のつくり」
+      2 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「女＋感」
+      3 ・001059\5082_ruby_man'yo_shuka.txt: ※［＃「女＋釆」
       1 ・001077\42146_ruby_dojoji.txt: ※［＃「りっしんべん＋曹」
       3 ・001077\42146_ruby_dojoji.txt: ※［＃「目＋乏」
       1 ・001081\51937_ruby_ilias02reigen.txt: ※［＃丸一
@@ -1187,7 +1179,7 @@
       4 ・001224\46147_ruby_hadairono_tsuki.txt: ※［＃小書き片仮名ガ
       3 ・001224\47491_ruby_06nusubito.txt: ※［＃小書き片仮名ン
       4 ・001224\47492_ruby_07umino_surie.txt: ※［＃小書き片仮名ン
-      1 ・001224\47498_ruby_02ainori_ubaguruma.txt: ※［＃5分の4
+      2 ・001224\47498_ruby_02ainori_ubaguruma.txt: ※［＃5分の4
       2 ・001224\47499_ruby_03shanikusaino_chainafuku.txt: ※［＃「てへん＋夸」
       1 ・001224\47502_ruby_06ranshino_nao.txt: ※［＃「此／目」
       3 ・001231\46296_txt_indono_seijin.txt: ※［＃「缶＋卩」
@@ -1363,6 +1355,7 @@
       2 ・001692\55043_ruby_sanno_tori.txt: ※［＃小書き片仮名ン
       1 ・001693\55053_ruby_yamanokuchi_baku_shishu.txt: ※［＃「睛のつくり」］
       3 ・001693\55053_ruby_yamanokuchi_baku_shishu.txt: ※［＃小書き平仮名む
+      3 ・001693\55317_ruby_maguroni_iwashi.txt: ※［＃丸公
       3 ・001715\55242_ruby_tenno_okami.txt: ※［＃「さんずい＋雫」
       2 ・001731\55428_ruby_hikaru_seibutsu.txt: ※［＃「目＋宗」
       2 ・001741\55749_ruby_ryukonroku.txt: ※［＃「虫＋恵」
