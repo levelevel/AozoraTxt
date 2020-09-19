@@ -717,3 +717,44 @@ Title Total : 31666/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 19 08:21:27 JST 2020
 End  : Sat Sep 19 08:24:24 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 20 07:03:32 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8af5004cdf..d1bbebe0d9  master     -> origin/master
+Updating 8af5004cdf..d1bbebe0d9
+Fast-forward
+ cards/001091/card59498.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/card59521.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59498_71683.html           | 151 ++++++++++++++++
+ cards/001091/files/59498_ruby_71637.zip       | Bin 0 -> 140023 bytes
+ cards/001091/files/59521_71684.html           | 123 +++++++++++++
+ cards/001091/files/59521_ruby_71638.zip       | Bin 0 -> 3829 bytes
+ cards/001569/card59204.html                   |   2 +-
+ cards/001569/card59212.html                   |   2 +-
+ 128 files changed, 4088 insertions(+), 3358 deletions(-)
+Date: Sun Sep 20 07:04:28 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 19 08:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 140023 Sep 20 07:04 ./aozorabunko/cards/001091/files/59498_ruby_71637.zip
+1/2: ./aozorabunko/cards/001091/files/59498_ruby_71637.zip
+>> add 59498_ruby_kaeruno_osama.txt
+>> add 59498_ruby_utf8_kaeruno_osama.txt
+>> https://www.aozora.gr.jp/cards/001091/card59498.html
+>> カエルの王さま、または鉄のハインリッヒ、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 3829 Sep 20 07:04 ./aozorabunko/cards/001091/files/59521_ruby_71638.zip
+2/2: ./aozorabunko/cards/001091/files/59521_ruby_71638.zip
+>> add 59521_ruby_okamito_7hikino_koyagi.txt
+>> add 59521_ruby_utf8_okamito_7hikino_koyagi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59521.html
+>> オオカミと七ひきの子ヤギ、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31670/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 20 07:03:32 JST 2020
+End  : Sun Sep 20 07:05:25 JST 2020
