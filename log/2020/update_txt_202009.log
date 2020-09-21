@@ -758,3 +758,44 @@ Title Total : 31670/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Sep 20 07:03:32 JST 2020
 End  : Sun Sep 20 07:05:25 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep 21 15:08:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d1bbebe0d9..dd0e1148a0  master     -> origin/master
+Updating d1bbebe0d9..dd0e1148a0
+Fast-forward
+ cards/001091/card59498.html                   |   2 +-
+ cards/001091/card59521.html                   |   2 +-
+ cards/001403/card59642.html                   | 229 +++++++++++++
+ cards/001403/card59643.html                   | 229 +++++++++++++
+ cards/001403/files/59642_71686.html           |  65 ++++
+ cards/001403/files/59642_ruby_71640.zip       | Bin 0 -> 2019 bytes
+ cards/001403/files/59643_71685.html           |  72 ++++
+ cards/001403/files/59643_txt_71639.zip        | Bin 0 -> 2180 bytes
+ 64 files changed, 2724 insertions(+), 2589 deletions(-)
+Date: Mon Sep 21 15:09:22 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 20 07:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2019 Sep 21 15:09 ./aozorabunko/cards/001403/files/59642_ruby_71640.zip
+1/2: ./aozorabunko/cards/001403/files/59642_ruby_71640.zip
+>> add 59642_ruby_kagaku_chomiryo.txt
+>> add 59642_ruby_utf8_kagaku_chomiryo.txt
+>> https://www.aozora.gr.jp/cards/001403/card59642.html
+>> 化学調味料、北大路魯山人、
+-rwxrwxrwx 1 level level 2180 Sep 21 15:09 ./aozorabunko/cards/001403/files/59643_txt_71639.zip
+2/2: ./aozorabunko/cards/001403/files/59643_txt_71639.zip
+>> add 59643_txt_kachiku_shokuni_amanzuru_okuno_hitobito.txt
+>> add 59643_txt_utf8_kachiku_shokuni_amanzuru_okuno_hitobito.txt
+>> https://www.aozora.gr.jp/cards/001403/card59643.html
+>> 家畜食に甘んずる多くの人々、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31674/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep 21 15:08:07 JST 2020
+End  : Mon Sep 21 15:10:35 JST 2020
