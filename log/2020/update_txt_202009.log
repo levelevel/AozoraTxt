@@ -840,3 +840,35 @@ Title Total : 31678/394 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 22 08:58:43 JST 2020
 End  : Tue Sep 22 09:03:17 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 23 20:05:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7027dd47c7..426ed69d42  master     -> origin/master
+Updating 7027dd47c7..426ed69d42
+Fast-forward
+ cards/000214/card48958.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48958_71689.html           |  98 +++++++++++
+ cards/000214/files/48958_ruby_71643.zip       | Bin 0 -> 5179 bytes
+ cards/001750/card57298.html                   |   2 +-
+ cards/001750/card57299.html                   |   2 +-
+ 62 files changed, 1250 insertions(+), 919 deletions(-)
+Date: Wed Sep 23 20:07:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 22 09:03 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5179 Sep 23 20:06 ./aozorabunko/cards/000214/files/48958_ruby_71643.zip
+1/1: ./aozorabunko/cards/000214/files/48958_ruby_71643.zip
+>> add 48958_ruby_mizukarao_shinzeyo.txt
+>> add 48958_ruby_utf8_mizukarao_shinzeyo.txt
+>> https://www.aozora.gr.jp/cards/000214/card48958.html
+>> 自からを信ぜよ、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31680/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 23 20:05:02 JST 2020
+End  : Wed Sep 23 20:09:21 JST 2020
