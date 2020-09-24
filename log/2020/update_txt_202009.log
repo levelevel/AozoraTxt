@@ -922,3 +922,35 @@ Title Total : 31684/394 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep 24 17:53:19 JST 2020
 End  : Thu Sep 24 17:53:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep 25 07:25:15 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8fc7313bbf..492781eb8c  master     -> origin/master
+Updating 8fc7313bbf..492781eb8c
+Fast-forward
+ cards/001475/card53019.html                   |   2 +-
+ cards/001475/card53471.html                   |   2 +-
+ cards/001879/card58124.html                   | 234 ++++++++++++++++++++++++++
+ cards/001879/files/58124_71692.html           |  69 ++++++++
+ cards/001879/files/58124_ruby_71646.zip       | Bin 0 -> 4599 bytes
+ 149 files changed, 2420 insertions(+), 2121 deletions(-)
+Date: Fri Sep 25 07:26:24 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 24 17:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4599 Sep 25 07:26 ./aozorabunko/cards/001879/files/58124_ruby_71646.zip
+1/1: ./aozorabunko/cards/001879/files/58124_ruby_71646.zip
+>> add 58124_ruby_fufu_tomokasegito_joshino_gakumon.txt
+>> add 58124_ruby_utf8_fufu_tomokasegito_joshino_gakumon.txt
+>> https://www.aozora.gr.jp/cards/001879/card58124.html
+>> 夫婦共稼ぎと女子の学問、大隈重信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31686/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep 25 07:25:15 JST 2020
+End  : Fri Sep 25 07:27:33 JST 2020
