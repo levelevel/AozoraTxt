@@ -872,3 +872,53 @@ Title Total : 31680/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep 23 20:05:02 JST 2020
 End  : Wed Sep 23 20:09:21 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep 24 17:53:19 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   426ed69d42..8fc7313bbf  master     -> origin/master
+Updating 426ed69d42..8fc7313bbf
+Fast-forward
+ cards/000214/card48958.html                   |   2 +-
+ cards/000879/card145.html                     |  16 +-
+ cards/001475/card53019.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53471.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/53019_71690.html           |  90 ++++++++++
+ cards/001475/files/53019_ruby_71644.zip       | Bin 0 -> 3947 bytes
+ cards/001475/files/53471_71691.html           | 107 ++++++++++++
+ cards/001475/files/53471_ruby_71645.zip       | Bin 0 -> 4344 bytes
+ cards/001524/card51921.html                   |   8 +-
+ cards/001524/files/51921_71330.html           |   8 +-
+ cards/001524/files/51921_ruby_71238.zip       | Bin 14701 -> 14721 bytes
+ 73 files changed, 2358 insertions(+), 1699 deletions(-)
+Date: Thu Sep 24 17:53:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 23 20:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3947 Sep 24 17:53 ./aozorabunko/cards/001475/files/53019_ruby_71644.zip
+1/3: ./aozorabunko/cards/001475/files/53019_ruby_71644.zip
+>> add 53019_ruby_hachito_barano_hana.txt
+>> add 53019_ruby_utf8_hachito_barano_hana.txt
+>> https://www.aozora.gr.jp/cards/001475/card53019.html
+>> はちとばらの花、小川未明、
+-rwxrwxrwx 1 level level 4344 Sep 24 17:53 ./aozorabunko/cards/001475/files/53471_ruby_71645.zip
+2/3: ./aozorabunko/cards/001475/files/53471_ruby_71645.zip
+>> add 53471_ruby_ningento_yuwakashi.txt
+>> add 53471_ruby_utf8_ningento_yuwakashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card53471.html
+>> 人間と湯沸かし、小川未明、
+-rwxrwxrwx 1 level level 14721 Sep 24 17:53 ./aozorabunko/cards/001524/files/51921_ruby_71238.zip
+3/3: ./aozorabunko/cards/001524/files/51921_ruby_71238.zip
+>> update 51921_ruby_01hakui_retsuden.txt
+>> update 51921_ruby_utf8_01hakui_retsuden.txt
+>> https://www.aozora.gr.jp/cards/001524/card51921.html
+>> 國譯史記列傳、伯夷列傳第一、司馬遷、箭内亙訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31684/394 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep 24 17:53:19 JST 2020
+End  : Thu Sep 24 17:53:49 JST 2020
