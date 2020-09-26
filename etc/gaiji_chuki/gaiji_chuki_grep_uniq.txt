@@ -530,6 +530,9 @@
       1 ・000218\1072_ruby_katararezaru_tetsugaku.txt: ※［＃「冫＋俊のつくり」
       1 ・000218\46213_ruby_kagaku_hihanno_kadai.txt: ※［＃「糸＋肅」
       1 ・000218\46226_ruby_marx_shugito_yuibutsuron.txt: ※［＃ローマ数字46
+      2 ・000218\46593_txt_rekishi_tetsugaku.txt: ※［＃「纏」の「里」に代えて「黨－尚－れんが」、「广」に代えて「厂」
+      3 ・000218\46593_txt_rekishi_tetsugaku.txt: ※［＃小書き片仮名ヰ
+      1 ・000218\46593_txt_rekishi_tetsugaku.txt: ※［＃上方に不鮮明な符号が付いているω
       2 ・000218\46846_txt_tetsugakuwa_do_manande.txt: ※［＃「圖」の「回」に代えて「面から一、二画目をとったもの」
       1 ・000218\5007_txt_yuibutsushikanto_gendaino_ishiki.txt: ※［＃ローマ数字46
       1 ・000235\51172_ruby_kaichoon.txt: ※［＃「竹かんむり／候」
@@ -1360,6 +1363,7 @@
       2 ・001731\55428_ruby_hikaru_seibutsu.txt: ※［＃「目＋宗」
       2 ・001741\55749_ruby_ryukonroku.txt: ※［＃「虫＋恵」
       3 ・001750\55804_ruby_ichinenno_kei.txt: ※［＃小書き濁点付き片仮名カ
+     43 ・001750\57298_ruby_kachiun_makeun.txt: ※［＃「Γ」を左右反転したもの、屋号を示す記号
       3 ・001763\58554_txt_aru_bungaku_seinen_zo.txt: ※［＃小書き片仮名ヰ
       1 ・001764\55990_ruby_03nihon_sonohi_sonohi.txt: ※［＃「くさかんむり／寇」の「攴」に代えて「支」
       1 ・001774\56171_ruby_girisha_juji.txt: ※［＃小書き片仮名ン
