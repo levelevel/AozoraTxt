@@ -1,9 +1,12 @@
 # AozoraTxt
-[青空文庫](https://www.aozora.gr.jp/)で公開されている文書の全テキストファイルのリポジトリです。ただし著作権が存在するファイルは除いてあります。
+[青空文庫](https://www.aozora.gr.jp/)で公開されている文書の全テキストファイルのリポジトリです。
+ただし[著作権が切れていない作品](https://www.aozora.gr.jp/guide/kijyunn.html#midashi120)のファイルは除いてあります。
 
 https://github.com/aozorabunko/aozorabunko で公開されているものをベースにしています。
 
-テキストファイルだけを欲しい人は[Google Drive](https://drive.google.com/drive/folders/1rgjtxZqPQbOrpM8soGj_wFe_WNk5CStP?usp=sharing)からzipファイルを取得できます（不定期更新）。
+テキストファイルだけを欲しい人は[リリースページ](https://github.com/levelevel/AozoraTxt/releases/latest)からzipファイルを取得できます（不定期更新）。
+- AozoraTxt_SJIS.zip : 青空文庫全文書SJIS版
+- AozoraTxt_UTF8.zip : 青空文庫全文書UTF8版
 
 ## ディレクトリ構成
 - person/<作者ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
@@ -45,4 +48,4 @@ https://www.aozora.gr.jp/cards/<作者ID>/card<作品ID>.html
 - ｜　：　※［＃縦線、1-1-35］　（ルビ）
 - ※　：　※［＃米印、1-2-8］　（[外字](https://www.aozora.gr.jp/annotation/external_character.html)）
 
-「／＼」や「／″＼」のような青空文庫記法の踊り字（[くの字点](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97#%E3%80%B1%EF%BC%88%E3%81%8F%E3%81%AE%E5%AD%97%E7%82%B9%EF%BC%89)）もUnicodeへ変換は可能ですがそのまま残してあります。
+「／＼」や「／″＼」のような青空文庫記法の踊り字（[くの字点](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97#%E3%80%B1%EF%BC%88%E3%81%8F%E3%81%AE%E5%AD%97%E7%82%B9%EF%BC%89)）はUnicodeへ変換が可能ですがそのまま残してあります。

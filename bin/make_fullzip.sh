@@ -20,7 +20,7 @@ MakeZip(){
 	"$ZIP" $ZIP_OPT $person_zip $person_from
 }
 
-MakeZip person      青空文庫全文書_SJIS版.zip
-MakeZip person_utf8 青空文庫全文書_UTF8版.zip
+MakeZip person      AozoraTxt_SJIS.zip
+MakeZip person_utf8 AozoraTxt_UTF8.zip
 
 exit
