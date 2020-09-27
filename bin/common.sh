@@ -34,8 +34,9 @@ PERSON_TO_NPD=$TARGET_ROOT_NPD/person
 PERSON_TO_NPD_UTF8=$TARGET_ROOT_NPD/person_utf8
 TARGET_ETC=$TARGET_ROOT/etc
 TARGET_LOG=$TARGET_ROOT/log
+TARGET_CSV=$TARGET_ROOT/csv
 
-mkdir -p $PERSON_TO $PERSON_TO_UTF8 $TARGET_ETC $TARGET_LOG
+mkdir -p $PERSON_TO $PERSON_TO_UTF8 $TARGET_ETC $TARGET_LOG $TARGET_CSV
 
 # $ROOT/aozorabunko/card/000005などを集出するための
 # find . -type -d -name ... のパターン
@@ -52,6 +53,11 @@ GIT_MV_FILE=$TARGET_LOG/git-mv_file.log
 ZIP_LIST_NPD=$TARGET_ETC/zip_npd.txt
 COMMIT_LIST=$TARGET_ETC/commit_all.txt
 
+ZIP_SJIS=$TARGET_ROOT/AozoraTxt_SJIS.zip
+ZIP_UTF8=$TARGET_ROOT/AozoraTxt_UTF8.zip
+NAME_LIST=$TARGET_CSV/name.csv
+TITLE_LIST=$TARGET_CSV/title.csv
+
 if [ -d /cygdrive/c ]; then
 	WINDIR=/cygdrive/c
 elif [ -d /mnt/c ]; then
@@ -64,6 +70,7 @@ GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"
 
 #SJIS2UTF8="iconv -f SHIFT_JISX0213 -t utf8 -c"
 SJIS2UTF8="iconv -f CP932 -t utf8 -c"
+UTF82SJIS="iconv -f utf8 -t CP932 -c"
 
 if [ "$WINDIR" != "" ]; then
 	UNZIP="$WINDIR/Program Files/7-Zip/7z.exe"
