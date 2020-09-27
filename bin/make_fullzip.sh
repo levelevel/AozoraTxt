@@ -20,7 +20,21 @@ MakeZip(){
 	"$ZIP" $ZIP_OPT $person_zip $person_from
 }
 
-MakeZip person      AozoraTxt_SJIS.zip
-MakeZip person_utf8 AozoraTxt_UTF8.zip
+ZIP_SJIS=AozoraTxt_SJIS.zip
+ZIP_UTF8=AozoraTxt_UTF8.zip
+NUM_PERSON=`ls -1 person | wc -l`
+NUM_FILE=`find person -name "*.txt" | wc -l`
+TODAY=`date +%Y/%m/%d`
+
+cat << EOF > Release.md
+${TODAY}時点での青空文庫テキストファイル一式
+（作家数：$NUM_PERSON、ファイル数：$NUM_FILE）
+
+- $ZIP_SJIS : 青空文庫全文書SJIS版
+- $ZIP_UTF8 : 青空文庫全文書UTF8版
+EOF
+
+MakeZip person      $ZIP_SJIS
+MakeZip person_utf8 $ZIP_UTF8
 
 exit

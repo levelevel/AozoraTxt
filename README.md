@@ -5,8 +5,6 @@
 https://github.com/aozorabunko/aozorabunko で公開されているものをベースにしています。
 
 テキストファイルだけを欲しい人は[リリースページ](https://github.com/levelevel/AozoraTxt/releases/latest)からzipファイルを取得できます（不定期更新）。
-- AozoraTxt_SJIS.zip : 青空文庫全文書SJIS版
-- AozoraTxt_UTF8.zip : 青空文庫全文書UTF8版
 
 ## ディレクトリ構成
 - person/<作者ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
