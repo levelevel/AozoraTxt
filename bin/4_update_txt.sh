@@ -236,3 +236,11 @@ echo "Start: $start_time"
 echo "End  : `date`"
 
 } 2>&1 | tee $LAST_LOG | tee -a $LOG
+
+if [ `date +%d` -eq 27 ]; then
+	ZIP=$BIN/../AozoraTxt_SJIS.zip
+	if [ ! -e $ZIP ] || [ `date -r $ZIP +%m%d` -ne `date +%m%d` ]; then
+		echo "#バックグラウンドでフルテキストzip作成中"
+		make_fullzip.sh &
+	fi
+fi
