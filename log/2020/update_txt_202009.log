@@ -1036,3 +1036,52 @@ Title Total : 31694/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Sep 27 07:35:18 JST 2020
 End  : Sun Sep 27 07:38:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep 28 07:20:23 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   41162644bb..37397ca442  master     -> origin/master
+Updating 41162644bb..37397ca442
+Fast-forward
+ cards/000293/card59825.html                   | 234 ++++++++++++++++++++++++++
+ cards/000293/card59826.html                   | 234 ++++++++++++++++++++++++++
+ cards/000293/card60200.html                   | 234 ++++++++++++++++++++++++++
+ cards/000293/files/59825_71697.html           | 149 ++++++++++++++++
+ cards/000293/files/59825_txt_71651.zip        | Bin 0 -> 2884 bytes
+ cards/000293/files/59826_71698.html           | 171 +++++++++++++++++++
+ cards/000293/files/59826_txt_71652.zip        | Bin 0 -> 3392 bytes
+ cards/000293/files/60200_71699.html           | 125 ++++++++++++++
+ cards/000293/files/60200_ruby_71653.zip       | Bin 0 -> 7971 bytes
+ cards/001670/card56339.html                   |   2 +-
+ 87 files changed, 3669 insertions(+), 2518 deletions(-)
+Date: Mon Sep 28 07:21:22 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 27 07:40 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2884 Sep 28 07:21 ./aozorabunko/cards/000293/files/59825_txt_71651.zip
+1/3: ./aozorabunko/cards/000293/files/59825_txt_71651.zip
+>> add 59825_txt_aru_jikoku.txt
+>> add 59825_txt_utf8_aru_jikoku.txt
+>> https://www.aozora.gr.jp/cards/000293/card59825.html
+>> ある時刻、原民喜、
+-rwxrwxrwx 1 level level 3392 Sep 28 07:21 ./aozorabunko/cards/000293/files/59826_txt_71652.zip
+2/3: ./aozorabunko/cards/000293/files/59826_txt_71652.zip
+>> add 59826_txt_gashu.txt
+>> add 59826_txt_utf8_gashu.txt
+>> https://www.aozora.gr.jp/cards/000293/card59826.html
+>> 画集、原民喜、
+-rwxrwxrwx 1 level level 7971 Sep 28 07:21 ./aozorabunko/cards/000293/files/60200_ruby_71653.zip
+3/3: ./aozorabunko/cards/000293/files/60200_ruby_71653.zip
+>> add 60200_ruby_harukana_tabi.txt
+>> add 60200_ruby_utf8_harukana_tabi.txt
+>> https://www.aozora.gr.jp/cards/000293/card60200.html
+>> 遥かな旅、原民喜、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31700/394 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep 28 07:20:23 JST 2020
+End  : Mon Sep 28 07:22:10 JST 2020
