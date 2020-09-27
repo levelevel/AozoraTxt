@@ -11,8 +11,8 @@ BIN=`dirname $0`
 aozora=$BIN/../../aozorabunko
 person_from=$BIN/../person_utf8
 
-echo "path,作家名" > $NAME_LIST
-echo "ファイル,作品名,作家名,訳者名" > $TITLE_LIST
+echo "作家ID,作家名" > $NAME_LIST
+echo "ファイル名,作品名,作家名,訳者名" > $TITLE_LIST
 old_person=0
 while read txt
 do

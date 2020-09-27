@@ -7,18 +7,23 @@ https://github.com/aozorabunko/aozorabunko で公開されているものをベ�
 テキストファイルだけを欲しい人は[リリースページ](https://github.com/levelevel/AozoraTxt/releases/latest)からzipファイルを取得できます（不定期更新）。
 
 ## ディレクトリ構成
-- person/<作者ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
+- person/<作家ID>/<作品ID>\_\<type>_<オリジナルファイル名>.txt  
   zipファイルに格納されているファイルそのままで、管理しやすいようにファイル名のみ変更しています。文字コードはSJIS、改行コードはCRLF（Windows形式）です。
-- person_utf8/<作者ID>/<作品ID>\_utf8\_\<type>\_<オリジナルファイル名>.txt  
+- person_utf8/<作家ID>/<作品ID>\_utf8\_\<type>\_<オリジナルファイル名>.txt  
   上記ファイルの文字コードをUTF8に変換し、外字は可能な限りUTF8に置き換えています。改行コードはLF（Unix形式）です。
 
-  - <作者ID> : 6桁の数値（先頭0埋め）
+  - <作家ID> : 6桁の数値（先頭0埋め）
   - <作品ID> : 1~5桁の数値
   - \<type> : ruby（ルビ入り）またはtxt（ルビ無し）。かつては一つの作品に対してルビ入り・ルビ無しの両方が作成されることがありましたが、現在では底本にルビがあればルビ入り、無ければルビ無しとなります。
   - <オリジナルファイル名> : zipファイル内のtxtファイル名。
 
-https://www.aozora.gr.jp/cards/<作者ID>/card<作品ID>.html  
+https://www.aozora.gr.jp/cards/<作家ID>/card<作品ID>.html  
 で該当作品の図書カードにアクセスできます。（IDを二つ入れないといけないのがちょっと難点ですね）
+
+## 作家名、作品名一覧
+作家名、作品名の一覧は以下のCSVファイルを参照してください。
+- [csv/name.csv](https://github.com/levelevel/AozoraTxt/blob/master/csv/name.csv): 作家ID,作家名
+- [csv/title.csv](https://github.com/levelevel/AozoraTxt/blob/master/csv/title.csv): ファイル名,作品名,作家名,訳者名
 
 ## テキストファイルの更新履歴
 青空文庫のリポジトリは2011年5月から現在までほぼ毎日更新されていますが、この間に変更されたテキストファイルの差分（ファイル名の変更含む）はすべて本リポジトリに反映してあります（バグがなければ）。

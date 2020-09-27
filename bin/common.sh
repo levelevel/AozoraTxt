@@ -52,6 +52,7 @@ UPDATE_FILE=$TARGET_LOG/update_file.log
 GIT_MV_FILE=$TARGET_LOG/git-mv_file.log
 ZIP_LIST_NPD=$TARGET_ETC/zip_npd.txt
 COMMIT_LIST=$TARGET_ETC/commit_all.txt
+RELEASE_MD=$TARGET_ROOT/Release.md
 
 ZIP_SJIS=$TARGET_ROOT/AozoraTxt_SJIS.zip
 ZIP_UTF8=$TARGET_ROOT/AozoraTxt_UTF8.zip

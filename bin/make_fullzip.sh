@@ -23,7 +23,7 @@ NUM_PERSON=`ls -1 $PERSON_TO | wc -l`
 NUM_FILE=`find $PERSON_TO -name "*.txt" | wc -l`
 TODAY=`date +%Y/%m/%d`
 
-cat << EOF > Release.md
+cat << EOF > $RELEASE_MD
 ${TODAY}時点での青空文庫テキストファイル一式
 （作家数：$NUM_PERSON、ファイル数：$NUM_FILE）
 
@@ -35,6 +35,7 @@ make_csv.sh
 cp $NAME_LIST $TITLE_LIST $PERSON_TO_UTF8
 $UTF82SJIS $NAME_LIST  > $PERSON_TO/${NAME_LIST##*/}
 $UTF82SJIS $TITLE_LIST > $PERSON_TO/${TITLE_LIST##*/}
+unix2dos $PERSON_TO/*.csv 2> /dev/null
 
 MakeZip $PERSON_TO      $ZIP_SJIS
 MakeZip $PERSON_TO_UTF8 $ZIP_UTF8
