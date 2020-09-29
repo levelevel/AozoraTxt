@@ -1085,3 +1085,44 @@ Title Total : 31700/394 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Sep 28 07:20:23 JST 2020
 End  : Mon Sep 28 07:22:10 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Sep 29 21:39:30 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   37397ca442..23326b490c  master     -> origin/master
+Updating 37397ca442..23326b490c
+Fast-forward
+ cards/000293/card59825.html                   |    2 +-
+ cards/000293/card59826.html                   |    2 +-
+ cards/000293/card60200.html                   |    2 +-
+ cards/000879/files/145_15147.html             |   61 +-
+ cards/000879/files/145_ruby_1288.zip          |  Bin 6554 -> 6716 bytes
+ cards/001224/card46106.html                   |  229 ++++
+ cards/001224/files/46106_71700.html           | 1399 +++++++++++++++++++++++++
+ cards/001224/files/46106_ruby_71654.zip       |  Bin 0 -> 79566 bytes
+ 73 files changed, 2765 insertions(+), 1139 deletions(-)
+Date: Tue Sep 29 21:40:56 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 28 07:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6716 Sep 29 21:40 ./aozorabunko/cards/000879/files/145_ruby_1288.zip
+1/2: ./aozorabunko/cards/000879/files/145_ruby_1288.zip
+>> update 145_ruby_nijunengono_senso.txt
+>> update 145_ruby_utf8_nijunengono_senso.txt
+>> https://www.aozora.gr.jp/cards/000879/card145.html
+>> 廿年後之戦争、芥川龍之介、
+-rwxrwxrwx 1 level level 79566 Sep 29 21:40 ./aozorabunko/cards/001224/files/46106_ruby_71654.zip
+2/2: ./aozorabunko/cards/001224/files/46106_ruby_71654.zip
+>> add 46106_ruby_noa.txt
+>> add 46106_ruby_utf8_noa.txt
+>> https://www.aozora.gr.jp/cards/001224/card46106.html
+>> ノア、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31702/394 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Sep 29 21:39:30 JST 2020
+End  : Tue Sep 29 21:42:03 JST 2020
