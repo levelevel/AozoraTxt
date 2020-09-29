@@ -1126,3 +1126,34 @@ Title Total : 31702/394 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 29 21:39:30 JST 2020
 End  : Tue Sep 29 21:42:03 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 30 07:52:09 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   23326b490c..126bb9baa5  master     -> origin/master
+Updating 23326b490c..126bb9baa5
+Fast-forward
+ cards/001224/card46106.html                   |   2 +-
+ cards/001869/card57720.html                   | 229 +++++++++++++
+ cards/001869/files/57720_71701.html           | 441 ++++++++++++++++++++++++++
+ cards/001869/files/57720_ruby_71655.zip       | Bin 0 -> 29708 bytes
+ 44 files changed, 1643 insertions(+), 976 deletions(-)
+Date: Wed Sep 30 07:53:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 29 21:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 29708 Sep 30 07:53 ./aozorabunko/cards/001869/files/57720_ruby_71655.zip
+1/1: ./aozorabunko/cards/001869/files/57720_ruby_71655.zip
+>> add 57720_ruby_hyakuashi_chigai.txt
+>> add 57720_ruby_utf8_hyakuashi_chigai.txt
+>> https://www.aozora.gr.jp/cards/001869/card57720.html
+>> 百足ちがい、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31704/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 30 07:52:09 JST 2020
+End  : Wed Sep 30 07:54:52 JST 2020
