@@ -5,7 +5,7 @@
 import re
 import os
 
-special_chars = '《》［］〔〕｜※'   #青空文庫の特殊文字
+special_chars = '《》［］〔〕｜※'   #青空文庫の特殊文字（＃は特殊文字として扱わない）
 full_mode=False #青空文庫の特殊文字を変換しない
 #full_mode=True
 
