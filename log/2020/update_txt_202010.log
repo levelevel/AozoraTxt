@@ -1,0 +1,31 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct  1 08:55:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   126bb9baa5..9f27d34d38  master     -> origin/master
+Updating 126bb9baa5..9f27d34d38
+Fast-forward
+ cards/001763/card59941.html                   | 234 ++++++++++++++++++++++++++
+ cards/001763/files/59941_71901.html           |  75 +++++++++
+ cards/001763/files/59941_txt_71854.zip        | Bin 0 -> 2320 bytes
+ cards/001869/card57720.html                   |   2 +-
+ 87 files changed, 1182 insertions(+), 876 deletions(-)
+Date: Thu Oct  1 08:56:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Sep 30 07:54 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2320 Oct  1 08:56 ./aozorabunko/cards/001763/files/59941_txt_71854.zip
+1/1: ./aozorabunko/cards/001763/files/59941_txt_71854.zip
+>> add 59941_txt_sunkan.txt
+>> add 59941_txt_utf8_sunkan.txt
+>> https://www.aozora.gr.jp/cards/001763/card59941.html
+>> 寸感、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31706/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct  1 08:55:28 JST 2020
+End  : Thu Oct  1 08:57:52 JST 2020
