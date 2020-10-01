@@ -194,6 +194,7 @@
 ./aozorabunko/cards/002043/files/60548_ruby_71316.zip	2020/07/02
 ./aozorabunko/cards/002043/files/60549_ruby_71367.zip	2020/08/02
 ./aozorabunko/cards/002043/files/60615_ruby_71558.zip	2020/09/04
+./aozorabunko/cards/002043/files/60616_ruby_71560.zip	2020/10/02
 ./aozorabunko/cards/002052/files/59606_ruby_67436.zip	2019/03/10
 ./aozorabunko/cards/002130/files/60082_txt_69486.zip	2020/01/06
 ./aozorabunko/cards/002130/files/60178_ruby_69805.zip	2020/02/21

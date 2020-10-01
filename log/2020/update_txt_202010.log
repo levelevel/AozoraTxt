@@ -29,3 +29,34 @@ Title Total : 31706/394 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct  1 08:55:28 JST 2020
 End  : Thu Oct  1 08:57:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct  2 08:45:24 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9f27d34d38..35eaa0eabe  master     -> origin/master
+Updating 9f27d34d38..35eaa0eabe
+Fast-forward
+ cards/001763/card59941.html                   |   2 +-
+ cards/002043/card60616.html                   | 231 ++++++++++++++++++++
+ cards/002043/files/60616_71561.html           | 289 ++++++++++++++++++++++++++
+ cards/002043/files/60616_ruby_71560.zip       | Bin 0 -> 1649168 bytes
+ 80 files changed, 1940 insertions(+), 1034 deletions(-)
+Date: Fri Oct  2 08:46:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  1 08:57 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1649168 Oct  2 08:46 ./aozorabunko/cards/002043/files/60616_ruby_71560.zip
+1/1: ./aozorabunko/cards/002043/files/60616_ruby_71560.zip
+>> add 60616_NPD_ruby_chohobu_hiwa_04.txt
+>> add 60616_NPD_ruby_utf8_chohobu_hiwa_04.txt
+>> https://www.aozora.gr.jp/cards/002043/card60616.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第四話　アルメディ採掘権、No IV THE ALMEDI CONCESSION、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31706/396 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Oct  2 08:45:24 JST 2020
+End  : Fri Oct  2 08:47:59 JST 2020
