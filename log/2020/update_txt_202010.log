@@ -60,3 +60,43 @@ Title Total : 31706/396 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Oct  2 08:45:24 JST 2020
 End  : Fri Oct  2 08:47:59 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Oct  3 09:40:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   35eaa0eabe..df7b606693  master     -> origin/master
+Updating 35eaa0eabe..df7b606693
+Fast-forward
+ cards/000933/card47801.html                   | 234 ++++++++++++++++++++++++
+ cards/000933/card47813.html                   | 234 ++++++++++++++++++++++++
+ cards/000933/files/47801_71902.html           | 109 +++++++++++
+ cards/000933/files/47801_ruby_71855.zip       | Bin 0 -> 28161 bytes
+ cards/000933/files/47813_71903.html           |  68 +++++++
+ cards/000933/files/47813_ruby_71856.zip       | Bin 0 -> 4167 bytes
+ cards/002043/card60616.html                   |   2 +-
+ 165 files changed, 5902 insertions(+), 4659 deletions(-)
+Date: Sat Oct  3 09:41:38 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  2 08:47 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 28161 Oct  3 09:41 ./aozorabunko/cards/000933/files/47801_ruby_71855.zip
+1/2: ./aozorabunko/cards/000933/files/47801_ruby_71855.zip
+>> add 47801_ruby_shibaini_deta_nagorino_hoshizukiyo.txt
+>> add 47801_ruby_utf8_shibaini_deta_nagorino_hoshizukiyo.txt
+>> https://www.aozora.gr.jp/cards/000933/card47801.html
+>> 芝居に出た名残星月夜、折口信夫、
+-rwxrwxrwx 1 level level 4167 Oct  3 09:41 ./aozorabunko/cards/000933/files/47813_ruby_71856.zip
+2/2: ./aozorabunko/cards/000933/files/47813_ruby_71856.zip
+>> add 47813_ruby_tenaraikagami_hyobanki.txt
+>> add 47813_ruby_utf8_tenaraikagami_hyobanki.txt
+>> https://www.aozora.gr.jp/cards/000933/card47813.html
+>> 手習鑑評判記、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31710/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Oct  3 09:40:41 JST 2020
+End  : Sat Oct  3 09:42:20 JST 2020
