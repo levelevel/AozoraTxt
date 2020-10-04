@@ -100,3 +100,44 @@ Title Total : 31710/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Oct  3 09:40:41 JST 2020
 End  : Sat Oct  3 09:42:20 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Oct  4 08:45:40 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   df7b606693..c273cbe586  master     -> origin/master
+Updating df7b606693..c273cbe586
+Fast-forward
+ cards/000933/card47801.html                   |   2 +-
+ cards/000933/card47813.html                   |   2 +-
+ cards/001867/card58327.html                   | 234 ++++++++++++++++++++++++++
+ cards/001867/files/58327_71904.html           | 146 ++++++++++++++++
+ cards/001867/files/58327_ruby_71857.zip       | Bin 0 -> 6520 bytes
+ cards/001938/card59164.html                   | 234 ++++++++++++++++++++++++++
+ cards/001938/files/59164_71905.html           | 161 ++++++++++++++++++
+ cards/001938/files/59164_ruby_71858.zip       | Bin 0 -> 10381 bytes
+ 80 files changed, 3032 insertions(+), 2142 deletions(-)
+Date: Sun Oct  4 08:47:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  3 09:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6520 Oct  4 08:47 ./aozorabunko/cards/001867/files/58327_ruby_71857.zip
+1/2: ./aozorabunko/cards/001867/files/58327_ruby_71857.zip
+>> add 58327_ruby_sei_kazoku.txt
+>> add 58327_ruby_utf8_sei_kazoku.txt
+>> https://www.aozora.gr.jp/cards/001867/card58327.html
+>> 聖家族、小山清、
+-rwxrwxrwx 1 level level 10381 Oct  4 08:47 ./aozorabunko/cards/001938/files/59164_ruby_71858.zip
+2/2: ./aozorabunko/cards/001938/files/59164_ruby_71858.zip
+>> add 59164_ruby_nantoo_omoite.txt
+>> add 59164_ruby_utf8_nantoo_omoite.txt
+>> https://www.aozora.gr.jp/cards/001938/card59164.html
+>> 南嶋を思いて、――伊波文学士の『古琉球』に及ぶ――、新村出、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31714/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Oct  4 08:45:40 JST 2020
+End  : Sun Oct  4 08:49:13 JST 2020
