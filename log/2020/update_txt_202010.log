@@ -141,3 +141,42 @@ Title Total : 31714/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Oct  4 08:45:40 JST 2020
 End  : Sun Oct  4 08:49:13 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct  5 08:37:48 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c273cbe586..d83eb23f8d  master     -> origin/master
+Updating c273cbe586..d83eb23f8d
+Fast-forward
+ cards/000071/card404.html                     |   10 +-
+ cards/000103/card540.html                     |   10 +-
+ cards/000130/card700.html                     |   10 +-
+ cards/000143/card743.html                     |   10 +-
+ cards/000167/card895.html                     |    4 +-
+ cards/000167/card896.html                     |    4 +-
+ cards/000232/card59540.html                   |    2 +-
+ cards/001670/card56375.html                   |  234 ++
+ cards/001670/files/56375_71906.html           |  431 ++++
+ cards/001670/files/56375_ruby_71859.zip       |  Bin 0 -> 15276 bytes
+ cards/001867/card58327.html                   |    2 +-
+ cards/001938/card59164.html                   |    2 +-
+ 129 files changed, 9006 insertions(+), 2158 deletions(-)
+Date: Mon Oct  5 08:40:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  4 08:49 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15276 Oct  5 08:39 ./aozorabunko/cards/001670/files/56375_ruby_71859.zip
+1/1: ./aozorabunko/cards/001670/files/56375_ruby_71859.zip
+>> add 56375_ruby_116onnano_ashiato.txt
+>> add 56375_ruby_utf8_116onnano_ashiato.txt
+>> https://www.aozora.gr.jp/cards/001670/card56375.html
+>> 銭形平次捕物控、女の足跡、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31716/396 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Oct  5 08:37:48 JST 2020
+End  : Mon Oct  5 08:43:12 JST 2020
