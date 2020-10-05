@@ -180,3 +180,43 @@ Title Total : 31716/396 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct  5 08:37:48 JST 2020
 End  : Mon Oct  5 08:43:12 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Oct  6 08:40:33 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d83eb23f8d..be5dea64fb  master     -> origin/master
+Updating d83eb23f8d..be5dea64fb
+Fast-forward
+ cards/001224/card46090.html                   | 229 +++++++++
+ cards/001224/card51847.html                   | 229 +++++++++
+ cards/001224/files/46090_71908.html           | 369 ++++++++++++++
+ cards/001224/files/46090_ruby_71861.zip       | Bin 0 -> 27938 bytes
+ cards/001224/files/51847_71907.html           | 670 ++++++++++++++++++++++++++
+ cards/001224/files/51847_ruby_71860.zip       | Bin 0 -> 45730 bytes
+ cards/001670/card56375.html                   |   2 +-
+ 50 files changed, 2832 insertions(+), 1340 deletions(-)
+Date: Tue Oct  6 08:41:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  5 08:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 27938 Oct  6 08:40 ./aozorabunko/cards/001224/files/46090_ruby_71861.zip
+1/2: ./aozorabunko/cards/001224/files/46090_ruby_71861.zip
+>> add 46090_ruby_kohan.txt
+>> add 46090_ruby_utf8_kohan.txt
+>> https://www.aozora.gr.jp/cards/001224/card46090.html
+>> 湖畔、久生十蘭、
+-rwxrwxrwx 1 level level 45730 Oct  6 08:40 ./aozorabunko/cards/001224/files/51847_ruby_71860.zip
+2/2: ./aozorabunko/cards/001224/files/51847_ruby_71860.zip
+>> add 51847_ruby_chitei_jukoku.txt
+>> add 51847_ruby_utf8_chitei_jukoku.txt
+>> https://www.aozora.gr.jp/cards/001224/card51847.html
+>> 地底獣国、久生十蘭、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31720/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Oct  6 08:40:33 JST 2020
+End  : Tue Oct  6 08:41:24 JST 2020
