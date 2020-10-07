@@ -220,3 +220,76 @@ Title Total : 31720/396 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Oct  6 08:40:33 JST 2020
 End  : Tue Oct  6 08:41:24 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Oct  7 08:10:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   be5dea64fb..12f2ba80fd  master     -> origin/master
+Updating be5dea64fb..12f2ba80fd
+Fast-forward
+ cards/000094/card60550.html                   | 235 ++++++++++++++++
+ cards/000094/files/60550_71484.html           | 391 ++++++++++++++++++++++++++
+ cards/000094/files/60550_ruby_71483.zip       | Bin 0 -> 6862030 bytes
+ cards/001224/card46090.html                   |   2 +-
+ cards/001224/card51847.html                   |   2 +-
+ 72 files changed, 1356 insertions(+), 737 deletions(-)
+Date: Wed Oct  7 08:11:24 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  6 08:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6862030 Oct  7 08:11 ./aozorabunko/cards/000094/files/60550_ruby_71483.zip
+1/1: ./aozorabunko/cards/000094/files/60550_ruby_71483.zip
+>> add 60550_NPD_ruby_poe_ikai_shishu.txt
+>> add 60550_NPD_ruby_utf8_poe_ikai_shishu.txt
+>> https://www.aozora.gr.jp/cards/000094/card60550.html
+>> ポオ異界詩集、エドガー・Ａ・ポオ　Edger A. Poe、大久保ゆう編訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31720/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Oct  7 08:10:45 JST 2020
+End  : Wed Oct  7 08:12:03 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct  8 08:40:33 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   12f2ba80fd..506bdeca52  master     -> origin/master
+Updating files:  96% (83/86)Updating files:  97% (84/86)Updating files:  98% (85/86)Updating files: 100% (86/86)Updating files: 100% (86/86), done.
+Updating 12f2ba80fd..506bdeca52
+Fast-forward
+ cards/000094/card60550.html                   |   2 +-
+ cards/001475/card52984.html                   | 229 +++++++++++++++++++++++++
+ cards/001475/card53476.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52984_71909.html           |  89 ++++++++++
+ cards/001475/files/52984_ruby_71862.zip       | Bin 0 -> 3873 bytes
+ cards/001475/files/53476_71910.html           | 136 +++++++++++++++
+ cards/001475/files/53476_ruby_71863.zip       | Bin 0 -> 6654 bytes
+ 86 files changed, 2815 insertions(+), 2132 deletions(-)
+Date: Thu Oct  8 08:41:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  7 08:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3873 Oct  8 08:41 ./aozorabunko/cards/001475/files/52984_ruby_71862.zip
+1/2: ./aozorabunko/cards/001475/files/52984_ruby_71862.zip
+>> add 52984_ruby_fusendamano_hanashi.txt
+>> add 52984_ruby_utf8_fusendamano_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52984.html
+>> 風船球の話、小川未明、
+-rwxrwxrwx 1 level level 6654 Oct  8 08:41 ./aozorabunko/cards/001475/files/53476_ruby_71863.zip
+2/2: ./aozorabunko/cards/001475/files/53476_ruby_71863.zip
+>> add 53476_ruby_hokkaino_namini_sarawareta_ga.txt
+>> add 53476_ruby_utf8_hokkaino_namini_sarawareta_ga.txt
+>> https://www.aozora.gr.jp/cards/001475/card53476.html
+>> 北海の波にさらわれた蛾、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31724/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct  8 08:40:33 JST 2020
+End  : Thu Oct  8 08:42:19 JST 2020
