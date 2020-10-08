@@ -293,3 +293,36 @@ Title Total : 31724/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct  8 08:40:33 JST 2020
 End  : Thu Oct  8 08:42:19 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct  9 07:51:17 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   506bdeca52..e03c7eff7e  master     -> origin/master
+Updating files:  60% (75/125)Updating files:  61% (77/125)Updating files:  62% (78/125)Updating files:  63% (79/125)Updating files:  64% (80/125)Updating files:  65% (82/125)Updating files:  66% (83/125)Updating files:  67% (84/125)Updating files:  68% (85/125)Updating files:  69% (87/125)Updating files:  70% (88/125)Updating files:  71% (89/125)Updating files:  72% (90/125)Updating files:  73% (92/125)Updating files:  74% (93/125)Updating files:  75% (94/125)Updating files:  76% (95/125)Updating files:  77% (97/125)Updating files:  78% (98/125)Updating files:  79% (99/125)Updating files:  80% (100/125)Updating files:  81% (102/125)Updating files:  82% (103/125)Updating files:  83% (104/125)Updating files:  84% (105/125)Updating files:  85% (107/125)Updating files:  86% (108/125)Updating files:  87% (109/125)Updating files:  88% (110/125)Updating files:  89% (112/125)Updating files:  90% (113/125)Updating files:  91% (114/125)Updating files:  92% (115/125)Updating files:  93% (117/125)Updating files:  94% (118/125)Updating files:  95% (119/125)Updating files:  96% (120/125)Updating files:  96% (121/125)Updating files:  97% (122/125)Updating files:  98% (123/125)Updating files:  99% (124/125)Updating files: 100% (125/125)Updating files: 100% (125/125), done.
+Updating 506bdeca52..e03c7eff7e
+Fast-forward
+ cards/000214/card48812.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48812_71911.html           | 102 +++++++++++
+ cards/000214/files/48812_ruby_71864.zip       | Bin 0 -> 4615 bytes
+ cards/001475/card52984.html                   |   2 +-
+ cards/001475/card53476.html                   |   2 +-
+ 125 files changed, 2790 insertions(+), 2455 deletions(-)
+Date: Fri Oct  9 07:52:30 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  8 08:42 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4615 Oct  9 07:52 ./aozorabunko/cards/000214/files/48812_ruby_71864.zip
+1/1: ./aozorabunko/cards/000214/files/48812_ruby_71864.zip
+>> add 48812_ruby_atarashii_sei.txt
+>> add 48812_ruby_utf8_atarashii_sei.txt
+>> https://www.aozora.gr.jp/cards/000214/card48812.html
+>> 新しい生、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31726/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Oct  9 07:51:17 JST 2020
+End  : Fri Oct  9 07:53:27 JST 2020
