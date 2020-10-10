@@ -376,3 +376,46 @@ Title Total : 31732/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Oct 10 08:54:27 JST 2020
 End  : Sat Oct 10 08:57:07 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Oct 11 08:53:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d4939ea58b..e003426045  master     -> origin/master
+Updating files:  38% (22/57)Updating files:  40% (23/57)Updating files:  42% (24/57)Updating files:  43% (25/57)Updating files:  45% (26/57)Updating files:  47% (27/57)Updating files:  49% (28/57)Updating files:  50% (29/57)Updating files:  52% (30/57)Updating files:  54% (31/57)Updating files:  56% (32/57)Updating files:  57% (33/57)Updating files:  59% (34/57)Updating files:  61% (35/57)Updating files:  63% (36/57)Updating files:  64% (37/57)Updating files:  66% (38/57)Updating files:  68% (39/57)Updating files:  70% (40/57)Updating files:  71% (41/57)Updating files:  73% (42/57)Updating files:  75% (43/57)Updating files:  77% (44/57)Updating files:  78% (45/57)Updating files:  80% (46/57)Updating files:  82% (47/57)Updating files:  84% (48/57)Updating files:  85% (49/57)Updating files:  87% (50/57)Updating files:  89% (51/57)Updating files:  91% (52/57)Updating files:  92% (53/57)Updating files:  94% (54/57)Updating files:  96% (55/57)Updating files:  98% (56/57)Updating files: 100% (57/57)Updating files: 100% (57/57), done.
+Updating d4939ea58b..e003426045
+Fast-forward
+ cards/000255/card49836.html                   |   2 +-
+ cards/001397/card49871.html                   |   2 +-
+ cards/001652/card54378.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/card54380.html                   | 229 ++++++++++++++++++++++++++
+ cards/001652/files/54378_71915.html           |  68 ++++++++
+ cards/001652/files/54378_txt_71868.zip        | Bin 0 -> 1001 bytes
+ cards/001652/files/54380_71916.html           |  67 ++++++++
+ cards/001652/files/54380_ruby_71869.zip       | Bin 0 -> 860 bytes
+ cards/001763/card60296.html                   |   2 +-
+ 57 files changed, 2013 insertions(+), 1416 deletions(-)
+Date: Sun Oct 11 08:54:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 10 08:56 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1001 Oct 11 08:54 ./aozorabunko/cards/001652/files/54378_txt_71868.zip
+1/2: ./aozorabunko/cards/001652/files/54378_txt_71868.zip
+>> add 54378_txt_hoshi_hoshiwa_yumenoyoni.txt
+>> add 54378_txt_utf8_hoshi_hoshiwa_yumenoyoni.txt
+>> https://www.aozora.gr.jp/cards/001652/card54378.html
+>> 星、〔星は夢の様に〕、森川義信、
+-rwxrwxrwx 1 level level 860 Oct 11 08:54 ./aozorabunko/cards/001652/files/54380_ruby_71869.zip
+2/2: ./aozorabunko/cards/001652/files/54380_ruby_71869.zip
+>> add 54380_ruby_wakare.txt
+>> add 54380_ruby_utf8_wakare.txt
+>> https://www.aozora.gr.jp/cards/001652/card54380.html
+>> 別れ、森川義信、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31736/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Oct 11 08:53:13 JST 2020
+End  : Sun Oct 11 08:55:39 JST 2020
