@@ -326,3 +326,53 @@ Title Total : 31726/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Oct  9 07:51:17 JST 2020
 End  : Fri Oct  9 07:53:27 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Oct 10 08:54:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e03c7eff7e..d4939ea58b  master     -> origin/master
+Updating files:  75% (66/88)Updating files:  76% (67/88)Updating files:  77% (68/88)Updating files:  78% (69/88)Updating files:  79% (70/88)Updating files:  80% (71/88)Updating files:  81% (72/88)Updating files:  82% (73/88)Updating files:  84% (74/88)Updating files:  85% (75/88)Updating files:  86% (76/88)Updating files:  87% (77/88)Updating files:  88% (78/88)Updating files:  89% (79/88)Updating files:  90% (80/88)Updating files:  92% (81/88)Updating files:  93% (82/88)Updating files:  94% (83/88)Updating files:  95% (84/88)Updating files:  96% (85/88)Updating files:  97% (86/88)Updating files:  98% (87/88)Updating files: 100% (88/88)Updating files: 100% (88/88), done.
+Updating e03c7eff7e..d4939ea58b
+Fast-forward
+ cards/000214/card48812.html                   |    2 +-
+ cards/000255/card49836.html                   |  236 +
+ cards/000255/files/49836_71913.html           | 5871 +++++++++++++++++++++++++
+ cards/000255/files/49836_ruby_71866.zip       |  Bin 0 -> 167361 bytes
+ cards/001397/card49871.html                   |  229 +
+ cards/001397/files/49871_71912.html           |  270 ++
+ cards/001397/files/49871_ruby_71865.zip       |  Bin 0 -> 20707 bytes
+ cards/001763/card60296.html                   |  229 +
+ cards/001763/files/60296_71914.html           |  107 +
+ cards/001763/files/60296_ruby_71867.zip       |  Bin 0 -> 1359 bytes
+ 88 files changed, 8738 insertions(+), 1802 deletions(-)
+Date: Sat Oct 10 08:55:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct  9 07:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 167361 Oct 10 08:55 ./aozorabunko/cards/000255/files/49836_ruby_71866.zip
+1/3: ./aozorabunko/cards/000255/files/49836_ruby_71866.zip
+>> add 49836_ruby_nekono_nomitori_bushi.txt
+>> add 49836_ruby_utf8_nekono_nomitori_bushi.txt
+>> https://www.aozora.gr.jp/cards/000255/card49836.html
+>> 猫の蚤とり武士、国枝史郎、
+-rwxrwxrwx 1 level level 20707 Oct 10 08:55 ./aozorabunko/cards/001397/files/49871_ruby_71865.zip
+2/3: ./aozorabunko/cards/001397/files/49871_ruby_71865.zip
+>> add 49871_ruby_futon.txt
+>> add 49871_ruby_utf8_futon.txt
+>> https://www.aozora.gr.jp/cards/001397/card49871.html
+>> 蒲団、橘外男、
+-rwxrwxrwx 1 level level 1359 Oct 10 08:55 ./aozorabunko/cards/001763/files/60296_ruby_71867.zip
+3/3: ./aozorabunko/cards/001763/files/60296_ruby_71867.zip
+>> add 60296_ruby_olympic_tokyo_taikai_sanka.txt
+>> add 60296_ruby_utf8_olympic_tokyo_taikai_sanka.txt
+>> https://www.aozora.gr.jp/cards/001763/card60296.html
+>> オリンピック東京大會讚歌、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31732/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Oct 10 08:54:27 JST 2020
+End  : Sat Oct 10 08:57:07 JST 2020
