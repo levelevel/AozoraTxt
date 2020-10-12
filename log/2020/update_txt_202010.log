@@ -452,3 +452,35 @@ Title Total : 31738/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct 12 07:05:04 JST 2020
 End  : Mon Oct 12 07:07:19 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Oct 13 08:06:31 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e1898ec930..be67852c3a  master     -> origin/master
+Updating files:  58% (28/48)Updating files:  60% (29/48)Updating files:  62% (30/48)Updating files:  64% (31/48)Updating files:  66% (32/48)Updating files:  68% (33/48)Updating files:  70% (34/48)Updating files:  72% (35/48)Updating files:  75% (36/48)Updating files:  77% (37/48)Updating files:  79% (38/48)Updating files:  81% (39/48)Updating files:  83% (40/48)Updating files:  85% (41/48)Updating files:  87% (42/48)Updating files:  89% (43/48)Updating files:  91% (44/48)Updating files:  93% (45/48)Updating files:  95% (46/48)Updating files:  97% (47/48)Updating files: 100% (48/48)Updating files: 100% (48/48), done.
+Updating e1898ec930..be67852c3a
+Fast-forward
+ cards/001763/card58795.html                   |   2 +-
+ cards/001869/card57691.html                   | 229 +++++++++++++++
+ cards/001869/files/57691_71918.html           | 402 ++++++++++++++++++++++++++
+ cards/001869/files/57691_ruby_71871.zip       | Bin 0 -> 19395 bytes
+ 48 files changed, 1798 insertions(+), 1162 deletions(-)
+Date: Tue Oct 13 08:07:21 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 12 07:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 19395 Oct 13 08:07 ./aozorabunko/cards/001869/files/57691_ruby_71871.zip
+1/1: ./aozorabunko/cards/001869/files/57691_ruby_71871.zip
+>> add 57691_ruby_nanoka_nanayo.txt
+>> add 57691_ruby_utf8_nanoka_nanayo.txt
+>> https://www.aozora.gr.jp/cards/001869/card57691.html
+>> 七日七夜、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31740/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Oct 13 08:06:31 JST 2020
+End  : Tue Oct 13 08:07:47 JST 2020
