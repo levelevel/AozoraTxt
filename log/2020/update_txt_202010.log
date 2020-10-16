@@ -623,3 +623,35 @@ Title Total : 31752/398 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Oct 16 20:36:05 JST 2020
 End  : Fri Oct 16 20:39:02 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Oct 17 07:03:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   67df855506..c143ff1e85  master     -> origin/master
+Updating 67df855506..c143ff1e85
+Fast-forward
+ cards/000237/card48506.html                   |   2 +-
+ cards/000237/card49598.html                   |   2 +-
+ cards/000326/card59491.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59491_71925.html           | 155 ++++++++++++++++
+ cards/000326/files/59491_ruby_71878.zip       | Bin 0 -> 6315 bytes
+ 72 files changed, 1927 insertions(+), 1479 deletions(-)
+Date: Sat Oct 17 07:03:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 16 20:38 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6315 Oct 17 07:03 ./aozorabunko/cards/000326/files/59491_ruby_71878.zip
+1/1: ./aozorabunko/cards/000326/files/59491_ruby_71878.zip
+>> add 59491_ruby_kojiki.txt
+>> add 59491_ruby_utf8_kojiki.txt
+>> https://www.aozora.gr.jp/cards/000326/card59491.html
+>> 乞食、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31754/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Oct 17 07:03:18 JST 2020
+End  : Sat Oct 17 07:04:08 JST 2020
