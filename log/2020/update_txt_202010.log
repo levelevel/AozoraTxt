@@ -576,3 +576,50 @@ Title Total : 31750/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct 15 07:13:08 JST 2020
 End  : Thu Oct 15 07:15:33 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct 16 20:36:05 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f28c9e0ed4..67df855506  master     -> origin/master
+Updating files:  51% (29/56)Updating files:  53% (30/56)Updating files:  55% (31/56)Updating files:  57% (32/56)Updating files:  58% (33/56)Updating files:  60% (34/56)Updating files:  62% (35/56)Updating files:  64% (36/56)Updating files:  66% (37/56)Updating files:  67% (38/56)Updating files:  69% (39/56)Updating files:  71% (40/56)Updating files:  73% (41/56)Updating files:  75% (42/56)Updating files:  76% (43/56)Updating files:  78% (44/56)Updating files:  80% (45/56)Updating files:  82% (46/56)Updating files:  83% (47/56)Updating files:  85% (48/56)Updating files:  87% (49/56)Updating files:  89% (50/56)Updating files:  91% (51/56)Updating files:  92% (52/56)Updating files:  94% (53/56)Updating files:  96% (54/56)Updating files:  98% (55/56)Updating files: 100% (56/56)Updating files: 100% (56/56), done.
+Updating f28c9e0ed4..67df855506
+Fast-forward
+ cards/000082/card56256.html                   |   2 +-
+ cards/000237/card48506.html                   | 229 ++++++++++++++++++++++++++
+ cards/000237/files/48506_71924.html           | 126 ++++++++++++++
+ cards/000237/files/48506_txt_71877.zip        | Bin 0 -> 15030 bytes
+ cards/001670/card56129.html                   |   2 +-
+ cards/001670/card56130.html                   |   2 +-
+ cards/002043/card59965.html                   |   8 +-
+ cards/002043/card60548.html                   |   2 +-
+ cards/002043/card60549.html                   |   2 +-
+ cards/002043/card60615.html                   |   2 +-
+ cards/002043/card60616.html                   |   2 +-
+ cards/002043/files/59965_68660.html           |  10 +-
+ cards/002043/files/59965_ruby_68659.zip       | Bin 2608960 -> 2608944 bytes
+ 56 files changed, 1276 insertions(+), 878 deletions(-)
+Date: Fri Oct 16 20:37:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 15 07:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15030 Oct 16 20:37 ./aozorabunko/cards/000237/files/48506_txt_71877.zip
+1/2: ./aozorabunko/cards/000237/files/48506_txt_71877.zip
+>> add 48506_txt_myogisanno_itsuka.txt
+>> add 48506_txt_utf8_myogisanno_itsuka.txt
+>> https://www.aozora.gr.jp/cards/000237/card48506.html
+>> 妙義山の五日、大町桂月、
+-rwxrwxrwx 1 level level 2608944 Oct 16 20:37 ./aozorabunko/cards/002043/files/59965_ruby_68659.zip
+2/2: ./aozorabunko/cards/002043/files/59965_ruby_68659.zip
+>> update 59965_NPD_ruby_tetsumenpi.txt
+>> update 59965_NPD_ruby_utf8_tetsumenpi.txt
+>> https://www.aozora.gr.jp/cards/002043/card59965.html
+>> 鉄面皮、A Front of Brass、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31752/398 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Oct 16 20:36:05 JST 2020
+End  : Fri Oct 16 20:39:02 JST 2020
