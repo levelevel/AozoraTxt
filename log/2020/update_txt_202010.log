@@ -696,3 +696,37 @@ Title Total : 31758/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Oct 18 09:31:25 JST 2020
 End  : Sun Oct 18 09:35:02 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct 19 07:33:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b0b39a58b7..1058a1876e  master     -> origin/master
+Updating files:  57% (47/82)Updating files:  58% (48/82)Updating files:  59% (49/82)Updating files:  60% (50/82)Updating files:  62% (51/82)Updating files:  63% (52/82)Updating files:  64% (53/82)Updating files:  65% (54/82)Updating files:  67% (55/82)Updating files:  68% (56/82)Updating files:  69% (57/82)Updating files:  70% (58/82)Updating files:  71% (59/82)Updating files:  73% (60/82)Updating files:  74% (61/82)Updating files:  75% (62/82)Updating files:  76% (63/82)Updating files:  78% (64/82)Updating files:  79% (65/82)Updating files:  80% (66/82)Updating files:  81% (67/82)Updating files:  82% (68/82)Updating files:  84% (69/82)Updating files:  85% (70/82)Updating files:  86% (71/82)Updating files:  87% (72/82)Updating files:  89% (73/82)Updating files:  90% (74/82)Updating files:  91% (75/82)Updating files:  92% (76/82)Updating files:  93% (77/82)Updating files:  95% (78/82)Updating files:  96% (79/82)Updating files:  97% (80/82)Updating files:  98% (81/82)Updating files: 100% (82/82)Updating files: 100% (82/82), done.
+Updating b0b39a58b7..1058a1876e
+Fast-forward
+ cards/000019/card59375.html                   | 238 ++++++++++++++++++++++++++
+ cards/000019/files/59375_71928.html           |  83 +++++++++
+ cards/000019/files/59375_ruby_71881.zip       | Bin 0 -> 3168 bytes
+ cards/001569/card59584.html                   |   2 +-
+ cards/001569/card59585.html                   |   2 +-
+ soramoyou/soramoyouindex.html                 |  20 +++
+ 82 files changed, 2282 insertions(+), 1849 deletions(-)
+Date: Mon Oct 19 07:35:14 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 18 09:34 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3168 Oct 19 07:35 ./aozorabunko/cards/000019/files/59375_ruby_71881.zip
+1/1: ./aozorabunko/cards/000019/files/59375_ruby_71881.zip
+>> add 59375_ruby_tobi_kurabe.txt
+>> add 59375_ruby_utf8_tobi_kurabe.txt
+>> https://www.aozora.gr.jp/cards/000019/card59375.html
+>> とびくらべ、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31760/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Oct 19 07:33:44 JST 2020
+End  : Mon Oct 19 07:36:07 JST 2020
