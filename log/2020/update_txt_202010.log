@@ -655,3 +655,44 @@ Title Total : 31754/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Oct 17 07:03:18 JST 2020
 End  : Sat Oct 17 07:04:08 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Oct 18 09:31:25 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c143ff1e85..b0b39a58b7  master     -> origin/master
+Updating files:  21% (15/71)Updating files:  22% (16/71)Updating files:  23% (17/71)Updating files:  25% (18/71)Updating files:  26% (19/71)Updating files:  28% (20/71)Updating files:  29% (21/71)Updating files:  30% (22/71)Updating files:  32% (23/71)Updating files:  33% (24/71)Updating files:  35% (25/71)Updating files:  36% (26/71)Updating files:  38% (27/71)Updating files:  39% (28/71)Updating files:  40% (29/71)Updating files:  42% (30/71)Updating files:  43% (31/71)Updating files:  45% (32/71)Updating files:  46% (33/71)Updating files:  47% (34/71)Updating files:  49% (35/71)Updating files:  50% (36/71)Updating files:  52% (37/71)Updating files:  53% (38/71)Updating files:  54% (39/71)Updating files:  56% (40/71)Updating files:  57% (41/71)Updating files:  59% (42/71)Updating files:  60% (43/71)Updating files:  61% (44/71)Updating files:  63% (45/71)Updating files:  64% (46/71)Updating files:  66% (47/71)Updating files:  67% (48/71)Updating files:  69% (49/71)Updating files:  70% (50/71)Updating files:  71% (51/71)Updating files:  73% (52/71)Updating files:  74% (53/71)Updating files:  76% (54/71)Updating files:  77% (55/71)Updating files:  78% (56/71)Updating files:  80% (57/71)Updating files:  81% (58/71)Updating files:  83% (59/71)Updating files:  84% (60/71)Updating files:  85% (61/71)Updating files:  87% (62/71)Updating files:  88% (63/71)Updating files:  90% (64/71)Updating files:  91% (65/71)Updating files:  92% (66/71)Updating files:  94% (67/71)Updating files:  95% (68/71)Updating files:  97% (69/71)Updating files:  98% (70/71)Updating files: 100% (71/71)Updating files: 100% (71/71), done.
+Updating c143ff1e85..b0b39a58b7
+Fast-forward
+ cards/000326/card59491.html                   |   2 +-
+ cards/001569/card59584.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59585.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59584_71927.html           |  64 +++++++
+ cards/001569/files/59584_ruby_71880.zip       | Bin 0 -> 1508 bytes
+ cards/001569/files/59585_71926.html           |  59 +++++++
+ cards/001569/files/59585_ruby_71879.zip       | Bin 0 -> 1343 bytes
+ 71 files changed, 2909 insertions(+), 2165 deletions(-)
+Date: Sun Oct 18 09:32:45 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 17 07:04 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1508 Oct 18 09:32 ./aozorabunko/cards/001569/files/59584_ruby_71880.zip
+1/2: ./aozorabunko/cards/001569/files/59584_ruby_71880.zip
+>> add 59584_ruby_kokuboto_kagaku.txt
+>> add 59584_ruby_utf8_kokuboto_kagaku.txt
+>> https://www.aozora.gr.jp/cards/001569/card59584.html
+>> 国防と科学、中谷宇吉郎、
+-rwxrwxrwx 1 level level 1343 Oct 18 09:32 ./aozorabunko/cards/001569/files/59585_ruby_71879.zip
+2/2: ./aozorabunko/cards/001569/files/59585_ruby_71879.zip
+>> add 59585_ruby_kokoroe_kyoiku.txt
+>> add 59585_ruby_utf8_kokoroe_kyoiku.txt
+>> https://www.aozora.gr.jp/cards/001569/card59585.html
+>> 心得教育、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31758/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Oct 18 09:31:25 JST 2020
+End  : Sun Oct 18 09:35:02 JST 2020
