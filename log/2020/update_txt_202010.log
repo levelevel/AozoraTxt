@@ -730,3 +730,35 @@ Title Total : 31760/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct 19 07:33:44 JST 2020
 End  : Mon Oct 19 07:36:07 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Oct 20 07:55:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1058a1876e..8bb470ec26  master     -> origin/master
+Updating 1058a1876e..8bb470ec26
+Fast-forward
+ cards/000019/card59375.html                   |   2 +-
+ cards/001095/card57482.html                   | 238 +++++++++++++++++++
+ cards/001095/files/57482_71929.html           | 322 ++++++++++++++++++++++++++
+ cards/001095/files/57482_ruby_71882.zip       | Bin 0 -> 23524 bytes
+ cards/001670/card56339.html                   |   2 +-
+ 101 files changed, 2606 insertions(+), 1968 deletions(-)
+Date: Tue Oct 20 07:56:11 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 19 07:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 23524 Oct 20 07:56 ./aozorabunko/cards/001095/files/57482_ruby_71882.zip
+1/1: ./aozorabunko/cards/001095/files/57482_ruby_71882.zip
+>> add 57482_ruby_dokyo.txt
+>> add 57482_ruby_utf8_dokyo.txt
+>> https://www.aozora.gr.jp/cards/001095/card57482.html
+>> 道鏡、坂口安吾、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31762/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Oct 20 07:55:41 JST 2020
+End  : Tue Oct 20 07:56:35 JST 2020
