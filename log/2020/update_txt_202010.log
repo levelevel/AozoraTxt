@@ -802,3 +802,53 @@ Title Total : 31766/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 21 07:34:36 JST 2020
 End  : Wed Oct 21 07:36:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /mnt/c/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 22 07:02:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d4f57144e7..70acdcdce8  master     -> origin/master
+Updating d4f57144e7..70acdcdce8
+Fast-forward
+ cards/000026/card55899.html                   | 229 +++++++++++++
+ cards/000026/card55912.html                   | 229 +++++++++++++
+ cards/000026/card55931.html                   | 229 +++++++++++++
+ cards/000026/files/55899_71932.html           |  75 +++++
+ cards/000026/files/55899_txt_71885.zip        | Bin 0 -> 975 bytes
+ cards/000026/files/55912_71933.html           |  76 +++++
+ cards/000026/files/55912_txt_71886.zip        | Bin 0 -> 1147 bytes
+ cards/000026/files/55931_71934.html           |  73 ++++
+ cards/000026/files/55931_txt_71887.zip        | Bin 0 -> 1008 bytes
+ cards/001779/card57516.html                   |   2 +-
+ cards/001779/card57849.html                   |   2 +-
+ 114 files changed, 4164 insertions(+), 3711 deletions(-)
+Date: Thu Oct 22 07:03:19 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 21 07:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 975 Oct 22 07:03 ./aozorabunko/cards/000026/files/55899_txt_71885.zip
+1/3: ./aozorabunko/cards/000026/files/55899_txt_71885.zip
+>> add 55899_txt_joyoku.txt
+>> add 55899_txt_utf8_joyoku.txt
+>> https://www.aozora.gr.jp/cards/000026/card55899.html
+>> 情慾、中原中也、
+-rwxrwxrwx 1 level level 1147 Oct 22 07:03 ./aozorabunko/cards/000026/files/55912_txt_71886.zip
+2/3: ./aozorabunko/cards/000026/files/55912_txt_71886.zip
+>> add 55912_txt_kateiwa_naizoyo.txt
+>> add 55912_txt_utf8_kateiwa_naizoyo.txt
+>> https://www.aozora.gr.jp/cards/000026/card55912.html
+>> （仮定はないぞよ！）、中原中也、
+-rwxrwxrwx 1 level level 1008 Oct 22 07:03 ./aozorabunko/cards/000026/files/55931_txt_71887.zip
+3/3: ./aozorabunko/cards/000026/files/55931_txt_71887.zip
+>> add 55931_txt_peji_peji_peji.txt
+>> add 55931_txt_utf8_peji_peji_peji.txt
+>> https://www.aozora.gr.jp/cards/000026/card55931.html
+>> （頁　頁　頁）、中原中也、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31772/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 22 07:02:45 JST 2020
+End  : Thu Oct 22 07:03:32 JST 2020
