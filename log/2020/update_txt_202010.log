@@ -1341,3 +1341,34 @@ Title Total : 31774/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Oct 24 07:36:31 JST 2020
 End  : Sat Oct 24 07:36:42 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Oct 25 07:14:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1aa76fd8ac..3e5be9eb9b  master     -> origin/master
+Updating 1aa76fd8ac..3e5be9eb9b
+Fast-forward
+ cards/000076/card58428.html                   |    2 +-
+ cards/001805/card58834.html                   |  242 ++++
+ cards/001805/files/58834_71938.html           | 1712 +++++++++++++++++++++++++
+ cards/001805/files/58834_ruby_71891.zip       |  Bin 0 -> 147451 bytes
+ 40 files changed, 2455 insertions(+), 504 deletions(-)
+Date: Sun Oct 25 07:14:49 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 24 07:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 147451 Oct 25 07:14 ./aozorabunko/cards/001805/files/58834_ruby_71891.zip
+1/1: ./aozorabunko/cards/001805/files/58834_ruby_71891.zip
+>> add 58834_ruby_edomaeno_tsuri.txt
+>> add 58834_ruby_utf8_edomaeno_tsuri.txt
+>> https://www.aozora.gr.jp/cards/001805/card58834.html
+>> 江戸前の釣り、三遊亭金馬、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31776/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Oct 25 07:14:44 JST 2020
+End  : Sun Oct 25 07:14:54 JST 2020
