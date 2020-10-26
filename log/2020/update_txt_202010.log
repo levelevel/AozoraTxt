@@ -1403,3 +1403,43 @@ Title Total : 31778/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct 26 19:59:03 JST 2020
 End  : Mon Oct 26 19:59:12 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Oct 27 07:05:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f13cf8ede1..73373d5bdf  master     -> origin/master
+Updating f13cf8ede1..73373d5bdf
+Fast-forward
+ cards/001403/card55049.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card59645.html                   | 229 +++++++++++++++++++++++++
+ cards/001403/files/55049_71941.html           |  72 ++++++++
+ cards/001403/files/55049_ruby_71894.zip       | Bin 0 -> 7960 bytes
+ cards/001403/files/59645_71940.html           |  60 +++++++
+ cards/001403/files/59645_ruby_71893.zip       | Bin 0 -> 1299 bytes
+ cards/001670/card56340.html                   |   2 +-
+ 86 files changed, 2214 insertions(+), 1624 deletions(-)
+Date: Tue Oct 27 07:05:57 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 26 19:59 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7960 Oct 27 07:05 ./aozorabunko/cards/001403/files/55049_ruby_71894.zip
+1/2: ./aozorabunko/cards/001403/files/55049_ruby_71894.zip
+>> add 55049_ruby_shodoto_sado.txt
+>> add 55049_ruby_utf8_shodoto_sado.txt
+>> https://www.aozora.gr.jp/cards/001403/card55049.html
+>> 書道と茶道、北大路魯山人、
+-rwxrwxrwx 1 level level 1299 Oct 27 07:05 ./aozorabunko/cards/001403/files/59645_ruby_71893.zip
+2/2: ./aozorabunko/cards/001403/files/59645_ruby_71893.zip
+>> add 59645_ruby_sansho.txt
+>> add 59645_ruby_utf8_sansho.txt
+>> https://www.aozora.gr.jp/cards/001403/card59645.html
+>> 山椒、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31782/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Oct 27 07:05:47 JST 2020
+End  : Tue Oct 27 07:06:00 JST 2020
