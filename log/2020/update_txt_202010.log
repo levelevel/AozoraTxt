@@ -1372,3 +1372,34 @@ Title Total : 31776/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Oct 25 07:14:44 JST 2020
 End  : Sun Oct 25 07:14:54 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Oct 26 19:59:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3e5be9eb9b..f13cf8ede1  master     -> origin/master
+Updating 3e5be9eb9b..f13cf8ede1
+Fast-forward
+ cards/001670/card56340.html                   | 234 +++++++++++++
+ cards/001670/files/56340_71939.html           | 461 ++++++++++++++++++++++++++
+ cards/001670/files/56340_ruby_71892.zip       | Bin 0 -> 16674 bytes
+ cards/001805/card58834.html                   |   2 +-
+ 134 files changed, 2287 insertions(+), 1595 deletions(-)
+Date: Mon Oct 26 19:59:08 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 25 07:14 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 16674 Oct 26 19:59 ./aozorabunko/cards/001670/files/56340_ruby_71892.zip
+1/1: ./aozorabunko/cards/001670/files/56340_ruby_71892.zip
+>> add 56340_ruby_117yukino_yoru.txt
+>> add 56340_ruby_utf8_117yukino_yoru.txt
+>> https://www.aozora.gr.jp/cards/001670/card56340.html
+>> 銭形平次捕物控、雪の夜、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31778/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Oct 26 19:59:03 JST 2020
+End  : Mon Oct 26 19:59:12 JST 2020
