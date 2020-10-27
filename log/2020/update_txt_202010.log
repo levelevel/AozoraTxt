@@ -1443,3 +1443,44 @@ Title Total : 31782/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Oct 27 07:05:47 JST 2020
 End  : Tue Oct 27 07:06:00 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Oct 28 07:10:52 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   73373d5bdf..c4faa9c12c  master     -> origin/master
+Updating 73373d5bdf..c4faa9c12c
+Fast-forward
+ cards/001403/card55049.html                   |   2 +-
+ cards/001403/card59645.html                   |   2 +-
+ cards/001581/card59412.html                   | 234 ++++++++++++++++++++++++++
+ cards/001581/files/59412_71942.html           |  65 +++++++
+ cards/001581/files/59412_ruby_71895.zip       | Bin 0 -> 2232 bytes
+ cards/002083/card59721.html                   | 229 +++++++++++++++++++++++++
+ cards/002083/files/59721_71943.html           |  60 +++++++
+ cards/002083/files/59721_txt_71896.zip        | Bin 0 -> 1247 bytes
+ 72 files changed, 1990 insertions(+), 1398 deletions(-)
+Date: Wed Oct 28 07:10:56 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 28 07:09 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2232 Oct 28 07:10 ./aozorabunko/cards/001581/files/59412_ruby_71895.zip
+1/2: ./aozorabunko/cards/001581/files/59412_ruby_71895.zip
+>> add 59412_ruby_tozan_shumi.txt
+>> add 59412_ruby_utf8_tozan_shumi.txt
+>> https://www.aozora.gr.jp/cards/001581/card59412.html
+>> 登山趣味、正宗白鳥、
+-rwxrwxrwx 1 level level 1247 Oct 28 07:10 ./aozorabunko/cards/002083/files/59721_txt_71896.zip
+2/2: ./aozorabunko/cards/002083/files/59721_txt_71896.zip
+>> add 59721_txt_yakan_kyoikuno_shinko.txt
+>> add 59721_txt_utf8_yakan_kyoikuno_shinko.txt
+>> https://www.aozora.gr.jp/cards/002083/card59721.html
+>> 夜間教育の振興、嘉納治五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31786/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Oct 28 07:10:52 JST 2020
+End  : Wed Oct 28 07:10:58 JST 2020
