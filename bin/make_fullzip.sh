@@ -27,8 +27,8 @@ cat << EOF > $RELEASE_MD
 ${TODAY}時点での青空文庫テキストファイル一式
 （作家数：$NUM_PERSON、ファイル数：$NUM_FILE）
 
-- $ZIP_SJIS : 青空文庫全文書SJIS版
-- $ZIP_UTF8 : 青空文庫全文書UTF8版
+- `basename $ZIP_SJIS` : 青空文庫全文書SJIS版
+- `basename $ZIP_UTF8` : 青空文庫全文書UTF8版
 EOF
 
 make_csv.sh
