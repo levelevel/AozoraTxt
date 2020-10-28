@@ -1484,3 +1484,44 @@ Title Total : 31786/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 28 07:10:52 JST 2020
 End  : Wed Oct 28 07:10:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 29 07:20:54 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c4faa9c12c..b557eebd33  master     -> origin/master
+Updating c4faa9c12c..b557eebd33
+Fast-forward
+ cards/001581/card59412.html                   |   2 +-
+ cards/001749/card54112.html                   | 234 ++++++++++++++++++++++++++
+ cards/001749/card54140.html                   | 234 ++++++++++++++++++++++++++
+ cards/001749/files/54112_71945.html           |  97 +++++++++++
+ cards/001749/files/54112_ruby_71898.zip       | Bin 0 -> 1165 bytes
+ cards/001749/files/54140_71944.html           |  87 ++++++++++
+ cards/001749/files/54140_ruby_71897.zip       | Bin 0 -> 1097 bytes
+ cards/002083/card59721.html                   |   2 +-
+ 86 files changed, 1862 insertions(+), 1218 deletions(-)
+Date: Thu Oct 29 07:21:00 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 28 07:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1165 Oct 29 07:20 ./aozorabunko/cards/001749/files/54112_ruby_71898.zip
+1/2: ./aozorabunko/cards/001749/files/54112_ruby_71898.zip
+>> add 54112_ruby_yowa_sanagaran.txt
+>> add 54112_ruby_utf8_yowa_sanagaran.txt
+>> https://www.aozora.gr.jp/cards/001749/card54112.html
+>> 世はさながらに、三好達治、
+-rwxrwxrwx 1 level level 1097 Oct 29 07:20 ./aozorabunko/cards/001749/files/54140_ruby_71897.zip
+2/2: ./aozorabunko/cards/001749/files/54140_ruby_71897.zip
+>> add 54140_ruby_himawari.txt
+>> add 54140_ruby_utf8_himawari.txt
+>> https://www.aozora.gr.jp/cards/001749/card54140.html
+>> 日まはり、三好達治、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31790/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 29 07:20:54 JST 2020
+End  : Thu Oct 29 07:21:04 JST 2020
