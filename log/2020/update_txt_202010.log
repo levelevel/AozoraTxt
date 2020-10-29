@@ -1525,3 +1525,35 @@ Title Total : 31790/398 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Oct 29 07:20:54 JST 2020
 End  : Thu Oct 29 07:21:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct 30 07:03:12 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b557eebd33..032066dd41  master     -> origin/master
+Updating b557eebd33..032066dd41
+Fast-forward
+ cards/001749/card54112.html                   |   2 +-
+ cards/001749/card54140.html                   |   2 +-
+ cards/001869/card57703.html                   | 229 +++++++++++++++++
+ cards/001869/files/57703_71946.html           | 349 ++++++++++++++++++++++++++
+ cards/001869/files/57703_ruby_71899.zip       | Bin 0 -> 20567 bytes
+ 58 files changed, 2244 insertions(+), 1670 deletions(-)
+Date: Fri Oct 30 07:03:16 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 29 07:21 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 20567 Oct 30 07:03 ./aozorabunko/cards/001869/files/57703_ruby_71899.zip
+1/1: ./aozorabunko/cards/001869/files/57703_ruby_71899.zip
+>> add 57703_ruby_hatashijo.txt
+>> add 57703_ruby_utf8_hatashijo.txt
+>> https://www.aozora.gr.jp/cards/001869/card57703.html
+>> はたし状、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31792/398 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Oct 30 07:03:12 JST 2020
+End  : Fri Oct 30 07:03:20 JST 2020
