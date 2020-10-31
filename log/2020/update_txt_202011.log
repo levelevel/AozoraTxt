@@ -1,0 +1,49 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov  1 08:41:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   76b238fb02..a01671d0f9  master     -> origin/master
+Updating 76b238fb02..a01671d0f9
+Fast-forward
+ cards/000067/card59329.html                   | 234 ++++++++++++++++++++++++
+ cards/000067/card60076.html                   | 234 ++++++++++++++++++++++++
+ cards/000067/files/59329_72099.html           |  67 +++++++
+ cards/000067/files/59329_ruby_72058.zip       | Bin 0 -> 2390 bytes
+ cards/000067/files/60076_72101.html           |  64 +++++++
+ cards/000067/files/60076_txt_72060.zip        | Bin 0 -> 2372 bytes
+ cards/001091/card60125.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/60125_72100.html           |  69 +++++++
+ cards/001091/files/60125_ruby_72059.zip       | Bin 0 -> 1856 bytes
+ cards/001466/card50722.html                   |   2 +-
+ 98 files changed, 4060 insertions(+), 3165 deletions(-)
+Date: Sun Nov  1 08:41:52 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Oct 31 07:48 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2390 Nov  1 08:41 ./aozorabunko/cards/000067/files/59329_ruby_72058.zip
+1/3: ./aozorabunko/cards/000067/files/59329_ruby_72058.zip
+>> add 59329_ruby_kanashii_shinjuku.txt
+>> add 59329_ruby_utf8_kanashii_shinjuku.txt
+>> https://www.aozora.gr.jp/cards/000067/card59329.html
+>> 悲しい新宿、萩原朔太郎、
+-rwxrwxrwx 1 level level 2372 Nov  1 08:41 ./aozorabunko/cards/000067/files/60076_txt_72060.zip
+2/3: ./aozorabunko/cards/000067/files/60076_txt_72060.zip
+>> add 60076_txt_saimatsuni_chikaki_aru_fuyuno_hino_nikki.txt
+>> add 60076_txt_utf8_saimatsuni_chikaki_aru_fuyuno_hino_nikki.txt
+>> https://www.aozora.gr.jp/cards/000067/card60076.html
+>> 歳末に近き或る冬の日の日記、萩原朔太郎、
+-rwxrwxrwx 1 level level 1856 Nov  1 08:41 ./aozorabunko/cards/001091/files/60125_ruby_72059.zip
+3/3: ./aozorabunko/cards/001091/files/60125_ruby_72059.zip
+>> add 60125_ruby_kitsuneto_neko.txt
+>> add 60125_ruby_utf8_kitsuneto_neko.txt
+>> https://www.aozora.gr.jp/cards/001091/card60125.html
+>> 狐と猫、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31800/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov  1 08:41:47 JST 2020
+End  : Sun Nov  1 08:41:58 JST 2020
