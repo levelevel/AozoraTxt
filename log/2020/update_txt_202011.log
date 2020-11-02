@@ -47,3 +47,162 @@ Title Total : 31800/398 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Nov  1 08:41:47 JST 2020
 End  : Sun Nov  1 08:41:58 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov  2 09:04:14 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a01671d0f9..825af953ac  master     -> origin/master
+Updating a01671d0f9..825af953ac
+Fast-forward
+ cards/000067/card59329.html                   |   2 +-
+ cards/000067/card60076.html                   |   2 +-
+ cards/000106/card60457.html                   | 233 +++++++++++++++++++++++++
+ cards/000106/files/60457_72103.html           |  74 ++++++++
+ cards/000106/files/60457_ruby_72062.zip       | Bin 0 -> 1024 bytes
+ cards/001091/card60125.html                   |   2 +-
+ cards/001154/card43858.html                   | 234 ++++++++++++++++++++++++++
+ cards/001154/files/43858_72102.html           | 222 ++++++++++++++++++++++++
+ cards/001154/files/43858_ruby_72061.zip       | Bin 0 -> 9411 bytes
+ cards/001475/card52606.html                   |  10 +-
+ cards/001475/card52621.html                   |  12 +-
+ cards/001475/card52628.html                   |  10 +-
+ cards/001475/card52648.html                   |  10 +-
+ cards/001475/card52653.html                   |  12 +-
+ cards/001475/card52655.html                   |  12 +-
+ cards/001475/card52660.html                   |  10 +-
+ cards/001475/card52661.html                   |  12 +-
+ cards/001475/card52662.html                   |  12 +-
+ cards/001475/card52666.html                   |  12 +-
+ cards/001475/card53010.html                   |  12 +-
+ cards/001475/card53465.html                   |  10 +-
+ cards/001475/card54187.html                   |  10 +-
+ cards/001475/files/52606_67750.html           |   3 +-
+ cards/001475/files/52606_ruby_67698.zip       | Bin 6544 -> 6560 bytes
+ cards/001475/files/52621_69327.html           |   3 +-
+ cards/001475/files/52621_ruby_69275.zip       | Bin 5804 -> 5819 bytes
+ cards/001475/files/52628_71276.html           |   3 +-
+ cards/001475/files/52628_ruby_71227.zip       | Bin 5356 -> 5369 bytes
+ cards/001475/files/52648_69562.html           |   3 +-
+ cards/001475/files/52648_ruby_69511.zip       | Bin 5509 -> 5524 bytes
+ cards/001475/files/52653_64364.html           |   3 +-
+ cards/001475/files/52653_ruby_64315.zip       | Bin 3764 -> 3796 bytes
+ cards/001475/files/52655_64365.html           |   3 +-
+ cards/001475/files/52655_ruby_64316.zip       | Bin 3707 -> 3753 bytes
+ cards/001475/files/52660_69119.html           |   3 +-
+ cards/001475/files/52660_ruby_69028.zip       | Bin 4961 -> 4976 bytes
+ cards/001475/files/52661_67329.html           |   3 +-
+ cards/001475/files/52661_ruby_67380.zip       | Bin 4303 -> 4313 bytes
+ cards/001475/files/52662_69595.html           |   3 +-
+ cards/001475/files/52662_ruby_69544.zip       | Bin 4172 -> 4189 bytes
+ cards/001475/files/52666_68243.html           |   3 +-
+ cards/001475/files/52666_ruby_68198.zip       | Bin 6666 -> 6683 bytes
+ cards/001475/files/53010_66529.html           |   3 +-
+ cards/001475/files/53010_ruby_66484.zip       | Bin 3795 -> 3838 bytes
+ cards/001475/files/53465_69561.html           |   3 +-
+ cards/001475/files/53465_ruby_69510.zip       | Bin 6117 -> 6253 bytes
+ cards/001475/files/54187_71275.html           |   3 +-
+ cards/001475/files/54187_ruby_71226.zip       | Bin 5148 -> 5017 bytes
+ 161 files changed, 3965 insertions(+), 2810 deletions(-)
+Date: Mon Nov  2 09:04:19 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  1 08:41 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1024 Nov  2 09:04 ./aozorabunko/cards/000106/files/60457_ruby_72062.zip
+1/15: ./aozorabunko/cards/000106/files/60457_ruby_72062.zip
+>> add 60457_ruby_01getsumei_nisho.txt
+>> add 60457_ruby_utf8_01getsumei_nisho.txt
+>> https://www.aozora.gr.jp/cards/000106/card60457.html
+>> 古調月明集、月明二章、北原白秋、
+-rwxrwxrwx 1 level level 9411 Nov  2 09:04 ./aozorabunko/cards/001154/files/43858_ruby_72061.zip
+2/15: ./aozorabunko/cards/001154/files/43858_ruby_72061.zip
+>> add 43858_ruby_akutaino_shinri.txt
+>> add 43858_ruby_utf8_akutaino_shinri.txt
+>> https://www.aozora.gr.jp/cards/001154/card43858.html
+>> 悪態の心理、岸田國士、
+-rwxrwxrwx 1 level level 6560 Nov  2 09:04 ./aozorabunko/cards/001475/files/52606_ruby_67698.zip
+3/15: ./aozorabunko/cards/001475/files/52606_ruby_67698.zip
+>> update 52606_ruby_aiwa_fushigina_mono.txt
+>> update 52606_ruby_utf8_aiwa_fushigina_mono.txt
+>> https://www.aozora.gr.jp/cards/001475/card52606.html
+>> 愛は不思議なもの、小川未明、
+-rwxrwxrwx 1 level level 5819 Nov  2 09:04 ./aozorabunko/cards/001475/files/52621_ruby_69275.zip
+4/15: ./aozorabunko/cards/001475/files/52621_ruby_69275.zip
+>> update 52621_ruby_osakuno_hanashi.txt
+>> update 52621_ruby_utf8_osakuno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52621.html
+>> おさくの話、小川未明、
+-rwxrwxrwx 1 level level 5369 Nov  2 09:04 ./aozorabunko/cards/001475/files/52628_ruby_71227.zip
+5/15: ./aozorabunko/cards/001475/files/52628_ruby_71227.zip
+>> update 52628_ruby_kusaharano_yume.txt
+>> update 52628_ruby_utf8_kusaharano_yume.txt
+>> https://www.aozora.gr.jp/cards/001475/card52628.html
+>> 草原の夢、小川未明、
+-rwxrwxrwx 1 level level 5524 Nov  2 09:04 ./aozorabunko/cards/001475/files/52648_ruby_69511.zip
+6/15: ./aozorabunko/cards/001475/files/52648_ruby_69511.zip
+>> update 52648_ruby_tokaiwa_zeitakuda.txt
+>> update 52648_ruby_utf8_tokaiwa_zeitakuda.txt
+>> https://www.aozora.gr.jp/cards/001475/card52648.html
+>> 都会はぜいたくだ、小川未明、
+-rwxrwxrwx 1 level level 3796 Nov  2 09:04 ./aozorabunko/cards/001475/files/52653_ruby_64315.zip
+7/15: ./aozorabunko/cards/001475/files/52653_ruby_64315.zip
+>> update 52653_ruby_haru.txt
+>> update 52653_ruby_utf8_haru.txt
+>> https://www.aozora.gr.jp/cards/001475/card52653.html
+>> 春、小川未明、
+-rwxrwxrwx 1 level level 3753 Nov  2 09:04 ./aozorabunko/cards/001475/files/52655_ruby_64316.zip
+8/15: ./aozorabunko/cards/001475/files/52655_ruby_64316.zip
+>> update 52655_ruby_haruno_mahiru.txt
+>> update 52655_ruby_utf8_haruno_mahiru.txt
+>> https://www.aozora.gr.jp/cards/001475/card52655.html
+>> 春の真昼、小川未明、
+-rwxrwxrwx 1 level level 4976 Nov  2 09:04 ./aozorabunko/cards/001475/files/52660_ruby_69028.zip
+9/15: ./aozorabunko/cards/001475/files/52660_ruby_69028.zip
+>> update 52660_ruby_futarino_karuwazashi.txt
+>> update 52660_ruby_utf8_futarino_karuwazashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52660.html
+>> 二人の軽業師、小川未明、
+-rwxrwxrwx 1 level level 4313 Nov  2 09:04 ./aozorabunko/cards/001475/files/52661_ruby_67380.zip
+10/15: ./aozorabunko/cards/001475/files/52661_ruby_67380.zip
+>> update 52661_ruby_funede_tsuita_machi.txt
+>> update 52661_ruby_utf8_funede_tsuita_machi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52661.html
+>> 船でついた町、小川未明、
+-rwxrwxrwx 1 level level 4189 Nov  2 09:04 ./aozorabunko/cards/001475/files/52662_ruby_69544.zip
+11/15: ./aozorabunko/cards/001475/files/52662_ruby_69544.zip
+>> update 52662_ruby_furusato.txt
+>> update 52662_ruby_utf8_furusato.txt
+>> https://www.aozora.gr.jp/cards/001475/card52662.html
+>> ふるさと、小川未明、
+-rwxrwxrwx 1 level level 6683 Nov  2 09:04 ./aozorabunko/cards/001475/files/52666_ruby_68198.zip
+12/15: ./aozorabunko/cards/001475/files/52666_ruby_68198.zip
+>> update 52666_ruby_mezurashii_sakamori.txt
+>> update 52666_ruby_utf8_mezurashii_sakamori.txt
+>> https://www.aozora.gr.jp/cards/001475/card52666.html
+>> 珍しい酒もり、小川未明、
+-rwxrwxrwx 1 level level 3838 Nov  2 09:04 ./aozorabunko/cards/001475/files/53010_ruby_66484.zip
+13/15: ./aozorabunko/cards/001475/files/53010_ruby_66484.zip
+>> update 53010_ruby_yukino_ueno_buto.txt
+>> update 53010_ruby_utf8_yukino_ueno_buto.txt
+>> https://www.aozora.gr.jp/cards/001475/card53010.html
+>> 雪の上の舞踏、小川未明、
+-rwxrwxrwx 1 level level 6253 Nov  2 09:04 ./aozorabunko/cards/001475/files/53465_ruby_69510.zip
+14/15: ./aozorabunko/cards/001475/files/53465_ruby_69510.zip
+>> update 53465_ruby_shiroi_kuma.txt
+>> update 53465_ruby_utf8_shiroi_kuma.txt
+>> https://www.aozora.gr.jp/cards/001475/card53465.html
+>> 白いくま、小川未明、
+-rwxrwxrwx 1 level level 5017 Nov  2 09:04 ./aozorabunko/cards/001475/files/54187_ruby_71226.zip
+15/15: ./aozorabunko/cards/001475/files/54187_ruby_71226.zip
+>> update 54187_ruby_kyodaino_yamabato.txt
+>> update 54187_ruby_utf8_kyodaino_yamabato.txt
+>> https://www.aozora.gr.jp/cards/001475/card54187.html
+>> 兄弟のやまばと、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31804/398 (Accept:15/Reject:0/Update:13/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov  2 09:04:14 JST 2020
+End  : Mon Nov  2 09:04:26 JST 2020
