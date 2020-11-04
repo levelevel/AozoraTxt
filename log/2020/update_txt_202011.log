@@ -206,3 +206,66 @@ Title Total : 31804/398 (Accept:15/Reject:0/Update:13/Rename:0/Empty:0/Multi txt
 Git Failed  : 0
 Start: Mon Nov  2 09:04:14 JST 2020
 End  : Mon Nov  2 09:04:26 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov  3 10:54:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   825af953ac..a5e48f1864  master     -> origin/master
+Updating 825af953ac..a5e48f1864
+Fast-forward
+ cards/000106/card60457.html                   |   2 +-
+ cards/001154/card43858.html                   |   2 +-
+ cards/002043/card60742.html                   | 231 +++++++++++++++++++
+ cards/002043/files/60742_72036.html           | 318 ++++++++++++++++++++++++++
+ cards/002043/files/60742_ruby_72035.zip       | Bin 0 -> 1637790 bytes
+ 55 files changed, 1162 insertions(+), 628 deletions(-)
+Date: Tue Nov  3 10:54:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  3 10:53 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1637790 Nov  3 10:54 ./aozorabunko/cards/002043/files/60742_ruby_72035.zip
+1/1: ./aozorabunko/cards/002043/files/60742_ruby_72035.zip
+>> add 60742_NPD_ruby_chohobu_hiwa_05.txt
+>> add 60742_NPD_ruby_utf8_chohobu_hiwa_05.txt
+>> https://www.aozora.gr.jp/cards/002043/card60742.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第五話　盤上の手合い、No V THE OTHER SIDE OF THE CHESS-BOARD、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31804/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Tue Nov  3 10:54:45 JST 2020
+End  : Tue Nov  3 10:54:54 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov  4 20:49:16 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a5e48f1864..925d65e323  master     -> origin/master
+Updating a5e48f1864..925d65e323
+Fast-forward
+ cards/000050/card50108.html                   | 234 +++++++
+ cards/000050/files/50108_72104.html           | 847 ++++++++++++++++++++++++++
+ cards/000050/files/50108_ruby_72063.zip       | Bin 0 -> 76663 bytes
+ cards/002043/card60742.html                   |   2 +-
+ 82 files changed, 2100 insertions(+), 1022 deletions(-)
+Date: Wed Nov  4 20:49:21 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  3 10:54 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 76663 Nov  4 20:49 ./aozorabunko/cards/000050/files/50108_ruby_72063.zip
+1/1: ./aozorabunko/cards/000050/files/50108_ruby_72063.zip
+>> add 50108_ruby_hinmin_kurabu.txt
+>> add 50108_ruby_utf8_hinmin_kurabu.txt
+>> https://www.aozora.gr.jp/cards/000050/card50108.html
+>> 貧民倶楽部、泉鏡花、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31806/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Nov  4 20:49:16 JST 2020
+End  : Wed Nov  4 20:49:25 JST 2020
