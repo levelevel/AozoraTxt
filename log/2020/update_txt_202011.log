@@ -300,3 +300,34 @@ Title Total : 31808/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Nov  5 07:05:04 JST 2020
 End  : Thu Nov  5 07:05:10 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Nov  6 07:06:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ac964adfbe..90e1002370  master     -> origin/master
+Updating ac964adfbe..90e1002370
+Fast-forward
+ cards/001511/card51407.html                   |   2 +-
+ cards/001670/card56355.html                   | 234 +++++++++++++++++
+ cards/001670/files/56355_72106.html           | 361 ++++++++++++++++++++++++++
+ cards/001670/files/56355_ruby_72065.zip       | Bin 0 -> 13717 bytes
+ 45 files changed, 1839 insertions(+), 1247 deletions(-)
+Date: Fri Nov  6 07:06:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  5 07:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13717 Nov  6 07:06 ./aozorabunko/cards/001670/files/56355_ruby_72065.zip
+1/1: ./aozorabunko/cards/001670/files/56355_ruby_72065.zip
+>> add 56355_ruby_118fukiyano_beni.txt
+>> add 56355_ruby_utf8_118fukiyano_beni.txt
+>> https://www.aozora.gr.jp/cards/001670/card56355.html
+>> 銭形平次捕物控、吹矢の紅、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31810/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Nov  6 07:06:06 JST 2020
+End  : Fri Nov  6 07:06:16 JST 2020
