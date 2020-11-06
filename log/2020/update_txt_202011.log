@@ -331,3 +331,52 @@ Title Total : 31810/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov  6 07:06:06 JST 2020
 End  : Fri Nov  6 07:06:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov  7 07:02:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   90e1002370..a41f86d65b  master     -> origin/master
+Updating 90e1002370..a41f86d65b
+Fast-forward
+ cards/001475/card52969.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53008.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52969_72107.html           | 108 ++++++++++++
+ cards/001475/files/52969_ruby_72066.zip       | Bin 0 -> 4946 bytes
+ cards/001475/files/53008_72108.html           | 105 ++++++++++++
+ cards/001475/files/53008_ruby_72067.zip       | Bin 0 -> 4789 bytes
+ cards/001670/card56355.html                   |   2 +-
+ cards/001763/card59488.html                   |   8 +-
+ cards/001763/files/59488_70741.html           |   4 +-
+ cards/001763/files/59488_ruby_70689.zip       | Bin 4989 -> 4954 bytes
+ 87 files changed, 3195 insertions(+), 2517 deletions(-)
+Date: Sat Nov  7 07:02:41 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  6 07:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4946 Nov  7 07:02 ./aozorabunko/cards/001475/files/52969_ruby_72066.zip
+1/3: ./aozorabunko/cards/001475/files/52969_ruby_72066.zip
+>> add 52969_ruby_kawamizuno_hanashi.txt
+>> add 52969_ruby_utf8_kawamizuno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52969.html
+>> 河水の話、小川未明、
+-rwxrwxrwx 1 level level 4789 Nov  7 07:02 ./aozorabunko/cards/001475/files/53008_ruby_72067.zip
+2/3: ./aozorabunko/cards/001475/files/53008_ruby_72067.zip
+>> add 53008_ruby_kofukuno_tori.txt
+>> add 53008_ruby_utf8_kofukuno_tori.txt
+>> https://www.aozora.gr.jp/cards/001475/card53008.html
+>> 幸福の鳥、小川未明、
+-rwxrwxrwx 1 level level 4954 Nov  7 07:02 ./aozorabunko/cards/001763/files/59488_ruby_70689.zip
+3/3: ./aozorabunko/cards/001763/files/59488_ruby_70689.zip
+>> update 59488_ruby_inagono_dairyoko.txt
+>> update 59488_ruby_utf8_inagono_dairyoko.txt
+>> https://www.aozora.gr.jp/cards/001763/card59488.html
+>> 蝗の大旅行、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31814/400 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Nov  7 07:02:35 JST 2020
+End  : Sat Nov  7 07:02:45 JST 2020
