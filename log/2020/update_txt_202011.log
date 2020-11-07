@@ -380,3 +380,44 @@ Title Total : 31814/400 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Nov  7 07:02:35 JST 2020
 End  : Sat Nov  7 07:02:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov  8 07:39:13 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a41f86d65b..2c391c78a5  master     -> origin/master
+Updating a41f86d65b..2c391c78a5
+Fast-forward
+ cards/001475/card52969.html                   |   2 +-
+ cards/001475/card53008.html                   |   2 +-
+ cards/001763/card59488.html                   |   8 +-
+ cards/001763/files/59488_70741.html           |   3 +-
+ cards/001763/files/59488_ruby_70689.zip       | Bin 4954 -> 4988 bytes
+ cards/002132/card60159.html                   | 229 +++++++++++++++++++++
+ cards/002132/files/60159_72109.html           | 276 ++++++++++++++++++++++++++
+ cards/002132/files/60159_ruby_72068.zip       | Bin 0 -> 14994 bytes
+ 113 files changed, 3108 insertions(+), 2113 deletions(-)
+Date: Sun Nov  8 07:39:21 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  7 07:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4988 Nov  8 07:39 ./aozorabunko/cards/001763/files/59488_ruby_70689.zip
+1/2: ./aozorabunko/cards/001763/files/59488_ruby_70689.zip
+>> update 59488_ruby_inagono_dairyoko.txt
+>> update 59488_ruby_utf8_inagono_dairyoko.txt
+>> https://www.aozora.gr.jp/cards/001763/card59488.html
+>> 蝗の大旅行、佐藤春夫、
+-rwxrwxrwx 1 level level 14994 Nov  8 07:39 ./aozorabunko/cards/002132/files/60159_ruby_72068.zip
+2/2: ./aozorabunko/cards/002132/files/60159_ruby_72068.zip
+>> add 60159_ruby_yonin.txt
+>> add 60159_ruby_utf8_yonin.txt
+>> https://www.aozora.gr.jp/cards/002132/card60159.html
+>> 四人、芥川多加志、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31816/400 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov  8 07:39:13 JST 2020
+End  : Sun Nov  8 07:39:24 JST 2020
