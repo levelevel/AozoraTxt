@@ -421,3 +421,34 @@ Title Total : 31816/400 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Nov  8 07:39:13 JST 2020
 End  : Sun Nov  8 07:39:24 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov  9 07:31:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2c391c78a5..26474cf94b  master     -> origin/master
+Updating 2c391c78a5..26474cf94b
+Fast-forward
+ cards/002132/card60159.html                   |   2 +-
+ cards/002135/card60176.html                   | 239 ++++++++++++++++++++++++++
+ cards/002135/files/60176_72110.html           | 100 +++++++++++
+ cards/002135/files/60176_ruby_72069.zip       | Bin 0 -> 3930 bytes
+ 65 files changed, 2380 insertions(+), 2045 deletions(-)
+Date: Mon Nov  9 07:31:11 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  8 07:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3930 Nov  9 07:31 ./aozorabunko/cards/002135/files/60176_ruby_72069.zip
+1/1: ./aozorabunko/cards/002135/files/60176_ruby_72069.zip
+>> add 60176_ruby_aoi_me.txt
+>> add 60176_ruby_utf8_aoi_me.txt
+>> https://www.aozora.gr.jp/cards/002135/card60176.html
+>> 青い眼、アポリネエル　Guillaume Apollinaire、堀辰雄訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31818/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov  9 07:31:06 JST 2020
+End  : Mon Nov  9 07:31:16 JST 2020
