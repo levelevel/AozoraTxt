@@ -452,3 +452,34 @@ Title Total : 31818/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov  9 07:31:06 JST 2020
 End  : Mon Nov  9 07:31:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov 10 07:02:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   26474cf94b..58fab0e66c  master     -> origin/master
+Updating 26474cf94b..58fab0e66c
+Fast-forward
+ cards/001750/card57180.html                   |  229 ++
+ cards/001750/files/57180_72111.html           | 4772 +++++++++++++++++++++++++
+ cards/001750/files/57180_ruby_72070.zip       |  Bin 0 -> 91278 bytes
+ cards/002135/card60176.html                   |    2 +-
+ 56 files changed, 6119 insertions(+), 1121 deletions(-)
+Date: Tue Nov 10 07:02:53 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov  9 07:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 91278 Nov 10 07:02 ./aozorabunko/cards/001750/files/57180_ruby_72070.zip
+1/1: ./aozorabunko/cards/001750/files/57180_ruby_72070.zip
+>> add 57180_ruby_makenai_otoko.txt
+>> add 57180_ruby_utf8_makenai_otoko.txt
+>> https://www.aozora.gr.jp/cards/001750/card57180.html
+>> 負けない男、佐々木邦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31820/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov 10 07:02:46 JST 2020
+End  : Tue Nov 10 07:02:56 JST 2020
