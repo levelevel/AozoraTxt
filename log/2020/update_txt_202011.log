@@ -483,3 +483,43 @@ Title Total : 31820/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Nov 10 07:02:46 JST 2020
 End  : Tue Nov 10 07:02:56 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov 11 07:04:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   58fab0e66c..22c13f40fb  master     -> origin/master
+Updating 58fab0e66c..22c13f40fb
+Fast-forward
+ cards/000933/card47797.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47798.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47797_72112.html           |  67 ++++++++
+ cards/000933/files/47797_txt_72071.zip        | Bin 0 -> 2104 bytes
+ cards/000933/files/47798_72113.html           |  74 ++++++++
+ cards/000933/files/47798_ruby_72072.zip       | Bin 0 -> 2811 bytes
+ cards/001750/card57180.html                   |   2 +-
+ 77 files changed, 2863 insertions(+), 2154 deletions(-)
+Date: Wed Nov 11 07:04:52 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 10 07:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2104 Nov 11 07:04 ./aozorabunko/cards/000933/files/47797_txt_72071.zip
+1/2: ./aozorabunko/cards/000933/files/47797_txt_72071.zip
+>> add 47797_txt_geino_sodaisa.txt
+>> add 47797_txt_utf8_geino_sodaisa.txt
+>> https://www.aozora.gr.jp/cards/000933/card47797.html
+>> 芸の壮大さ、折口信夫、
+-rwxrwxrwx 1 level level 2811 Nov 11 07:04 ./aozorabunko/cards/000933/files/47798_ruby_72072.zip
+2/2: ./aozorabunko/cards/000933/files/47798_ruby_72072.zip
+>> add 47798_ruby_geino_uitenpenso.txt
+>> add 47798_ruby_utf8_geino_uitenpenso.txt
+>> https://www.aozora.gr.jp/cards/000933/card47798.html
+>> 芸の有為転変相、折口信夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31824/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Nov 11 07:04:46 JST 2020
+End  : Wed Nov 11 07:04:56 JST 2020
