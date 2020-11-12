@@ -573,3 +573,36 @@ Title Total : 31830/400 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Nov 12 07:10:07 JST 2020
 End  : Thu Nov 12 07:10:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Nov 13 07:08:31 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7abd30d4da..7af3e3603d  master     -> origin/master
+Updating 7abd30d4da..7af3e3603d
+Fast-forward
+ cards/000026/card55894.html                   |   2 +-
+ cards/000026/card55901.html                   |   2 +-
+ cards/000026/card55925.html                   |   2 +-
+ cards/001869/card57563.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57563_72117.html           | 159 ++++++++++++++++++
+ cards/001869/files/57563_ruby_72076.zip       | Bin 0 -> 13833 bytes
+ 56 files changed, 1974 insertions(+), 1591 deletions(-)
+Date: Fri Nov 13 07:08:35 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 12 07:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 13833 Nov 13 07:08 ./aozorabunko/cards/001869/files/57563_ruby_72076.zip
+1/1: ./aozorabunko/cards/001869/files/57563_ruby_72076.zip
+>> add 57563_ruby_usoa_tsukane.txt
+>> add 57563_ruby_utf8_usoa_tsukane.txt
+>> https://www.aozora.gr.jp/cards/001869/card57563.html
+>> 嘘アつかねえ、山本周五郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31832/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Nov 13 07:08:31 JST 2020
+End  : Fri Nov 13 07:08:39 JST 2020
