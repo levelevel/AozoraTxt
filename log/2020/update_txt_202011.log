@@ -606,3 +606,52 @@ Title Total : 31832/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov 13 07:08:31 JST 2020
 End  : Fri Nov 13 07:08:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov 14 07:16:57 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7af3e3603d..14fb9b0871  master     -> origin/master
+Updating 7af3e3603d..14fb9b0871
+Fast-forward
+ cards/001569/card59198.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59203.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59198_72119.html           |  73 ++++++++
+ cards/001569/files/59198_ruby_72078.zip       | Bin 0 -> 5858 bytes
+ cards/001569/files/59203_72118.html           |  90 ++++++++++
+ cards/001569/files/59203_ruby_72077.zip       | Bin 0 -> 5457 bytes
+ cards/001869/card57563.html                   |   2 +-
+ cards/002043/card59994.html                   |   6 +-
+ cards/002043/files/59994_68662.html           |   6 +-
+ cards/002043/files/59994_ruby_68661.zip       | Bin 1179595 -> 1179595 bytes
+ 100 files changed, 3084 insertions(+), 2396 deletions(-)
+Date: Sat Nov 14 07:17:02 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 13 07:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5858 Nov 14 07:17 ./aozorabunko/cards/001569/files/59198_ruby_72078.zip
+1/3: ./aozorabunko/cards/001569/files/59198_ruby_72078.zip
+>> add 59198_ruby_sennenno_jisa.txt
+>> add 59198_ruby_utf8_sennenno_jisa.txt
+>> https://www.aozora.gr.jp/cards/001569/card59198.html
+>> 千年の時差、中谷宇吉郎、
+-rwxrwxrwx 1 level level 5457 Nov 14 07:17 ./aozorabunko/cards/001569/files/59203_ruby_72077.zip
+2/3: ./aozorabunko/cards/001569/files/59203_ruby_72077.zip
+>> add 59203_ruby_fudoto_dento.txt
+>> add 59203_ruby_utf8_fudoto_dento.txt
+>> https://www.aozora.gr.jp/cards/001569/card59203.html
+>> 風土と伝統、中谷宇吉郎、
+-rwxrwxrwx 1 level level 1179595 Nov 14 07:17 ./aozorabunko/cards/002043/files/59994_ruby_68661.zip
+3/3: ./aozorabunko/cards/002043/files/59994_ruby_68661.zip
+>> update 59994_NPD_ruby_honmeiba.txt
+>> update 59994_NPD_ruby_utf8_honmeiba.txt
+>> https://www.aozora.gr.jp/cards/002043/card59994.html
+>> 本命馬、HARD PRESSED、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31836/400 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Nov 14 07:16:57 JST 2020
+End  : Sat Nov 14 07:17:06 JST 2020
