@@ -655,3 +655,53 @@ Title Total : 31836/400 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Nov 14 07:16:57 JST 2020
 End  : Sat Nov 14 07:17:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov 15 18:46:47 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   14fb9b0871..fd0f0c16c9  master     -> origin/master
+Updating 14fb9b0871..fd0f0c16c9
+Fast-forward
+ cards/000082/card56328.html                   | 238 ++++++++++++++++++++++++++
+ cards/000082/files/56328_72120.html           | 114 ++++++++++++
+ cards/000082/files/56328_ruby_72079.zip       | Bin 0 -> 9184 bytes
+ cards/000293/card60432.html                   | 234 +++++++++++++++++++++++++
+ cards/000293/files/60432_72122.html           | 117 +++++++++++++
+ cards/000293/files/60432_ruby_72081.zip       | Bin 0 -> 1447 bytes
+ cards/001569/card59198.html                   |   2 +-
+ cards/001569/card59203.html                   |   2 +-
+ cards/002136/card60177.html                   | 238 ++++++++++++++++++++++++++
+ cards/002136/files/60177_72121.html           | 172 +++++++++++++++++++
+ cards/002136/files/60177_ruby_72080.zip       | Bin 0 -> 3407 bytes
+ 118 files changed, 4244 insertions(+), 3136 deletions(-)
+Date: Sun Nov 15 18:46:53 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 14 07:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9184 Nov 15 18:46 ./aozorabunko/cards/000082/files/56328_ruby_72079.zip
+1/3: ./aozorabunko/cards/000082/files/56328_ruby_72079.zip
+>> add 56328_ruby_akai_kui.txt
+>> add 56328_ruby_utf8_akai_kui.txt
+>> https://www.aozora.gr.jp/cards/000082/card56328.html
+>> 赤い杭、岡本綺堂、
+-rwxrwxrwx 1 level level 1447 Nov 15 18:46 ./aozorabunko/cards/000293/files/60432_ruby_72081.zip
+2/3: ./aozorabunko/cards/000293/files/60432_ruby_72081.zip
+>> add 60432_ruby_pengindorino_uta.txt
+>> add 60432_ruby_utf8_pengindorino_uta.txt
+>> https://www.aozora.gr.jp/cards/000293/card60432.html
+>> ペンギン鳥の歌、原民喜、
+-rwxrwxrwx 1 level level 3407 Nov 15 18:46 ./aozorabunko/cards/002136/files/60177_ruby_72080.zip
+3/3: ./aozorabunko/cards/002136/files/60177_ruby_72080.zip
+>> add 60177_ruby_ikeru_monoto_shiseru_monoto.txt
+>> add 60177_ruby_utf8_ikeru_monoto_shiseru_monoto.txt
+>> https://www.aozora.gr.jp/cards/002136/card60177.html
+>> 生けるものと死せるものと、ノワイユ夫人　Comtesse de Noailles、堀辰雄訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31842/400 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov 15 18:46:47 JST 2020
+End  : Sun Nov 15 18:47:01 JST 2020
