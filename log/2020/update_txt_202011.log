@@ -705,3 +705,36 @@ Title Total : 31842/400 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Nov 15 18:46:47 JST 2020
 End  : Sun Nov 15 18:47:01 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov 16 08:05:37 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fd0f0c16c9..b681fe295a  master     -> origin/master
+Updating fd0f0c16c9..b681fe295a
+Fast-forward
+ cards/000082/card56328.html                   |   2 +-
+ cards/000293/card60432.html                   |   2 +-
+ cards/001670/card56341.html                   | 234 ++++++++++++++++
+ cards/001670/files/56341_72123.html           | 380 ++++++++++++++++++++++++++
+ cards/001670/files/56341_ruby_72082.zip       | Bin 0 -> 14535 bytes
+ cards/002136/card60177.html                   |   2 +-
+ 58 files changed, 2157 insertions(+), 1531 deletions(-)
+Date: Mon Nov 16 08:05:42 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 15 18:47 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14535 Nov 16 08:05 ./aozorabunko/cards/001670/files/56341_ruby_72082.zip
+1/1: ./aozorabunko/cards/001670/files/56341_ruby_72082.zip
+>> add 56341_ruby_119hakushino_kyofu.txt
+>> add 56341_ruby_utf8_119hakushino_kyofu.txt
+>> https://www.aozora.gr.jp/cards/001670/card56341.html
+>> 銭形平次捕物控、白紙の恐怖、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31844/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov 16 08:05:37 JST 2020
+End  : Mon Nov 16 08:05:45 JST 2020
