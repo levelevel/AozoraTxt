@@ -738,3 +738,34 @@ Title Total : 31844/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov 16 08:05:37 JST 2020
 End  : Mon Nov 16 08:05:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov 17 07:22:57 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b681fe295a..e0dac6b53d  master     -> origin/master
+Updating b681fe295a..e0dac6b53d
+Fast-forward
+ cards/001670/card56341.html                   |   2 +-
+ cards/001801/card59857.html                   | 234 ++++++++++++++++++++++++++
+ cards/001801/files/59857_72124.html           |  84 +++++++++
+ cards/001801/files/59857_ruby_72083.zip       | Bin 0 -> 2751 bytes
+ 40 files changed, 1050 insertions(+), 724 deletions(-)
+Date: Tue Nov 17 07:23:01 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 16 08:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2751 Nov 17 07:23 ./aozorabunko/cards/001801/files/59857_ruby_72083.zip
+1/1: ./aozorabunko/cards/001801/files/59857_ruby_72083.zip
+>> add 59857_ruby_tonbono_shi.txt
+>> add 59857_ruby_utf8_tonbono_shi.txt
+>> https://www.aozora.gr.jp/cards/001801/card59857.html
+>> トンボの死、山川方夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31846/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov 17 07:22:57 JST 2020
+End  : Tue Nov 17 07:23:06 JST 2020
