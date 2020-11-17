@@ -769,3 +769,43 @@ Title Total : 31846/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Nov 17 07:22:57 JST 2020
 End  : Tue Nov 17 07:23:06 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov 18 07:53:46 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e0dac6b53d..91efc51ff7  master     -> origin/master
+Updating e0dac6b53d..91efc51ff7
+Fast-forward
+ cards/000023/card55402.html                   | 234 +++++++++++++++++++++++
+ cards/000023/files/55402_72126.html           | 257 ++++++++++++++++++++++++++
+ cards/000023/files/55402_ruby_72085.zip       | Bin 0 -> 11206 bytes
+ cards/001581/card60171.html                   | 234 +++++++++++++++++++++++
+ cards/001581/files/60171_72125.html           |  66 +++++++
+ cards/001581/files/60171_ruby_72084.zip       | Bin 0 -> 1612 bytes
+ cards/001801/card59857.html                   |   2 +-
+ 88 files changed, 4019 insertions(+), 3231 deletions(-)
+Date: Wed Nov 18 07:53:51 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 17 07:23 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 11206 Nov 18 07:53 ./aozorabunko/cards/000023/files/55402_ruby_72085.zip
+1/2: ./aozorabunko/cards/000023/files/55402_ruby_72085.zip
+>> add 55402_ruby_shitsu.txt
+>> add 55402_ruby_utf8_shitsu.txt
+>> https://www.aozora.gr.jp/cards/000023/card55402.html
+>> 歯痛、徳田秋聲、
+-rwxrwxrwx 1 level level 1612 Nov 18 07:53 ./aozorabunko/cards/001581/files/60171_ruby_72084.zip
+2/2: ./aozorabunko/cards/001581/files/60171_ruby_72084.zip
+>> add 60171_ruby_choji_tokuda_shusei.txt
+>> add 60171_ruby_utf8_choji_tokuda_shusei.txt
+>> https://www.aozora.gr.jp/cards/001581/card60171.html
+>> 弔辞（徳田秋声）、正宗白鳥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31850/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Nov 18 07:53:46 JST 2020
+End  : Wed Nov 18 07:53:55 JST 2020
