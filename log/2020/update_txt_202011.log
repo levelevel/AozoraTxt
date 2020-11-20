@@ -809,3 +809,60 @@ Title Total : 31850/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Nov 18 07:53:46 JST 2020
 End  : Wed Nov 18 07:53:55 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Nov 19 08:29:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   91efc51ff7..a393a91f8e  master     -> origin/master
+Updating 91efc51ff7..a393a91f8e
+Fast-forward
+ cards/000023/card55402.html                   |   2 +-
+ cards/000050/card33223.html                   |   2 +-
+ cards/001154/card44819.html                   |   2 +-
+ cards/001581/card60171.html                   |   2 +-
+ cards/002161/card60545.html                   | 221 ++++++++++++++++++++++++++
+ 65 files changed, 1873 insertions(+), 1665 deletions(-)
+Date: Thu Nov 19 08:29:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 18 07:53 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31850/400 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Nov 19 08:29:07 JST 2020
+End  : Thu Nov 19 08:29:16 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Nov 20 09:14:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a393a91f8e..772106d756  master     -> origin/master
+Updating a393a91f8e..772106d756
+Fast-forward
+ cards/001091/card59746.html                   | 247 ++++++++++++++++++++
+ cards/001091/files/59746_72127.html           | 324 ++++++++++++++++++++++++++
+ cards/001091/files/59746_ruby_72086.zip       | Bin 0 -> 48353 bytes
+ cards/002161/card60545.html                   |   2 +-
+ 68 files changed, 2145 insertions(+), 1020 deletions(-)
+Date: Fri Nov 20 09:14:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 19 08:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 48353 Nov 20 09:14 ./aozorabunko/cards/001091/files/59746_ruby_72086.zip
+1/1: ./aozorabunko/cards/001091/files/59746_ruby_72086.zip
+>> add 59746_ruby_ryoshito_sono_okamisanno_hanashi.txt
+>> add 59746_ruby_utf8_ryoshito_sono_okamisanno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59746.html
+>> 漁師とそのおかみさんの話、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31852/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Nov 20 09:14:45 JST 2020
+End  : Fri Nov 20 09:14:53 JST 2020
