@@ -866,3 +866,43 @@ Title Total : 31852/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov 20 09:14:45 JST 2020
 End  : Fri Nov 20 09:14:53 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Nov 22 09:51:57 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   772106d756..bfac61a593  master     -> origin/master
+Updating 772106d756..bfac61a593
+Fast-forward
+ cards/000214/card59179.html                   | 234 ++++++++++++
+ cards/000214/files/59179_72128.html           | 170 +++++++++
+ cards/000214/files/59179_ruby_72087.zip       | Bin 0 -> 15176 bytes
+ cards/001091/card59746.html                   |   2 +-
+ cards/001770/card57996.html                   | 238 ++++++++++++
+ cards/001770/files/57996_72129.html           | 523 ++++++++++++++++++++++++++
+ cards/001770/files/57996_ruby_72088.zip       | Bin 0 -> 89581 bytes
+ 100 files changed, 4587 insertions(+), 3436 deletions(-)
+Date: Sun Nov 22 09:52:04 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 20 09:14 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 15176 Nov 22 09:52 ./aozorabunko/cards/000214/files/59179_ruby_72087.zip
+1/2: ./aozorabunko/cards/000214/files/59179_ruby_72087.zip
+>> add 59179_ruby_akino_kisoji.txt
+>> add 59179_ruby_utf8_akino_kisoji.txt
+>> https://www.aozora.gr.jp/cards/000214/card59179.html
+>> 秋の岐蘇路、田山花袋、
+-rwxrwxrwx 1 level level 89581 Nov 22 09:52 ./aozorabunko/cards/001770/files/57996_ruby_72088.zip
+2/2: ./aozorabunko/cards/001770/files/57996_ruby_72088.zip
+>> add 57996_ruby_01koyano_yobigoe.txt
+>> add 57996_ruby_utf8_01koyano_yobigoe.txt
+>> https://www.aozora.gr.jp/cards/001770/card57996.html
+>> 荒野の呼び声、THE CALL OF THE WILD、ジャック・ロンドン　Jack London、山本政喜訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31856/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Nov 22 09:51:57 JST 2020
+End  : Sun Nov 22 09:52:12 JST 2020
