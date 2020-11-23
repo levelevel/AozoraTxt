@@ -906,3 +906,34 @@ Title Total : 31856/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Nov 22 09:51:57 JST 2020
 End  : Sun Nov 22 09:52:12 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov 23 21:47:31 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bfac61a593..a1203d0aa2  master     -> origin/master
+Updating bfac61a593..a1203d0aa2
+Fast-forward
+ cards/000064/card55668.html                   | 229 ++++++++++++++++++++++++++
+ cards/000064/files/55668_72130.html           | 146 ++++++++++++++++
+ cards/000064/files/55668_ruby_72089.zip       | Bin 0 -> 18434 bytes
+ cards/001770/card57996.html                   |   2 +-
+ 47 files changed, 1748 insertions(+), 1376 deletions(-)
+Date: Mon Nov 23 21:47:37 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 22 09:52 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 18434 Nov 23 21:47 ./aozorabunko/cards/000064/files/55668_ruby_72089.zip
+1/1: ./aozorabunko/cards/000064/files/55668_ruby_72089.zip
+>> add 55668_ruby_otsugomori.txt
+>> add 55668_ruby_utf8_otsugomori.txt
+>> https://www.aozora.gr.jp/cards/000064/card55668.html
+>> 大つごもり、一葉女史、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31858/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov 23 21:47:31 JST 2020
+End  : Mon Nov 23 21:47:43 JST 2020
