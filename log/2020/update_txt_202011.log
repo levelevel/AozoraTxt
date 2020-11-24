@@ -977,3 +977,35 @@ Title Total : 31862/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Nov 24 07:12:27 JST 2020
 End  : Tue Nov 24 07:12:36 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Nov 25 07:14:45 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c09bda6ed3..c5d61ae885  master     -> origin/master
+Updating c09bda6ed3..c5d61ae885
+Fast-forward
+ cards/000326/card59492.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59492_72133.html           | 123 +++++++++++++
+ cards/000326/files/59492_ruby_72092.zip       | Bin 0 -> 6407 bytes
+ cards/001475/card52607.html                   |   2 +-
+ cards/001475/card53023.html                   |   2 +-
+ 116 files changed, 4361 insertions(+), 3515 deletions(-)
+Date: Wed Nov 25 07:14:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 24 07:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6407 Nov 25 07:14 ./aozorabunko/cards/000326/files/59492_ruby_72092.zip
+1/1: ./aozorabunko/cards/000326/files/59492_ruby_72092.zip
+>> add 59492_ruby_jiseki.txt
+>> add 59492_ruby_utf8_jiseki.txt
+>> https://www.aozora.gr.jp/cards/000326/card59492.html
+>> 自責、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31864/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Nov 25 07:14:45 JST 2020
+End  : Wed Nov 25 07:14:55 JST 2020
