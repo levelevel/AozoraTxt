@@ -1,5 +1,5 @@
-2020/10/27時点での青空文庫テキストファイル一式
-（作家数：903、ファイル数：15891）
+2020/11/27時点での青空文庫テキストファイル一式
+（作家数：911、ファイル数：15935）
 
-- ./AozoraTxt/AozoraTxt_SJIS.zip : 青空文庫全文書SJIS版
-- ./AozoraTxt/AozoraTxt_UTF8.zip : 青空文庫全文書UTF8版
+- AozoraTxt_SJIS.zip : 青空文庫全文書SJIS版
+- AozoraTxt_UTF8.zip : 青空文庫全文書UTF8版

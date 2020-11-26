@@ -1040,3 +1040,43 @@ Title Total : 31866/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Nov 26 07:25:26 JST 2020
 End  : Thu Nov 26 07:25:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Nov 27 07:13:39 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a49477d03b..0406ec8037  master     -> origin/master
+Updating a49477d03b..0406ec8037
+Fast-forward
+ cards/001403/card59653.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/card59655.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/59653_72136.html           |  76 +++++++++
+ cards/001403/files/59653_ruby_72095.zip       | Bin 0 -> 1986 bytes
+ cards/001403/files/59655_72135.html           |  88 ++++++++++
+ cards/001403/files/59655_ruby_72094.zip       | Bin 0 -> 4191 bytes
+ cards/001670/card56369.html                   |   2 +-
+ 177 files changed, 4230 insertions(+), 3603 deletions(-)
+Date: Fri Nov 27 07:13:44 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 26 07:25 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1986 Nov 27 07:13 ./aozorabunko/cards/001403/files/59653_ruby_72095.zip
+1/2: ./aozorabunko/cards/001403/files/59653_ruby_72095.zip
+>> add 59653_ruby_shunka_shuto_ryori_okoku_joni_kaete.txt
+>> add 59653_ruby_utf8_shunka_shuto_ryori_okoku_joni_kaete.txt
+>> https://www.aozora.gr.jp/cards/001403/card59653.html
+>> 「春夏秋冬　料理王国」序にかえて、北大路魯山人、
+-rwxrwxrwx 1 level level 4191 Nov 27 07:13 ./aozorabunko/cards/001403/files/59655_ruby_72094.zip
+2/2: ./aozorabunko/cards/001403/files/59655_ruby_72094.zip
+>> add 59655_ruby_fuguno_koto.txt
+>> add 59655_ruby_utf8_fuguno_koto.txt
+>> https://www.aozora.gr.jp/cards/001403/card59655.html
+>> 河豚のこと、北大路魯山人、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31870/400 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Nov 27 07:13:39 JST 2020
+End  : Fri Nov 27 07:13:48 JST 2020
