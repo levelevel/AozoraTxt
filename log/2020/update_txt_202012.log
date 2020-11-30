@@ -1,0 +1,34 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec  1 07:20:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   06e21337f7..29341bdf8a  master     -> origin/master
+Updating 06e21337f7..29341bdf8a
+Fast-forward
+ cards/000879/card145.html                     |   3 +-
+ cards/001341/card59937.html                   |   2 +-
+ cards/001869/card57661.html                   |   2 +-
+ cards/001953/card18362.html                   | 234 ++++++++++++++++++++++++++
+ cards/001953/files/18362_72290.html           |  62 +++++++
+ cards/001953/files/18362_ruby_72242.zip       | Bin 0 -> 1405 bytes
+ cards/002161/card60545.html                   |   2 +-
+ 64 files changed, 1476 insertions(+), 1176 deletions(-)
+Date: Tue Dec  1 07:20:10 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Nov 30 07:12 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1405 Dec  1 07:20 ./aozorabunko/cards/001953/files/18362_ruby_72242.zip
+1/1: ./aozorabunko/cards/001953/files/18362_ruby_72242.zip
+>> add 18362_ruby_teishitsu_ron_shogen.txt
+>> add 18362_ruby_utf8_teishitsu_ron_shogen.txt
+>> https://www.aozora.gr.jp/cards/001953/card18362.html
+>> 帝室論緒言、飯田平作、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31878/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec  1 07:20:03 JST 2020
+End  : Tue Dec  1 07:20:15 JST 2020
