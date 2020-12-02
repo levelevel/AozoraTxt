@@ -32,3 +32,83 @@ Title Total : 31878/400 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec  1 07:20:03 JST 2020
 End  : Tue Dec  1 07:20:15 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec  2 07:09:53 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   29341bdf8a..842b649ab0  master     -> origin/master
+Updating 29341bdf8a..842b649ab0
+Fast-forward
+ cards/001953/card18362.html                   |   2 +-
+ cards/002043/card60743.html                   | 231 ++++++++++++++++++
+ cards/002043/files/60743_72038.html           | 325 ++++++++++++++++++++++++++
+ cards/002043/files/60743_ruby_72037.zip       | Bin 0 -> 2220241 bytes
+ 64 files changed, 1535 insertions(+), 991 deletions(-)
+Date: Wed Dec  2 07:09:58 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  1 07:20 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2220241 Dec  2 07:09 ./aozorabunko/cards/002043/files/60743_ruby_72037.zip
+1/1: ./aozorabunko/cards/002043/files/60743_ruby_72037.zip
+>> add 60743_NPD_ruby_chohobu_hiwa_06.txt
+>> add 60743_NPD_ruby_utf8_chohobu_hiwa_06.txt
+>> https://www.aozora.gr.jp/cards/002043/card60743.html
+>> 諜報部秘話、THE ROMANCE OF THE SECRET SERVICE FUND、第六話　三人組、No VI THREE OF THEM、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31878/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Dec  2 07:09:53 JST 2020
+End  : Wed Dec  2 07:10:02 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec  3 07:07:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   842b649ab0..56e6ff25e6  master     -> origin/master
+Updating 842b649ab0..56e6ff25e6
+Fast-forward
+ cards/001341/card56168.html                   | 243 ++++++++++++++++++++++++++
+ cards/001341/card59890.html                   | 243 ++++++++++++++++++++++++++
+ cards/001341/files/56168_72291.html           | 152 ++++++++++++++++
+ cards/001341/files/56168_ruby_72243.zip       | Bin 0 -> 12175 bytes
+ cards/001341/files/59890_72292.html           | 123 +++++++++++++
+ cards/001341/files/59890_ruby_72244.zip       | Bin 0 -> 9496 bytes
+ cards/001763/card59395.html                   | 234 +++++++++++++++++++++++++
+ cards/001763/files/59395_72293.html           | 104 +++++++++++
+ cards/001763/files/59395_ruby_72245.zip       | Bin 0 -> 4244 bytes
+ cards/002043/card60743.html                   |   2 +-
+ 111 files changed, 4442 insertions(+), 3299 deletions(-)
+Date: Thu Dec  3 07:07:47 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  2 07:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12175 Dec  3 07:07 ./aozorabunko/cards/001341/files/56168_ruby_72243.zip
+1/3: ./aozorabunko/cards/001341/files/56168_ruby_72243.zip
+>> add 56168_ruby_azumabashi.txt
+>> add 56168_ruby_utf8_azumabashi.txt
+>> https://www.aozora.gr.jp/cards/001341/card56168.html
+>> 吾妻橋、永井壮吉、
+-rwxrwxrwx 1 level level 9496 Dec  3 07:07 ./aozorabunko/cards/001341/files/59890_ruby_72244.zip
+2/3: ./aozorabunko/cards/001341/files/59890_ruby_72244.zip
+>> add 59890_ruby_fuyubino_mado.txt
+>> add 59890_ruby_utf8_fuyubino_mado.txt
+>> https://www.aozora.gr.jp/cards/001341/card59890.html
+>> 冬日の窓、永井壮吉、
+-rwxrwxrwx 1 level level 4244 Dec  3 07:07 ./aozorabunko/cards/001763/files/59395_ruby_72245.zip
+3/3: ./aozorabunko/cards/001763/files/59395_ruby_72245.zip
+>> add 59395_ruby_kafusenseito_jojinno_shashin.txt
+>> add 59395_ruby_utf8_kafusenseito_jojinno_shashin.txt
+>> https://www.aozora.gr.jp/cards/001763/card59395.html
+>> 荷風先生と情人の写真、佐藤春夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31884/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec  3 07:07:41 JST 2020
+End  : Thu Dec  3 07:07:51 JST 2020
