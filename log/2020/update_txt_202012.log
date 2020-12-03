@@ -112,3 +112,36 @@ Title Total : 31884/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec  3 07:07:41 JST 2020
 End  : Thu Dec  3 07:07:51 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec  4 07:01:42 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   56e6ff25e6..b7ece1c349  master     -> origin/master
+Updating 56e6ff25e6..b7ece1c349
+Fast-forward
+ cards/000119/card56247.html                   | 234 ++++++++++++++++++++++++++
+ cards/000119/files/56247_72294.html           |  88 ++++++++++
+ cards/000119/files/56247_ruby_72246.zip       | Bin 0 -> 7499 bytes
+ cards/001341/card56168.html                   |   2 +-
+ cards/001341/card59890.html                   |   2 +-
+ cards/001763/card59395.html                   |   2 +-
+ 68 files changed, 1685 insertions(+), 1374 deletions(-)
+Date: Fri Dec  4 07:01:48 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  3 07:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7499 Dec  4 07:01 ./aozorabunko/cards/000119/files/56247_ruby_72246.zip
+1/1: ./aozorabunko/cards/000119/files/56247_ruby_72246.zip
+>> add 56247_ruby_kitsune_tsuki.txt
+>> add 56247_ruby_utf8_kitsune_tsuki.txt
+>> https://www.aozora.gr.jp/cards/000119/card56247.html
+>> 狐憑、中島敦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31886/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec  4 07:01:42 JST 2020
+End  : Fri Dec  4 07:01:52 JST 2020
