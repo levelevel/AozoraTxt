@@ -145,3 +145,43 @@ Title Total : 31886/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec  4 07:01:42 JST 2020
 End  : Fri Dec  4 07:01:52 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec  5 12:34:06 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b7ece1c349..0884028793  master     -> origin/master
+Updating b7ece1c349..0884028793
+Fast-forward
+ cards/000119/card56247.html                   |   2 +-
+ cards/001569/card59187.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59573.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59187_72295.html           | 117 +++++++++++++
+ cards/001569/files/59187_ruby_72247.zip       | Bin 0 -> 12138 bytes
+ cards/001569/files/59573_72296.html           |  61 +++++++
+ cards/001569/files/59573_txt_72248.zip        | Bin 0 -> 1614 bytes
+ 75 files changed, 2622 insertions(+), 1981 deletions(-)
+Date: Sat Dec  5 12:34:11 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  4 07:01 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12138 Dec  5 12:34 ./aozorabunko/cards/001569/files/59187_ruby_72247.zip
+1/2: ./aozorabunko/cards/001569/files/59187_ruby_72247.zip
+>> add 59187_ruby_ameo_furasu_hanashi.txt
+>> add 59187_ruby_utf8_ameo_furasu_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59187.html
+>> 雨を降らす話、中谷宇吉郎、
+-rwxrwxrwx 1 level level 1614 Dec  5 12:34 ./aozorabunko/cards/001569/files/59573_txt_72248.zip
+2/2: ./aozorabunko/cards/001569/files/59573_txt_72248.zip
+>> add 59573_txt_itamino_koyo.txt
+>> add 59573_txt_utf8_itamino_koyo.txt
+>> https://www.aozora.gr.jp/cards/001569/card59573.html
+>> 痛みの効用、中谷宇吉郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31890/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec  5 12:34:06 JST 2020
+End  : Sat Dec  5 12:34:15 JST 2020
