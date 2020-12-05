@@ -185,3 +185,44 @@ Title Total : 31890/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec  5 12:34:06 JST 2020
 End  : Sat Dec  5 12:34:15 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Dec  6 08:33:07 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0884028793..e79d216e1a  master     -> origin/master
+Updating 0884028793..e79d216e1a
+Fast-forward
+ cards/001475/card53157.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card54214.html                   | 229 +++++++++++++++++++++++++
+ cards/001475/files/53157_72298.html           |  89 ++++++++++
+ cards/001475/files/53157_ruby_72250.zip       | Bin 0 -> 6330 bytes
+ cards/001475/files/54214_72297.html           | 147 ++++++++++++++++
+ cards/001475/files/54214_ruby_72249.zip       | Bin 0 -> 8776 bytes
+ cards/001569/card59187.html                   |   2 +-
+ cards/001569/card59573.html                   |   2 +-
+ 62 files changed, 1969 insertions(+), 1276 deletions(-)
+Date: Sun Dec  6 08:33:12 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  5 12:34 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6330 Dec  6 08:33 ./aozorabunko/cards/001475/files/53157_ruby_72250.zip
+1/2: ./aozorabunko/cards/001475/files/53157_ruby_72250.zip
+>> add 53157_ruby_torawarebito.txt
+>> add 53157_ruby_utf8_torawarebito.txt
+>> https://www.aozora.gr.jp/cards/001475/card53157.html
+>> 捕われ人、小川未明、
+-rwxrwxrwx 1 level level 8776 Dec  6 08:33 ./aozorabunko/cards/001475/files/54214_ruby_72249.zip
+2/2: ./aozorabunko/cards/001475/files/54214_ruby_72249.zip
+>> add 54214_ruby_nibanmeno_musume.txt
+>> add 54214_ruby_utf8_nibanmeno_musume.txt
+>> https://www.aozora.gr.jp/cards/001475/card54214.html
+>> 二番めの娘、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31894/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Dec  6 08:33:07 JST 2020
+End  : Sun Dec  6 08:33:17 JST 2020
