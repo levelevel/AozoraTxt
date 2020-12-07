@@ -226,3 +226,35 @@ Title Total : 31894/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Dec  6 08:33:07 JST 2020
 End  : Sun Dec  6 08:33:17 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Dec  7 22:45:22 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e79d216e1a..1679000c7e  master     -> origin/master
+Updating e79d216e1a..1679000c7e
+Fast-forward
+ cards/001475/card53157.html                   |   2 +-
+ cards/001475/card54214.html                   |   2 +-
+ cards/001670/card56342.html                   | 234 +++++++++++++++++
+ cards/001670/files/56342_72299.html           | 361 ++++++++++++++++++++++++++
+ cards/001670/files/56342_ruby_72251.zip       | Bin 0 -> 14106 bytes
+ 51 files changed, 1878 insertions(+), 1287 deletions(-)
+Date: Mon Dec  7 22:45:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  7 07:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14106 Dec  7 22:45 ./aozorabunko/cards/001670/files/56342_ruby_72251.zip
+1/1: ./aozorabunko/cards/001670/files/56342_ruby_72251.zip
+>> add 56342_ruby_121tsuchieno_aichaku.txt
+>> add 56342_ruby_utf8_121tsuchieno_aichaku.txt
+>> https://www.aozora.gr.jp/cards/001670/card56342.html
+>> 銭形平次捕物控、土への愛着、野村胡堂、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31896/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Dec  7 22:45:22 JST 2020
+End  : Mon Dec  7 22:45:31 JST 2020
