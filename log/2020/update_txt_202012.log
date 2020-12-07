@@ -258,3 +258,34 @@ Title Total : 31896/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec  7 22:45:22 JST 2020
 End  : Mon Dec  7 22:45:31 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec  8 07:06:35 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1679000c7e..9aba7ce527  master     -> origin/master
+Updating 1679000c7e..9aba7ce527
+Fast-forward
+ cards/001510/card51406.html                   | 234 ++++++++++++++++++++++++++
+ cards/001510/files/51406_72300.html           |  70 ++++++++
+ cards/001510/files/51406_ruby_72252.zip       | Bin 0 -> 3489 bytes
+ cards/001670/card56342.html                   |   2 +-
+ 47 files changed, 1408 insertions(+), 1099 deletions(-)
+Date: Tue Dec  8 07:06:40 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  7 22:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3489 Dec  8 07:06 ./aozorabunko/cards/001510/files/51406_ruby_72252.zip
+1/1: ./aozorabunko/cards/001510/files/51406_ruby_72252.zip
+>> add 51406_ruby_kyoikudan.txt
+>> add 51406_ruby_utf8_kyoikudan.txt
+>> https://www.aozora.gr.jp/cards/001510/card51406.html
+>> 教育談、箕作秋坪、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31898/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec  8 07:06:35 JST 2020
+End  : Tue Dec  8 07:06:44 JST 2020
