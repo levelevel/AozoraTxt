@@ -289,3 +289,34 @@ Title Total : 31898/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec  8 07:06:35 JST 2020
 End  : Tue Dec  8 07:06:44 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec  9 07:03:00 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9aba7ce527..0b00ee2083  master     -> origin/master
+Updating 9aba7ce527..0b00ee2083
+Fast-forward
+ cards/001510/card51406.html                   |   2 +-
+ cards/001801/card59858.html                   | 234 ++++++++++++++++++++++++++
+ cards/001801/files/59858_72301.html           |  94 +++++++++++
+ cards/001801/files/59858_ruby_72253.zip       | Bin 0 -> 3120 bytes
+ 56 files changed, 1198 insertions(+), 873 deletions(-)
+Date: Wed Dec  9 07:03:05 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec  8 07:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3120 Dec  9 07:03 ./aozorabunko/cards/001801/files/59858_ruby_72253.zip
+1/1: ./aozorabunko/cards/001801/files/59858_ruby_72253.zip
+>> add 59858_ruby_lonely_man.txt
+>> add 59858_ruby_utf8_lonely_man.txt
+>> https://www.aozora.gr.jp/cards/001801/card59858.html
+>> ロンリー・マン、山川方夫、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31900/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec  9 07:03:00 JST 2020
+End  : Wed Dec  9 07:03:10 JST 2020
