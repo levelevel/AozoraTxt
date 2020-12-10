@@ -360,3 +360,35 @@ Title Total : 31904/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 10 07:10:56 JST 2020
 End  : Thu Dec 10 07:11:04 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec 11 07:08:05 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   53f8603ec7..4c7182ebf8  master     -> origin/master
+Updating 53f8603ec7..4c7182ebf8
+Fast-forward
+ cards/001091/card60030.html                   |   2 +-
+ cards/001091/card60031.html                   |   2 +-
+ cards/001750/card55799.html                   | 229 ++++++++++++++++
+ cards/001750/files/55799_72304.html           | 380 ++++++++++++++++++++++++++
+ cards/001750/files/55799_ruby_72256.zip       | Bin 0 -> 12548 bytes
+ 67 files changed, 2507 insertions(+), 1906 deletions(-)
+Date: Fri Dec 11 07:08:10 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 10 07:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12548 Dec 11 07:08 ./aozorabunko/cards/001750/files/55799_ruby_72256.zip
+1/1: ./aozorabunko/cards/001750/files/55799_ruby_72256.zip
+>> add 55799_ruby_aien_kien.txt
+>> add 55799_ruby_utf8_aien_kien.txt
+>> https://www.aozora.gr.jp/cards/001750/card55799.html
+>> 合縁奇縁、佐々木邦、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31906/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec 11 07:08:05 JST 2020
+End  : Fri Dec 11 07:08:15 JST 2020
