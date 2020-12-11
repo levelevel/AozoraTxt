@@ -392,3 +392,43 @@ Title Total : 31906/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec 11 07:08:05 JST 2020
 End  : Fri Dec 11 07:08:15 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 12 08:11:18 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4c7182ebf8..fae64c86fd  master     -> origin/master
+Updating 4c7182ebf8..fae64c86fd
+Fast-forward
+ cards/000296/card50269.html                   | 234 ++++++++++++++++++++++++++
+ cards/000296/files/50269_72306.html           |  82 +++++++++
+ cards/000296/files/50269_ruby_72258.zip       | Bin 0 -> 3202 bytes
+ cards/001750/card55799.html                   |   2 +-
+ cards/001761/card60425.html                   | 229 +++++++++++++++++++++++++
+ cards/001761/files/60425_72305.html           | 118 +++++++++++++
+ cards/001761/files/60425_txt_72257.zip        | Bin 0 -> 7568 bytes
+ 101 files changed, 2172 insertions(+), 1506 deletions(-)
+Date: Sat Dec 12 08:11:23 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 11 07:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3202 Dec 12 08:11 ./aozorabunko/cards/000296/files/50269_ruby_72258.zip
+1/2: ./aozorabunko/cards/000296/files/50269_ruby_72258.zip
+>> add 50269_ruby_rangaku_kotohajime_saihanno_jo.txt
+>> add 50269_ruby_utf8_rangaku_kotohajime_saihanno_jo.txt
+>> https://www.aozora.gr.jp/cards/000296/card50269.html
+>> 蘭学事始再版之序、福澤諭吉、
+-rwxrwxrwx 1 level level 7568 Dec 12 08:11 ./aozorabunko/cards/001761/files/60425_txt_72257.zip
+2/2: ./aozorabunko/cards/001761/files/60425_txt_72257.zip
+>> add 60425_txt_eiga_kai_kogoto_kobe.txt
+>> add 60425_txt_utf8_eiga_kai_kogoto_kobe.txt
+>> https://www.aozora.gr.jp/cards/001761/card60425.html
+>> 映画界・小言幸兵衛、―泥棒しても儲ければよいは困る‼―、小津安二郎、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31910/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 12 08:11:18 JST 2020
+End  : Sat Dec 12 08:11:28 JST 2020
