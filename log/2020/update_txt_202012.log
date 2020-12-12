@@ -432,3 +432,53 @@ Title Total : 31910/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 12 08:11:18 JST 2020
 End  : Sat Dec 12 08:11:28 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Dec 13 07:48:19 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fae64c86fd..78a7eb7d54  master     -> origin/master
+Updating fae64c86fd..78a7eb7d54
+Fast-forward
+ cards/000214/card48882.html                   | 243 +++++++++++++++++++++++++
+ cards/000214/card48900.html                   | 243 +++++++++++++++++++++++++
+ cards/000214/card49099.html                   | 243 +++++++++++++++++++++++++
+ cards/000214/files/48882_72308.html           | 251 ++++++++++++++++++++++++++
+ cards/000214/files/48882_ruby_72260.zip       | Bin 0 -> 12388 bytes
+ cards/000214/files/48900_72307.html           |  97 ++++++++++
+ cards/000214/files/48900_ruby_72259.zip       | Bin 0 -> 9128 bytes
+ cards/000214/files/49099_72309.html           |  61 +++++++
+ cards/000214/files/49099_ruby_72261.zip       | Bin 0 -> 2311 bytes
+ cards/000296/card50269.html                   |   2 +-
+ cards/001761/card60425.html                   |   2 +-
+ 103 files changed, 5558 insertions(+), 4443 deletions(-)
+Date: Sun Dec 13 07:48:25 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 12 08:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12388 Dec 13 07:48 ./aozorabunko/cards/000214/files/48882_ruby_72260.zip
+1/3: ./aozorabunko/cards/000214/files/48882_ruby_72260.zip
+>> add 48882_ruby_shimano_uta.txt
+>> add 48882_ruby_utf8_shimano_uta.txt
+>> https://www.aozora.gr.jp/cards/000214/card48882.html
+>> 島の唄、田山録弥、
+-rwxrwxrwx 1 level level 9128 Dec 13 07:48 ./aozorabunko/cards/000214/files/48900_ruby_72259.zip
+2/3: ./aozorabunko/cards/000214/files/48900_ruby_72259.zip
+>> add 48900_ruby_jitano_yugo.txt
+>> add 48900_ruby_utf8_jitano_yugo.txt
+>> https://www.aozora.gr.jp/cards/000214/card48900.html
+>> 自他の融合、田山録弥、
+-rwxrwxrwx 1 level level 2311 Dec 13 07:48 ./aozorabunko/cards/000214/files/49099_ruby_72261.zip
+3/3: ./aozorabunko/cards/000214/files/49099_ruby_72261.zip
+>> add 49099_ruby_yamano_hoteru.txt
+>> add 49099_ruby_utf8_yamano_hoteru.txt
+>> https://www.aozora.gr.jp/cards/000214/card49099.html
+>> 山のホテル、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31916/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Dec 13 07:48:19 JST 2020
+End  : Sun Dec 13 07:48:29 JST 2020
