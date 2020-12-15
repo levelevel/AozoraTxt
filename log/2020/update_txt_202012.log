@@ -546,3 +546,43 @@ Title Total : 31920/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 15 07:29:35 JST 2020
 End  : Tue Dec 15 07:29:45 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 16 07:08:27 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2b9e519b51..761233b8ff  master     -> origin/master
+Updating 2b9e519b51..761233b8ff
+Fast-forward
+ cards/001091/card59639.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/card59640.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59639_72312.html           | 184 +++++++++++++++++++
+ cards/001091/files/59639_ruby_72264.zip       | Bin 0 -> 114016 bytes
+ cards/001091/files/59640_72313.html           | 138 ++++++++++++++
+ cards/001091/files/59640_ruby_72265.zip       | Bin 0 -> 114000 bytes
+ cards/001749/card54113.html                   |   2 +-
+ 78 files changed, 2998 insertions(+), 2051 deletions(-)
+Date: Wed Dec 16 07:08:32 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 15 07:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 114016 Dec 16 07:08 ./aozorabunko/cards/001091/files/59639_ruby_72264.zip
+1/2: ./aozorabunko/cards/001091/files/59639_ruby_72264.zip
+>> add 59639_ruby_morino_nakano_3ninnno_kobito.txt
+>> add 59639_ruby_utf8_morino_nakano_3ninnno_kobito.txt
+>> https://www.aozora.gr.jp/cards/001091/card59639.html
+>> 森のなかの三人の小人、グリム　Grimm、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 114000 Dec 16 07:08 ./aozorabunko/cards/001091/files/59640_ruby_72265.zip
+2/2: ./aozorabunko/cards/001091/files/59640_ruby_72265.zip
+>> add 59640_ruby_rapunzel.txt
+>> add 59640_ruby_utf8_rapunzel.txt
+>> https://www.aozora.gr.jp/cards/001091/card59640.html
+>> ラプンツェル、グリム　Grimm、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31924/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 16 07:08:27 JST 2020
+End  : Wed Dec 16 07:08:37 JST 2020
