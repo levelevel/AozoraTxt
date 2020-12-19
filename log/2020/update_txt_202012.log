@@ -618,3 +618,61 @@ Title Total : 31926/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 17 07:22:23 JST 2020
 End  : Thu Dec 17 07:22:33 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 19 09:08:30 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f3f1e37d32..00fcf5d8a5  master     -> origin/master
+Updating f3f1e37d32..00fcf5d8a5
+Fast-forward
+ cards/000326/card59495.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59495_72317.html           | 158 +++++++++++++++++
+ cards/000326/files/59495_ruby_72269.zip       | Bin 0 -> 7199 bytes
+ cards/001569/card57290.html                   | 234 +++++++++++++++++++++++++
+ cards/001569/card57873.html                   | 234 +++++++++++++++++++++++++
+ cards/001569/files/57290_72315.html           | 211 ++++++++++++++++++++++
+ cards/001569/files/57290_ruby_72267.zip       | Bin 0 -> 18198 bytes
+ cards/001569/files/57873_72316.html           |  65 +++++++
+ cards/001569/files/57873_txt_72268.zip        | Bin 0 -> 1532 bytes
+ cards/001670/card56356.html                   |   2 +-
+ cards/002043/card60066.html                   |   8 +-
+ cards/002043/files/60066_69391.html           |  10 +-
+ cards/002043/files/60066_ruby_69390.zip       | Bin 482316 -> 482767 bytes
+ 109 files changed, 3252 insertions(+), 1782 deletions(-)
+Date: Sat Dec 19 09:08:36 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 17 07:22 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7199 Dec 19 09:08 ./aozorabunko/cards/000326/files/59495_ruby_72269.zip
+1/4: ./aozorabunko/cards/000326/files/59495_ruby_72269.zip
+>> add 59495_ruby_hekigan.txt
+>> add 59495_ruby_utf8_hekigan.txt
+>> https://www.aozora.gr.jp/cards/000326/card59495.html
+>> 碧眼、モーリス・ルヴェル　Maurice Level、田中早苗訳、
+-rwxrwxrwx 1 level level 18198 Dec 19 09:08 ./aozorabunko/cards/001569/files/57290_ruby_72267.zip
+2/4: ./aozorabunko/cards/001569/files/57290_ruby_72267.zip
+>> add 57290_ruby_horobiyuku_kokudo.txt
+>> add 57290_ruby_utf8_horobiyuku_kokudo.txt
+>> https://www.aozora.gr.jp/cards/001569/card57290.html
+>> 亡び行く国土、中谷宇吉郎、
+-rwxrwxrwx 1 level level 1532 Dec 19 09:08 ./aozorabunko/cards/001569/files/57873_txt_72268.zip
+3/4: ./aozorabunko/cards/001569/files/57873_txt_72268.zip
+>> add 57873_txt_yuki_kyogikaino_hokoku.txt
+>> add 57873_txt_utf8_yuki_kyogikaino_hokoku.txt
+>> https://www.aozora.gr.jp/cards/001569/card57873.html
+>> 雪協議会の報告、中谷宇吉郎、
+-rwxrwxrwx 1 level level 482767 Dec 19 09:08 ./aozorabunko/cards/002043/files/60066_ruby_69390.zip
+4/4: ./aozorabunko/cards/002043/files/60066_ruby_69390.zip
+>> update 60066_NPD_ruby_doke_gyokuza.txt
+>> update 60066_NPD_ruby_utf8_doke_gyokuza.txt
+>> https://www.aozora.gr.jp/cards/002043/card60066.html
+>> 道化玉座、A MUMMER'S THRONE、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31932/402 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Dec 19 09:08:30 JST 2020
+End  : Sat Dec 19 09:08:41 JST 2020
