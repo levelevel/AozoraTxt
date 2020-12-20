@@ -676,3 +676,61 @@ Title Total : 31932/402 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Dec 19 09:08:30 JST 2020
 End  : Sat Dec 19 09:08:41 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Dec 21 07:06:44 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   00fcf5d8a5..f975b33c69  master     -> origin/master
+Updating 00fcf5d8a5..f975b33c69
+Fast-forward
+ cards/000326/card59495.html                   |   2 +-
+ cards/001403/card59644.html                   | 229 +++++++++++++++++++++++
+ cards/001403/card59656.html                   | 234 ++++++++++++++++++++++++
+ cards/001403/files/59644_72321.html           | 152 ++++++++++++++++
+ cards/001403/files/59644_txt_72273.zip        | Bin 0 -> 5226 bytes
+ cards/001403/files/59656_72320.html           |  68 +++++++
+ cards/001403/files/59656_ruby_72272.zip       | Bin 0 -> 2767 bytes
+ cards/001475/card52987.html                   | 234 ++++++++++++++++++++++++
+ cards/001475/card53161.html                   | 229 +++++++++++++++++++++++
+ cards/001475/files/52987_72319.html           | 124 +++++++++++++
+ cards/001475/files/52987_ruby_72271.zip       | Bin 0 -> 6496 bytes
+ cards/001475/files/53161_72318.html           | 181 +++++++++++++++++++
+ cards/001475/files/53161_ruby_72270.zip       | Bin 0 -> 9898 bytes
+ 108 files changed, 4297 insertions(+), 2857 deletions(-)
+Date: Mon Dec 21 07:06:50 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 19 09:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5226 Dec 21 07:06 ./aozorabunko/cards/001403/files/59644_txt_72273.zip
+1/4: ./aozorabunko/cards/001403/files/59644_txt_72273.zip
+>> add 59644_txt_kyogen_shoku_doraku.txt
+>> add 59644_txt_utf8_kyogen_shoku_doraku.txt
+>> https://www.aozora.gr.jp/cards/001403/card59644.html
+>> 狂言『食道楽』、北大路魯山人、
+-rwxrwxrwx 1 level level 2767 Dec 21 07:06 ./aozorabunko/cards/001403/files/59656_ruby_72272.zip
+2/4: ./aozorabunko/cards/001403/files/59656_ruby_72272.zip
+>> add 59656_ruby_furo_chojuno_hiketsu.txt
+>> add 59656_ruby_utf8_furo_chojuno_hiketsu.txt
+>> https://www.aozora.gr.jp/cards/001403/card59656.html
+>> 不老長寿の秘訣、北大路魯山人、
+-rwxrwxrwx 1 level level 6496 Dec 21 07:06 ./aozorabunko/cards/001475/files/52987_ruby_72271.zip
+3/4: ./aozorabunko/cards/001475/files/52987_ruby_72271.zip
+>> add 52987_ruby_mittsuno_kagi.txt
+>> add 52987_ruby_utf8_mittsuno_kagi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52987.html
+>> 三つのかぎ、小川未明、
+-rwxrwxrwx 1 level level 9898 Dec 21 07:06 ./aozorabunko/cards/001475/files/53161_ruby_72270.zip
+4/4: ./aozorabunko/cards/001475/files/53161_ruby_72270.zip
+>> add 53161_ruby_fushigina_tori.txt
+>> add 53161_ruby_utf8_fushigina_tori.txt
+>> https://www.aozora.gr.jp/cards/001475/card53161.html
+>> 不思議な鳥、小川未明、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31940/402 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Dec 21 07:06:44 JST 2020
+End  : Mon Dec 21 07:06:55 JST 2020
