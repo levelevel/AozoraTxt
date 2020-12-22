@@ -767,3 +767,34 @@ Title Total : 31942/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 22 07:17:32 JST 2020
 End  : Tue Dec 22 07:17:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 23 07:15:26 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4c2638592e..0475c8ac08  master     -> origin/master
+Updating 4c2638592e..0475c8ac08
+Fast-forward
+ cards/000023/card55397.html                   | 234 ++++++++++++++++++++++++++
+ cards/000023/files/55397_72323.html           | 233 +++++++++++++++++++++++++
+ cards/000023/files/55397_ruby_72275.zip       | Bin 0 -> 9988 bytes
+ cards/001224/card46114.html                   |   2 +-
+ 60 files changed, 1989 insertions(+), 1483 deletions(-)
+Date: Wed Dec 23 07:15:31 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 22 07:17 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9988 Dec 23 07:15 ./aozorabunko/cards/000023/files/55397_ruby_72275.zip
+1/1: ./aozorabunko/cards/000023/files/55397_ruby_72275.zip
+>> add 55397_ruby_samayoeru.txt
+>> add 55397_ruby_utf8_samayoeru.txt
+>> https://www.aozora.gr.jp/cards/000023/card55397.html
+>> 彷徨へる、徳田秋聲、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31944/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 23 07:15:26 JST 2020
+End  : Wed Dec 23 07:15:35 JST 2020
