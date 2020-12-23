@@ -798,3 +798,44 @@ Title Total : 31944/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Dec 23 07:15:26 JST 2020
 End  : Wed Dec 23 07:15:35 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec 24 07:35:22 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0475c8ac08..0efd27bbb3  master     -> origin/master
+Updating 0475c8ac08..0efd27bbb3
+Fast-forward
+ cards/000023/card55397.html                   |   2 +-
+ cards/001224/card46114.html                   |   2 +-
+ cards/001341/card56410.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/card56411.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/files/56410_72325.html           | 131 ++++++++++++++
+ cards/001341/files/56410_ruby_72277.zip       | Bin 0 -> 8473 bytes
+ cards/001341/files/56411_72324.html           |  92 ++++++++++
+ cards/001341/files/56411_ruby_72276.zip       | Bin 0 -> 8002 bytes
+ 77 files changed, 2564 insertions(+), 1576 deletions(-)
+Date: Thu Dec 24 07:35:27 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 24 07:34 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 8473 Dec 24 07:35 ./aozorabunko/cards/001341/files/56410_ruby_72277.zip
+1/2: ./aozorabunko/cards/001341/files/56410_ruby_72277.zip
+>> add 56410_ruby_kunsho.txt
+>> add 56410_ruby_utf8_kunsho.txt
+>> https://www.aozora.gr.jp/cards/001341/card56410.html
+>> 勲章、永井荷風、
+-rwxrwxrwx 1 level level 8002 Dec 24 07:35 ./aozorabunko/cards/001341/files/56411_ruby_72276.zip
+2/2: ./aozorabunko/cards/001341/files/56411_ruby_72276.zip
+>> add 56411_ruby_fuyuno_yogatari.txt
+>> add 56411_ruby_utf8_fuyuno_yogatari.txt
+>> https://www.aozora.gr.jp/cards/001341/card56411.html
+>> 冬の夜がたり、永井荷風、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31948/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec 24 07:35:22 JST 2020
+End  : Thu Dec 24 07:35:29 JST 2020
