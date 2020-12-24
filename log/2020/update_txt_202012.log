@@ -839,3 +839,44 @@ Title Total : 31948/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 24 07:35:22 JST 2020
 End  : Thu Dec 24 07:35:29 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec 25 07:07:41 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0efd27bbb3..3d68078dcf  master     -> origin/master
+Updating 0efd27bbb3..3d68078dcf
+Fast-forward
+ cards/000019/card59261.html                   | 238 +++++++++++++++++
+ cards/000019/card59411.html                   | 238 +++++++++++++++++
+ cards/000019/files/59261_72327.html           | 366 ++++++++++++++++++++++++++
+ cards/000019/files/59261_ruby_72279.zip       | Bin 0 -> 30651 bytes
+ cards/000019/files/59411_72326.html           | 248 +++++++++++++++++
+ cards/000019/files/59411_ruby_72278.zip       | Bin 0 -> 19429 bytes
+ cards/001341/card56410.html                   |   2 +-
+ cards/001341/card56411.html                   |   2 +-
+ 103 files changed, 2834 insertions(+), 1768 deletions(-)
+Date: Fri Dec 25 07:07:46 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 24 07:35 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 30651 Dec 25 07:07 ./aozorabunko/cards/000019/files/59261_ruby_72279.zip
+1/2: ./aozorabunko/cards/000019/files/59261_ruby_72279.zip
+>> add 59261_ruby_yukino_joo.txt
+>> add 59261_ruby_utf8_yukino_joo.txt
+>> https://www.aozora.gr.jp/cards/000019/card59261.html
+>> 雪の女王、――七つのお話からできている物語――、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+-rwxrwxrwx 1 level level 19429 Dec 25 07:07 ./aozorabunko/cards/000019/files/59411_ruby_72278.zip
+2/2: ./aozorabunko/cards/000019/files/59411_ruby_72278.zip
+>> add 59411_ruby_tabino_nakama.txt
+>> add 59411_ruby_utf8_tabino_nakama.txt
+>> https://www.aozora.gr.jp/cards/000019/card59411.html
+>> 旅の仲間、ハンス・クリスチャン・アンデルセン　Hans Christian Andersen、矢崎源九郎訳、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31952/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec 25 07:07:41 JST 2020
+End  : Fri Dec 25 07:07:49 JST 2020
