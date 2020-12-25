@@ -880,3 +880,53 @@ Title Total : 31952/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec 25 07:07:41 JST 2020
 End  : Fri Dec 25 07:07:49 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec 26 08:03:02 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3d68078dcf..2c6430c616  master     -> origin/master
+Updating 3d68078dcf..2c6430c616
+Fast-forward
+ cards/000019/card59261.html                   |   2 +-
+ cards/000019/card59411.html                   |   2 +-
+ cards/000083/card59353.html                   | 229 ++++++++++++++++++++++++
+ cards/000083/card60419.html                   | 229 ++++++++++++++++++++++++
+ cards/000083/files/59353_72330.html           |  68 +++++++
+ cards/000083/files/59353_ruby_72282.zip       | Bin 0 -> 1576 bytes
+ cards/000083/files/60419_72329.html           |  63 +++++++
+ cards/000083/files/60419_txt_72281.zip        | Bin 0 -> 1577 bytes
+ cards/000214/card48790.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48790_72328.html           |  59 +++++++
+ cards/000214/files/48790_txt_72280.zip        | Bin 0 -> 1142 bytes
+ 95 files changed, 4100 insertions(+), 3210 deletions(-)
+Date: Sat Dec 26 08:03:07 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 25 07:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 1576 Dec 26 08:03 ./aozorabunko/cards/000083/files/59353_ruby_72282.zip
+1/3: ./aozorabunko/cards/000083/files/59353_ruby_72282.zip
+>> add 59353_ruby_tzschallappoko.txt
+>> add 59353_ruby_utf8_tzschallappoko.txt
+>> https://www.aozora.gr.jp/cards/000083/card59353.html
+>> TZSCHALLAPPOKO、菊池寛、
+-rwxrwxrwx 1 level level 1577 Dec 26 08:03 ./aozorabunko/cards/000083/files/60419_txt_72281.zip
+2/3: ./aozorabunko/cards/000083/files/60419_txt_72281.zip
+>> add 60419_txt_daidoji_shinsukeno_hansei_batsu.txt
+>> add 60419_txt_utf8_daidoji_shinsukeno_hansei_batsu.txt
+>> https://www.aozora.gr.jp/cards/000083/card60419.html
+>> 「大導寺信輔の半生」跋、菊池寛、
+-rwxrwxrwx 1 level level 1142 Dec 26 08:03 ./aozorabunko/cards/000214/files/48790_txt_72280.zip
+3/3: ./aozorabunko/cards/000214/files/48790_txt_72280.zip
+>> add 48790_txt_bazanno_shosetsu.txt
+>> add 48790_txt_utf8_bazanno_shosetsu.txt
+>> https://www.aozora.gr.jp/cards/000214/card48790.html
+>> バザンの小説、田山録弥、
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31958/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec 26 08:03:02 JST 2020
+End  : Sat Dec 26 08:03:14 JST 2020
