@@ -31,12 +31,14 @@ ${TODAY}時点での青空文庫テキストファイル一式
 - `basename $ZIP_UTF8` : 青空文庫全文書UTF8版
 EOF
 
+echo "# 作家リスト、作品リスト作成中"
 make_csv.sh
 cp $NAME_LIST $TITLE_LIST $PERSON_TO_UTF8
 $UTF82SJIS $NAME_LIST  > $PERSON_TO/${NAME_LIST##*/}
 $UTF82SJIS $TITLE_LIST | sed "s/_utf8//" > $PERSON_TO/${TITLE_LIST##*/}
 unix2dos $PERSON_TO/*.csv 2> /dev/null
 
+echo "# zipファイル作成中"
 MakeZip $PERSON_TO      $ZIP_SJIS
 MakeZip $PERSON_TO_UTF8 $ZIP_UTF8
 

@@ -13,6 +13,7 @@ person_from=$BIN/../person_utf8
 
 echo "作家ID,作家名" > $NAME_LIST
 echo "ファイル名,作品名,作家名,訳者名" > $TITLE_LIST
+tmp=$TITLE_LIST.tmp
 old_person=0
 while read txt
 do
@@ -30,8 +31,18 @@ do
         #name=${name%%<*}
         echo $person,$name >> $NAME_LIST
     fi
-    title=`head -1 "$txt"`
-    trans=`head -4 "$txt" | grep "訳$"`
+    mapfile -t array < <(sed -n 1,/^$/p "$txt")
+    #echo ${array[@]}
+    title=${array[0]}
+    trans=""
+    case ${#array[@]} in
+    3)  author=${array[1]} ;;
+    4)  case ${array[2]} in
+        *訳) author=${array[1]}; trans=${array[2]} ;;
+        *)   title="$title ${array[1]}"; author=${array[2]} ;;
+        esac ;;
+    5)  title="$title ${array[1]}"; author=${array[2]}; trans=${array[3]} ;;
+    esac
     file=${txt##*person_utf8/}
     echo $file,$title,$name,$trans >> $TITLE_LIST
 done < <( find $person_from -name "*.txt" )
