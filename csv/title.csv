@@ -85,6 +85,7 @@
 000019/58874_ruby_utf8_sora_tobu_toranku.txt,空とぶトランク,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/58875_ruby_utf8_minikui_ahiruno_ko.txt,みにくいアヒルの子,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/58882_ruby_utf8_momino_ki.txt,モミの木,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
+000019/59261_ruby_utf8_yukino_joo.txt,雪の女王,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59321_ruby_utf8_itazurakko.txt,いたずらっ子,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59322_ruby_utf8_toshi_totta_kashiwano_kino_saigono_yume.txt,年とったカシワの木のさいごの夢,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59323_ruby_utf8_konotori.txt,コウノトリ,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
@@ -95,6 +96,7 @@
 000019/59374_ruby_utf8_kakekko.txt,かけっこ,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59375_ruby_utf8_tobi_kurabe.txt,とびくらべ,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59376_ruby_utf8_collar.txt,カラー,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
+000019/59411_ruby_utf8_tabino_nakama.txt,旅の仲間,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/59998_ruby_utf8_idachanno_ohana.txt,イーダちゃんのお花,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/60068_ruby_utf8_ningyo_tsukai.txt,人形つかい,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000020/195_ruby_utf8_kawaisona_ane.txt,可哀相な姉,渡辺 温,
@@ -158,6 +160,7 @@
 000023/55384_ruby_utf8_futatsuno_shippai.txt,二つの失敗,徳田 秋声,
 000023/55385_ruby_utf8_roku.txt,老苦,徳田 秋声,
 000023/55390_ruby_utf8_bashoto_shida.txt,芭蕉と歯朶,徳田 秋声,
+000023/55397_ruby_utf8_samayoeru.txt,彷徨へる,徳田 秋声,
 000023/55402_ruby_utf8_shitsu.txt,歯痛,徳田 秋声,
 000023/59352_ruby_utf8_naki_kyokakun'o_kataru.txt,亡鏡花君を語る,徳田 秋声,
 000023/948_ruby_utf8_zetsubo.txt,絶望,徳田 秋声,
@@ -2536,7 +2539,9 @@
 000083/505_ruby_utf8_zeral_chui.txt,ゼラール中尉,菊池 寛,
 000083/55989_ruby_utf8_sehyo.txt,世評（一幕二場）,菊池 寛,
 000083/59173_ruby_utf8_umino_nakanite.txt,海の中にて,菊池 寛,
+000083/59353_ruby_utf8_tzschallappoko.txt,TZSCHALLAPPOKO,菊池 寛,
 000083/59384_ruby_utf8_sannin_kyodai.txt,三人兄弟,菊池 寛,
+000083/60419_txt_utf8_daidoji_shinsukeno_hansei_batsu.txt,「大導寺信輔の半生」跋,菊池 寛,
 000087/515_ruby_utf8_kokuminseito_bungaku.txt,国民性と文学,綱島 梁川,
 000087/902_ruby_utf8_yoga_kenshinno_jikken.txt,予が見神の実験,綱島 梁川,
 000089/517_txt_utf8_koni_atau.txt,子に与ふ,北 一輝,
@@ -2979,6 +2984,7 @@
 000119/56242_ruby_utf8_takono_kino_shitade.txt,章魚木の下で,中島 敦,
 000119/56243_ruby_utf8_yofunroku.txt,妖氛録,中島 敦,
 000119/56244_ruby_utf8_setonaoji.txt,セトナ皇子（仮題）,中島 敦,
+000119/56247_ruby_utf8_kitsune_tsuki.txt,狐憑,中島 敦,
 000119/58014_ruby_utf8_junen.txt,十年,中島 敦,
 000119/58575_ruby_utf8_puruno_katawarade.txt,プウルの傍で,中島 敦,
 000119/617_ruby_utf8_gojotanni.txt,悟浄歎異,中島 敦,
@@ -4843,6 +4849,7 @@
 000214/48743_txt_utf8_homeishino_tandeki.txt,泡鳴氏の『耽溺』,田山 花袋,
 000214/48745_txt_utf8_honno.txt,本能,田山 花袋,
 000214/48757_txt_utf8_yokuboto_riso.txt,欲望と理想,田山 花袋,
+000214/48790_txt_utf8_bazanno_shosetsu.txt,バザンの小説,田山 花袋,
 000214/48804_ruby_utf8_j_k_huys_mans_no_shosetsu.txt,J. K. Huys Mans の小説,田山 花袋,
 000214/48809_ruby_utf8_akai_torii.txt,赤い鳥居,田山 花袋,
 000214/48811_ruby_utf8_asajinuma.txt,あさぢ沼,田山 花袋,
@@ -4867,12 +4874,14 @@
 000214/48873_ruby_utf8_sankanno_ryosha.txt,山間の旅舎,田山 花袋,
 000214/48874_ruby_utf8_sangatsuno_sosaku.txt,三月の創作,田山 花袋,
 000214/48880_ruby_utf8_shimakarano_kito.txt,島からの帰途,田山 花袋,
+000214/48882_ruby_utf8_shimano_uta.txt,島の唄,田山 花袋,
 000214/48883_ruby_utf8_shakaigekito_inshoha.txt,社会劇と印象派,田山 花袋,
 000214/48884_ruby_utf8_shakaito_jiko.txt,社会と自己,田山 花袋,
 000214/48887_ruby_utf8_shosetsu_shinron.txt,小説新論,田山 花袋,
 000214/48892_ruby_utf8_hatsufuyuno_kiji.txt,初冬の記事,田山 花袋,
 000214/48894_ruby_utf8_shinkenno_tsuyomi.txt,真剣の強味,田山 花袋,
 000214/48898_ruby_utf8_shinrino_judanto_odan.txt,心理の縦断と横断,田山 花袋,
+000214/48900_ruby_utf8_jitano_yugo.txt,自他の融合,田山 花袋,
 000214/48906_ruby_utf8_sumakono_shi.txt,須磨子の死,田山 花袋,
 000214/48907_ruby_utf8_seimetsuno_shinri.txt,生滅の心理,田山 花袋,
 000214/48917_txt_utf8_sekkutsu.txt,石窟,田山 花袋,
@@ -4908,6 +4917,7 @@
 000214/49089_ruby_utf8_harusameni_nureta_tabi.txt,春雨にぬれた旅,田山 花袋,
 000214/49092_ruby_utf8_pekinno_ichiya.txt,北京の一夜,田山 花袋,
 000214/49093_ruby_utf8_machi.txt,町,田山 花袋,
+000214/49099_ruby_utf8_yamano_hoteru.txt,山のホテル,田山 花袋,
 000214/4987_ruby_utf8_yabakeino_ichiya.txt,耶馬渓の一夜,田山 花袋,
 000214/50207_ruby_utf8_chichino_haka.txt,父の墓,田山 花袋,
 000214/51378_ruby_utf8_kusamichi_jo.txt,草みち,田山 花袋,
@@ -6099,6 +6109,7 @@
 000296/49832_ruby_utf8_onjimuno_gini_tsuki_moshiagesoro.txt,御時務の儀に付申上候書付,福沢 諭吉,
 000296/50266_ruby_utf8_kihinno_sengen_chitokuno_mohan.txt,〔気品の泉源、智徳の模範〕,福沢 諭吉,
 000296/50268_ruby_utf8_ko_shainno_hitokoto_imanao_seishin.txt,故社員の一言今尚精神,福沢 諭吉,
+000296/50269_ruby_utf8_rangaku_kotohajime_saihanno_jo.txt,蘭学事始再版之序,福沢 諭吉,
 000296/50273_ruby_utf8_seijito_kyoikuto_bunri.txt,政事と教育と分離すべし,福沢 諭吉,
 000296/50297_ruby_utf8_jinseino_rakuji.txt,人生の楽事,福沢 諭吉,
 000296/50298_ruby_utf8_jinseino_rakuji.txt,人生の樂事,福沢 諭吉,
@@ -7462,6 +7473,7 @@
 000326/59492_ruby_utf8_jiseki.txt,自責,ルヴェル モーリス,田中早苗訳
 000326/59493_ruby_utf8_juji_gojippunno_kyuko.txt,十時五十分の急行,ルヴェル モーリス,田中早苗訳
 000326/59494_ruby_utf8_fumitaba.txt,ふみたば,ルヴェル モーリス,田中早苗訳
+000326/59495_ruby_utf8_hekigan.txt,碧眼,ルヴェル モーリス,田中早苗訳
 000326/59497_ruby_utf8_perugorezugaino_satsujin_jiken.txt,ペルゴレーズ街の殺人事件,ルヴェル モーリス,田中早苗訳
 000329/18334_ruby_utf8_sarukani_kassen.txt,猿かに合戦,楠山 正雄,
 000329/18335_ruby_utf8_nezumino_yomeiri.txt,ねずみの嫁入り,楠山 正雄,
@@ -9927,12 +9939,16 @@
 001091/59634_ruby_utf8_3ninno_itokuri_onna.txt,三人の糸くり女,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59635_ruby_utf8_12nin_kyodai.txt,十二人兄弟,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59636_ruby_utf8_narazumono.txt,ならずもの,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
+001091/59639_ruby_utf8_morino_nakano_3ninnno_kobito.txt,森のなかの三人の小人,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
+001091/59640_ruby_utf8_rapunzel.txt,ラプンツェル,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59742_ruby_utf8_isamashii_chibino_shitateyasan.txt,いさましい　ちびの仕立屋さん,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59743_ruby_utf8_3maino_hebino_ha.txt,三枚のヘビの葉,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59744_ruby_utf8_shiro_hebi.txt,白ヘビ,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59746_ruby_utf8_ryoshito_sono_okamisanno_hanashi.txt,漁師とそのおかみさんの話,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59747_ruby_utf8_warato_sumito_mame.txt,わらと炭と豆,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
 001091/59848_ruby_utf8_hore_obasan.txt,ホレおばあさん,グリム ヤーコプ・ルートヴィッヒ・カール,矢崎源九郎訳
+001091/60030_ruby_utf8_shinigamino_nazuke_oya_daiichiwa.txt,死神の名づけ親（第一話）,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
+001091/60031_ruby_utf8_shinigamino_nazuke_oya_dainiwa.txt,死神の名づけ親（第二話）,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
 001091/60125_ruby_utf8_kitsuneto_neko.txt,狐と猫,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
 001093/42590_ruby_utf8_03_akebono.txt,ジャン・クリストフ,ロラン ロマン,
 001093/42591_ruby_utf8_04_asa.txt,ジャン・クリストフ,ロラン ロマン,
@@ -11585,6 +11601,7 @@
 001224/46090_ruby_utf8_kohan.txt,湖畔,久生 十蘭,
 001224/46091_ruby_utf8_hidoi_kemuri.txt,ひどい煙,久生 十蘭,
 001224/46094_ruby_utf8_haruno_yama.txt,春の山,久生 十蘭,
+001224/46095_ruby_utf8_kawanami.txt,川波,久生 十蘭,
 001224/46096_ruby_utf8_ichinokurasawa.txt,一の倉沢,久生 十蘭,
 001224/46097_ruby_utf8_nijino_hashi.txt,虹の橋,久生 十蘭,
 001224/46102_ruby_utf8_tokurono_shima.txt,藤九郎の島,久生 十蘭,
@@ -11597,6 +11614,7 @@
 001224/46110_ruby_utf8_rinrakuno_kojono_oboegaki.txt,淪落の皇女の覚書,久生 十蘭,
 001224/46112_ruby_utf8_nankyokuki.txt,南極記,久生 十蘭,
 001224/46113_ruby_utf8_utakatano_ki.txt,泡沫の記,久生 十蘭,
+001224/46114_ruby_utf8_kainanki.txt,海難記,久生 十蘭,
 001224/46115_ruby_utf8_aohige_283ninno_tsuma.txt,青髯二百八十三人の妻,久生 十蘭,
 001224/46116_ruby_utf8_akuno_hanataba.txt,悪の花束,久生 十蘭,
 001224/46117_ruby_utf8_01sutekubo.txt,顎十郎捕物帳,久生 十蘭,
@@ -12204,8 +12222,11 @@
 001341/54938_txt_utf8_05danchoteinikki_makinoyon.txt,断腸亭日乗,永井 荷風,
 001341/55302_txt_utf8_06danchoteinikki_makino_go.txt,断腸亭日乗,永井 荷風,
 001341/55951_ruby_utf8_junen_buri.txt,十年振,永井 荷風,
+001341/56168_ruby_utf8_azumabashi.txt,吾妻橋,永井 荷風,
 001341/56225_ruby_utf8_raihosha.txt,来訪者,永井 荷風,
 001341/56409_ruby_utf8_karehano_ki.txt,枯葉の記,永井 荷風,
+001341/56410_ruby_utf8_kunsho.txt,勲章,永井 荷風,
+001341/56411_ruby_utf8_fuyuno_yogatari.txt,冬の夜がたり,永井 荷風,
 001341/58072_ruby_utf8_enoki_monogatari.txt,榎物語,永井 荷風,
 001341/58073_ruby_utf8_kangokushono_ura.txt,監獄署の裏,永井 荷風,
 001341/58074_ruby_utf8_chiru_yanagi_madono_yubae.txt,散柳窓夕栄,永井 荷風,
@@ -12223,6 +12244,8 @@
 001341/58693_ruby_utf8_furansujinno_mitaru_ogai_sensei.txt,佛蘭西人の觀たる鴎外先生,永井 荷風,
 001341/59487_ruby_utf8_henkikan_ginso.txt,偏奇館吟草,永井 荷風,
 001341/59688_ruby_utf8_jisen_kafu_hyakku.txt,自選　荷風百句,永井 荷風,
+001341/59890_ruby_utf8_fuyubino_mado.txt,冬日の窓,永井 荷風,
+001341/59937_ruby_utf8_sato.txt,砂糖,永井 荷風,
 001341/59939_ruby_utf8_hanabi.txt,花火,永井 荷風,
 001344/49259_ruby_utf8_bushio_ebisutoiu.txt,武士を夷ということの考,喜田 貞吉,
 001344/49760_ruby_utf8_oshuniokeru_mitachi_fujiwarashi.txt,奥州における御館藤原氏,喜田 貞吉,
@@ -12746,10 +12769,12 @@
 001403/59641_ruby_utf8_usukuchi_shoyu .txt,薄口醤油,北大路 魯山人,
 001403/59642_ruby_utf8_kagaku_chomiryo.txt,化学調味料,北大路 魯山人,
 001403/59643_txt_utf8_kachiku_shokuni_amanzuru_okuno_hitobito.txt,家畜食に甘んずる多くの人々,北大路 魯山人,
+001403/59644_txt_utf8_kyogen_shoku_doraku.txt,狂言『食道楽』,北大路 魯山人,
 001403/59645_ruby_utf8_sansho.txt,山椒,北大路 魯山人,
 001403/59653_ruby_utf8_shunka_shuto_ryori_okoku_joni_kaete.txt,「春夏秋冬　料理王国」序にかえて,北大路 魯山人,
 001403/59654_ruby_utf8_umino_aoto_sorano_ao.txt,海の青と空の青,北大路 魯山人,
 001403/59655_ruby_utf8_fuguno_koto.txt,河豚のこと,北大路 魯山人,
+001403/59656_ruby_utf8_furo_chojuno_hiketsu.txt,不老長寿の秘訣,北大路 魯山人,
 001404/49966_ruby_utf8_chibetto_ryokoki.txt,チベット旅行記,河口 慧海,
 001407/50112_ruby_utf8_elizabeth_to_essex.txt,エリザベスとエセックス,ストレイチー リットン,片岡鉄兵訳
 001408/50161_ruby_utf8_takeshima_zasshi.txt,他計甚麽（竹島）雜誌,松浦 武四郎,
@@ -13434,6 +13459,7 @@
 001475/52983_ruby_utf8_hanato_shojo.txt,花と少女,小川 未明,
 001475/52984_ruby_utf8_fusendamano_hanashi.txt,風船球の話,小川 未明,
 001475/52986_ruby_utf8_fushoshita_senroto_tsuki.txt,負傷した線路と月,小川 未明,
+001475/52987_ruby_utf8_mittsuno_kagi.txt,三つのかぎ,小川 未明,
 001475/52989_ruby_utf8_yamae_kaeriyuku_chichi.txt,山へ帰りゆく父,小川 未明,
 001475/52990_ruby_utf8_aruotokoto_ichijiku.txt,ある男と無花果,小川 未明,
 001475/52991_ruby_utf8_dowani_taisuru_shoken.txt,童話に対する所見,小川 未明,
@@ -13465,9 +13491,11 @@
 001475/53153_ruby_utf8_so.txt,僧,小川 未明,
 001475/53154_ruby_utf8_chigogafuchi.txt,稚子ヶ淵,小川 未明,
 001475/53155_ruby_utf8_ten.txt,点,小川 未明,
+001475/53157_ruby_utf8_torawarebito.txt,捕われ人,小川 未明,
 001475/53158_ruby_utf8_nichibotsuno_gen'ei.txt,日没の幻影,小川 未明,
 001475/53159_ruby_utf8_nukegami.txt,抜髪,小川 未明,
 001475/53160_ruby_utf8_barato_miko.txt,薔薇と巫女,小川 未明,
+001475/53161_ruby_utf8_fushigina_tori.txt,不思議な鳥,小川 未明,
 001475/53162_ruby_utf8_mayoimichi.txt,迷い路,小川 未明,
 001475/53164_ruby_utf8_morino_yoki.txt,森の妖姫,小川 未明,
 001475/53166_ruby_utf8_yurino_hana.txt,百合の花,小川 未明,
@@ -13503,6 +13531,7 @@
 001475/54187_ruby_utf8_kyodaino_yamabato.txt,兄弟のやまばと,小川 未明,
 001475/54188_ruby_utf8_nezumito_baketsuno_hanashi.txt,ねずみとバケツの話,小川 未明,
 001475/54192_ruby_utf8_umikara_kita_tsukai.txt,海からきた使い,小川 未明,
+001475/54214_ruby_utf8_nibanmeno_musume.txt,二番めの娘,小川 未明,
 001475/54372_ruby_utf8_akai_rosokuto_ningyo_chikuma.txt,赤い蝋燭と人魚,小川 未明,
 001475/54404_ruby_utf8_tsukiyoto_megane.txt,月夜とめがね,小川 未明,
 001475/54408_ruby_utf8_kinno_wa.txt,金の輪,小川 未明,
@@ -13551,6 +13580,7 @@
 001499/52185_txt_utf8_shogino_hanashi.txt,将棋の話,外村 繁,
 001500/51286_ruby_utf8_botandoro_02jyo.txt,怪談牡丹灯籠,総生 寛,
 001501/51287_ruby_utf8_botandoro_03jyoshi.txt,怪談牡丹灯籠,若林 玵蔵,
+001510/51406_ruby_utf8_kyoikudan.txt,教育談,箕作 秋坪,
 001511/51407_ruby_utf8_hirimoa_bankokukohono_uchi.txt,「ヒリモア」万国公法の内宗教を論ずる章（撮要）,フィリモア ロバート,柴田昌吉訳
 001513/51425_ruby_utf8_meiji_seso_hyakuwa.txt,明治世相百話,山本 笑月,
 001516/51451_ruby_utf8_hitotsuno_michi.txt,ひとつの道,草野 天平,
@@ -13960,6 +13990,7 @@
 001569/57286_ruby_utf8_kodai_toyoeno_kyoshu.txt,古代東洋への郷愁,中谷 宇吉郎,
 001569/57288_ruby_utf8_nagaokato_terada.txt,長岡と寺田,中谷 宇吉郎,
 001569/57289_ruby_utf8_hakkaini_atta_hanashi.txt,八戒に遭った話,中谷 宇吉郎,
+001569/57290_ruby_utf8_horobiyuku_kokudo.txt,亡び行く国土,中谷 宇吉郎,
 001569/57291_ruby_utf8_makino_nobuaki_hakuno_omoide.txt,牧野伸顕伯の思い出,中谷 宇吉郎,
 001569/57292_ruby_utf8_yukawa_hidekisanno_koto.txt,湯川秀樹さんのこと,中谷 宇吉郎,
 001569/57293_ruby_utf8_rohansenseito_shinsendo.txt,露伴先生と神仙道,中谷 宇吉郎,
@@ -14008,7 +14039,9 @@
 001569/57870_ruby_utf8_nezumino_toji.txt,鼠の湯治,中谷 宇吉郎,
 001569/57871_ruby_utf8_minzokuteki_kiokuno_nagori.txt,民族的記憶の名残,中谷 宇吉郎,
 001569/57872_ruby_utf8_muroaji.txt,室鰺,中谷 宇吉郎,
+001569/57873_txt_utf8_yuki_kyogikaino_hokoku.txt,雪協議会の報告,中谷 宇吉郎,
 001569/57874_ruby_utf8_manatsuno_nihonkai.txt,真夏の日本海,中谷 宇吉郎,
+001569/59187_ruby_utf8_ameo_furasu_hanashi.txt,雨を降らす話,中谷 宇吉郎,
 001569/59188_ruby_utf8_ineno_ichinichi.txt,稲の一日,中谷 宇吉郎,
 001569/59189_txt_utf8_enpitsuno_shin.txt,鉛筆のしん,中谷 宇吉郎,
 001569/59192_ruby_utf8_kogisuru_gimu.txt,抗議する義務,中谷 宇吉郎,
@@ -14032,6 +14065,7 @@
 001569/59210_ruby_utf8_america_daneno_rakugo.txt,アメリカ種の落語,中谷 宇吉郎,
 001569/59211_ruby_utf8_erisefushi.txt,エリセーフ氏,中谷 宇吉郎,
 001569/59212_ruby_utf8_jisutoma_taijino_hanashi.txt,ジストマ退治の話,中谷 宇吉郎,
+001569/59573_txt_utf8_itamino_koyo.txt,痛みの効用,中谷 宇吉郎,
 001569/59578_ruby_utf8_kakkono_otozure.txt,郭公のおとずれ,中谷 宇吉郎,
 001569/59584_ruby_utf8_kokuboto_kagaku.txt,国防と科学,中谷 宇吉郎,
 001569/59585_ruby_utf8_kokoroe_kyoiku.txt,心得教育,中谷 宇吉郎,
@@ -15003,6 +15037,7 @@
 001670/56339_ruby_utf8_115nikaino_musume.txt,銭形平次捕物控,野村 胡堂,
 001670/56340_ruby_utf8_117yukino_yoru.txt,銭形平次捕物控,野村 胡堂,
 001670/56341_ruby_utf8_119hakushino_kyofu.txt,銭形平次捕物控,野村 胡堂,
+001670/56342_ruby_utf8_121tsuchieno_aichaku.txt,銭形平次捕物控,野村 胡堂,
 001670/56343_ruby_utf8_105shiokibano_hanayome.txt,銭形平次捕物控,野村 胡堂,
 001670/56344_ruby_utf8_106futokoro_kagami.txt,銭形平次捕物控,野村 胡堂,
 001670/56345_ruby_utf8_107umekichi_goroshi.txt,銭形平次捕物控,野村 胡堂,
@@ -15016,6 +15051,7 @@
 001670/56353_ruby_utf8_112kitsuneno_yomeiri.txt,銭形平次捕物控,野村 胡堂,
 001670/56354_ruby_utf8_114ishono_tsumi.txt,銭形平次捕物控,野村 胡堂,
 001670/56355_ruby_utf8_118fukiyano_beni.txt,銭形平次捕物控,野村 胡堂,
+001670/56356_ruby_utf8_122oyurano_tsumi.txt,銭形平次捕物控,野村 胡堂,
 001670/56357_ruby_utf8_104ikibotoke.txt,銭形平次捕物控,野村 胡堂,
 001670/56358_ruby_utf8_108garappachi_tegarabanashi.txt,銭形平次捕物控,野村 胡堂,
 001670/56359_ruby_utf8_110jumanryono_yukue.txt,銭形平次捕物控,野村 胡堂,
@@ -15296,6 +15332,7 @@
 001749/53778_txt_utf8_soshanite.txt,草舍にて,三好 達治,
 001749/53779_txt_utf8_haruno_misaki_joshi.txt,『春の岬』序詩,三好 達治,
 001749/54112_ruby_utf8_yowa_sanagaran.txt,世はさながらに,三好 達治,
+001749/54113_ruby_utf8_umikara_noboru_taiyo.txt,海から昇る太陽,三好 達治,
 001749/54114_txt_utf8_katsute_waga_kanashimiwa.txt,かつてわが悲しみは,三好 達治,
 001749/54139_ruby_utf8_umiyo.txt,海よ,三好 達治,
 001749/54140_ruby_utf8_himawari.txt,日まはり,三好 達治,
@@ -15344,6 +15381,7 @@
 001749/59318_ruby_utf8_shirane_san.txt,白根山,三好 達治,
 001749/59319_ruby_utf8_kanrin_shosho.txt,寒林小唱,三好 達治,
 001749/59320_ruby_utf8_wagamichi_yukamu.txt,わが路ゆかむ,三好 達治,
+001750/55799_ruby_utf8_aien_kien.txt,合縁奇縁,佐々木 邦,
 001750/55800_ruby_utf8_asaokino_hitotatchi.txt,朝起の人達,佐々木 邦,
 001750/55801_ruby_utf8_aru_ryojinno_zanpai.txt,或良人の惨敗,佐々木 邦,
 001750/55803_ruby_utf8_itazura_kozo_nikki.txt,いたずら小僧日記,佐々木 邦,
@@ -15393,6 +15431,7 @@
 001761/55949_txt_utf8_kokoga_narayama.txt,ここが楢山,小津 安二郎,
 001761/55950_ruby_utf8_shachumo_mata_ureshi.txt,車中も亦愉し,小津 安二郎,
 001761/59480_txt_utf8_seikakuto_hyojo.txt,性格と表情,小津 安二郎,
+001761/60425_txt_utf8_eiga_kai_kogoto_kobe.txt,映画界・小言幸兵衛,小津 安二郎,
 001762/55961_ruby_utf8_rojinsan.txt,魯迅さん,内山 完造,
 001763/55985_ruby_utf8_okasan.txt,オカアサン,佐藤 春夫,
 001763/56565_ruby_utf8_01boshun_shishuni.txt,忘春詩集,佐藤 春夫,
@@ -15435,6 +15474,7 @@
 001763/59309_txt_utf8_ogon_kitan.txt,黄金綺譚,佐藤 春夫,
 001763/59311_txt_utf8_tanizaki_bungakuno_daihyosaku_sasameyuki.txt,谷崎文学の代表作「細雪」,佐藤 春夫,
 001763/59312_ruby_utf8_waga_kokorono_nakano_hakuchohi.txt,わが心のなかの白鳥碑,佐藤 春夫,
+001763/59395_ruby_utf8_kafusenseito_jojinno_shashin.txt,荷風先生と情人の写真,佐藤 春夫,
 001763/59396_txt_utf8_sakutarono_omoide.txt,朔太郎の思ひ出,佐藤 春夫,
 001763/59488_ruby_utf8_inagono_dairyoko.txt,蝗の大旅行,佐藤 春夫,
 001763/59941_txt_utf8_sunkan.txt,寸感,佐藤 春夫,
@@ -15602,6 +15642,7 @@
 001801/59449_txt_utf8_yokan.txt,予感,山川 方夫,
 001801/59532_ruby_utf8_natsuno_soretsu.txt,夏の葬列,山川 方夫,
 001801/59857_ruby_utf8_tonbono_shi.txt,トンボの死,山川 方夫,
+001801/59858_ruby_utf8_lonely_man.txt,ロンリー・マン,山川 方夫,
 001801/59948_ruby_utf8_hiruno_hanabi.txt,昼の花火,山川 方夫,
 001803/56764_ruby_utf8_suiboku.txt,水墨,小杉 放庵,
 001804/56765_ruby_utf8_takubokuto_dekarutomeidai.txt,啄木とデカルト命題,三枝 博音,
@@ -15703,6 +15744,7 @@
 001869/57649_ruby_utf8_nagaya_ten'ichibo.txt,長屋天一坊,山本 周五郎,
 001869/57650_ruby_utf8_suekko.txt,末っ子,山本 周五郎,
 001869/57657_ruby_utf8_chikushodani.txt,ちくしょう谷,山本 周五郎,
+001869/57661_ruby_utf8_chikuhakuki.txt,竹柏記,山本 周五郎,
 001869/57670_ruby_utf8_chiisakobe.txt,ちいさこべ,山本 周五郎,
 001869/57673_ruby_utf8_chigirikinu.txt,契りきぬ,山本 周五郎,
 001869/57679_ruby_utf8_tsubakuro.txt,つばくろ,山本 周五郎,
@@ -15713,6 +15755,7 @@
 001869/57723_ruby_utf8_byobuwa_tatamareta.txt,屏風はたたまれた,山本 周五郎,
 001869/57727_ruby_utf8_hito_goroshi.txt,ひとごろし,山本 周五郎,
 001869/57758_ruby_utf8_yanagibashi_monogatari.txt,柳橋物語,山本 周五郎,
+001869/57765_ruby_utf8_yumoyano_naka.txt,夕靄の中,山本 周五郎,
 001869/57770_ruby_utf8_yoakeno_tsuji.txt,夜明けの辻,山本 周五郎,
 001869/57784_ruby_utf8_yokina_kyaku.txt,陽気な客,山本 周五郎,
 001869/57785_ruby_utf8_mominokiwa_nokotta02.txt,樅ノ木は残った,山本 周五郎,
@@ -15871,6 +15914,7 @@
 001949/58687_txt_utf8_rojin_taijo_setsu.txt,老人退場説,山浦 貫一,
 001949/59135_txt_utf8_04shinkenpono_kaisetsu_kaisetsu.txt,新憲法の解説,山浦 貫一,
 001951/59047_ruby_utf8_himitsu_reihai_shiki.txt,秘密礼拜式,ブラックウッド アルジャーノン,森郁夫訳
+001953/18362_ruby_utf8_teishitsu_ron_shogen.txt,帝室論緒言,飯田 平作,
 001954/58704_ruby_utf8_aru_haimatsuno_dokuhaku.txt,ある偃松の独白,中村 清太郎,
 001954/58862_ruby_utf8_zansetsuno_genzo.txt,残雪の幻像,中村 清太郎,
 001954/59004_ruby_utf8_sangaku_jodo.txt,山岳浄土,中村 清太郎,
