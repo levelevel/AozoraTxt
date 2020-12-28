@@ -205,10 +205,13 @@ do
 	echo ">> https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html"
 	#タイトル、著者を表示する
 	echo -n ">> "
+	first=1
 	while read line
 	do
 		if [ "$line" == "" ]; then break; fi
-		echo -n "$line、"
+		if [ $first == 0 ]; then echo -n "、"; fi
+		echo -n "$line"
+		first=0
 	done < "$person_to_utf8/$target_file_utf8"
 	echo
 done < $TMP_ZIP_LST
