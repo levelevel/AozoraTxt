@@ -1048,3 +1048,35 @@ Title Total : 31962/402 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec 28 08:08:46 JST 2020
 End  : Mon Dec 28 08:08:53 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec 29 07:27:28 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   02620d5897..2da28b9598  master     -> origin/master
+Updating 02620d5897..2da28b9598
+Fast-forward
+ cards/001030/card47872.html                   |   2 +-
+ cards/001670/card56380.html                   |   2 +-
+ cards/001869/card57756.html                   | 229 ++++++++++++++
+ cards/001869/files/57756_72333.html           | 440 ++++++++++++++++++++++++++
+ cards/001869/files/57756_ruby_72285.zip       | Bin 0 -> 23486 bytes
+ 81 files changed, 2749 insertions(+), 2080 deletions(-)
+Date: Tue Dec 29 07:27:35 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 28 08:08 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 23486 Dec 29 07:27 ./aozorabunko/cards/001869/files/57756_ruby_72285.zip
+1/1: ./aozorabunko/cards/001869/files/57756_ruby_72285.zip
+>> add 57756_ruby_meoto_cho.txt
+>> add 57756_ruby_utf8_meoto_cho.txt
+>> https://www.aozora.gr.jp/cards/001869/card57756.html
+>> めおと蝶、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31964/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec 29 07:27:28 JST 2020
+End  : Tue Dec 29 07:27:39 JST 2020
