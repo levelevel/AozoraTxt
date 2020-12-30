@@ -1080,3 +1080,34 @@ Title Total : 31964/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 29 07:27:28 JST 2020
 End  : Tue Dec 29 07:27:39 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 30 09:08:03 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2da28b9598..60503f346c  master     -> origin/master
+Updating 2da28b9598..60503f346c
+Fast-forward
+ cards/000168/card60018.html                   | 234 ++++++++++++++++++++++++++
+ cards/000168/files/60018_72334.html           | 120 +++++++++++++
+ cards/000168/files/60018_ruby_72286.zip       | Bin 0 -> 3484 bytes
+ cards/001869/card57756.html                   |   2 +-
+ 53 files changed, 1841 insertions(+), 1448 deletions(-)
+Date: Wed Dec 30 09:08:10 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 29 07:27 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3484 Dec 30 09:08 ./aozorabunko/cards/000168/files/60018_ruby_72286.zip
+1/1: ./aozorabunko/cards/000168/files/60018_ruby_72286.zip
+>> add 60018_ruby_kusano_naka.txt
+>> add 60018_ruby_utf8_kusano_naka.txt
+>> https://www.aozora.gr.jp/cards/000168/card60018.html
+>> 草の中、横光利一
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31966/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 30 09:08:03 JST 2020
+End  : Wed Dec 30 09:08:14 JST 2020
