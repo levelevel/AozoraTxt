@@ -1111,3 +1111,52 @@ Title Total : 31966/402 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Dec 30 09:08:03 JST 2020
 End  : Wed Dec 30 09:08:14 JST 2020
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec 31 09:30:38 JST 2020
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   60503f346c..bb7b3e6946  master     -> origin/master
+Updating 60503f346c..bb7b3e6946
+Fast-forward
+ cards/000168/card60018.html                   |   2 +-
+ cards/000237/card50046.html                   | 229 +++++++++++++++++++++++++
+ cards/000237/files/50046_72335.html           |  85 ++++++++++
+ cards/000237/files/50046_txt_72287.zip        | Bin 0 -> 10166 bytes
+ cards/001052/card59901.html                   | 234 ++++++++++++++++++++++++++
+ cards/001052/files/59901_72336.html           | 140 +++++++++++++++
+ cards/001052/files/59901_ruby_72288.zip       | Bin 0 -> 4323 bytes
+ cards/001474/card57164.html                   | 229 +++++++++++++++++++++++++
+ cards/001474/files/57164_72337.html           |  82 +++++++++
+ cards/001474/files/57164_ruby_72289.zip       | Bin 0 -> 6492 bytes
+ 82 files changed, 3043 insertions(+), 2047 deletions(-)
+Date: Thu Dec 31 09:30:45 JST 2020
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 31 09:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 10166 Dec 31 09:30 ./aozorabunko/cards/000237/files/50046_txt_72287.zip
+1/3: ./aozorabunko/cards/000237/files/50046_txt_72287.zip
+>> add 50046_txt_fuyuno_harunasan.txt
+>> add 50046_txt_utf8_fuyuno_harunasan.txt
+>> https://www.aozora.gr.jp/cards/000237/card50046.html
+>> 冬の榛名山、大町桂月
+-rwxrwxrwx 1 level level 4323 Dec 31 09:30 ./aozorabunko/cards/001052/files/59901_ruby_72288.zip
+2/3: ./aozorabunko/cards/001052/files/59901_ruby_72288.zip
+>> add 59901_ruby_onna.txt
+>> add 59901_ruby_utf8_onna.txt
+>> https://www.aozora.gr.jp/cards/001052/card59901.html
+>> 女、久坂葉子
+-rwxrwxrwx 1 level level 6492 Dec 31 09:30 ./aozorabunko/cards/001474/files/57164_ruby_72289.zip
+3/3: ./aozorabunko/cards/001474/files/57164_ruby_72289.zip
+>> add 57164_ruby_rika_kyoikuno_kontei.txt
+>> add 57164_ruby_utf8_rika_kyoikuno_kontei.txt
+>> https://www.aozora.gr.jp/cards/001474/card57164.html
+>> 理科教育の根底、丘浅次郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31972/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec 31 09:30:38 JST 2020
+End  : Thu Dec 31 09:30:48 JST 2020
