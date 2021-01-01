@@ -75,10 +75,10 @@
 000019/42384_ruby_utf8_nono_hakucho.txt,野のはくちょう DE VILDE SVANER,アンデルセン ハンス・クリスチャン,楠山正雄訳
 000019/42385_ruby_utf8_hiko_kaban.txt,ひこうかばん DEN FLYVENDE KOFFERT,アンデルセン ハンス・クリスチャン,楠山正雄訳
 000019/42386_ruby_utf8_minikui_ahirunoko.txt,醜い家鴨の子 DEN GRIMME AELING,アンデルセン ハンス・クリスチャン,菊池寛訳
-000019/42387_ruby_utf8_yukino_joo.txt,雪の女王,アンデルセン ハンス・クリスチャン,
+000019/42387_ruby_utf8_yukino_joo.txt,雪の女王 SNEDRONNINGEN,アンデルセン ハンス・クリスチャン,ハンス・クリスティアン・アンデルセン　Hans Christian Andersen
 000019/4376_ruby_utf8_sokkyo_shijin.txt,即興詩人 IMPROVISATOREN,アンデルセン ハンス・クリスチャン,森鴎外訳
 000019/44423_ruby_utf8_mominoki.txt,もみの木 GRANTRAEET,アンデルセン ハンス・クリスチャン,楠山正雄訳
-000019/58165_ruby_utf8_01eno_nai_ehon.txt,絵のない絵本,アンデルセン ハンス・クリスチャン,
+000019/58165_ruby_utf8_01eno_nai_ehon.txt,絵のない絵本 BILLEDBOG UDEN BILLEDER,アンデルセン ハンス・クリスチャン,ハンス・クリスチャン・アンデルセン　Hans Christian Andersen
 000019/58847_ruby_utf8_suzuno_heitaisan.txt,すずの兵隊さん,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/58848_ruby_utf8_ningyono_hime.txt,人魚の姫,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
 000019/58849_ruby_utf8_naichingeru.txt,ナイチンゲール,アンデルセン ハンス・クリスチャン,矢崎源九郎訳
@@ -2584,12 +2584,12 @@
 000094/2525_ruby_utf8_koganemushi.txt,黄金虫 THE GOLD-BUG,ポー エドガー・アラン,佐々木直次郎訳
 000094/2526_ruby_utf8_hayasugiru_maiso.txt,早すぎる埋葬 THE PREMATURE BURIAL,ポー エドガー・アラン,佐々木直次郎訳
 000094/42338_ruby_utf8_nusumareta_tegami.txt,盗まれた手紙 THE PURLOINED LETTER,ポー エドガー・アラン,佐々木直次郎訳
-000094/4261_ruby_utf8_mari_rojeeno_kaijiken.txt,マリー・ロジェエの怪事件,ポー エドガー・アラン,
+000094/4261_ruby_utf8_mari_rojeeno_kaijiken.txt,マリー・ロジェエの怪事件 『モルグ街の殺人事件』続編,ポー エドガー・アラン,エドガー・アラン・ポー　Edgar Allan Poe
 000094/530_ruby_utf8_kuroneko.txt,黒猫 THE BLACK CAT,ポー エドガー・アラン,佐々木直次郎訳
 000094/56515_ruby_utf8_shimeshi_awase.txt,しめしあわせ THE ASSIGNATION,ポー エドガー・アラン,佐々木直次郎訳
 000094/56535_ruby_utf8_gunshuno_hito.txt,群集の人 THE MAN OF THE CROWD,ポー エドガー・アラン,佐々木直次郎訳
 000094/56536_ruby_utf8_shotono_akuma.txt,鐘塔の悪魔 THE DIVIL IN THE BELFRY,ポー エドガー・アラン,佐々木直次郎訳
-000094/56537_ruby_utf8_chinmoku.txt,沈黙,ポー エドガー・アラン,
+000094/56537_ruby_utf8_chinmoku.txt,沈黙 ――神話,ポー エドガー・アラン,エドガア・アラン・ポー　Edgar Allan Poe
 000094/605_ruby_utf8_morgue.txt,モルグ街の殺人事件 THE MURDERS IN THE RUE MORGUE,ポー エドガー・アラン,佐々木直次郎訳
 000094/882_ruby_utf8_asshakeno_hokai.txt,アッシャー家の崩壊 THE FALL OF HOUSE OF USHER,ポー エドガー・アラン,佐々木直次郎訳
 000095/50503_ruby_utf8_01jyo.txt,宝島 序,佐々木 直次郎,
@@ -3142,7 +3142,7 @@
 000124/655_ruby_utf8_oguma14_r.txt,小熊秀雄全集-14 童話集,小熊 秀雄,
 000124/656_ruby_utf8_oguma02_r.txt,小熊秀雄全集-2 詩集（１）初期詩篇,小熊 秀雄,
 000124/657_ruby_utf8_oguma20.txt,小熊秀雄全集-20 大波小波,小熊 秀雄,
-000124/658_ruby_utf8_oguma3.txt,小熊秀雄全集,小熊 秀雄,
+000124/658_ruby_utf8_oguma3.txt,小熊秀雄全集 ―３―,小熊 秀雄,-----------------------------------------------------------------------
 000124/659_ruby_utf8_oguma04.txt,小熊秀雄全集-4 詩集（３）小熊秀雄詩集１,小熊 秀雄,
 000124/660_ruby_utf8_oguma05.txt,小熊秀雄全集-5 詩集（４）小熊秀雄詩集２,小熊 秀雄,
 000124/661_ruby_utf8_oguma6.txt,小熊秀雄全集-6 詩集（５）飛ぶ橇,小熊 秀雄,
@@ -4381,6 +4381,7 @@
 000168/60001_txt_utf8_043taisho_11nen_9gatsu_20nichi.txt,書翰 大正十一年九月二十日　川端康成宛,横光 利一,
 000168/60002_txt_utf8_059taisho_13nen_11gatsu_4nichi.txt,書翰 大正十三年十一月四日　川端康成宛,横光 利一,
 000168/60004_txt_utf8_050taisho_12_3nen.txt,書翰 大正十二、三年（推定）　横光君子宛,横光 利一,
+000168/60018_ruby_utf8_kusano_naka.txt,草の中,横光 利一,
 000168/903_ruby_utf8_akaikimono.txt,赤い着物,横光 利一,
 000168/904_ruby_utf8_haruhabasyani_ruby.txt,春は馬車に乗って,横光 利一,
 000168/905_ruby_utf8_hi_ruby.txt,火,横光 利一,
@@ -4782,21 +4783,21 @@
 000195/49787_ruby_utf8_yogisha.txt,夜汽車,尾崎 放哉,
 000195/974_txt_utf8_ozaki_hosai_senkushu.txt,尾崎放哉選句集,尾崎 放哉,
 000196/975_txt_utf8_hojoki.txt,方丈記,鴨 長明,
-000207/24382_ruby_utf8_shiseru_tamashii01.txt,死せる魂,ゴーゴリ ニコライ,
+000207/24382_ruby_utf8_shiseru_tamashii01.txt,死せる魂 または　チチコフの遍歴　第一部　第一分冊,ゴーゴリ ニコライ,ニコライ・ゴーゴリ　Nikolai Vasilievitch Gogolj（Николай　Васильевич　Гоголь）
 000207/357_ruby_utf8_gaito.txt,外套,ゴーゴリ ニコライ,平井肇訳
 000207/372_ruby_utf8_hana.txt,鼻,ゴーゴリ ニコライ,平井肇訳
-000207/42217_ruby_utf8_shiseru_tamashii02.txt,死せる魂,ゴーゴリ ニコライ,
+000207/42217_ruby_utf8_shiseru_tamashii02.txt,死せる魂 または　チチコフの遍歴　第一部　第二分冊,ゴーゴリ ニコライ,ニコライ・ゴーゴリ　Nikolai Vasilievitch Gogolj（Николай　Васильевич　Гоголь）
 000207/42284_ruby_utf8_kyojinnikki.txt,狂人日記 ZAPISKI SUMASHEDSHAWO,ゴーゴリ ニコライ,平井肇訳
-000207/47123_ruby_utf8_zen_02hashigaki.txt,ディカーニカ近郷夜話　前篇,ゴーゴリ ニコライ,
-000207/47124_ruby_utf8_zen_03sorochintsui.txt,ディカーニカ近郷夜話　前篇,ゴーゴリ ニコライ,
-000207/47125_ruby_utf8_zen_04iwan_kupara.txt,ディカーニカ近郷夜話　前篇,ゴーゴリ ニコライ,
-000207/47126_ruby_utf8_zen_05gogatsuno_yoru.txt,ディカーニカ近郷夜話　前篇,ゴーゴリ ニコライ,
-000207/47127_ruby_utf8_zen_06funshitsushita.txt,ディカーニカ近郷夜話　前篇,ゴーゴリ ニコライ,
-000207/47128_ruby_utf8_ko_01hashigaki.txt,ディカーニカ近郷夜話　後篇,ゴーゴリ ニコライ,
-000207/47129_ruby_utf8_ko_02kotansaino_zenya.txt,ディカーニカ近郷夜話　後篇,ゴーゴリ ニコライ,
-000207/47130_ruby_utf8_ko_03osoroshiki_fukushu.txt,ディカーニカ近郷夜話　後篇,ゴーゴリ ニコライ,
-000207/47131_ruby_utf8_ko_04iwan_fyodoro.txt,ディカーニカ近郷夜話　後篇,ゴーゴリ ニコライ,
-000207/47132_ruby_utf8_ko_05majinaino_kakatta.txt,ディカーニカ近郷夜話　後篇,ゴーゴリ ニコライ,
+000207/47123_ruby_utf8_zen_02hashigaki.txt,ディカーニカ近郷夜話　前篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,ニコライ・ゴーゴリ　Nikolai Vasilievitch Gogoli
+000207/47124_ruby_utf8_zen_03sorochintsui.txt,ディカーニカ近郷夜話　前篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,SOROCHINSKAYA YARMARKA
+000207/47125_ruby_utf8_zen_04iwan_kupara.txt,ディカーニカ近郷夜話　前篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,VECHER NAKANUNE IVANA KUPALA
+000207/47126_ruby_utf8_zen_05gogatsuno_yoru.txt,ディカーニカ近郷夜話　前篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,MAISKAYA NOCHI, ILI UTOPLENNITSA
+000207/47127_ruby_utf8_zen_06funshitsushita.txt,ディカーニカ近郷夜話　前篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,PROPAVSHAYA GRAMOTA
+000207/47128_ruby_utf8_ko_01hashigaki.txt,ディカーニカ近郷夜話　後篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,ニコライ・ゴーゴリ　Nikolai Vasilievitch Gogoli
+000207/47129_ruby_utf8_ko_02kotansaino_zenya.txt,ディカーニカ近郷夜話　後篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,NOCHI PERED RODJESTVOM
+000207/47130_ruby_utf8_ko_03osoroshiki_fukushu.txt,ディカーニカ近郷夜話　後篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,STRASHNAYA MESTI
+000207/47131_ruby_utf8_ko_04iwan_fyodoro.txt,ディカーニカ近郷夜話　後篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,IVAN FEODOROVITCH SHUPONIKA I EWO TYOTUSHKA
+000207/47132_ruby_utf8_ko_05majinaino_kakatta.txt,ディカーニカ近郷夜話　後篇 VECHERA NA HUTORE BLIZ DIKANIKI,ゴーゴリ ニコライ,ZAKOLDOVANNOE MESTO
 000212/1048_ruby_utf8_dontaku.txt,どんたく 絵入り小唄集,竹久 夢二,
 000212/1558_ruby_utf8_sunagaki.txt,砂がき,竹久 夢二,
 000212/1559_txt_utf8_arume.txt,ある眼,竹久 夢二,
@@ -5179,6 +5180,7 @@
 000237/50037_ruby_utf8_shirakawano_nanoka.txt,白河の七日,大町 桂月,
 000237/50038_ruby_utf8_joshu_numatayori_nikkoe.txt,上州沼田より日光へ,大町 桂月,
 000237/50039_ruby_utf8_tamagawa_bokenki.txt,多摩川冒險記,大町 桂月,
+000237/50046_txt_utf8_fuyuno_harunasan.txt,冬の榛名山,大町 桂月,
 000237/50049_ruby_utf8_yoruno_takaosan.txt,夜の高尾山,大町 桂月,
 000237/56415_txt_utf8_asukayama_ensoku.txt,飛鳥山遠足,大町 桂月,
 000237/56420_txt_utf8_sayama_kiko.txt,狹山紀行,大町 桂月,
@@ -6086,7 +6088,7 @@
 000296/46686_ruby_utf8_butsurigakuno_yoyo.txt,物理学の要用,福沢 諭吉,
 000296/46734_ruby_utf8_kyoikuno_mokuteki.txt,教育の目的,福沢 諭吉,
 000296/46826_ruby_utf8_02yasegamanno_setsu.txt,瘠我慢の説 瘠我慢の説,福沢 諭吉,
-000296/46827_ruby_utf8_03shokan.txt,瘠我慢の説,福沢 諭吉,
+000296/46827_ruby_utf8_03shokan.txt,瘠我慢の説 書簡,福沢 諭吉,勝海舟
 000296/46848_ruby_utf8_meiji_sanjyuichinen.txt,明治三十一年三月十二日三田演説會に於ける演説,福沢 諭吉,
 000296/46890_ruby_utf8_nakatsuryubetsuno_sho.txt,中津留別の書,福沢 諭吉,
 000296/47030_ruby_utf8_tokuiku_ikan.txt,徳育如何,福沢 諭吉,
@@ -8869,8 +8871,8 @@
 000906/42588_txt_utf8_tanukiishi.txt,狸石 ――寓話――,豊島 与志雄,
 000906/42589_txt_utf8_watashino_shinjo.txt,私の信条,豊島 与志雄,
 000906/42607_ruby_utf8_01_jo.txt,ジャン・クリストフ JEAN CHRISTOPHE,豊島 与志雄,豊島与志雄
-000906/42608_ruby_utf8_13_koki.txt,ジャン・クリストフ,豊島 与志雄,
-000906/42609_ruby_utf8_02_kaiyaku.txt,ジャン・クリストフ,豊島 与志雄,
+000906/42608_ruby_utf8_13_koki.txt,ジャン・クリストフ JEAN-CHRISTOPHE,豊島 与志雄,ロマン・ローラン　Romain Rolland
+000906/42609_ruby_utf8_02_kaiyaku.txt,ジャン・クリストフ JEAN CHRISTOPHE,豊島 与志雄,ロマン・ローラン　Romain Rolland
 000906/42611_ruby_utf8_shikeishu_saigono_kaisetsu.txt,死刑囚最後の日解説,豊島 与志雄,
 000906/42627_ruby_utf8_otsukisamano_uta.txt,お月様の唄,豊島 与志雄,
 000906/42628_ruby_utf8_oyamano_jiisan.txt,お山の爺さん,豊島 与志雄,
@@ -9424,9 +9426,9 @@
 000959/58067_txt_utf8_asobino_geijutsu.txt,遊びの藝術,相馬 御風,
 000959/58068_txt_utf8_koza.txt,孤座,相馬 御風,
 000959/58069_txt_utf8_dokushu.txt,獨愁,相馬 御風,
-000961/42184_ruby_utf8_02joka.txt,神曲,ダンテ アリギエリ,
-000961/4618_ruby_utf8_01jigoku.txt,神曲,ダンテ アリギエリ,
-000961/4820_ruby_utf8_03tendo.txt,神曲,ダンテ アリギエリ,
+000961/42184_ruby_utf8_02joka.txt,神曲 LA DIVINA COMMEDIA,ダンテ アリギエリ,アリギエリ・ダンテ　Alighieri Dante
+000961/4618_ruby_utf8_01jigoku.txt,神曲 LA DIVINA COMMEDIA,ダンテ アリギエリ,アリギエリ・ダンテ　Alighieri Dante
+000961/4820_ruby_utf8_03tendo.txt,神曲 LA DIVINA COMMEDIA,ダンテ アリギエリ,アリギエリ・ダンテ　Alighieri Dante
 000961/55218_ruby_utf8_yosobitono_azamuga_gotoku.txt,よそ人のあざむが如く,ダンテ アリギエリ,上田敏訳
 000961/55219_ruby_utf8_arito_arayuru_waga_omoi.txt,ありとあらゆるわが思,ダンテ アリギエリ,上田敏訳
 000961/55220_ruby_utf8_utayo_negauwa.txt,歌よ、ねがふは,ダンテ アリギエリ,上田敏訳
@@ -9592,13 +9594,13 @@
 001021/50117_ruby_utf8_obeikakkoku_seikyonikki.txt,欧米各国　政教日記,井上 円了,
 001021/50118_ruby_utf8_seikonichiroku.txt,西航日録,井上 円了,
 001021/50119_ruby_utf8_minamihankyu_gomanmairu.txt,南半球五万哩,井上 円了,
-001025/50909_ruby_utf8_faust.txt,ファウスト,ゲーテ ヨハン・ヴォルフガング・フォン,
+001025/50909_ruby_utf8_faust.txt,ファウスト FAUST. EINE TRAGODIE,ゲーテ ヨハン・ヴォルフガング・フォン,Johann Wolfgang von Goethe
 001026/46834_ruby_utf8_inochino_tanren.txt,命の鍛錬,関 寛,
 001026/46835_ruby_utf8_yojo_kokoroegusa.txt,養生心得草,関 寛,
 001026/4744_ruby_utf8_seki_bokujo.txt,関牧塲創業記事,関 寛,
 001028/4797_ruby_utf8_ningyono_ie.txt,人形の家 ET DUKKEHJEM,イプセン ヘンリック,島村抱月譯
-001029/43291_ruby_utf8_meditationes.txt,省察,デカルト ルネ,
-001029/4730_txt_utf8_seisatsu.txt,省察,デカルト ルネ,
+001029/43291_ruby_utf8_meditationes.txt,省察 MEDITATIONES,デカルト ルネ,DE PRIMA PHILOSOPHIA, IN QUIBUS DEI EXISTENTIA, ET ANIMAE HUMANAE A CORPORE DISTINCTIO, DEMONSTRANTUR.
+001029/4730_txt_utf8_seisatsu.txt,省察 MEDITATIONES,デカルト ルネ,DE PRIMA PHILOSOPHIA, IN QUIBUS DEI EXISTENTIA, ET ANIMAE HUMANAE A CORPORE DISTINCTIO, DEMONSTRANTUR.
 001030/47859_ruby_utf8_kao.txt,顏,堀 辰雄,
 001030/47860_ruby_utf8_shino_sobyo.txt,死の素描,堀 辰雄,
 001030/47861_ruby_utf8_suizokukan.txt,水族館,堀 辰雄,
@@ -9612,6 +9614,7 @@
 001030/47869_ruby_utf8_omokage.txt,おもかげ,堀 辰雄,
 001030/47870_txt_utf8_shinjin_shokai.txt,新人紹介,堀 辰雄,
 001030/47871_ruby_utf8_sudachi.txt,巣立ち,堀 辰雄,
+001030/47872_ruby_utf8_seijato_shisha.txt,生者と死者,堀 辰雄,
 001030/47873_txt_utf8_sentanjinwa_kataru.txt,尖端人は語る,堀 辰雄,
 001030/47874_ruby_utf8_tegami_utsukushii_mura_noto.txt,手紙 （「美しい村」ノオト）,堀 辰雄,
 001030/47875_ruby_utf8_nanatsuno_tegami.txt,七つの手紙 或女友達に,堀 辰雄,
@@ -9756,8 +9759,8 @@
 001037/4995_ruby_utf8_higashiymama_seikatsu.txt,東山時代における一縉紳の生活,原 勝郎,
 001044/4880_ruby_utf8_flanders.txt,フランダースの犬 A DOG OF FLANDERS,ド・ラ・ラメー マリー・ルイーズ,菊池寛訳
 001045/4881_ruby_utf8_a_little_princess.txt,小公女 A LITTLE PRINCESS,バーネット フランシス・ホジソン・エリザ,菊池寛訳
-001047/42924_ruby_utf8_ienakiko_jo.txt,家なき子,マロ エクトール・アンリ,
-001047/42925_ruby_utf8_ienakiko_ge.txt,家なき子,マロ エクトール・アンリ,
+001047/42924_ruby_utf8_ienakiko_jo.txt,家なき子 SANS FAMILLE,マロ エクトール・アンリ,マロ　Malot
+001047/42925_ruby_utf8_ienakiko_ge.txt,家なき子 SANS FAMILLE,マロ エクトール・アンリ,マロ　Malot
 001048/45381_ruby_utf8_hahao_tazunete_sanzenri.txt,母を尋ねて三千里,アミーチス エドモンド・デ,日本童話研究会訳
 001049/4920_ruby_utf8_kagakuno_fushigi.txt,科学の不思議 STORY-BOOK OF SCIENCE,ファーブル ジャン・アンリ,大杉栄、伊藤野枝訳
 001051/4924_ruby_utf8_kojoko.txt,考城隍,蒲 松齢,田中貢太郎訳
@@ -9787,6 +9790,7 @@
 001052/4969_ruby_utf8_hanabanashiki_shunkan.txt,華々しき瞬間,久坂 葉子,
 001052/4970_ruby_utf8_ikudomekano_saigo.txt,幾度目かの最期,久坂 葉子,
 001052/59900_ruby_utf8_ikudomekano_saigo.txt,幾度目かの最期,久坂 葉子,
+001052/59901_ruby_utf8_onna.txt,女,久坂 葉子,
 001052/59902_ruby_utf8_hasamito_nunoto_katachi.txt,鋏と布と型,久坂 葉子,
 001053/4963_ruby_utf8_genbaku_shishu.txt,原爆詩集,峠 三吉,
 001054/18371_ruby_utf8_hakubutsukan.txt,博物館,浜田 青陵,
@@ -9950,29 +9954,29 @@
 001091/60030_ruby_utf8_shinigamino_nazuke_oya_daiichiwa.txt,死神の名づけ親（第一話）,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
 001091/60031_ruby_utf8_shinigamino_nazuke_oya_dainiwa.txt,死神の名づけ親（第二話）,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
 001091/60125_ruby_utf8_kitsuneto_neko.txt,狐と猫,グリム ヤーコプ・ルートヴィッヒ・カール,金田鬼一訳
-001093/42590_ruby_utf8_03_akebono.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42591_ruby_utf8_04_asa.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42592_ruby_utf8_05_seinen.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42593_ruby_utf8_06_hanko.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42594_ruby_utf8_07_hirobano_ichi.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42595_ruby_utf8_08_antolnette.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42596_ruby_utf8_09_ieno_naka.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42597_ruby_utf8_10_onnatomodachi.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42598_ruby_utf8_11_moyuru_ibara.txt,ジャン・クリストフ,ロラン ロマン,
-001093/42599_ruby_utf8_12_atarashikihi.txt,ジャン・クリストフ,ロラン ロマン,
+001093/42590_ruby_utf8_03_akebono.txt,ジャン・クリストフ JEAN CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42591_ruby_utf8_04_asa.txt,ジャン・クリストフ JEAN CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42592_ruby_utf8_05_seinen.txt,ジャン・クリストフ JEAN CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42593_ruby_utf8_06_hanko.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42594_ruby_utf8_07_hirobano_ichi.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42595_ruby_utf8_08_antolnette.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42596_ruby_utf8_09_ieno_naka.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42597_ruby_utf8_10_onnatomodachi.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42598_ruby_utf8_11_moyuru_ibara.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
+001093/42599_ruby_utf8_12_atarashikihi.txt,ジャン・クリストフ JEAN-CHRISTOPHE,ロラン ロマン,ロマン・ローラン　Romain Rolland
 001093/46822_ruby_utf8_jan_kurisutofu.txt,ジャン・クリストフ,ロラン ロマン,豊島与志雄訳
-001093/54931_ruby_utf8_02_betobenno_shogai.txt,ベートーヴェンの生涯,ロラン ロマン,
-001093/54932_ruby_utf8_03_hairigenshuttatono_isho.txt,ベートーヴェンの生涯,ロラン ロマン,
-001093/54933_ruby_utf8_04_betobenno_tegami.txt,ベートーヴェンの生涯,ロラン ロマン,
-001093/54934_ruby_utf8_05_betobenno_shisodanpen.txt,ベートーヴェンの生涯,ロラン ロマン,
-001093/54935_ruby_utf8_06_betoben'eno_kansha.txt,ベートーヴェンの生涯,ロラン ロマン,
-001093/54937_ruby_utf8_08_bunken.txt,ベートーヴェンの生涯,ロラン ロマン,
-001094/42600_ruby_utf8_04fantinu.txt,レ・ミゼラブル,ユゴー ヴィクトル,
-001094/42601_ruby_utf8_05kozetto.txt,レ・ミゼラブル,ユゴー ヴィクトル,
-001094/42602_ruby_utf8_06mariyusu.txt,レ・ミゼラブル,ユゴー ヴィクトル,
-001094/42603_ruby_utf8_07jojoshito_jojishi.txt,レ・ミゼラブル,ユゴー ヴィクトル,
-001094/42604_ruby_utf8_08jan_balujan.txt,レ・ミゼラブル,ユゴー ヴィクトル,
-001094/42606_ruby_utf8_03jo.txt,レ・ミゼラブル,ユゴー ヴィクトル,
+001093/54931_ruby_utf8_02_betobenno_shogai.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ロマン・ロラン　Romain Rolland
+001093/54932_ruby_utf8_03_hairigenshuttatono_isho.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ルートヴィヒ・ヴァン・ベートーヴェン　Ludwig van Beethoven、ロマン・ロラン　Romain Rolland
+001093/54933_ruby_utf8_04_betobenno_tegami.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ルートヴィヒ・ヴァン・ベートーヴェン　Ludwig van Beethoven、フランツ・ゲルハルト・ヴェーゲラー　Franz Gerhard Wegeler、エレオノーレ・フォン・ブロイニング　Eleonore von Breuning、ロマン・ロラン　Romain Rolland
+001093/54934_ruby_utf8_05_betobenno_shisodanpen.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ルートヴィヒ・ヴァン・ベートーヴェン　Ludwig van Beethoven、ロマン・ロラン　Romain Rolland
+001093/54935_ruby_utf8_06_betoben'eno_kansha.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ロマン・ロラン　Romain Rolland
+001093/54937_ruby_utf8_08_bunken.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ロラン ロマン,ロマン・ロラン　Romain Rolland
+001094/42600_ruby_utf8_04fantinu.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
+001094/42601_ruby_utf8_05kozetto.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
+001094/42602_ruby_utf8_06mariyusu.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
+001094/42603_ruby_utf8_07jojoshito_jojishi.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
+001094/42604_ruby_utf8_08jan_balujan.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
+001094/42606_ruby_utf8_03jo.txt,レ・ミゼラブル LES MISERABLES,ユゴー ヴィクトル,ビクトル・ユーゴー　Victor Hugo
 001094/42610_ruby_utf8_shikeishu_saigono_hi.txt,死刑囚最後の日 LE DERNIER JOUR D'UN CONDAMNE,ユゴー ヴィクトル,豊島与志雄訳
 001095/42614_ruby_utf8_yonagahimeto_mimio.txt,夜長姫と耳男,坂口 安吾,
 001095/42615_ruby_utf8_kazeto_hikarito.txt,風と光と二十の私と,坂口 安吾,
@@ -10527,7 +10531,7 @@
 001134/43119_ruby_utf8_nemurumorino_ohimesama.txt,眠る森のお姫さま,ペロー シャルル,楠山正雄訳
 001134/43120_ruby_utf8_cendrillon.txt,灰だらけ姫 またの名「ガラスの上ぐつ」,ペロー シャルル,楠山正雄訳
 001135/43125_ruby_utf8_le_belle_et_la_bete.txt,ラ・ベルとラ・ベート（美し姫と怪獣）,ド・ヴィルヌーヴ ガブリエル=シュザンヌ・バルボ,楠山正雄訳
-001138/47057_ruby_utf8_kyosanto_sengen.txt,共産黨宣言,マルクス カール・ハインリッヒ,
+001138/47057_ruby_utf8_kyosanto_sengen.txt,共産黨宣言 カール・マルクス,マルクス カール・ハインリッヒ,堺利彦訳
 001141/43417_txt_utf8_watashino_ryunosukekan.txt,私の龍之助感 ――舞臺上の愛人――,沢田 正二郎,
 001142/43421_ruby_utf8_futaomote_kurabebotan.txt,両面競牡丹,酒井 嘉七,
 001142/46471_ruby_utf8_kyokanoko_musume_dojoji.txt,京鹿子娘道成寺,酒井 嘉七,
@@ -10556,10 +10560,10 @@
 001146/43520_ruby_utf8_motsure_ito.txt,もつれ糸,清水 紫琴,
 001147/43526_ruby_utf8_ichishonintoshit.txt,一商人として ――所信と体験――,相馬 愛蔵,
 001147/43527_ruby_utf8_watashino_kourishodo.txt,私の小売商道,相馬 愛蔵,
-001149/43550_ruby_utf8_principle_of_population_00.txt,人口論,マルサス トマス・ロバート,
-001149/43551_ruby_utf8_principle_of_population_01.txt,人口論,マルサス トマス・ロバート,
-001149/45455_ruby_utf8_principle_of_population_02.txt,人口論,マルサス トマス・ロバート,
-001149/46188_ruby_utf8_jinkoron03.txt,人口論,マルサス トマス・ロバート,
+001149/43550_ruby_utf8_principle_of_population_00.txt,人口論 AN ESSAY ON THE PRINCIPLE OF POPULATION,マルサス トマス・ロバート,トマス・ロバト・マルサス　Thomas Robert Malthus
+001149/43551_ruby_utf8_principle_of_population_01.txt,人口論 AN ESSAY ON THE PRINCIPLE OF POPULATION,マルサス トマス・ロバート,トマス・ロバト・マルサス　Thomas Robert Malthus
+001149/45455_ruby_utf8_principle_of_population_02.txt,人口論 AN ESSAY ON THE PRINCIPLE OF POPULATION,マルサス トマス・ロバート,トマス・ロバト・マルサス　Thomas Robert Malthus
+001149/46188_ruby_utf8_jinkoron03.txt,人口論 AN ESSAY ON THE PRINCIPLE OF POPULATION,マルサス トマス・ロバート,トマス・ロバト・マルサス　Thomas Robert Malthus
 001151/43552_ruby_utf8_tejinashi.txt,手品師,久米 正雄,
 001151/43553_ruby_utf8_ryoyu_akuyu.txt,良友悪友,久米 正雄,
 001151/43799_ruby_utf8_kyoso.txt,競漕,久米 正雄,
@@ -11237,10 +11241,10 @@
 001155/51424_ruby_utf8_gusefu.txt,グーセフ ГУСЕВ,チェーホフ アントン,神西清訳
 001155/51735_ruby_utf8_tsuihosarete.txt,追放されて В　ССЫЛКЕ,チェーホフ アントン,神西清訳
 001155/51736_ruby_utf8_tsuma.txt,妻 ЖЕНА,チェーホフ アントン,神西清訳
-001155/51860_ruby_utf8_kamome.txt,かもめ,チェーホフ アントン,
-001155/51862_ruby_utf8_wanyaojisan.txt,ワーニャ伯父さん,チェーホフ アントン,
+001155/51860_ruby_utf8_kamome.txt,かもめ ЧАЙКА,チェーホフ アントン,アントン・チェーホフ　Anton Chekhov
+001155/51862_ruby_utf8_wanyaojisan.txt,ワーニャ伯父さん ДЯДЯ　ВАНЯ,チェーホフ アントン,アントン・チェーホフ　Anton Chekhov
 001155/52177_ruby_utf8_kubino_ueno_anna.txt,頸の上のアンナ АННА　НА　ШЕЕ,チェーホフ アントン,神西清訳
-001155/52239_ruby_utf8_kuma.txt,熊,チェーホフ アントン,
+001155/52239_ruby_utf8_kuma.txt,熊 МЕДВЕДЬ,チェーホフ アントン,アントン・チェーホフ　Anton Chekhov
 001155/52293_ruby_utf8_tensai.txt,天才 ТАЛАНТ,チェーホフ アントン,神西清訳
 001155/52294_ruby_utf8_mari_d'elle.txt,マリ・デル MARI D'ELLE,チェーホフ アントン,神西清訳
 001156/43603_ruby_utf8_hakubutsushi.txt,博物誌 HISTOIRES NATURELLES,ルナール ジュール,岸田国士訳
@@ -11543,7 +11547,7 @@
 001180/46295_ruby_utf8_berkeley.txt,バークレーより,沖野 岩三郎,
 001180/54166_ruby_utf8_akai_neko.txt,赤いねこ,沖野 岩三郎,
 001181/45194_ruby_utf8_murano_gakko.txt,村の学校（実話）,ドーデ アルフォンス,鈴木三重吉訳
-001185/45210_ruby_utf8_junsui_keizaigaku_yoron.txt,純粋経済学要論,ワルラス マリー・エスプリ・レオン,
+001185/45210_ruby_utf8_junsui_keizaigaku_yoron.txt,純粋経済学要論 ELEMENTS D'ECONOMIE POLITIQUE PURE OU THEORIE DE LA RICHESSE SOCIALE,ワルラス マリー・エスプリ・レオン,レオン・ワルラス　Leon Walras
 001186/50479_ruby_utf8_01hashigaki.txt,フランケンシュタイン FRANKENSTEIN, OR THE MODERN PROMETHEUS,宍戸 儀一,宍戸儀一
 001186/50480_txt_utf8_03choshani_tsuite.txt,フランケンシュタイン FRANKENSTEIN, OR THE MODERN PROMETHEUS,宍戸 儀一,宍戸儀一
 001188/49588_ruby_utf8_kanchutaigakuki.txt,寒中滞岳記 （十月一日より十二月廿一日に至る八十二日間）,野中 至,
@@ -11955,8 +11959,8 @@
 001294/47167_ruby_utf8_nippon_ongaku.txt,ニッポン音楽 ――音楽学校の邦楽――,兼常 清佐,
 001294/47168_ruby_utf8_hayariuta.txt,流行唄,兼常 清佐,
 001294/47169_txt_utf8_record_shushu.txt,レコード蒐集,兼常 清佐,
-001295/47205_ruby_utf8_kamojino_bijutsuka.txt,かもじの美術家,レスコーフ ニコライ・セミョーノヴィチ,
-001295/47206_ruby_utf8_shinjuno_kubikazari.txt,真珠の首飾り,レスコーフ ニコライ・セミョーノヴィチ,
+001295/47205_ruby_utf8_kamojino_bijutsuka.txt,かもじの美術家 TUPEJNYJ HUDOZHNIK,レスコーフ ニコライ・セミョーノヴィチ,レスコーフ　Nikolai Semyonovich Leskov
+001295/47206_ruby_utf8_shinjuno_kubikazari.txt,真珠の首飾り ZHEMCHUZHNOE OZHERELJE,レスコーフ ニコライ・セミョーノヴィチ,レスコーフ　Nikolai Semyonovich Leskov
 001295/47207_ruby_utf8_mutsensukugunno_makubesu.txt,ムツェンスク郡のマクベス夫人 LEDI MAKBET MCENSKOVO UEZDA,レスコーフ ニコライ・セミョーノヴィチ,神西清訳
 001296/47215_ruby_utf8_vers_college.txt,ランボオ詩集≪学校時代の詩≫ VERS DE COLLEGE,ランボー ジャン・ニコラ・アルチュール,中原中也訳
 001296/47296_ruby_utf8_rimbaud.txt,ランボオ詩集 OEVRES D'ARTHUR RIMBAUD,ランボー ジャン・ニコラ・アルチュール,中原中也訳
@@ -12966,6 +12970,7 @@
 001474/56954_ruby_utf8_jinruino_shorai.txt,人類の将来,丘 浅次郎,
 001474/56955_ruby_utf8_rakudaito_taiko.txt,落第と退校,丘 浅次郎,
 001474/57163_ruby_utf8_jinruino_kodaikyo.txt,人類の誇大狂,丘 浅次郎,
+001474/57164_ruby_utf8_rika_kyoikuno_kontei.txt,理科教育の根底,丘 浅次郎,
 001474/57403_ruby_utf8_jinruino_seizon_kyoso.txt,人類の生存競争,丘 浅次郎,
 001474/57418_ruby_utf8_kyoikuto_meishin.txt,教育と迷信,丘 浅次郎,
 001474/57419_ruby_utf8_gokaiseraretaru_seibutsugaku.txt,誤解せられたる生物学,丘 浅次郎,
@@ -15272,7 +15277,7 @@
 001696/55153_txt_utf8_02jo_kojimano_haru.txt,小島の春 序,下村 海南,
 001697/55154_ruby_utf8_01jo_kojimano_haru.txt,小島の春 序,高野 六郎,
 001698/55155_txt_utf8_03jo_kojimano_haru.txt,小島の春 序,光田 健輔,
-001702/54936_ruby_utf8_07_betobenno_shukiyori.txt,ベートーヴェンの生涯,ベートーヴェン ルートヴィヒ・ヴァン,
+001702/54936_ruby_utf8_07_betobenno_shukiyori.txt,ベートーヴェンの生涯 VIE DE BEETHOVEN,ベートーヴェン ルートヴィヒ・ヴァン,ルートヴィヒ・ヴァン・ベートーヴェン　Ludwig van Beethoven
 001705/55195_ruby_utf8_fukano.txt,不可能 L'IMPOSSIBLE,ヴェルハーレン エミール,上田敏訳
 001706/55196_ruby_utf8_haha.txt,母,ネグリ アダ,上田敏訳
 001707/55197_ruby_utf8_yashino_ki.txt,椰子の樹,クローデル ポール,上田敏訳
@@ -15481,7 +15486,7 @@
 001763/59941_txt_utf8_sunkan.txt,寸感,佐藤 春夫,
 001763/59942_ruby_utf8_tantei_shosetsu_shoron.txt,探偵小説小論,佐藤 春夫,
 001763/60296_ruby_utf8_olympic_tokyo_taikai_sanka.txt,オリンピック東京大會讚歌,佐藤 春夫,
-001764/55990_ruby_utf8_03nihon_sonohi_sonohi.txt,日本その日その日,モース エドワード・シルヴェスター,
+001764/55990_ruby_utf8_03nihon_sonohi_sonohi.txt,日本その日その日 日本その日その日,モース エドワード・シルヴェスター,エドワード・シルヴェスター・モース　Edward Sylvester Morse
 001765/56025_ruby_utf8_01jo_umoregi.txt,うもれ木 序,田辺 竜子　→三宅花圃,
 001767/56027_txt_utf8_daisansha.txt,第三者 INTERLOPER,サキ ,妹尾韶夫訳
 001769/47957_ruby_utf8_jam_kimino_iewa.txt,ジャム、君の家は,ゲラン シャルル,堀辰雄訳
@@ -15731,6 +15736,7 @@
 001869/57544_ruby_utf8_03mujina_nagaya.txt,赤ひげ診療譚 むじな長屋,山本 周五郎,
 001869/57563_ruby_utf8_usoa_tsukane.txt,嘘アつかねえ,山本 周五郎,
 001869/57567_ruby_utf8_oreno_nyobo.txt,おれの女房,山本 周五郎,
+001869/57569_ruby_utf8_omoichigai_monogatari.txt,思い違い物語,山本 周五郎,
 001869/57574_ruby_utf8_aobeka_monogatari.txt,青べか物語,山本 周五郎,
 001869/57583_ruby_utf8_ame_agaru.txt,雨あがる,山本 周五郎,
 001869/57584_ruby_utf8_ochibaiki.txt,落ち梅記,山本 周五郎,
@@ -15752,9 +15758,12 @@
 001869/57689_ruby_utf8_doroboto_wakatono.txt,泥棒と若殿,山本 周五郎,
 001869/57691_ruby_utf8_nanoka_nanayo.txt,七日七夜,山本 周五郎,
 001869/57703_ruby_utf8_hatashijo.txt,はたし状,山本 周五郎,
+001869/57707_ruby_utf8_hannosuke_shugen.txt,半之助祝言,山本 周五郎,
+001869/57716_ruby_utf8_furyu_taiheiki.txt,風流太平記,山本 周五郎,
 001869/57720_ruby_utf8_hyakuashi_chigai.txt,百足ちがい,山本 周五郎,
 001869/57723_ruby_utf8_byobuwa_tatamareta.txt,屏風はたたまれた,山本 周五郎,
 001869/57727_ruby_utf8_hito_goroshi.txt,ひとごろし,山本 周五郎,
+001869/57756_ruby_utf8_meoto_cho.txt,めおと蝶,山本 周五郎,
 001869/57758_ruby_utf8_yanagibashi_monogatari.txt,柳橋物語,山本 周五郎,
 001869/57765_ruby_utf8_yumoyano_naka.txt,夕靄の中,山本 周五郎,
 001869/57770_ruby_utf8_yoakeno_tsuji.txt,夜明けの辻,山本 周五郎,
@@ -15858,7 +15867,7 @@
 001891/58166_ruby_utf8_02kaisetsu_eno_nai_ehon.txt,絵のない絵本 解説,矢崎 源九郎,
 001892/58052_ruby_utf8_nils_no_fushigina_tabi.txt,ニールスのふしぎな旅 NILS HOLGERSSONS UNDERBARA RESA GENOM SVERIGE,ラーゲルレーヴ セルマ,矢崎源九郎訳
 001894/58055_ruby_utf8_unnan_shubihei.txt,雲南守備兵,木村 荘十,
-001900/58088_ruby_utf8_yudayajinno_bunano_ki.txt,ユダヤ人のブナの木,ドロステ＝ヒュルスホフ アネッテ・フォン,
+001900/58088_ruby_utf8_yudayajinno_bunano_ki.txt,ユダヤ人のブナの木 山深きヴェストファーレンの風俗畫,ドロステ＝ヒュルスホフ アネッテ・フォン,アネッテ・フォン・ドロステ＝ヒュルスホフ　Annette von Droste=Hulshoff
 001902/58089_txt_utf8_ikareru_takamura_gunso.txt,怒れる高村軍曹,新井 紀一,
 001903/58090_ruby_utf8_shido_monogatari.txt,指導物語 或る国鉄機関士の述懐,上田 広,
 001904/58091_ruby_utf8_aru_shi_tsugino_shi.txt,ある死、次の死,佐佐木 茂索,
@@ -15885,7 +15894,7 @@
 001925/56331_ruby_utf8_dobutsu_monogatari_okamino_o_robo.txt,動物物語　狼の王ロボ,シートン アーネスト・トンプソン,薄田斬雲訳
 001927/58932_ruby_utf8_hon_inbo_shusai.txt,本因坊秀哉,野上 彰,
 001930/58400_ruby_utf8_hokuetsu_seppu.txt,北越雪譜 鈴木牧之編撰,鈴木 牧之,岡田武松校訂
-001930/58401_ruby_utf8_06hokuetsu_seppu_nihen.txt,北越雪譜,鈴木 牧之,
+001930/58401_ruby_utf8_06hokuetsu_seppu_nihen.txt,北越雪譜 北越雪譜二編,鈴木 牧之,京山人百樹刪定
 001931/59112_ruby_utf8_01daisanzuri_jobun.txt,北越雪譜 第三刷序文,岡田 武松,
 001931/59116_ruby_utf8_07hokuetsu_seppu_chukai.txt,北越雪譜 註解,岡田 武松,
 001931/59117_ruby_utf8_08hokuetsu_seppu_kaisetsu.txt,北越雪譜 解説,岡田 武松,
