@@ -1,0 +1,56 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan  1 09:05:42 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bb7b3e6946..ff036b764f  master     -> origin/master
+Updating bb7b3e6946..ff036b764f
+Fast-forward
+ cards/000237/card50046.html                   |    2 +-
+ cards/001052/card59901.html                   |    2 +-
+ cards/001474/card57164.html                   |    2 +-
+ cards/001869/card57569.html                   |  229 +
+ cards/001869/card57707.html                   |  229 +
+ cards/001869/card57716.html                   |  229 +
+ cards/001869/files/57569_72463.html           |  655 +++
+ cards/001869/files/57569_ruby_72423.zip       |  Bin 0 -> 44578 bytes
+ cards/001869/files/57707_72462.html           |  500 ++
+ cards/001869/files/57707_ruby_72422.zip       |  Bin 0 -> 22940 bytes
+ cards/001869/files/57716_72461.html           | 7787 +++++++++++++++++++++++++
+ cards/001869/files/57716_ruby_72421.zip       |  Bin 0 -> 227750 bytes
+ guide/images/roudoku.png                      |  Bin 0 -> 15765 bytes
+ guide/roudoku.css                             |   58 +
+ guide/roudoku.html                            |   93 +
+ soramoyou/soramoyou2020.html                  |  241 +
+ soramoyou/soramoyouindex.html                 |  210 +-
+ 107 files changed, 18805 insertions(+), 2712 deletions(-)
+Date: Fri Jan  1 09:05:48 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Dec 31 09:30 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 44578 Jan  1 09:05 ./aozorabunko/cards/001869/files/57569_ruby_72423.zip
+1/3: ./aozorabunko/cards/001869/files/57569_ruby_72423.zip
+>> add 57569_ruby_omoichigai_monogatari.txt
+>> add 57569_ruby_utf8_omoichigai_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card57569.html
+>> 思い違い物語、山本周五郎
+-rwxrwxrwx 1 level level 22940 Jan  1 09:05 ./aozorabunko/cards/001869/files/57707_ruby_72422.zip
+2/3: ./aozorabunko/cards/001869/files/57707_ruby_72422.zip
+>> add 57707_ruby_hannosuke_shugen.txt
+>> add 57707_ruby_utf8_hannosuke_shugen.txt
+>> https://www.aozora.gr.jp/cards/001869/card57707.html
+>> 半之助祝言、山本周五郎
+-rwxrwxrwx 1 level level 227750 Jan  1 09:05 ./aozorabunko/cards/001869/files/57716_ruby_72421.zip
+3/3: ./aozorabunko/cards/001869/files/57716_ruby_72421.zip
+>> add 57716_ruby_furyu_taiheiki.txt
+>> add 57716_ruby_utf8_furyu_taiheiki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57716.html
+>> 風流太平記、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31978/402 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan  1 09:05:42 JST 2021
+End  : Fri Jan  1 09:05:53 JST 2021
