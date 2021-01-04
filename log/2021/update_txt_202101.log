@@ -96,3 +96,95 @@ Title Total : 31982/402 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan  2 09:15:30 JST 2021
 End  : Sat Jan  2 09:15:39 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan  3 09:20:47 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a6c3a7d826..1f386e4c8d  master     -> origin/master
+Updating a6c3a7d826..1f386e4c8d
+Fast-forward
+ cards/001341/card56169.html                   |   2 +-
+ cards/001341/card60400.html                   |   2 +-
+ cards/002043/card60784.html                   | 231 ++++++++++++++++++++++++++
+ cards/002043/files/60784_72420.html           | 142 ++++++++++++++++
+ cards/002043/files/60784_ruby_72419.zip       | Bin 0 -> 6645 bytes
+ 52 files changed, 939 insertions(+), 583 deletions(-)
+Date: Sun Jan  3 09:20:54 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  2 09:15 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6645 Jan  3 09:20 ./aozorabunko/cards/002043/files/60784_ruby_72419.zip
+1/1: ./aozorabunko/cards/002043/files/60784_ruby_72419.zip
+>> add 60784_NPD_ruby_shingeki_01.txt
+>> add 60784_NPD_ruby_utf8_shingeki_01.txt
+>> https://www.aozora.gr.jp/cards/002043/card60784.html
+>> 真劇シリーズ、REAL DRAMAS、第一話　分身、NO. 1: HIS SECOND SELF、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31982/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun Jan  3 09:20:47 JST 2021
+End  : Sun Jan  3 09:20:59 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan  4 09:56:56 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1f386e4c8d..d22b62db92  master     -> origin/master
+Updating 1f386e4c8d..d22b62db92
+Fast-forward
+ cards/000961/card4820.html                    |   10 +-
+ cards/000961/files/4820_20588.html            | 4755 +++++++++++++------------
+ cards/000961/files/4820_ruby_20538.zip        |  Bin 215581 -> 213656 bytes
+ cards/001091/card59835.html                   |  247 ++
+ cards/001091/files/59835_72466.html           |  127 +
+ cards/001091/files/59835_ruby_72426.zip       |  Bin 0 -> 3853 bytes
+ cards/001095/card42851.html                   |    8 +-
+ cards/001095/files/42851_34347.html           |   26 +-
+ cards/001095/files/42851_ruby_33485.zip       |  Bin 6011 -> 6049 bytes
+ cards/001341/card56169.html                   |    2 +-
+ cards/001341/card60400.html                   |    2 +-
+ cards/002043/card60784.html                   |    2 +-
+ cards/002141/card60349.html                   |  229 ++
+ cards/002141/files/60349_72467.html           |   65 +
+ cards/002141/files/60349_ruby_72427.zip       |  Bin 0 -> 3325 bytes
+ 94 files changed, 4629 insertions(+), 3956 deletions(-)
+Date: Mon Jan  4 09:57:04 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  3 11:38 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 213656 Jan  4 09:57 ./aozorabunko/cards/000961/files/4820_ruby_20538.zip
+1/4: ./aozorabunko/cards/000961/files/4820_ruby_20538.zip
+>> update 4820_ruby_03tendo.txt
+>> update 4820_ruby_utf8_03tendo.txt
+>> https://www.aozora.gr.jp/cards/000961/card4820.html
+>> 神曲、LA DIVINA COMMEDIA、天堂、アリギエリ・ダンテ　Alighieri Dante、山川丙三郎訳
+-rwxrwxrwx 1 level level 3853 Jan  4 09:57 ./aozorabunko/cards/001091/files/59835_ruby_72426.zip
+2/4: ./aozorabunko/cards/001091/files/59835_ruby_72426.zip
+>> add 59835_ruby_akazukin.txt
+>> add 59835_ruby_utf8_akazukin.txt
+>> https://www.aozora.gr.jp/cards/001091/card59835.html
+>> 赤ずきん、グリム　Grimm、矢崎源九郎訳
+-rwxrwxrwx 1 level level 6049 Jan  4 09:57 ./aozorabunko/cards/001095/files/42851_ruby_33485.zip
+3/4: ./aozorabunko/cards/001095/files/42851_ruby_33485.zip
+>> update 42851_ruby_ren'airon.txt
+>> update 42851_ruby_utf8_ren'airon.txt
+>> https://www.aozora.gr.jp/cards/001095/card42851.html
+>> 恋愛論、坂口安吾
+-rwxrwxrwx 1 level level 3325 Jan  4 09:57 ./aozorabunko/cards/002141/files/60349_ruby_72427.zip
+4/4: ./aozorabunko/cards/002141/files/60349_ruby_72427.zip
+>> add 60349_ruby_tonneruni_tsuite.txt
+>> add 60349_ruby_utf8_tonneruni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/002141/card60349.html
+>> 「トンネル」に就いて、成瀬無極
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31986/404 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan  4 09:56:56 JST 2021
+End  : Mon Jan  4 09:57:09 JST 2021
