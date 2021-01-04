@@ -188,3 +188,35 @@ Title Total : 31986/404 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan  4 09:56:56 JST 2021
 End  : Mon Jan  4 09:57:09 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jan  5 07:34:28 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d22b62db92..0cfa26fd32  master     -> origin/master
+Updating d22b62db92..0cfa26fd32
+Fast-forward
+ cards/001091/card59835.html                   |    2 +-
+ cards/001224/card46085.html                   |  229 ++
+ cards/001224/files/46085_72468.html           |  161 ++
+ cards/001224/files/46085_ruby_72428.zip       |  Bin 0 -> 12195 bytes
+ cards/002141/card60349.html                   |    2 +-
+ 44 files changed, 19523 insertions(+), 731 deletions(-)
+Date: Tue Jan  5 07:34:41 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  4 09:57 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12195 Jan  5 07:34 ./aozorabunko/cards/001224/files/46085_ruby_72428.zip
+1/1: ./aozorabunko/cards/001224/files/46085_ruby_72428.zip
+>> add 46085_ruby_shirayuki_hime.txt
+>> add 46085_ruby_utf8_shirayuki_hime.txt
+>> https://www.aozora.gr.jp/cards/001224/card46085.html
+>> 白雪姫、久生十蘭
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31988/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jan  5 07:34:28 JST 2021
+End  : Tue Jan  5 07:34:46 JST 2021
