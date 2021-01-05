@@ -220,3 +220,43 @@ Title Total : 31988/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jan  5 07:34:28 JST 2021
 End  : Tue Jan  5 07:34:46 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan  6 07:13:01 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0cfa26fd32..f7aa8700ee  master     -> origin/master
+Updating 0cfa26fd32..f7aa8700ee
+Fast-forward
+ cards/000236/card1262.html                    |  14 +-
+ cards/000236/files/1262_34391.html            |  50 +++---
+ cards/000236/files/1262_ruby_33548.zip        | Bin 29143 -> 29000 bytes
+ cards/001224/card46085.html                   |   2 +-
+ cards/001403/card55066.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55066_72469.html           |  76 +++++++++
+ cards/001403/files/55066_ruby_72429.zip       | Bin 0 -> 5175 bytes
+ 41 files changed, 573 insertions(+), 258 deletions(-)
+Date: Wed Jan  6 07:13:06 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  5 07:34 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 29000 Jan  6 07:13 ./aozorabunko/cards/000236/files/1262_ruby_33548.zip
+1/2: ./aozorabunko/cards/000236/files/1262_ruby_33548.zip
+>> update 1262_ruby_shino_kaisosen.txt
+>> update 1262_ruby_utf8_shino_kaisosen.txt
+>> https://www.aozora.gr.jp/cards/000236/card1262.html
+>> 死の快走船、大阪圭吉
+-rwxrwxrwx 1 level level 5175 Jan  6 07:13 ./aozorabunko/cards/001403/files/55066_ruby_72429.zip
+2/2: ./aozorabunko/cards/001403/files/55066_ruby_72429.zip
+>> add 55066_ruby_miryokuto_shitashimito_bini_sugureta_ryokanno_sho.txt
+>> add 55066_ruby_utf8_miryokuto_shitashimito_bini_sugureta_ryokanno_sho.txt
+>> https://www.aozora.gr.jp/cards/001403/card55066.html
+>> 魅力と親しみと美に優れた良寛の書、北大路魯山人
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31990/404 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan  6 07:13:01 JST 2021
+End  : Wed Jan  6 07:13:11 JST 2021
