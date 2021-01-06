@@ -260,3 +260,34 @@ Title Total : 31990/404 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan  6 07:13:01 JST 2021
 End  : Wed Jan  6 07:13:11 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jan  7 07:06:12 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f7aa8700ee..1bd17139bd  master     -> origin/master
+Updating f7aa8700ee..1bd17139bd
+Fast-forward
+ cards/001403/card55066.html                   |   2 +-
+ cards/001801/card59534.html                   | 229 ++++++++++++++++++++++++++
+ cards/001801/files/59534_72470.html           | 149 +++++++++++++++++
+ cards/001801/files/59534_ruby_72430.zip       | Bin 0 -> 7155 bytes
+ 61 files changed, 908 insertions(+), 533 deletions(-)
+Date: Thu Jan  7 07:06:17 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  6 07:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7155 Jan  7 07:06 ./aozorabunko/cards/001801/files/59534_ruby_72430.zip
+1/1: ./aozorabunko/cards/001801/files/59534_ruby_72430.zip
+>> add 59534_ruby_matteiru_onna.txt
+>> add 59534_ruby_utf8_matteiru_onna.txt
+>> https://www.aozora.gr.jp/cards/001801/card59534.html
+>> 待っている女、山川方夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31992/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jan  7 07:06:12 JST 2021
+End  : Thu Jan  7 07:06:22 JST 2021
