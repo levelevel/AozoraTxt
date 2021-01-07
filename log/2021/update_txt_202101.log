@@ -291,3 +291,43 @@ Title Total : 31992/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jan  7 07:06:12 JST 2021
 End  : Thu Jan  7 07:06:22 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan  8 07:07:48 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1bd17139bd..9bcbeb7609  master     -> origin/master
+Updating 1bd17139bd..9bcbeb7609
+Fast-forward
+ cards/001475/card52638.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card54216.html                   | 229 +++++++++++++++++++++++++
+ cards/001475/files/52638_72472.html           | 117 +++++++++++++
+ cards/001475/files/52638_ruby_72432.zip       | Bin 0 -> 4145 bytes
+ cards/001475/files/54216_72471.html           | 101 +++++++++++
+ cards/001475/files/54216_ruby_72431.zip       | Bin 0 -> 6047 bytes
+ cards/001801/card59534.html                   |   2 +-
+ 106 files changed, 3821 insertions(+), 3145 deletions(-)
+Date: Fri Jan  8 07:07:54 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  7 07:06 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4145 Jan  8 07:07 ./aozorabunko/cards/001475/files/52638_ruby_72432.zip
+1/2: ./aozorabunko/cards/001475/files/52638_ruby_72432.zip
+>> add 52638_ruby_jitsugetsu_boru.txt
+>> add 52638_ruby_utf8_jitsugetsu_boru.txt
+>> https://www.aozora.gr.jp/cards/001475/card52638.html
+>> 日月ボール、小川未明
+-rwxrwxrwx 1 level level 6047 Jan  8 07:07 ./aozorabunko/cards/001475/files/54216_ruby_72431.zip
+2/2: ./aozorabunko/cards/001475/files/54216_ruby_72431.zip
+>> add 54216_ruby_chiisana_konjikino_tsubasa.txt
+>> add 54216_ruby_utf8_chiisana_konjikino_tsubasa.txt
+>> https://www.aozora.gr.jp/cards/001475/card54216.html
+>> 小さな金色の翼、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31996/404 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan  8 07:07:48 JST 2021
+End  : Fri Jan  8 07:07:58 JST 2021
