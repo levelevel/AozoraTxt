@@ -331,3 +331,36 @@ Title Total : 31996/404 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jan  8 07:07:48 JST 2021
 End  : Fri Jan  8 07:07:58 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jan  9 07:05:38 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9bcbeb7609..eaf82a3a65  master     -> origin/master
+Updating 9bcbeb7609..eaf82a3a65
+Fast-forward
+ cards/001383/card58152.html                   | 234 ++++++++++++++++++++++++++
+ cards/001383/files/58152_72473.html           | 161 ++++++++++++++++++
+ cards/001383/files/58152_ruby_72433.zip       | Bin 0 -> 6641 bytes
+ guide/aozora_bunko_faq.html                   |  98 ++++++-----
+ guide/aozora_bunko_hayawakari.html            |  36 ++--
+ guide/roudoku.html                            |   2 +-
+ 52 files changed, 1638 insertions(+), 1231 deletions(-)
+Date: Sat Jan  9 07:05:42 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  8 07:07 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6641 Jan  9 07:05 ./aozorabunko/cards/001383/files/58152_ruby_72433.zip
+1/1: ./aozorabunko/cards/001383/files/58152_ruby_72433.zip
+>> add 58152_ruby_gikyokutai_shosetsu_manatsuno_yono_koi.txt
+>> add 58152_ruby_utf8_gikyokutai_shosetsu_manatsuno_yono_koi.txt
+>> https://www.aozora.gr.jp/cards/001383/card58152.html
+>> 戯曲体小説　真夏の夜の恋、谷崎潤一郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 31998/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jan  9 07:05:38 JST 2021
+End  : Sat Jan  9 07:05:45 JST 2021
