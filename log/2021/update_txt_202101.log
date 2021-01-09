@@ -364,3 +364,33 @@ Title Total : 31998/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan  9 07:05:38 JST 2021
 End  : Sat Jan  9 07:05:45 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan 10 07:37:42 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   eaf82a3a65..b56dd33f8b  master     -> origin/master
+Updating eaf82a3a65..b56dd33f8b
+Fast-forward
+ cards/000296/card58605.html                   | 234 ++++++++++++++++++++++++++
+ cards/000296/files/58605_72474.html           | 125 ++++++++++++++
+ cards/000296/files/58605_ruby_72434.zip       | Bin 0 -> 26547 bytes
+ 55 files changed, 1140 insertions(+), 784 deletions(-)
+Date: Sun Jan 10 07:37:48 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan  9 07:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 26547 Jan 10 07:37 ./aozorabunko/cards/000296/files/58605_ruby_72434.zip
+1/1: ./aozorabunko/cards/000296/files/58605_ruby_72434.zip
+>> add 58605_ruby_teishitsu_ron.txt
+>> add 58605_ruby_utf8_teishitsu_ron.txt
+>> https://www.aozora.gr.jp/cards/000296/card58605.html
+>> 帝室論、福沢諭吉
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32000/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan 10 07:37:42 JST 2021
+End  : Sun Jan 10 07:37:54 JST 2021
