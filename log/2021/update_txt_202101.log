@@ -583,3 +583,42 @@ Title Total : 32014/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jan 16 08:31:27 JST 2021
 End  : Sat Jan 16 08:31:39 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jan 17 08:04:50 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d6da32f6b1..c81ec194eb  master     -> origin/master
+Updating d6da32f6b1..c81ec194eb
+Fast-forward
+ cards/000326/card59496.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59496_72482.html           | 132 ++++++++++++++
+ cards/000326/files/59496_ruby_72442.zip       | Bin 0 -> 7046 bytes
+ cards/001569/card59191.html                   |   8 +-
+ cards/001569/files/59191_72480.html           |   6 +-
+ cards/001569/files/59191_ruby_72440.zip       | Bin 8654 -> 8602 bytes
+ 96 files changed, 1389 insertions(+), 942 deletions(-)
+Date: Sun Jan 17 08:04:55 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 16 08:31 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 7046 Jan 17 08:04 ./aozorabunko/cards/000326/files/59496_ruby_72442.zip
+1/2: ./aozorabunko/cards/000326/files/59496_ruby_72442.zip
+>> add 59496_ruby_mudabone.txt
+>> add 59496_ruby_utf8_mudabone.txt
+>> https://www.aozora.gr.jp/cards/000326/card59496.html
+>> 無駄骨、モーリス・ルヴェル　Maurice Level、田中早苗訳
+-rwxrwxrwx 1 level level 8602 Jan 17 08:04 ./aozorabunko/cards/001569/files/59191_ruby_72440.zip
+2/2: ./aozorabunko/cards/001569/files/59191_ruby_72440.zip
+>> update 59191_ruby_kirio_kesu_hanashi.txt
+>> update 59191_ruby_utf8_kirio_kesu_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001569/card59191.html
+>> 霧を消す話、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32016/404 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jan 17 08:04:50 JST 2021
+End  : Sun Jan 17 08:05:00 JST 2021
