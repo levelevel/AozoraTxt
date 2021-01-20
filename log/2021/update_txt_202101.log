@@ -713,3 +713,33 @@ Title Total : 32022/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Jan 20 07:13:09 JST 2021
 End  : Wed Jan 20 07:13:19 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jan 21 07:36:16 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d6b30f48e3..dfe46e4b5e  master     -> origin/master
+Updating d6b30f48e3..dfe46e4b5e
+Fast-forward
+ cards/000311/card46263.html                   | 229 ++++++++++
+ cards/000311/files/46263_72486.html           | 583 ++++++++++++++++++++++++++
+ cards/000311/files/46263_txt_72501.zip        | Bin 0 -> 14528 bytes
+ 38 files changed, 1399 insertions(+), 593 deletions(-)
+Date: Thu Jan 21 07:36:21 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 20 07:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 14528 Jan 21 07:36 ./aozorabunko/cards/000311/files/46263_txt_72501.zip
+1/1: ./aozorabunko/cards/000311/files/46263_txt_72501.zip
+>> add 46263_txt_33nikki1950.txt
+>> add 46263_txt_utf8_33nikki1950.txt
+>> https://www.aozora.gr.jp/cards/000311/card46263.html
+>> 日記、一九五〇年（昭和二十五年）、宮本百合子
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32024/404 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Jan 21 07:36:16 JST 2021
+End  : Thu Jan 21 07:36:25 JST 2021
