@@ -121,7 +121,7 @@
 ./aozorabunko/cards/001699/files/57254_ruby_57740.zip
 ./aozorabunko/cards/001699/files/57255_ruby_57669.zip
 ./aozorabunko/cards/001699/files/57341_ruby_57661.zip
-./aozorabunko/cards/001699/files/57342_ruby_57667.zip
+./aozorabunko/cards/001699/files/57342_ruby_57667.zip	2021/01/27
 ./aozorabunko/cards/001699/files/57443_txt_58143.zip
 ./aozorabunko/cards/001699/files/57474_ruby_58686.zip
 ./aozorabunko/cards/001699/files/57858_ruby_59671.zip
