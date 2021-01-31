@@ -1,0 +1,39 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Feb  1 08:42:09 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   eb474da261..d4df3e7680  master     -> origin/master
+Updating eb474da261..d4df3e7680
+Fast-forward
+ cards/000023/card55396.html                   | 234 ++++++++++++++++++++++++
+ cards/000023/card55404.html                   | 234 ++++++++++++++++++++++++
+ cards/000023/files/55396_72637.html           | 252 ++++++++++++++++++++++++++
+ cards/000023/files/55396_ruby_72593.zip       | Bin 0 -> 9785 bytes
+ cards/000023/files/55404_72636.html           | 191 +++++++++++++++++++
+ cards/000023/files/55404_ruby_72592.zip       | Bin 0 -> 10956 bytes
+ 47 files changed, 2077 insertions(+), 1171 deletions(-)
+Date: Mon Feb  1 08:42:14 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Jan 31 08:36 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9785 Feb  1 08:42 ./aozorabunko/cards/000023/files/55396_ruby_72593.zip
+1/2: ./aozorabunko/cards/000023/files/55396_ruby_72593.zip
+>> add 55396_ruby_kusaikire.txt
+>> add 55396_ruby_utf8_kusaikire.txt
+>> https://www.aozora.gr.jp/cards/000023/card55396.html
+>> 草いきれ、徳田秋聲
+-rwxrwxrwx 1 level level 10956 Feb  1 08:42 ./aozorabunko/cards/000023/files/55404_ruby_72592.zip
+2/2: ./aozorabunko/cards/000023/files/55404_ruby_72592.zip
+>> add 55404_ruby_bishono_uzu.txt
+>> add 55404_ruby_utf8_bishono_uzu.txt
+>> https://www.aozora.gr.jp/cards/000023/card55404.html
+>> 微笑の渦、徳田秋聲
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32056/404 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Feb  1 08:42:09 JST 2021
+End  : Mon Feb  1 08:42:19 JST 2021
