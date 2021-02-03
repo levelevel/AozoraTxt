@@ -106,3 +106,33 @@ Title Total : 32060/406 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Feb  3 07:32:31 JST 2021
 End  : Wed Feb  3 07:33:05 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Feb  4 07:18:21 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b2002e1ecc..a5dea6482e  master     -> origin/master
+Updating b2002e1ecc..a5dea6482e
+Fast-forward
+ cards/001869/card57772.html                   | 229 +++++++++++++++
+ cards/001869/files/57772_72640.html           | 406 ++++++++++++++++++++++++++
+ cards/001869/files/57772_ruby_72596.zip       | Bin 0 -> 30676 bytes
+ 30 files changed, 1138 insertions(+), 509 deletions(-)
+Date: Thu Feb  4 07:18:27 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  3 07:33 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 30676 Feb  4 07:18 ./aozorabunko/cards/001869/files/57772_ruby_72596.zip
+1/1: ./aozorabunko/cards/001869/files/57772_ruby_72596.zip
+>> add 57772_ruby_wakakihino_settsuno_kami.txt
+>> add 57772_ruby_utf8_wakakihino_settsuno_kami.txt
+>> https://www.aozora.gr.jp/cards/001869/card57772.html
+>> 若き日の摂津守、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32062/406 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Feb  4 07:18:21 JST 2021
+End  : Thu Feb  4 07:18:31 JST 2021
