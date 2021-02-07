@@ -334,3 +334,42 @@ Title Total : 32070/406 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Feb  7 11:25:35 JST 2021
 End  : Sun Feb  7 11:25:46 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Feb  8 07:18:33 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0608e02c94..243f5a7821  master     -> origin/master
+Updating 0608e02c94..243f5a7821
+Fast-forward
+ cards/001475/card52613.html                   | 236 ++++++++++++++++++++++++++
+ cards/001475/card53122.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/files/52613_72646.html           |  88 ++++++++++
+ cards/001475/files/52613_ruby_72602.zip       | Bin 0 -> 3370 bytes
+ cards/001475/files/53122_72645.html           | 108 ++++++++++++
+ cards/001475/files/53122_ruby_72601.zip       | Bin 0 -> 5631 bytes
+ 56 files changed, 2164 insertions(+), 1498 deletions(-)
+Date: Mon Feb  8 07:18:41 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  7 11:25 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3370 Feb  8 07:18 ./aozorabunko/cards/001475/files/52613_ruby_72602.zip
+1/2: ./aozorabunko/cards/001475/files/52613_ruby_72602.zip
+>> add 52613_ruby_atamao_hanareta_boshi.txt
+>> add 52613_ruby_utf8_atamao_hanareta_boshi.txt
+>> https://www.aozora.gr.jp/cards/001475/card52613.html
+>> 頭をはなれた帽子、小川未明
+-rwxrwxrwx 1 level level 5631 Feb  8 07:18 ./aozorabunko/cards/001475/files/53122_ruby_72601.zip
+2/2: ./aozorabunko/cards/001475/files/53122_ruby_72601.zip
+>> add 53122_ruby_aru_fuyuno_banno_koto.txt
+>> add 53122_ruby_utf8_aru_fuyuno_banno_koto.txt
+>> https://www.aozora.gr.jp/cards/001475/card53122.html
+>> ある冬の晩のこと、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32074/406 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Feb  8 07:18:33 JST 2021
+End  : Mon Feb  8 07:18:48 JST 2021
