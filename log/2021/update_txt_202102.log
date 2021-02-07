@@ -295,3 +295,42 @@ Title Total : 32066/406 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Feb  6 07:45:41 JST 2021
 End  : Sat Feb  6 07:45:50 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Feb  7 11:25:35 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4ecccc27e2..0608e02c94  master     -> origin/master
+Updating 4ecccc27e2..0608e02c94
+Fast-forward
+ cards/000214/card48816.html                   | 243 ++++++++++++++
+ cards/000214/card51373.html                   | 243 ++++++++++++++
+ cards/000214/files/48816_72643.html           |  71 ++++
+ cards/000214/files/48816_ruby_72599.zip       | Bin 0 -> 2591 bytes
+ cards/000214/files/51373_72644.html           |  64 ++++
+ cards/000214/files/51373_ruby_72600.zip       | Bin 0 -> 1085 bytes
+ 123 files changed, 4167 insertions(+), 3807 deletions(-)
+Date: Sun Feb  7 11:25:41 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  6 07:45 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2591 Feb  7 11:25 ./aozorabunko/cards/000214/files/48816_ruby_72599.zip
+1/2: ./aozorabunko/cards/000214/files/48816_ruby_72599.zip
+>> add 48816_ruby_aru_tokini.txt
+>> add 48816_ruby_utf8_aru_tokini.txt
+>> https://www.aozora.gr.jp/cards/000214/card48816.html
+>> ある時に、田山録弥
+-rwxrwxrwx 1 level level 1085 Feb  7 11:25 ./aozorabunko/cards/000214/files/51373_ruby_72600.zip
+2/2: ./aozorabunko/cards/000214/files/51373_ruby_72600.zip
+>> add 51373_ruby_dokuto_kusuri_jo.txt
+>> add 51373_ruby_utf8_dokuto_kusuri_jo.txt
+>> https://www.aozora.gr.jp/cards/000214/card51373.html
+>> 「毒と薬」序、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32070/406 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Feb  7 11:25:35 JST 2021
+End  : Sun Feb  7 11:25:46 JST 2021
