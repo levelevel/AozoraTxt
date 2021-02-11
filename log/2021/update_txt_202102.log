@@ -403,3 +403,73 @@ Title Total : 32076/406 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Feb  9 07:11:28 JST 2021
 End  : Tue Feb  9 07:11:38 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb 10 07:02:45 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   83fc60d71c..eba29b164f  master     -> origin/master
+Updating 83fc60d71c..eba29b164f
+Fast-forward
+ cards/000051/card60584.html                   | 238 ++++++++++++++++++++++++++
+ cards/000051/files/60584_72378.html           | 186 ++++++++++++++++++++
+ cards/000051/files/60584_ruby_72377.zip       | Bin 0 -> 37245 bytes
+ guide/roudoku.html                            |   7 +-
+ 36 files changed, 931 insertions(+), 510 deletions(-)
+Date: Wed Feb 10 07:02:50 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Feb  9 07:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 37245 Feb 10 07:02 ./aozorabunko/cards/000051/files/60584_ruby_72377.zip
+1/1: ./aozorabunko/cards/000051/files/60584_ruby_72377.zip
+>> add 60584_NPD_ruby_ikkanshogi.txt
+>> add 60584_NPD_ruby_utf8_ikkanshogi.txt
+>> https://www.aozora.gr.jp/cards/000051/card60584.html
+>> 一貫章義（現代訳）、幸田露伴、中村喜治訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32076/408 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Feb 10 07:02:45 JST 2021
+End  : Wed Feb 10 07:02:53 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Feb 11 10:27:58 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   eba29b164f..dcea289606  master     -> origin/master
+Updating eba29b164f..dcea289606
+Fast-forward
+ cards/000933/card47796.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/card47802.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47796_72648.html           |  69 ++++++++
+ cards/000933/files/47796_ruby_72604.zip       | Bin 0 -> 3623 bytes
+ cards/000933/files/47802_72649.html           |  68 ++++++++
+ cards/000933/files/47802_ruby_72605.zip       | Bin 0 -> 4109 bytes
+ 88 files changed, 3500 insertions(+), 2825 deletions(-)
+Date: Thu Feb 11 10:28:04 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Feb 10 07:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 3623 Feb 11 10:28 ./aozorabunko/cards/000933/files/47796_ruby_72604.zip
+1/2: ./aozorabunko/cards/000933/files/47796_ruby_72604.zip
+>> add 47796_ruby_kusazoshito_koshakuno_sekai.txt
+>> add 47796_ruby_utf8_kusazoshito_koshakuno_sekai.txt
+>> https://www.aozora.gr.jp/cards/000933/card47796.html
+>> 草双紙と講釈の世界、折口信夫
+-rwxrwxrwx 1 level level 4109 Feb 11 10:28 ./aozorabunko/cards/000933/files/47802_ruby_72605.zip
+2/2: ./aozorabunko/cards/000933/files/47802_ruby_72605.zip
+>> add 47802_ruby_shibaino_hanashi.txt
+>> add 47802_ruby_utf8_shibaino_hanashi.txt
+>> https://www.aozora.gr.jp/cards/000933/card47802.html
+>> 芝居の話、折口信夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32080/408 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Feb 11 10:27:58 JST 2021
+End  : Thu Feb 11 10:28:09 JST 2021
