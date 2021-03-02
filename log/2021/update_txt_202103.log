@@ -37,3 +37,72 @@ Title Total : 32144/408 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Mar  1 08:44:44 JST 2021
 End  : Mon Mar  1 08:44:57 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar  2 07:10:30 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   57f784d6d9..61d703a0de  master     -> origin/master
+Updating 57f784d6d9..61d703a0de
+Fast-forward
+ cards/002043/card60866.html                   | 231 ++++++++++++++++++++++++++
+ cards/002043/files/60866_72732.html           | 156 +++++++++++++++++
+ cards/002043/files/60866_ruby_72731.zip       | Bin 0 -> 6585 bytes
+ 47 files changed, 1026 insertions(+), 652 deletions(-)
+Date: Tue Mar  2 07:10:34 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  1 08:44 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6585 Mar  2 07:10 ./aozorabunko/cards/002043/files/60866_ruby_72731.zip
+1/1: ./aozorabunko/cards/002043/files/60866_ruby_72731.zip
+>> add 60866_NPD_ruby_shingeki_03.txt
+>> add 60866_NPD_ruby_utf8_shingeki_03.txt
+>> https://www.aozora.gr.jp/cards/002043/card60866.html
+>> 真劇シリーズ、REAL DRAMAS、第三話　請求書外、NO. 3: NOT IN THE BILL、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32144/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Tue Mar  2 07:10:30 JST 2021
+End  : Tue Mar  2 07:10:39 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar  3 07:15:38 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   61d703a0de..a0620c6861  master     -> origin/master
+Updating 61d703a0de..a0620c6861
+Fast-forward
+ cards/000214/card48975.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48975_72803.html           |  90 ++++++++++
+ cards/000214/files/48975_ruby_72751.zip       | Bin 0 -> 4174 bytes
+ cards/001581/card60170.html                   | 234 +++++++++++++++++++++++++
+ cards/001581/files/60170_72802.html           |  60 +++++++
+ cards/001581/files/60170_ruby_72750.zip       | Bin 0 -> 2510 bytes
+ 61 files changed, 1917 insertions(+), 1299 deletions(-)
+Date: Wed Mar  3 07:15:42 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  2 07:10 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 4174 Mar  3 07:15 ./aozorabunko/cards/000214/files/48975_ruby_72751.zip
+1/2: ./aozorabunko/cards/000214/files/48975_ruby_72751.zip
+>> add 48975_ruby_masamunekunni_tsuite.txt
+>> add 48975_ruby_utf8_masamunekunni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000214/card48975.html
+>> 正宗君について、田山録弥
+-rwxrwxrwx 1 level level 2510 Mar  3 07:15 ./aozorabunko/cards/001581/files/60170_ruby_72750.zip
+2/2: ./aozorabunko/cards/001581/files/60170_ruby_72750.zip
+>> add 60170_ruby_kusoto_shiteno_shinkon_ryoko.txt
+>> add 60170_ruby_utf8_kusoto_shiteno_shinkon_ryoko.txt
+>> https://www.aozora.gr.jp/cards/001581/card60170.html
+>> 空想としての新婚旅行、正宗白鳥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32148/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar  3 07:15:38 JST 2021
+End  : Wed Mar  3 07:15:45 JST 2021
