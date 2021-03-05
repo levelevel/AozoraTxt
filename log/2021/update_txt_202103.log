@@ -186,3 +186,51 @@ Title Total : 32156/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Mar  5 07:13:43 JST 2021
 End  : Fri Mar  5 07:13:51 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar  6 07:46:29 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   51b15fb8ae..4b6bee8adf  master     -> origin/master
+Updating 51b15fb8ae..4b6bee8adf
+Fast-forward
+ cards/000083/card47565.html                   |  234 ++
+ cards/000083/files/47565_72808.html           | 3439 +++++++++++++++++++++++++
+ cards/000083/files/47565_ruby_72756.zip       |  Bin 0 -> 103821 bytes
+ cards/000237/card50047.html                   |  229 ++
+ cards/000237/files/50047_72809.html           |   64 +
+ cards/000237/files/50047_txt_72757.zip        |  Bin 0 -> 3103 bytes
+ cards/000933/card47810.html                   |  229 ++
+ cards/000933/files/47810_72810.html           |   65 +
+ cards/000933/files/47810_ruby_72758.zip       |  Bin 0 -> 3125 bytes
+ 69 files changed, 5861 insertions(+), 2020 deletions(-)
+Date: Sat Mar  6 07:46:32 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar  5 07:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 103821 Mar  6 07:46 ./aozorabunko/cards/000083/files/47565_ruby_72756.zip
+1/3: ./aozorabunko/cards/000083/files/47565_ruby_72756.zip
+>> add 47565_ruby_dainino_seppun.txt
+>> add 47565_ruby_utf8_dainino_seppun.txt
+>> https://www.aozora.gr.jp/cards/000083/card47565.html
+>> 第二の接吻、菊池寛
+-rwxrwxrwx 1 level level 3103 Mar  6 07:46 ./aozorabunko/cards/000237/files/50047_txt_72757.zip
+2/3: ./aozorabunko/cards/000237/files/50047_txt_72757.zip
+>> add 50047_txt_machidamurano_kosetsuen.txt
+>> add 50047_txt_utf8_machidamurano_kosetsuen.txt
+>> https://www.aozora.gr.jp/cards/000237/card50047.html
+>> 町田村の香雪園、大町桂月
+-rwxrwxrwx 1 level level 3125 Mar  6 07:46 ./aozorabunko/cards/000933/files/47810_ruby_72758.zip
+3/3: ./aozorabunko/cards/000933/files/47810_ruby_72758.zip
+>> add 47810_ruby_tsuruya_danjuro.txt
+>> add 47810_ruby_utf8_tsuruya_danjuro.txt
+>> https://www.aozora.gr.jp/cards/000933/card47810.html
+>> 鶴屋団十郎、折口信夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32162/410 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar  6 07:46:29 JST 2021
+End  : Sat Mar  6 07:46:37 JST 2021
