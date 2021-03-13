@@ -441,3 +441,60 @@ Title Total : 32180/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Mar 12 07:02:38 JST 2021
 End  : Fri Mar 12 07:02:44 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar 13 10:55:35 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   083da6eaf9..7f600c0309  master     -> origin/master
+Updating 083da6eaf9..7f600c0309
+Fast-forward
+ cards/000293/card60289.html                   | 234 +++++++
+ cards/000293/card60440.html                   | 234 +++++++
+ cards/000293/files/60289_72823.html           | 192 ++++++
+ cards/000293/files/60289_ruby_72771.zip       | Bin 0 -> 9106 bytes
+ cards/000293/files/60440_72821.html           | 873 ++++++++++++++++++++++++++
+ cards/000293/files/60440_ruby_72769.zip       | Bin 0 -> 10491 bytes
+ cards/001168/card58205.html                   | 229 +++++++
+ cards/001168/files/58205_72822.html           |  59 ++
+ cards/001168/files/58205_txt_72770.zip        | Bin 0 -> 1826 bytes
+ cards/001763/card60325.html                   | 229 +++++++
+ cards/001763/files/60325_72820.html           |  63 ++
+ cards/001763/files/60325_txt_72768.zip        | Bin 0 -> 2843 bytes
+ 120 files changed, 5349 insertions(+), 3241 deletions(-)
+Date: Sat Mar 13 10:55:38 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 12 07:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 9106 Mar 13 10:55 ./aozorabunko/cards/000293/files/60289_ruby_72771.zip
+1/4: ./aozorabunko/cards/000293/files/60289_ruby_72771.zip
+>> add 60289_ruby_wasure_gatami.txt
+>> add 60289_ruby_utf8_wasure_gatami.txt
+>> https://www.aozora.gr.jp/cards/000293/card60289.html
+>> 忘れがたみ、原民喜
+-rwxrwxrwx 1 level level 10491 Mar 13 10:55 ./aozorabunko/cards/000293/files/60440_ruby_72769.zip
+2/4: ./aozorabunko/cards/000293/files/60440_ruby_72769.zip
+>> add 60440_ruby_kagero_dansho.txt
+>> add 60440_ruby_utf8_kagero_dansho.txt
+>> https://www.aozora.gr.jp/cards/000293/card60440.html
+>> かげろふ断章、原民喜
+-rwxrwxrwx 1 level level 1826 Mar 13 10:55 ./aozorabunko/cards/001168/files/58205_txt_72770.zip
+3/4: ./aozorabunko/cards/001168/files/58205_txt_72770.zip
+>> add 58205_txt_seito_ketsuto.txt
+>> add 58205_txt_utf8_seito_ketsuto.txt
+>> https://www.aozora.gr.jp/cards/001168/card58205.html
+>> 正と譎と、高村光太郎
+-rwxrwxrwx 1 level level 2843 Mar 13 10:55 ./aozorabunko/cards/001763/files/60325_txt_72768.zip
+4/4: ./aozorabunko/cards/001763/files/60325_txt_72768.zip
+>> add 60325_txt_hara_tamikikun'o_osu.txt
+>> add 60325_txt_utf8_hara_tamikikun'o_osu.txt
+>> https://www.aozora.gr.jp/cards/001763/card60325.html
+>> 原民喜君を推す、佐藤春夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32188/410 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar 13 10:55:35 JST 2021
+End  : Sat Mar 13 10:55:44 JST 2021
