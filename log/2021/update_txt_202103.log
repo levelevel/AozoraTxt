@@ -598,3 +598,42 @@ Title Total : 32196/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar 16 07:02:20 JST 2021
 End  : Tue Mar 16 07:02:29 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 17 07:07:20 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d737ed977a..4187f90a5f  master     -> origin/master
+Updating d737ed977a..4187f90a5f
+Fast-forward
+ cards/000168/card59024.html                   | 229 +++++++++++++
+ cards/000168/card60007.html                   | 234 +++++++++++++
+ cards/000168/files/59024_72828.html           | 477 ++++++++++++++++++++++++++
+ cards/000168/files/59024_ruby_72776.zip       | Bin 0 -> 52700 bytes
+ cards/000168/files/60007_72829.html           | 124 +++++++
+ cards/000168/files/60007_ruby_72777.zip       | Bin 0 -> 4344 bytes
+ 46 files changed, 2219 insertions(+), 1160 deletions(-)
+Date: Wed Mar 17 07:07:23 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 16 07:02 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 52700 Mar 17 07:07 ./aozorabunko/cards/000168/files/59024_ruby_72776.zip
+1/2: ./aozorabunko/cards/000168/files/59024_ruby_72776.zip
+>> add 59024_ruby_kanashimino_daika.txt
+>> add 59024_ruby_utf8_kanashimino_daika.txt
+>> https://www.aozora.gr.jp/cards/000168/card59024.html
+>> 悲しみの代價、横光利一
+-rwxrwxrwx 1 level level 4344 Mar 17 07:07 ./aozorabunko/cards/000168/files/60007_ruby_72777.zip
+2/2: ./aozorabunko/cards/000168/files/60007_ruby_72777.zip
+>> add 60007_ruby_utsukushii_ie.txt
+>> add 60007_ruby_utf8_utsukushii_ie.txt
+>> https://www.aozora.gr.jp/cards/000168/card60007.html
+>> 美しい家、横光利一
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32200/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar 17 07:07:20 JST 2021
+End  : Wed Mar 17 07:07:27 JST 2021
