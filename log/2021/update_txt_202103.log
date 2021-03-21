@@ -775,3 +775,33 @@ Title Total : 32212/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar 21 09:18:08 JST 2021
 End  : Sun Mar 21 09:18:16 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar 22 07:25:08 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   236b574d73..6274399d05  master     -> origin/master
+Updating 236b574d73..6274399d05
+Fast-forward
+ cards/001091/card59846.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/59846_72836.html           |  81 +++++++++
+ cards/001091/files/59846_ruby_72784.zip       | Bin 0 -> 2856 bytes
+ 55 files changed, 1368 insertions(+), 1061 deletions(-)
+Date: Mon Mar 22 07:25:12 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 21 09:18 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2856 Mar 22 07:25 ./aozorabunko/cards/001091/files/59846_ruby_72784.zip
+1/1: ./aozorabunko/cards/001091/files/59846_ruby_72784.zip
+>> add 59846_ruby_hatsukanezumito_kotorito_chozumeno_hanashi.txt
+>> add 59846_ruby_utf8_hatsukanezumito_kotorito_chozumeno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59846.html
+>> ハツカネズミと小鳥と腸づめの話、グリム　Grimm、矢崎源九郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32214/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar 22 07:25:08 JST 2021
+End  : Mon Mar 22 07:25:16 JST 2021
