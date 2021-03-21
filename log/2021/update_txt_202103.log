@@ -736,3 +736,42 @@ Title Total : 32208/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar 20 09:29:29 JST 2021
 End  : Sat Mar 20 09:29:38 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar 21 09:18:08 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e95cd52397..236b574d73  master     -> origin/master
+Updating e95cd52397..236b574d73
+Fast-forward
+ cards/001403/card55068.html                   | 234 ++++++++++++++++++++++++++
+ cards/001403/files/55068_72835.html           |  72 ++++++++
+ cards/001403/files/55068_ruby_72783.zip       | Bin 0 -> 2435 bytes
+ cards/001520/card56749.html                   | 234 ++++++++++++++++++++++++++
+ cards/001520/files/56749_72834.html           |  74 ++++++++
+ cards/001520/files/56749_ruby_72782.zip       | Bin 0 -> 6009 bytes
+ 53 files changed, 1408 insertions(+), 797 deletions(-)
+Date: Sun Mar 21 09:18:12 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 20 09:29 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 2435 Mar 21 09:18 ./aozorabunko/cards/001403/files/55068_ruby_72783.zip
+1/2: ./aozorabunko/cards/001403/files/55068_ruby_72783.zip
+>> add 55068_ruby_yanagi_muneyoshishino_hissekio_tsuji_sonohitoo_miru.txt
+>> add 55068_ruby_utf8_yanagi_muneyoshishino_hissekio_tsuji_sonohitoo_miru.txt
+>> https://www.aozora.gr.jp/cards/001403/card55068.html
+>> 柳宗悦氏の筆蹟を通じその人を見る、――名論の逆を行く氏の書――、北大路魯山人
+-rwxrwxrwx 1 level level 6009 Mar 21 09:18 ./aozorabunko/cards/001520/files/56749_ruby_72782.zip
+2/2: ./aozorabunko/cards/001520/files/56749_ruby_72782.zip
+>> add 56749_ruby_hokushino_mingei.txt
+>> add 56749_ruby_utf8_hokushino_mingei.txt
+>> https://www.aozora.gr.jp/cards/001520/card56749.html
+>> 北支の民藝（放送講演）、柳宗悦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32212/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar 21 09:18:08 JST 2021
+End  : Sun Mar 21 09:18:16 JST 2021
