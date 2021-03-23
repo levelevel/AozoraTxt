@@ -853,3 +853,42 @@ Title Total : 32220/410 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar 23 07:11:17 JST 2021
 End  : Tue Mar 23 07:11:25 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Mar 24 07:12:47 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1c24df02fb..75bea9e438  master     -> origin/master
+Updating 1c24df02fb..75bea9e438
+Fast-forward
+ cards/001475/card52577.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card52602.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52577_72840.html           | 122 ++++++++++++++
+ cards/001475/files/52577_ruby_72788.zip       | Bin 0 -> 56966 bytes
+ cards/001475/files/52602_72841.html           | 137 +++++++++++++++
+ cards/001475/files/52602_ruby_72789.zip       | Bin 0 -> 5952 bytes
+ 46 files changed, 1773 insertions(+), 1053 deletions(-)
+Date: Wed Mar 24 07:12:50 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 23 07:11 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 56966 Mar 24 07:12 ./aozorabunko/cards/001475/files/52577_ruby_72788.zip
+1/2: ./aozorabunko/cards/001475/files/52577_ruby_72788.zip
+>> add 52577_ruby_dozoto_rojin.txt
+>> add 52577_ruby_utf8_dozoto_rojin.txt
+>> https://www.aozora.gr.jp/cards/001475/card52577.html
+>> 銅像と老人、小川未明
+-rwxrwxrwx 1 level level 5952 Mar 24 07:12 ./aozorabunko/cards/001475/files/52602_ruby_72789.zip
+2/2: ./aozorabunko/cards/001475/files/52602_ruby_72789.zip
+>> add 52602_ruby_tomukichito_hoseki.txt
+>> add 52602_ruby_utf8_tomukichito_hoseki.txt
+>> https://www.aozora.gr.jp/cards/001475/card52602.html
+>> トム吉と宝石、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32224/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Mar 24 07:12:47 JST 2021
+End  : Wed Mar 24 07:12:54 JST 2021
