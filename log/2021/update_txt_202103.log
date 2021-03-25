@@ -922,3 +922,51 @@ Title Total : 32226/410 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Mar 25 07:05:11 JST 2021
 End  : Thu Mar 25 07:05:18 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Mar 26 07:26:48 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7cc7bdc96c..3802b6fa16  master     -> origin/master
+Updating 7cc7bdc96c..3802b6fa16
+Fast-forward
+ cards/000067/card59332.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/files/59332_72845.html           |  83 +++++++++
+ cards/000067/files/59332_txt_72793.zip        | Bin 0 -> 5968 bytes
+ cards/001579/card55305.html                   | 234 ++++++++++++++++++++++++++
+ cards/001579/card55613.html                   | 229 +++++++++++++++++++++++++
+ cards/001579/files/55305_72844.html           |  97 +++++++++++
+ cards/001579/files/55305_ruby_72792.zip       | Bin 0 -> 14483 bytes
+ cards/001579/files/55613_72843.html           | 164 ++++++++++++++++++
+ cards/001579/files/55613_ruby_72791.zip       | Bin 0 -> 12309 bytes
+ 131 files changed, 2893 insertions(+), 1857 deletions(-)
+Date: Fri Mar 26 07:26:53 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Mar 25 07:05 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5968 Mar 26 07:26 ./aozorabunko/cards/000067/files/59332_txt_72793.zip
+1/3: ./aozorabunko/cards/000067/files/59332_txt_72793.zip
+>> add 59332_txt_shotokunin_muroo_saisei.txt
+>> add 59332_txt_utf8_shotokunin_muroo_saisei.txt
+>> https://www.aozora.gr.jp/cards/000067/card59332.html
+>> 所得人　室生犀星、萩原朔太郎
+-rwxrwxrwx 1 level level 14483 Mar 26 07:26 ./aozorabunko/cards/001579/files/55305_ruby_72792.zip
+2/3: ./aozorabunko/cards/001579/files/55305_ruby_72792.zip
+>> add 55305_ruby_metanko_den.txt
+>> add 55305_ruby_utf8_metanko_den.txt
+>> https://www.aozora.gr.jp/cards/001579/card55305.html
+>> めたん子傳、室生犀星
+-rwxrwxrwx 1 level level 12309 Mar 26 07:26 ./aozorabunko/cards/001579/files/55613_ruby_72791.zip
+3/3: ./aozorabunko/cards/001579/files/55613_ruby_72791.zip
+>> add 55613_ruby_kamino_nai_ko.txt
+>> add 55613_ruby_utf8_kamino_nai_ko.txt
+>> https://www.aozora.gr.jp/cards/001579/card55613.html
+>> 神のない子、室生犀星
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32232/410 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Mar 26 07:26:48 JST 2021
+End  : Fri Mar 26 07:26:57 JST 2021
