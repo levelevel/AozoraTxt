@@ -142,3 +142,65 @@ Title Total : 32258/410 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Apr  3 09:13:36 JST 2021
 End  : Sat Apr  3 09:13:41 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Apr  4 10:39:51 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   25debe8759..d3e701b82c  master     -> origin/master
+Updating 25debe8759..d3e701b82c
+Fast-forward
+ cards/002043/card60867.html                   | 231 +++++++++++++
+ cards/002043/files/60867_72734.html           | 164 +++++++++
+ cards/002043/files/60867_ruby_72733.zip       | Bin 0 -> 6814 bytes
+ 70 files changed, 1051 insertions(+), 1107 deletions(-)
+Date: Sun Apr  4 10:39:54 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  3 09:13 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 6814 Apr  4 10:39 ./aozorabunko/cards/002043/files/60867_ruby_72733.zip
+1/1: ./aozorabunko/cards/002043/files/60867_ruby_72733.zip
+>> add 60867_NPD_ruby_shingeki_04.txt
+>> add 60867_NPD_ruby_utf8_shingeki_04.txt
+>> https://www.aozora.gr.jp/cards/002043/card60867.html
+>> 真劇シリーズ、REAL DRAMAS、第四話　盗作者、NO. 4: THE PLAGIARIST、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32258/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun Apr  4 10:39:51 JST 2021
+End  : Sun Apr  4 10:39:58 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Apr  5 08:48:58 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d3e701b82c..73253ca8ea  master     -> origin/master
+Updating d3e701b82c..73253ca8ea
+Fast-forward
+ cards/000160/card43532.html                   |    2 +-
+ cards/000160/card43533.html                   |    2 +-
+ cards/001749/card60157.html                   |  229 ++
+ cards/001749/files/60157_73014.html           |  370 +++
+ cards/001749/files/60157_ruby_72967.zip       |  Bin 0 -> 5296 bytes
+ 64 files changed, 7979 insertions(+), 1246 deletions(-)
+Date: Mon Apr  5 08:49:02 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  4 10:39 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 5296 Apr  5 08:49 ./aozorabunko/cards/001749/files/60157_ruby_72967.zip
+1/1: ./aozorabunko/cards/001749/files/60157_ruby_72967.zip
+>> add 60157_ruby_asanashu.txt
+>> add 60157_ruby_utf8_asanashu.txt
+>> https://www.aozora.gr.jp/cards/001749/card60157.html
+>> 朝菜集、三好達治
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32260/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Apr  5 08:48:58 JST 2021
+End  : Mon Apr  5 08:49:06 JST 2021
