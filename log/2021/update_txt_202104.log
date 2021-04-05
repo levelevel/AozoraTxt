@@ -204,3 +204,43 @@ Title Total : 32260/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr  5 08:48:58 JST 2021
 End  : Mon Apr  5 08:49:06 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level/Work
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr  6 08:22:14 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   73253ca8ea..5441cf3471  master     -> origin/master
+Updating 73253ca8ea..5441cf3471
+Fast-forward
+ cards/001224/card46088.html                   | 229 +++++++++++++++++++++++
+ cards/001224/card46089.html                   | 229 +++++++++++++++++++++++
+ cards/001224/files/46088_73015.html           | 116 ++++++++++++
+ cards/001224/files/46088_ruby_72968.zip       | Bin 0 -> 12428 bytes
+ cards/001224/files/46089_73016.html           | 251 ++++++++++++++++++++++++++
+ cards/001224/files/46089_ruby_72969.zip       | Bin 0 -> 34357 bytes
+ soramoyou/soramoyouindex.html                 |  19 ++
+ 106 files changed, 3543 insertions(+), 2479 deletions(-)
+Date: Tue Apr  6 08:22:17 JST 2021
+#Updating
+-rwxrwxrwx 1 level level 0 Apr  5 08:49 ./AozoraTxt/etc/update
+-rwxrwxrwx 1 level level 12428 Apr  6 08:22 ./aozorabunko/cards/001224/files/46088_ruby_72968.zip
+1/2: ./aozorabunko/cards/001224/files/46088_ruby_72968.zip
+>> add 46088_ruby_tamatori_monogatari.txt
+>> add 46088_ruby_utf8_tamatori_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001224/card46088.html
+>> 玉取物語、久生十蘭
+-rwxrwxrwx 1 level level 34357 Apr  6 08:22 ./aozorabunko/cards/001224/files/46089_ruby_72969.zip
+2/2: ./aozorabunko/cards/001224/files/46089_ruby_72969.zip
+>> add 46089_ruby_usuyuki_sho.txt
+>> add 46089_ruby_utf8_usuyuki_sho.txt
+>> https://www.aozora.gr.jp/cards/001224/card46089.html
+>> うすゆき抄、久生十蘭
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32264/412 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr  6 08:22:14 JST 2021
+End  : Tue Apr  6 08:22:22 JST 2021
