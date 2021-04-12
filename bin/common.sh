@@ -1,7 +1,7 @@
 LANG=C
 
 if [ "$BIN" == "" ]; then
-	BIN=~/Work/AozoraTxt/bin
+	BIN=~/AozoraTxt/bin
 fi
 
 AOZORA_ROOT=./aozorabunko
@@ -78,7 +78,8 @@ if [ "$WINDIR" != "" ]; then
 	UNZIP_OPT="x -y -o$TMP"
 	ZIP="$UNZIP"
 	ZIP_OPT="a -y -r"
-	GIT="$WINDIR/Program Files/Git/bin/git.exe"
+#	GIT="$WINDIR/Program Files/Git/bin/git.exe"
+	GIT=git
 else	#Sygwin
 	UNZIP="unzip"
 	UNZIP_OPT="-qoC -d $TMP"
@@ -176,5 +177,5 @@ GetFilenameIllegal(){
 		person_id=`dirname "$txt_file"`
 		person_id=`basename "$person_id"`
 		echo "$txt_file	https://www.aozora.gr.jp/cards/$person_id/card$txt_id.html"
-	done < <( cd $TARGET_ROOT/person; find . -name "[0-9]*.txt" | grep "[^a-z0-9_/.&'+=\-]" ) > $FILENAME_ILLEGAL
+	done < <( cd $TARGET_ROOT/person; find . -name "[0-9]*.txt" | grep "[^a-z0-9_/.&'+=\-]" | sort ) > $FILENAME_ILLEGAL
 }
