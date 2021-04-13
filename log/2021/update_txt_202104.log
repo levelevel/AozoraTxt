@@ -475,3 +475,34 @@ Title Total : 32282/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr 12 10:12:16 JST 2021
 End  : Mon Apr 12 10:12:17 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr 13 09:45:09 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   14011a23d5..8082402685  master     -> origin/master
+Updating files:  44% (30/68)Updating files:  45% (31/68)Updating files:  47% (32/68)Updating files:  48% (33/68)Updating files:  50% (34/68)Updating files:  51% (35/68)Updating files:  52% (36/68)Updating files:  54% (37/68)Updating files:  55% (38/68)Updating files:  57% (39/68)Updating files:  58% (40/68)Updating files:  60% (41/68)Updating files:  61% (42/68)Updating files:  63% (43/68)Updating files:  64% (44/68)Updating files:  66% (45/68)Updating files:  67% (46/68)Updating files:  69% (47/68)Updating files:  70% (48/68)Updating files:  72% (49/68)Updating files:  73% (50/68)Updating files:  75% (51/68)Updating files:  76% (52/68)Updating files:  77% (53/68)Updating files:  79% (54/68)Updating files:  80% (55/68)Updating files:  82% (56/68)Updating files:  83% (57/68)Updating files:  85% (58/68)Updating files:  86% (59/68)Updating files:  88% (60/68)Updating files:  89% (61/68)Updating files:  91% (62/68)Updating files:  92% (63/68)Updating files:  94% (64/68)Updating files:  95% (65/68)Updating files:  97% (66/68)Updating files:  98% (67/68)Updating files: 100% (68/68)Updating files: 100% (68/68), done.
+Updating 14011a23d5..8082402685
+Fast-forward
+ cards/001403/card59646.html                   | 229 ++++++++++++++++++++++++++
+ cards/001403/files/59646_73028.html           |  63 +++++++
+ cards/001403/files/59646_ruby_72981.zip       | Bin 0 -> 1319 bytes
+ 68 files changed, 1161 insertions(+), 872 deletions(-)
+Date: Tue Apr 13 09:46:09 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Apr 12 10:12 ./AozoraTxt/etc/update
+-rw-r--r-- 1 level level 1319 Apr 13 09:46 ./aozorabunko/cards/001403/files/59646_ruby_72981.zip
+1/1: ./aozorabunko/cards/001403/files/59646_ruby_72981.zip
+>> add 59646_ruby_takuan.txt
+>> add 59646_ruby_utf8_takuan.txt
+>> https://www.aozora.gr.jp/cards/001403/card59646.html
+>> 沢庵、北大路魯山人
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32284/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr 13 09:45:09 JST 2021
+End  : Tue Apr 13 09:46:10 JST 2021
