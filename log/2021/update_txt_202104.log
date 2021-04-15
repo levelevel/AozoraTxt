@@ -536,3 +536,36 @@ Title Total : 32286/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Apr 14 09:45:35 JST 2021
 End  : Wed Apr 14 09:45:39 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 15 12:58:30 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   bae8ba094e..bbf5f4c9d7  master     -> origin/master
+Updating bae8ba094e..bbf5f4c9d7
+Fast-forward
+ cards/000214/card48858.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48948.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48858_73031.html           |  77 ++++++++
+ cards/000214/files/48858_ruby_72984.zip       | Bin 0 -> 2931 bytes
+ cards/000214/files/48948_73030.html           |  93 ++++++++++
+ cards/000214/files/48948_ruby_72983.zip       | Bin 0 -> 2609 bytes
+ 66 files changed, 2562 insertions(+), 1873 deletions(-)
+Date: Thu Apr 15 12:58:33 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Apr 14 09:51 ./AozoraTxt/etc/update
+-rw-r--r-- 1 level level 2609 Apr 15 12:58 ./aozorabunko/cards/000214/files/48948_ruby_72983.zip
+1/2: ./aozorabunko/cards/000214/files/48948_ruby_72983.zip
+>> add 48948_ruby_hihyo.txt
+>> add 48948_ruby_utf8_hihyo.txt
+>> https://www.aozora.gr.jp/cards/000214/card48948.html
+>> 批評、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32288/412 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 15 12:58:30 JST 2021
+End  : Thu Apr 15 12:58:34 JST 2021
