@@ -4,3 +4,4 @@ tmp/
 .vscode
 /etc/update
 /etc/update.org
+etc/zip_list.txt

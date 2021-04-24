@@ -77,6 +77,7 @@ fi
 	find $AOZORA_ROOT/cards -maxdepth 3 -name "*.zip" -newer $UPDATE > $TMP_ZIP_LST
 	#    $AOZORA_ROOT/cards/0000001/files/*.zip
 	zip_total=`grep zip "$TMP_ZIP_LST" | wc -l`
+	cat -n $TMP_ZIP_LST
 
 	rm -rf $TMP; mkdir -p $TMP
 
@@ -122,7 +123,7 @@ fi
 		fi
 		rm -rf $TMP; mkdir -p $TMP
 
-		ls -l "$zip_file" | tee -a $UNZIP_LOG
+		ls -l "$zip_file" >> $UNZIP_LOG
 		echo "$text_count/$zip_total: $zip_file"
 		"$UNZIP" $UNZIP_OPT "$zip_file" >> $UNZIP_LOG 2>&1
 
@@ -159,7 +160,7 @@ fi
 			let update_count++
 			echo ">> update $target_file"
 			echo "update	$person_to/$target_file	`date +%Y/%m/%d`" >> $UPDATE_FILE
-		else 
+		else
 			#異なるファイル名
 			git -C $git_root mv \
 				"$git_person_to/$cur_target_file" \
@@ -184,7 +185,7 @@ fi
 			echo ">> add $target_file_utf8"
 		elif [ "$cur_target_file_utf8" == "$target_file_utf8" ]; then
 			echo ">> update $target_file_utf8"
-		else 
+		else
 			#異なるファイル名
 			"$GIT" -C $git_root mv \
 				"$git_person_to_utf8/$cur_target_file_utf8" \
@@ -216,7 +217,7 @@ fi
 	done < $TMP_ZIP_LST
 
 	rm -r $TMP
-	rm -f $TMP_ZIP_LST
+	#rm -f $TMP_ZIP_LST
 
 	#不正なファイル名をリストアップする
 	echo "#Creating $FILENAME_ILLEGAL"

@@ -59,39 +59,22 @@ ZIP_UTF8=$TARGET_ROOT/AozoraTxt_UTF8.zip
 NAME_LIST=$TARGET_CSV/name.csv
 TITLE_LIST=$TARGET_CSV/title.csv
 
-if [ -d /cygdrive/c ]; then
-	WINDIR=/cygdrive/c
-elif [ -d /mnt/c ]; then
-	WINDIR=/mnt/c
-else
-	WINDIR=""
-fi
-
 GAIJI2UTF8="$TARGET_ROOT/bin/gaiji2utf8.py"
 
 #SJIS2UTF8="iconv -f SHIFT_JISX0213 -t utf8 -c"
 SJIS2UTF8="iconv -f CP932 -t utf8 -c"
 UTF82SJIS="iconv -f utf8 -t CP932 -c"
 
-if [ "$WINDIR" != "" ]; then
-	UNZIP="$WINDIR/Program Files/7-Zip/7z.exe"
-	UNZIP_OPT="x -y -o$TMP"
-	ZIP="$UNZIP"
-	ZIP_OPT="a -y -r"
-#	GIT="$WINDIR/Program Files/Git/bin/git.exe"
-	GIT=git
-else	#Sygwin
-	UNZIP="unzip"
-	UNZIP_OPT="-qoC -d $TMP"
-	ZIP="zip"
-	ZIP_OPT="-rq"
-	GIT=git
-fi
+UNZIP="unzip"
+UNZIP_OPT="-o -d$TMP -Ocp932"		#Win版zipはファイル名がSJIS
+ZIP="zip"
+ZIP_OPT="-rq"
+GIT=git
 
 # 著作権存続作者IDリストを作成
 CreatePersonIdNpd(){
 	echo "#Creating $PERSON_ID_NPD"
-	while read html 
+	while read html
 	do
 		grep "$NPD_PATTERN" $html > /dev/null
 		if [ $? -eq 0 ]; then
