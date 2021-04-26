@@ -61,6 +61,6 @@ do
     esac
     file=${txt##*person_utf8/}
     echo $file,$title,$name,$trans >> $TITLE_LIST
-done < <( find $person_from -name "*.txt" )
+done < <( find $person_from -name "*.txt" | sort )
 
 exit
