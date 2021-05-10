@@ -389,3 +389,77 @@ Title Total : 32354/414 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 10 08:35:54 JST 2021
 End  : Mon May 10 08:35:58 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 11 08:15:47 JST 2021
+#Git pull
+fatal: unable to access 'https://github.com/aozorabunko/aozorabunko/': Could not resolve host: github.com
+Date: Tue May 11 08:15:47 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 10 08:35 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32354/414 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 11 08:15:47 JST 2021
+End  : Tue May 11 08:15:49 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 11 08:17:20 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dcff37fe81..d9dfa6ef70  master     -> origin/master
+Updating dcff37fe81..d9dfa6ef70
+Fast-forward
+ cards/000067/card60075.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/card60155.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/files/60075_73201.html           |  80 +++++++++
+ cards/000067/files/60075_ruby_73161.zip       | Bin 0 -> 2804 bytes
+ cards/000067/files/60155_73202.html           |  74 ++++++++
+ cards/000067/files/60155_ruby_73162.zip       | Bin 0 -> 6341 bytes
+ cards/001475/card53149.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53168.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/53149_73200.html           | 103 ++++++++++++
+ cards/001475/files/53149_ruby_73160.zip       | Bin 0 -> 7114 bytes
+ cards/001475/files/53168_73203.html           | 104 ++++++++++++
+ cards/001475/files/53168_ruby_73163.zip       | Bin 0 -> 7125 bytes
+ 78 files changed, 3605 insertions(+), 2315 deletions(-)
+Date: Tue May 11 08:17:23 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 11 08:16 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000067/files/60155_ruby_73162.zip
+     2	./aozorabunko/cards/000067/files/60075_ruby_73161.zip
+     3	./aozorabunko/cards/001475/files/53168_ruby_73163.zip
+     4	./aozorabunko/cards/001475/files/53149_ruby_73160.zip
+1/4: ./aozorabunko/cards/000067/files/60155_ruby_73162.zip
+>> add 60155_ruby_sakeni_tsuite.txt
+>> add 60155_ruby_utf8_sakeni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000067/card60155.html
+>> 酒に就いて、萩原朔太郎
+2/4: ./aozorabunko/cards/000067/files/60075_ruby_73161.zip
+>> add 60075_ruby_ofuna_ekide.txt
+>> add 60075_ruby_utf8_ofuna_ekide.txt
+>> https://www.aozora.gr.jp/cards/000067/card60075.html
+>> 大船驛で、萩原朔太郎
+3/4: ./aozorabunko/cards/001475/files/53168_ruby_73163.zip
+>> add 53168_ruby_roningyo.txt
+>> add 53168_ruby_utf8_roningyo.txt
+>> https://www.aozora.gr.jp/cards/001475/card53168.html
+>> 蝋人形、小川未明
+4/4: ./aozorabunko/cards/001475/files/53149_ruby_73160.zip
+>> add 53149_ruby_kurai_sora.txt
+>> add 53149_ruby_utf8_kurai_sora.txt
+>> https://www.aozora.gr.jp/cards/001475/card53149.html
+>> 暗い空、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32362/414 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 11 08:17:20 JST 2021
+End  : Tue May 11 08:17:24 JST 2021
