@@ -493,3 +493,50 @@ Title Total : 32364/414 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed May 12 00:07:23 JST 2021
 End  : Wed May 12 00:07:28 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed May 12 17:06:26 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   78c853a926..b32a58683d  master     -> origin/master
+Updating 78c853a926..b32a58683d
+Fast-forward
+ cards/000214/card48830.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48963.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48830_73205.html           | 206 ++++++++++++++++++++++
+ cards/000214/files/48830_ruby_73165.zip       | Bin 0 -> 10373 bytes
+ cards/000214/files/48963_73206.html           | 218 +++++++++++++++++++++++
+ cards/000214/files/48963_ruby_73166.zip       | Bin 0 -> 9842 bytes
+ cards/001949/card59135.html                   |   2 +-
+ cards/001949/files/59135_txt_70912.zip        | Bin 32330 -> 29669 bytes
+ 116 files changed, 4626 insertions(+), 3026 deletions(-)
+Date: Wed May 12 17:06:29 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 12 00:07 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000214/files/48830_ruby_73165.zip
+     2	./aozorabunko/cards/000214/files/48963_ruby_73166.zip
+     3	./aozorabunko/cards/001949/files/59135_txt_70912.zip
+1/3: ./aozorabunko/cards/000214/files/48830_ruby_73165.zip
+>> add 48830_ruby_umio_wataru.txt
+>> add 48830_ruby_utf8_umio_wataru.txt
+>> https://www.aozora.gr.jp/cards/000214/card48830.html
+>> 海をわたる、田山録弥
+2/3: ./aozorabunko/cards/000214/files/48963_ruby_73166.zip
+>> add 48963_ruby_yudono.txt
+>> add 48963_ruby_utf8_yudono.txt
+>> https://www.aozora.gr.jp/cards/000214/card48963.html
+>> 浴室、田山録弥
+3/3: ./aozorabunko/cards/001949/files/59135_txt_70912.zip
+>> update 59135_txt_04shinkenpono_kaisetsu_kaisetsu.txt
+>> update 59135_txt_utf8_04shinkenpono_kaisetsu_kaisetsu.txt
+>> https://www.aozora.gr.jp/cards/001949/card59135.html
+>> 新憲法の解説、解説、山浦貫一
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32368/414 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed May 12 17:06:26 JST 2021
+End  : Wed May 12 17:06:31 JST 2021
