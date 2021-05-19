@@ -718,3 +718,33 @@ Title Total : 32382/414 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 17 15:18:42 JST 2021
 End  : Mon May 17 15:18:49 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu May 20 08:11:04 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   be8dbdfb88..4c3cf8443d  master     -> origin/master
+Updating be8dbdfb88..4c3cf8443d
+Fast-forward
+ cards/001869/card57737.html                   | 229 +++++++++++
+ cards/001869/files/57737_73214.html           | 531 ++++++++++++++++++++++++++
+ cards/001869/files/57737_ruby_73174.zip       | Bin 0 -> 28438 bytes
+ 34 files changed, 1205 insertions(+), 448 deletions(-)
+Date: Thu May 20 08:11:07 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 17 15:18 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57737_ruby_73174.zip
+1/1: ./aozorabunko/cards/001869/files/57737_ruby_73174.zip
+>> add 57737_ruby_hechimano_ki.txt
+>> add 57737_ruby_utf8_hechimano_ki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57737.html
+>> へちまの木、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32384/414 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu May 20 08:11:04 JST 2021
+End  : Thu May 20 08:11:08 JST 2021
