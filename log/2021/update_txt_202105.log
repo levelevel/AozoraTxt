@@ -903,3 +903,42 @@ Title Total : 32394/414 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon May 24 08:17:15 JST 2021
 End  : Mon May 24 08:17:17 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May 25 07:39:11 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   90de170daa..2a19087b7b  master     -> origin/master
+Updating 90de170daa..2a19087b7b
+Fast-forward
+ cards/001475/card52598.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53128.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52598_73220.html           | 132 +++++++++++++++
+ cards/001475/files/52598_ruby_73180.zip       | Bin 0 -> 71701 bytes
+ cards/001475/files/53128_73221.html           | 103 ++++++++++++
+ cards/001475/files/53128_ruby_73181.zip       | Bin 0 -> 4845 bytes
+ 89 files changed, 2616 insertions(+), 1651 deletions(-)
+Date: Tue May 25 07:39:14 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 24 08:17 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/52598_ruby_73180.zip
+     2	./aozorabunko/cards/001475/files/53128_ruby_73181.zip
+1/2: ./aozorabunko/cards/001475/files/52598_ruby_73180.zip
+>> add 52598_ruby_machino_shinri.txt
+>> add 52598_ruby_utf8_machino_shinri.txt
+>> https://www.aozora.gr.jp/cards/001475/card52598.html
+>> 町の真理、小川未明
+2/2: ./aozorabunko/cards/001475/files/53128_ruby_73181.zip
+>> add 53128_ruby_sakayano_wanko.txt
+>> add 53128_ruby_utf8_sakayano_wanko.txt
+>> https://www.aozora.gr.jp/cards/001475/card53128.html
+>> 酒屋のワン公、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32398/414 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May 25 07:39:11 JST 2021
+End  : Tue May 25 07:39:15 JST 2021
