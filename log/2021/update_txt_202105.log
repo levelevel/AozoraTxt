@@ -1044,3 +1044,87 @@ Title Total : 32404/414 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 28 10:57:25 JST 2021
 End  : Fri May 28 10:57:29 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 29 12:17:09 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   43690af9e1..f55d745ada  master     -> origin/master
+Updating 43690af9e1..f55d745ada
+Fast-forward
+ cards/001123/card59727.html                   | 238 ++++++++++++++++++++++++++
+ cards/001123/card59732.html                   | 238 ++++++++++++++++++++++++++
+ cards/001123/files/59727_73226.html           | 185 ++++++++++++++++++++
+ cards/001123/files/59727_ruby_73186.zip       | Bin 0 -> 22955 bytes
+ cards/001123/files/59732_73225.html           | 145 ++++++++++++++++
+ cards/001123/files/59732_ruby_73185.zip       | Bin 0 -> 18490 bytes
+ cards/001637/card58798.html                   |  13 +-
+ cards/001637/card58799.html                   |  15 +-
+ cards/001637/card58802.html                   |  10 +-
+ cards/001637/card58804.html                   |  10 +-
+ cards/001637/card59054.html                   |  13 +-
+ cards/001637/files/58798_66520.html           |   3 +
+ cards/001637/files/58798_txt_66475.zip        | Bin 747 -> 657 bytes
+ cards/001637/files/58799_66521.html           |   5 +-
+ cards/001637/files/58799_ruby_66476.zip       | Bin 1613 -> 1513 bytes
+ cards/001637/files/58802_65477.html           |   4 +
+ cards/001637/files/58802_txt_65433.zip        | Bin 1502 -> 1463 bytes
+ cards/001637/files/58804_66720.html           |   5 +-
+ cards/001637/files/58804_ruby_66669.zip       | Bin 1601 -> 1498 bytes
+ cards/001637/files/59054_68265.html           |   3 +
+ cards/001637/files/59054_txt_68220.zip        | Bin 875 -> 752 bytes
+ 70 files changed, 1970 insertions(+), 1159 deletions(-)
+Date: Sat May 29 12:17:14 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 May 28 10:57 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001123/files/59732_ruby_73185.zip
+     2	./aozorabunko/cards/001123/files/59727_ruby_73186.zip
+     3	./aozorabunko/cards/001637/files/59054_txt_68220.zip
+     4	./aozorabunko/cards/001637/files/58804_ruby_66669.zip
+     5	./aozorabunko/cards/001637/files/58798_txt_66475.zip
+     6	./aozorabunko/cards/001637/files/58799_ruby_66476.zip
+     7	./aozorabunko/cards/001637/files/58802_txt_65433.zip
+1/7: ./aozorabunko/cards/001123/files/59732_ruby_73185.zip
+>> add 59732_ruby_brown_shinpuno_shubun.txt
+>> add 59732_ruby_utf8_brown_shinpuno_shubun.txt
+>> https://www.aozora.gr.jp/cards/001123/card59732.html
+>> ブラウン神父の醜聞、THE SCANDAL OF FATHER BROWN、Ｇ・Ｋ・チェスタートン　G. K. Chesterton、村崎敏郎訳
+2/7: ./aozorabunko/cards/001123/files/59727_ruby_73186.zip
+>> add 59727_ruby_tebayai_yatsu.txt
+>> add 59727_ruby_utf8_tebayai_yatsu.txt
+>> https://www.aozora.gr.jp/cards/001123/card59727.html
+>> 手早い奴、THE QUICK ONE、Ｇ・Ｋ・チェスタートン　G. K. Chesterton、村崎敏郎訳
+3/7: ./aozorabunko/cards/001637/files/59054_txt_68220.zip
+>> update 59054_txt_atsuki_teo_agu.txt
+>> update 59054_txt_utf8_atsuki_teo_agu.txt
+>> https://www.aozora.gr.jp/cards/001637/card59054.html
+>> あつき手を挙ぐ、中野鈴子
+4/7: ./aozorabunko/cards/001637/files/58804_ruby_66669.zip
+>> update 58804_ruby_watashino_shogatsu.txt
+>> update 58804_ruby_utf8_watashino_shogatsu.txt
+>> https://www.aozora.gr.jp/cards/001637/card58804.html
+>> わたしの正月、中野鈴子
+5/7: ./aozorabunko/cards/001637/files/58798_txt_66475.zip
+>> update 58798_txt_kanki.txt
+>> update 58798_txt_utf8_kanki.txt
+>> https://www.aozora.gr.jp/cards/001637/card58798.html
+>> 歓喜、中野鈴子
+6/7: ./aozorabunko/cards/001637/files/58799_ruby_66476.zip
+>> update 58799_ruby_kigano_nakakara.txt
+>> update 58799_ruby_utf8_kigano_nakakara.txt
+>> https://www.aozora.gr.jp/cards/001637/card58799.html
+>> 飢餓の中から、中野鈴子
+7/7: ./aozorabunko/cards/001637/files/58802_txt_65433.zip
+>> update 58802_txt_hahano_sakebi.txt
+>> update 58802_txt_utf8_hahano_sakebi.txt
+>> https://www.aozora.gr.jp/cards/001637/card58802.html
+>> 母の叫び、中野鈴子
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32408/414 (Accept:7/Reject:0/Update:5/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 29 12:17:09 JST 2021
+End  : Sat May 29 12:17:15 JST 2021
