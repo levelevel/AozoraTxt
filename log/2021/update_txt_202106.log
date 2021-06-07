@@ -271,3 +271,33 @@ Title Total : 32430/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun  7 08:32:45 JST 2021
 End  : Mon Jun  7 08:32:51 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun  8 08:35:50 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   dea0e9889f..b7c1cadee8  master     -> origin/master
+Updating dea0e9889f..b7c1cadee8
+Fast-forward
+ cards/001750/card55821.html                   | 229 ++++++++++++
+ cards/001750/files/55821_73456.html           | 494 ++++++++++++++++++++++++++
+ cards/001750/files/55821_ruby_73417.zip       | Bin 0 -> 14488 bytes
+ 61 files changed, 1487 insertions(+), 767 deletions(-)
+Date: Tue Jun  8 08:35:54 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun  7 08:32 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001750/files/55821_ruby_73417.zip
+1/1: ./aozorabunko/cards/001750/files/55821_ruby_73417.zip
+>> add 55821_ruby_zenkon_donkon.txt
+>> add 55821_ruby_utf8_zenkon_donkon.txt
+>> https://www.aozora.gr.jp/cards/001750/card55821.html
+>> 善根鈍根、佐々木邦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32432/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun  8 08:35:50 JST 2021
+End  : Tue Jun  8 08:35:55 JST 2021
