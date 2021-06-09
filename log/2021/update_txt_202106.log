@@ -301,3 +301,42 @@ Title Total : 32432/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun  8 08:35:50 JST 2021
 End  : Tue Jun  8 08:35:55 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun  9 10:33:15 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b7c1cadee8..6bf15ac5f6  master     -> origin/master
+Updating b7c1cadee8..6bf15ac5f6
+Fast-forward
+ cards/000025/card60073.html                   | 234 ++++++++++++++++++++++++++
+ cards/000025/card60286.html                   | 234 ++++++++++++++++++++++++++
+ cards/000025/files/60073_73458.html           |  68 ++++++++
+ cards/000025/files/60073_ruby_73419.zip       | Bin 0 -> 3527 bytes
+ cards/000025/files/60286_73457.html           |  73 ++++++++
+ cards/000025/files/60286_ruby_73418.zip       | Bin 0 -> 4252 bytes
+ 65 files changed, 2394 insertions(+), 1790 deletions(-)
+Date: Wed Jun  9 10:33:18 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun  8 08:35 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000025/files/60073_ruby_73419.zip
+     2	./aozorabunko/cards/000025/files/60286_ruby_73418.zip
+1/2: ./aozorabunko/cards/000025/files/60073_ruby_73419.zip
+>> add 60073_ruby_kodomono_sekai.txt
+>> add 60073_ruby_utf8_kodomono_sekai.txt
+>> https://www.aozora.gr.jp/cards/000025/card60073.html
+>> 子供の世界、有島武郎
+2/2: ./aozorabunko/cards/000025/files/60286_ruby_73418.zip
+>> add 60286_ruby_aki.txt
+>> add 60286_ruby_utf8_aki.txt
+>> https://www.aozora.gr.jp/cards/000025/card60286.html
+>> 秋、有島武郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32436/416 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun  9 10:33:15 JST 2021
+End  : Wed Jun  9 10:33:20 JST 2021
