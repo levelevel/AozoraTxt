@@ -430,3 +430,42 @@ Title Total : 32442/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun 12 10:16:48 JST 2021
 End  : Sat Jun 12 10:16:49 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun 13 09:20:58 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3e74789726..643c088aa3  master     -> origin/master
+Updating 3e74789726..643c088aa3
+Fast-forward
+ cards/001569/card59771.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59772.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59771_73462.html           |  68 ++++++++
+ cards/001569/files/59771_txt_73423.zip        | Bin 0 -> 1765 bytes
+ cards/001569/files/59772_73463.html           |  69 ++++++++
+ cards/001569/files/59772_txt_73424.zip        | Bin 0 -> 1916 bytes
+ 96 files changed, 2305 insertions(+), 1606 deletions(-)
+Date: Sun Jun 13 09:21:00 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun 12 10:16 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59771_txt_73423.zip
+     2	./aozorabunko/cards/001569/files/59772_txt_73424.zip
+1/2: ./aozorabunko/cards/001569/files/59771_txt_73423.zip
+>> add 59771_txt_kan.txt
+>> add 59771_txt_utf8_kan.txt
+>> https://www.aozora.gr.jp/cards/001569/card59771.html
+>> 勘、中谷宇吉郎
+2/2: ./aozorabunko/cards/001569/files/59772_txt_73424.zip
+>> add 59772_txt_kyukoku_ron.txt
+>> add 59772_txt_utf8_kyukoku_ron.txt
+>> https://www.aozora.gr.jp/cards/001569/card59772.html
+>> 救国論、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32446/416 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun 13 09:20:58 JST 2021
+End  : Sun Jun 13 09:21:00 JST 2021
