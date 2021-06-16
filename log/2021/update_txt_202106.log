@@ -555,3 +555,42 @@ Title Total : 32452/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun 15 21:14:40 JST 2021
 End  : Tue Jun 15 21:14:44 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 16 19:48:05 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   738daf2a4f..a140e678d5  master     -> origin/master
+Updating 738daf2a4f..a140e678d5
+Fast-forward
+ cards/000879/card24453.html                   |  10 +-
+ cards/000879/files/24453_47037.html           |   8 +-
+ cards/000879/files/24453_ruby_46814.zip       | Bin 6376 -> 6438 bytes
+ cards/001801/card59970.html                   | 234 ++++++++++++++++++++++++++
+ cards/001801/files/59970_73467.html           | 178 ++++++++++++++++++++
+ cards/001801/files/59970_ruby_73428.zip       | Bin 0 -> 7344 bytes
+ 57 files changed, 1332 insertions(+), 876 deletions(-)
+Date: Wed Jun 16 19:48:08 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun 15 21:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001801/files/59970_ruby_73428.zip
+     2	./aozorabunko/cards/000879/files/24453_ruby_46814.zip
+1/2: ./aozorabunko/cards/001801/files/59970_ruby_73428.zip
+>> add 59970_ruby_aru_drive.txt
+>> add 59970_ruby_utf8_aru_drive.txt
+>> https://www.aozora.gr.jp/cards/001801/card59970.html
+>> あるドライブ、山川方夫
+2/2: ./aozorabunko/cards/000879/files/24453_ruby_46814.zip
+>> update 24453_ruby_mikan.txt
+>> update 24453_ruby_utf8_mikan.txt
+>> https://www.aozora.gr.jp/cards/000879/card24453.html
+>> 蜜柑、芥川龍之介
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32454/416 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 16 19:48:05 JST 2021
+End  : Wed Jun 16 19:48:08 JST 2021
