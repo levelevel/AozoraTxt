@@ -680,3 +680,42 @@ Title Total : 32460/416 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun 19 08:33:52 JST 2021
 End  : Sat Jun 19 08:33:59 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun 20 10:54:06 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   80e193c216..24fd7d6fbf  master     -> origin/master
+Updating 80e193c216..24fd7d6fbf
+Fast-forward
+ cards/001475/card53132.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/card53133.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/53132_73471.html           | 113 +++++++++++++
+ cards/001475/files/53132_ruby_73432.zip       | Bin 0 -> 4570 bytes
+ cards/001475/files/53133_73472.html           | 155 +++++++++++++++++
+ cards/001475/files/53133_ruby_73433.zip       | Bin 0 -> 6521 bytes
+ 79 files changed, 2159 insertions(+), 1428 deletions(-)
+Date: Sun Jun 20 10:54:10 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun 19 08:33 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/53132_ruby_73432.zip
+     2	./aozorabunko/cards/001475/files/53133_ruby_73433.zip
+1/2: ./aozorabunko/cards/001475/files/53132_ruby_73432.zip
+>> add 53132_ruby_sono_hikara_shojikini_natta_hanashi.txt
+>> add 53132_ruby_utf8_sono_hikara_shojikini_natta_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card53132.html
+>> その日から正直になった話、小川未明
+2/2: ./aozorabunko/cards/001475/files/53133_ruby_73433.zip
+>> add 53133_ruby_takai_kito_kodomono_hanashi.txt
+>> add 53133_ruby_utf8_takai_kito_kodomono_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001475/card53133.html
+>> 高い木と子供の話、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32464/416 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun 20 10:54:06 JST 2021
+End  : Sun Jun 20 10:54:11 JST 2021
