@@ -887,3 +887,51 @@ Title Total : 32476/416 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jun 24 19:45:49 JST 2021
 End  : Thu Jun 24 19:45:52 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jun 25 21:58:33 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b0885e31a2..225597f29b  master     -> origin/master
+Updating b0885e31a2..225597f29b
+Fast-forward
+ cards/001597/card53793.html                   |  229 +++++
+ cards/001597/files/53793_73481.html           |   58 ++
+ cards/001597/files/53793_txt_73442.zip        |  Bin 0 -> 643 bytes
+ cards/002049/card60426.html                   |  229 +++++
+ cards/002049/card60427.html                   |  229 +++++
+ cards/002049/files/60426_73479.html           | 1138 +++++++++++++++++++++++++
+ cards/002049/files/60426_ruby_73440.zip       |  Bin 0 -> 28287 bytes
+ cards/002049/files/60427_73480.html           |   66 ++
+ cards/002049/files/60427_ruby_73441.zip       |  Bin 0 -> 1947 bytes
+ 103 files changed, 3641 insertions(+), 1696 deletions(-)
+Date: Fri Jun 25 21:58:35 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun 24 19:45 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001597/files/53793_txt_73442.zip
+     2	./aozorabunko/cards/002049/files/60426_ruby_73440.zip
+     3	./aozorabunko/cards/002049/files/60427_ruby_73441.zip
+1/3: ./aozorabunko/cards/001597/files/53793_txt_73442.zip
+>> add 53793_txt_yoda_jun'ichi.txt
+>> add 53793_txt_utf8_yoda_jun'ichi.txt
+>> https://www.aozora.gr.jp/cards/001597/card53793.html
+>> 与田準一、李箱
+2/3: ./aozorabunko/cards/002049/files/60426_ruby_73440.zip
+>> add 60426_ruby_ikkyu_san.txt
+>> add 60426_ruby_utf8_ikkyu_san.txt
+>> https://www.aozora.gr.jp/cards/002049/card60426.html
+>> 一休さん、五十公野清一
+3/3: ./aozorabunko/cards/002049/files/60427_ruby_73441.zip
+>> add 60427_ruby_senseito_fukeino_minasamae.txt
+>> add 60427_ruby_utf8_senseito_fukeino_minasamae.txt
+>> https://www.aozora.gr.jp/cards/002049/card60427.html
+>> 先生と父兄の皆さまへ、五十公野清一
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32482/416 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jun 25 21:58:33 JST 2021
+End  : Fri Jun 25 21:58:36 JST 2021
