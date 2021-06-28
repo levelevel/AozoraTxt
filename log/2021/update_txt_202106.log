@@ -995,3 +995,33 @@ Title Total : 32486/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun 27 10:14:22 JST 2021
 End  : Sun Jun 27 10:14:26 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun 28 22:35:01 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   53f7d63cfa..7d68b7bf3a  master     -> origin/master
+Updating 53f7d63cfa..7d68b7bf3a
+Fast-forward
+ cards/001750/card55819.html                   | 229 ++++++++++++++++
+ cards/001750/files/55819_73484.html           | 359 ++++++++++++++++++++++++++
+ cards/001750/files/55819_ruby_73445.zip       | Bin 0 -> 12906 bytes
+ 128 files changed, 2329 insertions(+), 1744 deletions(-)
+Date: Mon Jun 28 22:35:04 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jun 27 10:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001750/files/55819_ruby_73445.zip
+1/1: ./aozorabunko/cards/001750/files/55819_ruby_73445.zip
+>> add 55819_ruby_sho_mondai_dai_mondai.txt
+>> add 55819_ruby_utf8_sho_mondai_dai_mondai.txt
+>> https://www.aozora.gr.jp/cards/001750/card55819.html
+>> 小問題大問題、佐々木邦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32488/416 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jun 28 22:35:01 JST 2021
+End  : Mon Jun 28 22:35:05 JST 2021
