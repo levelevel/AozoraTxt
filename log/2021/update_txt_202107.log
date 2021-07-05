@@ -88,3 +88,51 @@ Title Total : 32496/418 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul  3 08:22:33 JST 2021
 End  : Sat Jul  3 08:22:39 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jul  5 20:51:02 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fae4d08405..3bdc140428  master     -> origin/master
+Updating fae4d08405..3bdc140428
+Fast-forward
+ cards/001475/card53124.html                   |  234 ++
+ cards/001475/files/53124_73677.html           |  118 +
+ cards/001475/files/53124_ruby_73638.zip       |  Bin 0 -> 4850 bytes
+ cards/001569/card57327.html                   |  234 ++
+ cards/001569/card59767.html                   |  234 ++
+ cards/001569/files/57327_73676.html           |  113 +
+ cards/001569/files/57327_ruby_73637.zip       |  Bin 0 -> 8215 bytes
+ cards/001569/files/59767_73675.html           |  202 ++
+ cards/001569/files/59767_ruby_73636.zip       |  Bin 0 -> 19026 bytes
+ 169 files changed, 12389 insertions(+), 4510 deletions(-)
+Date: Mon Jul  5 20:51:07 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jul  3 08:22 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59767_ruby_73636.zip
+     2	./aozorabunko/cards/001569/files/57327_ruby_73637.zip
+     3	./aozorabunko/cards/001475/files/53124_ruby_73638.zip
+1/3: ./aozorabunko/cards/001569/files/59767_ruby_73636.zip
+>> add 59767_ruby_kagakuwa_yakuni_tatsuka.txt
+>> add 59767_ruby_utf8_kagakuwa_yakuni_tatsuka.txt
+>> https://www.aozora.gr.jp/cards/001569/card59767.html
+>> 科学は役に立つか、中谷宇吉郎
+2/3: ./aozorabunko/cards/001569/files/57327_ruby_73637.zip
+>> add 57327_ruby_teionshitsu_dayori.txt
+>> add 57327_ruby_utf8_teionshitsu_dayori.txt
+>> https://www.aozora.gr.jp/cards/001569/card57327.html
+>> 低温室だより、中谷宇吉郎
+3/3: ./aozorabunko/cards/001475/files/53124_ruby_73638.zip
+>> add 53124_ruby_osanaki_hi.txt
+>> add 53124_ruby_utf8_osanaki_hi.txt
+>> https://www.aozora.gr.jp/cards/001475/card53124.html
+>> 幼き日、小川未明
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32502/418 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jul  5 20:51:02 JST 2021
+End  : Mon Jul  5 20:51:08 JST 2021
