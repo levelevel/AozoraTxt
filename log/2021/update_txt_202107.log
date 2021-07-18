@@ -522,3 +522,33 @@ Title Total : 32528/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul 17 07:40:27 JST 2021
 End  : Sat Jul 17 07:40:29 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jul 18 11:30:15 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   79facf7a4a..9332d11aaa  master     -> origin/master
+Updating 79facf7a4a..9332d11aaa
+Fast-forward
+ cards/001801/card59969.html                   | 234 ++++++++++++++++++++++++++
+ cards/001801/files/59969_73691.html           |  95 +++++++++++
+ cards/001801/files/59969_ruby_73652.zip       | Bin 0 -> 2739 bytes
+ 73 files changed, 1960 insertions(+), 1598 deletions(-)
+Date: Sun Jul 18 11:30:20 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jul 17 07:40 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001801/files/59969_ruby_73652.zip
+1/1: ./aozorabunko/cards/001801/files/59969_ruby_73652.zip
+>> add 59969_ruby_atsuku_nai_natsu.txt
+>> add 59969_ruby_utf8_atsuku_nai_natsu.txt
+>> https://www.aozora.gr.jp/cards/001801/card59969.html
+>> 暑くない夏、山川方夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32530/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jul 18 11:30:15 JST 2021
+End  : Sun Jul 18 11:30:20 JST 2021
