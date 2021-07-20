@@ -583,3 +583,33 @@ Title Total : 32532/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jul 19 21:48:55 JST 2021
 End  : Mon Jul 19 21:48:57 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jul 20 20:24:47 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fdf011c5ad..828d2eab44  master     -> origin/master
+Updating fdf011c5ad..828d2eab44
+Fast-forward
+ cards/000293/card60442.html                   | 234 ++++++++++++++++++++++++++
+ cards/000293/files/60442_73693.html           |  73 ++++++++
+ cards/000293/files/60442_ruby_73654.zip       | Bin 0 -> 1230 bytes
+ 39 files changed, 848 insertions(+), 544 deletions(-)
+Date: Tue Jul 20 20:24:49 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jul 19 21:48 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000293/files/60442_ruby_73654.zip
+1/1: ./aozorabunko/cards/000293/files/60442_ruby_73654.zip
+>> add 60442_ruby_umino_shohin.txt
+>> add 60442_ruby_utf8_umino_shohin.txt
+>> https://www.aozora.gr.jp/cards/000293/card60442.html
+>> 海の小品、原民喜
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32534/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jul 20 20:24:47 JST 2021
+End  : Tue Jul 20 20:24:49 JST 2021
