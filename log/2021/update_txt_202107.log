@@ -820,3 +820,33 @@ Title Total : 32552/422 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jul 26 21:12:57 JST 2021
 End  : Mon Jul 26 21:12:59 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jul 27 20:54:26 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4a23a97f36..8bc9503167  master     -> origin/master
+Updating 4a23a97f36..8bc9503167
+Fast-forward
+ cards/000214/card48877.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48877_73703.html           |  76 ++++++++
+ cards/000214/files/48877_ruby_73664.zip       | Bin 0 -> 2697 bytes
+ 159 files changed, 4398 insertions(+), 4089 deletions(-)
+Date: Tue Jul 27 20:54:29 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jul 26 21:12 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000214/files/48877_ruby_73664.zip
+1/1: ./aozorabunko/cards/000214/files/48877_ruby_73664.zip
+>> add 48877_ruby_shizukana_hi.txt
+>> add 48877_ruby_utf8_shizukana_hi.txt
+>> https://www.aozora.gr.jp/cards/000214/card48877.html
+>> 静かな日、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32554/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jul 27 20:54:26 JST 2021
+End  : Tue Jul 27 20:54:30 JST 2021
