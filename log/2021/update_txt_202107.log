@@ -850,3 +850,51 @@ Title Total : 32554/422 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jul 27 20:54:26 JST 2021
 End  : Tue Jul 27 20:54:30 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul 28 20:43:10 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   8bc9503167..6270769937  master     -> origin/master
+Updating 8bc9503167..6270769937
+Fast-forward
+ cards/001543/card52220.html                   |  229 +++
+ cards/001543/files/52220_73704.html           |  287 +++
+ cards/001543/files/52220_ruby_73665.zip       |  Bin 0 -> 19787 bytes
+ cards/001779/card57241.html                   |  234 +++
+ cards/001779/card58467.html                   |  239 +++
+ cards/001779/files/57241_73705.html           | 2521 +++++++++++++++++++++++++
+ cards/001779/files/57241_ruby_73666.zip       |  Bin 0 -> 141473 bytes
+ cards/001779/files/58467_73706.html           | 2250 ++++++++++++++++++++++
+ cards/001779/files/58467_ruby_73667.zip       |  Bin 0 -> 131989 bytes
+ 75 files changed, 7534 insertions(+), 1782 deletions(-)
+Date: Wed Jul 28 20:43:13 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Jul 27 20:54 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001543/files/52220_ruby_73665.zip
+     2	./aozorabunko/cards/001779/files/58467_ruby_73667.zip
+     3	./aozorabunko/cards/001779/files/57241_ruby_73666.zip
+1/3: ./aozorabunko/cards/001543/files/52220_ruby_73665.zip
+>> add 52220_ruby_oboroyo.txt
+>> add 52220_ruby_utf8_oboroyo.txt
+>> https://www.aozora.gr.jp/cards/001543/card52220.html
+>> 朧夜、犬養健
+2/3: ./aozorabunko/cards/001779/files/58467_ruby_73667.zip
+>> add 58467_ruby_ryokino_hate.txt
+>> add 58467_ruby_utf8_ryokino_hate.txt
+>> https://www.aozora.gr.jp/cards/001779/card58467.html
+>> 猟奇の果、江戸川乱歩
+3/3: ./aozorabunko/cards/001779/files/57241_ruby_73666.zip
+>> add 57241_ruby_ogon_kamen.txt
+>> add 57241_ruby_utf8_ogon_kamen.txt
+>> https://www.aozora.gr.jp/cards/001779/card57241.html
+>> 黄金仮面、江戸川乱歩
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32560/422 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul 28 20:43:10 JST 2021
+End  : Wed Jul 28 20:43:14 JST 2021
