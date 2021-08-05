@@ -145,3 +145,33 @@ Title Total : 32582/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug  4 08:58:30 JST 2021
 End  : Wed Aug  4 08:58:35 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug  5 15:12:28 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   664d3f22e7..25ec21591a  master     -> origin/master
+Updating 664d3f22e7..25ec21591a
+Fast-forward
+ cards/001750/card55828.html                   |  229 ++
+ cards/001750/files/55828_73863.html           |  479 ++++
+ cards/001750/files/55828_ruby_73827.zip       |  Bin 0 -> 17080 bytes
+ 36 files changed, 7305 insertions(+), 463 deletions(-)
+Date: Thu Aug  5 15:12:34 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug  4 08:58 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001750/files/55828_ruby_73827.zip
+1/1: ./aozorabunko/cards/001750/files/55828_ruby_73827.zip
+>> add 55828_ruby_mura_ichiban_sokeisen.txt
+>> add 55828_ruby_utf8_mura_ichiban_sokeisen.txt
+>> https://www.aozora.gr.jp/cards/001750/card55828.html
+>> 村一番早慶戦、佐々木邦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32584/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug  5 15:12:28 JST 2021
+End  : Thu Aug  5 15:12:35 JST 2021
