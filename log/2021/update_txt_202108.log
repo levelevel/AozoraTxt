@@ -265,3 +265,42 @@ Title Total : 32590/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Aug  8 09:50:22 JST 2021
 End  : Sun Aug  8 09:50:24 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug  9 13:24:45 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   35985c2875..5a8ac4b512  master     -> origin/master
+Updating 35985c2875..5a8ac4b512
+Fast-forward
+ cards/000456/card60726.html                   | 229 ++++++++++++++++++++++++++
+ cards/000456/files/60726_73867.html           |  73 ++++++++
+ cards/000456/files/60726_ruby_73831.zip       | Bin 0 -> 1047 bytes
+ cards/001344/card54427.html                   |  12 +-
+ cards/001344/files/54427_49944.html           |  10 +-
+ cards/001344/files/54427_ruby_49215.zip       | Bin 45246 -> 45302 bytes
+ 68 files changed, 1236 insertions(+), 885 deletions(-)
+Date: Mon Aug  9 13:24:46 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug  8 09:50 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001344/files/54427_ruby_49215.zip
+     2	./aozorabunko/cards/000456/files/60726_ruby_73831.zip
+1/2: ./aozorabunko/cards/001344/files/54427_ruby_49215.zip
+>> update 54427_ruby_tokushuburakuno_seiritsu.txt
+>> update 54427_ruby_utf8_tokushuburakuno_seiritsu.txt
+>> https://www.aozora.gr.jp/cards/001344/card54427.html
+>> 特殊部落の成立沿革を略叙してその解放に及ぶ、喜田貞吉
+2/2: ./aozorabunko/cards/000456/files/60726_ruby_73831.zip
+>> add 60726_ruby_ohyakudo_mode.txt
+>> add 60726_ruby_utf8_ohyakudo_mode.txt
+>> https://www.aozora.gr.jp/cards/000456/card60726.html
+>> お百度詣、大塚楠緒子
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32592/424 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug  9 13:24:45 JST 2021
+End  : Mon Aug  9 13:24:47 JST 2021
