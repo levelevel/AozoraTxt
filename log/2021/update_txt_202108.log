@@ -403,3 +403,33 @@ Title Total : 32600/424 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Aug 12 08:05:56 JST 2021
 End  : Thu Aug 12 08:06:00 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Aug 13 08:13:53 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   95ad105bdd..7b99da02b6  master     -> origin/master
+Updating 95ad105bdd..7b99da02b6
+Fast-forward
+ cards/000232/card60235.html                   | 234 ++++++++++++++++++++++++++
+ cards/000232/files/60235_73872.html           | 170 +++++++++++++++++++
+ cards/000232/files/60235_ruby_73836.zip       | Bin 0 -> 7758 bytes
+ 46 files changed, 941 insertions(+), 541 deletions(-)
+Date: Fri Aug 13 08:13:56 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 12 08:06 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000232/files/60235_ruby_73836.zip
+1/1: ./aozorabunko/cards/000232/files/60235_ruby_73836.zip
+>> add 60235_ruby_urasoi_ko.txt
+>> add 60235_ruby_utf8_urasoi_ko.txt
+>> https://www.aozora.gr.jp/cards/000232/card60235.html
+>> 浦添考、伊波普猷
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32602/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Aug 13 08:13:53 JST 2021
+End  : Fri Aug 13 08:13:57 JST 2021
