@@ -571,3 +571,51 @@ Title Total : 32612/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug 17 20:25:30 JST 2021
 End  : Tue Aug 17 20:25:32 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Aug 18 20:01:53 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7977745099..41a7d21561  master     -> origin/master
+Updating 7977745099..41a7d21561
+Fast-forward
+ cards/000906/card42608.html                   |   8 +-
+ cards/000906/files/42608_29607.html           | 138 ++++++++-------
+ cards/000906/files/42608_ruby_29537.zip       | Bin 10988 -> 11090 bytes
+ cards/001093/card42598.html                   |   6 +-
+ cards/001093/files/42598_29605.html           |   6 +-
+ cards/001093/files/42598_ruby_29535.zip       | Bin 166758 -> 166760 bytes
+ cards/001475/card53126.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/53126_73878.html           | 124 ++++++++++++++
+ cards/001475/files/53126_ruby_73842.zip       | Bin 0 -> 6173 bytes
+ 83 files changed, 1998 insertions(+), 1556 deletions(-)
+Date: Wed Aug 18 20:01:54 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 17 20:25 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/53126_ruby_73842.zip
+     2	./aozorabunko/cards/001093/files/42598_ruby_29535.zip
+     3	./aozorabunko/cards/000906/files/42608_ruby_29537.zip
+1/3: ./aozorabunko/cards/001475/files/53126_ruby_73842.zip
+>> add 53126_ruby_onsen'e_dekaketa_suzume.txt
+>> add 53126_ruby_utf8_onsen'e_dekaketa_suzume.txt
+>> https://www.aozora.gr.jp/cards/001475/card53126.html
+>> 温泉へ出かけたすずめ、小川未明
+2/3: ./aozorabunko/cards/001093/files/42598_ruby_29535.zip
+>> update 42598_ruby_11_moyuru_ibara.txt
+>> update 42598_ruby_utf8_11_moyuru_ibara.txt
+>> https://www.aozora.gr.jp/cards/001093/card42598.html
+>> ジャン・クリストフ、JEAN-CHRISTOPHE、第九巻　燃ゆる荊、ロマン・ローラン　Romain Rolland、豊島与志雄訳
+3/3: ./aozorabunko/cards/000906/files/42608_ruby_29537.zip
+>> update 42608_ruby_13_koki.txt
+>> update 42608_ruby_utf8_13_koki.txt
+>> https://www.aozora.gr.jp/cards/000906/card42608.html
+>> ジャン・クリストフ、JEAN-CHRISTOPHE、後記、ロマン・ローラン　Romain Rolland、豊島与志雄、豊島与志雄訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32614/424 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Aug 18 20:01:53 JST 2021
+End  : Wed Aug 18 20:01:55 JST 2021
