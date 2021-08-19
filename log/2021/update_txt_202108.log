@@ -619,3 +619,37 @@ Title Total : 32614/424 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug 18 20:01:53 JST 2021
 End  : Wed Aug 18 20:01:55 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 19 19:27:39 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   41a7d21561..2d52e6b404  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating 41a7d21561..2d52e6b404
+Fast-forward
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+ cards/000933/card47804.html                   | 234 ++++++++++++++++++++++++++
+ cards/000933/files/47804_73879.html           |  71 ++++++++
+ cards/000933/files/47804_ruby_73843.zip       | Bin 0 -> 3080 bytes
+ 62 files changed, 2018 insertions(+), 1716 deletions(-)
+Date: Thu Aug 19 19:27:43 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 18 20:01 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000933/files/47804_ruby_73843.zip
+1/1: ./aozorabunko/cards/000933/files/47804_ruby_73843.zip
+>> add 47804_ruby_shojiki_shodayuni_kitaisu.txt
+>> add 47804_ruby_utf8_shojiki_shodayuni_kitaisu.txt
+>> https://www.aozora.gr.jp/cards/000933/card47804.html
+>> 正直正太夫に期待す、折口信夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32616/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Aug 19 19:27:39 JST 2021
+End  : Thu Aug 19 19:27:44 JST 2021
