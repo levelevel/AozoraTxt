@@ -692,3 +692,42 @@ Title Total : 32618/424 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug 21 06:48:37 JST 2021
 End  : Sat Aug 21 06:48:41 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 21 07:33:05 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e4c090a528..48141f6543  master     -> origin/master
+Updating e4c090a528..48141f6543
+Fast-forward
+ cards/000214/card48909.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48909_73881.html           |  72 ++++++++
+ cards/000214/files/48909_ruby_73845.zip       | Bin 0 -> 2691 bytes
+ cards/002043/card60168.html                   |   6 +-
+ cards/002043/files/60168_69482.html           |   4 +-
+ cards/002043/files/60168_ruby_69481.zip       | Bin 616479 -> 616479 bytes
+ 86 files changed, 2222 insertions(+), 1801 deletions(-)
+Date: Sat Aug 21 07:33:09 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 21 06:48 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002043/files/60168_ruby_69481.zip
+     2	./aozorabunko/cards/000214/files/48909_ruby_73845.zip
+1/2: ./aozorabunko/cards/002043/files/60168_ruby_69481.zip
+>> update 60168_NPD_ruby_chohobu.txt
+>> update 60168_NPD_ruby_utf8_chohobu.txt
+>> https://www.aozora.gr.jp/cards/002043/card60168.html
+>> 諜報部、A Secret Service、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+2/2: ./aozorabunko/cards/000214/files/48909_ruby_73845.zip
+>> add 48909_ruby_sonzai.txt
+>> add 48909_ruby_utf8_sonzai.txt
+>> https://www.aozora.gr.jp/cards/000214/card48909.html
+>> 存在、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32620/424 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Aug 21 07:33:05 JST 2021
+End  : Sat Aug 21 07:33:10 JST 2021
