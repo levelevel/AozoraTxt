@@ -731,3 +731,42 @@ Title Total : 32620/424 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Aug 21 07:33:05 JST 2021
 End  : Sat Aug 21 07:33:10 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Aug 22 19:35:23 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   48141f6543..4b4e2113f8  master     -> origin/master
+Updating 48141f6543..4b4e2113f8
+Fast-forward
+ cards/000083/card3329.html                    |  32 ++--
+ cards/000083/files/3329_73976.html            | 118 +++++++++++++
+ cards/000083/files/3329_txt_2249.zip          | Bin 0 -> 4176 bytes
+ cards/000158/card59380.html                   | 234 ++++++++++++++++++++++++++
+ cards/000158/files/59380_73882.html           |  70 ++++++++
+ cards/000158/files/59380_ruby_73846.zip       | Bin 0 -> 9660 bytes
+ 91 files changed, 1517 insertions(+), 1090 deletions(-)
+Date: Sun Aug 22 19:35:26 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 21 07:33 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000158/files/59380_ruby_73846.zip
+     2	./aozorabunko/cards/000083/files/3329_txt_2249.zip
+1/2: ./aozorabunko/cards/000158/files/59380_ruby_73846.zip
+>> add 59380_ruby_yamaga_monogatari.txt
+>> add 59380_ruby_utf8_yamaga_monogatari.txt
+>> https://www.aozora.gr.jp/cards/000158/card59380.html
+>> 山家ものがたり、島崎藤村
+2/2: ./aozorabunko/cards/000083/files/3329_txt_2249.zip
+>> git-mv 3329_txt_gonotenaori.txt 3329_txt_gono_tenaori_hyo.txt
+>> git-mv 3329_txt_utf8_gonotenaori.txt 3329_txt_utf8_gono_tenaori_hyo.txt
+>> https://www.aozora.gr.jp/cards/000083/card3329.html
+>> 碁の手直り表、菊池寛
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32622/424 (Accept:2/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Aug 22 19:35:23 JST 2021
+End  : Sun Aug 22 19:35:28 JST 2021
