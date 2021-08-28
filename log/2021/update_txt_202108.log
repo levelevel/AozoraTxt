@@ -899,3 +899,33 @@ Title Total : 32632/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Aug 27 07:27:34 JST 2021
 End  : Fri Aug 27 07:27:38 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 28 09:56:28 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b61d20e3d5..6fd3563594  master     -> origin/master
+Updating b61d20e3d5..6fd3563594
+Fast-forward
+ cards/001543/card52218.html                   | 229 ++++++++++++++++++++++++++
+ cards/001543/files/52218_73888.html           | 206 +++++++++++++++++++++++
+ cards/001543/files/52218_ruby_73852.zip       | Bin 0 -> 18092 bytes
+ 53 files changed, 1055 insertions(+), 623 deletions(-)
+Date: Sat Aug 28 09:56:31 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 27 07:27 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001543/files/52218_ruby_73852.zip
+1/1: ./aozorabunko/cards/001543/files/52218_ruby_73852.zip
+>> add 52218_ruby_nankin_rokugatsu_sai.txt
+>> add 52218_ruby_utf8_nankin_rokugatsu_sai.txt
+>> https://www.aozora.gr.jp/cards/001543/card52218.html
+>> 南京六月祭、犬養健
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32634/424 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug 28 09:56:28 JST 2021
+End  : Sat Aug 28 09:56:31 JST 2021
