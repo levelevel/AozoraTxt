@@ -39,10 +39,12 @@ $UTF82SJIS $TITLE_LIST | sed "s/_utf8//" > $PERSON_TO/${TITLE_LIST##*/}
 unix2dos $PERSON_TO/*.csv 2> /dev/null
 
 echo "# zipファイル作成中"
-MakeZip $PERSON_TO      $ZIP_SJIS
-MakeZip $PERSON_TO_UTF8 $ZIP_UTF8
+MakeZip $PERSON_TO      $ZIP_SJIS; ls -l $ZIP_SJIS
+MakeZip $PERSON_TO_UTF8 $ZIP_UTF8; ls -l $ZIP_UTF8
 
 rm -f $PERSON_TO/*.csv
 rm -f $PERSON_TO_UTF8/*.csv
+
+echo "# zipファイル作成完了"
 
 exit
