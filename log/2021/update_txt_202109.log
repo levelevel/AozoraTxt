@@ -1,0 +1,39 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep  1 07:51:01 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f2c3b93a74..6d1b8cdc3f  master     -> origin/master
+Updating f2c3b93a74..6d1b8cdc3f
+Fast-forward
+ cards/000214/card48899.html                   |  243 ++++
+ cards/000214/files/48899_74040.html           |   87 ++
+ cards/000214/files/48899_txt_74078.zip        |  Bin 0 -> 4185 bytes
+ cards/000277/card59445.html                   |  234 ++++
+ cards/000277/files/59445_74041.html           | 1534 +++++++++++++++++++++++++
+ cards/000277/files/59445_ruby_74003.zip       |  Bin 0 -> 1918516 bytes
+ 145 files changed, 6172 insertions(+), 3803 deletions(-)
+Date: Wed Sep  1 07:51:05 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Aug 31 07:28 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000214/files/48899_txt_74078.zip
+     2	./aozorabunko/cards/000277/files/59445_ruby_74003.zip
+1/2: ./aozorabunko/cards/000214/files/48899_txt_74078.zip
+>> add 48899_txt_jishinno_toki.txt
+>> add 48899_txt_utf8_jishinno_toki.txt
+>> https://www.aozora.gr.jp/cards/000214/card48899.html
+>> 地震の時、田山録弥
+2/2: ./aozorabunko/cards/000277/files/59445_ruby_74003.zip
+>> add 59445_ruby_suwisu_nikki.txt
+>> add 59445_ruby_utf8_suwisu_nikki.txt
+>> https://www.aozora.gr.jp/cards/000277/card59445.html
+>> スウィス日記、辻村伊助
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32646/424 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep  1 07:51:01 JST 2021
+End  : Wed Sep  1 07:51:06 JST 2021
