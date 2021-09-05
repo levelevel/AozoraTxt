@@ -145,3 +145,33 @@ Title Total : 32654/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep  4 07:53:56 JST 2021
 End  : Sat Sep  4 07:54:01 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep  5 11:45:16 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   3060e5b677..f2aac06b59  master     -> origin/master
+Updating 3060e5b677..f2aac06b59
+Fast-forward
+ cards/001597/card53788.html                   |  234 ++
+ cards/001597/files/53788_74046.html           |   61 +
+ cards/001597/files/53788_txt_74008.zip        |  Bin 0 -> 740 bytes
+ 70 files changed, 7906 insertions(+), 1477 deletions(-)
+Date: Sun Sep  5 11:45:18 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep  4 07:54 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001597/files/53788_txt_74008.zip
+1/1: ./aozorabunko/cards/001597/files/53788_txt_74008.zip
+>> add 53788_txt_sekkyaku.txt
+>> add 53788_txt_utf8_sekkyaku.txt
+>> https://www.aozora.gr.jp/cards/001597/card53788.html
+>> 隻脚、李箱
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32656/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep  5 11:45:16 JST 2021
+End  : Sun Sep  5 11:45:18 JST 2021
