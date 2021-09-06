@@ -175,3 +175,33 @@ Title Total : 32656/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Sep  5 11:45:16 JST 2021
 End  : Sun Sep  5 11:45:18 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep  6 20:58:50 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f2aac06b59..2bcf424fd6  master     -> origin/master
+Updating f2aac06b59..2bcf424fd6
+Fast-forward
+ cards/001383/card58841.html                   | 229 ++++++++++++++++++++++++++
+ cards/001383/files/58841_74047.html           |  78 +++++++++
+ cards/001383/files/58841_txt_74009.zip        | Bin 0 -> 4463 bytes
+ 72 files changed, 1049 insertions(+), 745 deletions(-)
+Date: Mon Sep  6 20:58:52 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep  5 11:45 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001383/files/58841_txt_74009.zip
+1/1: ./aozorabunko/cards/001383/files/58841_txt_74009.zip
+>> add 58841_txt_hanshin_kenbunroku.txt
+>> add 58841_txt_utf8_hanshin_kenbunroku.txt
+>> https://www.aozora.gr.jp/cards/001383/card58841.html
+>> 阪神見聞録、谷崎潤一郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32658/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep  6 20:58:50 JST 2021
+End  : Mon Sep  6 20:58:52 JST 2021
