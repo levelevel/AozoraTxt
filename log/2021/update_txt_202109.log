@@ -274,3 +274,33 @@ Title Total : 32664/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep  8 21:05:27 JST 2021
 End  : Wed Sep  8 21:05:32 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep  9 08:13:11 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fcc2b53837..440a93c2a2  master     -> origin/master
+Updating fcc2b53837..440a93c2a2
+Fast-forward
+ cards/001224/card46104.html                   | 229 ++++++++++++++++++
+ cards/001224/files/46104_74051.html           | 329 ++++++++++++++++++++++++++
+ cards/001224/files/46104_ruby_74013.zip       | Bin 0 -> 21525 bytes
+ 76 files changed, 1003 insertions(+), 451 deletions(-)
+Date: Thu Sep  9 08:13:13 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep  8 21:05 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001224/files/46104_ruby_74013.zip
+1/1: ./aozorabunko/cards/001224/files/46104_ruby_74013.zip
+>> add 46104_ruby_rusonno_tsubo.txt
+>> add 46104_ruby_utf8_rusonno_tsubo.txt
+>> https://www.aozora.gr.jp/cards/001224/card46104.html
+>> 呂宋の壺、久生十蘭
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32666/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep  9 08:13:11 JST 2021
+End  : Thu Sep  9 08:13:13 JST 2021
