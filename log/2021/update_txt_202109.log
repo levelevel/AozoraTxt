@@ -334,3 +334,42 @@ Title Total : 32668/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Sep 10 15:42:28 JST 2021
 End  : Fri Sep 10 15:42:34 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Sep 11 07:34:03 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1b6898e70e..7937b012a2  master     -> origin/master
+Updating 1b6898e70e..7937b012a2
+Fast-forward
+ cards/001569/card59787.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59816.html                   | 229 +++++++++++++++++++++++++
+ cards/001569/files/59787_74054.html           |  69 ++++++++
+ cards/001569/files/59787_txt_74016.zip        | Bin 0 -> 1878 bytes
+ cards/001569/files/59816_74053.html           | 211 +++++++++++++++++++++++
+ cards/001569/files/59816_ruby_74015.zip       | Bin 0 -> 17694 bytes
+ 69 files changed, 1676 insertions(+), 938 deletions(-)
+Date: Sat Sep 11 07:34:05 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep 10 15:42 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59787_txt_74016.zip
+     2	./aozorabunko/cards/001569/files/59816_ruby_74015.zip
+1/2: ./aozorabunko/cards/001569/files/59787_txt_74016.zip
+>> add 59787_txt_tanjunna_shitsumon.txt
+>> add 59787_txt_utf8_tanjunna_shitsumon.txt
+>> https://www.aozora.gr.jp/cards/001569/card59787.html
+>> 単純な質問、中谷宇吉郎
+2/2: ./aozorabunko/cards/001569/files/59816_ruby_74015.zip
+>> add 59816_ruby_inuga_nakuto_garasuga_kowareruka.txt
+>> add 59816_ruby_utf8_inuga_nakuto_garasuga_kowareruka.txt
+>> https://www.aozora.gr.jp/cards/001569/card59816.html
+>> 犬がなくとガラスがこわれるか、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32672/426 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Sep 11 07:34:03 JST 2021
+End  : Sat Sep 11 07:34:05 JST 2021
