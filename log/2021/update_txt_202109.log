@@ -593,3 +593,33 @@ Title Total : 32688/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 18 07:29:10 JST 2021
 End  : Sat Sep 18 07:29:13 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 19 14:03:38 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   49298cce48..3a5e702813  master     -> origin/master
+Updating 49298cce48..3a5e702813
+Fast-forward
+ cards/002153/card60467.html                   | 229 ++++++++++++++++++++++++++
+ cards/002153/files/60467_74063.html           | 162 ++++++++++++++++++
+ cards/002153/files/60467_ruby_74025.zip       | Bin 0 -> 25685 bytes
+ 71 files changed, 1221 insertions(+), 828 deletions(-)
+Date: Sun Sep 19 14:03:41 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep 18 07:29 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002153/files/60467_ruby_74025.zip
+1/1: ./aozorabunko/cards/002153/files/60467_ruby_74025.zip
+>> add 60467_ruby_tone_suigen_tanken_kiko.txt
+>> add 60467_ruby_utf8_tone_suigen_tanken_kiko.txt
+>> https://www.aozora.gr.jp/cards/002153/card60467.html
+>> 利根水源探検紀行、渡邊千吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32690/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 19 14:03:38 JST 2021
+End  : Sun Sep 19 14:03:41 JST 2021
