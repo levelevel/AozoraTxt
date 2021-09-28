@@ -893,3 +893,42 @@ Title Total : 32712/426 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Sep 28 08:10:31 JST 2021
 End  : Tue Sep 28 08:10:35 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Sep 29 08:21:13 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1e14010649..ab8bc97767  master     -> origin/master
+Updating 1e14010649..ab8bc97767
+Fast-forward
+ cards/001569/card59768.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/card59804.html                   | 234 ++++++++++++++++++++++++++
+ cards/001569/files/59768_74076.html           | 152 +++++++++++++++++
+ cards/001569/files/59768_ruby_74038.zip       | Bin 0 -> 12145 bytes
+ cards/001569/files/59804_74075.html           |  77 +++++++++
+ cards/001569/files/59804_ruby_74037.zip       | Bin 0 -> 1940 bytes
+ 95 files changed, 3532 insertions(+), 2756 deletions(-)
+Date: Wed Sep 29 08:21:18 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Sep 28 08:10 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59804_ruby_74037.zip
+     2	./aozorabunko/cards/001569/files/59768_ruby_74038.zip
+1/2: ./aozorabunko/cards/001569/files/59804_ruby_74037.zip
+>> add 59804_ruby_amerikano_shinbun.txt
+>> add 59804_ruby_utf8_amerikano_shinbun.txt
+>> https://www.aozora.gr.jp/cards/001569/card59804.html
+>> アメリカの新聞、中谷宇吉郎
+2/2: ./aozorabunko/cards/001569/files/59768_ruby_74038.zip
+>> add 59768_ruby_kagaku_bumueno_kugen.txt
+>> add 59768_ruby_utf8_kagaku_bumueno_kugen.txt
+>> https://www.aozora.gr.jp/cards/001569/card59768.html
+>> 科学ブームへの苦言、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32716/426 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Sep 29 08:21:13 JST 2021
+End  : Wed Sep 29 08:21:18 JST 2021
