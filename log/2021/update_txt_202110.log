@@ -169,3 +169,78 @@ Title Total : 32726/428 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Oct  5 07:34:30 JST 2021
 End  : Tue Oct  5 07:34:33 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct  7 07:40:05 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6f25bf4314..3b99d12a96  master     -> origin/master
+Updating 6f25bf4314..3b99d12a96
+Fast-forward
+ cards/000094/card56517.html                   |  238 ++++
+ cards/000094/files/56517_74206.html           |  145 +++
+ cards/000094/files/56517_ruby_74169.zip       |  Bin 0 -> 15691 bytes
+ cards/000246/card59950.html                   |    8 +-
+ cards/000246/files/59950_73696.html           |    5 +-
+ cards/000246/files/59950_ruby_73657.zip       |  Bin 190252 -> 186546 bytes
+ cards/001224/card46086.html                   |  229 ++++
+ cards/001224/card46093.html                   |  229 ++++
+ cards/001224/files/46086_74204.html           |  228 ++++
+ cards/001224/files/46086_ruby_74167.zip       |  Bin 0 -> 21005 bytes
+ cards/001224/files/46093_74205.html           |  235 ++++
+ cards/001224/files/46093_ruby_74168.zip       |  Bin 0 -> 9856 bytes
+ cards/001383/card57349.html                   |    8 +-
+ cards/001383/files/57349_60032.html           |    7 +-
+ cards/001383/files/57349_ruby_59987.zip       |  Bin 19178 -> 19134 bytes
+ cards/001779/card57244.html                   |  234 ++++
+ cards/001779/files/57244_74203.html           | 1690 +++++++++++++++++++++++++
+ cards/001779/files/57244_ruby_74166.zip       |  Bin 0 -> 107676 bytes
+ 117 files changed, 5535 insertions(+), 2264 deletions(-)
+Date: Thu Oct  7 07:40:10 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct  5 07:34 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001224/files/46093_ruby_74168.zip
+     2	./aozorabunko/cards/001224/files/46086_ruby_74167.zip
+     3	./aozorabunko/cards/000246/files/59950_ruby_73657.zip
+     4	./aozorabunko/cards/001383/files/57349_ruby_59987.zip
+     5	./aozorabunko/cards/001779/files/57244_ruby_74166.zip
+     6	./aozorabunko/cards/000094/files/56517_ruby_74169.zip
+1/6: ./aozorabunko/cards/001224/files/46093_ruby_74168.zip
+>> add 46093_ruby_muzan_yana.txt
+>> add 46093_ruby_utf8_muzan_yana.txt
+>> https://www.aozora.gr.jp/cards/001224/card46093.html
+>> 無惨やな、久生十蘭
+2/6: ./aozorabunko/cards/001224/files/46086_ruby_74167.zip
+>> add 46086_ruby_mugetsu_monogatari.txt
+>> add 46086_ruby_utf8_mugetsu_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001224/card46086.html
+>> 無月物語、久生十蘭
+3/6: ./aozorabunko/cards/000246/files/59950_ruby_73657.zip
+>> update 59950_ruby_naniga_watashio_ko_sasetaka.txt
+>> update 59950_ruby_utf8_naniga_watashio_ko_sasetaka.txt
+>> https://www.aozora.gr.jp/cards/000246/card59950.html
+>> 何が私をこうさせたか、――獄中手記――、金子文子
+4/6: ./aozorabunko/cards/001383/files/57349_ruby_59987.zip
+>> update 57349_ruby_himitsu.txt
+>> update 57349_ruby_utf8_himitsu.txt
+>> https://www.aozora.gr.jp/cards/001383/card57349.html
+>> 秘密、谷崎潤一郎
+5/6: ./aozorabunko/cards/001779/files/57244_ruby_74166.zip
+>> add 57244_ruby_hakuhatsu_ki.txt
+>> add 57244_ruby_utf8_hakuhatsu_ki.txt
+>> https://www.aozora.gr.jp/cards/001779/card57244.html
+>> 白髪鬼、江戸川乱歩
+6/6: ./aozorabunko/cards/000094/files/56517_ruby_74169.zip
+>> add 56517_ruby_pesuto_o.txt
+>> add 56517_ruby_utf8_pesuto_o.txt
+>> https://www.aozora.gr.jp/cards/000094/card56517.html
+>> ペスト王、寓意を含める物語、KING PEST、エドガア・アラン・ポー　Edgar Allan Poe、佐々木直次郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32734/428 (Accept:6/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct  7 07:40:05 JST 2021
+End  : Thu Oct  7 07:40:11 JST 2021
