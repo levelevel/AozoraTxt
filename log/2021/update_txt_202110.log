@@ -370,3 +370,60 @@ Title Total : 32744/428 (Accept:5/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Oct 11 19:43:44 JST 2021
 End  : Mon Oct 11 19:43:49 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 14 08:17:39 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   c3df422798..c6ad651c20  master     -> origin/master
+Updating c3df422798..c6ad651c20
+Fast-forward
+ cards/000933/card47811.html                   | 234 +++++++++++++++++++
+ cards/000933/files/47811_74214.html           |  66 ++++++
+ cards/000933/files/47811_txt_74177.zip        | Bin 0 -> 2005 bytes
+ cards/001097/card43785.html                   |   8 +-
+ cards/001097/files/43785_58836.html           |  19 +-
+ cards/001097/files/43785_ruby_58793.zip       | Bin 116927 -> 116932 bytes
+ cards/001597/card53794.html                   | 234 +++++++++++++++++++
+ cards/001597/files/53794_74212.html           |  77 +++++++
+ cards/001597/files/53794_txt_74175.zip        | Bin 0 -> 926 bytes
+ cards/001869/card57579.html                   | 229 +++++++++++++++++++
+ cards/001869/files/57579_74213.html           | 313 ++++++++++++++++++++++++++
+ cards/001869/files/57579_ruby_74176.zip       | Bin 0 -> 17927 bytes
+ 172 files changed, 6184 insertions(+), 4737 deletions(-)
+Date: Thu Oct 14 08:17:47 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct 11 19:43 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001097/files/43785_ruby_58793.zip
+     2	./aozorabunko/cards/001597/files/53794_txt_74175.zip
+     3	./aozorabunko/cards/000933/files/47811_txt_74177.zip
+     4	./aozorabunko/cards/001869/files/57579_ruby_74176.zip
+1/4: ./aozorabunko/cards/001097/files/43785_ruby_58793.zip
+>> update 43785_ruby_gendaiyaku_rongo.txt
+>> update 43785_ruby_utf8_gendaiyaku_rongo.txt
+>> https://www.aozora.gr.jp/cards/001097/card43785.html
+>> 現代訳論語、下村湖人
+2/4: ./aozorabunko/cards/001597/files/53794_txt_74175.zip
+>> add 53794_txt_kaikonno_sho.txt
+>> add 53794_txt_utf8_kaikonno_sho.txt
+>> https://www.aozora.gr.jp/cards/001597/card53794.html
+>> 悔恨ノ章、李箱
+3/4: ./aozorabunko/cards/000933/files/47811_txt_74177.zip
+>> add 47811_txt_tenarai_kagami_kenbutsuki.txt
+>> add 47811_txt_utf8_tenarai_kagami_kenbutsuki.txt
+>> https://www.aozora.gr.jp/cards/000933/card47811.html
+>> 手習鑑見物記、折口信夫
+4/4: ./aozorabunko/cards/001869/files/57579_ruby_74176.zip
+>> add 57579_ruby_akino_kago.txt
+>> add 57579_ruby_utf8_akino_kago.txt
+>> https://www.aozora.gr.jp/cards/001869/card57579.html
+>> 秋の駕籠、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32750/428 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 14 08:17:39 JST 2021
+End  : Thu Oct 14 08:17:48 JST 2021
