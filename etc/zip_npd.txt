@@ -133,6 +133,7 @@
 ./aozorabunko/cards/001727/files/55345_txt_53433.zip
 ./aozorabunko/cards/001727/files/56840_txt_53393.zip
 ./aozorabunko/cards/001728/files/55346_txt_53428.zip
+./aozorabunko/cards/001735/files/55607_ruby_48732.zip	2021/10/16
 ./aozorabunko/cards/001739/files/55745_ruby_49421.zip
 ./aozorabunko/cards/001756/files/55884_txt_50047.zip
 ./aozorabunko/cards/001783/files/56524_ruby_67544.zip	2019/03/19

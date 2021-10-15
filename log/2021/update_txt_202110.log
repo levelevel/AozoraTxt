@@ -467,3 +467,42 @@ Title Total : 32754/428 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Oct 15 08:25:19 JST 2021
 End  : Fri Oct 15 08:25:26 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Oct 16 08:56:49 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   919a75a6b3..87c7047162  master     -> origin/master
+Updating 919a75a6b3..87c7047162
+Fast-forward
+ cards/001257/card60225.html                   | 238 ++++++++++++++++
+ cards/001257/files/60225_74217.html           |  94 ++++++
+ cards/001257/files/60225_ruby_74180.zip       | Bin 0 -> 8243 bytes
+ cards/001735/card55607.html                   |  16 +-
+ cards/001735/files/55607_48734.html           | 394 ++++++++++++++++++++++++++
+ cards/001735/files/55607_ruby_48732.zip       | Bin 0 -> 6686 bytes
+ 70 files changed, 1714 insertions(+), 1001 deletions(-)
+Date: Sat Oct 16 08:56:51 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct 15 08:25 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001257/files/60225_ruby_74180.zip
+     2	./aozorabunko/cards/001735/files/55607_ruby_48732.zip
+1/2: ./aozorabunko/cards/001257/files/60225_ruby_74180.zip
+>> add 60225_ruby_kafuto_sonoko.txt
+>> add 60225_ruby_utf8_kafuto_sonoko.txt
+>> https://www.aozora.gr.jp/cards/001257/card60225.html
+>> 寡婦とその子、ワシントン・アーヴィング　Washington Irving、吉田甲子太郎訳
+2/2: ./aozorabunko/cards/001735/files/55607_ruby_48732.zip
+>> add 55607_NPD_ruby_yoruno_gasuparu_sho.txt
+>> add 55607_NPD_ruby_utf8_yoruno_gasuparu_sho.txt
+>> https://www.aozora.gr.jp/cards/001735/card55607.html
+>> 夜のガスパール　抄、GASPARD DE LA NUIT、アロイジウス・ベルトラン　Aloysius Bertrand、庄野健訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32756/430 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Oct 16 08:56:49 JST 2021
+End  : Sat Oct 16 08:56:52 JST 2021
