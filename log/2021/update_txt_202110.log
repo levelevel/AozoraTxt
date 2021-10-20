@@ -614,3 +614,42 @@ Title Total : 32766/430 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 20 20:38:41 JST 2021
 End  : Wed Oct 20 20:38:45 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 21 07:56:43 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   0cfde2e764..499bda5579  master     -> origin/master
+Updating 0cfde2e764..499bda5579
+Fast-forward
+ cards/001779/card57503.html                   |  234 +++
+ cards/001779/card57522.html                   |  234 +++
+ cards/001779/files/57503_74223.html           |  462 ++++++
+ cards/001779/files/57503_ruby_74186.zip       |  Bin 0 -> 67735 bytes
+ cards/001779/files/57522_74224.html           | 1874 +++++++++++++++++++++++++
+ cards/001779/files/57522_ruby_74187.zip       |  Bin 0 -> 117693 bytes
+ 52 files changed, 3786 insertions(+), 988 deletions(-)
+Date: Thu Oct 21 07:56:45 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct 20 20:38 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001779/files/57503_ruby_74186.zip
+     2	./aozorabunko/cards/001779/files/57522_ruby_74187.zip
+1/2: ./aozorabunko/cards/001779/files/57503_ruby_74186.zip
+>> add 57503_ruby_inju.txt
+>> add 57503_ruby_utf8_inju.txt
+>> https://www.aozora.gr.jp/cards/001779/card57503.html
+>> 陰獣、江戸川乱歩
+2/2: ./aozorabunko/cards/001779/files/57522_ruby_74187.zip
+>> add 57522_ruby_yochu.txt
+>> add 57522_ruby_utf8_yochu.txt
+>> https://www.aozora.gr.jp/cards/001779/card57522.html
+>> 妖虫、江戸川乱歩
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32770/430 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 21 07:56:43 JST 2021
+End  : Thu Oct 21 07:56:45 JST 2021
