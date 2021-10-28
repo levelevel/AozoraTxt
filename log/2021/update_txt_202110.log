@@ -802,3 +802,33 @@ Title Total : 32784/430 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 27 21:20:52 JST 2021
 End  : Wed Oct 27 21:20:57 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 28 19:45:43 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1c27919bb5..cc1350474c  master     -> origin/master
+Updating 1c27919bb5..cc1350474c
+Fast-forward
+ cards/001779/card57531.html                   |  234 +++++
+ cards/001779/files/57531_74232.html           | 1352 +++++++++++++++++++++++++
+ cards/001779/files/57531_ruby_74195.zip       |  Bin 0 -> 112592 bytes
+ 58 files changed, 3086 insertions(+), 1215 deletions(-)
+Date: Thu Oct 28 19:45:50 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct 27 21:20 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001779/files/57531_ruby_74195.zip
+1/1: ./aozorabunko/cards/001779/files/57531_ruby_74195.zip
+>> add 57531_ruby_idai_naru_yume.txt
+>> add 57531_ruby_utf8_idai_naru_yume.txt
+>> https://www.aozora.gr.jp/cards/001779/card57531.html
+>> 偉大なる夢、江戸川乱歩
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32786/430 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 28 19:45:43 JST 2021
+End  : Thu Oct 28 19:45:51 JST 2021
