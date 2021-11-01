@@ -1,0 +1,66 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Nov  1 20:10:11 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6c2197ac66..580dd122a6  master     -> origin/master
+Updating 6c2197ac66..580dd122a6
+Fast-forward
+ cards/000067/card59980.html                   | 234 ++++++++++++++++++++++++
+ cards/000067/card59988.html                   | 234 ++++++++++++++++++++++++
+ cards/000067/files/59980_74402.html           |  68 +++++++
+ cards/000067/files/59980_ruby_74364.zip       | Bin 0 -> 3516 bytes
+ cards/000067/files/59988_74401.html           |  84 +++++++++
+ cards/000067/files/59988_txt_74363.zip        | Bin 0 -> 1677 bytes
+ cards/001091/card60028.html                   | 247 ++++++++++++++++++++++++++
+ cards/001091/files/60028_74403.html           | 173 ++++++++++++++++++
+ cards/001091/files/60028_ruby_74365.zip       | Bin 0 -> 3306 bytes
+ cards/001562/card56757.html                   |   8 +-
+ cards/001562/files/56757_57471.html           |   6 +-
+ cards/001562/files/56757_ruby_57434.zip       | Bin 230600 -> 226694 bytes
+ cards/001569/card59778.html                   | 229 ++++++++++++++++++++++++
+ cards/001569/files/59778_74235.html           |  68 +++++++
+ cards/001569/files/59778_txt_74198.zip        | Bin 0 -> 1959 bytes
+ 216 files changed, 6237 insertions(+), 4872 deletions(-)
+Date: Mon Nov  1 20:10:17 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Oct 30 07:47 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000067/files/59988_txt_74363.zip
+     2	./aozorabunko/cards/000067/files/59980_ruby_74364.zip
+     3	./aozorabunko/cards/001569/files/59778_txt_74198.zip
+     4	./aozorabunko/cards/001562/files/56757_ruby_57434.zip
+     5	./aozorabunko/cards/001091/files/60028_ruby_74365.zip
+1/5: ./aozorabunko/cards/000067/files/59988_txt_74363.zip
+>> add 59988_txt_kyojo.txt
+>> add 59988_txt_utf8_kyojo.txt
+>> https://www.aozora.gr.jp/cards/000067/card59988.html
+>> 橋上、――詩壇の議論家に捧ぐ――、萩原朔太郎
+2/5: ./aozorabunko/cards/000067/files/59980_ruby_74364.zip
+>> add 59980_ruby_joshikikano_hijoshiki.txt
+>> add 59980_ruby_utf8_joshikikano_hijoshiki.txt
+>> https://www.aozora.gr.jp/cards/000067/card59980.html
+>> 常識家の非常識、萩原朔太郎
+3/5: ./aozorabunko/cards/001569/files/59778_txt_74198.zip
+>> add 59778_txt_koda_ayasanto_shinsendo.txt
+>> add 59778_txt_utf8_koda_ayasanto_shinsendo.txt
+>> https://www.aozora.gr.jp/cards/001569/card59778.html
+>> 幸田文さんと神仙道、中谷宇吉郎
+4/5: ./aozorabunko/cards/001562/files/56757_ruby_57434.zip
+>> update 56757_ruby_shinsho_taikoki06.txt
+>> update 56757_ruby_utf8_shinsho_taikoki06.txt
+>> https://www.aozora.gr.jp/cards/001562/card56757.html
+>> 新書太閤記、第六分冊、吉川英治
+5/5: ./aozorabunko/cards/001091/files/60028_ruby_74365.zip
+>> add 60028_ruby_okusama_gitsuneno_gokonrei.txt
+>> add 60028_ruby_utf8_okusama_gitsuneno_gokonrei.txt
+>> https://www.aozora.gr.jp/cards/001091/card60028.html
+>> おくさま狐の御婚礼、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32800/430 (Accept:5/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Nov  1 20:10:11 JST 2021
+End  : Mon Nov  1 20:10:19 JST 2021
