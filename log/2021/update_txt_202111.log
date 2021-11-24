@@ -1164,3 +1164,56 @@ Title Total : 32852/432 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Nov 22 08:09:08 JST 2021
 End  : Mon Nov 22 08:09:13 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Nov 25 08:11:03 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   ce1420b32e..7db5577bcd  master     -> origin/master
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Updating ce1420b32e..7db5577bcd
+Fast-forward
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+ cards/000326/card59614.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59614_74430.html           | 114 ++++++++++++
+ cards/000326/files/59614_ruby_74392.zip       | Bin 0 -> 6585 bytes
+ cards/001030/card47948.html                   |   2 +-
+ cards/001151/card59165.html                   | 239 +++++++++++++++++++++++++
+ cards/001151/files/59165_74429.html           | 127 ++++++++++++++
+ cards/001151/files/59165_ruby_74391.zip       | Bin 0 -> 9469 bytes
+ cards/001475/card53136.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/files/53136_74431.html           | 126 +++++++++++++
+ cards/001475/files/53136_ruby_74393.zip       | Bin 0 -> 6435 bytes
+ 181 files changed, 6936 insertions(+), 5004 deletions(-)
+Date: Thu Nov 25 08:11:09 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Nov 22 08:09 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/53136_ruby_74393.zip
+     2	./aozorabunko/cards/000326/files/59614_ruby_74392.zip
+     3	./aozorabunko/cards/001151/files/59165_ruby_74391.zip
+1/3: ./aozorabunko/cards/001475/files/53136_ruby_74393.zip
+>> add 53136_ruby_mittsuno_oningyo.txt
+>> add 53136_ruby_utf8_mittsuno_oningyo.txt
+>> https://www.aozora.gr.jp/cards/001475/card53136.html
+>> 三つのお人形、小川未明
+2/3: ./aozorabunko/cards/000326/files/59614_ruby_74392.zip
+>> add 59614_ruby_goshin.txt
+>> add 59614_ruby_utf8_goshin.txt
+>> https://www.aozora.gr.jp/cards/000326/card59614.html
+>> 誤診、モーリス・ルヴェル　Maurice Level、田中早苗訳
+3/3: ./aozorabunko/cards/001151/files/59165_ruby_74391.zip
+>> add 59165_ruby_shi_shosetsuto_shinkyo_shosetsu.txt
+>> add 59165_ruby_utf8_shi_shosetsuto_shinkyo_shosetsu.txt
+>> https://www.aozora.gr.jp/cards/001151/card59165.html
+>> 「私」小説と「心境」小説、久米正雄
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32858/432 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Nov 25 08:11:03 JST 2021
+End  : Thu Nov 25 08:11:10 JST 2021
