@@ -271,3 +271,70 @@ Title Total : 32890/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Dec  8 08:02:24 JST 2021
 End  : Wed Dec  8 08:02:28 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Dec  9 08:14:13 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   357cadf132..59a3543857  master     -> origin/master
+Updating 357cadf132..59a3543857
+Fast-forward
+ cards/000148/card60818.html                   | 234 ++++++++++++++++++++++++++
+ cards/000148/files/60818_74606.html           |  97 +++++++++++
+ cards/000148/files/60818_ruby_74569.zip       | Bin 0 -> 10398 bytes
+ cards/001434/card50409.html                   |   8 +-
+ cards/001434/files/50409_43485.html           |   5 +-
+ cards/001434/files/50409_txt_43403.zip        | Bin 5009 -> 5075 bytes
+ cards/001566/card58032.html                   |   2 +-
+ cards/001566/card58319.html                   |  10 +-
+ cards/001566/card58320.html                   |  10 +-
+ cards/001566/card58321.html                   |  10 +-
+ cards/001566/files/58319_71315.html           |   3 +-
+ cards/001566/files/58319_ruby_71266.zip       | Bin 2106 -> 1980 bytes
+ cards/001566/files/58320_71447.html           |   3 +-
+ cards/001566/files/58320_txt_71398.zip        | Bin 1638 -> 1508 bytes
+ cards/001566/files/58321_71448.html           |   3 +-
+ cards/001566/files/58321_ruby_71399.zip       | Bin 3424 -> 3297 bytes
+ 100 files changed, 1256 insertions(+), 924 deletions(-)
+Date: Thu Dec  9 08:14:17 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Dec  8 08:02 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001566/files/58321_ruby_71399.zip
+     2	./aozorabunko/cards/001566/files/58319_ruby_71266.zip
+     3	./aozorabunko/cards/001566/files/58320_txt_71398.zip
+     4	./aozorabunko/cards/000148/files/60818_ruby_74569.zip
+     5	./aozorabunko/cards/001434/files/50409_txt_43403.zip
+1/5: ./aozorabunko/cards/001566/files/58321_ruby_71399.zip
+>> update 58321_ruby_setonaikaino_shimajima.txt
+>> update 58321_ruby_utf8_setonaikaino_shimajima.txt
+>> https://www.aozora.gr.jp/cards/001566/card58321.html
+>> 瀬戸内海の島々、柳田國男
+2/5: ./aozorabunko/cards/001566/files/58319_ruby_71266.zip
+>> update 58319_ruby_izuoshimano_hanashi.txt
+>> update 58319_ruby_utf8_izuoshimano_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001566/card58319.html
+>> 伊豆大島の話、柳田國男
+3/5: ./aozorabunko/cards/001566/files/58320_txt_71398.zip
+>> update 58320_txt_setonaikaino_ama.txt
+>> update 58320_txt_utf8_setonaikaino_ama.txt
+>> https://www.aozora.gr.jp/cards/001566/card58320.html
+>> 瀬戸内海の海人、柳田國男
+4/5: ./aozorabunko/cards/000148/files/60818_ruby_74569.zip
+>> add 60818_ruby_bungakuron_jo.txt
+>> add 60818_ruby_utf8_bungakuron_jo.txt
+>> https://www.aozora.gr.jp/cards/000148/card60818.html
+>> 『文学論』序、夏目漱石
+5/5: ./aozorabunko/cards/001434/files/50409_txt_43403.zip
+>> update 50409_txt_omorihikoshichito_nawanagatoshi.txt
+>> update 50409_txt_utf8_omorihikoshichito_nawanagatoshi.txt
+>> https://www.aozora.gr.jp/cards/001434/card50409.html
+>> 大森彦七と名和長年、松本幸四郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32892/434 (Accept:5/Reject:0/Update:4/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Dec  9 08:14:13 JST 2021
+End  : Thu Dec  9 08:14:17 JST 2021
