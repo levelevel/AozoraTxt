@@ -558,3 +558,33 @@ Title Total : 32908/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec 16 20:41:15 JST 2021
 End  : Thu Dec 16 20:41:18 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec 17 07:28:49 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   df21300e1d..41207f2854  master     -> origin/master
+Updating df21300e1d..41207f2854
+Fast-forward
+ cards/001875/card59949.html                   | 234 ++++++++++++++++++++++++++
+ cards/001875/files/59949_74615.html           | 146 ++++++++++++++++
+ cards/001875/files/59949_ruby_74578.zip       | Bin 0 -> 6902 bytes
+ 87 files changed, 2632 insertions(+), 2164 deletions(-)
+Date: Fri Dec 17 07:28:51 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Dec 16 20:41 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001875/files/59949_ruby_74578.zip
+1/1: ./aozorabunko/cards/001875/files/59949_ruby_74578.zip
+>> add 59949_ruby_orusuban.txt
+>> add 59949_ruby_utf8_orusuban.txt
+>> https://www.aozora.gr.jp/cards/001875/card59949.html
+>> おるすばん、壺井栄
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32910/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Dec 17 07:28:49 JST 2021
+End  : Fri Dec 17 07:28:51 JST 2021
