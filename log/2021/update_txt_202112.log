@@ -726,3 +726,33 @@ Title Total : 32920/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 21 08:09:45 JST 2021
 End  : Tue Dec 21 08:09:50 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 22 23:24:07 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d3d590e68f..7c30ec5529  master     -> origin/master
+Updating d3d590e68f..7c30ec5529
+Fast-forward
+ cards/001341/card60637.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/files/60637_74621.html           | 119 +++++++++++++
+ cards/001341/files/60637_ruby_74584.zip       | Bin 0 -> 9709 bytes
+ 80 files changed, 1387 insertions(+), 997 deletions(-)
+Date: Wed Dec 22 23:24:10 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Dec 21 08:09 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60637_ruby_74584.zip
+1/1: ./aozorabunko/cards/001341/files/60637_ruby_74584.zip
+>> add 60637_ruby_fuyubino_mado.txt
+>> add 60637_ruby_utf8_fuyubino_mado.txt
+>> https://www.aozora.gr.jp/cards/001341/card60637.html
+>> 冬日の窓、永井荷風
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32922/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 22 23:24:07 JST 2021
+End  : Wed Dec 22 23:24:11 JST 2021
