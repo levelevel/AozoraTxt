@@ -933,3 +933,34 @@ Title Total : 32938/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec 27 08:15:39 JST 2021
 End  : Mon Dec 27 08:15:44 JST 2021
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec 28 07:48:13 JST 2021
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4313905dba..5f85d4d8ed  master     -> origin/master
+Updating 4313905dba..5f85d4d8ed
+Fast-forward
+ cards/000326/card59611.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59611_74630.html           | 134 ++++++++++++++
+ cards/000326/files/59611_ruby_74593.zip       | Bin 0 -> 5609 bytes
+ cards/002043/card61207.html                   |   3 +-
+ 70 files changed, 1225 insertions(+), 859 deletions(-)
+Date: Tue Dec 28 07:48:17 JST 2021
+#Updating
+-rw-r--r-- 1 level level 0 Dec 27 08:15 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000326/files/59611_ruby_74593.zip
+1/1: ./aozorabunko/cards/000326/files/59611_ruby_74593.zip
+>> add 59611_ruby_anchuno_seppun.txt
+>> add 59611_ruby_utf8_anchuno_seppun.txt
+>> https://www.aozora.gr.jp/cards/000326/card59611.html
+>> 暗中の接吻、モーリス・ルヴェル　Maurice Level、田中早苗訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32940/434 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec 28 07:48:13 JST 2021
+End  : Tue Dec 28 07:48:18 JST 2021
