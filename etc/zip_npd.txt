@@ -66,6 +66,7 @@
 ./aozorabunko/cards/001239/files/46348_txt_23181.zip
 ./aozorabunko/cards/001265/files/46817_ruby_24669.zip
 ./aozorabunko/cards/001277/files/58703_ruby_62741.zip
+./aozorabunko/cards/001299/files/60877_ruby_74118.zip	2021/12/29
 ./aozorabunko/cards/001299/files/60878_ruby_73630.zip	2021/07/13
 ./aozorabunko/cards/001299/files/60880_ruby_73632.zip	2021/07/13
 ./aozorabunko/cards/001393/files/50710_ruby_36965.zip
