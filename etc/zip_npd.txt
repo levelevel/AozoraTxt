@@ -162,8 +162,11 @@
 ./aozorabunko/cards/001885/files/58274_ruby_60921.zip
 ./aozorabunko/cards/001885/files/59516_ruby_67843.zip	2019/12/15
 ./aozorabunko/cards/001916/files/58175_ruby_60558.zip
+./aozorabunko/cards/001916/files/61171_ruby_74825.zip	2022/01/01
 ./aozorabunko/cards/001917/files/58173_ruby_60562.zip
+./aozorabunko/cards/001917/files/61172_txt_74829.zip	2022/01/01
 ./aozorabunko/cards/001918/files/58174_ruby_60560.zip
+./aozorabunko/cards/001918/files/61170_ruby_74827.zip	2022/01/01
 ./aozorabunko/cards/001951/files/58701_ruby_63936.zip
 ./aozorabunko/cards/001952/files/58702_ruby_63938.zip
 ./aozorabunko/cards/001955/files/58806_ruby_64273.zip
