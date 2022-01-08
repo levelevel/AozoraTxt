@@ -271,3 +271,33 @@ Title Total : 32960/442 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jan  7 20:58:11 JST 2022
 End  : Fri Jan  7 20:58:16 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jan  8 09:39:31 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2816ad5f17..78ffad23dd  master     -> origin/master
+Updating 2816ad5f17..78ffad23dd
+Fast-forward
+ cards/001257/card60226.html                   | 238 ++++++++++++++++++++++++++
+ cards/001257/files/60226_74794.html           | 104 +++++++++++
+ cards/001257/files/60226_ruby_74760.zip       | Bin 0 -> 6596 bytes
+ 51 files changed, 1654 insertions(+), 1324 deletions(-)
+Date: Sat Jan  8 09:39:35 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan  7 20:58 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001257/files/60226_ruby_74760.zip
+1/1: ./aozorabunko/cards/001257/files/60226_ruby_74760.zip
+>> add 60226_ruby_shoshin.txt
+>> add 60226_ruby_utf8_shoshin.txt
+>> https://www.aozora.gr.jp/cards/001257/card60226.html
+>> 傷心、ワシントン・アーヴィング　Washington Irving、吉田甲子太郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32962/442 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jan  8 09:39:31 JST 2022
+End  : Sat Jan  8 09:39:35 JST 2022
