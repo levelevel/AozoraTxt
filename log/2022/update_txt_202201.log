@@ -553,3 +553,79 @@ Title Total : 32982/448 (Accept:7/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jan 18 22:14:25 JST 2022
 End  : Tue Jan 18 22:14:30 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 21 16:46:01 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   2c63f66b18..d96e481374  master     -> origin/master
+Updating 2c63f66b18..d96e481374
+Fast-forward
+ cards/000137/card60898.html                   | 234 +++++++++++++++++++++++++
+ cards/000137/card60900.html                   | 234 +++++++++++++++++++++++++
+ cards/000137/files/60898_74806.html           |  75 ++++++++
+ cards/000137/files/60898_ruby_74772.zip       | Bin 0 -> 1085 bytes
+ cards/000137/files/60900_74807.html           |  75 ++++++++
+ cards/000137/files/60900_ruby_74773.zip       | Bin 0 -> 1067 bytes
+ cards/000326/card59617.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59617_74805.html           | 146 ++++++++++++++++
+ cards/000326/files/59617_ruby_74771.zip       | Bin 0 -> 6085 bytes
+ cards/000416/card57054.html                   | 234 +++++++++++++++++++++++++
+ cards/000416/card57122.html                   | 234 +++++++++++++++++++++++++
+ cards/000416/files/57054_74808.html           |  68 +++++++
+ cards/000416/files/57054_ruby_74774.zip       | Bin 0 -> 1643 bytes
+ cards/000416/files/57122_74809.html           |  67 +++++++
+ cards/000416/files/57122_ruby_74775.zip       | Bin 0 -> 1604 bytes
+ cards/001095/card42625.html                   |  10 +-
+ cards/001095/files/42625_21289.html           |  36 ++--
+ cards/001095/files/42625_ruby_21261.zip       | Bin 22953 -> 22926 bytes
+ guide/aozora_bunko_faq.html                   |   4 +-
+ 119 files changed, 4208 insertions(+), 2613 deletions(-)
+Date: Fri Jan 21 16:46:06 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan 18 22:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000326/files/59617_ruby_74771.zip
+     2	./aozorabunko/cards/000416/files/57122_ruby_74775.zip
+     3	./aozorabunko/cards/000416/files/57054_ruby_74774.zip
+     4	./aozorabunko/cards/001095/files/42625_ruby_21261.zip
+     5	./aozorabunko/cards/000137/files/60900_ruby_74773.zip
+     6	./aozorabunko/cards/000137/files/60898_ruby_74772.zip
+1/6: ./aozorabunko/cards/000326/files/59617_ruby_74771.zip
+>> add 59617_ruby_chiisaki_mono.txt
+>> add 59617_ruby_utf8_chiisaki_mono.txt
+>> https://www.aozora.gr.jp/cards/000326/card59617.html
+>> 小さきもの、モーリス・ルヴェル　Maurice Level、田中早苗訳
+2/6: ./aozorabunko/cards/000416/files/57122_ruby_74775.zip
+>> add 57122_ruby_fufugenkano_kokato_sekininno_shozai.txt
+>> add 57122_ruby_utf8_fufugenkano_kokato_sekininno_shozai.txt
+>> https://www.aozora.gr.jp/cards/000416/card57122.html
+>> 夫婦喧嘩の功過と責任の所在（アンケート回答）、伊藤野枝
+3/6: ./aozorabunko/cards/000416/files/57054_ruby_74774.zip
+>> add 57054_ruby_gendaito_fujinno_saikatsu_joni_kaete.txt
+>> add 57054_ruby_utf8_gendaito_fujinno_saikatsu_joni_kaete.txt
+>> https://www.aozora.gr.jp/cards/000416/card57054.html
+>> 「現代と婦人の生活」序に代へて、伊藤野枝
+4/6: ./aozorabunko/cards/001095/files/42625_ruby_21261.zip
+>> update 42625_ruby_nihon_bunka_shikan.txt
+>> update 42625_ruby_utf8_nihon_bunka_shikan.txt
+>> https://www.aozora.gr.jp/cards/001095/card42625.html
+>> 日本文化私観、坂口安吾
+5/6: ./aozorabunko/cards/000137/files/60900_ruby_74773.zip
+>> add 60900_ruby_mitama_ubuya.txt
+>> add 60900_ruby_utf8_mitama_ubuya.txt
+>> https://www.aozora.gr.jp/cards/000137/card60900.html
+>> 御霊うぶや、岩野泡鳴
+6/6: ./aozorabunko/cards/000137/files/60898_ruby_74772.zip
+>> add 60898_ruby_kuroki_subune.txt
+>> add 60898_ruby_utf8_kuroki_subune.txt
+>> https://www.aozora.gr.jp/cards/000137/card60898.html
+>> 黒き素船、岩野泡鳴
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32992/448 (Accept:6/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 21 16:46:01 JST 2022
+End  : Fri Jan 21 16:46:07 JST 2022
