@@ -629,3 +629,81 @@ Title Total : 32992/448 (Accept:6/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Jan 21 16:46:01 JST 2022
 End  : Fri Jan 21 16:46:07 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan 24 18:02:43 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d96e481374..322718b3f7  master     -> origin/master
+Updating d96e481374..322718b3f7
+Fast-forward
+ cards/000082/card2235.html                    |  10 +-
+ cards/000082/card45492.html                   |  13 +-
+ cards/000082/files/2235_11894.html            | 141 ++++++++-------
+ cards/000082/files/2235_ruby_11893.zip        | Bin 16471 -> 16558 bytes
+ cards/000082/files/45492_24690.html           |   9 +-
+ cards/000082/files/45492_ruby_24517.zip       | Bin 10762 -> 10903 bytes
+ cards/000156/card1465.html                    |   8 +-
+ cards/000156/files/1465_16805.html            |   8 +-
+ cards/000156/files/1465_ruby_16804.zip        | Bin 63780 -> 63854 bytes
+ cards/000214/card48806.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card48911.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48806_74810.html           |  82 +++++++++
+ cards/000214/files/48806_ruby_74776.zip       | Bin 0 -> 3770 bytes
+ cards/000214/files/48911_74811.html           |  76 ++++++++
+ cards/000214/files/48911_txt_74777.zip        | Bin 0 -> 2178 bytes
+ cards/001383/card59304.html                   |   2 +-
+ cards/001383/card61185.html                   |   2 +-
+ cards/001475/card53123.html                   | 234 +++++++++++++++++++++++++
+ cards/001475/files/53123_74812.html           | 105 +++++++++++
+ cards/001475/files/53123_ruby_74778.zip       | Bin 0 -> 5483 bytes
+ cards/002225/card61293.html                   | 228 ++++++++++++++++++++++++
+ 180 files changed, 5769 insertions(+), 4368 deletions(-)
+Date: Mon Jan 24 18:02:47 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan 21 16:46 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/53123_ruby_74778.zip
+     2	./aozorabunko/cards/000214/files/48806_ruby_74776.zip
+     3	./aozorabunko/cards/000214/files/48911_txt_74777.zip
+     4	./aozorabunko/cards/000156/files/1465_ruby_16804.zip
+     5	./aozorabunko/cards/000082/files/2235_ruby_11893.zip
+     6	./aozorabunko/cards/000082/files/45492_ruby_24517.zip
+1/6: ./aozorabunko/cards/001475/files/53123_ruby_74778.zip
+>> add 53123_ruby_umino_odori.txt
+>> add 53123_ruby_utf8_umino_odori.txt
+>> https://www.aozora.gr.jp/cards/001475/card53123.html
+>> 海の踊り、小川未明
+2/6: ./aozorabunko/cards/000214/files/48806_ruby_74776.zip
+>> add 48806_ruby_futon'o_kaita_koro.txt
+>> add 48806_ruby_utf8_futon'o_kaita_koro.txt
+>> https://www.aozora.gr.jp/cards/000214/card48806.html
+>> 『蒲団』を書いた頃、田山録弥
+3/6: ./aozorabunko/cards/000214/files/48911_txt_74777.zip
+>> add 48911_txt_takujogo.txt
+>> add 48911_txt_utf8_takujogo.txt
+>> https://www.aozora.gr.jp/cards/000214/card48911.html
+>> 卓上語、田山録弥
+4/6: ./aozorabunko/cards/000156/files/1465_ruby_16804.zip
+>> git-mv 1465_ruby_kanikosen.txt 1465_ruby_kani_kosen.txt
+>> git-mv 1465_ruby_utf8_kanikosen.txt 1465_ruby_utf8_kani_kosen.txt
+>> https://www.aozora.gr.jp/cards/000156/card1465.html
+>> 蟹工船、小林多喜二
+5/6: ./aozorabunko/cards/000082/files/2235_ruby_11893.zip
+>> update 2235_ruby_04sojin_koki.txt
+>> update 2235_ruby_utf8_04sojin_koki.txt
+>> https://www.aozora.gr.jp/cards/000082/card2235.html
+>> 中国怪奇小説集、捜神後記（六朝）、岡本綺堂
+6/6: ./aozorabunko/cards/000082/files/45492_ruby_24517.zip
+>> git-mv 45492_ruby_yukionna.txt 45492_ruby_yuki_onna.txt
+>> git-mv 45492_ruby_utf8_yukionna.txt 45492_ruby_utf8_yuki_onna.txt
+>> https://www.aozora.gr.jp/cards/000082/card45492.html
+>> 雪女、岡本綺堂
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 32998/448 (Accept:6/Reject:0/Update:1/Rename:4/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan 24 18:02:43 JST 2022
+End  : Mon Jan 24 18:02:48 JST 2022
