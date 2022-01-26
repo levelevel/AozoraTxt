@@ -707,3 +707,60 @@ Title Total : 32998/448 (Accept:6/Reject:0/Update:1/Rename:4/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jan 24 18:02:43 JST 2022
 End  : Mon Jan 24 18:02:48 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jan 26 15:05:37 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   322718b3f7..a7ca2248a9  master     -> origin/master
+Updating 322718b3f7..a7ca2248a9
+Fast-forward
+ cards/000067/card59987.html                   | 234 ++++++++
+ cards/000067/files/59987_74813.html           | 106 ++++
+ cards/000067/files/59987_ruby_74779.zip       | Bin 0 -> 4339 bytes
+ cards/000083/card1358.html                    |   8 +-
+ cards/000083/files/1358_35640.html            |   8 +-
+ cards/000083/files/1358_ruby_35291.zip        | Bin 16967 -> 16970 bytes
+ cards/000106/card55787.html                   | 238 ++++++++
+ cards/000106/files/55787_74814.html           | 827 ++++++++++++++++++++++++++
+ cards/000106/files/55787_ruby_74780.zip       | Bin 0 -> 12310 bytes
+ cards/001869/card57719.html                   | 229 +++++++
+ cards/001869/files/57719_74815.html           | 273 +++++++++
+ cards/001869/files/57719_ruby_74781.zip       | Bin 0 -> 17297 bytes
+ 76 files changed, 2758 insertions(+), 860 deletions(-)
+Date: Wed Jan 26 15:05:42 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan 24 18:02 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000067/files/59987_ruby_74779.zip
+     2	./aozorabunko/cards/000106/files/55787_ruby_74780.zip
+     3	./aozorabunko/cards/000083/files/1358_ruby_35291.zip
+     4	./aozorabunko/cards/001869/files/57719_ruby_74781.zip
+1/4: ./aozorabunko/cards/000067/files/59987_ruby_74779.zip
+>> add 59987_ruby_meishishu_omoideno_shinka.txt
+>> add 59987_ruby_utf8_meishishu_omoideno_shinka.txt
+>> https://www.aozora.gr.jp/cards/000067/card59987.html
+>> 名詩集「思ひ出」の眞價、萩原朔太郎
+2/4: ./aozorabunko/cards/000106/files/55787_ruby_74780.zip
+>> add 55787_ruby_tonbono_medama.txt
+>> add 55787_ruby_utf8_tonbono_medama.txt
+>> https://www.aozora.gr.jp/cards/000106/card55787.html
+>> とんぼの眼玉、北原白秋
+3/4: ./aozorabunko/cards/000083/files/1358_ruby_35291.zip
+>> update 1358_ruby_okehazamano_kassen.txt
+>> update 1358_ruby_utf8_okehazamano_kassen.txt
+>> https://www.aozora.gr.jp/cards/000083/card1358.html
+>> 桶狭間合戦、菊池寛
+4/4: ./aozorabunko/cards/001869/files/57719_ruby_74781.zip
+>> add 57719_ruby_hiyameshi_monogatari.txt
+>> add 57719_ruby_utf8_hiyameshi_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card57719.html
+>> ひやめし物語、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33004/448 (Accept:4/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jan 26 15:05:37 JST 2022
+End  : Wed Jan 26 15:05:42 JST 2022
