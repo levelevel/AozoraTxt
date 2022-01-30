@@ -794,3 +794,80 @@ Title Total : 33006/448 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jan 27 08:14:45 JST 2022
 End  : Thu Jan 27 08:14:47 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan 31 08:07:30 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f2c3f04370..f6ad22a2e2  master     -> origin/master
+Updating f2c3f04370..f6ad22a2e2
+Fast-forward
+ cards/000214/card48833.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48833_74819.html           | 100 +++++++++++
+ cards/000214/files/48833_ruby_74785.zip       | Bin 0 -> 2711 bytes
+ cards/000914/card4328.html                    |  10 +-
+ cards/000914/files/4328_8144.html             |  69 ++++----
+ cards/000914/files/4328_ruby_7734.zip         | Bin 82170 -> 81155 bytes
+ cards/001147/card43526.html                   |  10 +-
+ cards/001147/files/43526_20998.html           |  10 +-
+ cards/001147/files/43526_ruby_20997.zip       | Bin 113255 -> 113236 bytes
+ cards/001341/card60628.html                   | 234 +++++++++++++++++++++++++
+ cards/001341/files/60628_74817.html           | 128 ++++++++++++++
+ cards/001341/files/60628_ruby_74783.zip       | Bin 0 -> 6981 bytes
+ cards/001524/card51921.html                   |   2 +-
+ cards/001524/files/51921_71330.html           |   9 +-
+ cards/001569/card59762.html                   | 229 ++++++++++++++++++++++++
+ cards/001569/files/59762_74818.html           |  79 +++++++++
+ cards/001569/files/59762_ruby_74784.zip       | Bin 0 -> 4970 bytes
+ cards/001990/card59502.html                   | 229 ++++++++++++++++++++++++
+ cards/001990/files/59502_74820.html           |  60 +++++++
+ cards/001990/files/59502_ruby_74786.zip       | Bin 0 -> 1038 bytes
+ 233 files changed, 5436 insertions(+), 4134 deletions(-)
+Date: Mon Jan 31 08:08:04 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan 27 08:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59762_ruby_74784.zip
+     2	./aozorabunko/cards/000914/files/4328_ruby_7734.zip
+     3	./aozorabunko/cards/001341/files/60628_ruby_74783.zip
+     4	./aozorabunko/cards/001147/files/43526_ruby_20997.zip
+     5	./aozorabunko/cards/000214/files/48833_ruby_74785.zip
+     6	./aozorabunko/cards/001990/files/59502_ruby_74786.zip
+1/6: ./aozorabunko/cards/001569/files/59762_ruby_74784.zip
+>> add 59762_ruby_ushino_maruyaki.txt
+>> add 59762_ruby_utf8_ushino_maruyaki.txt
+>> https://www.aozora.gr.jp/cards/001569/card59762.html
+>> 牛の丸焼、中谷宇吉郎
+2/6: ./aozorabunko/cards/000914/files/4328_ruby_7734.zip
+>> update 4328_ruby_christmas_carol.txt
+>> update 4328_ruby_utf8_christmas_carol.txt
+>> https://www.aozora.gr.jp/cards/000914/card4328.html
+>> クリスマス・カロル、A CHRISTMAS CAROL、ディッケンス　Dickens、森田草平訳
+3/6: ./aozorabunko/cards/001341/files/60628_ruby_74783.zip
+>> add 60628_ruby_kaidashi.txt
+>> add 60628_ruby_utf8_kaidashi.txt
+>> https://www.aozora.gr.jp/cards/001341/card60628.html
+>> 買出し、永井荷風
+4/6: ./aozorabunko/cards/001147/files/43526_ruby_20997.zip
+>> git-mv 43526_ruby_ichishonintoshit.txt 43526_ruby_ichishonintoshite.txt
+>> git-mv 43526_ruby_utf8_ichishonintoshit.txt 43526_ruby_utf8_ichishonintoshite.txt
+>> https://www.aozora.gr.jp/cards/001147/card43526.html
+>> 一商人として、――所信と体験――、相馬愛蔵、相馬黒光
+5/6: ./aozorabunko/cards/000214/files/48833_ruby_74785.zip
+>> add 48833_ruby_onnato_joto_aito.txt
+>> add 48833_ruby_utf8_onnato_joto_aito.txt
+>> https://www.aozora.gr.jp/cards/000214/card48833.html
+>> 女と情と愛と、田山録弥
+6/6: ./aozorabunko/cards/001990/files/59502_ruby_74786.zip
+>> add 59502_ruby_biyoinni_nozomu_koto.txt
+>> add 59502_ruby_utf8_biyoinni_nozomu_koto.txt
+>> https://www.aozora.gr.jp/cards/001990/card59502.html
+>> 美容院にのぞむこと、芥川紗織
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33014/448 (Accept:6/Reject:0/Update:1/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan 31 08:07:30 JST 2022
+End  : Mon Jan 31 08:08:05 JST 2022
