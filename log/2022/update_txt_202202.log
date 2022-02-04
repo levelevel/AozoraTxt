@@ -1,0 +1,85 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb  4 19:15:15 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f6ad22a2e2..d003621b23  master     -> origin/master
+Updating f6ad22a2e2..d003621b23
+Fast-forward
+ cards/000023/card55367.html                   | 234 ++++++++++++++++
+ cards/000023/card55368.html                   | 234 ++++++++++++++++
+ cards/000023/files/55367_74922.html           | 180 +++++++++++++
+ cards/000023/files/55367_ruby_74887.zip       | Bin 0 -> 8270 bytes
+ cards/000023/files/55368_74921.html           | 109 ++++++++
+ cards/000023/files/55368_ruby_74886.zip       | Bin 0 -> 8960 bytes
+ cards/000326/card59621.html                   | 243 +++++++++++++++++
+ cards/000326/files/59621_74923.html           | 110 ++++++++
+ cards/000326/files/59621_ruby_74888.zip       | Bin 0 -> 4698 bytes
+ cards/001147/card43526.html                   |   8 +-
+ cards/001147/files/43526_20998.html           |  10 +-
+ cards/001147/files/43526_ruby_20997.zip       | Bin 113236 -> 113217 bytes
+ cards/001176/card44904.html                   |  10 +-
+ cards/001176/files/44904_35865.html           | 198 +++++++-------
+ cards/001176/files/44904_ruby_35453.zip       | Bin 171938 -> 169438 bytes
+ cards/001562/card52422.html                   |   2 +-
+ cards/001869/card57725.html                   | 229 ++++++++++++++++
+ cards/001869/files/57725_74924.html           | 368 ++++++++++++++++++++++++++
+ cards/001869/files/57725_ruby_74889.zip       | Bin 0 -> 13006 bytes
+ cards/002043/card61303.html                   | 231 ++++++++++++++++
+ cards/002043/files/61303_74824.html           | 237 +++++++++++++++++
+ cards/002043/files/61303_ruby_74823.zip       | Bin 0 -> 1647481 bytes
+ 157 files changed, 5966 insertions(+), 3718 deletions(-)
+Date: Fri Feb  4 19:15:21 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jan 31 08:08 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000023/files/55368_ruby_74886.zip
+     2	./aozorabunko/cards/000023/files/55367_ruby_74887.zip
+     3	./aozorabunko/cards/000326/files/59621_ruby_74888.zip
+     4	./aozorabunko/cards/001147/files/43526_ruby_20997.zip
+     5	./aozorabunko/cards/002043/files/61303_ruby_74823.zip
+     6	./aozorabunko/cards/001176/files/44904_ruby_35453.zip
+     7	./aozorabunko/cards/001869/files/57725_ruby_74889.zip
+1/7: ./aozorabunko/cards/000023/files/55368_ruby_74886.zip
+>> add 55368_ruby_kanojono_shui.txt
+>> add 55368_ruby_utf8_kanojono_shui.txt
+>> https://www.aozora.gr.jp/cards/000023/card55368.html
+>> 彼女の周囲、徳田秋聲
+2/7: ./aozorabunko/cards/000023/files/55367_ruby_74887.zip
+>> add 55367_ruby_taoreta_kabin.txt
+>> add 55367_ruby_utf8_taoreta_kabin.txt
+>> https://www.aozora.gr.jp/cards/000023/card55367.html
+>> 倒れた花瓶、徳田秋聲
+3/7: ./aozorabunko/cards/000326/files/59621_ruby_74888.zip
+>> add 59621_ruby_futarino_hahaoya.txt
+>> add 59621_ruby_utf8_futarino_hahaoya.txt
+>> https://www.aozora.gr.jp/cards/000326/card59621.html
+>> 二人の母親、モーリス・ルヴェル　Maurice Level、田中早苗訳
+4/7: ./aozorabunko/cards/001147/files/43526_ruby_20997.zip
+>> update 43526_ruby_ichishonintoshite.txt
+>> update 43526_ruby_utf8_ichishonintoshite.txt
+>> https://www.aozora.gr.jp/cards/001147/card43526.html
+>> 一商人として、――所信と体験――、相馬愛蔵、相馬黒光
+5/7: ./aozorabunko/cards/002043/files/61303_ruby_74823.zip
+>> add 61303_NPD_ruby_akuno_teio_08.txt
+>> add 61303_NPD_ruby_utf8_akuno_teio_08.txt
+>> https://www.aozora.gr.jp/cards/002043/card61303.html
+>> 悪の帝王、THE MASTER CRIMINAL、第八話　養岩油田、VIII. THE CRADLESTONE OIL MILLS、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+6/7: ./aozorabunko/cards/001176/files/44904_ruby_35453.zip
+>> update 44904_ruby_02frankenstein.txt
+>> update 44904_ruby_utf8_02frankenstein.txt
+>> https://www.aozora.gr.jp/cards/001176/card44904.html
+>> フランケンシュタイン、FRANKENSTEIN, OR THE MODERN PROMETHEUS、マリー・ウォルストンクラフト・シェリー　Mary Wallstoncraft Shelley、宍戸儀一訳
+7/7: ./aozorabunko/cards/001869/files/57725_ruby_74889.zip
+>> add 57725_ruby_buraiwa_utazu.txt
+>> add 57725_ruby_utf8_buraiwa_utazu.txt
+>> https://www.aozora.gr.jp/cards/001869/card57725.html
+>> 無頼は討たず、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33022/450 (Accept:7/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Feb  4 19:15:15 JST 2022
+End  : Fri Feb  4 19:15:22 JST 2022
