@@ -83,3 +83,96 @@ Title Total : 33022/450 (Accept:7/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Feb  4 19:15:15 JST 2022
 End  : Fri Feb  4 19:15:22 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb  9 07:28:26 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d003621b23..27e7ae0239  master     -> origin/master
+Updating d003621b23..27e7ae0239
+Fast-forward
+ cards/000042/card60978.html                   |  234 ++
+ cards/000042/files/60978_74928.html           |   65 +
+ cards/000042/files/60978_ruby_74893.zip       |  Bin 0 -> 2384 bytes
+ cards/000121/card56140.html                   |   10 +-
+ cards/000121/files/56140_50926.html           |    8 +-
+ cards/000121/files/56140_ruby_50803.zip       |  Bin 7618 -> 7721 bytes
+ cards/001341/card60638.html                   |  234 ++
+ cards/001341/files/60638_74929.html           |   79 +
+ cards/001341/files/60638_ruby_74894.zip       |  Bin 0 -> 4060 bytes
+ cards/001475/card52652.html                   |  234 ++
+ cards/001475/files/52652_74927.html           |  131 ++
+ cards/001475/files/52652_ruby_74892.zip       |  Bin 0 -> 6875 bytes
+ cards/001529/card60803.html                   |  243 ++
+ cards/001529/files/60803_74925.html           |  578 +++++
+ cards/001529/files/60803_ruby_74890.zip       |  Bin 0 -> 38081 bytes
+ cards/001562/card52422.html                   |    8 +-
+ cards/001562/files/52422_49671.html           |    7 +-
+ cards/001562/files/52422_ruby_49670.zip       |  Bin 135130 -> 135241 bytes
+ cards/001566/card59250.html                   |  234 ++
+ cards/001566/files/59250_74926.html           |   62 +
+ cards/001566/files/59250_txt_74891.zip        |  Bin 0 -> 1149 bytes
+ cards/001870/card57496.html                   |    8 +-
+ cards/001870/files/57496_60805.html           |    6 +-
+ cards/001870/files/57496_ruby_60770.zip       |  Bin 121633 -> 121638 bytes
+ 244 files changed, 13375 insertions(+), 4629 deletions(-)
+Date: Wed Feb  9 07:28:31 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Feb  4 19:15 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/52652_ruby_74892.zip
+     2	./aozorabunko/cards/001566/files/59250_txt_74891.zip
+     3	./aozorabunko/cards/000121/files/56140_ruby_50803.zip
+     4	./aozorabunko/cards/001870/files/57496_ruby_60770.zip
+     5	./aozorabunko/cards/001341/files/60638_ruby_74894.zip
+     6	./aozorabunko/cards/001562/files/52422_ruby_49670.zip
+     7	./aozorabunko/cards/000042/files/60978_ruby_74893.zip
+     8	./aozorabunko/cards/001529/files/60803_ruby_74890.zip
+1/8: ./aozorabunko/cards/001475/files/52652_ruby_74892.zip
+>> add 52652_ruby_nanpo_monogatari.txt
+>> add 52652_ruby_utf8_nanpo_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001475/card52652.html
+>> 南方物語、小川未明
+2/8: ./aozorabunko/cards/001566/files/59250_txt_74891.zip
+>> add 59250_txt_watashikara.txt
+>> add 59250_txt_utf8_watashikara.txt
+>> https://www.aozora.gr.jp/cards/001566/card59250.html
+>> 私から、柳田国男
+3/8: ./aozorabunko/cards/000121/files/56140_ruby_50803.zip
+>> update 56140_ruby_okano_dozo.txt
+>> update 56140_ruby_utf8_okano_dozo.txt
+>> https://www.aozora.gr.jp/cards/000121/card56140.html
+>> 丘の銅像、新美南吉
+4/8: ./aozorabunko/cards/001870/files/57496_ruby_60770.zip
+>> update 57496_ruby_yamato_koji_fubutsushi.txt
+>> update 57496_ruby_utf8_yamato_koji_fubutsushi.txt
+>> https://www.aozora.gr.jp/cards/001870/card57496.html
+>> 大和古寺風物誌、亀井勝一郎
+5/8: ./aozorabunko/cards/001341/files/60638_ruby_74894.zip
+>> add 60638_ruby_bohanno_ume.txt
+>> add 60638_ruby_utf8_bohanno_ume.txt
+>> https://www.aozora.gr.jp/cards/001341/card60638.html
+>> 墓畔の梅、永井荷風
+6/8: ./aozorabunko/cards/001562/files/52422_ruby_49670.zip
+>> update 52422_ruby_02basara_jo.txt
+>> update 52422_ruby_utf8_02basara_jo.txt
+>> https://www.aozora.gr.jp/cards/001562/card52422.html
+>> 私本太平記、婆娑羅帖、吉川英治
+7/8: ./aozorabunko/cards/000042/files/60978_ruby_74893.zip
+>> add 60978_ruby_shashin_densono_shinpo.txt
+>> add 60978_ruby_utf8_shashin_densono_shinpo.txt
+>> https://www.aozora.gr.jp/cards/000042/card60978.html
+>> 写真電送の新法、寺田寅彦
+8/8: ./aozorabunko/cards/001529/files/60803_ruby_74890.zip
+>> add 60803_ruby_heike_monogatari02.txt
+>> add 60803_ruby_utf8_heike_monogatari02.txt
+>> https://www.aozora.gr.jp/cards/001529/card60803.html
+>> 現代語訳　平家物語、第二巻、尾崎士郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33032/450 (Accept:8/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Feb  9 07:28:26 JST 2022
+End  : Wed Feb  9 07:28:33 JST 2022
