@@ -218,3 +218,87 @@ Title Total : 33036/450 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Feb 11 08:42:13 JST 2022
 End  : Fri Feb 11 08:42:18 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Feb 12 08:32:56 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a3831ec1c6..1f8b01b079  master     -> origin/master
+Updating a3831ec1c6..1f8b01b079
+Fast-forward
+ cards/000214/card49003.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/49003_74932.html           | 115 ++++++++++++
+ cards/000214/files/49003_ruby_74897.zip       | Bin 0 -> 7023 bytes
+ cards/001341/card60610.html                   |  10 +-
+ cards/001341/card60612.html                   |  10 +-
+ cards/001341/card60613.html                   |  10 +-
+ cards/001341/card60628.html                   |  10 +-
+ cards/001341/card60637.html                   |  10 +-
+ cards/001341/card60638.html                   |  10 +-
+ cards/001341/files/60610_74598.html           |   4 +-
+ cards/001341/files/60610_ruby_74561.zip       | Bin 3471 -> 3445 bytes
+ cards/001341/files/60612_74414.html           |   4 +-
+ cards/001341/files/60612_ruby_74376.zip       | Bin 5555 -> 5518 bytes
+ cards/001341/files/60613_74800.html           |   4 +-
+ cards/001341/files/60613_ruby_74766.zip       | Bin 7599 -> 7549 bytes
+ cards/001341/files/60628_74817.html           |   4 +-
+ cards/001341/files/60628_ruby_74783.zip       | Bin 6981 -> 6935 bytes
+ cards/001341/files/60637_74621.html           |   4 +-
+ cards/001341/files/60637_ruby_74584.zip       | Bin 9709 -> 9656 bytes
+ cards/001341/files/60638_74929.html           |   4 +-
+ cards/001341/files/60638_ruby_74894.zip       | Bin 4060 -> 4025 bytes
+ 75 files changed, 1436 insertions(+), 1075 deletions(-)
+Date: Sat Feb 12 08:32:58 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Feb 11 08:42 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60637_ruby_74584.zip
+     2	./aozorabunko/cards/001341/files/60613_ruby_74766.zip
+     3	./aozorabunko/cards/001341/files/60638_ruby_74894.zip
+     4	./aozorabunko/cards/001341/files/60612_ruby_74376.zip
+     5	./aozorabunko/cards/001341/files/60610_ruby_74561.zip
+     6	./aozorabunko/cards/001341/files/60628_ruby_74783.zip
+     7	./aozorabunko/cards/000214/files/49003_ruby_74897.zip
+1/7: ./aozorabunko/cards/001341/files/60637_ruby_74584.zip
+>> update 60637_ruby_fuyubino_mado.txt
+>> update 60637_ruby_utf8_fuyubino_mado.txt
+>> https://www.aozora.gr.jp/cards/001341/card60637.html
+>> 冬日の窓、永井荷風
+2/7: ./aozorabunko/cards/001341/files/60613_ruby_74766.zip
+>> update 60613_ruby_aru_yoru.txt
+>> update 60613_ruby_utf8_aru_yoru.txt
+>> https://www.aozora.gr.jp/cards/001341/card60613.html
+>> 或夜、永井荷風
+3/7: ./aozorabunko/cards/001341/files/60638_ruby_74894.zip
+>> update 60638_ruby_bohanno_ume.txt
+>> update 60638_ruby_utf8_bohanno_ume.txt
+>> https://www.aozora.gr.jp/cards/001341/card60638.html
+>> 墓畔の梅、永井荷風
+4/7: ./aozorabunko/cards/001341/files/60612_ruby_74376.zip
+>> update 60612_ruby_amerikano_omoide.txt
+>> update 60612_ruby_utf8_amerikano_omoide.txt
+>> https://www.aozora.gr.jp/cards/001341/card60612.html
+>> 亜米利加の思出、永井荷風
+5/7: ./aozorabunko/cards/001341/files/60610_ruby_74561.zip
+>> update 60610_ruby_asakusa_mukashi_banashi.txt
+>> update 60610_ruby_utf8_asakusa_mukashi_banashi.txt
+>> https://www.aozora.gr.jp/cards/001341/card60610.html
+>> 浅草むかしばなし、永井荷風
+6/7: ./aozorabunko/cards/001341/files/60628_ruby_74783.zip
+>> update 60628_ruby_kaidashi.txt
+>> update 60628_ruby_utf8_kaidashi.txt
+>> https://www.aozora.gr.jp/cards/001341/card60628.html
+>> 買出し、永井荷風
+7/7: ./aozorabunko/cards/000214/files/49003_ruby_74897.zip
+>> add 49003_ruby_onnano_onsen.txt
+>> add 49003_ruby_utf8_onnano_onsen.txt
+>> https://www.aozora.gr.jp/cards/000214/card49003.html
+>> 女の温泉、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33038/450 (Accept:7/Reject:0/Update:6/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Feb 12 08:32:56 JST 2022
+End  : Sat Feb 12 08:32:59 JST 2022
