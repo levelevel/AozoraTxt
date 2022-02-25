@@ -608,3 +608,69 @@ Title Total : 33072/450 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Feb 23 10:37:33 JST 2022
 End  : Wed Feb 23 10:37:40 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb 25 22:21:19 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6eca4779c8..e5efa97f26  master     -> origin/master
+Updating 6eca4779c8..e5efa97f26
+Fast-forward
+ cards/000057/card43276.html                   |  15 +-
+ cards/000057/files/43276_18829.html           | 267 ++++++++++++++------------
+ cards/000057/files/43276_ruby_16767.zip       | Bin 83043 -> 83127 bytes
+ cards/001091/card59836.html                   | 247 ++++++++++++++++++++++++
+ cards/001091/files/59836_74950.html           |  97 ++++++++++
+ cards/001091/files/59836_ruby_74915.zip       | Bin 0 -> 3206 bytes
+ cards/001497/card60885.html                   | 234 ++++++++++++++++++++++
+ cards/001497/files/60885_74951.html           |  84 ++++++++
+ cards/001497/files/60885_ruby_74916.zip       | Bin 0 -> 1393 bytes
+ cards/001801/card1786.html                    | 234 ++++++++++++++++++++++
+ cards/001801/files/1786_74952.html            | 116 +++++++++++
+ cards/001801/files/1786_ruby_74917.zip        | Bin 0 -> 4077 bytes
+ cards/001870/card57496.html                   |   8 +-
+ cards/001870/files/57496_60805.html           |   4 +-
+ cards/001870/files/57496_ruby_60770.zip       | Bin 121638 -> 121637 bytes
+ 245 files changed, 6694 insertions(+), 4616 deletions(-)
+Date: Fri Feb 25 22:21:21 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Feb 23 10:37 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001870/files/57496_ruby_60770.zip
+     2	./aozorabunko/cards/001801/files/1786_ruby_74917.zip
+     3	./aozorabunko/cards/001497/files/60885_ruby_74916.zip
+     4	./aozorabunko/cards/000057/files/43276_ruby_16767.zip
+     5	./aozorabunko/cards/001091/files/59836_ruby_74915.zip
+1/5: ./aozorabunko/cards/001870/files/57496_ruby_60770.zip
+>> update 57496_ruby_yamato_koji_fubutsushi.txt
+>> update 57496_ruby_utf8_yamato_koji_fubutsushi.txt
+>> https://www.aozora.gr.jp/cards/001870/card57496.html
+>> 大和古寺風物誌、亀井勝一郎
+2/5: ./aozorabunko/cards/001801/files/1786_ruby_74917.zip
+>> add 1786_ruby_taninno_natsu.txt
+>> add 1786_ruby_utf8_taninno_natsu.txt
+>> https://www.aozora.gr.jp/cards/001801/card1786.html
+>> 他人の夏、山川方夫
+3/5: ./aozorabunko/cards/001497/files/60885_ruby_74916.zip
+>> add 60885_ruby_saito_mokichino_shio_kanashimu.txt
+>> add 60885_ruby_utf8_saito_mokichino_shio_kanashimu.txt
+>> https://www.aozora.gr.jp/cards/001497/card60885.html
+>> 齋藤茂吉の死を悲しむ、吉井勇
+4/5: ./aozorabunko/cards/000057/files/43276_ruby_16767.zip
+>> update 43276_ruby_warawano_hanseigai.txt
+>> update 43276_ruby_utf8_warawano_hanseigai.txt
+>> https://www.aozora.gr.jp/cards/000057/card43276.html
+>> 妾の半生涯、福田英子
+5/5: ./aozorabunko/cards/001091/files/59836_ruby_74915.zip
+>> add 59836_ruby_utao_utau_hone.txt
+>> add 59836_ruby_utf8_utao_utau_hone.txt
+>> https://www.aozora.gr.jp/cards/001091/card59836.html
+>> 歌をうたう骨、グリム　Grimm、矢崎源九郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33078/450 (Accept:5/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Feb 25 22:21:19 JST 2022
+End  : Fri Feb 25 22:21:22 JST 2022
