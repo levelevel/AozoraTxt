@@ -106,3 +106,50 @@ Title Total : 33092/452 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Mar  3 08:10:25 JST 2022
 End  : Thu Mar  3 08:10:27 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Mar  4 22:51:41 JST 2022
+#Git pull
+fatal: unable to access 'https://github.com/aozorabunko/aozorabunko/': Could not resolve host: github.com
+Date: Fri Mar  4 22:51:49 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  3 08:10 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33092/452 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Mar  4 22:51:41 JST 2022
+End  : Fri Mar  4 22:51:50 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Mar  4 22:56:29 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e25609bac9..018ab8be28  master     -> origin/master
+Updating e25609bac9..018ab8be28
+Fast-forward
+ cards/000025/card60287.html                   | 234 ++++++++++++++++++++++++++
+ cards/000025/files/60287_75156.html           |  86 ++++++++++
+ cards/000025/files/60287_txt_75118.zip        | Bin 0 -> 6124 bytes
+ 52 files changed, 1126 insertions(+), 809 deletions(-)
+Date: Fri Mar  4 22:56:31 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  4 22:51 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000025/files/60287_txt_75118.zip
+1/1: ./aozorabunko/cards/000025/files/60287_txt_75118.zip
+>> add 60287_txt_haru.txt
+>> add 60287_txt_utf8_haru.txt
+>> https://www.aozora.gr.jp/cards/000025/card60287.html
+>> 春、有島武郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33094/452 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Mar  4 22:56:29 JST 2022
+End  : Fri Mar  4 22:56:31 JST 2022
