@@ -153,3 +153,33 @@ Title Total : 33094/452 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Mar  4 22:56:29 JST 2022
 End  : Fri Mar  4 22:56:31 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Mar  5 08:33:48 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   018ab8be28..e7d46d6964  master     -> origin/master
+Updating 018ab8be28..e7d46d6964
+Fast-forward
+ cards/001869/card57755.html                   |  229 ++
+ cards/001869/files/57755_75157.html           |  299 +++
+ cards/001869/files/57755_ruby_75119.zip       |  Bin 0 -> 21163 bytes
+ 29 files changed, 6988 insertions(+), 326 deletions(-)
+Date: Sat Mar  5 08:33:50 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  4 22:56 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57755_ruby_75119.zip
+1/1: ./aozorabunko/cards/001869/files/57755_ruby_75119.zip
+>> add 57755_ruby_meian_yome_mondo .txt
+>> add 57755_ruby_utf8_meian_yome_mondo .txt
+>> https://www.aozora.gr.jp/cards/001869/card57755.html
+>> 明暗嫁問答、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33096/452 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Mar  5 08:33:48 JST 2022
+End  : Sat Mar  5 08:33:50 JST 2022
