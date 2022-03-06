@@ -183,3 +183,42 @@ Title Total : 33096/452 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Mar  5 08:33:48 JST 2022
 End  : Sat Mar  5 08:33:50 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Mar  6 19:59:13 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e7d46d6964..249bbb3f38  master     -> origin/master
+Updating e7d46d6964..249bbb3f38
+Fast-forward
+ cards/000083/card60713.html                   | 229 +++++++++++++++++++++++++
+ cards/000083/card60760.html                   | 234 ++++++++++++++++++++++++++
+ cards/000083/files/60713_75159.html           |  72 ++++++++
+ cards/000083/files/60713_ruby_75121.zip       | Bin 0 -> 3531 bytes
+ cards/000083/files/60760_75158.html           |  95 +++++++++++
+ cards/000083/files/60760_ruby_75120.zip       | Bin 0 -> 6076 bytes
+ 83 files changed, 3327 insertions(+), 2702 deletions(-)
+Date: Sun Mar  6 19:59:17 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  5 08:33 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000083/files/60760_ruby_75120.zip
+     2	./aozorabunko/cards/000083/files/60713_ruby_75121.zip
+1/2: ./aozorabunko/cards/000083/files/60760_ruby_75120.zip
+>> add 60760_ruby_shishao_warau.txt
+>> add 60760_ruby_utf8_shishao_warau.txt
+>> https://www.aozora.gr.jp/cards/000083/card60760.html
+>> 死者を嗤う、菊池寛
+2/2: ./aozorabunko/cards/000083/files/60713_ruby_75121.zip
+>> add 60713_ruby_tenno_haizai.txt
+>> add 60713_ruby_utf8_tenno_haizai.txt
+>> https://www.aozora.gr.jp/cards/000083/card60713.html
+>> 天の配剤、菊池寛
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33100/452 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Mar  6 19:59:13 JST 2022
+End  : Sun Mar  6 19:59:18 JST 2022
