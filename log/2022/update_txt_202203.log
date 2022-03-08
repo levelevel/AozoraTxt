@@ -222,3 +222,78 @@ Title Total : 33100/452 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Mar  6 19:59:13 JST 2022
 End  : Sun Mar  6 19:59:18 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Mar  8 20:50:11 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   249bbb3f38..904b741d2e  master     -> origin/master
+Updating 249bbb3f38..904b741d2e
+Fast-forward
+ cards/001091/card59536.html                   |   8 +-
+ cards/001091/card59849.html                   |  12 +-
+ cards/001091/card60028.html                   |   8 +-
+ cards/001091/card60125.html                   |   8 +-
+ cards/001091/files/59536_69548.html           |   3 +-
+ cards/001091/files/59536_ruby_69497.zip       | Bin 5592 -> 5593 bytes
+ cards/001091/files/59849_73210.html           |   3 +-
+ cards/001091/files/59849_ruby_73170.zip       | Bin 1689 -> 1573 bytes
+ cards/001091/files/60028_74403.html           |   3 +-
+ cards/001091/files/60028_ruby_74365.zip       | Bin 3306 -> 3320 bytes
+ cards/001091/files/60125_72100.html           |   3 +-
+ cards/001091/files/60125_ruby_72059.zip       | Bin 1856 -> 1869 bytes
+ cards/001475/card52631.html                   | 234 ++++++++++++
+ cards/001475/files/52631_75160.html           |  92 +++++
+ cards/001475/files/52631_ruby_75122.zip       | Bin 0 -> 4039 bytes
+ cards/001529/card60804.html                   | 243 +++++++++++++
+ cards/001529/files/60804_75161.html           | 492 ++++++++++++++++++++++++++
+ cards/001529/files/60804_ruby_75123.zip       | Bin 0 -> 33135 bytes
+ 134 files changed, 2410 insertions(+), 1359 deletions(-)
+Date: Tue Mar  8 20:50:21 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  6 19:59 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/52631_ruby_75122.zip
+     2	./aozorabunko/cards/001529/files/60804_ruby_75123.zip
+     3	./aozorabunko/cards/001091/files/59849_ruby_73170.zip
+     4	./aozorabunko/cards/001091/files/60028_ruby_74365.zip
+     5	./aozorabunko/cards/001091/files/59536_ruby_69497.zip
+     6	./aozorabunko/cards/001091/files/60125_ruby_72059.zip
+1/6: ./aozorabunko/cards/001475/files/52631_ruby_75122.zip
+>> add 52631_ruby_kodomowa_gyakutaini_mokujusu.txt
+>> add 52631_ruby_utf8_kodomowa_gyakutaini_mokujusu.txt
+>> https://www.aozora.gr.jp/cards/001475/card52631.html
+>> 子供は虐待に黙従す、小川未明
+2/6: ./aozorabunko/cards/001529/files/60804_ruby_75123.zip
+>> add 60804_ruby_heike_monogatari03.txt
+>> add 60804_ruby_utf8_heike_monogatari03.txt
+>> https://www.aozora.gr.jp/cards/001529/card60804.html
+>> 現代語訳　平家物語、第三巻、尾崎士郎訳
+3/6: ./aozorabunko/cards/001091/files/59849_ruby_73170.zip
+>> update 59849_ruby_toshiyorino_ojisanto_mago.txt
+>> update 59849_ruby_utf8_toshiyorino_ojisanto_mago.txt
+>> https://www.aozora.gr.jp/cards/001091/card59849.html
+>> としよりのお祖父さんと孫、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳
+4/6: ./aozorabunko/cards/001091/files/60028_ruby_74365.zip
+>> update 60028_ruby_okusama_gitsuneno_gokonrei.txt
+>> update 60028_ruby_utf8_okusama_gitsuneno_gokonrei.txt
+>> https://www.aozora.gr.jp/cards/001091/card60028.html
+>> おくさま狐の御婚礼、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳
+5/6: ./aozorabunko/cards/001091/files/59536_ruby_69497.zip
+>> update 59536_ruby_kawaisona_konahikino_wakai_monoto_koneko.txt
+>> update 59536_ruby_utf8_kawaisona_konahikino_wakai_monoto_koneko.txt
+>> https://www.aozora.gr.jp/cards/001091/card59536.html
+>> かわいそうな粉ひきの若いものと小猫、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳
+6/6: ./aozorabunko/cards/001091/files/60125_ruby_72059.zip
+>> update 60125_ruby_kitsuneto_neko.txt
+>> update 60125_ruby_utf8_kitsuneto_neko.txt
+>> https://www.aozora.gr.jp/cards/001091/card60125.html
+>> 狐と猫、ヤーコップ、ウィルヘルム・グリム　Jacob u. Wilhelm Grimm、金田鬼一訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33104/452 (Accept:6/Reject:0/Update:4/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Mar  8 20:50:11 JST 2022
+End  : Tue Mar  8 20:50:22 JST 2022
