@@ -297,3 +297,136 @@ Title Total : 33104/452 (Accept:6/Reject:0/Update:4/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Mar  8 20:50:11 JST 2022
 End  : Tue Mar  8 20:50:22 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Mar 14 08:07:26 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   904b741d2e..4c20fe5c85  master     -> origin/master
+Updating 904b741d2e..4c20fe5c85
+Fast-forward
+ cards/000096/card60728.html                   | 234 +++++++++++++++
+ cards/000096/files/60728_75165.html           |  63 ++++
+ cards/000096/files/60728_ruby_75127.zip       | Bin 0 -> 1942 bytes
+ cards/000126/card1663.html                    |   2 +-
+ cards/000126/card49384.html                   |   2 +-
+ cards/000126/card669.html                     |   2 +-
+ cards/000126/card729.html                     |   2 +-
+ cards/000129/card685.html                     |  13 +-
+ cards/000129/files/685_20311.html             |  30 +-
+ cards/000129/files/685_ruby_20310.zip         | Bin 3408 -> 3380 bytes
+ cards/000214/card48999.html                   | 243 ++++++++++++++++
+ cards/000214/files/48999_75166.html           |  60 ++++
+ cards/000214/files/48999_ruby_75128.zip       | Bin 0 -> 2031 bytes
+ cards/000293/card60441.html                   | 234 +++++++++++++++
+ cards/000293/card60448.html                   | 234 +++++++++++++++
+ cards/000293/files/60441_75167.html           | 128 ++++++++
+ cards/000293/files/60441_ruby_75129.zip       | Bin 0 -> 1503 bytes
+ cards/000293/files/60448_75169.html           | 106 +++++++
+ cards/000293/files/60448_ruby_75131.zip       | Bin 0 -> 6415 bytes
+ cards/000326/card59620.html                   | 243 ++++++++++++++++
+ cards/000326/files/59620_75162.html           | 156 ++++++++++
+ cards/000326/files/59620_ruby_75124.zip       | Bin 0 -> 7366 bytes
+ cards/000340/card60482.html                   | 238 +++++++++++++++
+ cards/000340/files/60482_75164.html           | 179 ++++++++++++
+ cards/000340/files/60482_ruby_75126.zip       | Bin 0 -> 19362 bytes
+ cards/000906/card42573.html                   |   8 +-
+ cards/000906/files/42573_22881.html           |  26 +-
+ cards/000906/files/42573_txt_22871.zip        | Bin 5475 -> 5528 bytes
+ cards/001168/card59185.html                   | 229 +++++++++++++++
+ cards/001168/files/59185_75168.html           | 159 ++++++++++
+ cards/001168/files/59185_ruby_75130.zip       | Bin 0 -> 2378 bytes
+ cards/001341/card60636.html                   | 234 +++++++++++++++
+ cards/001341/files/60636_75163.html           | 177 ++++++++++++
+ cards/001341/files/60636_ruby_75125.zip       | Bin 0 -> 8797 bytes
+ cards/001566/card52504.html                   |  10 +-
+ cards/001566/files/52504_49667.html           | 324 +++++++++++++--------
+ cards/001566/files/52504_ruby_49666.zip       | Bin 1566882 -> 314607 bytes
+ cards/001869/card57767.html                   | 229 +++++++++++++++
+ cards/001869/files/57767_75170.html           | 384 ++++++++++++++++++++++++
+ cards/001869/files/57767_ruby_75132.zip       | Bin 0 -> 20683 bytes
+ 324 files changed, 15380 insertions(+), 11084 deletions(-)
+Date: Mon Mar 14 08:07:32 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar  8 20:50 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000326/files/59620_ruby_75124.zip
+     2	./aozorabunko/cards/001566/files/52504_ruby_49666.zip
+     3	./aozorabunko/cards/000340/files/60482_ruby_75126.zip
+     4	./aozorabunko/cards/001341/files/60636_ruby_75125.zip
+     5	./aozorabunko/cards/000214/files/48999_ruby_75128.zip
+     6	./aozorabunko/cards/000906/files/42573_txt_22871.zip
+     7	./aozorabunko/cards/000129/files/685_ruby_20310.zip
+     8	./aozorabunko/cards/001168/files/59185_ruby_75130.zip
+     9	./aozorabunko/cards/000096/files/60728_ruby_75127.zip
+    10	./aozorabunko/cards/000293/files/60441_ruby_75129.zip
+    11	./aozorabunko/cards/000293/files/60448_ruby_75131.zip
+    12	./aozorabunko/cards/001869/files/57767_ruby_75132.zip
+1/12: ./aozorabunko/cards/000326/files/59620_ruby_75124.zip
+>> add 59620_ruby_nasanu_ko.txt
+>> add 59620_ruby_utf8_nasanu_ko.txt
+>> https://www.aozora.gr.jp/cards/000326/card59620.html
+>> 生さぬ児、モーリス・ルヴェル　Maurice Level、田中早苗訳
+2/12: ./aozorabunko/cards/001566/files/52504_ruby_49666.zip
+>> update 52504_ruby_tono_monogatari.txt
+>> update 52504_ruby_utf8_tono_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001566/card52504.html
+>> 遠野物語、柳田国男
+3/12: ./aozorabunko/cards/000340/files/60482_ruby_75126.zip
+>> add 60482_ruby_akai_hana.txt
+>> add 60482_ruby_utf8_akai_hana.txt
+>> https://www.aozora.gr.jp/cards/000340/card60482.html
+>> 紅い花、КРАСНЫЙ ЦВЕТОК、ガルシン　Всеволод Михайлович Гаршин、神西清訳
+4/12: ./aozorabunko/cards/001341/files/60636_ruby_75125.zip
+>> add 60636_ruby_nigiri_meshi.txt
+>> add 60636_ruby_utf8_nigiri_meshi.txt
+>> https://www.aozora.gr.jp/cards/001341/card60636.html
+>> にぎり飯、永井荷風
+5/12: ./aozorabunko/cards/000214/files/48999_ruby_75128.zip
+>> add 48999_ruby_okigayoino_fune.txt
+>> add 48999_ruby_utf8_okigayoino_fune.txt
+>> https://www.aozora.gr.jp/cards/000214/card48999.html
+>> 隠岐がよひの船、田山録弥
+6/12: ./aozorabunko/cards/000906/files/42573_txt_22871.zip
+>> update 42573_txt_kaiini_kirawaru.txt
+>> update 42573_txt_utf8_kaiini_kirawaru.txt
+>> https://www.aozora.gr.jp/cards/000906/card42573.html
+>> 怪異に嫌わる、豊島与志雄
+7/12: ./aozorabunko/cards/000129/files/685_ruby_20310.zip
+>> update 685_ruby_saffron.txt
+>> update 685_ruby_utf8_saffron.txt
+>> https://www.aozora.gr.jp/cards/000129/card685.html
+>> サフラン、森鴎外
+8/12: ./aozorabunko/cards/001168/files/59185_ruby_75130.zip
+>> add 59185_ruby_dotei.txt
+>> add 59185_ruby_utf8_dotei.txt
+>> https://www.aozora.gr.jp/cards/001168/card59185.html
+>> 道程、高村光太郎
+9/12: ./aozorabunko/cards/000096/files/60728_ruby_75127.zip
+>> add 60728_ruby_daiyamondo.txt
+>> add 60728_ruby_utf8_daiyamondo.txt
+>> https://www.aozora.gr.jp/cards/000096/card60728.html
+>> 金剛石、夢野久作
+10/12: ./aozorabunko/cards/000293/files/60441_ruby_75129.zip
+>> add 60441_ruby_chiba_kaiganno_shi.txt
+>> add 60441_ruby_utf8_chiba_kaiganno_shi.txt
+>> https://www.aozora.gr.jp/cards/000293/card60441.html
+>> 千葉海岸の詩、原民喜
+11/12: ./aozorabunko/cards/000293/files/60448_ruby_75131.zip
+>> add 60448_ruby_seinan_hokuto.txt
+>> add 60448_ruby_utf8_seinan_hokuto.txt
+>> https://www.aozora.gr.jp/cards/000293/card60448.html
+>> 西南北東、原民喜
+12/12: ./aozorabunko/cards/001869/files/57767_ruby_75132.zip
+>> add 57767_ruby_yukito_doro.txt
+>> add 57767_ruby_utf8_yukito_doro.txt
+>> https://www.aozora.gr.jp/cards/001869/card57767.html
+>> 雪と泥、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33122/452 (Accept:12/Reject:0/Update:3/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Mar 14 08:07:26 JST 2022
+End  : Mon Mar 14 08:07:34 JST 2022
