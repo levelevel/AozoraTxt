@@ -1,0 +1,39 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Apr  2 07:22:15 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   02b5a5dcf9..c814ded381  master     -> origin/master
+Updating 02b5a5dcf9..c814ded381
+Fast-forward
+ cards/001168/card60292.html                   | 234 +++++++++++++++++++++++
+ cards/001168/files/60292_75290.html           |  82 ++++++++
+ cards/001168/files/60292_ruby_75258.zip       | Bin 0 -> 2958 bytes
+ cards/002043/card61391.html                   | 231 +++++++++++++++++++++++
+ cards/002043/files/61391_75059.html           | 262 ++++++++++++++++++++++++++
+ cards/002043/files/61391_ruby_75058.zip       | Bin 0 -> 1559202 bytes
+ 83 files changed, 2629 insertions(+), 1763 deletions(-)
+Date: Sat Apr  2 07:22:17 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Mar 31 20:17 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002043/files/61391_ruby_75058.zip
+     2	./aozorabunko/cards/001168/files/60292_ruby_75258.zip
+1/2: ./aozorabunko/cards/002043/files/61391_ruby_75058.zip
+>> add 61391_NPD_ruby_akuno_teio_10.txt
+>> add 61391_NPD_ruby_utf8_akuno_teio_10.txt
+>> https://www.aozora.gr.jp/cards/002043/card61391.html
+>> 悪の帝王、THE MASTER CRIMINAL、第十話　クライソリン株式会社、X. "CRYSOLINE LIMITED"、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+2/2: ./aozorabunko/cards/001168/files/60292_ruby_75258.zip
+>> add 60292_ruby_kodai_egypt_no_sakuhin.txt
+>> add 60292_ruby_utf8_kodai_egypt_no_sakuhin.txt
+>> https://www.aozora.gr.jp/cards/001168/card60292.html
+>> 古代エジプトの作品、高村光太郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33162/454 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Apr  2 07:22:15 JST 2022
+End  : Sat Apr  2 07:22:17 JST 2022
