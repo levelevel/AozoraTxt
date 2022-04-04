@@ -106,3 +106,33 @@ Title Total : 33168/454 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Apr  4 08:15:45 JST 2022
 End  : Mon Apr  4 08:16:01 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Apr  5 08:07:01 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   4a5cbd889d..c71deb35b6  master     -> origin/master
+Updating 4a5cbd889d..c71deb35b6
+Fast-forward
+ cards/001869/card57774.html                   |  229 ++
+ cards/001869/files/57774_75294.html           |  345 +++
+ cards/001869/files/57774_ruby_75262.zip       |  Bin 0 -> 25619 bytes
+ 52 files changed, 7298 insertions(+), 590 deletions(-)
+Date: Tue Apr  5 08:07:03 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr  4 08:16 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57774_ruby_75262.zip
+1/1: ./aozorabunko/cards/001869/files/57774_ruby_75262.zip
+>> add 57774_ruby_wakatono_jonanki.txt
+>> add 57774_ruby_utf8_wakatono_jonanki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57774.html
+>> 若殿女難記、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33170/454 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Apr  5 08:07:01 JST 2022
+End  : Tue Apr  5 08:07:03 JST 2022
