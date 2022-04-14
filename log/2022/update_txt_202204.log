@@ -394,3 +394,43 @@ Title Total : 33188/454 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Apr 13 20:42:42 JST 2022
 End  : Wed Apr 13 20:42:47 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr 15 08:28:55 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   f444ba4e45..5f49b595c6  master     -> origin/master
+Updating f444ba4e45..5f49b595c6
+Fast-forward
+ cards/001341/card60631.html                   |  234 ++
+ cards/001341/files/60631_75305.html           |   71 +
+ cards/001341/files/60631_ruby_75273.zip       |  Bin 0 -> 4862 bytes
+ cards/001670/card55342.html                   |  260 ++
+ cards/001670/files/55342_75304.html           | 5192 +++++++++++++++++++++++++
+ cards/001670/files/55342_ruby_75272.zip       |  Bin 0 -> 323708 bytes
+ cards/002153/card60467.html                   |    4 +-
+ 107 files changed, 8360 insertions(+), 2308 deletions(-)
+Date: Fri Apr 15 08:29:06 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 13 20:42 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60631_ruby_75273.zip
+     2	./aozorabunko/cards/001670/files/55342_ruby_75272.zip
+1/2: ./aozorabunko/cards/001341/files/60631_ruby_75273.zip
+>> add 60631_ruby_shuppanya_somakuri.txt
+>> add 60631_ruby_utf8_shuppanya_somakuri.txt
+>> https://www.aozora.gr.jp/cards/001341/card60631.html
+>> 出版屋惣まくり、永井荷風
+2/2: ./aozorabunko/cards/001670/files/55342_ruby_75272.zip
+>> add 55342_ruby_meikyoku_ketteiban.txt
+>> add 55342_ruby_utf8_meikyoku_ketteiban.txt
+>> https://www.aozora.gr.jp/cards/001670/card55342.html
+>> 名曲決定盤、野村長一
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33192/454 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Apr 15 08:28:55 JST 2022
+End  : Fri Apr 15 08:29:07 JST 2022
