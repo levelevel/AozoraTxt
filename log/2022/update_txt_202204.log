@@ -522,3 +522,72 @@ Title Total : 33202/454 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Apr 20 20:47:06 JST 2022
 End  : Wed Apr 20 20:47:18 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 21 20:46:20 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7328b5bc3b..567e421cda  master     -> origin/master
+Updating 7328b5bc3b..567e421cda
+Fast-forward
+ cards/000258/card50189.html                   |  10 +-
+ cards/000258/card52948.html                   |  10 +-
+ cards/000258/card58129.html                   |   8 +-
+ cards/000258/files/50189_34695.html           |   5 +-
+ cards/000258/files/50189_ruby_34696.zip       | Bin 3979 -> 3996 bytes
+ cards/000258/files/52948_42570.html           | 148 ++++++++--------
+ cards/000258/files/52948_ruby_42571.zip       | Bin 14009 -> 15012 bytes
+ cards/000258/files/58129_60566.html           |  12 +-
+ cards/000258/files/58129_ruby_60565.zip       | Bin 20208 -> 20249 bytes
+ cards/001475/card52642.html                   | 234 ++++++++++++++++++++++++++
+ cards/001475/files/52642_75311.html           |  89 ++++++++++
+ cards/001475/files/52642_ruby_75279.zip       | Bin 0 -> 3498 bytes
+ cards/001733/card55453.html                   |   8 +-
+ cards/001733/card55455.html                   |   8 +-
+ cards/001733/card55458.html                   |   8 +-
+ cards/001733/card55460.html                   |   8 +-
+ cards/002153/card60467.html                   |  10 +-
+ cards/002153/files/60467_74063.html           |   5 +-
+ cards/002153/files/60467_ruby_74025.zip       | Bin 25685 -> 25704 bytes
+ 135 files changed, 2591 insertions(+), 1855 deletions(-)
+Date: Thu Apr 21 20:46:23 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 20 20:47 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/52642_ruby_75279.zip
+     2	./aozorabunko/cards/002153/files/60467_ruby_74025.zip
+     3	./aozorabunko/cards/000258/files/52948_ruby_42571.zip
+     4	./aozorabunko/cards/000258/files/58129_ruby_60565.zip
+     5	./aozorabunko/cards/000258/files/50189_ruby_34696.zip
+1/5: ./aozorabunko/cards/001475/files/52642_ruby_75279.zip
+>> add 52642_ruby_senbazuru.txt
+>> add 52642_ruby_utf8_senbazuru.txt
+>> https://www.aozora.gr.jp/cards/001475/card52642.html
+>> 千羽鶴、小川未明
+2/5: ./aozorabunko/cards/002153/files/60467_ruby_74025.zip
+>> update 60467_ruby_tone_suigen_tanken_kiko.txt
+>> update 60467_ruby_utf8_tone_suigen_tanken_kiko.txt
+>> https://www.aozora.gr.jp/cards/002153/card60467.html
+>> 利根水源探検紀行、渡邊千吉郎
+3/5: ./aozorabunko/cards/000258/files/52948_ruby_42571.zip
+>> update 52948_NPD_ruby_natsuno_hino_yume.txt
+>> update 52948_NPD_ruby_utf8_natsuno_hino_yume.txt
+>> https://www.aozora.gr.jp/cards/000258/card52948.html
+>> 夏の日の夢、THE DREAM OF A SUMMER DAY、小泉八雲　Lafcadio Hearn、林田清明訳
+4/5: ./aozorabunko/cards/000258/files/58129_ruby_60565.zip
+ERROR: empty
+total 0
+>> https://www.aozora.gr.jp/cards/000258/card58129.html
+5/5: ./aozorabunko/cards/000258/files/50189_ruby_34696.zip
+>> update 50189_NPD_ruby_hashino_uede.txt
+>> update 50189_NPD_ruby_utf8_hashino_uede.txt
+>> https://www.aozora.gr.jp/cards/000258/card50189.html
+>> 橋の上で、ON A BRIDGE、小泉八雲　Lafcadio Hearn、林田清明訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33204/454 (Accept:4/Reject:0/Update:3/Rename:0/Empty:1/Multi txt:0/NPD:3)
+Git Failed  : 0
+Start: Thu Apr 21 20:46:20 JST 2022
+End  : Thu Apr 21 20:46:23 JST 2022
