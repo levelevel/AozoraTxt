@@ -591,3 +591,61 @@ Title Total : 33204/454 (Accept:4/Reject:0/Update:3/Rename:0/Empty:1/Multi txt:0
 Git Failed  : 0
 Start: Thu Apr 21 20:46:20 JST 2022
 End  : Thu Apr 21 20:46:23 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr 22 07:17:28 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   567e421cda..df885ab5df  master     -> origin/master
+Updating 567e421cda..df885ab5df
+Fast-forward
+ cards/000019/card194.html                     |   4 +-
+ cards/000019/card46318.html                   |   4 +-
+ cards/000019/card46319.html                   |   4 +-
+ cards/000277/card59446.html                   | 234 ++++++++++++++++++++++++++
+ cards/000277/files/59446_75312.html           | 123 ++++++++++++++
+ cards/000277/files/59446_ruby_75280.zip       | Bin 0 -> 198169 bytes
+ cards/001393/card54926.html                   |   8 +-
+ cards/001393/card55880.html                   |   8 +-
+ cards/001505/card54916.html                   |   8 +-
+ cards/001505/card54917.html                   |   8 +-
+ cards/001505/card54918.html                   |   8 +-
+ cards/001505/card54919.html                   |   8 +-
+ cards/001505/card54920.html                   |   8 +-
+ cards/001505/card54921.html                   |   8 +-
+ cards/001505/card54922.html                   |   8 +-
+ cards/001505/card54923.html                   |   8 +-
+ cards/001505/card55889.html                   |   8 +-
+ cards/001505/card55890.html                   |   8 +-
+ cards/001505/files/58100_txt_60357.zip        | Bin 26528609 -> 26527638 bytes
+ cards/001686/card54924.html                   |   8 +-
+ cards/001686/card54925.html                   |   8 +-
+ cards/001687/card54927.html                   |   8 +-
+ cards/001688/card54928.html                   |   8 +-
+ cards/001727/card55345.html                   |   8 +-
+ cards/001756/card55884.html                   |   8 +-
+ 129 files changed, 1401 insertions(+), 985 deletions(-)
+Date: Fri Apr 22 07:17:30 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 21 20:46 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000277/files/59446_ruby_75280.zip
+     2	./aozorabunko/cards/001505/files/58100_txt_60357.zip
+1/2: ./aozorabunko/cards/000277/files/59446_ruby_75280.zip
+>> add 59446_ruby_zoku_suwisu_nikki.txt
+>> add 59446_ruby_utf8_zoku_suwisu_nikki.txt
+>> https://www.aozora.gr.jp/cards/000277/card59446.html
+>> 続スウィス日記（千九百二十三年稿）、辻村伊助
+2/2: ./aozorabunko/cards/001505/files/58100_txt_60357.zip
+>> update 58100_NPD_txt_chobihige_samuel_no_hanashi.txt
+>> update 58100_NPD_txt_utf8_chobihige_samuel_no_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001505/card58100.html
+>> ちょびひげサミュエルのはなし、まきまきパンのまき、THE TALE OF SAMUEL WHISKERS OR, THE ROLY-POLY PUDDING、ベアトリクス・ポッター　Beatrix Potter、大久保ゆう訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33206/454 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Apr 22 07:17:28 JST 2022
+End  : Fri Apr 22 07:17:30 JST 2022

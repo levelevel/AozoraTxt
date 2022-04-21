@@ -98,7 +98,7 @@
 ./aozorabunko/cards/001505/files/56842_txt_53389.zip
 ./aozorabunko/cards/001505/files/56843_txt_53391.zip
 ./aozorabunko/cards/001505/files/57323_txt_57120.zip
-./aozorabunko/cards/001505/files/58100_txt_60357.zip	2019/12/15
+./aozorabunko/cards/001505/files/58100_txt_60357.zip	2022/04/22
 ./aozorabunko/cards/001506/files/51367_txt_38655.zip
 ./aozorabunko/cards/001506/files/51737_txt_39268.zip
 ./aozorabunko/cards/001506/files/52175_txt_40684.zip
