@@ -788,3 +788,52 @@ Title Total : 33212/456 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Apr 26 08:20:08 JST 2022
 End  : Tue Apr 26 08:20:10 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Apr 28 08:07:07 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   d567bca794..724d2a19db  master     -> origin/master
+Updating d567bca794..724d2a19db
+Fast-forward
+ cards/000076/card58364.html                   | 234 ++++++++++++++++++++++++++
+ cards/000076/files/58364_75317.html           |  72 ++++++++
+ cards/000076/files/58364_ruby_75285.zip       | Bin 0 -> 3126 bytes
+ cards/001176/card44904.html                   |   2 +-
+ cards/001869/card57729.html                   | 229 +++++++++++++++++++++++++
+ cards/001869/card57811.html                   |   8 +-
+ cards/001869/files/57729_75316.html           |  98 +++++++++++
+ cards/001869/files/57729_ruby_75284.zip       | Bin 0 -> 21515 bytes
+ cards/001869/files/57811_70993.html           |   3 +-
+ cards/001869/files/57811_ruby_70943.zip       | Bin 14145 -> 13992 bytes
+ 187 files changed, 3559 insertions(+), 2931 deletions(-)
+Date: Thu Apr 28 08:07:11 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 26 08:20 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000076/files/58364_ruby_75285.zip
+     2	./aozorabunko/cards/001869/files/57811_ruby_70943.zip
+     3	./aozorabunko/cards/001869/files/57729_ruby_75284.zip
+1/3: ./aozorabunko/cards/000076/files/58364_ruby_75285.zip
+>> add 58364_ruby_hashi.txt
+>> add 58364_ruby_utf8_hashi.txt
+>> https://www.aozora.gr.jp/cards/000076/card58364.html
+>> 橋、岡本かの子
+2/3: ./aozorabunko/cards/001869/files/57811_ruby_70943.zip
+>> update 57811_ruby_momono_ido.txt
+>> update 57811_ruby_utf8_momono_ido.txt
+>> https://www.aozora.gr.jp/cards/001869/card57811.html
+>> 日本婦道記、桃の井戸、山本周五郎
+3/3: ./aozorabunko/cards/001869/files/57729_ruby_75284.zip
+>> add 57729_ruby_furyu_bakemono_yashiki.txt
+>> add 57729_ruby_utf8_furyu_bakemono_yashiki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57729.html
+>> 風流化物屋敷、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33216/456 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Apr 28 08:07:07 JST 2022
+End  : Thu Apr 28 08:07:12 JST 2022
