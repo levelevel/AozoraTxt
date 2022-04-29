@@ -837,3 +837,33 @@ Title Total : 33216/456 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Apr 28 08:07:07 JST 2022
 End  : Thu Apr 28 08:07:12 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Apr 29 17:00:26 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   724d2a19db..da773e96da  master     -> origin/master
+Updating 724d2a19db..da773e96da
+Fast-forward
+ cards/000326/card59628.html                   | 243 ++++++++++++++++++++++++++
+ cards/000326/files/59628_75318.html           | 211 ++++++++++++++++++++++
+ cards/000326/files/59628_ruby_75286.zip       | Bin 0 -> 10742 bytes
+ 42 files changed, 753 insertions(+), 311 deletions(-)
+Date: Fri Apr 29 17:00:29 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 28 08:07 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000326/files/59628_ruby_75286.zip
+1/1: ./aozorabunko/cards/000326/files/59628_ruby_75286.zip
+>> add 59628_ruby_la_belle_fille_gono_kimyona_kokai.txt
+>> add 59628_ruby_utf8_la_belle_fille_gono_kimyona_kokai.txt
+>> https://www.aozora.gr.jp/cards/000326/card59628.html
+>> ラ・ベル・フィユ号の奇妙な航海、モーリス・ルヴェル　Maurice Level、田中早苗訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33218/456 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Apr 29 17:00:26 JST 2022
+End  : Fri Apr 29 17:00:30 JST 2022
