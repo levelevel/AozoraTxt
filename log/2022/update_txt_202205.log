@@ -1,0 +1,75 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun May  1 17:34:35 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   da773e96da..1339e4a252  master     -> origin/master
+Updating da773e96da..1339e4a252
+Fast-forward
+ cards/001341/card60611.html                   | 234 +++++++++++++
+ cards/001341/card60642.html                   | 234 +++++++++++++
+ cards/001341/files/60611_75319.html           | 133 ++++++++
+ cards/001341/files/60611_ruby_75287.zip       | Bin 0 -> 8737 bytes
+ cards/001341/files/60642_75321.html           | 356 ++++++++++++++++++++
+ cards/001341/files/60642_ruby_75289.zip       | Bin 0 -> 10642 bytes
+ cards/001529/card60804.html                   |   8 +-
+ cards/001529/card60805.html                   |   8 +-
+ cards/001529/files/60804_75161.html           |   2 +
+ cards/001529/files/60804_ruby_75123.zip       | Bin 33135 -> 33142 bytes
+ cards/001529/files/60805_75297.html           |   3 +
+ cards/001529/files/60805_ruby_75265.zip       | Bin 36322 -> 36327 bytes
+ cards/001763/card59437.html                   | 234 +++++++++++++
+ cards/001763/files/59437_75320.html           |  62 ++++
+ cards/001763/files/59437_ruby_75288.zip       | Bin 0 -> 1786 bytes
+ cards/002043/card61557.html                   | 231 +++++++++++++
+ cards/002043/files/61557_75412.html           | 245 ++++++++++++++
+ cards/002043/files/61557_ruby_75411.zip       | Bin 0 -> 1578323 bytes
+ 122 files changed, 3941 insertions(+), 2678 deletions(-)
+Date: Sun May  1 17:34:38 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Apr 29 17:00 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60642_ruby_75289.zip
+     2	./aozorabunko/cards/001341/files/60611_ruby_75287.zip
+     3	./aozorabunko/cards/001763/files/59437_ruby_75288.zip
+     4	./aozorabunko/cards/002043/files/61557_ruby_75411.zip
+     5	./aozorabunko/cards/001529/files/60804_ruby_75123.zip
+     6	./aozorabunko/cards/001529/files/60805_ruby_75265.zip
+1/6: ./aozorabunko/cards/001341/files/60642_ruby_75289.zip
+>> add 60642_ruby_wataridori_itsu_kaeru.txt
+>> add 60642_ruby_utf8_wataridori_itsu_kaeru.txt
+>> https://www.aozora.gr.jp/cards/001341/card60642.html
+>> 渡鳥いつかへる、軽演劇一幕四場、永井荷風
+2/6: ./aozorabunko/cards/001341/files/60611_ruby_75287.zip
+>> add 60611_ruby_azuma_bashi.txt
+>> add 60611_ruby_utf8_azuma_bashi.txt
+>> https://www.aozora.gr.jp/cards/001341/card60611.html
+>> 吾妻橋、永井荷風
+3/6: ./aozorabunko/cards/001763/files/59437_ruby_75288.zip
+>> add 59437_ruby_tesshita_kojin_shugi.txt
+>> add 59437_ruby_utf8_tesshita_kojin_shugi.txt
+>> https://www.aozora.gr.jp/cards/001763/card59437.html
+>> 徹した個人主義、佐藤春夫
+4/6: ./aozorabunko/cards/002043/files/61557_ruby_75411.zip
+>> add 61557_NPD_ruby_akuno_teio_11.txt
+>> add 61557_NPD_ruby_utf8_akuno_teio_11.txt
+>> https://www.aozora.gr.jp/cards/002043/card61557.html
+>> 悪の帝王、THE MASTER CRIMINAL、第十一話　東女帝丸不明、XI. THE LOSS OF THE "EASTERN EMPRESS"、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+5/6: ./aozorabunko/cards/001529/files/60804_ruby_75123.zip
+>> update 60804_ruby_heike_monogatari03.txt
+>> update 60804_ruby_utf8_heike_monogatari03.txt
+>> https://www.aozora.gr.jp/cards/001529/card60804.html
+>> 現代語訳　平家物語、第三巻、尾崎士郎訳
+6/6: ./aozorabunko/cards/001529/files/60805_ruby_75265.zip
+>> update 60805_ruby_heike_monogatari04.txt
+>> update 60805_ruby_utf8_heike_monogatari04.txt
+>> https://www.aozora.gr.jp/cards/001529/card60805.html
+>> 現代語訳　平家物語、第四巻、尾崎士郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33224/458 (Accept:6/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun May  1 17:34:35 JST 2022
+End  : Sun May  1 17:34:38 JST 2022
