@@ -73,3 +73,43 @@ Title Total : 33224/458 (Accept:6/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May  1 17:34:35 JST 2022
 End  : Sun May  1 17:34:38 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue May  3 12:25:08 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1339e4a252..f111b56747  master     -> origin/master
+Updating 1339e4a252..f111b56747
+Fast-forward
+ cards/001123/card59730.html                   | 238 ++++++++++++++++++++++++++
+ cards/001123/files/59730_75451.html           | 180 +++++++++++++++++++
+ cards/001123/files/59730_ruby_75419.zip       | Bin 0 -> 18532 bytes
+ cards/001395/card49899.html                   |   8 +-
+ cards/001395/files/49899_42902.html           |   5 +-
+ cards/001395/files/49899_ruby_42708.zip       | Bin 7936 -> 8011 bytes
+ cards/002225/card61392.html                   | 228 ++++++++++++++++++++++++
+ 91 files changed, 1836 insertions(+), 1213 deletions(-)
+Date: Tue May  3 12:25:11 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 May  1 17:34 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001123/files/59730_ruby_75419.zip
+     2	./aozorabunko/cards/001395/files/49899_ruby_42708.zip
+1/2: ./aozorabunko/cards/001123/files/59730_ruby_75419.zip
+>> add 59730_ruby_murano_vamp.txt
+>> add 59730_ruby_utf8_murano_vamp.txt
+>> https://www.aozora.gr.jp/cards/001123/card59730.html
+>> 村の吸血鬼、THE VAMPIRE OF THE VILLAGE、Ｇ・Ｋ・チェスタートン　G. K. Chesterton、村崎敏郎訳
+2/2: ./aozorabunko/cards/001395/files/49899_ruby_42708.zip
+>> update 49899_ruby_teishabade_kanjita_koto.txt
+>> update 49899_ruby_utf8_teishabade_kanjita_koto.txt
+>> https://www.aozora.gr.jp/cards/001395/card49899.html
+>> 停車場で感じたこと、和辻哲郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33226/458 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue May  3 12:25:08 JST 2022
+End  : Tue May  3 12:25:11 JST 2022
