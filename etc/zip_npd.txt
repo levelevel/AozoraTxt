@@ -230,3 +230,4 @@
 ./aozorabunko/cards/002130/files/60082_txt_69486.zip	2020/01/06
 ./aozorabunko/cards/002130/files/60178_ruby_69805.zip	2020/02/21
 ./aozorabunko/cards/002134/files/60169_ruby_69491.zip	2019/11/06
+./aozorabunko/cards/002242/files/61560_txt_75398.zip	2022/05/09

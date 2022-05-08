@@ -242,3 +242,42 @@ Title Total : 33236/458 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun May  8 11:55:48 JST 2022
 End  : Sun May  8 11:55:50 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon May  9 08:05:39 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   31c846c83e..ab60b08026  master     -> origin/master
+Updating 31c846c83e..ab60b08026
+Fast-forward
+ cards/000137/card60899.html                   | 234 +++++++++++++++++++++++++
+ cards/000137/files/60899_75457.html           |  76 +++++++++
+ cards/000137/files/60899_ruby_75425.zip       | Bin 0 -> 1055 bytes
+ cards/002242/card61560.html                   | 235 ++++++++++++++++++++++++++
+ cards/002242/files/61560_75399.html           | 117 +++++++++++++
+ cards/002242/files/61560_txt_75398.zip        | Bin 0 -> 1379 bytes
+ 100 files changed, 2253 insertions(+), 1595 deletions(-)
+Date: Mon May  9 08:05:40 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 May  8 11:55 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000137/files/60899_ruby_75425.zip
+     2	./aozorabunko/cards/002242/files/61560_txt_75398.zip
+1/2: ./aozorabunko/cards/000137/files/60899_ruby_75425.zip
+>> add 60899_ruby_chinaru_hibiki.txt
+>> add 60899_ruby_utf8_chinaru_hibiki.txt
+>> https://www.aozora.gr.jp/cards/000137/card60899.html
+>> 地なる響、岩野泡鳴
+2/2: ./aozorabunko/cards/002242/files/61560_txt_75398.zip
+>> add 61560_NPD_txt_kazega_fuiteiru.txt
+>> add 61560_NPD_txt_utf8_kazega_fuiteiru.txt
+>> https://www.aozora.gr.jp/cards/002242/card61560.html
+>> 風が吹いている、マルーシャ・チュラーイ、大久保ゆう訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33238/460 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Mon May  9 08:05:39 JST 2022
+End  : Mon May  9 08:05:41 JST 2022
