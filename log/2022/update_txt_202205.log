@@ -389,3 +389,60 @@ Title Total : 33248/460 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 12 23:37:42 JST 2022
 End  : Thu May 12 23:37:44 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri May 13 08:15:56 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   75be2de6b8..6b1621241f  master     -> origin/master
+Updating 75be2de6b8..6b1621241f
+Fast-forward
+ cards/000081/card60681.html                   |   8 +-
+ cards/000081/card60685.html                   |   8 +-
+ cards/000081/files/60681_73887.html           |   3 +-
+ cards/000081/files/60681_ruby_73851.zip       | Bin 10396 -> 10277 bytes
+ cards/000081/files/60685_74066.html           |   3 +-
+ cards/000081/files/60685_ruby_74028.zip       | Bin 26590 -> 26607 bytes
+ cards/000214/card48902.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/card51376.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48902_75463.html           |  85 +++++++++
+ cards/000214/files/48902_ruby_75431.zip       | Bin 0 -> 6140 bytes
+ cards/000214/files/51376_75464.html           |  63 +++++++
+ cards/000214/files/51376_txt_75432.zip        | Bin 0 -> 1256 bytes
+ 78 files changed, 3024 insertions(+), 2407 deletions(-)
+Date: Fri May 13 08:15:59 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 May 12 23:37 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000081/files/60681_ruby_73851.zip
+     2	./aozorabunko/cards/000081/files/60685_ruby_74028.zip
+     3	./aozorabunko/cards/000214/files/51376_txt_75432.zip
+     4	./aozorabunko/cards/000214/files/48902_ruby_75431.zip
+1/4: ./aozorabunko/cards/000081/files/60681_ruby_73851.zip
+>> update 60681_ruby_ginga_tetsudono_yoru_shokigata1.txt
+>> update 60681_ruby_utf8_ginga_tetsudono_yoru_shokigata1.txt
+>> https://www.aozora.gr.jp/cards/000081/card60681.html
+>> 〔「銀河鉄道の夜」初期形一〕、宮沢賢治
+2/4: ./aozorabunko/cards/000081/files/60685_ruby_74028.zip
+>> update 60685_ruby_1931nendo_kyokuto_bijiterian_taikai_kenbunroku.txt
+>> update 60685_ruby_utf8_1931nendo_kyokuto_bijiterian_taikai_kenbunroku.txt
+>> https://www.aozora.gr.jp/cards/000081/card60685.html
+>> 一九三一年度極東ビヂテリアン大会見聞録、宮沢賢治
+3/4: ./aozorabunko/cards/000214/files/51376_txt_75432.zip
+>> add 51376_txt_tsubaki_jo.txt
+>> add 51376_txt_utf8_tsubaki_jo.txt
+>> https://www.aozora.gr.jp/cards/000214/card51376.html
+>> 「椿」序、田山録弥
+4/4: ./aozorabunko/cards/000214/files/48902_ruby_75431.zip
+>> add 48902_ruby_jumokuto_sora_tobu_tori.txt
+>> add 48902_ruby_utf8_jumokuto_sora_tobu_tori.txt
+>> https://www.aozora.gr.jp/cards/000214/card48902.html
+>> 樹木と空飛ぶ鳥、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33252/460 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri May 13 08:15:56 JST 2022
+End  : Fri May 13 08:16:01 JST 2022
