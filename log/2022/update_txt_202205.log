@@ -446,3 +446,51 @@ Title Total : 33252/460 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri May 13 08:15:56 JST 2022
 End  : Fri May 13 08:16:01 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 14 12:12:12 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   6b1621241f..023d69e5b4  master     -> origin/master
+Updating 6b1621241f..023d69e5b4
+Fast-forward
+ cards/000051/card4109.html                    |  14 +-
+ cards/000051/files/4109_7964.html             |  43 +++--
+ cards/000051/files/4109_ruby_7780.zip         | Bin 14685 -> 14860 bytes
+ cards/001059/card60758.html                   | 234 ++++++++++++++++++++++++++
+ cards/001059/files/60758_75466.html           |  81 +++++++++
+ cards/001059/files/60758_txt_75434.zip        | Bin 0 -> 3529 bytes
+ cards/001383/card58918.html                   | 229 +++++++++++++++++++++++++
+ cards/001383/files/58918_75465.html           | 192 +++++++++++++++++++++
+ cards/001383/files/58918_ruby_75433.zip       | Bin 0 -> 20093 bytes
+ 61 files changed, 1895 insertions(+), 1154 deletions(-)
+Date: Sat May 14 12:12:13 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 May 13 08:16 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001059/files/60758_txt_75434.zip
+     2	./aozorabunko/cards/000051/files/4109_ruby_7780.zip
+     3	./aozorabunko/cards/001383/files/58918_ruby_75433.zip
+1/3: ./aozorabunko/cards/001059/files/60758_txt_75434.zip
+>> add 60758_txt_yakeato.txt
+>> add 60758_txt_utf8_yakeato.txt
+>> https://www.aozora.gr.jp/cards/001059/card60758.html
+>> 燒跡、齋藤茂吉
+2/3: ./aozorabunko/cards/000051/files/4109_ruby_7780.zip
+>> update 4109_ruby_gacho.txt
+>> update 4109_ruby_utf8_gacho.txt
+>> https://www.aozora.gr.jp/cards/000051/card4109.html
+>> 鵞鳥、幸田露伴
+3/3: ./aozorabunko/cards/001383/files/58918_ruby_75433.zip
+>> add 58918_ruby_hahao_kouru_ki.txt
+>> add 58918_ruby_utf8_hahao_kouru_ki.txt
+>> https://www.aozora.gr.jp/cards/001383/card58918.html
+>> 母を恋うる記、谷崎潤一郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33256/460 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 14 12:12:12 JST 2022
+End  : Sat May 14 12:12:14 JST 2022
