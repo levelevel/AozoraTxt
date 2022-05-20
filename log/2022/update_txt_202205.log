@@ -645,3 +645,42 @@ Title Total : 33268/460 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu May 19 08:13:25 JST 2022
 End  : Thu May 19 08:13:29 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat May 21 07:59:27 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9da9391984..8279a9b5e5  master     -> origin/master
+Updating 9da9391984..8279a9b5e5
+Fast-forward
+ cards/000076/card58349.html                   | 234 ++++++++++++++++++++++++++
+ cards/000076/files/58349_75474.html           |  79 +++++++++
+ cards/000076/files/58349_ruby_75442.zip       | Bin 0 -> 2140 bytes
+ cards/001869/card57778.html                   | 229 +++++++++++++++++++++++++
+ cards/001869/files/57778_75473.html           | 217 ++++++++++++++++++++++++
+ cards/001869/files/57778_ruby_75441.zip       | Bin 0 -> 10743 bytes
+ 55 files changed, 1323 insertions(+), 560 deletions(-)
+Date: Sat May 21 07:59:31 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 May 19 08:13 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000076/files/58349_ruby_75442.zip
+     2	./aozorabunko/cards/001869/files/57778_ruby_75441.zip
+1/2: ./aozorabunko/cards/000076/files/58349_ruby_75442.zip
+>> add 58349_ruby_mochi.txt
+>> add 58349_ruby_utf8_mochi.txt
+>> https://www.aozora.gr.jp/cards/000076/card58349.html
+>> 餅、岡本かの子
+2/2: ./aozorabunko/cards/001869/files/57778_ruby_75441.zip
+>> add 57778_ruby_yoruno_cho.txt
+>> add 57778_ruby_utf8_yoruno_cho.txt
+>> https://www.aozora.gr.jp/cards/001869/card57778.html
+>> 夜の蝶、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33272/460 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat May 21 07:59:27 JST 2022
+End  : Sat May 21 07:59:32 JST 2022
