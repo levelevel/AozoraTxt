@@ -16,6 +16,7 @@
 ./aozorabunko/cards/000009/files/55881_ruby_50043.zip
 ./aozorabunko/cards/000009/files/55882_ruby_50045.zip	2020/04/17
 ./aozorabunko/cards/000009/files/57322_ruby_57271.zip
+./aozorabunko/cards/000009/files/61393_ruby_75065.zip	2022/05/22
 ./aozorabunko/cards/000009/files/8_ruby_31219.zip
 ./aozorabunko/cards/000019/files/194_ruby_53253.zip
 ./aozorabunko/cards/000019/files/46318_ruby_23025.zip
