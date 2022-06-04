@@ -120,3 +120,33 @@ Title Total : 33294/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jun  4 13:49:59 JST 2022
 End  : Sat Jun  4 13:50:01 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jun  5 08:18:21 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a04840fc9e..2f594f943e  master     -> origin/master
+Updating a04840fc9e..2f594f943e
+Fast-forward
+ cards/001569/card59764.html                   |  229 ++
+ cards/001569/files/59764_75648.html           |   66 +
+ cards/001569/files/59764_txt_75618.zip        |  Bin 0 -> 1872 bytes
+ 44 files changed, 7605 insertions(+), 1176 deletions(-)
+Date: Sun Jun  5 08:18:24 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun  4 13:50 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59764_txt_75618.zip
+1/1: ./aozorabunko/cards/001569/files/59764_txt_75618.zip
+>> add 59764_txt_osakajinto_kagaku_seishin.txt
+>> add 59764_txt_utf8_osakajinto_kagaku_seishin.txt
+>> https://www.aozora.gr.jp/cards/001569/card59764.html
+>> 大阪人と科学精神、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33296/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jun  5 08:18:21 JST 2022
+End  : Sun Jun  5 08:18:24 JST 2022
