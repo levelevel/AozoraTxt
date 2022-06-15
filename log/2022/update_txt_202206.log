@@ -447,3 +447,53 @@ Title Total : 33314/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun 14 20:21:51 JST 2022
 End  : Tue Jun 14 20:21:54 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 15 20:45:26 JST 2022
+#Git pull
+fatal: unable to access 'https://github.com/aozorabunko/aozorabunko/': Could not resolve host: github.com
+Date: Wed Jun 15 20:45:36 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun 14 20:21 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33314/466 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 15 20:45:26 JST 2022
+End  : Wed Jun 15 20:45:37 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 15 20:45:50 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   882d95c5c4..493c93ea46  master     -> origin/master
+Updating 882d95c5c4..493c93ea46
+Fast-forward
+ cards/001569/card59774.html                   | 229 ++++++++++++++++++++++++++
+ cards/001569/files/59774_75658.html           |  69 ++++++++
+ cards/001569/files/59774_ruby_75628.zip       | Bin 0 -> 2079 bytes
+ cards/001869/card57556.html                   |   2 +-
+ cards/001869/card57767.html                   |   2 +-
+ cards/001869/card57778.html                   |   2 +-
+ 44 files changed, 1001 insertions(+), 706 deletions(-)
+Date: Wed Jun 15 20:45:55 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun 15 20:45 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001569/files/59774_ruby_75628.zip
+1/1: ./aozorabunko/cards/001569/files/59774_ruby_75628.zip
+>> add 59774_ruby_kutanino_sara.txt
+>> add 59774_ruby_utf8_kutanino_sara.txt
+>> https://www.aozora.gr.jp/cards/001569/card59774.html
+>> 九谷の皿、中谷宇吉郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33316/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 15 20:45:50 JST 2022
+End  : Wed Jun 15 20:45:55 JST 2022
