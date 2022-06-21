@@ -629,3 +629,33 @@ Title Total : 33326/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Jun 20 21:04:27 JST 2022
 End  : Mon Jun 20 21:04:32 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Jun 21 19:59:32 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   531fbbdadb..2687eaeb5e  master     -> origin/master
+Updating 531fbbdadb..2687eaeb5e
+Fast-forward
+ cards/000076/card58362.html                   | 234 ++++++++++++++++++++++++++
+ cards/000076/files/58362_75664.html           | 105 ++++++++++++
+ cards/000076/files/58362_ruby_75634.zip       | Bin 0 -> 2756 bytes
+ 77 files changed, 2668 insertions(+), 2122 deletions(-)
+Date: Tue Jun 21 19:59:37 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun 20 21:04 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000076/files/58362_ruby_75634.zip
+1/1: ./aozorabunko/cards/000076/files/58362_ruby_75634.zip
+>> add 58362_ruby_hibarino_ko.txt
+>> add 58362_ruby_utf8_hibarino_ko.txt
+>> https://www.aozora.gr.jp/cards/000076/card58362.html
+>> ひばりの子、岡本かの子
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33328/466 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Jun 21 19:59:32 JST 2022
+End  : Tue Jun 21 19:59:37 JST 2022
