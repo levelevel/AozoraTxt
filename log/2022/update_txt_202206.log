@@ -806,3 +806,42 @@ Title Total : 33340/468 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sun Jun 26 08:27:14 JST 2022
 End  : Sun Jun 26 08:27:18 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jun 27 14:18:27 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   cc618437f1..576f3fba81  master     -> origin/master
+Updating cc618437f1..576f3fba81
+Fast-forward
+ cards/001787/card56566.html                   |  234 ++
+ cards/001787/files/56566_75671.html           |   67 +
+ cards/001787/files/56566_ruby_75641.zip       |  Bin 0 -> 2205 bytes
+ cards/001869/card57649.html                   |   20 +-
+ cards/001869/files/57649_75898.html           | 3560 +++++++++++++++++++++++++
+ cards/001869/files/57649_ruby_75863.zip       |  Bin 0 -> 255732 bytes
+ 64 files changed, 4617 insertions(+), 749 deletions(-)
+Date: Mon Jun 27 14:18:31 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun 26 08:27 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001787/files/56566_ruby_75641.zip
+     2	./aozorabunko/cards/001869/files/57649_ruby_75863.zip
+1/2: ./aozorabunko/cards/001787/files/56566_ruby_75641.zip
+>> add 56566_ruby_sendaino_natsu.txt
+>> add 56566_ruby_utf8_sendaino_natsu.txt
+>> https://www.aozora.gr.jp/cards/001787/card56566.html
+>> 仙台の夏、石川善助
+2/2: ./aozorabunko/cards/001869/files/57649_ruby_75863.zip
+>> git-mv 57649_ruby_nagaya_ten'ichibo.txt 57649_ruby_01shisen'o_koete.txt
+>> git-mv 57649_ruby_utf8_nagaya_ten'ichibo.txt 57649_ruby_utf8_01shisen'o_koete.txt
+>> https://www.aozora.gr.jp/cards/001869/card57649.html
+>> 死線を越えて、死線を越えて、賀川豊彦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33342/468 (Accept:2/Reject:0/Update:0/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jun 27 14:18:27 JST 2022
+End  : Mon Jun 27 14:18:32 JST 2022
