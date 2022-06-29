@@ -875,3 +875,34 @@ Title Total : 33344/468 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jun 28 08:05:37 JST 2022
 End  : Tue Jun 28 08:05:41 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jun 29 19:31:30 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   499a30a03c..50382b0190  master     -> origin/master
+Updating 499a30a03c..50382b0190
+Fast-forward
+ cards/000042/card61018.html                   | 234 ++++++++++++++++++++++++++
+ cards/000042/files/61018_75673.html           |  87 ++++++++++
+ cards/000042/files/61018_ruby_75643.zip       | Bin 0 -> 2388 bytes
+ cards/001791/card56574.html                   |   2 +-
+ 29 files changed, 491 insertions(+), 173 deletions(-)
+Date: Wed Jun 29 19:31:43 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jun 28 08:05 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000042/files/61018_ruby_75643.zip
+1/1: ./aozorabunko/cards/000042/files/61018_ruby_75643.zip
+>> add 61018_ruby_mannenfude_ran_yori.txt
+>> add 61018_ruby_utf8_mannenfude_ran_yori.txt
+>> https://www.aozora.gr.jp/cards/000042/card61018.html
+>> 「万年筆」欄より、寺田寅彦
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33346/468 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jun 29 19:31:30 JST 2022
+End  : Wed Jun 29 19:31:47 JST 2022
