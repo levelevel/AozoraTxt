@@ -175,3 +175,56 @@ Title Total : 33356/470 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jul  5 07:53:30 JST 2022
 End  : Tue Jul  5 07:53:33 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Jul  7 08:34:55 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   03bfab0b63..6187eb17cc  master     -> origin/master
+Updating 03bfab0b63..6187eb17cc
+Fast-forward
+ cards/000009/card61394.html                   | 235 ++++++++++++++
+ cards/000009/files/61394_75403.html           | 217 +++++++++++++
+ cards/000009/files/61394_ruby_75402.zip       | Bin 0 -> 5867909 bytes
+ cards/000042/card60973.html                   | 234 ++++++++++++++
+ cards/000042/files/60973_75894.html           |  62 ++++
+ cards/000042/files/60973_ruby_75859.zip       | Bin 0 -> 1741 bytes
+ cards/001529/card60798.html                   | 243 +++++++++++++++
+ cards/001529/files/60798_75893.html           | 421 ++++++++++++++++++++++++++
+ cards/001529/files/60798_ruby_75858.zip       | Bin 0 -> 26056 bytes
+ guide/aozora_bunko_faq.html                   |   6 +-
+ guide/aozora_bunko_hayawakari.html            |   7 +-
+ houkokusyo/kadai.html                         |   7 +-
+ houkokusyo/withcoronapanel.html               |  73 +++++
+ soramoyou/soramoyouindex.html                 |  34 +++
+ 144 files changed, 3819 insertions(+), 2310 deletions(-)
+Date: Thu Jul  7 08:34:58 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jul  5 07:53 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000042/files/60973_ruby_75859.zip
+     2	./aozorabunko/cards/001529/files/60798_ruby_75858.zip
+     3	./aozorabunko/cards/000009/files/61394_ruby_75402.zip
+1/3: ./aozorabunko/cards/000042/files/60973_ruby_75859.zip
+>> add 60973_ruby_amano_gawato_hoshino_kazu.txt
+>> add 60973_ruby_utf8_amano_gawato_hoshino_kazu.txt
+>> https://www.aozora.gr.jp/cards/000042/card60973.html
+>> 天河と星の数、寺田寅彦
+2/3: ./aozorabunko/cards/001529/files/60798_ruby_75858.zip
+>> add 60798_ruby_heike_monogatari07.txt
+>> add 60798_ruby_utf8_heike_monogatari07.txt
+>> https://www.aozora.gr.jp/cards/001529/card60798.html
+>> 現代語訳　平家物語、第七巻、尾崎士郎訳
+3/3: ./aozorabunko/cards/000009/files/61394_ruby_75402.zip
+>> add 61394_NPD_ruby_saigono_jiken.txt
+>> add 61394_NPD_ruby_utf8_saigono_jiken.txt
+>> https://www.aozora.gr.jp/cards/000009/card61394.html
+>> 最後の事件、THE FINAL PROBLEM、アーサー・コナン・ドイル　Arthur Conan Doyle、大久保ゆう訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33360/472 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu Jul  7 08:34:55 JST 2022
+End  : Thu Jul  7 08:34:59 JST 2022
