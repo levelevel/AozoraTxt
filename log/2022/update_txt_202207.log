@@ -390,3 +390,33 @@ Title Total : 33372/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jul 12 08:15:28 JST 2022
 End  : Tue Jul 12 08:15:32 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Jul 13 08:00:55 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e12a7baa82..409cb1e530  master     -> origin/master
+Updating e12a7baa82..409cb1e530
+Fast-forward
+ cards/001869/card57546.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57546_75901.html           | 210 +++++++++++++++++++++++
+ cards/001869/files/57546_ruby_75866.zip       | Bin 0 -> 11846 bytes
+ 68 files changed, 2691 insertions(+), 2098 deletions(-)
+Date: Wed Jul 13 08:01:00 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jul 12 08:15 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57546_ruby_75866.zip
+1/1: ./aozorabunko/cards/001869/files/57546_ruby_75866.zip
+>> add 57546_ruby_ichinin_naraji.txt
+>> add 57546_ruby_utf8_ichinin_naraji.txt
+>> https://www.aozora.gr.jp/cards/001869/card57546.html
+>> 一人ならじ、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33374/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Jul 13 08:00:55 JST 2022
+End  : Wed Jul 13 08:01:01 JST 2022
