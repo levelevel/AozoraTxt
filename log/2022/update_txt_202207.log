@@ -1025,3 +1025,42 @@ Title Total : 33392/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Jul 23 07:48:26 JST 2022
 End  : Sat Jul 23 07:48:36 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Jul 24 08:24:34 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   7c2a76a201..1132833c9c  master     -> origin/master
+Updating 7c2a76a201..1132833c9c
+Fast-forward
+ cards/000879/card60859.html                   | 234 ++++++++++++++++++++++++++
+ cards/000879/files/60859_75912.html           |  72 ++++++++
+ cards/000879/files/60859_ruby_75877.zip       | Bin 0 -> 3247 bytes
+ cards/001383/card59851.html                   | 234 ++++++++++++++++++++++++++
+ cards/001383/files/59851_75911.html           | 111 ++++++++++++
+ cards/001383/files/59851_ruby_75876.zip       | Bin 0 -> 11948 bytes
+ 70 files changed, 1516 insertions(+), 848 deletions(-)
+Date: Sun Jul 24 08:24:38 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jul 23 07:48 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000879/files/60859_ruby_75877.zip
+     2	./aozorabunko/cards/001383/files/59851_ruby_75876.zip
+1/2: ./aozorabunko/cards/000879/files/60859_ruby_75877.zip
+>> add 60859_ruby_dokushono_taido.txt
+>> add 60859_ruby_utf8_dokushono_taido.txt
+>> https://www.aozora.gr.jp/cards/000879/card60859.html
+>> 讀書の態度、芥川龍之介
+2/2: ./aozorabunko/cards/001383/files/59851_ruby_75876.zip
+>> add 59851_ruby_bundan_mukashi_banashi.txt
+>> add 59851_ruby_utf8_bundan_mukashi_banashi.txt
+>> https://www.aozora.gr.jp/cards/001383/card59851.html
+>> 文壇昔ばなし、谷崎潤一郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33396/472 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Jul 24 08:24:34 JST 2022
+End  : Sun Jul 24 08:24:39 JST 2022
