@@ -1,0 +1,48 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Aug  1 19:41:21 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   96c71b1978..1d1806ad62  master     -> origin/master
+Updating 96c71b1978..1d1806ad62
+Fast-forward
+ cards/000067/card59981.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/files/59981_76049.html           |  76 +++++++++
+ cards/000067/files/59981_txt_76013.zip        | Bin 0 -> 4208 bytes
+ cards/001579/card61150.html                   | 234 ++++++++++++++++++++++++++
+ cards/001579/files/61150_76048.html           | 109 ++++++++++++
+ cards/001579/files/61150_txt_76084.zip        | Bin 0 -> 4880 bytes
+ cards/001763/card59441.html                   | 234 ++++++++++++++++++++++++++
+ cards/001763/files/59441_76050.html           |  79 +++++++++
+ cards/001763/files/59441_txt_76014.zip        | Bin 0 -> 3149 bytes
+ 112 files changed, 3642 insertions(+), 2389 deletions(-)
+Date: Mon Aug  1 19:41:24 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Jul 31 16:02 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000067/files/59981_txt_76013.zip
+     2	./aozorabunko/cards/001579/files/61150_txt_76084.zip
+     3	./aozorabunko/cards/001763/files/59441_txt_76014.zip
+1/3: ./aozorabunko/cards/000067/files/59981_txt_76013.zip
+>> add 59981_txt_muro_saiseikunno_jinbutsuni_tsuite.txt
+>> add 59981_txt_utf8_muro_saiseikunno_jinbutsuni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000067/card59981.html
+>> 室生犀星君の人物について、萩原朔太郎
+2/3: ./aozorabunko/cards/001579/files/61150_txt_76084.zip
+>> add 61150_txt_futarino_obasan.txt
+>> add 61150_txt_utf8_futarino_obasan.txt
+>> https://www.aozora.gr.jp/cards/001579/card61150.html
+>> ふたりのおばさん、室生犀星
+3/3: ./aozorabunko/cards/001763/files/59441_txt_76014.zip
+>> add 59441_txt_wakaki_hino_muro_saisei.txt
+>> add 59441_txt_utf8_wakaki_hino_muro_saisei.txt
+>> https://www.aozora.gr.jp/cards/001763/card59441.html
+>> 若き日の室生犀星、佐藤春夫
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33424/472 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Aug  1 19:41:21 JST 2022
+End  : Mon Aug  1 19:41:25 JST 2022
