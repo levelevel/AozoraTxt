@@ -300,3 +300,33 @@ Title Total : 33446/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Aug  9 22:30:13 JST 2022
 End  : Tue Aug  9 22:30:17 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Aug 10 08:09:38 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   819c092c5b..cb6cfd405a  master     -> origin/master
+Updating 819c092c5b..cb6cfd405a
+Fast-forward
+ cards/001869/card59103.html                   | 234 +++++++++++++++++++
+ cards/001869/files/59103_76062.html           | 321 ++++++++++++++++++++++++++
+ cards/001869/files/59103_ruby_76026.zip       | Bin 0 -> 11139 bytes
+ 59 files changed, 1242 insertions(+), 690 deletions(-)
+Date: Wed Aug 10 08:09:40 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Aug  9 22:30 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/59103_ruby_76026.zip
+1/1: ./aozorabunko/cards/001869/files/59103_ruby_76026.zip
+>> add 59103_ruby_tenguiwano_satsujinma.txt
+>> add 59103_ruby_utf8_tenguiwano_satsujinma.txt
+>> https://www.aozora.gr.jp/cards/001869/card59103.html
+>> 天狗岩の殺人魔、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33448/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Aug 10 08:09:38 JST 2022
+End  : Wed Aug 10 08:09:40 JST 2022
