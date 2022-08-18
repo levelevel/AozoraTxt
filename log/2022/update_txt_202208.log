@@ -549,3 +549,63 @@ Title Total : 33464/472 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Aug 17 08:00:31 JST 2022
 End  : Wed Aug 17 08:00:36 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Aug 18 08:22:29 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   44c80fe328..916dee7fe3  master     -> origin/master
+Updating 44c80fe328..916dee7fe3
+Fast-forward
+ cards/002043/card61681.html                   | 231 +++++++++++++++++++++++
+ cards/002043/files/61681_76099.html           | 260 ++++++++++++++++++++++++++
+ cards/002043/files/61681_ruby_76098.zip       | Bin 0 -> 11157 bytes
+ 33 files changed, 830 insertions(+), 339 deletions(-)
+Date: Thu Aug 18 08:22:32 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Aug 17 08:00 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002043/files/61681_ruby_76098.zip
+1/1: ./aozorabunko/cards/002043/files/61681_ruby_76098.zip
+>> add 61681_NPD_ruby_drenton_denn_02.txt
+>> add 61681_NPD_ruby_utf8_drenton_denn_02.txt
+>> https://www.aozora.gr.jp/cards/002043/card61681.html
+>> ドレントン・デン特派員の冒険、BEING AN ADVENTURE OF DRENTON DENN, SPECIAL COMMISSIONER、第二回　赤い斑点、THE RED SPECK、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33464/474 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Thu Aug 18 08:22:29 JST 2022
+End  : Thu Aug 18 08:22:33 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Aug 19 08:18:04 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   916dee7fe3..8e4b3d9d6f  master     -> origin/master
+Updating 916dee7fe3..8e4b3d9d6f
+Fast-forward
+ cards/001341/card60385.html                   | 234 ++++++++++++++++++++++++++
+ cards/001341/files/60385_76071.html           |  84 +++++++++
+ cards/001341/files/60385_ruby_76035.zip       | Bin 0 -> 5556 bytes
+ 63 files changed, 2034 insertions(+), 1562 deletions(-)
+Date: Fri Aug 19 08:18:10 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Aug 18 08:22 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60385_ruby_76035.zip
+1/1: ./aozorabunko/cards/001341/files/60385_ruby_76035.zip
+>> add 60385_ruby_mushino_koe.txt
+>> add 60385_ruby_utf8_mushino_koe.txt
+>> https://www.aozora.gr.jp/cards/001341/card60385.html
+>> 蟲の声、永井荷風
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33466/474 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Aug 19 08:18:04 JST 2022
+End  : Fri Aug 19 08:18:11 JST 2022
