@@ -801,3 +801,50 @@ Title Total : 33480/474 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Aug 26 07:39:05 JST 2022
 End  : Fri Aug 26 07:39:10 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 27 08:05:11 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   35b57c1016..c41ff5f6b7  master     -> origin/master
+Updating 35b57c1016..c41ff5f6b7
+Fast-forward
+ cards/000416/card57137.html                   |   8 +-
+ cards/000416/files/57137_60131.html           |  12 +-
+ cards/000416/files/57137_ruby_60085.zip       | Bin 1895 -> 1824 bytes
+ cards/001869/card57728.html                   |   6 +-
+ cards/001869/card59569.html                   | 234 +++++++++++++++++++++
+ cards/001869/files/57728_ruby_75635.zip       | Bin 27535 -> 27131 bytes
+ cards/001869/files/59569_76079.html           | 285 ++++++++++++++++++++++++++
+ cards/001869/files/59569_ruby_76043.zip       | Bin 0 -> 11399 bytes
+ 113 files changed, 1285 insertions(+), 767 deletions(-)
+Date: Sat Aug 27 08:05:14 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Aug 26 07:39 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000416/files/57137_ruby_60085.zip
+     2	./aozorabunko/cards/001869/files/59569_ruby_76043.zip
+     3	./aozorabunko/cards/001869/files/57728_ruby_75635.zip
+1/3: ./aozorabunko/cards/000416/files/57137_ruby_60085.zip
+>> update 57137_ruby_henshushitsuyori_1914_03.txt
+>> update 57137_ruby_utf8_henshushitsuyori_1914_03.txt
+>> https://www.aozora.gr.jp/cards/000416/card57137.html
+>> 編輯室より、（一九一四年三月号）、伊藤野枝
+2/3: ./aozorabunko/cards/001869/files/59569_ruby_76043.zip
+>> add 59569_ruby_ryuketsusen_nishie_iku.txt
+>> add 59569_ruby_utf8_ryuketsusen_nishie_iku.txt
+>> https://www.aozora.gr.jp/cards/001869/card59569.html
+>> 流血船西へ行く、山本周五郎
+3/3: ./aozorabunko/cards/001869/files/57728_ruby_75635.zip
+>> git-mv 57728_ruby_hibi_heian.txt 57728_ruby_nichinichi_heian.txt
+>> git-mv 57728_ruby_utf8_hibi_heian.txt 57728_ruby_utf8_nichinichi_heian.txt
+>> https://www.aozora.gr.jp/cards/001869/card57728.html
+>> 日日平安、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33482/474 (Accept:3/Reject:0/Update:1/Rename:2/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Aug 27 08:05:11 JST 2022
+End  : Sat Aug 27 08:05:16 JST 2022
