@@ -42,7 +42,7 @@ https://www.aozora.gr.jp/cards/<作家ID>/card<作品ID>.html
 
 ## UTF8版における外字のUnicode変換
 
-例の右側に示すような[青空文庫記法](https://www.aozora.gr.jp/annotation/external_character.html)による外字のうち、JIS句点コードまたはUnicodeが記載されている場合は対応する文字（左側）に変換してあります。
+下記の例の右側に示すような[青空文庫記法](https://www.aozora.gr.jp/annotation/external_character.html)による外字のうち、JIS句点コードまたはUnicodeが記載されている場合は対応する文字（左側）に変換してあります。
 
 - 𣘹　：　※［＃「木＋寅」、第4水準2-15-31］
 - 怰　：　※［＃「りっしんべん＋玄」、U+6030、ページ数-行数］
@@ -59,6 +59,6 @@ https://www.aozora.gr.jp/cards/<作家ID>/card<作品ID>.html
 - ｜　：　※［＃縦線、1-1-35］　（ルビ）
 - ※　：　※［＃米印、1-2-8］　（[外字](https://www.aozora.gr.jp/annotation/external_character.html)）
 
-[青空文庫 組版案内](http://kumihan.aozora.gr.jp/)の「青空文庫をこえた利用（番外）」の中は[青空文庫ファイルで使えない文字](http://kumihan.aozora.gr.jp/extra.html#daitai)として「＃」も例示されていますが、ここでは特殊文字としては扱っていません。「＃」は［］で囲まれた注記の中でのみ特殊文字となるものであり、本文中の「＃」が問題を起こすことはないと考えられるためです。
+[青空文庫 組版案内](http://kumihan.aozora.gr.jp/)の「青空文庫をこえた利用（番外）」の中では[青空文庫ファイルで使えない文字](http://kumihan.aozora.gr.jp/extra.html#daitai)として「＃」も例示されていますが、ここでは特殊文字としては扱っていません。「＃」は［］で囲まれた注記の中でのみ特殊文字となるものであり、本文中の「＃」が問題を起こすことはないと考えられるためです。
 
 「／＼」や「／″＼」のような青空文庫記法の踊り字（[くの字点](https://ja.wikipedia.org/wiki/%E8%B8%8A%E3%82%8A%E5%AD%97#%E3%80%B1%EF%BC%88%E3%81%8F%E3%81%AE%E5%AD%97%E7%82%B9%EF%BC%89)）はUnicodeへ変換が可能ですがそのまま残してあります。
