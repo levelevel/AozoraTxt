@@ -28,3 +28,43 @@ Title Total : 33492/474 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Sep  1 08:04:31 JST 2022
 End  : Thu Sep  1 08:04:35 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Sep  2 19:33:41 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9739ea2152..3b2acb98a7  master     -> origin/master
+Updating 9739ea2152..3b2acb98a7
+Fast-forward
+ cards/001030/card48297.html                   |  10 +-
+ cards/001030/files/48297_41481.html           |  13 +-
+ cards/001030/files/48297_txt_40642.zip        | Bin 3292 -> 3343 bytes
+ cards/001095/card42844.html                   |   6 +-
+ cards/001869/card57775.html                   | 229 ++++++++++++++++++++++++++
+ cards/001869/files/57775_76224.html           | 174 +++++++++++++++++++
+ cards/001869/files/57775_ruby_76192.zip       | Bin 0 -> 11295 bytes
+ 65 files changed, 2172 insertions(+), 1115 deletions(-)
+Date: Fri Sep  2 19:33:44 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep  1 08:04 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001030/files/48297_txt_40642.zip
+     2	./aozorabunko/cards/001869/files/57775_ruby_76192.zip
+1/2: ./aozorabunko/cards/001030/files/48297_txt_40642.zip
+>> update 48297_txt_ehon.txt
+>> update 48297_txt_utf8_ehon.txt
+>> https://www.aozora.gr.jp/cards/001030/card48297.html
+>> 「繪本」、堀辰雄
+2/2: ./aozorabunko/cards/001869/files/57775_ruby_76192.zip
+>> add 57775_ruby_ran.txt
+>> add 57775_ruby_utf8_ran.txt
+>> https://www.aozora.gr.jp/cards/001869/card57775.html
+>> 蘭、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33494/474 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Sep  2 19:33:41 JST 2022
+End  : Fri Sep  2 19:33:45 JST 2022
