@@ -108,3 +108,51 @@ Title Total : 33496/474 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep  3 11:08:14 JST 2022
 End  : Sat Sep  3 11:08:17 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Sep  6 17:08:04 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   55da32b04f..c49fa6a6a0  master     -> origin/master
+Updating 55da32b04f..c49fa6a6a0
+Fast-forward
+ cards/000220/card59500.html                   |  234 ++
+ cards/000220/files/59500_76227.html           |   84 +
+ cards/000220/files/59500_ruby_76195.zip       |  Bin 0 -> 5218 bytes
+ cards/001869/card57627.html                   |  229 ++
+ cards/001869/card57662.html                   |  229 ++
+ cards/001869/files/57627_76226.html           |  155 ++
+ cards/001869/files/57627_ruby_76194.zip       |  Bin 0 -> 14345 bytes
+ cards/001869/files/57662_76228.html           |  201 ++
+ cards/001869/files/57662_ruby_76196.zip       |  Bin 0 -> 14656 bytes
+ 152 files changed, 11460 insertions(+), 4011 deletions(-)
+Date: Tue Sep  6 17:08:08 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep  3 11:08 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000220/files/59500_ruby_76195.zip
+     2	./aozorabunko/cards/001869/files/57662_ruby_76196.zip
+     3	./aozorabunko/cards/001869/files/57627_ruby_76194.zip
+1/3: ./aozorabunko/cards/000220/files/59500_ruby_76195.zip
+>> add 59500_ruby_kaichono_hibiki.txt
+>> add 59500_ruby_utf8_kaichono_hibiki.txt
+>> https://www.aozora.gr.jp/cards/000220/card59500.html
+>> 海潮の響、吉江喬松
+2/3: ./aozorabunko/cards/001869/files/57662_ruby_76196.zip
+>> add 57662_ruby_nemuno_kino_kage.txt
+>> add 57662_ruby_utf8_nemuno_kino_kage.txt
+>> https://www.aozora.gr.jp/cards/001869/card57662.html
+>> 合歓木の蔭、山本周五郎
+3/3: ./aozorabunko/cards/001869/files/57627_ruby_76194.zip
+>> add 57627_ruby_zakuro.txt
+>> add 57627_ruby_utf8_zakuro.txt
+>> https://www.aozora.gr.jp/cards/001869/card57627.html
+>> 柘榴、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33502/474 (Accept:3/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Sep  6 17:08:04 JST 2022
+End  : Tue Sep  6 17:08:08 JST 2022
