@@ -296,3 +296,51 @@ Title Total : 33512/474 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 10 09:55:56 JST 2022
 End  : Sat Sep 10 09:56:00 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 11 09:49:02 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b0b6fb69f2..f1c6b46bc4  master     -> origin/master
+Updating b0b6fb69f2..f1c6b46bc4
+Fast-forward
+ cards/000050/card50108.html                   |   8 +-
+ cards/000050/files/50108_72104.html           |   3 +-
+ cards/000050/files/50108_ruby_72063.zip       | Bin 76663 -> 75739 bytes
+ cards/001475/card53155.html                   |   8 +-
+ cards/001475/files/53155_71476.html           |   3 +-
+ cards/001475/files/53155_ruby_71427.zip       | Bin 10012 -> 10067 bytes
+ cards/001869/card57562.html                   | 229 +++++++++++++
+ cards/001869/files/57562_76234.html           | 473 ++++++++++++++++++++++++++
+ cards/001869/files/57562_ruby_76202.zip       | Bin 0 -> 20478 bytes
+ 150 files changed, 4087 insertions(+), 2835 deletions(-)
+Date: Sun Sep 11 09:49:06 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep 10 09:55 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001475/files/53155_ruby_71427.zip
+     2	./aozorabunko/cards/000050/files/50108_ruby_72063.zip
+     3	./aozorabunko/cards/001869/files/57562_ruby_76202.zip
+1/3: ./aozorabunko/cards/001475/files/53155_ruby_71427.zip
+>> update 53155_ruby_ten.txt
+>> update 53155_ruby_utf8_ten.txt
+>> https://www.aozora.gr.jp/cards/001475/card53155.html
+>> 点、小川未明
+2/3: ./aozorabunko/cards/000050/files/50108_ruby_72063.zip
+>> update 50108_ruby_hinmin_kurabu.txt
+>> update 50108_ruby_utf8_hinmin_kurabu.txt
+>> https://www.aozora.gr.jp/cards/000050/card50108.html
+>> 貧民倶楽部、泉鏡花
+3/3: ./aozorabunko/cards/001869/files/57562_ruby_76202.zip
+>> add 57562_ruby_onnawa_onaji_monogatari.txt
+>> add 57562_ruby_utf8_onnawa_onaji_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card57562.html
+>> 女は同じ物語、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33514/474 (Accept:3/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Sep 11 09:49:02 JST 2022
+End  : Sun Sep 11 09:49:07 JST 2022
