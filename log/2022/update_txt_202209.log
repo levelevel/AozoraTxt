@@ -535,3 +535,63 @@ Title Total : 33528/474 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Sat Sep 17 07:45:11 JST 2022
 End  : Sat Sep 17 07:45:17 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Sep 18 08:49:39 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   9468711b29..61f9ad2eba  master     -> origin/master
+Updating 9468711b29..61f9ad2eba
+Fast-forward
+ cards/002043/card61814.html                   | 231 ++++++++++++++++++++++++
+ cards/002043/files/61814_76167.html           | 244 ++++++++++++++++++++++++++
+ cards/002043/files/61814_ruby_76166.zip       | Bin 0 -> 3866050 bytes
+ 55 files changed, 815 insertions(+), 352 deletions(-)
+Date: Sun Sep 18 08:49:50 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep 17 07:45 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002043/files/61814_ruby_76166.zip
+1/1: ./aozorabunko/cards/002043/files/61814_ruby_76166.zip
+>> add 61814_NPD_ruby_drenton_denn_03.txt
+>> add 61814_NPD_ruby_utf8_drenton_denn_03.txt
+>> https://www.aozora.gr.jp/cards/002043/card61814.html
+>> ドレントン・デン特派員の冒険、BEING AN ADVENTURE OF DRENTON DENN, SPECIAL COMMISSIONER、第三回　放火団、THE FIRE BUGS、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33528/476 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sun Sep 18 08:49:39 JST 2022
+End  : Sun Sep 18 08:49:53 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Sep 19 08:40:40 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   61f9ad2eba..8e349a0baf  master     -> origin/master
+Updating 61f9ad2eba..8e349a0baf
+Fast-forward
+ cards/000214/card48905.html                   | 243 ++++++++++++++++++++++++++
+ cards/000214/files/48905_76242.html           |  94 ++++++++++
+ cards/000214/files/48905_ruby_76210.zip       | Bin 0 -> 4195 bytes
+ 118 files changed, 4026 insertions(+), 3455 deletions(-)
+Date: Mon Sep 19 08:40:43 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep 18 08:49 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000214/files/48905_ruby_76210.zip
+1/1: ./aozorabunko/cards/000214/files/48905_ruby_76210.zip
+>> add 48905_ruby_suigen'o_omou.txt
+>> add 48905_ruby_utf8_suigen'o_omou.txt
+>> https://www.aozora.gr.jp/cards/000214/card48905.html
+>> 水源を思ふ、田山録弥
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33530/476 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Sep 19 08:40:40 JST 2022
+End  : Mon Sep 19 08:40:44 JST 2022

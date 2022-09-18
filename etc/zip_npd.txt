@@ -232,6 +232,7 @@
 ./aozorabunko/cards/002043/files/61558_ruby_75414.zip	2022/06/01
 ./aozorabunko/cards/002043/files/61680_ruby_75935.zip	2022/07/02
 ./aozorabunko/cards/002043/files/61681_ruby_76098.zip	2022/08/18
+./aozorabunko/cards/002043/files/61814_ruby_76166.zip	2022/09/18
 ./aozorabunko/cards/002052/files/59606_ruby_67436.zip	2019/03/10
 ./aozorabunko/cards/002130/files/60082_txt_69486.zip	2020/01/06
 ./aozorabunko/cards/002130/files/60178_ruby_69805.zip	2020/02/21
