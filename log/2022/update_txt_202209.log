@@ -816,3 +816,33 @@ Title Total : 33546/476 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Sep 26 08:15:59 JST 2022
 End  : Mon Sep 26 08:16:05 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Sep 27 21:26:31 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   181ec97114..eab9e49dc8  master     -> origin/master
+Updating 181ec97114..eab9e49dc8
+Fast-forward
+ cards/001869/card57631.html                   | 229 +++++++++++++++++++++
+ cards/001869/files/57631_76251.html           | 219 ++++++++++++++++++++
+ cards/001869/files/57631_ruby_76219.zip       | Bin 0 -> 15224 bytes
+ 157 files changed, 3269 insertions(+), 2624 deletions(-)
+Date: Tue Sep 27 21:26:34 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep 26 08:16 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57631_ruby_76219.zip
+1/1: ./aozorabunko/cards/001869/files/57631_ruby_76219.zip
+>> add 57631_ruby_jochuno_shimo.txt
+>> add 57631_ruby_utf8_jochuno_shimo.txt
+>> https://www.aozora.gr.jp/cards/001869/card57631.html
+>> 城中の霜、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33548/476 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Sep 27 21:26:31 JST 2022
+End  : Tue Sep 27 21:26:35 JST 2022
