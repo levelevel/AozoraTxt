@@ -878,3 +878,33 @@ Title Total : 33550/476 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Sep 28 21:56:45 JST 2022
 End  : Wed Sep 28 21:56:51 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Sep 29 07:59:09 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   541656c2d6..8c8d8ca22a  master     -> origin/master
+Updating 541656c2d6..8c8d8ca22a
+Fast-forward
+ cards/001869/card57599.html                   | 229 +++++++++++++
+ cards/001869/files/57599_76253.html           | 465 ++++++++++++++++++++++++++
+ cards/001869/files/57599_ruby_76221.zip       | Bin 0 -> 14270 bytes
+ 59 files changed, 2494 insertions(+), 1803 deletions(-)
+Date: Thu Sep 29 07:59:11 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Sep 28 21:56 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001869/files/57599_ruby_76221.zip
+1/1: ./aozorabunko/cards/001869/files/57599_ruby_76221.zip
+>> add 57599_ruby_kaki.txt
+>> add 57599_ruby_utf8_kaki.txt
+>> https://www.aozora.gr.jp/cards/001869/card57599.html
+>> 柿、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33552/476 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Sep 29 07:59:09 JST 2022
+End  : Thu Sep 29 07:59:12 JST 2022
