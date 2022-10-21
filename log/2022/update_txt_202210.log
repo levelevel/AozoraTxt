@@ -551,3 +551,42 @@ Title Total : 33594/478 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 19 08:09:52 JST 2022
 End  : Wed Oct 19 08:09:56 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Oct 21 06:32:16 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   24f5023802..4d8f1ff9dc  master     -> origin/master
+Updating 24f5023802..4d8f1ff9dc
+Fast-forward
+ cards/000254/card61120.html                   | 234 +++++++++++++++++++++++++
+ cards/000254/files/61120_76412.html           |  76 ++++++++
+ cards/000254/files/61120_ruby_76377.zip       | Bin 0 -> 2457 bytes
+ cards/001095/card61107.html                   | 238 ++++++++++++++++++++++++++
+ cards/001095/files/61107_76413.html           |  70 ++++++++
+ cards/001095/files/61107_txt_76378.zip        | Bin 0 -> 2477 bytes
+ 46 files changed, 1237 insertions(+), 614 deletions(-)
+Date: Fri Oct 21 06:32:19 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Oct 19 08:09 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000254/files/61120_ruby_76377.zip
+     2	./aozorabunko/cards/001095/files/61107_txt_76378.zip
+1/2: ./aozorabunko/cards/000254/files/61120_ruby_76377.zip
+>> add 61120_ruby_rokko_sanjono_natsu.txt
+>> add 61120_ruby_utf8_rokko_sanjono_natsu.txt
+>> https://www.aozora.gr.jp/cards/000254/card61120.html
+>> 六甲山上の夏、九条武子
+2/2: ./aozorabunko/cards/001095/files/61107_txt_76378.zip
+>> add 61107_txt_watashino_tantei_shosetsu.txt
+>> add 61107_txt_utf8_watashino_tantei_shosetsu.txt
+>> https://www.aozora.gr.jp/cards/001095/card61107.html
+>> 私の探偵小説、坂口安吾
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33598/478 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Oct 21 06:32:16 JST 2022
+End  : Fri Oct 21 06:32:20 JST 2022
