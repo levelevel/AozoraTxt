@@ -779,3 +779,42 @@ Title Total : 33612/478 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Wed Oct 26 21:36:03 JST 2022
 End  : Wed Oct 26 21:36:07 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Thu Oct 27 08:08:46 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   1a46520747..0f691b1609  master     -> origin/master
+Updating 1a46520747..0f691b1609
+Fast-forward
+ cards/001753/card59038.html                   | 234 +++++++++++++++++++++++++
+ cards/001753/files/59038_76421.html           | 238 ++++++++++++++++++++++++++
+ cards/001753/files/59038_ruby_76386.zip       | Bin 0 -> 20450 bytes
+ cards/002088/card60960.html                   | 229 +++++++++++++++++++++++++
+ cards/002088/files/60960_76422.html           |  68 ++++++++
+ cards/002088/files/60960_ruby_76387.zip       | Bin 0 -> 815 bytes
+ 139 files changed, 2587 insertions(+), 1737 deletions(-)
+Date: Thu Oct 27 08:08:49 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Oct 26 21:36 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001753/files/59038_ruby_76386.zip
+     2	./aozorabunko/cards/002088/files/60960_ruby_76387.zip
+1/2: ./aozorabunko/cards/001753/files/59038_ruby_76386.zip
+>> add 59038_ruby_hankotsu_nakano_seigo.txt
+>> add 59038_ruby_utf8_hankotsu_nakano_seigo.txt
+>> https://www.aozora.gr.jp/cards/001753/card59038.html
+>> 叛骨・中野正剛、――主観的な覚え書き、尾崎士郎
+2/2: ./aozorabunko/cards/002088/files/60960_ruby_76387.zip
+>> add 60960_ruby_yagakusei.txt
+>> add 60960_ruby_utf8_yagakusei.txt
+>> https://www.aozora.gr.jp/cards/002088/card60960.html
+>> 夜学生、木下夕爾
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33616/478 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Thu Oct 27 08:08:46 JST 2022
+End  : Thu Oct 27 08:08:50 JST 2022
