@@ -1,0 +1,57 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Nov  1 08:17:04 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   752339e3f8..a45ab6de39  master     -> origin/master
+Updating 752339e3f8..a45ab6de39
+Fast-forward
+ cards/000067/card59982.html                   | 234 ++++++++++++++++++++++++++
+ cards/000067/files/59982_76507.html           |  68 ++++++++
+ cards/000067/files/59982_txt_76471.zip        | Bin 0 -> 3261 bytes
+ cards/000214/card1669.html                    |   8 +-
+ cards/000214/files/1669_8259.html             |   8 +-
+ cards/000214/files/1669_ruby_8218.zip         | Bin 49431 -> 49483 bytes
+ cards/001566/card58759.html                   |  10 +-
+ cards/001566/files/58759_76409.html           |   3 +-
+ cards/001566/files/58759_txt_76374.zip        | Bin 3027 -> 2952 bytes
+ cards/001579/card59472.html                   | 234 ++++++++++++++++++++++++++
+ cards/001579/files/59472_76506.html           |  68 ++++++++
+ cards/001579/files/59472_txt_76470.zip        | Bin 0 -> 1516 bytes
+ 86 files changed, 2642 insertions(+), 2038 deletions(-)
+Date: Tue Nov  1 08:17:07 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Oct 31 08:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000067/files/59982_txt_76471.zip
+     2	./aozorabunko/cards/001566/files/58759_txt_76374.zip
+     3	./aozorabunko/cards/001579/files/59472_txt_76470.zip
+     4	./aozorabunko/cards/000214/files/1669_ruby_8218.zip
+1/4: ./aozorabunko/cards/000067/files/59982_txt_76471.zip
+>> add 59982_txt_muro_saiseikunno_hiyaku.txt
+>> add 59982_txt_utf8_muro_saiseikunno_hiyaku.txt
+>> https://www.aozora.gr.jp/cards/000067/card59982.html
+>> 室生犀星君の飛躍、萩原朔太郎
+2/4: ./aozorabunko/cards/001566/files/58759_txt_76374.zip
+>> update 58759_txt_sanbao_imisuru_hogen.txt
+>> update 58759_txt_utf8_sanbao_imisuru_hogen.txt
+>> https://www.aozora.gr.jp/cards/001566/card58759.html
+>> 産婆を意味する方言、柳田國男
+3/4: ./aozorabunko/cards/001579/files/59472_txt_76470.zip
+>> add 59472_txt_01mezurashii_monoo_kakushiteiru_hitoeno_jobun_junjo_shokyokushu.txt
+>> add 59472_txt_utf8_01mezurashii_monoo_kakushiteiru_hitoeno_jobun_junjo_shokyokushu.txt
+>> https://www.aozora.gr.jp/cards/001579/card59472.html
+>> 純情小曲集、珍らしいものをかくしてゐる人への序文、室生犀星
+4/4: ./aozorabunko/cards/000214/files/1669_ruby_8218.zip
+>> update 1669_ruby_futon.txt
+>> update 1669_ruby_utf8_futon.txt
+>> https://www.aozora.gr.jp/cards/000214/card1669.html
+>> 蒲団、田山花袋
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33628/478 (Accept:4/Reject:0/Update:2/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Nov  1 08:17:04 JST 2022
+End  : Tue Nov  1 08:17:08 JST 2022
