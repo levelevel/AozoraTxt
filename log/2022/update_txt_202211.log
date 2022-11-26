@@ -770,3 +770,41 @@ Title Total : 33684/482 (Accept:3/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Nov 25 09:03:21 JST 2022
 End  : Fri Nov 25 09:03:27 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Nov 26 11:01:01 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a9ce97b721..84a0ecb74a  master     -> origin/master
+Updating a9ce97b721..84a0ecb74a
+Fast-forward
+ cards/000009/card50718.html                   |   4 +-
+ cards/000009/files/50718_ruby_36995.zip       | Bin 1605268 -> 1602815 bytes
+ cards/000329/card50756.html                   | 234 ++++++++++++++++++++++++++
+ cards/000329/files/50756_76536.html           | 197 ++++++++++++++++++++++
+ cards/000329/files/50756_ruby_76500.zip       | Bin 0 -> 10352 bytes
+ 133 files changed, 2253 insertions(+), 1794 deletions(-)
+Date: Sat Nov 26 11:01:04 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Nov 25 09:03 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000329/files/50756_ruby_76500.zip
+     2	./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+1/2: ./aozorabunko/cards/000329/files/50756_ruby_76500.zip
+>> add 50756_ruby_hachi_katsugi.txt
+>> add 50756_ruby_utf8_hachi_katsugi.txt
+>> https://www.aozora.gr.jp/cards/000329/card50756.html
+>> 鉢かつぎ、楠山正雄
+2/2: ./aozorabunko/cards/000009/files/50718_ruby_36995.zip
+>> update 50718_NPD_ruby_hinshino_tantei.txt
+>> update 50718_NPD_ruby_utf8_hinshino_tantei.txt
+>> https://www.aozora.gr.jp/cards/000009/card50718.html
+>> 瀕死の探偵、THE ADVENTURE OF THE DYING DETECTIVE、アーサー・コナン・ドイル　Arthur Conan Doyle、東健而訳、大久保ゆう改訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33686/482 (Accept:2/Reject:0/Update:1/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Sat Nov 26 11:01:01 JST 2022
+End  : Sat Nov 26 11:01:05 JST 2022
