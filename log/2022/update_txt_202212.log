@@ -28,3 +28,90 @@ Title Total : 33698/482 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Dec  1 08:17:19 JST 2022
 End  : Thu Dec  1 08:17:25 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Dec  2 08:14:36 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b5161262fb..a4f2847699  master     -> origin/master
+Updating b5161262fb..a4f2847699
+Fast-forward
+ cards/002043/card62059.html                   |  231 ++
+ cards/002043/files/62059_76689.html           | 3512 +++++++++++++++++++++++++
+ cards/002043/files/62059_ruby_76688.zip       |  Bin 0 -> 1208894 bytes
+ 74 files changed, 5264 insertions(+), 854 deletions(-)
+Date: Fri Dec  2 08:14:40 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Dec  1 08:17 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002043/files/62059_ruby_76688.zip
+1/1: ./aozorabunko/cards/002043/files/62059_ruby_76688.zip
+>> add 62059_NPD_ruby_tregarthen_no_tsuma.txt
+>> add 62059_NPD_ruby_utf8_tregarthen_no_tsuma.txt
+>> https://www.aozora.gr.jp/cards/002043/card62059.html
+>> トリガーセンの妻、TREGARTHEN'S WIFE、コーンウォール物語、A CORNISH STORY、フレッド・Ｍ・ホワイト　Fred M. White、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33698/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Fri Dec  2 08:14:36 JST 2022
+End  : Fri Dec  2 08:14:41 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Dec  3 12:04:33 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   a4f2847699..18e3ddff85  master     -> origin/master
+Updating a4f2847699..18e3ddff85
+Fast-forward
+ cards/001341/card60405.html                   | 243 ++++++++++++++++++++++++++
+ cards/001341/files/60405_76750.html           | 213 ++++++++++++++++++++++
+ cards/001341/files/60405_ruby_76714.zip       | Bin 0 -> 31537 bytes
+ cards/001579/card59821.html                   | 234 +++++++++++++++++++++++++
+ cards/001579/files/59821_76753.html           | 221 +++++++++++++++++++++++
+ cards/001579/files/59821_ruby_76717.zip       | Bin 0 -> 13246 bytes
+ cards/001763/card61125.html                   | 234 +++++++++++++++++++++++++
+ cards/001763/files/61125_76751.html           | 113 ++++++++++++
+ cards/001763/files/61125_ruby_76715.zip       | Bin 0 -> 4417 bytes
+ cards/002023/card59347.html                   | 229 ++++++++++++++++++++++++
+ cards/002023/files/59347_76752.html           |  71 ++++++++
+ cards/002023/files/59347_txt_76716.zip        | Bin 0 -> 1619 bytes
+ 109 files changed, 4610 insertions(+), 2772 deletions(-)
+Date: Sat Dec  3 12:04:35 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Dec  2 08:14 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001341/files/60405_ruby_76714.zip
+     2	./aozorabunko/cards/001579/files/59821_ruby_76717.zip
+     3	./aozorabunko/cards/001763/files/61125_ruby_76715.zip
+     4	./aozorabunko/cards/002023/files/59347_txt_76716.zip
+1/4: ./aozorabunko/cards/001341/files/60405_ruby_76714.zip
+>> add 60405_ruby_kanraku.txt
+>> add 60405_ruby_utf8_kanraku.txt
+>> https://www.aozora.gr.jp/cards/001341/card60405.html
+>> 歡樂、永井壯吉
+2/4: ./aozorabunko/cards/001579/files/59821_ruby_76717.zip
+>> add 59821_ruby_waga_aisuru_shijinno_denki_hoi.txt
+>> add 59821_ruby_utf8_waga_aisuru_shijinno_denki_hoi.txt
+>> https://www.aozora.gr.jp/cards/001579/card59821.html
+>> 〈我が愛する詩人の伝記〉（補遺）、室生犀星
+3/4: ./aozorabunko/cards/001763/files/61125_ruby_76715.zip
+>> add 61125_ruby_sango_shu_kaisetsu.txt
+>> add 61125_ruby_utf8_sango_shu_kaisetsu.txt
+>> https://www.aozora.gr.jp/cards/001763/card61125.html
+>> 「珊瑚集」解説、佐藤春夫
+4/4: ./aozorabunko/cards/002023/files/59347_txt_76716.zip
+>> add 59347_txt_seifuo_kosoku_shinai.txt
+>> add 59347_txt_utf8_seifuo_kosoku_shinai.txt
+>> https://www.aozora.gr.jp/cards/002023/card59347.html
+>> 政府を拘束しない、池田勇人
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33706/484 (Accept:4/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Dec  3 12:04:33 JST 2022
+End  : Sat Dec  3 12:04:37 JST 2022
