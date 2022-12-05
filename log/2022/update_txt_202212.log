@@ -175,3 +175,33 @@ Title Total : 33710/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Mon Dec  5 08:20:36 JST 2022
 End  : Mon Dec  5 08:20:40 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Tue Dec  6 08:11:51 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   905a4f2d0a..17e50f39cd  master     -> origin/master
+Updating 905a4f2d0a..17e50f39cd
+Fast-forward
+ cards/001968/card59458.html                   | 234 ++++++++++++++++++++++++++
+ cards/001968/files/59458_76756.html           |  69 ++++++++
+ cards/001968/files/59458_txt_76720.zip        | Bin 0 -> 4111 bytes
+ 60 files changed, 910 insertions(+), 610 deletions(-)
+Date: Tue Dec  6 08:11:55 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Dec  5 08:20 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001968/files/59458_txt_76720.zip
+1/1: ./aozorabunko/cards/001968/files/59458_txt_76720.zip
+>> add 59458_txt_bungaku_kyoikuto_gengo_kyoiku.txt
+>> add 59458_txt_utf8_bungaku_kyoikuto_gengo_kyoiku.txt
+>> https://www.aozora.gr.jp/cards/001968/card59458.html
+>> 文学教育と言語教育、時枝誠記
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33712/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Tue Dec  6 08:11:51 JST 2022
+End  : Tue Dec  6 08:11:56 JST 2022
