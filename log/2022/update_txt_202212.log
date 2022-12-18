@@ -485,3 +485,42 @@ Title Total : 33732/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Fri Dec 16 07:32:52 JST 2022
 End  : Fri Dec 16 07:32:56 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Dec 18 09:52:59 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   fb70782049..56f61e657a  master     -> origin/master
+Updating fb70782049..56f61e657a
+Fast-forward
+ cards/001763/card60036.html                   | 234 ++++++++++++++
+ cards/001763/files/60036_76768.html           | 215 +++++++++++++
+ cards/001763/files/60036_ruby_76732.zip       | Bin 0 -> 10958 bytes
+ cards/001869/card58870.html                   | 229 ++++++++++++++
+ cards/001869/files/58870_76767.html           | 439 ++++++++++++++++++++++++++
+ cards/001869/files/58870_ruby_76731.zip       | Bin 0 -> 12811 bytes
+ 78 files changed, 3433 insertions(+), 2283 deletions(-)
+Date: Sun Dec 18 09:53:02 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Dec 16 07:32 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001763/files/60036_ruby_76732.zip
+     2	./aozorabunko/cards/001869/files/58870_ruby_76731.zip
+1/2: ./aozorabunko/cards/001763/files/60036_ruby_76732.zip
+>> add 60036_ruby_yukaina_kyoshitsu.txt
+>> add 60036_ruby_utf8_yukaina_kyoshitsu.txt
+>> https://www.aozora.gr.jp/cards/001763/card60036.html
+>> 愉快な教室、佐藤春夫
+2/2: ./aozorabunko/cards/001869/files/58870_ruby_76731.zip
+>> add 58870_ruby_fukurodani_monogatari.txt
+>> add 58870_ruby_utf8_fukurodani_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001869/card58870.html
+>> 梟谷物語、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33736/484 (Accept:2/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sun Dec 18 09:52:59 JST 2022
+End  : Sun Dec 18 09:53:03 JST 2022
