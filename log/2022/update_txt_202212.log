@@ -816,3 +816,33 @@ Title Total : 33758/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Dec 27 07:54:02 JST 2022
 End  : Tue Dec 27 07:54:05 JST 2022
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Dec 28 07:42:01 JST 2022
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   00c9b93b14..3e04768804  master     -> origin/master
+Updating 00c9b93b14..3e04768804
+Fast-forward
+ cards/001529/card60796.html                   | 243 ++++++++++++++++++++++++++
+ cards/001529/files/60796_76780.html           | 193 ++++++++++++++++++++
+ cards/001529/files/60796_ruby_76744.zip       | Bin 0 -> 8876 bytes
+ 49 files changed, 918 insertions(+), 494 deletions(-)
+Date: Wed Dec 28 07:42:03 JST 2022
+#Updating
+-rw-r--r-- 1 level level 0 Dec 27 07:54 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001529/files/60796_ruby_76744.zip
+1/1: ./aozorabunko/cards/001529/files/60796_ruby_76744.zip
+>> add 60796_ruby_heike_monogatari13.txt
+>> add 60796_ruby_utf8_heike_monogatari13.txt
+>> https://www.aozora.gr.jp/cards/001529/card60796.html
+>> 現代語訳　平家物語、灌頂の巻、尾崎士郎訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33760/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Wed Dec 28 07:42:01 JST 2022
+End  : Wed Dec 28 07:42:05 JST 2022
