@@ -1,0 +1,41 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan  2 19:32:42 JST 2023
+#Git pull
+error: object file .git/objects/66/762e82ce9b74b2f2f15c0c6d6bbfcd2de83322 is empty
+fatal: loose object 66762e82ce9b74b2f2f15c0c6d6bbfcd2de83322 (stored in .git/objects/66/762e82ce9b74b2f2f15c0c6d6bbfcd2de83322) is corrupt
+Date: Mon Jan  2 19:32:42 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Jan  1 08:36 ./AozoraTxt/etc/update
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33770/484 (Accept:0/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan  2 19:32:42 JST 2023
+End  : Mon Jan  2 19:32:44 JST 2023
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Mon Jan  2 20:17:37 JST 2023
+#Git pull
+Already up to date.
+Date: Mon Jan  2 20:17:37 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Jan  2 20:15 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000293/files/60445_txt_76823.zip
+1/1: ./aozorabunko/cards/000293/files/60445_txt_76823.zip
+>> add 60445_txt_dankazuo_ritsuko_sono_shi.txt
+>> add 60445_txt_utf8_dankazuo_ritsuko_sono_shi.txt
+>> https://www.aozora.gr.jp/cards/000293/card60445.html
+>> 檀一雄「リツ子・その死」、――創芸社刊――、原民喜
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33772/484 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Mon Jan  2 20:17:37 JST 2023
+End  : Mon Jan  2 20:17:39 JST 2023
