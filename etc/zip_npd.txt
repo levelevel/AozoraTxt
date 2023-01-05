@@ -243,3 +243,4 @@
 ./aozorabunko/cards/002134/files/60169_ruby_69491.zip	2019/11/06
 ./aozorabunko/cards/002231/files/61388_txt_75060.zip	2022/05/28
 ./aozorabunko/cards/002242/files/61560_txt_75398.zip	2022/05/09
+./aozorabunko/cards/002265/files/62103_ruby_76814.zip	2023/01/03
