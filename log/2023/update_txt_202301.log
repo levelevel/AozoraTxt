@@ -99,3 +99,33 @@ Title Total : 33774/486 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Thu Jan  5 17:35:37 JST 2023
 End  : Thu Jan  5 17:35:41 JST 2023
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Jan  7 12:24:22 JST 2023
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   b60c43ff66..e2fb59ab6e  master     -> origin/master
+Updating b60c43ff66..e2fb59ab6e
+Fast-forward
+ cards/001914/card60904.html                   |  229 ++
+ cards/001914/files/60904_76834.html           |   73 +
+ cards/001914/files/60904_txt_76832.zip        |  Bin 0 -> 1031 bytes
+ 30 files changed, 12828 insertions(+), 253 deletions(-)
+Date: Sat Jan  7 12:24:25 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Jan  5 17:35 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/001914/files/60904_txt_76832.zip
+1/1: ./aozorabunko/cards/001914/files/60904_txt_76832.zip
+>> add 60904_txt_midoriirono_toshi.txt
+>> add 60904_txt_utf8_midoriirono_toshi.txt
+>> https://www.aozora.gr.jp/cards/001914/card60904.html
+>> 緑色の透視、左川ちか
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33776/486 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Sat Jan  7 12:24:22 JST 2023
+End  : Sat Jan  7 12:24:26 JST 2023
