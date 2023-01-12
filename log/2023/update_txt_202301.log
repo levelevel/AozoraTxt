@@ -161,3 +161,33 @@ Title Total : 33778/486 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0
 Git Failed  : 0
 Start: Tue Jan 10 08:10:20 JST 2023
 End  : Tue Jan 10 08:10:24 JST 2023
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Jan 13 08:11:37 JST 2023
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   e33424f78f..197032111e  master     -> origin/master
+Updating e33424f78f..197032111e
+Fast-forward
+ cards/002200/card61089.html                   | 229 ++++++++++++++++++++++++++
+ cards/002200/files/61089_76827.html           | 106 ++++++++++++
+ cards/002200/files/61089_txt_76826.zip        | Bin 0 -> 3404 bytes
+ 38 files changed, 743 insertions(+), 403 deletions(-)
+Date: Fri Jan 13 08:11:40 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Jan 10 08:10 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002200/files/61089_txt_76826.zip
+1/1: ./aozorabunko/cards/002200/files/61089_txt_76826.zip
+>> add 61089_txt_omoshiroi_hanashi.txt
+>> add 61089_txt_utf8_omoshiroi_hanashi.txt
+>> https://www.aozora.gr.jp/cards/002200/card61089.html
+>> おもしろい話、畔柳二美
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33780/486 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Jan 13 08:11:37 JST 2023
+End  : Fri Jan 13 08:11:41 JST 2023
