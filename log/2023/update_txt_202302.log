@@ -1,0 +1,60 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Wed Feb  1 08:09:32 JST 2023
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   65ecbad5ac..94c048782d  master     -> origin/master
+Updating 65ecbad5ac..94c048782d
+Fast-forward
+ cards/002265/card62104.html                   | 231 +++++++++++++
+ cards/002265/files/62104_76817.html           | 450 ++++++++++++++++++++++++++
+ cards/002265/files/62104_ruby_76816.zip       | Bin 0 -> 18292 bytes
+ 114 files changed, 3536 insertions(+), 2673 deletions(-)
+Date: Wed Feb  1 08:09:36 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Jan 24 18:41 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/002265/files/62104_ruby_76816.zip
+1/1: ./aozorabunko/cards/002265/files/62104_ruby_76816.zip
+>> add 62104_NPD_ruby_riso.txt
+>> add 62104_NPD_ruby_utf8_riso.txt
+>> https://www.aozora.gr.jp/cards/002265/card62104.html
+>> 理想、THE IDEAL、マンダプーツシリーズ　第２回、MANDERPOOTZ SERIES、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33788/488 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:1)
+Git Failed  : 0
+Start: Wed Feb  1 08:09:32 JST 2023
+End  : Wed Feb  1 08:09:38 JST 2023
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Fri Feb  3 19:40:17 JST 2023
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   94c048782d..9de734e7c7  master     -> origin/master
+Updating 94c048782d..9de734e7c7
+Fast-forward
+ cards/000241/card61285.html                   | 234 ++++++++++++++++++++++++++
+ cards/000241/files/61285_76844.html           | 113 +++++++++++++
+ cards/000241/files/61285_ruby_76843.zip       | Bin 0 -> 4500 bytes
+ 58 files changed, 1484 insertions(+), 1140 deletions(-)
+Date: Fri Feb  3 19:40:22 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Feb  1 08:09 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000241/files/61285_ruby_76843.zip
+1/1: ./aozorabunko/cards/000241/files/61285_ruby_76843.zip
+>> add 61285_ruby_kataonami.txt
+>> add 61285_ruby_utf8_kataonami.txt
+>> https://www.aozora.gr.jp/cards/000241/card61285.html
+>> 片男波、小栗風葉
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33790/488 (Accept:1/Reject:0/Update:0/Rename:0/Empty:0/Multi txt:0/NPD:0)
+Git Failed  : 0
+Start: Fri Feb  3 19:40:17 JST 2023
+End  : Fri Feb  3 19:40:24 JST 2023
