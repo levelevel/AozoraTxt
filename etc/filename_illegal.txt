@@ -9,3 +9,4 @@
 ./001323/48280_ruby_gakumonwa_engen’o_fukaku_suruni_aruno_ron.txt	https://www.aozora.gr.jp/cards/001323/card48280.html
 ./001403/59641_ruby_usukuchi_shoyu .txt	https://www.aozora.gr.jp/cards/001403/card59641.html
 ./001475/51496_ruby_aoi_tamato_gin’irono_fue.txt	https://www.aozora.gr.jp/cards/001475/card51496.html
+./001869/57755_ruby_meian_yome_mondo .txt	https://www.aozora.gr.jp/cards/001869/card57755.html
