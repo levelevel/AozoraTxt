@@ -1,0 +1,83 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sat Aug 19 08:59:33 JST 2023
+#Git pull
+Already up to date.
+Date: Sat Aug 19 08:59:34 JST 2023
+#Updating
+-rw-r--r-- 1 level level 0 Feb 24 00:00 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000121/files/56249_ruby_77122.zip
+     2	./aozorabunko/cards/001699/files/62061_txt_76807.zip
+     3	./aozorabunko/cards/000083/files/57848_ruby_77096.zip
+     4	./aozorabunko/cards/000083/files/60740_ruby_77092.zip
+     5	./aozorabunko/cards/000025/files/61236_ruby_77094.zip
+     6	./aozorabunko/cards/002177/files/60791_ruby_76866.zip
+     7	./aozorabunko/cards/001266/files/55790_txt_76864.zip
+     8	./aozorabunko/cards/002265/files/62111_ruby_77103.zip
+     9	./aozorabunko/cards/000227/files/60964_ruby_77100.zip
+    10	./aozorabunko/cards/000096/files/61139_ruby_77098.zip
+    11	./aozorabunko/cards/000293/files/60450_ruby_77102.zip
+1/11: ./aozorabunko/cards/000121/files/56249_ruby_77122.zip
+>> update 56249_ruby_kusa.txt
+>> update 56249_ruby_utf8_kusa.txt
+>> https://www.aozora.gr.jp/cards/000121/card56249.html
+>> 草、新美南吉
+2/11: ./aozorabunko/cards/001699/files/62061_txt_76807.zip
+>> update 62061_NPD_txt_azathoth.txt
+>> update 62061_NPD_txt_utf8_azathoth.txt
+>> https://www.aozora.gr.jp/cards/001699/card62061.html
+>> 断章　アザトース、AZATHOTH、Ｈ・Ｐ・ラヴクラフト　H. P. Lovecraft、Morishous T.H.E creative 訳
+3/11: ./aozorabunko/cards/000083/files/57848_ruby_77096.zip
+>> update 57848_ruby_kesano_ryojin.txt
+>> update 57848_ruby_utf8_kesano_ryojin.txt
+>> https://www.aozora.gr.jp/cards/000083/card57848.html
+>> 袈裟の良人、菊池寛
+4/11: ./aozorabunko/cards/000083/files/60740_ruby_77092.zip
+>> update 60740_ruby_gakusei_jidaino_kume_masao.txt
+>> update 60740_ruby_utf8_gakusei_jidaino_kume_masao.txt
+>> https://www.aozora.gr.jp/cards/000083/card60740.html
+>> 学生時代の久米正雄、菊池寛
+5/11: ./aozorabunko/cards/000025/files/61236_ruby_77094.zip
+>> update 61236_ruby_jikken_shitsu.txt
+>> update 61236_ruby_utf8_jikken_shitsu.txt
+>> https://www.aozora.gr.jp/cards/000025/card61236.html
+>> 實驗室、有島武郎
+6/11: ./aozorabunko/cards/002177/files/60791_ruby_76866.zip
+>> update 60791_ruby_01tazugane.txt
+>> update 60791_ruby_utf8_01tazugane.txt
+>> https://www.aozora.gr.jp/cards/002177/card60791.html
+>> 鵠が音、折口春洋
+7/11: ./aozorabunko/cards/001266/files/55790_txt_76864.zip
+>> update 55790_txt_watashino_shinjo.txt
+>> update 55790_txt_utf8_watashino_shinjo.txt
+>> https://www.aozora.gr.jp/cards/001266/card55790.html
+>> 私の信条、牧野富太郎
+8/11: ./aozorabunko/cards/002265/files/62111_ruby_77103.zip
+>> update 62111_NPD_ruby_kanten.txt
+>> update 62111_NPD_ruby_utf8_kanten.txt
+>> https://www.aozora.gr.jp/cards/002265/card62111.html
+>> 観点、THE POINT OF VIEW、マンダプーツシリーズ　第３回、MANDERPOOTZ SERIES、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+9/11: ./aozorabunko/cards/000227/files/60964_ruby_77100.zip
+>> update 60964_ruby_metsubono_yorokobi.txt
+>> update 60964_ruby_utf8_metsubono_yorokobi.txt
+>> https://www.aozora.gr.jp/cards/000227/card60964.html
+>> 滅亡の喜び、生田春月
+10/11: ./aozorabunko/cards/000096/files/61139_ruby_77098.zip
+>> update 61139_ruby_dotei.txt
+>> update 61139_ruby_utf8_dotei.txt
+>> https://www.aozora.gr.jp/cards/000096/card61139.html
+>> 童貞、夢野久作
+11/11: ./aozorabunko/cards/000293/files/60450_ruby_77102.zip
+>> update 60450_ruby_kumono_sakeme.txt
+>> update 60450_ruby_utf8_kumono_sakeme.txt
+>> https://www.aozora.gr.jp/cards/000293/card60450.html
+>> 雲の裂け目、原民喜
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 33822/492 (Accept:11/Reject:0/Update:11/Rename:0/Empty:0/Multi txt:0/NPD:2)
+Git Failed  : 0
+Start: Sat Aug 19 08:59:33 JST 2023
+End  : Sat Aug 19 08:59:36 JST 2023

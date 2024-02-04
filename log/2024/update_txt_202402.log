@@ -1,0 +1,1543 @@
+
+======================================================================
+#Extract Aozora Bunko Text Files
+#Working folder: /home/level
+#Source: ./aozorabunko
+#Target: ./AozoraTxt
+#Date: Sun Feb  4 08:52:23 JST 2024
+#Git pull
+From https://github.com/aozorabunko/aozorabunko
+   090129cefa..01ec05a57f  master     -> origin/master
+Updating 090129cefa..01ec05a57f
+Fast-forward
+ cards/000011/card59087.html                   |  234 ++
+ cards/000011/files/59087_77125.html           |   74 +
+ cards/000011/files/59087_txt_77126.zip        |  Bin 0 -> 819 bytes
+ cards/000023/card61300.html                   |  234 ++
+ cards/000023/files/61300_77650.html           |   89 +
+ cards/000023/files/61300_ruby_77651.zip       |  Bin 0 -> 2818 bytes
+ cards/000025/card61237.html                   |  234 ++
+ cards/000025/files/61237_77281.html           |   86 +
+ cards/000025/files/61237_txt_77333.zip        |  Bin 0 -> 13619 bytes
+ cards/000026/card55904.html                   |    8 +-
+ cards/000026/files/55904_70773.html           |    3 +-
+ cards/000026/files/55904_txt_70721.zip        |  Bin 1112 -> 1041 bytes
+ cards/000050/card50824.html                   |  238 ++
+ cards/000050/files/50824_77449.html           |  178 ++
+ cards/000050/files/50824_ruby_77450.zip       |  Bin 0 -> 11162 bytes
+ cards/000051/card59085.html                   |  234 ++
+ cards/000051/card62060.html                   |  238 ++
+ cards/000051/files/59085_77427.html           |   61 +
+ cards/000051/files/59085_ruby_77428.zip       |  Bin 0 -> 1307 bytes
+ cards/000051/files/62060_77344.html           | 1298 +++++++++
+ cards/000051/files/62060_ruby_77343.zip       |  Bin 0 -> 85887 bytes
+ cards/000076/card58350.html                   |  234 ++
+ cards/000076/files/58350_77716.html           |   63 +
+ cards/000076/files/58350_ruby_77717.zip       |  Bin 0 -> 1983 bytes
+ cards/000081/card1923.html                    |   10 +-
+ cards/000081/card1937.html                    |   12 +-
+ cards/000081/card3060.html                    |   12 +-
+ cards/000081/card45308.html                   |   12 +-
+ cards/000081/card45471.html                   |   12 +-
+ cards/000081/card45472.html                   |   12 +-
+ cards/000081/card45473.html                   |   12 +-
+ cards/000081/card455.html                     |   30 +-
+ cards/000081/card45630.html                   |    2 +-
+ cards/000081/card45652.html                   |   12 +-
+ cards/000081/card45653.html                   |   12 +-
+ cards/000081/card45654.html                   |   12 +-
+ cards/000081/card45655.html                   |   12 +-
+ cards/000081/card45656.html                   |   14 +-
+ cards/000081/card45657.html                   |   12 +-
+ cards/000081/card45658.html                   |   12 +-
+ cards/000081/card45659.html                   |   12 +-
+ cards/000081/card457.html                     |   12 +-
+ cards/000081/card461.html                     |   12 +-
+ cards/000081/card463.html                     |   12 +-
+ cards/000081/card467.html                     |   12 +-
+ cards/000081/card48201.html                   |    2 +-
+ cards/000081/card48223.html                   |    2 +-
+ cards/000081/card50762.html                   |   12 +-
+ cards/000081/card50763.html                   |   12 +-
+ cards/000081/card50764.html                   |   12 +-
+ cards/000081/card50765.html                   |   12 +-
+ cards/000081/card50766.html                   |   12 +-
+ cards/000081/files/1923_10183.html            |   29 +-
+ cards/000081/files/1923_ruby_9772.zip         |  Bin 7510 -> 7486 bytes
+ cards/000081/files/1937_18525.html            |   29 +-
+ cards/000081/files/1937_ruby_18362.zip        |  Bin 6682 -> 6716 bytes
+ cards/000081/files/3060_24649.html            |   28 +-
+ cards/000081/files/3060_ruby_24445.zip        |  Bin 1633 -> 1617 bytes
+ cards/000081/files/45308_19345.html           |   30 +-
+ cards/000081/files/45308_ruby_19307.zip       |  Bin 6819 -> 6897 bytes
+ cards/000081/files/45471_36075.html           |   29 +-
+ cards/000081/files/45471_ruby_35664.zip       |  Bin 13822 -> 13879 bytes
+ cards/000081/files/45472_36052.html           |   66 +-
+ cards/000081/files/45472_ruby_35665.zip       |  Bin 14402 -> 14393 bytes
+ cards/000081/files/45473_36053.html           |    9 +-
+ cards/000081/files/45473_ruby_35666.zip       |  Bin 10720 -> 10765 bytes
+ cards/000081/files/455_77350.html             |  142 +
+ cards/000081/files/45652_35908.html           |   61 +-
+ cards/000081/files/45652_ruby_35575.zip       |  Bin 5163 -> 5208 bytes
+ cards/000081/files/45653_35910.html           |   61 +-
+ cards/000081/files/45653_ruby_35577.zip       |  Bin 6206 -> 6253 bytes
+ cards/000081/files/45654_35653.html           |   30 +-
+ cards/000081/files/45654_ruby_35391.zip       |  Bin 1989 -> 2024 bytes
+ cards/000081/files/45655_35655.html           |   30 +-
+ cards/000081/files/45655_ruby_35393.zip       |  Bin 1734 -> 1767 bytes
+ cards/000081/files/45656_35654.html           |   30 +-
+ cards/000081/files/45656_ruby_35392.zip       |  Bin 1794 -> 1827 bytes
+ cards/000081/files/45657_35656.html           |   30 +-
+ cards/000081/files/45657_ruby_35394.zip       |  Bin 2633 -> 2664 bytes
+ cards/000081/files/45658_35909.html           |   32 +-
+ cards/000081/files/45658_ruby_35347.zip       |  Bin 5467 -> 5541 bytes
+ cards/000081/files/45659_35911.html           |   32 +-
+ cards/000081/files/45659_ruby_35578.zip       |  Bin 3354 -> 3430 bytes
+ cards/000081/files/461_27798.html             |   31 +-
+ cards/000081/files/461_ruby_27797.zip         |  Bin 10061 -> 10077 bytes
+ cards/000081/files/463_32310.html             |   31 +-
+ cards/000081/files/463_ruby_32309.zip         |  Bin 4219 -> 4145 bytes
+ cards/000081/files/467_19932.html             |   63 +-
+ cards/000081/files/467_txt_19933.zip          |  Bin 5342 -> 5222 bytes
+ cards/000081/files/50762_40542.html           |   18 +-
+ cards/000081/files/50762_ruby_39497.zip       |  Bin 5011 -> 5095 bytes
+ cards/000081/files/50763_40543.html           |   14 +-
+ cards/000081/files/50763_ruby_39499.zip       |  Bin 6545 -> 6659 bytes
+ cards/000081/files/50764_40544.html           |   10 +-
+ cards/000081/files/50764_ruby_39500.zip       |  Bin 10021 -> 10169 bytes
+ cards/000081/files/50765_40545.html           |   10 +-
+ cards/000081/files/50765_ruby_39498.zip       |  Bin 6116 -> 6209 bytes
+ cards/000081/files/50766_40548.html           |    9 +-
+ cards/000081/files/50766_ruby_39740.zip       |  Bin 13173 -> 13339 bytes
+ cards/000083/card1101.html                    |   10 +-
+ cards/000083/card60722.html                   |  234 ++
+ cards/000083/card61380.html                   |  234 ++
+ cards/000083/files/1101_19885.html            |   61 +-
+ cards/000083/files/1101_ruby_19884.zip        |  Bin 18851 -> 18906 bytes
+ cards/000083/files/60722_77326.html           |   91 +
+ cards/000083/files/60722_ruby_77327.zip       |  Bin 0 -> 5977 bytes
+ cards/000083/files/61380_77680.html           |   88 +
+ cards/000083/files/61380_ruby_77681.zip       |  Bin 0 -> 2302 bytes
+ cards/000094/card61341.html                   |  243 ++
+ cards/000094/files/61341_77726.html           |   80 +
+ cards/000094/files/61341_ruby_77727.zip       |  Bin 0 -> 5040 bytes
+ cards/000121/card61539.html                   |  234 ++
+ cards/000121/files/61539_77338.html           |   71 +
+ cards/000121/files/61539_txt_77339.zip        |  Bin 0 -> 1053 bytes
+ cards/000129/card56527.html                   |  234 ++
+ cards/000129/files/56527_77313.html           |  125 +
+ cards/000129/files/56527_ruby_77314.zip       |  Bin 0 -> 7565 bytes
+ cards/000148/card757.html                     |   14 +-
+ cards/000148/files/757_14957.html             |   38 +-
+ cards/000148/files/757_ruby_2986.zip          |  Bin 17745 -> 17648 bytes
+ cards/000169/card52158.html                   |  234 ++
+ cards/000169/files/52158_77511.html           |   63 +
+ cards/000169/files/52158_txt_77512.zip        |  Bin 0 -> 1111 bytes
+ cards/000214/card61299.html                   |  234 ++
+ cards/000214/files/61299_77253.html           |   69 +
+ cards/000214/files/61299_ruby_77254.zip       |  Bin 0 -> 3153 bytes
+ cards/000227/card60963.html                   |  234 ++
+ cards/000227/files/60963_77261.html           |   85 +
+ cards/000227/files/60963_ruby_77262.zip       |  Bin 0 -> 1266 bytes
+ cards/000239/card51134.html                   |  234 ++
+ cards/000239/card51896.html                   |  234 ++
+ cards/000239/files/51134_77285.html           |   76 +
+ cards/000239/files/51134_ruby_77286.zip       |  Bin 0 -> 3660 bytes
+ cards/000239/files/51896_77608.html           |   69 +
+ cards/000239/files/51896_ruby_77609.zip       |  Bin 0 -> 4073 bytes
+ cards/000258/card62443.html                   |  235 ++
+ cards/000258/files/62443_77582.html           |  606 +++++
+ cards/000258/files/62443_ruby_77581.zip       |  Bin 0 -> 20250 bytes
+ cards/000260/card1432.html                    |   14 +-
+ cards/000260/files/1432_20141.html            |   79 +-
+ cards/000260/files/1432_ruby_20012.zip        |  Bin 39924 -> 39713 bytes
+ cards/000291/card58708.html                   |  234 ++
+ cards/000291/files/58708_77306.html           |   71 +
+ cards/000291/files/58708_ruby_77307.zip       |  Bin 0 -> 3220 bytes
+ cards/000293/card60434.html                   |  239 ++
+ cards/000293/card60515.html                   |  229 ++
+ cards/000293/files/60434_77646.html           |   72 +
+ cards/000293/files/60434_ruby_77647.zip       |  Bin 0 -> 1898 bytes
+ cards/000293/files/60515_77315.html           |   62 +
+ cards/000293/files/60515_txt_77316.zip        |  Bin 0 -> 1503 bytes
+ cards/000304/card46475.html                   |  229 ++
+ cards/000304/card46492.html                   |  229 ++
+ cards/000304/card46493.html                   |  229 ++
+ cards/000304/files/46475_77668.html           |  144 +
+ cards/000304/files/46475_ruby_77669.zip       |  Bin 0 -> 17807 bytes
+ cards/000304/files/46492_77308.html           |  144 +
+ cards/000304/files/46492_ruby_77309.zip       |  Bin 0 -> 12331 bytes
+ cards/000304/files/46493_77720.html           |   65 +
+ cards/000304/files/46493_txt_77721.zip        |  Bin 0 -> 1363 bytes
+ cards/000317/card61442.html                   |  234 ++
+ cards/000317/files/61442_77289.html           |  210 ++
+ cards/000317/files/61442_ruby_77291.zip       |  Bin 0 -> 7055 bytes
+ cards/000325/card45519.html                   |  229 ++
+ cards/000325/files/45519_77712.html           | 2155 +++++++++++++++
+ cards/000325/files/45519_ruby_77713.zip       |  Bin 0 -> 81089 bytes
+ cards/000361/card2067.html                    |    4 +-
+ cards/000361/card42941.html                   |    4 +-
+ cards/000361/card58199.html                   |    4 +-
+ cards/000363/card60809.html                   |  238 ++
+ cards/000363/files/60809_77682.html           |  244 ++
+ cards/000363/files/60809_ruby_77683.zip       |  Bin 0 -> 18428 bytes
+ cards/000416/card56959.html                   |  234 ++
+ cards/000416/card57111.html                   |  234 ++
+ cards/000416/files/56959_77728.html           |   99 +
+ cards/000416/files/56959_ruby_77729.zip       |  Bin 0 -> 10812 bytes
+ cards/000416/files/57111_77730.html           |   77 +
+ cards/000416/files/57111_ruby_77731.zip       |  Bin 0 -> 6838 bytes
+ cards/000587/card59856.html                   |  234 ++
+ cards/000587/files/59856_77129.html           |   88 +
+ cards/000587/files/59856_ruby_77130.zip       |  Bin 0 -> 4986 bytes
+ cards/000799/card60991.html                   |  234 ++
+ cards/000799/card61342.html                   |  234 ++
+ cards/000799/files/60991_77353.html           |   74 +
+ cards/000799/files/60991_ruby_77354.zip       |  Bin 0 -> 826 bytes
+ cards/000799/files/61342_77425.html           |  113 +
+ cards/000799/files/61342_ruby_77426.zip       |  Bin 0 -> 1860 bytes
+ cards/000868/card2689.html                    |    2 +-
+ cards/000928/card58709.html                   |  234 ++
+ cards/000928/files/58709_77144.html           |   66 +
+ cards/000928/files/58709_txt_77145.zip        |  Bin 0 -> 1419 bytes
+ cards/001052/card59891.html                   |  234 ++
+ cards/001052/files/59891_77684.html           |  329 +++
+ cards/001052/files/59891_txt_77685.zip        |  Bin 0 -> 20852 bytes
+ cards/001059/card61026.html                   |  234 ++
+ cards/001059/files/61026_77255.html           |   65 +
+ cards/001059/files/61026_txt_77256.zip        |  Bin 0 -> 1948 bytes
+ cards/001091/card59518.html                   |    8 +-
+ cards/001091/card59634.html                   |    8 +-
+ cards/001091/card59639.html                   |    8 +-
+ cards/001091/card59640.html                   |    2 +-
+ cards/001091/card59744.html                   |    8 +-
+ cards/001091/card59746.html                   |   10 +-
+ cards/001091/card59834.html                   |  247 ++
+ cards/001091/card59837.html                   |    8 +-
+ cards/001091/card59838.html                   |   10 +-
+ cards/001091/card59840.html                   |    8 +-
+ cards/001091/card59843.html                   |    8 +-
+ cards/001091/card59844.html                   |    8 +-
+ cards/001091/card61531.html                   |  252 ++
+ cards/001091/files/59518_70205.html           |    1 +
+ cards/001091/files/59518_ruby_70156.zip       |  Bin 80196 -> 80211 bytes
+ cards/001091/files/59634_71166.html           |    3 +-
+ cards/001091/files/59634_ruby_71121.zip       |  Bin 159642 -> 159663 bytes
+ cards/001091/files/59639_72312.html           |    3 +-
+ cards/001091/files/59639_ruby_72264.zip       |  Bin 114016 -> 114033 bytes
+ cards/001091/files/59744_71459.html           |    3 +-
+ cards/001091/files/59744_ruby_71410.zip       |  Bin 5468 -> 5341 bytes
+ cards/001091/files/59746_72127.html           |    3 +-
+ cards/001091/files/59746_ruby_72086.zip       |  Bin 48353 -> 48369 bytes
+ cards/001091/files/59834_77515.html           |  343 +++
+ cards/001091/files/59834_ruby_77516.zip       |  Bin 0 -> 10418 bytes
+ cards/001091/files/59837_74949.html           |    1 +
+ cards/001091/files/59837_ruby_74914.zip       |  Bin 22805 -> 22820 bytes
+ cards/001091/files/59838_74428.html           |    5 +-
+ cards/001091/files/59838_ruby_74390.zip       |  Bin 84381 -> 84395 bytes
+ cards/001091/files/59840_74614.html           |    4 +-
+ cards/001091/files/59840_ruby_74577.zip       |  Bin 7054 -> 6983 bytes
+ cards/001091/files/59843_75649.html           |    5 +-
+ cards/001091/files/59843_ruby_75619.zip       |  Bin 3519 -> 3397 bytes
+ cards/001091/files/59844_74790.html           |    3 +-
+ cards/001091/files/59844_ruby_74756.zip       |  Bin 60013 -> 60030 bytes
+ cards/001091/files/61531_77710.html           |  153 ++
+ cards/001091/files/61531_ruby_77711.zip       |  Bin 0 -> 3941 bytes
+ cards/001095/card45897.html                   |    8 +-
+ cards/001095/card61118.html                   |  238 ++
+ cards/001095/card61127.html                   |  238 ++
+ cards/001095/card61128.html                   |  238 ++
+ cards/001095/card61129.html                   |  238 ++
+ cards/001095/card61131.html                   |  238 ++
+ cards/001095/card61138.html                   |  238 ++
+ cards/001095/card61144.html                   |  238 ++
+ cards/001095/card61162.html                   |  238 ++
+ cards/001095/files/45897_34353.html           |   28 +-
+ cards/001095/files/45897_ruby_33769.zip       |  Bin 4440 -> 4471 bytes
+ cards/001095/files/61118_77304.html           |   94 +
+ cards/001095/files/61118_ruby_77305.zip       |  Bin 0 -> 3478 bytes
+ cards/001095/files/61127_77708.html           |   75 +
+ cards/001095/files/61127_ruby_77709.zip       |  Bin 0 -> 1803 bytes
+ cards/001095/files/61128_77736.html           |   65 +
+ cards/001095/files/61128_ruby_77737.zip       |  Bin 0 -> 1700 bytes
+ cards/001095/files/61129_77613.html           |  103 +
+ cards/001095/files/61129_ruby_77614.zip       |  Bin 0 -> 8044 bytes
+ cards/001095/files/61131_77625.html           |   72 +
+ cards/001095/files/61131_txt_77626.zip        |  Bin 0 -> 2162 bytes
+ cards/001095/files/61138_77615.html           |  105 +
+ cards/001095/files/61138_ruby_77616.zip       |  Bin 0 -> 11614 bytes
+ cards/001095/files/61144_77648.html           |  105 +
+ cards/001095/files/61144_ruby_77649.zip       |  Bin 0 -> 10492 bytes
+ cards/001095/files/61162_77734.html           |   71 +
+ cards/001095/files/61162_ruby_77735.zip       |  Bin 0 -> 2064 bytes
+ cards/001097/card42923.html                   |    8 +-
+ cards/001097/files/42923_58753.html           |   40 +-
+ cards/001097/files/42923_ruby_58715.zip       |  Bin 121793 -> 119388 bytes
+ cards/001166/card60627.html                   |  234 ++
+ cards/001166/files/60627_77259.html           |  498 ++++
+ cards/001166/files/60627_ruby_77260.zip       |  Bin 0 -> 36997 bytes
+ cards/001168/card61060.html                   |  230 ++
+ cards/001168/files/61060_77127.html           |   72 +
+ cards/001168/files/61060_txt_77128.zip        |  Bin 0 -> 1049 bytes
+ cards/001224/card46076.html                   |    8 +-
+ cards/001224/card46126.html                   |   12 +-
+ cards/001224/files/46076_49499.html           |   45 +-
+ cards/001224/files/46076_ruby_49472.zip       |  Bin 291126 -> 286832 bytes
+ cards/001224/files/46126_29164.html           |   44 +-
+ cards/001224/files/46126_ruby_29144.zip       |  Bin 16654 -> 16595 bytes
+ cards/001248/card50596.html                   |  229 ++
+ cards/001248/card50609.html                   |  229 ++
+ cards/001248/files/50596_77287.html           |   64 +
+ cards/001248/files/50596_ruby_77288.zip       |  Bin 0 -> 2325 bytes
+ cards/001248/files/50609_77311.html           |   75 +
+ cards/001248/files/50609_ruby_77312.zip       |  Bin 0 -> 2458 bytes
+ cards/001258/card61157.html                   |  234 ++
+ cards/001258/files/61157_77718.html           |  203 ++
+ cards/001258/files/61157_ruby_77719.zip       |  Bin 0 -> 7941 bytes
+ cards/001271/card60609.html                   |  243 ++
+ cards/001271/files/60609_77359.html           | 2597 ++++++++++++++++++
+ cards/001271/files/60609_ruby_77360.zip       |  Bin 0 -> 1254902 bytes
+ cards/001310/card51841.html                   |  234 ++
+ cards/001310/files/51841_77133.html           | 3583 +++++++++++++++++++++++++
+ cards/001310/files/51841_ruby_77134.zip       |  Bin 0 -> 28629 bytes
+ cards/001341/card60032.html                   |  234 ++
+ cards/001341/card60379.html                   |  234 ++
+ cards/001341/card60407.html                   |  243 ++
+ cards/001341/card60630.html                   |  234 ++
+ cards/001341/card60641.html                   |  234 ++
+ cards/001341/card60659.html                   |  234 ++
+ cards/001341/files/60032_77672.html           |  116 +
+ cards/001341/files/60032_ruby_77673.zip       |  Bin 0 -> 9494 bytes
+ cards/001341/files/60379_77148.html           |   79 +
+ cards/001341/files/60379_ruby_77149.zip       |  Bin 0 -> 9172 bytes
+ cards/001341/files/60407_77674.html           |  100 +
+ cards/001341/files/60407_ruby_77675.zip       |  Bin 0 -> 5520 bytes
+ cards/001341/files/60630_77336.html           |   74 +
+ cards/001341/files/60630_ruby_77337.zip       |  Bin 0 -> 2834 bytes
+ cards/001341/files/60641_77676.html           |  115 +
+ cards/001341/files/60641_ruby_77677.zip       |  Bin 0 -> 6907 bytes
+ cards/001341/files/60659_77670.html           |  127 +
+ cards/001341/files/60659_ruby_77671.zip       |  Bin 0 -> 13720 bytes
+ cards/001360/card49256.html                   |    4 +-
+ cards/001383/card57344.html                   |  234 ++
+ cards/001383/card57345.html                   |  234 ++
+ cards/001383/card60725.html                   |  234 ++
+ cards/001383/files/57344_77328.html           |  347 +++
+ cards/001383/files/57344_ruby_77329.zip       |  Bin 0 -> 34754 bytes
+ cards/001383/files/57345_77334.html           |  246 ++
+ cards/001383/files/57345_ruby_77335.zip       |  Bin 0 -> 24989 bytes
+ cards/001383/files/60725_77330.html           |  178 ++
+ cards/001383/files/60725_ruby_77331.zip       |  Bin 0 -> 12535 bytes
+ cards/001399/card49932.html                   |    4 +
+ cards/001428/card50328.html                   |   13 +-
+ cards/001428/files/50328_64360.html           |    7 +-
+ cards/001428/files/50328_txt_64311.zip        |  Bin 221096 -> 221617 bytes
+ cards/001468/card50749.html                   |  229 ++
+ cards/001468/files/50749_77146.html           | 2809 +++++++++++++++++++
+ cards/001468/files/50749_ruby_77147.zip       |  Bin 0 -> 200636 bytes
+ cards/001475/card51514.html                   |  229 ++
+ cards/001475/card51536.html                   |  234 ++
+ cards/001475/card51547.html                   |  234 ++
+ cards/001475/files/51514_77249.html           |   74 +
+ cards/001475/files/51514_ruby_77250.zip       |  Bin 0 -> 1061 bytes
+ cards/001475/files/51536_77131.html           |  474 ++++
+ cards/001475/files/51536_ruby_77132.zip       |  Bin 0 -> 10498 bytes
+ cards/001475/files/51547_77251.html           |   73 +
+ cards/001475/files/51547_ruby_77252.zip       |  Bin 0 -> 1064 bytes
+ cards/001506/card56911.html                   |    8 +-
+ cards/001506/files/56911_61973.html           |    9 +-
+ cards/001506/files/56911_ruby_61972.zip       |  Bin 113281 -> 113228 bytes
+ cards/001520/card59525.html                   |  234 ++
+ cards/001520/files/59525_77194.html           |   74 +
+ cards/001520/files/59525_ruby_77195.zip       |  Bin 0 -> 4067 bytes
+ cards/001529/card62209.html                   |  241 ++
+ cards/001533/card56170.html                   |  234 ++
+ cards/001533/files/56170_77517.html           |  114 +
+ cards/001533/files/56170_ruby_77518.zip       |  Bin 0 -> 6575 bytes
+ cards/001539/card60912.html                   |  229 ++
+ cards/001539/files/60912_77640.html           |   66 +
+ cards/001539/files/60912_ruby_77641.zip       |  Bin 0 -> 654 bytes
+ cards/001562/card54186.html                   |  229 ++
+ cards/001562/card54326.html                   |  229 ++
+ cards/001562/files/54186_77423.html           | 2318 ++++++++++++++++
+ cards/001562/files/54186_ruby_77424.zip       |  Bin 0 -> 136998 bytes
+ cards/001562/files/54326_77421.html           |   64 +
+ cards/001562/files/54326_ruby_77422.zip       |  Bin 0 -> 1390 bytes
+ cards/001566/card52454.html                   |  231 ++
+ cards/001566/card58779.html                   |  229 ++
+ cards/001566/files/52454_77357.html           |  351 +++
+ cards/001566/files/52454_ruby_77358.zip       |  Bin 0 -> 120068 bytes
+ cards/001566/files/58779_77636.html           |  101 +
+ cards/001566/files/58779_ruby_77637.zip       |  Bin 0 -> 6489 bytes
+ cards/001569/card56735.html                   |  234 ++
+ cards/001569/card61428.html                   |  229 ++
+ cards/001569/files/56735_77139.html           |  139 +
+ cards/001569/files/56735_ruby_77140.zip       |  Bin 0 -> 90695 bytes
+ cards/001569/files/61428_77196.html           |   70 +
+ cards/001569/files/61428_ruby_77197.zip       |  Bin 0 -> 3087 bytes
+ cards/001570/card53866.html                   |   10 +-
+ cards/001570/card55786.html                   |  234 ++
+ cards/001570/files/53866_49962.html           |  131 +-
+ cards/001570/files/53866_txt_49961.zip        |  Bin 1936 -> 2105 bytes
+ cards/001570/files/55786_77617.html           |   92 +
+ cards/001570/files/55786_txt_77618.zip        |  Bin 0 -> 5779 bytes
+ cards/001579/card55430.html                   |  229 ++
+ cards/001579/files/55430_77351.html           |  172 ++
+ cards/001579/files/55430_ruby_77352.zip       |  Bin 0 -> 12627 bytes
+ cards/001637/card60980.html                   |  234 ++
+ cards/001637/card61051.html                   |  234 ++
+ cards/001637/card61065.html                   |  234 ++
+ cards/001637/files/60980_77513.html           |   83 +
+ cards/001637/files/60980_txt_77514.zip        |  Bin 0 -> 790 bytes
+ cards/001637/files/61051_77714.html           |   84 +
+ cards/001637/files/61051_txt_77715.zip        |  Bin 0 -> 825 bytes
+ cards/001637/files/61065_77732.html           |   69 +
+ cards/001637/files/61065_txt_77733.zip        |  Bin 0 -> 664 bytes
+ cards/001692/card59888.html                   |  234 ++
+ cards/001692/files/59888_77642.html           | 2277 ++++++++++++++++
+ cards/001692/files/59888_ruby_77643.zip       |  Bin 0 -> 157043 bytes
+ cards/001693/card59528.html                   |  234 ++
+ cards/001693/card59529.html                   |  234 ++
+ cards/001693/files/59528_77507.html           |   77 +
+ cards/001693/files/59528_txt_77508.zip        |  Bin 0 -> 2739 bytes
+ cards/001693/files/59529_77505.html           |   65 +
+ cards/001693/files/59529_txt_77506.zip        |  Bin 0 -> 2042 bytes
+ cards/001714/card56176.html                   |  229 ++
+ cards/001714/card56178.html                   |  229 ++
+ cards/001714/card56192.html                   |  229 ++
+ cards/001714/card56195.html                   |  229 ++
+ cards/001714/files/56176_77451.html           |   72 +
+ cards/001714/files/56176_txt_77452.zip        |  Bin 0 -> 2938 bytes
+ cards/001714/files/56178_77429.html           |   93 +
+ cards/001714/files/56178_txt_77430.zip        |  Bin 0 -> 3191 bytes
+ cards/001714/files/56192_77519.html           |   90 +
+ cards/001714/files/56192_txt_77520.zip        |  Bin 0 -> 4284 bytes
+ cards/001714/files/56195_77610.html           |   95 +
+ cards/001714/files/56195_txt_77611.zip        |  Bin 0 -> 5277 bytes
+ cards/001753/card58616.html                   |  234 ++
+ cards/001753/card58618.html                   |  234 ++
+ cards/001753/card58623.html                   |  234 ++
+ cards/001753/files/58616_77509.html           |  382 +++
+ cards/001753/files/58616_ruby_77510.zip       |  Bin 0 -> 35382 bytes
+ cards/001753/files/58618_77623.html           |   68 +
+ cards/001753/files/58618_ruby_77624.zip       |  Bin 0 -> 2434 bytes
+ cards/001753/files/58623_77621.html           |   94 +
+ cards/001753/files/58623_ruby_77622.zip       |  Bin 0 -> 9730 bytes
+ cards/001763/card59438.html                   |  234 ++
+ cards/001763/card59439.html                   |  234 ++
+ cards/001763/card59440.html                   |  234 ++
+ cards/001763/card60173.html                   |  234 ++
+ cards/001763/card60882.html                   |  234 ++
+ cards/001763/card61269.html                   |  234 ++
+ cards/001763/files/59438_77666.html           |   93 +
+ cards/001763/files/59438_txt_77667.zip        |  Bin 0 -> 3615 bytes
+ cards/001763/files/59439_77123.html           |   76 +
+ cards/001763/files/59439_txt_77124.zip        |  Bin 0 -> 3018 bytes
+ cards/001763/files/59440_77200.html           |   91 +
+ cards/001763/files/59440_ruby_77201.zip       |  Bin 0 -> 5031 bytes
+ cards/001763/files/60173_77198.html           |  126 +
+ cards/001763/files/60173_txt_77199.zip        |  Bin 0 -> 7231 bytes
+ cards/001763/files/60882_77137.html           |  121 +
+ cards/001763/files/60882_ruby_77138.zip       |  Bin 0 -> 16608 bytes
+ cards/001763/files/61269_77135.html           |   84 +
+ cards/001763/files/61269_ruby_77136.zip       |  Bin 0 -> 2066 bytes
+ cards/001779/card59526.html                   |  234 ++
+ cards/001779/files/59526_77619.html           |   78 +
+ cards/001779/files/59526_ruby_77620.zip       |  Bin 0 -> 4622 bytes
+ cards/001797/card56628.html                   |    4 +-
+ cards/001848/card59608.html                   |    3 +-
+ cards/001869/card57663.html                   |  229 ++
+ cards/001869/files/57663_77300.html           |  424 +++
+ cards/001869/files/57663_ruby_77301.zip       |  Bin 0 -> 14261 bytes
+ cards/001875/card59897.html                   |  229 ++
+ cards/001875/files/59897_77355.html           | 2839 ++++++++++++++++++++
+ cards/001875/files/59897_ruby_77356.zip       |  Bin 0 -> 124249 bytes
+ cards/001904/card58144.html                   |  229 ++
+ cards/001904/files/58144_77664.html           |  249 ++
+ cards/001904/files/58144_ruby_77665.zip       |  Bin 0 -> 10129 bytes
+ cards/001927/card60195.html                   |  229 ++
+ cards/001927/files/60195_77638.html           |   61 +
+ cards/001927/files/60195_txt_77639.zip        |  Bin 0 -> 840 bytes
+ cards/001974/card59527.html                   |  234 ++
+ cards/001974/files/59527_77324.html           |   70 +
+ cards/001974/files/59527_ruby_77325.zip       |  Bin 0 -> 2396 bytes
+ cards/001991/card59020.html                   |  234 ++
+ cards/001991/files/59020_77302.html           |  400 +++
+ cards/001991/files/59020_ruby_77303.zip       |  Bin 0 -> 36696 bytes
+ cards/002026/card59381.html                   |  234 ++
+ cards/002026/files/59381_77283.html           |  188 ++
+ cards/002026/files/59381_ruby_77284.zip       |  Bin 0 -> 6490 bytes
+ cards/002138/card60196.html                   |  238 ++
+ cards/002138/files/60196_77606.html           |   84 +
+ cards/002138/files/60196_ruby_77607.zip       |  Bin 0 -> 1004 bytes
+ cards/002168/card51894.html                   |  234 ++
+ cards/002168/card51895.html                   |  234 ++
+ cards/002168/files/51894_77652.html           |   78 +
+ cards/002168/files/51894_ruby_77653.zip       |  Bin 0 -> 1835 bytes
+ cards/002168/files/51895_77654.html           |  110 +
+ cards/002168/files/51895_ruby_77655.zip       |  Bin 0 -> 9814 bytes
+ cards/002214/card61168.html                   |  229 ++
+ cards/002214/files/61168_77644.html           |   63 +
+ cards/002214/files/61168_txt_77645.zip        |  Bin 0 -> 2830 bytes
+ cards/002231/card62105.html                   |  231 ++
+ cards/002231/card62474.html                   |  231 ++
+ cards/002231/files/62105_76819.html           |  271 ++
+ cards/002231/files/62105_txt_76818.zip        |  Bin 0 -> 8884 bytes
+ cards/002231/files/62474_77692.html           |  220 ++
+ cards/002231/files/62474_txt_77693.zip        |  Bin 0 -> 6540 bytes
+ cards/002265/card62125.html                   |  231 ++
+ cards/002265/card62126.html                   |  231 ++
+ cards/002265/card62189.html                   |  231 ++
+ cards/002265/card62206.html                   |  231 ++
+ cards/002265/card62207.html                   |  231 ++
+ cards/002265/card62208.html                   |  231 ++
+ cards/002265/card62454.html                   |  231 ++
+ cards/002265/card62460.html                   |  231 ++
+ cards/002265/card62461.html                   |  231 ++
+ cards/002265/card62462.html                   |  231 ++
+ cards/002265/files/62125_77142.html           |  484 ++++
+ cards/002265/files/62125_ruby_77141.zip       |  Bin 0 -> 17258 bytes
+ cards/002265/files/62126_77264.html           |  429 +++
+ cards/002265/files/62126_ruby_77263.zip       |  Bin 0 -> 22951 bytes
+ cards/002265/files/62189_77298.html           |  432 +++
+ cards/002265/files/62189_ruby_77299.zip       |  Bin 0 -> 22107 bytes
+ cards/002265/files/62206_77342.html           |  547 ++++
+ cards/002265/files/62206_ruby_77341.zip       |  Bin 0 -> 26578 bytes
+ cards/002265/files/62207_77431.html           |  657 +++++
+ cards/002265/files/62207_ruby_77432.zip       |  Bin 0 -> 23658 bytes
+ cards/002265/files/62208_77584.html           |  603 +++++
+ cards/002265/files/62208_ruby_77583.zip       |  Bin 0 -> 25276 bytes
+ cards/002265/files/62454_77627.html           | 1011 +++++++
+ cards/002265/files/62454_ruby_77628.zip       |  Bin 0 -> 40188 bytes
+ cards/002265/files/62460_77678.html           |  380 +++
+ cards/002265/files/62460_ruby_77679.zip       |  Bin 0 -> 20211 bytes
+ cards/002265/files/62461_77690.html           |  437 +++
+ cards/002265/files/62461_ruby_77691.zip       |  Bin 0 -> 20311 bytes
+ cards/002265/files/62462_77724.html           |  540 ++++
+ cards/002265/files/62462_ruby_77725.zip       |  Bin 0 -> 28315 bytes
+ cards/002277/card62205.html                   |  232 ++
+ cards/002277/card62464.html                   |  232 ++
+ cards/002277/card62465.html                   |  232 ++
+ cards/002308/card62466.html                   |  232 ++
+ cards/002309/card62482.html                   |  241 ++
+ cards/002310/card62470.html                   |  232 ++
+ cards/002312/card62446.html                   |  232 ++
+ cards/002313/card62483.html                   |  232 ++
+ cards/002316/card62481.html                   |  232 ++
+ cards/002320/card62480.html                   |  232 ++
+ cards/002321/card62212.html                   |  232 ++
+ cards/002322/card62213.html                   |  232 ++
+ cards/002323/card62479.html                   |  232 ++
+ cards/002324/card62472.html                   |  241 ++
+ cards/002327/card62451.html                   |  232 ++
+ cards/002328/card62210.html                   |  232 ++
+ cards/002329/card62471.html                   |  232 ++
+ cards/002330/card62450.html                   |  241 ++
+ cards/002332/card62456.html                   |  232 ++
+ cards/002333/card62211.html                   |  232 ++
+ cards/002333/card62467.html                   |  232 ++
+ cards/002334/card62444.html                   |  250 ++
+ cards/002335/card62445.html                   |  232 ++
+ cards/002338/card62447.html                   |  268 ++
+ cards/002339/card62468.html                   |  268 ++
+ cards/002342/card62452.html                   |  232 ++
+ cards/002343/card62453.html                   |  268 ++
+ cards/002344/card62459.html                   |  295 ++
+ cards/002348/card62457.html                   |  250 ++
+ cards/002351/card62458.html                   |  286 ++
+ cards/002369/card62473.html                   |  241 ++
+ cards/002371/card62475.html                   |  225 ++
+ cards/link.js                                 |    2 +-
+ guide/aozora_bunko_faq.html                   |   21 +-
+ kaikei/index.html                             |   12 +-
+ kaikei/term24.html                            |   40 +
+ kaikei/term2400.jpg                           |  Bin 0 -> 1403459 bytes
+ soramoyou/soramoyou2023.html                  |  220 ++
+ soramoyou/soramoyouindex.html                 |   95 +-
+ 1584 files changed, 159477 insertions(+), 43518 deletions(-)
+Date: Sun Feb  4 08:55:29 JST 2024
+#Updating
+-rw-r--r-- 1 level level 0 Aug 19 08:59 ./AozoraTxt/etc/update
+     1	./aozorabunko/cards/000023/files/61300_ruby_77651.zip
+     2	./aozorabunko/cards/001520/files/59525_ruby_77195.zip
+     3	./aozorabunko/cards/001569/files/61428_ruby_77197.zip
+     4	./aozorabunko/cards/001569/files/56735_ruby_77140.zip
+     5	./aozorabunko/cards/001475/files/51514_ruby_77250.zip
+     6	./aozorabunko/cards/001475/files/51547_ruby_77252.zip
+     7	./aozorabunko/cards/001475/files/51536_ruby_77132.zip
+     8	./aozorabunko/cards/001875/files/59897_ruby_77356.zip
+     9	./aozorabunko/cards/001566/files/52454_ruby_77358.zip
+    10	./aozorabunko/cards/001566/files/58779_ruby_77637.zip
+    11	./aozorabunko/cards/000416/files/57111_ruby_77731.zip
+    12	./aozorabunko/cards/000416/files/56959_ruby_77729.zip
+    13	./aozorabunko/cards/000121/files/61539_txt_77339.zip
+    14	./aozorabunko/cards/002168/files/51895_ruby_77655.zip
+    15	./aozorabunko/cards/002168/files/51894_ruby_77653.zip
+    16	./aozorabunko/cards/000928/files/58709_txt_77145.zip
+    17	./aozorabunko/cards/002214/files/61168_txt_77645.zip
+    18	./aozorabunko/cards/001341/files/60641_ruby_77677.zip
+    19	./aozorabunko/cards/001341/files/60659_ruby_77671.zip
+    20	./aozorabunko/cards/001341/files/60379_ruby_77149.zip
+    21	./aozorabunko/cards/001341/files/60407_ruby_77675.zip
+    22	./aozorabunko/cards/001341/files/60032_ruby_77673.zip
+    23	./aozorabunko/cards/001341/files/60630_ruby_77337.zip
+    24	./aozorabunko/cards/001714/files/56195_txt_77611.zip
+    25	./aozorabunko/cards/001714/files/56176_txt_77452.zip
+    26	./aozorabunko/cards/001714/files/56192_txt_77520.zip
+    27	./aozorabunko/cards/001714/files/56178_txt_77430.zip
+    28	./aozorabunko/cards/000291/files/58708_ruby_77307.zip
+    29	./aozorabunko/cards/001991/files/59020_ruby_77303.zip
+    30	./aozorabunko/cards/001579/files/55430_ruby_77352.zip
+    31	./aozorabunko/cards/001506/files/56911_ruby_61972.zip
+    32	./aozorabunko/cards/000325/files/45519_ruby_77713.zip
+    33	./aozorabunko/cards/002231/files/62105_txt_76818.zip
+    34	./aozorabunko/cards/002231/files/62474_txt_77693.zip
+    35	./aozorabunko/cards/001059/files/61026_txt_77256.zip
+    36	./aozorabunko/cards/001258/files/61157_ruby_77719.zip
+    37	./aozorabunko/cards/000081/files/50762_ruby_39497.zip
+    38	./aozorabunko/cards/000081/files/461_ruby_27797.zip
+    39	./aozorabunko/cards/000081/files/45657_ruby_35394.zip
+    40	./aozorabunko/cards/000081/files/3060_ruby_24445.zip
+    41	./aozorabunko/cards/000081/files/50765_ruby_39498.zip
+    42	./aozorabunko/cards/000081/files/1923_ruby_9772.zip
+    43	./aozorabunko/cards/000081/files/1937_ruby_18362.zip
+    44	./aozorabunko/cards/000081/files/45659_ruby_35578.zip
+    45	./aozorabunko/cards/000081/files/467_txt_19933.zip
+    46	./aozorabunko/cards/000081/files/45472_ruby_35665.zip
+    47	./aozorabunko/cards/000081/files/50764_ruby_39500.zip
+    48	./aozorabunko/cards/000081/files/45654_ruby_35391.zip
+    49	./aozorabunko/cards/000081/files/50763_ruby_39499.zip
+    50	./aozorabunko/cards/000081/files/45658_ruby_35347.zip
+    51	./aozorabunko/cards/000081/files/45471_ruby_35664.zip
+    52	./aozorabunko/cards/000081/files/45652_ruby_35575.zip
+    53	./aozorabunko/cards/000081/files/45653_ruby_35577.zip
+    54	./aozorabunko/cards/000081/files/50766_ruby_39740.zip
+    55	./aozorabunko/cards/000081/files/45308_ruby_19307.zip
+    56	./aozorabunko/cards/000081/files/463_ruby_32309.zip
+    57	./aozorabunko/cards/000081/files/45655_ruby_35393.zip
+    58	./aozorabunko/cards/000081/files/45656_ruby_35392.zip
+    59	./aozorabunko/cards/000081/files/45473_ruby_35666.zip
+    60	./aozorabunko/cards/001763/files/60173_txt_77199.zip
+    61	./aozorabunko/cards/001763/files/59440_ruby_77201.zip
+    62	./aozorabunko/cards/001763/files/59438_txt_77667.zip
+    63	./aozorabunko/cards/001763/files/60882_ruby_77138.zip
+    64	./aozorabunko/cards/001763/files/61269_ruby_77136.zip
+    65	./aozorabunko/cards/001763/files/59439_txt_77124.zip
+    66	./aozorabunko/cards/000587/files/59856_ruby_77130.zip
+    67	./aozorabunko/cards/000363/files/60809_ruby_77683.zip
+    68	./aozorabunko/cards/000051/files/59085_ruby_77428.zip
+    69	./aozorabunko/cards/000051/files/62060_ruby_77343.zip
+    70	./aozorabunko/cards/000011/files/59087_txt_77126.zip
+    71	./aozorabunko/cards/001692/files/59888_ruby_77643.zip
+    72	./aozorabunko/cards/001904/files/58144_ruby_77665.zip
+    73	./aozorabunko/cards/001097/files/42923_ruby_58715.zip
+    74	./aozorabunko/cards/000214/files/61299_ruby_77254.zip
+    75	./aozorabunko/cards/000169/files/52158_txt_77512.zip
+    76	./aozorabunko/cards/000304/files/46475_ruby_77669.zip
+    77	./aozorabunko/cards/000304/files/46493_txt_77721.zip
+    78	./aozorabunko/cards/000304/files/46492_ruby_77309.zip
+    79	./aozorabunko/cards/002138/files/60196_ruby_77607.zip
+    80	./aozorabunko/cards/000050/files/50824_ruby_77450.zip
+    81	./aozorabunko/cards/001693/files/59528_txt_77508.zip
+    82	./aozorabunko/cards/001693/files/59529_txt_77506.zip
+    83	./aozorabunko/cards/001539/files/60912_ruby_77641.zip
+    84	./aozorabunko/cards/001095/files/61128_ruby_77737.zip
+    85	./aozorabunko/cards/001095/files/61138_ruby_77616.zip
+    86	./aozorabunko/cards/001095/files/45897_ruby_33769.zip
+    87	./aozorabunko/cards/001095/files/61131_txt_77626.zip
+    88	./aozorabunko/cards/001095/files/61127_ruby_77709.zip
+    89	./aozorabunko/cards/001095/files/61129_ruby_77614.zip
+    90	./aozorabunko/cards/001095/files/61118_ruby_77305.zip
+    91	./aozorabunko/cards/001095/files/61162_ruby_77735.zip
+    92	./aozorabunko/cards/001095/files/61144_ruby_77649.zip
+    93	./aozorabunko/cards/000317/files/61442_ruby_77291.zip
+    94	./aozorabunko/cards/001562/files/54186_ruby_77424.zip
+    95	./aozorabunko/cards/001562/files/54326_ruby_77422.zip
+    96	./aozorabunko/cards/001224/files/46126_ruby_29144.zip
+    97	./aozorabunko/cards/001224/files/46076_ruby_49472.zip
+    98	./aozorabunko/cards/000258/files/62443_ruby_77581.zip
+    99	./aozorabunko/cards/000148/files/757_ruby_2986.zip
+   100	./aozorabunko/cards/001271/files/60609_ruby_77360.zip
+   101	./aozorabunko/cards/001570/files/53866_txt_49961.zip
+   102	./aozorabunko/cards/001570/files/55786_txt_77618.zip
+   103	./aozorabunko/cards/001166/files/60627_ruby_77260.zip
+   104	./aozorabunko/cards/001428/files/50328_txt_64311.zip
+   105	./aozorabunko/cards/001310/files/51841_ruby_77134.zip
+   106	./aozorabunko/cards/000799/files/60991_ruby_77354.zip
+   107	./aozorabunko/cards/000799/files/61342_ruby_77426.zip
+   108	./aozorabunko/cards/000083/files/61380_ruby_77681.zip
+   109	./aozorabunko/cards/000083/files/60722_ruby_77327.zip
+   110	./aozorabunko/cards/000083/files/1101_ruby_19884.zip
+   111	./aozorabunko/cards/001468/files/50749_ruby_77147.zip
+   112	./aozorabunko/cards/001753/files/58623_ruby_77622.zip
+   113	./aozorabunko/cards/001753/files/58616_ruby_77510.zip
+   114	./aozorabunko/cards/001753/files/58618_ruby_77624.zip
+   115	./aozorabunko/cards/000260/files/1432_ruby_20012.zip
+   116	./aozorabunko/cards/001248/files/50596_ruby_77288.zip
+   117	./aozorabunko/cards/001248/files/50609_ruby_77312.zip
+   118	./aozorabunko/cards/000025/files/61237_txt_77333.zip
+   119	./aozorabunko/cards/001637/files/60980_txt_77514.zip
+   120	./aozorabunko/cards/001637/files/61051_txt_77715.zip
+   121	./aozorabunko/cards/001637/files/61065_txt_77733.zip
+   122	./aozorabunko/cards/000026/files/55904_txt_70721.zip
+   123	./aozorabunko/cards/001383/files/57345_ruby_77335.zip
+   124	./aozorabunko/cards/001383/files/60725_ruby_77331.zip
+   125	./aozorabunko/cards/001383/files/57344_ruby_77329.zip
+   126	./aozorabunko/cards/000076/files/58350_ruby_77717.zip
+   127	./aozorabunko/cards/002265/files/62206_ruby_77341.zip
+   128	./aozorabunko/cards/002265/files/62462_ruby_77725.zip
+   129	./aozorabunko/cards/002265/files/62125_ruby_77141.zip
+   130	./aozorabunko/cards/002265/files/62454_ruby_77628.zip
+   131	./aozorabunko/cards/002265/files/62208_ruby_77583.zip
+   132	./aozorabunko/cards/002265/files/62126_ruby_77263.zip
+   133	./aozorabunko/cards/002265/files/62189_ruby_77299.zip
+   134	./aozorabunko/cards/002265/files/62460_ruby_77679.zip
+   135	./aozorabunko/cards/002265/files/62207_ruby_77432.zip
+   136	./aozorabunko/cards/002265/files/62461_ruby_77691.zip
+   137	./aozorabunko/cards/001533/files/56170_ruby_77518.zip
+   138	./aozorabunko/cards/001974/files/59527_ruby_77325.zip
+   139	./aozorabunko/cards/001927/files/60195_txt_77639.zip
+   140	./aozorabunko/cards/002026/files/59381_ruby_77284.zip
+   141	./aozorabunko/cards/000129/files/56527_ruby_77314.zip
+   142	./aozorabunko/cards/001779/files/59526_ruby_77620.zip
+   143	./aozorabunko/cards/001091/files/59838_ruby_74390.zip
+   144	./aozorabunko/cards/001091/files/59639_ruby_72264.zip
+   145	./aozorabunko/cards/001091/files/59843_ruby_75619.zip
+   146	./aozorabunko/cards/001091/files/59746_ruby_72086.zip
+   147	./aozorabunko/cards/001091/files/59518_ruby_70156.zip
+   148	./aozorabunko/cards/001091/files/59744_ruby_71410.zip
+   149	./aozorabunko/cards/001091/files/59840_ruby_74577.zip
+   150	./aozorabunko/cards/001091/files/61531_ruby_77711.zip
+   151	./aozorabunko/cards/001091/files/59837_ruby_74914.zip
+   152	./aozorabunko/cards/001091/files/59834_ruby_77516.zip
+   153	./aozorabunko/cards/001091/files/59634_ruby_71121.zip
+   154	./aozorabunko/cards/001091/files/59844_ruby_74756.zip
+   155	./aozorabunko/cards/001052/files/59891_txt_77685.zip
+   156	./aozorabunko/cards/000227/files/60963_ruby_77262.zip
+   157	./aozorabunko/cards/001168/files/61060_txt_77128.zip
+   158	./aozorabunko/cards/000239/files/51134_ruby_77286.zip
+   159	./aozorabunko/cards/000239/files/51896_ruby_77609.zip
+   160	./aozorabunko/cards/000094/files/61341_ruby_77727.zip
+   161	./aozorabunko/cards/000293/files/60515_txt_77316.zip
+   162	./aozorabunko/cards/000293/files/60434_ruby_77647.zip
+   163	./aozorabunko/cards/001869/files/57663_ruby_77301.zip
+1/163: ./aozorabunko/cards/000023/files/61300_ruby_77651.zip
+>> add 61300_ruby_yaku_barai.txt
+>> add 61300_ruby_utf8_yaku_barai.txt
+>> https://www.aozora.gr.jp/cards/000023/card61300.html
+>> 厄払い、徳田秋聲
+2/163: ./aozorabunko/cards/001520/files/59525_ruby_77195.zip
+>> add 59525_ruby_chano_kaikaku.txt
+>> add 59525_ruby_utf8_chano_kaikaku.txt
+>> https://www.aozora.gr.jp/cards/001520/card59525.html
+>> 茶の改革、柳宗悦
+3/163: ./aozorabunko/cards/001569/files/61428_ruby_77197.zip
+>> add 61428_ruby_abesanto_tagoru.txt
+>> add 61428_ruby_utf8_abesanto_tagoru.txt
+>> https://www.aozora.gr.jp/cards/001569/card61428.html
+>> 安倍さんとタゴール、中谷宇吉郎
+4/163: ./aozorabunko/cards/001569/files/56735_ruby_77140.zip
+>> add 56735_ruby_nebada_tsushin.txt
+>> add 56735_ruby_utf8_nebada_tsushin.txt
+>> https://www.aozora.gr.jp/cards/001569/card56735.html
+>> ネバダ通信、中谷宇吉郎
+5/163: ./aozorabunko/cards/001475/files/51514_ruby_77250.zip
+>> add 51514_ruby_ohoshisama.txt
+>> add 51514_ruby_utf8_ohoshisama.txt
+>> https://www.aozora.gr.jp/cards/001475/card51514.html
+>> おほしさま、小川未明
+6/163: ./aozorabunko/cards/001475/files/51547_ruby_77252.zip
+>> add 51547_ruby_karasu_nekoto_perusha_neko.txt
+>> add 51547_ruby_utf8_karasu_nekoto_perusha_neko.txt
+>> https://www.aozora.gr.jp/cards/001475/card51547.html
+>> からすねこと　ペルシャねこ、小川未明
+7/163: ./aozorabunko/cards/001475/files/51536_ruby_77132.zip
+>> add 51536_ruby_umibozuto_ohimesama.txt
+>> add 51536_ruby_utf8_umibozuto_ohimesama.txt
+>> https://www.aozora.gr.jp/cards/001475/card51536.html
+>> うみぼうずと　おひめさま、小川未明
+8/163: ./aozorabunko/cards/001875/files/59897_ruby_77356.zip
+>> add 59897_ruby_zakkyo_kazoku.txt
+>> add 59897_ruby_utf8_zakkyo_kazoku.txt
+>> https://www.aozora.gr.jp/cards/001875/card59897.html
+>> 雑居家族、壷井栄
+9/163: ./aozorabunko/cards/001566/files/52454_ruby_77358.zip
+>> add 52454_ruby_tono_monogatari.txt
+>> add 52454_ruby_utf8_tono_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001566/card52454.html
+>> 遠野物語、柳田国男
+10/163: ./aozorabunko/cards/001566/files/58779_ruby_77637.zip
+>> add 58779_ruby_yurei_shisono_hensen.txt
+>> add 58779_ruby_utf8_yurei_shisono_hensen.txt
+>> https://www.aozora.gr.jp/cards/001566/card58779.html
+>> 幽靈思想の變遷、柳田國男
+11/163: ./aozorabunko/cards/000416/files/57111_ruby_77731.zip
+>> add 57111_ruby_danseini_taisuru_shuchoto_yokyu.txt
+>> add 57111_ruby_utf8_danseini_taisuru_shuchoto_yokyu.txt
+>> https://www.aozora.gr.jp/cards/000416/card57111.html
+>> 男性に対する主張と要求、伊藤野枝
+12/163: ./aozorabunko/cards/000416/files/56959_ruby_77729.zip
+>> add 56959_ruby_seitoo_hikitsuguni_tsuite.txt
+>> add 56959_ruby_utf8_seitoo_hikitsuguni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000416/card56959.html
+>> 『青鞜』を引き継ぐに就いて、伊藤野枝
+13/163: ./aozorabunko/cards/000121/files/61539_txt_77339.zip
+>> add 61539_txt_kumano_ko.txt
+>> add 61539_txt_utf8_kumano_ko.txt
+>> https://www.aozora.gr.jp/cards/000121/card61539.html
+>> くまの　こ、新美南吉
+14/163: ./aozorabunko/cards/002168/files/51895_ruby_77655.zip
+>> add 51895_ruby_04kaisetsu.txt
+>> add 51895_ruby_utf8_04kaisetsu.txt
+>> https://www.aozora.gr.jp/cards/002168/card51895.html
+>> 雨月物語、解説、鵜月洋
+15/163: ./aozorabunko/cards/002168/files/51894_ruby_77653.zip
+>> add 51894_ruby_01hanrei.txt
+>> add 51894_ruby_utf8_01hanrei.txt
+>> https://www.aozora.gr.jp/cards/002168/card51894.html
+>> 雨月物語、凡例、鵜月洋
+16/163: ./aozorabunko/cards/000928/files/58709_txt_77145.zip
+>> add 58709_txt_kazeo_yorokobu.txt
+>> add 58709_txt_utf8_kazeo_yorokobu.txt
+>> https://www.aozora.gr.jp/cards/000928/card58709.html
+>> 風を喜ぶ、前田夕暮
+17/163: ./aozorabunko/cards/002214/files/61168_txt_77645.zip
+>> add 61168_txt_seishin_byosha_shitaku_kanchino_jikkyo_jijo.txt
+>> add 61168_txt_utf8_seishin_byosha_shitaku_kanchino_jikkyo_jijo.txt
+>> https://www.aozora.gr.jp/cards/002214/card61168.html
+>> 「精神病者私宅監置ノ實況及ビ其統計的觀察」自序、呉秀三
+18/163: ./aozorabunko/cards/001341/files/60641_ruby_77677.zip
+>> add 60641_ruby_rojin.txt
+>> add 60641_ruby_utf8_rojin.txt
+>> https://www.aozora.gr.jp/cards/001341/card60641.html
+>> 老人、永井荷風
+19/163: ./aozorabunko/cards/001341/files/60659_ruby_77671.zip
+>> add 60659_ruby_ajisai.txt
+>> add 60659_ruby_utf8_ajisai.txt
+>> https://www.aozora.gr.jp/cards/001341/card60659.html
+>> あぢさゐ、永井荷風
+20/163: ./aozorabunko/cards/001341/files/60379_ruby_77149.zip
+>> add 60379_ruby_karineno_yume.txt
+>> add 60379_ruby_utf8_karineno_yume.txt
+>> https://www.aozora.gr.jp/cards/001341/card60379.html
+>> 仮寐の夢、永井荷風
+21/163: ./aozorabunko/cards/001341/files/60407_ruby_77675.zip
+>> add 60407_ruby_hanayori_ameni.txt
+>> add 60407_ruby_utf8_hanayori_ameni.txt
+>> https://www.aozora.gr.jp/cards/001341/card60407.html
+>> 花より雨に、永井壮吉
+22/163: ./aozorabunko/cards/001341/files/60032_ruby_77673.zip
+>> add 60032_ruby_kunsho.txt
+>> add 60032_ruby_utf8_kunsho.txt
+>> https://www.aozora.gr.jp/cards/001341/card60032.html
+>> 勲章、永井荷風
+23/163: ./aozorabunko/cards/001341/files/60630_ruby_77337.zip
+>> add 60630_ruby_sasameyuki_bohyo.txt
+>> add 60630_ruby_utf8_sasameyuki_bohyo.txt
+>> https://www.aozora.gr.jp/cards/001341/card60630.html
+>> 細雪妄評、永井荷風
+24/163: ./aozorabunko/cards/001714/files/56195_txt_77611.zip
+>> add 56195_txt_yukidokeni_subetta_teirei_joshi.txt
+>> add 56195_txt_utf8_yukidokeni_subetta_teirei_joshi.txt
+>> https://www.aozora.gr.jp/cards/001714/card56195.html
+>> 雪解けにすべった丁玲女史、平野零児
+25/163: ./aozorabunko/cards/001714/files/56176_txt_77452.zip
+>> add 56176_txt_akibasho_kara.txt
+>> add 56176_txt_utf8_akibasho_kara.txt
+>> https://www.aozora.gr.jp/cards/001714/card56176.html
+>> 秋場所から、平野零児
+26/163: ./aozorabunko/cards/001714/files/56192_txt_77520.zip
+>> add 56192_txt_mujona_kotoshino_nigatsu.txt
+>> add 56192_txt_utf8_mujona_kotoshino_nigatsu.txt
+>> https://www.aozora.gr.jp/cards/001714/card56192.html
+>> 無情な今年の二月、村松梢風氏と下中弥三郎氏をいたむ、平野零児
+27/163: ./aozorabunko/cards/001714/files/56178_txt_77430.zip
+>> add 56178_txt_kasaku_ryuko_sakka.txt
+>> add 56178_txt_utf8_kasaku_ryuko_sakka.txt
+>> https://www.aozora.gr.jp/cards/001714/card56178.html
+>> 寡作流行作家、平野零児
+28/163: ./aozorabunko/cards/000291/files/58708_ruby_77307.zip
+>> add 58708_ruby_aijo.txt
+>> add 58708_ruby_utf8_aijo.txt
+>> https://www.aozora.gr.jp/cards/000291/card58708.html
+>> 愛情、林芙美子
+29/163: ./aozorabunko/cards/001991/files/59020_ruby_77303.zip
+>> add 59020_ruby_washi.txt
+>> add 59020_ruby_utf8_washi.txt
+>> https://www.aozora.gr.jp/cards/001991/card59020.html
+>> 和紙、東野邊薫
+30/163: ./aozorabunko/cards/001579/files/55430_ruby_77352.zip
+>> add 55430_ruby_boston_bag.txt
+>> add 55430_ruby_utf8_boston_bag.txt
+>> https://www.aozora.gr.jp/cards/001579/card55430.html
+>> 鞄、室生犀星
+31/163: ./aozorabunko/cards/001506/files/56911_ruby_61972.zip
+>> update 56911_NPD_ruby_kareno_otobai_kanojono_shima.txt
+>> update 56911_NPD_ruby_utf8_kareno_otobai_kanojono_shima.txt
+>> https://www.aozora.gr.jp/cards/001506/card56911.html
+>> 彼のオートバイ、彼女の島、片岡義男
+32/163: ./aozorabunko/cards/000325/files/45519_ruby_77713.zip
+>> add 45519_ruby_hikyono_nichirin_ki.txt
+>> add 45519_ruby_utf8_hikyono_nichirin_ki.txt
+>> https://www.aozora.gr.jp/cards/000325/card45519.html
+>> 秘境の日輪旗、蘭郁二郎
+33/163: ./aozorabunko/cards/002231/files/62105_txt_76818.zip
+>> add 62105_NPD_txt_kinnohane.txt
+>> add 62105_NPD_txt_utf8_kinnohane.txt
+>> https://www.aozora.gr.jp/cards/002231/card62105.html
+>> 金の羽根、PIUMA-D'-ORO、ルイージ・カプアーナ　Luigi Capuana、田原勝典訳
+34/163: ./aozorabunko/cards/002231/files/62474_txt_77693.zip
+>> add 62474_NPD_txt_tsukurinaoshi_oyakata.txt
+>> add 62474_NPD_txt_utf8_tsukurinaoshi_oyakata.txt
+>> https://www.aozora.gr.jp/cards/002231/card62474.html
+>> 作り直し親方、MASTRO ACCONCIA-E-GUASTA、ルイージ・カプアーナ　Luigi Capuana、田原勝典訳
+35/163: ./aozorabunko/cards/001059/files/61026_txt_77256.zip
+>> add 61026_txt_neko.txt
+>> add 61026_txt_utf8_neko.txt
+>> https://www.aozora.gr.jp/cards/001059/card61026.html
+>> 猫、齋藤茂吉
+36/163: ./aozorabunko/cards/001258/files/61157_ruby_77719.zip
+>> add 61157_ruby_utsukushiki_gantan.txt
+>> add 61157_ruby_utf8_utsukushiki_gantan.txt
+>> https://www.aozora.gr.jp/cards/001258/card61157.html
+>> 美しき元旦、吉田甲子太郎
+37/163: ./aozorabunko/cards/000081/files/50762_ruby_39497.zip
+>> update 50762_ruby_kounbuno_tokei.txt
+>> update 50762_ruby_utf8_kounbuno_tokei.txt
+>> https://www.aozora.gr.jp/cards/000081/card50762.html
+>> 耕耘部の時計、宮沢賢治
+38/163: ./aozorabunko/cards/000081/files/461_ruby_27797.zip
+>> update 461_ruby_karino_doji.txt
+>> update 461_ruby_utf8_karino_doji.txt
+>> https://www.aozora.gr.jp/cards/000081/card461.html
+>> 雁の童子、宮沢賢治
+39/163: ./aozorabunko/cards/000081/files/45657_ruby_35394.zip
+>> update 45657_ruby_tegami4.txt
+>> update 45657_ruby_utf8_tegami4.txt
+>> https://www.aozora.gr.jp/cards/000081/card45657.html
+>> 手紙　四、宮沢賢治
+40/163: ./aozorabunko/cards/000081/files/3060_ruby_24445.zip
+>> update 3060_ruby_hakodateko_shunya_kokei.txt
+>> update 3060_ruby_utf8_hakodateko_shunya_kokei.txt
+>> https://www.aozora.gr.jp/cards/000081/card3060.html
+>> 凾館港春夜光景、宮澤賢治
+41/163: ./aozorabunko/cards/000081/files/50765_ruby_39498.zip
+>> update 50765_ruby_futarino_yakunin.txt
+>> update 50765_ruby_utf8_futarino_yakunin.txt
+>> https://www.aozora.gr.jp/cards/000081/card50765.html
+>> 二人の役人、宮沢賢治
+42/163: ./aozorabunko/cards/000081/files/1923_ruby_9772.zip
+>> update 1923_ruby_shishiodori.txt
+>> update 1923_ruby_utf8_shishiodori.txt
+>> https://www.aozora.gr.jp/cards/000081/card1923.html
+>> 鹿踊りのはじまり、宮澤賢治
+43/163: ./aozorabunko/cards/000081/files/1937_ruby_18362.zip
+>> update 1937_ruby_shikonzomeni_tsuite.txt
+>> update 1937_ruby_utf8_shikonzomeni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/000081/card1937.html
+>> 紫紺染について、宮沢賢治
+44/163: ./aozorabunko/cards/000081/files/45659_ruby_35578.zip
+>> update 45659_ruby_bakichino_shigoto.txt
+>> update 45659_ruby_utf8_bakichino_shigoto.txt
+>> https://www.aozora.gr.jp/cards/000081/card45659.html
+>> バキチの仕事、宮沢賢治
+45/163: ./aozorabunko/cards/000081/files/467_txt_19933.zip
+>> update 467_txt_poranno_hiroba.txt
+>> update 467_txt_utf8_poranno_hiroba.txt
+>> https://www.aozora.gr.jp/cards/000081/card467.html
+>> ポランの広場、宮沢賢治
+46/163: ./aozorabunko/cards/000081/files/45472_ruby_35665.zip
+>> update 45472_ruby_ihatobo_nogakkono_haru.txt
+>> update 45472_ruby_utf8_ihatobo_nogakkono_haru.txt
+>> https://www.aozora.gr.jp/cards/000081/card45472.html
+>> イーハトーボ農学校の春、宮沢賢治
+47/163: ./aozorabunko/cards/000081/files/50764_ruby_39500.zip
+>> update 50764_ruby_daikawa.txt
+>> update 50764_ruby_utf8_daikawa.txt
+>> https://www.aozora.gr.jp/cards/000081/card50764.html
+>> 台川、宮沢賢治
+48/163: ./aozorabunko/cards/000081/files/45654_ruby_35391.zip
+>> update 45654_ruby_tegami1.txt
+>> update 45654_ruby_utf8_tegami1.txt
+>> https://www.aozora.gr.jp/cards/000081/card45654.html
+>> 手紙　一、宮沢賢治
+49/163: ./aozorabunko/cards/000081/files/50763_ruby_39499.zip
+>> update 50763_ruby_saikachibuchi.txt
+>> update 50763_ruby_utf8_saikachibuchi.txt
+>> https://www.aozora.gr.jp/cards/000081/card50763.html
+>> さいかち淵、宮沢賢治
+50/163: ./aozorabunko/cards/000081/files/45658_ruby_35347.zip
+>> update 45658_ruby_sagarento_hachigatsu.txt
+>> update 45658_ruby_utf8_sagarento_hachigatsu.txt
+>> https://www.aozora.gr.jp/cards/000081/card45658.html
+>> サガレンと八月、宮沢賢治
+51/163: ./aozorabunko/cards/000081/files/45471_ruby_35664.zip
+>> update 45471_ruby_aru_nogakuseino_nisshi.txt
+>> update 45471_ruby_utf8_aru_nogakuseino_nisshi.txt
+>> https://www.aozora.gr.jp/cards/000081/card45471.html
+>> 或る農学生の日誌、宮沢賢治
+52/163: ./aozorabunko/cards/000081/files/45652_ruby_35575.zip
+>> update 45652_ruby_izumiaru_ie.txt
+>> update 45652_ruby_utf8_izumiaru_ie.txt
+>> https://www.aozora.gr.jp/cards/000081/card45652.html
+>> 泉ある家、宮沢賢治
+53/163: ./aozorabunko/cards/000081/files/45653_ruby_35577.zip
+>> update 45653_ruby_jurokunichi.txt
+>> update 45653_ruby_utf8_jurokunichi.txt
+>> https://www.aozora.gr.jp/cards/000081/card45653.html
+>> 十六日、宮沢賢治
+54/163: ./aozorabunko/cards/000081/files/50766_ruby_39740.zip
+>> update 50766_ruby_igirisu_kaigan.txt
+>> update 50766_ruby_utf8_igirisu_kaigan.txt
+>> https://www.aozora.gr.jp/cards/000081/card50766.html
+>> イギリス海岸、宮沢賢治
+55/163: ./aozorabunko/cards/000081/files/45308_ruby_19307.zip
+>> update 45308_ruby_gakusha_aramuharado.txt
+>> update 45308_ruby_utf8_gakusha_aramuharado.txt
+>> https://www.aozora.gr.jp/cards/000081/card45308.html
+>> 学者アラムハラドの見た着物、宮沢賢治
+56/163: ./aozorabunko/cards/000081/files/463_ruby_32309.zip
+>> update 463_ruby_magnoriano_ki.txt
+>> update 463_ruby_utf8_magnoriano_ki.txt
+>> https://www.aozora.gr.jp/cards/000081/card463.html
+>> マグノリアの木、宮澤賢治
+57/163: ./aozorabunko/cards/000081/files/45655_ruby_35393.zip
+>> update 45655_ruby_tegami3.txt
+>> update 45655_ruby_utf8_tegami3.txt
+>> https://www.aozora.gr.jp/cards/000081/card45655.html
+>> 手紙　三、宮沢賢治
+58/163: ./aozorabunko/cards/000081/files/45656_ruby_35392.zip
+>> update 45656_ruby_tegami2.txt
+>> update 45656_ruby_utf8_tegami2.txt
+>> https://www.aozora.gr.jp/cards/000081/card45656.html
+>> 手紙　二、宮沢賢治
+59/163: ./aozorabunko/cards/000081/files/45473_ruby_35666.zip
+>> update 45473_ruby_mijikai_kipen.txt
+>> update 45473_ruby_utf8_mijikai_kipen.txt
+>> https://www.aozora.gr.jp/cards/000081/card45473.html
+>> みじかい木ぺん、宮沢賢治
+60/163: ./aozorabunko/cards/001763/files/60173_txt_77199.zip
+>> add 60173_txt_enko.txt
+>> add 60173_txt_utf8_enko.txt
+>> https://www.aozora.gr.jp/cards/001763/card60173.html
+>> 円光、或は“An Essay on Love and Art.”、佐藤春夫
+61/163: ./aozorabunko/cards/001763/files/59440_ruby_77201.zip
+>> add 59440_ruby_mottomo_sojukuna_ichirei.txt
+>> add 59440_ruby_utf8_mottomo_sojukuna_ichirei.txt
+>> https://www.aozora.gr.jp/cards/001763/card59440.html
+>> 最も早熟な一例、佐藤春夫
+62/163: ./aozorabunko/cards/001763/files/59438_txt_77667.zip
+>> add 59438_txt_yumeni_kafu_senseio_miru_ki.txt
+>> add 59438_txt_utf8_yumeni_kafu_senseio_miru_ki.txt
+>> https://www.aozora.gr.jp/cards/001763/card59438.html
+>> 夢に荷風先生を見る記、佐藤春夫
+63/163: ./aozorabunko/cards/001763/files/60882_ruby_77138.zip
+>> add 60882_ruby_bungeikano_seikatsuo_ronzu.txt
+>> add 60882_ruby_utf8_bungeikano_seikatsuo_ronzu.txt
+>> https://www.aozora.gr.jp/cards/001763/card60882.html
+>> 文芸家の生活を論ず、佐藤春夫
+64/163: ./aozorabunko/cards/001763/files/61269_ruby_77136.zip
+>> add 61269_ruby_omochano_komori.txt
+>> add 61269_ruby_utf8_omochano_komori.txt
+>> https://www.aozora.gr.jp/cards/001763/card61269.html
+>> おもちゃの蝙蝠、佐藤春夫
+65/163: ./aozorabunko/cards/001763/files/59439_txt_77124.zip
+>> add 59439_txt_imawa_nashi_waga_saisei.txt
+>> add 59439_txt_utf8_imawa_nashi_waga_saisei.txt
+>> https://www.aozora.gr.jp/cards/001763/card59439.html
+>> 今は亡しわが犀星、告別式で述べたことのあらまし、佐藤春夫
+66/163: ./aozorabunko/cards/000587/files/59856_ruby_77130.zip
+>> add 59856_ruby_ryukyuni_manabu_beki_mono.txt
+>> add 59856_ruby_utf8_ryukyuni_manabu_beki_mono.txt
+>> https://www.aozora.gr.jp/cards/000587/card59856.html
+>> 琉球に学ぶべきもの、志賀重昂
+67/163: ./aozorabunko/cards/000363/files/60809_ruby_77683.zip
+>> add 60809_ruby_shojikina_dorobo.txt
+>> add 60809_ruby_utf8_shojikina_dorobo.txt
+>> https://www.aozora.gr.jp/cards/000363/card60809.html
+>> 正直な泥棒、ЧЕСТНЫИ　ВОР、――無名氏の手記より――、ドストエーフスキイ、米川正夫訳
+68/163: ./aozorabunko/cards/000051/files/59085_ruby_77428.zip
+>> add 59085_ruby_shobu_yu.txt
+>> add 59085_ruby_utf8_shobu_yu.txt
+>> https://www.aozora.gr.jp/cards/000051/card59085.html
+>> 菖蒲湯、幸田露伴
+69/163: ./aozorabunko/cards/000051/files/62060_ruby_77343.zip
+>> add 62060_NPD_ruby_yujoki.txt
+>> add 62060_NPD_ruby_utf8_yujoki.txt
+>> https://www.aozora.gr.jp/cards/000051/card62060.html
+>> 幽情記（現代訳）、幸田露伴、中村喜治訳
+70/163: ./aozorabunko/cards/000011/files/59087_txt_77126.zip
+>> add 59087_txt_yusuge_bito.txt
+>> add 59087_txt_utf8_yusuge_bito.txt
+>> https://www.aozora.gr.jp/cards/000011/card59087.html
+>> ゆふすげびと、立原道造
+71/163: ./aozorabunko/cards/001692/files/59888_ruby_77643.zip
+>> add 59888_ruby_asakusa_fudoki.txt
+>> add 59888_ruby_utf8_asakusa_fudoki.txt
+>> https://www.aozora.gr.jp/cards/001692/card59888.html
+>> 浅草風土記、久保田万太郎
+72/163: ./aozorabunko/cards/001904/files/58144_ruby_77665.zip
+>> add 58144_ruby_kojitsu.txt
+>> add 58144_ruby_utf8_kojitsu.txt
+>> https://www.aozora.gr.jp/cards/001904/card58144.html
+>> 曠日、佐佐木茂索
+73/163: ./aozorabunko/cards/001097/files/42923_ruby_58715.zip
+>> update 42923_ruby_rongo_monogatari.txt
+>> update 42923_ruby_utf8_rongo_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001097/card42923.html
+>> 論語物語、下村湖人
+74/163: ./aozorabunko/cards/000214/files/61299_ruby_77254.zip
+>> add 61299_ruby_ichiyano_urei.txt
+>> add 61299_ruby_utf8_ichiyano_urei.txt
+>> https://www.aozora.gr.jp/cards/000214/card61299.html
+>> 一夜のうれい、田山花袋
+75/163: ./aozorabunko/cards/000169/files/52158_txt_77512.zip
+>> add 52158_txt_ishikawa_yamaguchi_ryokunno_nyugoku.txt
+>> add 52158_txt_utf8_ishikawa_yamaguchi_ryokunno_nyugoku.txt
+>> https://www.aozora.gr.jp/cards/000169/card52158.html
+>> 石川、山口両君の入獄、大杉栄
+76/163: ./aozorabunko/cards/000304/files/46475_ruby_77669.zip
+>> add 46475_ruby_kaiyo.txt
+>> add 46475_ruby_utf8_kaiyo.txt
+>> https://www.aozora.gr.jp/cards/000304/card46475.html
+>> 海妖、牧逸馬
+77/163: ./aozorabunko/cards/000304/files/46493_txt_77721.zip
+>> add 46493_txt_sekai_kaiki_jitsuwa_jobun.txt
+>> add 46493_txt_utf8_sekai_kaiki_jitsuwa_jobun.txt
+>> https://www.aozora.gr.jp/cards/000304/card46493.html
+>> 「世界怪奇実話」序文、牧逸馬
+78/163: ./aozorabunko/cards/000304/files/46492_ruby_77309.zip
+>> add 46492_ruby_kieta_hanamuko.txt
+>> add 46492_ruby_utf8_kieta_hanamuko.txt
+>> https://www.aozora.gr.jp/cards/000304/card46492.html
+>> 消えた花婿、牧逸馬
+79/163: ./aozorabunko/cards/002138/files/60196_ruby_77607.zip
+>> add 60196_ruby_olympic_hymn.txt
+>> add 60196_ruby_utf8_olympic_hymn.txt
+>> https://www.aozora.gr.jp/cards/002138/card60196.html
+>> オリンピック讃歌、OLYMPIC HYMN、コスティス・パロマ、野上彰訳
+80/163: ./aozorabunko/cards/000050/files/50824_ruby_77450.zip
+>> add 50824_ruby_tsukiyo_guruma.txt
+>> add 50824_ruby_utf8_tsukiyo_guruma.txt
+>> https://www.aozora.gr.jp/cards/000050/card50824.html
+>> 月夜車、泉鏡太郎
+81/163: ./aozorabunko/cards/001693/files/59528_txt_77508.zip
+>> add 59528_txt_saimatsuno_shichiya.txt
+>> add 59528_txt_utf8_saimatsuno_shichiya.txt
+>> https://www.aozora.gr.jp/cards/001693/card59528.html
+>> 歳末の質屋、都内に約一八〇〇店、山之口貘
+82/163: ./aozorabunko/cards/001693/files/59529_txt_77506.zip
+>> add 59529_txt_shichifuda.txt
+>> add 59529_txt_utf8_shichifuda.txt
+>> https://www.aozora.gr.jp/cards/001693/card59529.html
+>> 質札、山之口貘
+83/163: ./aozorabunko/cards/001539/files/60912_ruby_77641.zip
+>> add 60912_ruby_me.txt
+>> add 60912_ruby_utf8_me.txt
+>> https://www.aozora.gr.jp/cards/001539/card60912.html
+>> 眼、片山敏彦
+84/163: ./aozorabunko/cards/001095/files/61128_ruby_77737.zip
+>> add 61128_ruby_seijitsuna_jikkensha_ma_gensui.txt
+>> add 61128_ruby_utf8_seijitsuna_jikkensha_ma_gensui.txt
+>> https://www.aozora.gr.jp/cards/001095/card61128.html
+>> 誠実な実験者・マ元帥、坂口安吾
+85/163: ./aozorabunko/cards/001095/files/61138_ruby_77616.zip
+>> add 61138_ruby_farce_ni_tsuite.txt
+>> add 61138_ruby_utf8_farce_ni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001095/card61138.html
+>> FARCE に就て、坂口安吾
+86/163: ./aozorabunko/cards/001095/files/45897_ruby_33769.zip
+>> update 45897_ruby_waga_kufuseru_ojiya.txt
+>> update 45897_ruby_utf8_waga_kufuseru_ojiya.txt
+>> https://www.aozora.gr.jp/cards/001095/card45897.html
+>> わが工夫せるオジヤ、坂口安吾
+87/163: ./aozorabunko/cards/001095/files/61131_txt_77626.zip
+>> add 61131_txt_nihonno_moten.txt
+>> add 61131_txt_utf8_nihonno_moten.txt
+>> https://www.aozora.gr.jp/cards/001095/card61131.html
+>> 日本の盲点、――子供の本から――、坂口安吾
+88/163: ./aozorabunko/cards/001095/files/61127_ruby_77709.zip
+>> add 61127_ruby_shinsetsu_ishikawa_goemon_kohenni_kitaisu.txt
+>> add 61127_ruby_utf8_shinsetsu_ishikawa_goemon_kohenni_kitaisu.txt
+>> https://www.aozora.gr.jp/cards/001095/card61127.html
+>> 真説　石川五右衛門『後編』に期待す、坂口安吾
+89/163: ./aozorabunko/cards/001095/files/61129_ruby_77614.zip
+>> add 61129_ruby_sengo_bunshoron.txt
+>> add 61129_ruby_utf8_sengo_bunshoron.txt
+>> https://www.aozora.gr.jp/cards/001095/card61129.html
+>> 戦後文章論、坂口安吾
+90/163: ./aozorabunko/cards/001095/files/61118_ruby_77305.zip
+>> add 61118_ruby_onna_ninjutsu_tsukai.txt
+>> add 61118_ruby_utf8_onna_ninjutsu_tsukai.txt
+>> https://www.aozora.gr.jp/cards/001095/card61118.html
+>> 女忍術使い、坂口安吾
+91/163: ./aozorabunko/cards/001095/files/61162_ruby_77735.zip
+>> add 61162_ruby_sutandaruno_buntai.txt
+>> add 61162_ruby_utf8_sutandaruno_buntai.txt
+>> https://www.aozora.gr.jp/cards/001095/card61162.html
+>> スタンダアルの文体、坂口安吾
+92/163: ./aozorabunko/cards/001095/files/61144_ruby_77649.zip
+>> add 61144_ruby_chippokena_ono.txt
+>> add 61144_ruby_utf8_chippokena_ono.txt
+>> https://www.aozora.gr.jp/cards/001095/card61144.html
+>> チッポケな斧、坂口安吾
+93/163: ./aozorabunko/cards/000317/files/61442_ruby_77291.zip
+>> add 61442_ruby_omoto.txt
+>> add 61442_ruby_utf8_omoto.txt
+>> https://www.aozora.gr.jp/cards/000317/card61442.html
+>> 万年青、矢田津世子
+94/163: ./aozorabunko/cards/001562/files/54186_ruby_77424.zip
+>> add 54186_ruby_02chigegusano_maki.txt
+>> add 54186_ruby_utf8_02chigegusano_maki.txt
+>> https://www.aozora.gr.jp/cards/001562/card54186.html
+>> 新・平家物語、ちげぐさの巻、吉川英治
+95/163: ./aozorabunko/cards/001562/files/54326_ruby_77422.zip
+>> add 54326_ruby_01hashigakini_kaete.txt
+>> add 54326_ruby_utf8_01hashigakini_kaete.txt
+>> https://www.aozora.gr.jp/cards/001562/card54326.html
+>> 新・平家物語、“はしがき”に代えて、吉川英治
+96/163: ./aozorabunko/cards/001224/files/46126_ruby_29144.zip
+>> git-mv 46126_ruby_10nobuseridaimyo.txt 46126_ruby_10nobuseri_daimyo.txt
+>> git-mv 46126_ruby_utf8_10nobuseridaimyo.txt 46126_ruby_utf8_10nobuseri_daimyo.txt
+>> https://www.aozora.gr.jp/cards/001224/card46126.html
+>> 顎十郎捕物帳、野伏大名、久生十蘭
+97/163: ./aozorabunko/cards/001224/files/46076_ruby_49472.zip
+>> update 46076_ruby_mato.txt
+>> update 46076_ruby_utf8_mato.txt
+>> https://www.aozora.gr.jp/cards/001224/card46076.html
+>> 魔都、久生十蘭
+98/163: ./aozorabunko/cards/000258/files/62443_ruby_77581.zip
+>> add 62443_NPD_ruby_gingano_romance.txt
+>> add 62443_NPD_ruby_utf8_gingano_romance.txt
+>> https://www.aozora.gr.jp/cards/000258/card62443.html
+>> 銀河のロマンス、THE ROMANCE OF THE MILKY WAY、（「天の河縁起」「天の川綺譚」）、小泉八雲　Lafcadio Hearn、林田清明訳
+99/163: ./aozorabunko/cards/000148/files/757_ruby_2986.zip
+>> git-mv 757_ruby_doraku.txt 757_ruby_dorakuto_shokugyo.txt
+>> git-mv 757_ruby_utf8_doraku.txt 757_ruby_utf8_dorakuto_shokugyo.txt
+>> https://www.aozora.gr.jp/cards/000148/card757.html
+>> 道楽と職業、夏目漱石
+100/163: ./aozorabunko/cards/001271/files/60609_ruby_77360.zip
+>> add 60609_ruby_02gendaigo_yaku_ugetsu_monogatari.txt
+>> add 60609_ruby_utf8_02gendaigo_yaku_ugetsu_monogatari.txt
+>> https://www.aozora.gr.jp/cards/001271/card60609.html
+>> 雨月物語、現代語訳　雨月物語、上田秋成、鵜月洋訳
+101/163: ./aozorabunko/cards/001570/files/53866_txt_49961.zip
+>> update 53866_txt_sanbyakunengo.txt
+>> update 53866_txt_utf8_sanbyakunengo.txt
+>> https://www.aozora.gr.jp/cards/001570/card53866.html
+>> 三百年後、小倉金之助
+102/163: ./aozorabunko/cards/001570/files/55786_txt_77618.zip
+>> add 55786_txt_watashino_shinjo.txt
+>> add 55786_txt_utf8_watashino_shinjo.txt
+>> https://www.aozora.gr.jp/cards/001570/card55786.html
+>> 私の信条、小倉金之助
+103/163: ./aozorabunko/cards/001166/files/60627_ruby_77260.zip
+>> add 60627_ruby_nihonno_bi.txt
+>> add 60627_ruby_utf8_nihonno_bi.txt
+>> https://www.aozora.gr.jp/cards/001166/card60627.html
+>> 日本の美、中井正一
+104/163: ./aozorabunko/cards/001428/files/50328_txt_64311.zip
+>> update 50328_txt_sotaisei_riron.txt
+>> update 50328_txt_utf8_sotaisei_riron.txt
+>> https://www.aozora.gr.jp/cards/001428/card50328.html
+>> 相対性理論、アルベルト・アインスタイン、石原純訳
+105/163: ./aozorabunko/cards/001310/files/51841_ruby_77134.zip
+>> add 51841_ruby_roppyaku_gojikku.txt
+>> add 51841_ruby_utf8_roppyaku_gojikku.txt
+>> https://www.aozora.gr.jp/cards/001310/card51841.html
+>> 六百五十句、高浜虚子
+106/163: ./aozorabunko/cards/000799/files/60991_ruby_77354.zip
+>> add 60991_ruby_fuyuno_uta.txt
+>> add 60991_ruby_utf8_fuyuno_uta.txt
+>> https://www.aozora.gr.jp/cards/000799/card60991.html
+>> 冬の歌、三富朽葉
+107/163: ./aozorabunko/cards/000799/files/61342_ruby_77426.zip
+>> add 61342_ruby_merankoria.txt
+>> add 61342_ruby_utf8_merankoria.txt
+>> https://www.aozora.gr.jp/cards/000799/card61342.html
+>> メランコリア、三富朽葉
+108/163: ./aozorabunko/cards/000083/files/61380_ruby_77681.zip
+>> add 61380_ruby_kaki_furai.txt
+>> add 61380_ruby_utf8_kaki_furai.txt
+>> https://www.aozora.gr.jp/cards/000083/card61380.html
+>> 蠣フライ、菊池寛
+109/163: ./aozorabunko/cards/000083/files/60722_ruby_77327.zip
+>> add 60722_ruby_gaki.txt
+>> add 60722_ruby_utf8_gaki.txt
+>> https://www.aozora.gr.jp/cards/000083/card60722.html
+>> 我鬼、菊池寛
+110/163: ./aozorabunko/cards/000083/files/1101_ruby_19884.zip
+>> update 1101_ruby_shunkan.txt
+>> update 1101_ruby_utf8_shunkan.txt
+>> https://www.aozora.gr.jp/cards/000083/card1101.html
+>> 俊寛、菊池寛
+111/163: ./aozorabunko/cards/001468/files/50749_ruby_77147.zip
+>> add 50749_ruby_02taiyoo_iru_mono.txt
+>> add 50749_ruby_utf8_02taiyoo_iru_mono.txt
+>> https://www.aozora.gr.jp/cards/001468/card50749.html
+>> 死線を越えて、―太陽を射るもの―、賀川豊彦
+112/163: ./aozorabunko/cards/001753/files/58623_ruby_77622.zip
+>> add 58623_ruby_waseda_daigakuni_tsuite.txt
+>> add 58623_ruby_utf8_waseda_daigakuni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001753/card58623.html
+>> 早稲田大学について、尾崎士郎
+113/163: ./aozorabunko/cards/001753/files/58616_ruby_77510.zip
+>> add 58616_ruby_gakko_sodo.txt
+>> add 58616_ruby_utf8_gakko_sodo.txt
+>> https://www.aozora.gr.jp/cards/001753/card58616.html
+>> 学校騒動、尾崎士郎
+114/163: ./aozorabunko/cards/001753/files/58618_ruby_77624.zip
+>> add 58618_ruby_waseda_daigaku_hanrei.txt
+>> add 58618_ruby_utf8_waseda_daigaku_hanrei.txt
+>> https://www.aozora.gr.jp/cards/001753/card58618.html
+>> 「早稲田大学」凡例、尾崎士郎
+115/163: ./aozorabunko/cards/000260/files/1432_ruby_20012.zip
+>> update 1432_ruby_kochono_nageki.txt
+>> update 1432_ruby_utf8_kochono_nageki.txt
+>> https://www.aozora.gr.jp/cards/000260/card1432.html
+>> 黄鳥の嘆き、――二川家殺人事件、甲賀三郎
+116/163: ./aozorabunko/cards/001248/files/50596_ruby_77288.zip
+>> add 50596_ruby_soshunno_yamame.txt
+>> add 50596_ruby_utf8_soshunno_yamame.txt
+>> https://www.aozora.gr.jp/cards/001248/card50596.html
+>> 早春の山女魚、佐藤垢石
+117/163: ./aozorabunko/cards/001248/files/50609_ruby_77312.zip
+>> add 50609_ruby_natsuzuri_nikki.txt
+>> add 50609_ruby_utf8_natsuzuri_nikki.txt
+>> https://www.aozora.gr.jp/cards/001248/card50609.html
+>> 夏釣日記、佐藤垢石
+118/163: ./aozorabunko/cards/000025/files/61237_txt_77333.zip
+>> add 61237_txt_heibonjinno_tegami.txt
+>> add 61237_txt_utf8_heibonjinno_tegami.txt
+>> https://www.aozora.gr.jp/cards/000025/card61237.html
+>> 平凡人の手紙、有島武郎
+119/163: ./aozorabunko/cards/001637/files/60980_txt_77514.zip
+>> add 60980_txt_nogikuno_gotoki_kimi_narikio_mite.txt
+>> add 60980_txt_utf8_nogikuno_gotoki_kimi_narikio_mite.txt
+>> https://www.aozora.gr.jp/cards/001637/card60980.html
+>> 「野菊の如き君なりき」を見て、中野鈴子
+120/163: ./aozorabunko/cards/001637/files/61051_txt_77715.zip
+>> add 61051_txt_tomoyo_tomodachiyo.txt
+>> add 61051_txt_utf8_tomoyo_tomodachiyo.txt
+>> https://www.aozora.gr.jp/cards/001637/card61051.html
+>> 友よ　友だちよ、中野鈴子
+121/163: ./aozorabunko/cards/001637/files/61065_txt_77733.zip
+>> add 61065_txt_hitobitowa_motsudaro.txt
+>> add 61065_txt_utf8_hitobitowa_motsudaro.txt
+>> https://www.aozora.gr.jp/cards/001637/card61065.html
+>> 人々は持つだろう、中野鈴子
+122/163: ./aozorabunko/cards/000026/files/55904_txt_70721.zip
+>> update 55904_txt_haruno_yugure.txt
+>> update 55904_txt_utf8_haruno_yugure.txt
+>> https://www.aozora.gr.jp/cards/000026/card55904.html
+>> 春の夕暮、中原中也
+123/163: ./aozorabunko/cards/001383/files/57345_ruby_77335.zip
+>> add 57345_ruby_chiisana_okoku.txt
+>> add 57345_ruby_utf8_chiisana_okoku.txt
+>> https://www.aozora.gr.jp/cards/001383/card57345.html
+>> 小さな王国、谷崎潤一郎
+124/163: ./aozorabunko/cards/001383/files/60725_ruby_77331.zip
+>> add 60725_ruby_watakushi.txt
+>> add 60725_ruby_utf8_watakushi.txt
+>> https://www.aozora.gr.jp/cards/001383/card60725.html
+>> 私、谷崎潤一郎
+125/163: ./aozorabunko/cards/001383/files/57344_ruby_77329.zip
+>> add 57344_ruby_kozono_yume.txt
+>> add 57344_ruby_utf8_kozono_yume.txt
+>> https://www.aozora.gr.jp/cards/001383/card57344.html
+>> 小僧の夢、谷崎潤一郎
+126/163: ./aozorabunko/cards/000076/files/58350_ruby_77717.zip
+>> add 58350_ruby_murasaki_shikibuno_bitekijochoto_jodokyo.txt
+>> add 58350_ruby_utf8_murasaki_shikibuno_bitekijochoto_jodokyo.txt
+>> https://www.aozora.gr.jp/cards/000076/card58350.html
+>> 紫式部の美的情緒と浄土教、岡本かの子
+127/163: ./aozorabunko/cards/002265/files/62206_ruby_77341.zip
+>> add 62206_NPD_ruby_kisei_wakusei.txt
+>> add 62206_NPD_ruby_utf8_kisei_wakusei.txt
+>> https://www.aozora.gr.jp/cards/002265/card62206.html
+>> 寄生惑星、PARASITE PLANET、惑星シリーズその３、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+128/163: ./aozorabunko/cards/002265/files/62462_ruby_77725.zip
+>> add 62462_NPD_ruby_shokuzaino_bohyo.txt
+>> add 62462_NPD_ruby_utf8_shokuzaino_bohyo.txt
+>> https://www.aozora.gr.jp/cards/002265/card62462.html
+>> 贖罪の墓標、REDEMPTION CAIRN、衛星シリーズその３、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+129/163: ./aozorabunko/cards/002265/files/62125_ruby_77141.zip
+>> add 62125_NPD_ruby_pygmalion_megane.txt
+>> add 62125_NPD_ruby_utf8_pygmalion_megane.txt
+>> https://www.aozora.gr.jp/cards/002265/card62125.html
+>> ピグマリオン眼鏡、PYGMALION'S SPECTACLES、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+130/163: ./aozorabunko/cards/002265/files/62454_ruby_77628.zip
+>> add 62454_NPD_ruby_akaperi.txt
+>> add 62454_NPD_ruby_utf8_akaperi.txt
+>> https://www.aozora.gr.jp/cards/002265/card62454.html
+>> 赤ペリ、THE RED PERI、惑星シリーズその６、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+131/163: ./aozorabunko/cards/002265/files/62208_ruby_77583.zip
+>> add 62208_NPD_ruby_moya_wakusei.txt
+>> add 62208_NPD_ruby_utf8_moya_wakusei.txt
+>> https://www.aozora.gr.jp/cards/002265/card62208.html
+>> もや惑星、THE PLANET OF DOUBT、惑星シリーズその５、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+132/163: ./aozorabunko/cards/002265/files/62126_ruby_77263.zip
+>> add 62126_NPD_ruby_kasei_ryoko.txt
+>> add 62126_NPD_ruby_utf8_kasei_ryoko.txt
+>> https://www.aozora.gr.jp/cards/002265/card62126.html
+>> 火星旅行、A MARTIAN ODYSSEY、惑星シリーズその１、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+133/163: ./aozorabunko/cards/002265/files/62189_ruby_77299.zip
+>> add 62189_NPD_ruby_yumeno_tani.txt
+>> add 62189_NPD_ruby_utf8_yumeno_tani.txt
+>> https://www.aozora.gr.jp/cards/002265/card62189.html
+>> 夢の谷、VALLEY OF DREAMS、惑星シリーズその２、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+134/163: ./aozorabunko/cards/002265/files/62460_ruby_77679.zip
+>> add 62460_NPD_ruby_taitan_odan.txt
+>> add 62460_NPD_ruby_utf8_taitan_odan.txt
+>> https://www.aozora.gr.jp/cards/002265/card62460.html
+>> タイタン横断、FLIGHT ON TITAN、衛星シリーズその１、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+135/163: ./aozorabunko/cards/002265/files/62207_ruby_77432.zip
+>> add 62207_NPD_ruby_hasu_sennin.txt
+>> add 62207_NPD_ruby_utf8_hasu_sennin.txt
+>> https://www.aozora.gr.jp/cards/002265/card62207.html
+>> ハス仙人、THE LOTUS EATERS、惑星シリーズその４、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+136/163: ./aozorabunko/cards/002265/files/62461_ruby_77691.zip
+>> add 62461_NPD_ruby_henna_eisei.txt
+>> add 62461_NPD_ruby_utf8_henna_eisei.txt
+>> https://www.aozora.gr.jp/cards/002265/card62461.html
+>> 変な衛星、THE MAD MOON、衛星シリーズその２、スタンリイ・Ｇ・ワインバウム　Stanley G. Weinbaum、奥増夫訳
+137/163: ./aozorabunko/cards/001533/files/56170_ruby_77518.zip
+>> add 56170_ruby_fukino_shitano_kamisama.txt
+>> add 56170_ruby_utf8_fukino_shitano_kamisama.txt
+>> https://www.aozora.gr.jp/cards/001533/card56170.html
+>> 蕗の下の神様、宇野浩二
+138/163: ./aozorabunko/cards/001974/files/59527_ruby_77325.zip
+>> add 59527_ruby_ochazuki_kobanashi.txt
+>> add 59527_ruby_utf8_ochazuki_kobanashi.txt
+>> https://www.aozora.gr.jp/cards/001974/card59527.html
+>> お茶好き小話、吉野秀雄
+139/163: ./aozorabunko/cards/001927/files/60195_txt_77639.zip
+>> add 60195_txt_olympic_hymn_ni_tsuite.txt
+>> add 60195_txt_utf8_olympic_hymn_ni_tsuite.txt
+>> https://www.aozora.gr.jp/cards/001927/card60195.html
+>> オリンピック讃歌について、野上彰
+140/163: ./aozorabunko/cards/002026/files/59381_ruby_77284.zip
+>> add 59381_ruby_rakudai_yokocho.txt
+>> add 59381_ruby_utf8_rakudai_yokocho.txt
+>> https://www.aozora.gr.jp/cards/002026/card59381.html
+>> ラクダイ横町、岡本良雄
+141/163: ./aozorabunko/cards/000129/files/56527_ruby_77314.zip
+>> add 56527_ruby_dengaku_dofu.txt
+>> add 56527_ruby_utf8_dengaku_dofu.txt
+>> https://www.aozora.gr.jp/cards/000129/card56527.html
+>> 田楽豆腐、森鴎外
+142/163: ./aozorabunko/cards/001779/files/59526_ruby_77620.zip
+>> add 59526_ruby_tsumano_koto.txt
+>> add 59526_ruby_utf8_tsumano_koto.txt
+>> https://www.aozora.gr.jp/cards/001779/card59526.html
+>> 妻のこと、江戸川乱歩
+143/163: ./aozorabunko/cards/001091/files/59838_ruby_74390.zip
+>> update 59838_ruby_sanbonno_kinno_kaminokeo_motte_iru_oni.txt
+>> update 59838_ruby_utf8_sanbonno_kinno_kaminokeo_motte_iru_oni.txt
+>> https://www.aozora.gr.jp/cards/001091/card59838.html
+>> 三本の金の髪の毛をもっている鬼、グリム　Grimm、矢崎源九郎訳
+144/163: ./aozorabunko/cards/001091/files/59639_ruby_72264.zip
+>> update 59639_ruby_morino_nakano_3ninnno_kobito.txt
+>> update 59639_ruby_utf8_morino_nakano_3ninnno_kobito.txt
+>> https://www.aozora.gr.jp/cards/001091/card59639.html
+>> 森のなかの三人の小人、グリム　Grimm、矢崎源九郎訳
+145/163: ./aozorabunko/cards/001091/files/59843_ruby_75619.zip
+>> update 59843_ruby_mittsuno_kotoba.txt
+>> update 59843_ruby_utf8_mittsuno_kotoba.txt
+>> https://www.aozora.gr.jp/cards/001091/card59843.html
+>> 三つのことば、グリム　Grimm、矢崎源九郎訳
+146/163: ./aozorabunko/cards/001091/files/59746_ruby_72086.zip
+>> update 59746_ruby_ryoshito_sono_okamisanno_hanashi.txt
+>> update 59746_ruby_utf8_ryoshito_sono_okamisanno_hanashi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59746.html
+>> 漁師とそのおかみさんの話、グリム　Grimm、矢崎源九郎訳
+147/163: ./aozorabunko/cards/001091/files/59518_ruby_70156.zip
+>> update 59518_ruby_umai_shobai.txt
+>> update 59518_ruby_utf8_umai_shobai.txt
+>> https://www.aozora.gr.jp/cards/001091/card59518.html
+>> うまい商売、グリム　Grimm、矢崎源九郎訳
+148/163: ./aozorabunko/cards/001091/files/59744_ruby_71410.zip
+>> update 59744_ruby_shiro_hebi.txt
+>> update 59744_ruby_utf8_shiro_hebi.txt
+>> https://www.aozora.gr.jp/cards/001091/card59744.html
+>> 白ヘビ、グリム　Grimm、矢崎源九郎訳
+149/163: ./aozorabunko/cards/001091/files/59840_ruby_74577.zip
+>> update 59840_ruby_tenashi_musume.txt
+>> update 59840_ruby_utf8_tenashi_musume.txt
+>> https://www.aozora.gr.jp/cards/001091/card59840.html
+>> 手なしむすめ、グリム　Grimm、矢崎源九郎訳
+150/163: ./aozorabunko/cards/001091/files/61531_ruby_77711.zip
+>> add 61531_ruby_3maino_torino_hane.txt
+>> add 61531_ruby_utf8_3maino_torino_hane.txt
+>> https://www.aozora.gr.jp/cards/001091/card61531.html
+>> 三まいの　鳥のはね、グリム兄弟、矢崎源九郎訳
+151/163: ./aozorabunko/cards/001091/files/59837_ruby_74914.zip
+>> update 59837_ruby_oriko_hansu.txt
+>> update 59837_ruby_utf8_oriko_hansu.txt
+>> https://www.aozora.gr.jp/cards/001091/card59837.html
+>> おりこうハンス、グリム　Grimm、矢崎源九郎訳
+152/163: ./aozorabunko/cards/001091/files/59834_ruby_77516.zip
+>> add 59834_ruby_table_yo_gohanno_yoito_kinkao_umu_robato_konbo_fukurokara.txt
+>> add 59834_ruby_utf8_table_yo_gohanno_yoito_kinkao_umu_robato_konbo_fukurokara.txt
+>> https://www.aozora.gr.jp/cards/001091/card59834.html
+>> 「テーブルよ、ごはんの用意」と、金貨をうむロバと、「こん棒、ふくろから」、グリム　Grimm、矢崎源九郎訳
+153/163: ./aozorabunko/cards/001091/files/59634_ruby_71121.zip
+>> update 59634_ruby_3ninno_itokuri_onna.txt
+>> update 59634_ruby_utf8_3ninno_itokuri_onna.txt
+>> https://www.aozora.gr.jp/cards/001091/card59634.html
+>> 三人の糸くり女、グリム　Grimm、矢崎源九郎訳
+154/163: ./aozorabunko/cards/001091/files/59844_ruby_74756.zip
+>> update 59844_ruby_rikomonono_eruze.txt
+>> update 59844_ruby_utf8_rikomonono_eruze.txt
+>> https://www.aozora.gr.jp/cards/001091/card59844.html
+>> りこうもののエルゼ、グリム　Grimm、矢崎源九郎訳
+155/163: ./aozorabunko/cards/001052/files/59891_txt_77685.zip
+>> add 59891_txt_dominono_otsuge.txt
+>> add 59891_txt_utf8_dominono_otsuge.txt
+>> https://www.aozora.gr.jp/cards/001052/card59891.html
+>> ドミノのお告げ、久坂葉子
+156/163: ./aozorabunko/cards/000227/files/60963_ruby_77262.zip
+>> add 60963_ruby_shochono_ika.txt
+>> add 60963_ruby_utf8_shochono_ika.txt
+>> https://www.aozora.gr.jp/cards/000227/card60963.html
+>> 象徴の烏賊、生田春月
+157/163: ./aozorabunko/cards/001168/files/61060_txt_77128.zip
+>> add 61060_txt_towadakono_razoni_atau.txt
+>> add 61060_txt_utf8_towadakono_razoni_atau.txt
+>> https://www.aozora.gr.jp/cards/001168/card61060.html
+>> 十和田湖の裸像に與ふ、高村光太郎
+158/163: ./aozorabunko/cards/000239/files/51134_ruby_77286.zip
+>> add 51134_ruby_kaibutsuto_meshio_kuu_hanashi.txt
+>> add 51134_ruby_utf8_kaibutsuto_meshio_kuu_hanashi.txt
+>> https://www.aozora.gr.jp/cards/000239/card51134.html
+>> 怪物と飯を食ふ話、岡本一平
+159/163: ./aozorabunko/cards/000239/files/51896_ruby_77609.zip
+>> add 51896_ruby_sumono_keiko.txt
+>> add 51896_ruby_utf8_sumono_keiko.txt
+>> https://www.aozora.gr.jp/cards/000239/card51896.html
+>> 相撲の稽古、岡本一平
+160/163: ./aozorabunko/cards/000094/files/61341_ruby_77727.zip
+>> add 61341_ruby_usher_keno_fukumetsu.txt
+>> add 61341_ruby_utf8_usher_keno_fukumetsu.txt
+>> https://www.aozora.gr.jp/cards/000094/card61341.html
+>> アッシャア家の覆滅、THE FALL OF THE HOUSE OF USHER、エドガー・アラン・ポオ、谷崎潤一郎訳
+161/163: ./aozorabunko/cards/000293/files/60515_txt_77316.zip
+>> add 60515_txt_shishu_toko_batsu.txt
+>> add 60515_txt_utf8_shishu_toko_batsu.txt
+>> https://www.aozora.gr.jp/cards/000293/card60515.html
+>> 「詩集　登高」跋、原民喜
+162/163: ./aozorabunko/cards/000293/files/60434_ruby_77647.zip
+>> add 60434_ruby_yaneno_ue.txt
+>> add 60434_ruby_utf8_yaneno_ue.txt
+>> https://www.aozora.gr.jp/cards/000293/card60434.html
+>> 屋根の上、原民喜
+163/163: ./aozorabunko/cards/001869/files/57663_ruby_77301.zip
+>> add 57663_ruby_dadara_danbei.txt
+>> add 57663_ruby_utf8_dadara_danbei.txt
+>> https://www.aozora.gr.jp/cards/001869/card57663.html
+>> だだら団兵衛、山本周五郎
+#Creating ./AozoraTxt/etc/filename_illegal.txt
+Title Total : 34032/520 (Accept:163/Reject:0/Update:42/Rename:4/Empty:0/Multi txt:0/NPD:15)
+Git Failed  : 0
+Start: Sun Feb  4 08:52:23 JST 2024
+End  : Sun Feb  4 08:55:40 JST 2024
