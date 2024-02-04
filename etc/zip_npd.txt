@@ -25,6 +25,7 @@
 ./aozorabunko/cards/000051/files/59484_ruby_66446.zip
 ./aozorabunko/cards/000051/files/59829_ruby_68325.zip	2020/10/23
 ./aozorabunko/cards/000051/files/60584_ruby_72377.zip	2021/02/10
+./aozorabunko/cards/000051/files/62060_ruby_77343.zip	2024/02/04
 ./aozorabunko/cards/000055/files/365_txt_185.zip
 ./aozorabunko/cards/000055/files/550_txt_182.zip
 ./aozorabunko/cards/000055/files/56499_ruby_51286.zip
@@ -53,6 +54,7 @@
 ./aozorabunko/cards/000258/files/58038_ruby_59801.zip
 ./aozorabunko/cards/000258/files/58129_ruby_60565.zip	2022/04/25
 ./aozorabunko/cards/000258/files/59082_ruby_63934.zip
+./aozorabunko/cards/000258/files/62443_ruby_77581.zip	2024/02/04
 ./aozorabunko/cards/000879/files/60574_txt_71363.zip	2020/07/27
 ./aozorabunko/cards/001044/files/57302_ruby_56649.zip
 ./aozorabunko/cards/001066/files/57340_ruby_57657.zip
@@ -112,7 +114,7 @@
 ./aozorabunko/cards/001506/files/56796_ruby_53106.zip
 ./aozorabunko/cards/001506/files/56822_ruby_57117.zip
 ./aozorabunko/cards/001506/files/56823_ruby_53766.zip
-./aozorabunko/cards/001506/files/56911_ruby_61972.zip
+./aozorabunko/cards/001506/files/56911_ruby_61972.zip	2024/02/04
 ./aozorabunko/cards/001548/files/52232_ruby_68663.zip	2019/07/22
 ./aozorabunko/cards/001561/files/52357_txt_67810.zip	2019/04/01
 ./aozorabunko/cards/001561/files/52527_txt_67621.zip	2019/03/26
@@ -135,6 +137,7 @@
 ./aozorabunko/cards/001699/files/57858_ruby_59671.zip
 ./aozorabunko/cards/001699/files/57859_ruby_59661.zip
 ./aozorabunko/cards/001699/files/61894_txt_76436.zip	2022/11/22
+./aozorabunko/cards/001699/files/62061_txt_76807.zip	2023/08/19
 ./aozorabunko/cards/001721/files/55278_txt_67440.zip
 ./aozorabunko/cards/001727/files/55345_txt_53433.zip
 ./aozorabunko/cards/001727/files/56840_txt_53393.zip
@@ -242,6 +245,19 @@
 ./aozorabunko/cards/002130/files/60178_ruby_69805.zip	2020/02/21
 ./aozorabunko/cards/002134/files/60169_ruby_69491.zip	2019/11/06
 ./aozorabunko/cards/002231/files/61388_txt_75060.zip	2022/05/28
+./aozorabunko/cards/002231/files/62105_txt_76818.zip	2024/02/04
+./aozorabunko/cards/002231/files/62474_txt_77693.zip	2024/02/04
 ./aozorabunko/cards/002242/files/61560_txt_75398.zip	2022/05/09
 ./aozorabunko/cards/002265/files/62103_ruby_76814.zip	2023/01/03
 ./aozorabunko/cards/002265/files/62104_ruby_76816.zip	2023/02/01
+./aozorabunko/cards/002265/files/62111_ruby_77103.zip	2023/08/19
+./aozorabunko/cards/002265/files/62125_ruby_77141.zip	2024/02/04
+./aozorabunko/cards/002265/files/62126_ruby_77263.zip	2024/02/04
+./aozorabunko/cards/002265/files/62189_ruby_77299.zip	2024/02/04
+./aozorabunko/cards/002265/files/62206_ruby_77341.zip	2024/02/04
+./aozorabunko/cards/002265/files/62207_ruby_77432.zip	2024/02/04
+./aozorabunko/cards/002265/files/62208_ruby_77583.zip	2024/02/04
+./aozorabunko/cards/002265/files/62454_ruby_77628.zip	2024/02/04
+./aozorabunko/cards/002265/files/62460_ruby_77679.zip	2024/02/04
+./aozorabunko/cards/002265/files/62461_ruby_77691.zip	2024/02/04
+./aozorabunko/cards/002265/files/62462_ruby_77725.zip	2024/02/04
